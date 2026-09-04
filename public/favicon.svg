@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mérito PGN">
+  <rect width="64" height="64" rx="18" fill="#173d32"/>
+  <path d="M17 46V18h7l8 13 8-13h7v28h-7V29l-8 12-8-12v17z" fill="#f5f1e8"/>
+  <circle cx="50" cy="14" r="6" fill="#bf7c35"/>
+</svg>
