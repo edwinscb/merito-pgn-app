@@ -1,0 +1,32 @@
+[
+  {
+    "id": "121-2026",
+    "title": "Convocatoria 121-2026",
+    "status": "provisional",
+    "sourceIds": ["pgn-call-121-2026"],
+    "questionCount": null,
+    "durationMinutes": null,
+    "topicDistribution": [],
+    "notes": "Perfil provisional. La cantidad, duración y distribución no se afirmarán hasta contar con guía oficial revisada."
+  },
+  {
+    "id": "126-2026",
+    "title": "Convocatoria 126-2026",
+    "status": "provisional",
+    "sourceIds": ["pgn-call-126-2026"],
+    "questionCount": null,
+    "durationMinutes": null,
+    "topicDistribution": [],
+    "notes": "Perfil provisional. La cantidad, duración y distribución no se afirmarán hasta contar con guía oficial revisada."
+  },
+  {
+    "id": "127-2026",
+    "title": "Convocatoria 127-2026",
+    "status": "provisional",
+    "sourceIds": ["pgn-call-127-2026"],
+    "questionCount": null,
+    "durationMinutes": null,
+    "topicDistribution": [],
+    "notes": "Perfil provisional. La cantidad, duración y distribución no se afirmarán hasta contar con guía oficial revisada."
+  }
+]

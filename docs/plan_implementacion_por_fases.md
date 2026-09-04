@@ -1,6 +1,6 @@
 # Plan de implementación por fases — Mérito PGN
 
-Estado: **Fase 0 autorizada**  
+Estado: **Fase 1 implementada**
 Fecha: **3 de septiembre de 2026**
 
 ## 1. Decisiones confirmadas
@@ -17,7 +17,7 @@ Fecha: **3 de septiembre de 2026**
 - Las preguntas usarán revisión asistida y se identificarán como
   `validated_assisted`, no como revisión humana.
 
-## 2. Fase 0 — Autorizada
+## 2. Fase 0 — Implementada
 
 ### Objetivo
 
@@ -79,13 +79,26 @@ copiarse al directorio público ni al artefacto web.
 
 Definir `Source`, `SourceUnit`, `Question`, `ExamProfile`, `Attempt` y
 `ProgressExport`; normalizar fuentes y crear validadores y reportes en
-Node/TypeScript. Solo se ejecutará con autorización posterior.
+Node/TypeScript.
+
+Estado: **implementada**.
+
+Resultados:
+
+- contratos Zod con tipos TypeScript inferidos;
+- 22 fuentes estructuradas, sin declarar verificadas las pendientes de revisión;
+- taxonomía y perfiles provisionales para las convocatorias 121, 126 y 127;
+- 25 preguntas semilla en `needs_review`, sin respaldo oficial ni publicación;
+- validación relacional, banco público reproducible y reporte de cobertura;
+- control automático para impedir documentos fuente o rutas sensibles en
+  `dist/`.
 
 ## 4. Fase 2 — Banco semilla y revisión asistida
 
-Convertir las 25 preguntas en registros trazables, asignar fuentes y
-localizadores, ejecutar dos revisiones asistidas independientes y publicar solo
-preguntas `validated_assisted`. Solo se ejecutará con autorización posterior.
+Completar la trazabilidad factual de las 25 preguntas ya estructuradas, asignar
+fuentes oficiales y unidades verificables, ejecutar dos revisiones asistidas
+independientes y publicar solo preguntas `validated_assisted`. Solo se
+ejecutará con autorización posterior.
 
 ## 5. Fase 3 — Entrenador esencial
 
@@ -104,4 +117,3 @@ Hobby. Solo se ejecutará con autorización posterior.
 Ampliar el banco en lotes de 25 hasta 200 preguntas útiles y, si la calidad se
 mantiene, hasta 400 antes de la prueba. Adaptar perfiles y preguntas cuando la
 PGN publique la guía de orientación.
-

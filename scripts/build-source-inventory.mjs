@@ -85,7 +85,7 @@ const localSources = [
     targetPath: 'docs/plan_implementacion_por_fases.md',
     mimeType: 'text/markdown',
     status: 'reference',
-    notes: 'Solo la fase 0 está autorizada.'
+    notes: 'Las fases 0 y 1 están implementadas; las fases posteriores requieren autorización.'
   },
   {
     id: 'pgn-transversal-study-plan',
@@ -144,4 +144,3 @@ const outputPath = resolve(projectRoot, 'dataset/catalog/source-inventory.json')
 await writeFile(outputPath, `${JSON.stringify(inventory, null, 2)}\n`, 'utf8')
 
 console.log(`Inventario generado: ${inventory.length} registros (${localSources.length} archivos locales).`)
-

@@ -1,78 +1,132 @@
-# Dataset documental — Fase 0
+# Dataset estructurado — Fase 1
 
-## Propósito
+## Propósito y límites
 
-Este conjunto reúne material verificable para diseñar posteriormente el banco de
-preguntas de Mérito PGN. En la fase 0 los documentos se conservan como insumos;
-todavía no se extraen unidades normativas ni se aprueban preguntas.
+La Fase 1 convierte el inventario documental de la Fase 0 en registros
+tipados, valida sus relaciones y genera artefactos reproducibles. No extrae aún
+unidades normativas, no revisa con IA y no aprueba preguntas.
 
-El inventario canónico está en `dataset/catalog/source-inventory.json`. Puede
-regenerarse con `npm run dataset:inventory`; el comando falla si falta alguno de
-los archivos declarados.
+El inventario canónico permanece en
+`dataset/catalog/source-inventory.json`. Los datos estructurados están en
+`dataset/content/`:
 
-## Procedencia
+- `sources.json`: fuentes y documentos de referencia;
+- `taxonomy.json`: módulos y temas;
+- `exam-profiles.json`: perfiles provisionales 121, 126 y 127;
+- `source-units.json`: unidades verificables, vacío en esta fase;
+- `questions/*.json`: preguntas editoriales no publicadas.
 
-Los archivos fueron incorporados desde el repositorio privado
-`concursoProcuraduria`:
+## Contratos
 
-- registro e índice de normatividad;
-- Resolución 076 de 2026;
-- compilado de convocatorias y fichas 121, 126 y 127;
-- definición del producto y planes de preparación;
-- diagnóstico inicial con 25 preguntas.
+Los esquemas Zod y sus tipos TypeScript inferidos se exportan desde
+`src/domain/dataset/contracts.ts`.
 
-Las rutas originales se guardan únicamente como trazabilidad documental. No se
-incluyen archivos de perfil, análisis, postulación, hoja de vida, COPNIA,
-salario, datos de contacto ni convalidación.
+- `Source`: autoridad, procedencia, URL o ruta, hash, versión, vigencia,
+  redistribución y estado de revisión.
+- `SourceUnit`: fragmento verificable enlazado a una fuente y un localizador.
+- `Question`: enunciado, cuatro opciones, clave, explicación, temas,
+  convocatorias, referencias y estado editorial.
+- `ExamProfile`: convocatoria y parámetros de simulacro; los valores aún no
+  publicados permanecen en `null`.
+- `Attempt`: respuesta, confianza, tiempo y modo.
+- `ProgressExport`: envoltura versionada para una futura exportación.
 
-## Jerarquía de fuentes
+Los estados de pregunta permitidos son:
 
-- **Nivel A:** reglas, fichas, guías y comunicaciones oficiales específicas del
-  Concurso PGN 2026.
-- **Nivel B:** Constitución, leyes, decretos y contenidos oficiales aplicables a
-  los temas evaluables.
-- **Nivel C:** material educativo institucional útil para explicar o practicar.
-- **Nivel D:** cursos, páginas e influencers. Sirven para descubrir temas o
-  comparar funciones, pero no respaldan una respuesta.
+- `draft_ai`;
+- `validated_assisted`;
+- `needs_review`;
+- `rejected`;
+- `retired`.
 
-No se copiarán preguntas, videos, PDFs ni explicaciones de bancos comerciales.
-Toda futura pregunta publicable deberá apoyarse en una fuente A o B vigente y en
-un localizador verificable.
+`approved` no es un estado válido. Una pregunta `validated_assisted` exige
+metadatos de revisión, racionales de sus cuatro opciones y respaldo de la
+respuesta correcta mediante una fuente A o B verificada y vigente.
 
-## Estados de inventario
+## Fuentes, autoridad y vigencia
 
-- `copied_pending_review`: archivo incorporado, pendiente de revisión de
-  contenido o vigencia.
-- `reference`: documento interno de diseño o preparación, no fuente normativa.
-- `seed_unapproved`: preguntas de diagnóstico aún sin transformación ni
-  contraste individual.
-- `pending_download`: fuente identificada por URL, pero no disponible como
-  archivo local.
+La transformación conserva identificadores, títulos, rutas, URL, hashes,
+procedencia, estados y restricciones del inventario. La autoridad se representa
+como:
 
-Los estados futuros de pregunta serán `draft_ai`, `validated_assisted`,
-`needs_review`, `rejected` y `retired`. Ninguna pregunta de esta fase tiene el
-estado `validated_assisted`.
+- **A:** fuentes oficiales específicas del Concurso PGN 2026;
+- **B:** normativa o contenido oficial general;
+- **C:** referencias educativas institucionales;
+- **D:** páginas, cursos o influencers, únicamente para descubrimiento;
+- **N/A:** índices internos, documentos de diseño y material semilla.
 
-## Transformación futura
+Las fuentes pendientes conservan `pending_download`, sin ruta local, MIME ni
+hash. La vigencia se mantiene como `unknown` mientras no exista evidencia de
+revisión. En esta fase no hay fuentes `verified`.
 
-La fase 1 definirá:
+Los documentos locales siguen bajo `dataset/raw/` y nunca deben importarse
+desde el frontend. Las rutas originales se conservan como trazabilidad, pero el
+pipeline solo comprueba archivos locales dentro de este repositorio.
 
-- `Source`: autoridad, URL, versión, vigencia, hash y revisión;
-- `SourceUnit`: fragmento verificable con artículo, página o sección;
-- `Question`: enunciado, cuatro opciones, clave, explicaciones, citas, temas y
-  estado editorial.
+## Preguntas semilla
 
-La fase 2 transformará el diagnóstico en borradores, localizará su respaldo y
-aplicará dos revisiones asistidas independientes. Esas actividades están fuera
-del alcance autorizado de la fase 0.
+El diagnóstico inicial se conserva sin alterar y además se representa mediante
+25 registros `Question`:
 
-## Publicación y privacidad
+- todos tienen estado `needs_review`;
+- usan `seed_import` como método de creación;
+- mantienen cuatro opciones, clave y explicación del documento original;
+- apuntan al diagnóstico mediante una referencia `provenance` y localizador;
+- no declaran respaldo factual oficial;
+- no se asignan todavía a convocatorias;
+- pueden omitir racionales individuales hasta la revisión de Fase 2.
 
-Los documentos están bajo `dataset/raw/`, fuera de `public/`. Vite solo publica
-archivos importados por la aplicación y el contenido de `public/`; por tanto, el
-dataset documental no debe copiarse ni importarse desde el frontend.
+La procedencia interna no convierte la pregunta en verificable ni publicable.
 
-El indicador `public: false` del inventario es una regla editorial, no un control
-de acceso. La validación final debe inspeccionar `dist/` antes de cualquier
-despliegue.
+## Comandos y flujo
 
+```bash
+npm run dataset:inventory
+npm run dataset:validate
+npm run dataset:build
+npm run dataset:coverage
+```
+
+1. `dataset:inventory` recalcula el inventario y hashes de archivos locales.
+2. `dataset:validate` aplica esquemas y validaciones relacionales.
+3. `dataset:build` valida de nuevo y genera un banco estable ordenado por ID.
+4. `dataset:coverage` valida y genera un reporte Markdown sin fecha dinámica.
+
+La validación falla ante IDs duplicados, archivos o fuentes inexistentes,
+localizadores vacíos, estados inválidos, opciones distintas de cuatro,
+opciones vacías o repetidas, claves inexistentes, referencias inválidas y
+preguntas publicables sin fuente oficial A o B verificada y vigente.
+
+`public/data/question-bank.json` contiene exclusivamente preguntas
+`validated_assisted`. En la Fase 1 su contenido esperado es:
+
+```json
+{
+  "schemaVersion": 1,
+  "questions": []
+}
+```
+
+## Cobertura y limitaciones reales
+
+`dataset/reports/coverage.md` informa cantidades por estado de fuente y
+pregunta, nivel de autoridad, tema y convocatoria, incluyendo categorías en
+cero y preguntas sin convocatoria.
+
+Limitaciones vigentes:
+
+- no se han extraído unidades verificables;
+- ninguna fuente ha sido declarada verificada o vigente;
+- 11 fuentes continúan pendientes de descarga;
+- las 25 semillas requieren respaldo oficial y revisión asistida;
+- los perfiles de simulacro no tienen todavía duración, cantidad ni
+  distribución oficial;
+- no existe persistencia, entrenador, simulacro, backend ni despliegue.
+
+## Privacidad
+
+El build inspecciona `dist/` y falla si encuentra `dataset/raw`, las carpetas
+privadas excluidas o documentos fuente con extensiones PDF, DOC, DOCX, CSV o
+Markdown. No se incorporan CV, COPNIA, salario, contacto, convalidación, tokens
+ni secretos, y no se copia contenido de bancos comerciales, Misión Mérito o
+influencers.

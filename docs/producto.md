@@ -289,7 +289,8 @@ La IA puede generar borradores, distractores y explicaciones únicamente a parti
 de una unidad verificable previamente registrada. Cada salida se guarda con
 estado `draft_ai`, fuente, localizador y fecha de generación. La IA no aprueba
 preguntas, no decide vigencia normativa y no puede inventar una cita faltante.
-Solo una revisión humana puede cambiar el estado a `approved`.
+Solo el proceso de revisión asistida puede cambiar el estado a
+`validated_assisted`.
 
 ### Paso 5 - Revisión en dos pasadas
 
@@ -297,13 +298,14 @@ Solo una revisión humana puede cambiar el estado a `approved`.
 2. **Revisión psicométrica/editorial:** hay una sola mejor respuesta, los
    distractores son plausibles y el enunciado no contiene pistas accidentales.
 
-Una pregunta generada con IA no pasa a `approved` hasta completar ambas.
+Una pregunta generada con IA no pasa a `validated_assisted` hasta completar
+ambas.
 
 ### Paso 6 - Publicación y retiro
 
-El compilador genera solo preguntas `approved`. Si una fuente cambia, sus
-preguntas pasan a `needs_review` y quedan fuera de nuevos simulacros hasta ser
-revalidadas.
+El compilador genera solo preguntas `validated_assisted`. Si una fuente
+cambia, sus preguntas pasan a `needs_review` y quedan fuera de nuevos
+simulacros hasta ser revalidadas.
 
 ## 8. Tamaño objetivo del banco
 
@@ -353,7 +355,7 @@ tener 250 buenas preguntas con fuentes que 1.000 ambiguas o desactualizadas.
 ```json
 {
   "id": "PGN-COM-DIS-0001",
-  "status": "approved",
+  "status": "validated_assisted",
   "module": "comun",
   "topic": "derecho_disciplinario",
   "subtopic": "principios",
@@ -596,8 +598,8 @@ El compilador debe fallar cuando:
 - el enunciado está duplicado con otra clave;
 - una fuente no existe en el registro;
 - el localizador está vacío;
-- una pregunta `approved` conserva una fuente `secondary_unverified` como único
-  respaldo;
+- una pregunta `validated_assisted` conserva una fuente
+  `secondary_unverified` como único respaldo;
 - una pregunta retirada aparece en el banco generado;
 - una norma marcada como no vigente continúa soportando una pregunta activa;
 - el cargo o tema no existe en la taxonomía.

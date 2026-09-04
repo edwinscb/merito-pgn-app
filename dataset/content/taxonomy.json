@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "modules": [
+    { "id": "comun", "label": "Núcleo común" },
+    { "id": "tecnico", "label": "Módulos técnicos" }
+  ],
+  "topics": [
+    { "id": "procuraduria_y_estado", "moduleId": "comun", "label": "Procuraduría y Estado", "parentTopicId": null },
+    { "id": "derecho_disciplinario", "moduleId": "comun", "label": "Derecho disciplinario", "parentTopicId": null },
+    { "id": "gestion_publica_y_mipg", "moduleId": "comun", "label": "Gestión pública y MIPG", "parentTopicId": null },
+    { "id": "contratacion_estatal", "moduleId": "comun", "label": "Contratación estatal", "parentTopicId": null },
+    { "id": "atencion_transparencia_y_datos", "moduleId": "comun", "label": "Atención, transparencia y datos", "parentTopicId": null },
+    { "id": "gestion_documental", "moduleId": "comun", "label": "Gestión documental", "parentTopicId": null },
+    { "id": "ofimatica_y_sistemas_de_gestion", "moduleId": "comun", "label": "Ofimática y sistemas de gestión", "parentTopicId": null },
+    { "id": "competencias_comportamentales", "moduleId": "comun", "label": "Competencias comportamentales", "parentTopicId": null },
+    { "id": "datos_y_analitica", "moduleId": "tecnico", "label": "Datos y analítica", "parentTopicId": null },
+    { "id": "software_e_interoperabilidad", "moduleId": "tecnico", "label": "Software e interoperabilidad", "parentTopicId": null },
+    { "id": "infraestructura_nube_y_ciberseguridad", "moduleId": "tecnico", "label": "Infraestructura, nube y ciberseguridad", "parentTopicId": null }
+  ]
+}

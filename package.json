@@ -5,21 +5,27 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit -p tsconfig.app.json && vite build",
+    "build": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.dataset.json && vite build && tsx scripts/dataset/check-dist.ts",
     "test": "vitest run",
-    "dataset:inventory": "node scripts/build-source-inventory.mjs"
+    "dataset:inventory": "node scripts/build-source-inventory.mjs",
+    "dataset:validate": "tsx scripts/dataset/validate.ts",
+    "dataset:build": "tsx scripts/dataset/build.ts",
+    "dataset:coverage": "tsx scripts/dataset/coverage.ts"
   },
   "dependencies": {
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "zod": "^4.5.4"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
+    "@types/node": "^26.4.1",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
     "jsdom": "^29.1.1",
+    "tsx": "^4.23.13",
     "typescript": "^7.0.2",
     "vite": "^8.2.2",
     "vite-plugin-pwa": "^1.3.0",

@@ -112,7 +112,7 @@
     "mimeType": "text/markdown",
     "status": "reference",
     "notes": "Definición funcional y arquitectura de referencia.",
-    "sha256": "eb760eea401a788cfb8b0d7231895421d3409786dccbbce7910392589869e9ab",
+    "sha256": "87ce1f36872766f010f854a22592f72b21193d138057f2f7486b60b3595e67a0",
     "incorporatedAt": "2026-09-03",
     "public": false
   },
@@ -124,8 +124,8 @@
     "targetPath": "docs/plan_implementacion_por_fases.md",
     "mimeType": "text/markdown",
     "status": "reference",
-    "notes": "Solo la fase 0 está autorizada.",
-    "sha256": "f24c8d46abc430ba3fbabdbc71c26c1b393a75ed1e1e11e50e5609d8e736c803",
+    "notes": "Las fases 0 y 1 están implementadas; las fases posteriores requieren autorización.",
+    "sha256": "e9f87620fd6f6982d3a09034a155d6b859c9864273e06d72b673fff43a24675d",
     "incorporatedAt": "2026-09-03",
     "public": false
   },
