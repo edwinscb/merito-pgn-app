@@ -1,7 +1,7 @@
 # Cobertura del dataset
 
 - Fuentes: **43**
-- Unidades verificables: **8**
+- Unidades verificables: **26**
 - Preguntas: **25**
 - Preguntas publicables: **2**
 
@@ -31,7 +31,7 @@
 
 | Categoría | Cantidad |
 | --- | ---: |
-| pending_review | 3 |
+| pending_review | 21 |
 | verified | 5 |
 | retired | 0 |
 

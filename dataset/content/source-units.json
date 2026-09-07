@@ -86,5 +86,203 @@
     "sourceHash": "7d57792e05a2418e3e878476b231a6f88a2c1c15650bc4799466300d06ed6401",
     "topicIds": ["procuraduria_y_estado"],
     "targetCallIds": []
+  },
+  {
+    "id": "law-1755-2015-review-unit",
+    "sourceId": "law-1755-2015",
+    "locator": "Ley 1755 de 2015, artículos 13 a 16 y 21",
+    "title": "Derecho de petición: contenido y competencia",
+    "content": "Para tramitar una petición se identifica su contenido y modalidad, la autoridad competente y el traslado procedente cuando otra autoridad deba responder. El término depende de la modalidad legal aplicable.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "c20a5f37cc5e9ac99af675c25385e92ad31de3a5a4d746833e34612c042d795d",
+    "topicIds": ["atencion_transparencia_y_datos"],
+    "targetCallIds": []
+  },
+  {
+    "id": "law-1712-2014-review-unit",
+    "sourceId": "law-1712-2014",
+    "locator": "Ley 1712 de 2014, artículos 18 y 21",
+    "title": "Versión pública y acceso parcial",
+    "content": "Cuando un documento contiene información pública y una parte exceptuada, debe separarse la información protegida y facilitar una versión pública cuando sea posible, motivando la restricción.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "a1c753e1ee0e401c25e82ca5cf7bc1d71b612a3bb698cc5e8dd6f410e06e2f3c",
+    "topicIds": ["atencion_transparencia_y_datos"],
+    "targetCallIds": []
+  },
+  {
+    "id": "decree-1080-2015-archives-review-unit",
+    "sourceId": "decree-1080-2015-archives",
+    "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 y 2.8.2.7.9",
+    "title": "Clasificación, metadatos y disposición documental",
+    "content": "La gestión documental articula clasificación, registro y metadatos, control y seguimiento y disposición conforme a instrumentos archivísticos. Esta unidad es conceptual y requiere verificar reformas antes de publicar una pregunta normativa.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "a0c936b4f6a21e098d0b068c631f208e15277758d298eb70daad1c8678384978",
+    "topicIds": ["gestion_documental"],
+    "targetCallIds": []
+  },
+  {
+    "id": "minvivienda-phva-methodology-review-unit",
+    "sourceId": "minvivienda-phva-methodology",
+    "locator": "Metodología de indicadores de gestión, página PDF 2, Introducción",
+    "title": "Etapa verificar del ciclo PHVA",
+    "content": "La etapa Verificar contrasta lo ejecutado con lo planeado y con las metas mediante indicadores; sus resultados sirven para identificar desviaciones y orientar ajustes. Es una guía institucional de 2019 usada como respaldo conceptual.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "14141e6ae1f4336499756a45e4ff43ea1663aef134050a3f3f34fe387223f244",
+    "topicIds": ["gestion_publica_y_mipg"],
+    "targetCallIds": []
+  },
+  {
+    "id": "law-80-1993-review-unit",
+    "sourceId": "law-80-1993",
+    "locator": "Ley 80 de 1993, artículo 25, numerales 7 y 12",
+    "title": "Planeación y estudios previos",
+    "content": "La planeación contractual exige analizar la conveniencia y necesidad y elaborar los estudios requeridos antes de iniciar la selección o celebrar el contrato, según corresponda al procedimiento. Deben revisarse las reformas y el régimen especial aplicable.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "a9ae8781bc98beca8456428802c5a8e635c28125b7ffcf942571e1c2053b99a7",
+    "topicIds": ["contratacion_estatal"],
+    "targetCallIds": []
+  },
+  {
+    "id": "funcion-publica-indicators-review-unit",
+    "sourceId": "funcion-publica-indicators",
+    "locator": "Función Pública, MIPG, políticas de evaluación y seguimiento, lineamientos",
+    "title": "Elementos de un indicador de seguimiento",
+    "content": "Un indicador institucional se documenta con objetivo, línea base, fórmula, unidad de medida, fuente, periodicidad, meta y responsable. La unidad describe elementos pertinentes, no una ficha oficial exclusiva de la PGN.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "172e66e0cef4cd235bbc8d5091fd417b617276e92ea4b79975366b7e46a40672",
+    "topicIds": ["gestion_publica_y_mipg"],
+    "targetCallIds": []
+  },
+  {
+    "id": "nist-correlation-review-unit",
+    "sourceId": "nist-correlation",
+    "locator": "NIST Engineering Statistics Handbook, sección correlation and causation",
+    "title": "Asociación no implica causalidad",
+    "content": "Una correlación alta describe asociación entre variables; por sí sola no demuestra que una variable cause la otra. La inferencia causal requiere diseño, contexto y evidencia adicional.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "0c4a9426363c2c9b1aff367ade805287e7bec718ba4fc252b8a321788a9cd4cf",
+    "topicIds": ["datos_y_analitica"],
+    "targetCallIds": []
+  },
+  {
+    "id": "cdc-data-analysis-review-unit",
+    "sourceId": "cdc-data-analysis",
+    "locator": "CDC Field Epidemiology Manual, capítulo Analyze and interpret data",
+    "title": "Descripción de datos y sesgo de selección",
+    "content": "El análisis descriptivo resume lo observado y la selección de participantes puede producir sesgo cuando excluye sistemáticamente a ciertos casos. La unidad se aplica como concepto analítico, no como regla jurídica.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "0f448d3dcdab07373b1af3b3a1117076c5b4862e8f16b0a30814da3da9f3f765",
+    "topicIds": ["datos_y_analitica"],
+    "targetCallIds": []
+  },
+  {
+    "id": "missouri-db-integrity-review-unit",
+    "sourceId": "missouri-db-integrity",
+    "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
+    "title": "Integridad referencial",
+    "content": "Las claves y restricciones referenciales mantienen relaciones válidas entre registros y evitan referencias huérfanas. La fuente es una guía técnica gubernamental histórica; no es una obligación normativa colombiana.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "bf4d88fe6673e473c7c288f273627f9df7d289ff1927431b02ddd496358ec17d",
+    "topicIds": ["software_e_interoperabilidad"],
+    "targetCallIds": []
+  },
+  {
+    "id": "nist-acid-review-unit",
+    "sourceId": "nist-acid",
+    "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
+    "title": "Atomicidad transaccional",
+    "content": "Atomicidad significa tratar una transacción como una operación todo-o-nada: se completa el conjunto o se revierte. La unidad no afirma que toda plataforma implemente idénticas políticas de recuperación.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "04fd1b744c9c970c6b3d32c51f5f1bd187587e8dd0069a69e41afe77f9d7b4ec",
+    "topicIds": ["software_e_interoperabilidad"],
+    "targetCallIds": []
+  },
+  {
+    "id": "nist-least-privilege-review-unit",
+    "sourceId": "nist-least-privilege",
+    "locator": "NIST glossary, definición least privilege",
+    "title": "Mínimo privilegio",
+    "content": "El mínimo privilegio asigna a una identidad únicamente los accesos necesarios para realizar sus tareas. La definición no impone por sí sola una duración temporal ni una tecnología de control específica.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "548f62d6e2ac52b04c7831731ece97bdebf3c984a266170d97b79865e13d2175",
+    "topicIds": ["infraestructura_nube_y_ciberseguridad"],
+    "targetCallIds": []
+  },
+  {
+    "id": "ncsc-cloud-security-review-unit",
+    "sourceId": "ncsc-cloud-security",
+    "locator": "NCSC, Using a cloud platform securely, sección Protect secrets carefully",
+    "title": "Protección de secretos e identidades de servicio",
+    "content": "Los secretos deben gestionarse con las capacidades de un almacén de secretos y las identidades de servicio deben limitarse mediante controles de acceso. Es una guía técnica extranjera y no norma PGN.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "26e7c82ba349ae90d680157a34725c63c51584aefc377f765789b0115c7e7e6e",
+    "topicIds": ["infraestructura_nube_y_ciberseguridad"],
+    "targetCallIds": []
+  },
+  {
+    "id": "homeoffice-api-review-unit",
+    "sourceId": "homeoffice-api",
+    "locator": "Home Office API standard, secciones Versioning, API specification and testing",
+    "title": "Versionado, contrato y pruebas de API",
+    "content": "Una API debe versionarse, documentar su contrato y probar integraciones, errores y respuestas antes de comunicar cambios incompatibles. La unidad no prescribe una estrategia concreta de versionado.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "b2aecf625d7e27b8511255b040356761c650256211d67061ecea287ba67d1689",
+    "topicIds": ["software_e_interoperabilidad"],
+    "targetCallIds": []
+  },
+  {
+    "id": "cisa-ransomware-review-unit",
+    "sourceId": "cisa-ransomware",
+    "locator": "CISA StopRansomware Guide, apartados Initial response y Preserve evidence",
+    "title": "Contención, evidencia y respuesta ante ransomware",
+    "content": "Ante ransomware se determina el impacto, se aíslan sistemas cuando sea posible, se preserva evidencia volátil y se activa el procedimiento de respuesta. La prioridad operativa depende del plan institucional y del incidente.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "a71d1cee55d37a368c91d2c105e7f92586af00efdf83588ae7b588b16e3e8e15",
+    "topicIds": ["infraestructura_nube_y_ciberseguridad"],
+    "targetCallIds": []
+  },
+  {
+    "id": "decreto-815-2018-review-unit",
+    "sourceId": "decreto-815-2018",
+    "locator": "Decreto 815 de 2018, artículo 2.2.4.8, nivel profesional",
+    "title": "Competencias profesionales para decidir y comunicar",
+    "content": "El referente describe analizar información válida, usar criterios objetivos, diferenciar decisiones y comunicar al responsable correspondiente. No prueba por sí solo la aplicabilidad a una convocatoria PGN concreta.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "ec62fc4d672728f8d2d5cd226e07265555115f64dca7ee63bf3fbd77e0d2abb6",
+    "topicIds": ["competencias_comportamentales"],
+    "targetCallIds": []
+  },
+  {
+    "id": "codigo-integridad-review-unit",
+    "sourceId": "codigo-integridad",
+    "locator": "Código de Integridad, principios Lo que hago y Lo que no hago",
+    "title": "Honestidad, diligencia e información confiable",
+    "content": "El Código de Integridad promueve honestidad, diligencia, transparencia y decisiones basadas en información confiable. Se usa para racionales conductuales, no como escala oficial de calificación.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "6396a9296eb200c2ba8efe36b42d85cb3252162a9c19fc1d1697207a623014b6",
+    "topicIds": ["competencias_comportamentales"],
+    "targetCallIds": []
+  },
+  {
+    "id": "law-1952-2019-review-unit",
+    "sourceId": "law-1952-2019",
+    "locator": "Ley 1952 de 2019, artículo 38, numerales 1 y 3",
+    "title": "Cumplimiento y diligencia funcional",
+    "content": "Los servidores deben cumplir la Constitución, la ley y los reglamentos y actuar con diligencia en sus funciones. La unidad se limita al deber general y no resuelve por sí sola una situación disciplinaria concreta.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "31c054da5b939fc84f88d06eb31d1fb4297f8b5320c79253f73fc808d52ef00f",
+    "topicIds": ["derecho_disciplinario"],
+    "targetCallIds": []
+  },
+  {
+    "id": "dnp-public-innovation-review-unit",
+    "sourceId": "dnp-public-innovation",
+    "locator": "Principios de la innovación pública en Colombia, páginas impresas 86-87",
+    "title": "Problema, usuarios y piloto de innovación pública",
+    "content": "La innovación pública parte de comprender el problema y sus usuarios, explorar alternativas y probar soluciones mediante prototipos, pilotos o experimentos acotados. La fuente no convierte indicadores específicos en requisito universal.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "0b71f46e560009d5ffa4d9650a873897cbcdeb8d2094de538e00175f285027e7",
+    "topicIds": ["competencias_comportamentales"],
+    "targetCallIds": []
   }
 ]

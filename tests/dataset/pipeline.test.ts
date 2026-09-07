@@ -9,7 +9,7 @@ describe('pipeline con el dataset real', () => {
     expect(result.issues).toEqual([])
     expect(result.data?.sources).toHaveLength(43)
     expect(result.data?.inventory).toHaveLength(43)
-    expect(result.data?.sourceUnits).toHaveLength(8)
+    expect(result.data?.sourceUnits).toHaveLength(26)
     expect(result.data?.sources.filter((source) => source.status === 'pending_download')).toHaveLength(9)
   })
 
@@ -35,7 +35,7 @@ describe('pipeline con el dataset real', () => {
     const report = renderCoverageReport(result.data)
     expect(report).toContain('| validated_assisted | 2 |')
     expect(report).toContain('## Unidades por estado')
-    expect(report).toContain('| pending_review | 3 |')
+    expect(report).toContain('| pending_review | 21 |')
     expect(report).toContain('| C | 0 |')
     expect(report).toContain('| 121-2026 | 0 |')
     expect(report).toContain('| sin_convocatoria | 25 |')
