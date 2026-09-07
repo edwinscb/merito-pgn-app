@@ -104,11 +104,42 @@ h2 { max-width: 430px; margin: 0; font-size: clamp(34px, 4vw, 50px); line-height
 
 footer { padding: 24px 0 34px; border-top: 1px solid rgba(19, 42, 35, 0.16); color: #717a76; font-size: 13px; }
 
+.action-grid, .import-export { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+.button { border: 0; border-radius: 999px; padding: 13px 18px; color: #f7f4ec; background: #173d32; font: inherit; font-weight: 750; cursor: pointer; }
+.button.secondary { color: #173d32; background: #d7e4da; }
+.button.ghost, .back-link { color: #315a4c; background: transparent; }
+.button:disabled { opacity: .45; cursor: not-allowed; }
+.trainer { max-width: 780px; margin: 0 auto; padding: 70px 0 90px; flex: 1; }
+.back-link { border: 0; padding: 0; font: inherit; cursor: pointer; margin-bottom: 34px; }
+.progress-track { height: 8px; margin: 16px 0 26px; overflow: hidden; border-radius: 99px; background: #dfe5df; }
+.progress-track span { display: block; height: 100%; background: #bf7c35; transition: width .2s ease; }
+.question-card { padding: clamp(24px, 5vw, 44px); border-radius: 28px; background: #fffdf7; box-shadow: 0 18px 45px rgba(19,42,35,.1); }
+.question-stem { margin: 0 0 28px; font-family: Georgia, serif; font-size: clamp(24px, 4vw, 34px); line-height: 1.2; }
+.options { display: grid; gap: 10px; }
+.option { padding: 15px 17px; border: 1px solid #cbd6ce; border-radius: 13px; color: #17211d; background: #f8f6ef; text-align: left; font: inherit; cursor: pointer; }
+.option.selected { border-color: #315a4c; box-shadow: 0 0 0 2px #315a4c inset; }
+.option.correct { border-color: #387b53; background: #dff0e3; }
+.option.incorrect { border-color: #a34b3d; background: #f8dfda; }
+.confidence { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 0; padding: 0; border: 0; }
+.confidence legend { width: 100%; margin-bottom: 7px; color: #56615c; font-size: 14px; }
+.confidence button { border: 1px solid #cbd6ce; border-radius: 99px; padding: 9px 13px; background: transparent; cursor: pointer; }
+.confidence .confidence-selected { color: #fff; background: #315a4c; }
+.feedback { margin-top: 25px; padding: 17px; border-radius: 14px; }
+.feedback p { margin: 7px 0 0; line-height: 1.5; }
+.feedback.success { background: #e0f0e3; color: #245638; }.feedback.warning { background: #f8e6d5; color: #744518; }
+.trainer-actions { margin-top: 28px; display: flex; justify-content: flex-end; }
+.summary-score { color: #315a4c; font-family: Georgia, serif; font-size: 52px; margin: 25px 0 5px; }
+.progress-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 30px 0; }
+.progress-grid div { padding: 22px; border-radius: 16px; background: #fffdf7; }.progress-grid span { display: block; color: #717a76; font-size: 13px; }.progress-grid strong { display: block; margin-top: 5px; font-size: 30px; }
+.muted, .notice { color: #56615c; line-height: 1.5; }.notice { margin: 20px 0 0; padding: 13px 16px; border-radius: 12px; background: #fff3df; }.notice.error { color: #8a3d32; background: #f8dfda; }
+label.button { display: inline-block; }
+
 @media (max-width: 760px) {
   .shell { width: min(100% - 28px, 640px); }
   .hero { grid-template-columns: 1fr; gap: 42px; padding: 64px 0; }
   h1 { font-size: clamp(46px, 15vw, 70px); }
   .milestones { grid-template-columns: 1fr; gap: 38px; }
+  .progress-grid { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {

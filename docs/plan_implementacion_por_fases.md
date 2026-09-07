@@ -124,9 +124,17 @@ convocatoria. El detalle reproducible está en
 
 ## 5. Fase 3 — Entrenador esencial
 
-Implementar práctica, simulacro, confianza, repaso espaciado, IndexedDB y
-exportación/importación. Límite previsto: 10–12 horas de desarrollo. Solo se
-ejecutará con autorización posterior.
+Implementar práctica, simulacro, confianza, repaso priorizado local, IndexedDB y
+exportación/importación. Límite previsto: 10–12 horas de desarrollo.
+
+Estado: **implementada en alcance técnico**.
+
+Resultados: la aplicación carga exclusivamente el banco público aprobado,
+ofrece práctica y simulacro breve, registra respuestas y confianza en
+IndexedDB (con respaldo en memoria para entornos sin IndexedDB), muestra
+precisión y cola de repaso, y valida exportaciones/importaciones mediante
+`ProgressExport`. No se inventan parámetros de convocatoria y la Fase 2 sigue
+abierta por sus fichas vigentes y revisiones pendientes.
 
 ## 6. Fase 4 — Calidad y publicación
 

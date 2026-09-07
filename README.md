@@ -5,7 +5,8 @@ Abierto de Méritos de la Procuraduría General de la Nación 2026.
 
 ## Estado
 
-Las **fases 0 y 1** están implementadas y la **Fase 2 está en curso**. El
+Las **fases 0 y 1** están implementadas, la **Fase 2 está en curso** y la
+**Fase 3 está implementada en su alcance técnico**. El
 repositorio contiene la aplicación React, la configuración inicial de PWA y un
 dataset estructurado con contratos Zod, validación relacional, compilación
 reproducible y reporte de cobertura.
@@ -13,7 +14,8 @@ reproducible y reporte de cobertura.
 El primer lote editorial enriqueció cinco semillas con fuentes y observaciones.
 Tras dos revisiones independientes, las preguntas 1 y 4 son publicables;
 las preguntas 2, 3 y 5 requieren cambios. Todavía
-no incluye práctica, simulacros, IndexedDB, generación automática de preguntas,
+La Fase 3 añade práctica, simulacro breve, confianza, repaso local, IndexedDB y
+exportación/importación validada. No incluye generación automática de preguntas,
 backend ni despliegue.
 
 ## Comandos
@@ -36,6 +38,11 @@ npm run dev
 - `dataset:coverage` actualiza `dataset/reports/coverage.md`.
 - `build` comprueba TypeScript, construye la PWA y verifica que `dist/` no
   contenga documentos fuente ni rutas sensibles.
+
+El entrenador muestra exclusivamente preguntas `validated_assisted` del banco
+público (actualmente 2). No inventa duración ni distribución de convocatoria.
+El progreso permanece en IndexedDB y usa el contrato `ProgressExport` para
+exportar o importar datos.
 
 ## Dataset
 

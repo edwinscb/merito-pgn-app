@@ -1,4 +1,4 @@
-# Dataset estructurado — Fases 1 y 2
+# Dataset estructurado — Fases 1, 2 y 3
 
 ## Propósito y límites
 
@@ -134,7 +134,14 @@ Limitaciones vigentes:
   pero otros procesadores PDF pueden emitir advertencias;
 - los perfiles de simulacro no tienen todavía duración, cantidad ni
   distribución oficial;
-- no existe persistencia, entrenador, simulacro, backend ni despliegue.
+- Fase 3 implementa práctica, simulacro breve, captura de confianza, una cola
+  local de repaso priorizada por errores/confianza baja, IndexedDB y
+  exportación/importación validada; no crea un calendario espaciado ni usa
+  servidores.
+
+El frontend lee exclusivamente `public/data/question-bank.json`, por lo que las
+23 semillas `needs_review` nunca aparecen en práctica. El banco actual contiene
+las dos preguntas `validated_assisted` disponibles.
 
 ## Privacidad
 
