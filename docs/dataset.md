@@ -3,8 +3,10 @@
 ## Propósito y límites
 
 La Fase 1 convirtió el inventario documental de la Fase 0 en registros tipados,
-validó sus relaciones y creó artefactos reproducibles. La Fase 2 está en curso:
-el primer lote incorporó unidades verificables y revisó cinco semillas.
+validó sus relaciones y creó artefactos reproducibles. La Fase 2 está
+consolidada técnicamente: incorporó las fichas vigentes versión 3 de 121, 126 y
+127, corrigió las 25 semillas y completó una nueva revisión editorial. Falta la
+revisión factual final independiente de las versiones corregidas.
 
 El inventario canónico permanece en
 `dataset/catalog/source-inventory.json`. Los datos estructurados están en
@@ -79,11 +81,12 @@ mediante 25 registros `Question`:
 - usan `seed_import` como método de creación;
 - mantienen cuatro opciones, clave y explicación del documento original;
 - apuntan al diagnóstico mediante una referencia `provenance` y localizador;
-- no se asignan todavía a convocatorias;
-- cuatro cuentan con racionales y referencias oficiales;
+- se asignan a convocatorias solo con pertinencia temática documentada en las
+  fichas versión 3;
+- las 25 cuentan con racionales para las cuatro opciones y referencias de respaldo;
 - las preguntas 1 y 4 superaron revisiones factual y editorial independientes;
-- 23 permanecen en `needs_review`: 2, 3 y 5 requieren cambios y las otras 20
-  aún no se han revisado.
+- 23 permanecen en `needs_review` mientras se ejecuta la revisión factual final;
+- las fichas vigentes no implican que una pregunta concreta aparezca en la prueba.
 
 La procedencia interna no convierte la pregunta en verificable ni publicable.
 
@@ -119,7 +122,7 @@ cero y preguntas sin convocatoria.
 
 Limitaciones vigentes:
 
-- existen siete unidades: cinco verificadas y dos en `pending_review`;
+- existen 31 unidades: nueve verificadas y 22 en `pending_review`;
 - cuatro fuentes tienen procedencia/contenido comprobados para el alcance
   puntual indicado en sus notas; esto no certifica todos sus artículos;
 - nueve fuentes continúan pendientes de descarga;
@@ -128,12 +131,15 @@ Limitaciones vigentes:
 - la unidad del artículo 12 requiere completar el alcance del trámite;
 - la unidad del boletín se corrigió como resumen contextual y requiere nueva
   revisión; no respalda por sí sola una potestad general de gestionar riesgos;
-- ninguna pregunta está asignada todavía a una convocatoria específica;
+- la aplicabilidad temática está asignada de forma conservadora mediante
+  `targetCallIds`, sin afirmar distribución del examen;
 - algunos PDF oficiales descargados contienen bytes iniciales no canónicos;
   los hashes se preservan y las páginas usadas se comprobaron visualmente,
   pero otros procesadores PDF pueden emitir advertencias;
 - los perfiles de simulacro no tienen todavía duración, cantidad ni
   distribución oficial;
+- la revisión factual final independiente de las 25 preguntas corregidas aún
+  no está registrada;
 - Fase 3 implementa práctica, simulacro breve, captura de confianza, una cola
   local de repaso priorizada por errores/confianza baja, IndexedDB y
   exportación/importación validada; no crea un calendario espaciado ni usa

@@ -173,6 +173,18 @@ const phase2Sources = [
   mimeType, status, notes
 }))
 
+const callSheetSources = ['121', '126', '127'].map((code) => ({
+  id: `pgn-call-${code}-2026-v3`,
+  title: `Convocatoria ${code}-2026 — versión 3`,
+  category: 'official-call-sheet-current',
+  sourcePath: `https://meritoconstruyendoexcelencia.com.co/statics/convocatorias/${code}-2026/view.pdf`,
+  targetPath: `dataset/raw/official/convocatorias/${code}-2026-v3.pdf`,
+  mimeType: 'application/pdf',
+  status: 'verified',
+  url: `https://meritoconstruyendoexcelencia.com.co/statics/convocatorias/${code}-2026/view.pdf`,
+  notes: 'Ficha oficial versión 3 visible en el portal del concurso y vinculada a la Resolución 212 de 2026; se cotejaron conocimientos, funciones, competencias y pruebas.'
+}))
+
 const pendingSources = [
   ['pgn-resolution-108-2026', 'Resolución 108 de 2026', 'https://meritoconstruyendoexcelencia.com.co/statics/normativas_especificas/RESOLUCION%20108%20DE%2023%20DE%20ABRIL%20DE%202026.pdf'],
   ['pgn-resolution-133-2026', 'Resolución 133 de 2026', 'https://meritoconstruyendoexcelencia.com.co/statics/normativas_especificas/RESOLUCIO%CC%81N%20No.%20133%20(20%20MAYO%202026).pdf'],
@@ -200,7 +212,7 @@ const pendingSources = [
 
 const inventory = []
 
-for (const source of [...localSources, ...phase2Sources]) {
+for (const source of [...localSources, ...phase2Sources, ...callSheetSources]) {
   const content = await readFile(resolve(projectRoot, source.targetPath))
   inventory.push({
     ...source,

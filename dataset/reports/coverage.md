@@ -1,7 +1,7 @@
 # Cobertura del dataset
 
-- Fuentes: **45**
-- Unidades verificables: **28**
+- Fuentes: **48**
+- Unidades verificables: **31**
 - Preguntas: **25**
 - Preguntas publicables: **2**
 
@@ -23,7 +23,7 @@
 | pending_download | 9 |
 | reference | 3 |
 | seed_unapproved | 1 |
-| verified | 4 |
+| verified | 7 |
 | needs_review | 21 |
 | retired | 0 |
 
@@ -31,15 +31,15 @@
 
 | Categoría | Cantidad |
 | --- | ---: |
-| pending_review | 23 |
-| verified | 5 |
+| pending_review | 22 |
+| verified | 9 |
 | retired | 0 |
 
 ## Fuentes por nivel de autoridad
 
 | Categoría | Cantidad |
 | --- | ---: |
-| A | 11 |
+| A | 14 |
 | B | 28 |
 | C | 0 |
 | D | 0 |
@@ -65,7 +65,7 @@
 
 | Categoría | Cantidad |
 | --- | ---: |
-| 121-2026 | 0 |
-| 126-2026 | 0 |
-| 127-2026 | 0 |
-| sin_convocatoria | 25 |
+| 121-2026 | 22 |
+| 126-2026 | 18 |
+| 127-2026 | 15 |
+| sin_convocatoria | 1 |

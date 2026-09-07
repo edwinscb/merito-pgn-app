@@ -9,27 +9,95 @@
     "difficulty": 1,
     "stem": "La Procuraduría General de la Nación forma parte principalmente de:",
     "options": [
-      { "id": "A", "text": "La Rama Judicial.", "rationale": "No corresponde: la Constitución ubica a la Procuraduría dentro del Ministerio Público." },
-      { "id": "B", "text": "El Ministerio Público.", "rationale": "Es correcta: el artículo 118 incluye al Procurador General entre quienes ejercen el Ministerio Público." },
-      { "id": "C", "text": "La Rama Ejecutiva.", "rationale": "No corresponde: la Procuraduría no integra la Rama Ejecutiva." },
-      { "id": "D", "text": "La organización electoral.", "rationale": "No corresponde: la organización electoral tiene una ubicación constitucional distinta." }
+      {
+        "id": "A",
+        "text": "La Rama Judicial.",
+        "rationale": "No corresponde: la Constitución ubica a la Procuraduría dentro del Ministerio Público."
+      },
+      {
+        "id": "B",
+        "text": "El Ministerio Público.",
+        "rationale": "Es correcta: el artículo 118 incluye al Procurador General entre quienes ejercen el Ministerio Público."
+      },
+      {
+        "id": "C",
+        "text": "La Rama Ejecutiva.",
+        "rationale": "No corresponde: la Procuraduría no integra la Rama Ejecutiva."
+      },
+      {
+        "id": "D",
+        "text": "La organización electoral.",
+        "rationale": "No corresponde: la organización electoral tiene una ubicación constitucional distinta."
+      }
     ],
     "correctOptionId": "B",
     "explanation": "La PGN integra el Ministerio Público; no pertenece a las ramas del poder público.",
     "references": [
-      { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 1 y tabla de clave", "supports": "provenance" },
-      { "sourceId": "colombia-constitution-1991", "sourceUnitId": "constitution-1991-art-118", "locator": "Artículo 118, página PDF 82", "supports": "correct_answer" }
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 1 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "colombia-constitution-1991",
+        "sourceUnitId": "constitution-1991-art-118",
+        "locator": "Artículo 118, página PDF 82",
+        "supports": "correct_answer"
+      }
     ],
-    "targetCallIds": [],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [
-      { "id": "PGN-SEED-0001-factual-1", "kind": "factual", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:07:55-05:00", "outcome": "pass", "notes": "La respuesta B coincide con el artículo 118 de la Constitución y el localizador fue comprobado en el PDF oficial." },
-      { "id": "PGN-SEED-0001-editorial-1", "kind": "editorial", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:08:00-05:00", "outcome": "pass", "notes": "El enunciado tiene una única mejor respuesta y los distractores pertenecen a categorías institucionales distintas." },
-      {"id":"PGN-SEED-0001-factual-2","kind":"factual","method":"ai_assisted","reviewerId":"/root/factual_review","model":null,"reviewedAt":"2026-09-07T03:54:23Z","outcome":"pass","notes":"Clave B y artículo 118 comprobados; organización constitucional respaldada. Informe: dataset/reports/pilot-factual-review.md."},
-      {"id":"PGN-SEED-0001-editorial-2","kind":"editorial","method":"ai_assisted","reviewerId":"/root/editorial_review","model":null,"reviewedAt":"2026-09-07T03:52:05Z","outcome":"pass","notes":"Respuesta única y racionales suficientes para diagnóstico inicial; mejoras opcionales. Informe: dataset/reports/pilot-editorial-review.md."}
+      {
+        "id": "PGN-SEED-0001-factual-1",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex",
+        "model": null,
+        "reviewedAt": "2026-09-03T20:07:55-05:00",
+        "outcome": "pass",
+        "notes": "La respuesta B coincide con el artículo 118 de la Constitución y el localizador fue comprobado en el PDF oficial."
+      },
+      {
+        "id": "PGN-SEED-0001-editorial-1",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex",
+        "model": null,
+        "reviewedAt": "2026-09-03T20:08:00-05:00",
+        "outcome": "pass",
+        "notes": "El enunciado tiene una única mejor respuesta y los distractores pertenecen a categorías institucionales distintas."
+      },
+      {
+        "id": "PGN-SEED-0001-factual-2",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/factual_review",
+        "model": null,
+        "reviewedAt": "2026-09-07T03:54:23Z",
+        "outcome": "pass",
+        "notes": "Clave B y artículo 118 comprobados; organización constitucional respaldada. Informe: dataset/reports/pilot-factual-review.md."
+      },
+      {
+        "id": "PGN-SEED-0001-editorial-2",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/editorial_review",
+        "model": null,
+        "reviewedAt": "2026-09-07T03:52:05Z",
+        "outcome": "pass",
+        "notes": "Respuesta única y racionales suficientes para diagnóstico inicial; mejoras opcionales. Informe: dataset/reports/pilot-editorial-review.md."
+      }
     ],
     "validFrom": "2026-09-06",
-    "tags": ["institucion"]
+    "tags": [
+      "institucion"
+    ]
   },
   {
     "id": "PGN-SEED-0002",
@@ -39,29 +107,97 @@
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 1,
-    "stem": "¿Cuál clasificación resume las funciones misionales generales que la Procuraduría presenta institucionalmente?",
+    "stem": "Según la presentación institucional de la PGN, ¿cuáles son sus tres funciones misionales principales?",
     "options": [
-      { "id": "A", "text": "Prevención, intervención y función disciplinaria.", "rationale": "Es correcta para la clasificación institucional general consultada; no pretende agotar todas las competencias legales." },
-      { "id": "B", "text": "Investigación penal, juzgamiento y ejecución de penas.", "rationale": "No corresponde a la clasificación misional general de la Procuraduría." },
-      { "id": "C", "text": "Control fiscal, cobro coactivo y auditoría financiera.", "rationale": "No corresponde a la clasificación misional general de la Procuraduría." },
-      { "id": "D", "text": "Organización electoral y registro civil.", "rationale": "No corresponde a la clasificación misional general de la Procuraduría." }
+      {
+        "id": "A",
+        "text": "Prevención, intervención y función disciplinaria.",
+        "rationale": "Corresponde a la agrupación institucional preventiva, de intervención y disciplinaria; no excluye la protección de derechos humanos."
+      },
+      {
+        "id": "B",
+        "text": "Investigación penal, juzgamiento y ejecución de penas.",
+        "rationale": "Confunde la misión de la PGN con investigación penal y ejecución de penas."
+      },
+      {
+        "id": "C",
+        "text": "Control fiscal, cobro coactivo y auditoría financiera.",
+        "rationale": "Atribuye a esta clasificación el control fiscal y la auditoría financiera."
+      },
+      {
+        "id": "D",
+        "text": "Organización electoral y registro civil.",
+        "rationale": "Describe asuntos electorales y registrales, no los tres frentes misionales presentados."
+      }
     ],
     "correctOptionId": "A",
-    "explanation": "La PGN presenta prevención, intervención y función disciplinaria como sus tres funciones misionales principales; otras competencias pueden coexistir en normas especiales.",
+    "explanation": "La PGN presenta las funciones preventiva, de intervención y disciplinaria como sus tres frentes misionales principales. Esta agrupación no agota las atribuciones legales ni excluye la protección de derechos humanos.",
     "references": [
-      { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 2 y tabla de clave", "supports": "provenance" },
-      { "sourceId": "pgn-functions-general", "sourceUnitId": "pgn-functions-general-review-unit", "locator": "Sección «Conozca la entidad», apartado Funciones misionales principales", "supports": "context" }
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 2 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "pgn-functions-general",
+        "sourceUnitId": "pgn-functions-general-review-unit",
+        "locator": "Sección «Conozca la entidad», apartados Funciones misionales principales y Función Preventiva",
+        "supports": "correct_answer"
+      }
     ],
-    "targetCallIds": [],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [
-      { "id": "PGN-SEED-0002-factual-1", "kind": "factual", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:07:55-05:00", "outcome": "needs_changes", "notes": "El artículo 23 también identifica funciones de protección y defensa de derechos humanos; la opción A puede percibirse como incompleta." },
-      { "id": "PGN-SEED-0002-editorial-1", "kind": "editorial", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:08:00-05:00", "outcome": "needs_changes", "notes": "Debe precisarse el alcance de «funciones misionales generales» antes de que exista una única respuesta inequívoca." },
-      {"id":"PGN-SEED-0002-factual-2","kind":"factual","method":"ai_assisted","reviewerId":"/root/factual_review","model":null,"reviewedAt":"2026-09-07T03:54:23Z","outcome":"needs_changes","notes":"Clasificación de tres funciones respaldada institucionalmente, pero falta referencia directa y racionales. Informe: dataset/reports/pilot-factual-review.md."},
-      {"id":"PGN-SEED-0002-editorial-2","kind":"editorial","method":"ai_assisted","reviewerId":"/root/editorial_review","model":null,"reviewedAt":"2026-09-07T03:52:05Z","outcome":"needs_changes","notes":"Precisar alcance de la clasificación y completar cuatro racionales. Informe: dataset/reports/pilot-editorial-review.md."}
+      {
+        "id": "PGN-SEED-0002-factual-1",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex",
+        "model": null,
+        "reviewedAt": "2026-09-03T20:07:55-05:00",
+        "outcome": "needs_changes",
+        "notes": "El artículo 23 también identifica funciones de protección y defensa de derechos humanos; la opción A puede percibirse como incompleta."
+      },
+      {
+        "id": "PGN-SEED-0002-editorial-1",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex",
+        "model": null,
+        "reviewedAt": "2026-09-03T20:08:00-05:00",
+        "outcome": "needs_changes",
+        "notes": "Debe precisarse el alcance de «funciones misionales generales» antes de que exista una única respuesta inequívoca."
+      },
+      {
+        "id": "PGN-SEED-0002-factual-2",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/factual_review",
+        "model": null,
+        "reviewedAt": "2026-09-07T03:54:23Z",
+        "outcome": "needs_changes",
+        "notes": "Clasificación de tres funciones respaldada institucionalmente, pero falta referencia directa y racionales. Informe: dataset/reports/pilot-factual-review.md."
+      },
+      {
+        "id": "PGN-SEED-0002-editorial-2",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/editorial_review",
+        "model": null,
+        "reviewedAt": "2026-09-07T03:52:05Z",
+        "outcome": "needs_changes",
+        "notes": "Precisar alcance de la clasificación y completar cuatro racionales. Informe: dataset/reports/pilot-editorial-review.md."
+      }
     ],
     "validFrom": null,
-    "tags": ["funciones"]
+    "tags": [
+      "funciones"
+    ]
   },
   {
     "id": "PGN-SEED-0003",
@@ -71,29 +207,97 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "En una actuación preventiva, la Procuraduría debe vigilar y advertir posibles infracciones dentro de sus competencias, sin coadministrar. ¿Cuál actuación es compatible?",
+    "stem": "Una entidad vigilada prepara una decisión administrativa y la PGN detecta un posible riesgo dentro de su competencia preventiva. ¿Cuál actuación respeta el límite de no coadministración?",
     "options": [
-      { "id": "A", "text": "Sustituir permanentemente a la entidad vigilada.", "rationale": "No corresponde: sustituye la gestión de la entidad vigilada." },
-      { "id": "B", "text": "Advertir una situación de riesgo sin asumir la gestión de la entidad.", "rationale": "Es correcta: expresa vigilancia y advertencia sin coadministración." },
-      { "id": "C", "text": "Imponer siempre una sanción disciplinaria.", "rationale": "No corresponde: prevención y sanción disciplinaria son actuaciones diferentes." },
-      { "id": "D", "text": "Ordenar directamente cualquier gasto público.", "rationale": "No corresponde: una orden general de gasto sería ajena al alcance preventivo descrito." }
+      {
+        "id": "A",
+        "text": "Sustituir permanentemente a la entidad vigilada.",
+        "rationale": "Sustituir a la entidad implica asumir su gestión, excediendo el alcance descrito."
+      },
+      {
+        "id": "B",
+        "text": "Advertir una situación de riesgo sin asumir la gestión de la entidad.",
+        "rationale": "Vigilar y advertir conserva la responsabilidad de gestión en la entidad vigilada."
+      },
+      {
+        "id": "C",
+        "text": "Imponer siempre una sanción disciplinaria.",
+        "rationale": "La actuación preventiva no equivale a imponer una sanción en todo caso."
+      },
+      {
+        "id": "D",
+        "text": "Ordenar directamente cualquier gasto público.",
+        "rationale": "La función preventiva descrita no otorga una potestad general para ordenar gastos."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "La función preventiva permite vigilar y advertir, pero no coadministrar ni reemplazar a la entidad vigilada.",
+    "explanation": "La presentación institucional describe vigilancia de la actuación de servidores y advertencia de posibles infracciones, sin intromisión en la administración. Advertir el riesgo es distinto de asumir las decisiones de la entidad vigilada.",
     "references": [
-      { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 3 y tabla de clave", "supports": "provenance" },
-      { "sourceId": "pgn-functions-general", "sourceUnitId": "pgn-functions-general-review-unit", "locator": "Sección «Conozca la entidad», apartado Función Preventiva", "supports": "context" }
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 3 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "pgn-functions-general",
+        "sourceUnitId": "pgn-functions-general-review-unit",
+        "locator": "Sección «Conozca la entidad», apartados Funciones misionales principales y Función Preventiva",
+        "supports": "correct_answer"
+      }
     ],
-    "targetCallIds": [],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [
-      { "id": "PGN-SEED-0003-factual-1", "kind": "factual", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:07:55-05:00", "outcome": "pass", "notes": "La respuesta B reproduce el alcance preventivo explicado por la PGN en contenido institucional oficial de 2026." },
-      { "id": "PGN-SEED-0003-editorial-1", "kind": "editorial", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:08:00-05:00", "outcome": "pass", "notes": "La situación y los distractores distinguen con claridad prevención, coadministración y sanción." },
-      {"id":"PGN-SEED-0003-factual-2","kind":"factual","method":"ai_assisted","reviewerId":"/root/factual_review","model":null,"reviewedAt":"2026-09-07T03:54:23Z","outcome":"fail","notes":"El localizador original no existe y el boletín no sustenta el contenido atribuido ni gestionar riesgos. Informe: dataset/reports/pilot-factual-review.md."},
-      {"id":"PGN-SEED-0003-editorial-2","kind":"editorial","method":"ai_assisted","reviewerId":"/root/editorial_review","model":null,"reviewedAt":"2026-09-07T03:52:05Z","outcome":"needs_changes","notes":"Gestionar riesgos es ambiguo y no hay caso para clasificar como application. Informe: dataset/reports/pilot-editorial-review.md."}
+      {
+        "id": "PGN-SEED-0003-factual-1",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex",
+        "model": null,
+        "reviewedAt": "2026-09-03T20:07:55-05:00",
+        "outcome": "pass",
+        "notes": "La respuesta B reproduce el alcance preventivo explicado por la PGN en contenido institucional oficial de 2026."
+      },
+      {
+        "id": "PGN-SEED-0003-editorial-1",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex",
+        "model": null,
+        "reviewedAt": "2026-09-03T20:08:00-05:00",
+        "outcome": "pass",
+        "notes": "La situación y los distractores distinguen con claridad prevención, coadministración y sanción."
+      },
+      {
+        "id": "PGN-SEED-0003-factual-2",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/factual_review",
+        "model": null,
+        "reviewedAt": "2026-09-07T03:54:23Z",
+        "outcome": "fail",
+        "notes": "El localizador original no existe y el boletín no sustenta el contenido atribuido ni gestionar riesgos. Informe: dataset/reports/pilot-factual-review.md."
+      },
+      {
+        "id": "PGN-SEED-0003-editorial-2",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/editorial_review",
+        "model": null,
+        "reviewedAt": "2026-09-07T03:52:05Z",
+        "outcome": "needs_changes",
+        "notes": "Gestionar riesgos es ambiguo y no hay caso para clasificar como application. Informe: dataset/reports/pilot-editorial-review.md."
+      }
     ],
     "validFrom": null,
-    "tags": ["prevencion"]
+    "tags": [
+      "prevencion"
+    ]
   },
   {
     "id": "PGN-SEED-0004",
@@ -105,60 +309,195 @@
     "difficulty": 1,
     "stem": "¿Cuál conjunto corresponde a principios constitucionales de la función administrativa?",
     "options": [
-      { "id": "A", "text": "Reserva, jerarquía, rentabilidad y competencia.", "rationale": "No corresponde al listado del artículo 209; incluye conceptos que este no enuncia como principios de la función administrativa." },
-      { "id": "B", "text": "Igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.", "rationale": "Es correcta: contiene exactamente los siete principios enumerados en el artículo 209." },
-      { "id": "C", "text": "Autonomía privada, libertad contractual y beneficio.", "rationale": "No corresponde: son conceptos propios de relaciones privadas o económicas, no el listado constitucional consultado." },
-      { "id": "D", "text": "Secreto, centralización, informalidad y discrecionalidad.", "rationale": "No corresponde al listado constitucional y contradice, entre otros, el principio de publicidad." }
+      {
+        "id": "A",
+        "text": "Reserva, jerarquía, rentabilidad y competencia.",
+        "rationale": "No corresponde al listado del artículo 209; incluye conceptos que este no enuncia como principios de la función administrativa."
+      },
+      {
+        "id": "B",
+        "text": "Igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.",
+        "rationale": "Es correcta: contiene exactamente los siete principios enumerados en el artículo 209."
+      },
+      {
+        "id": "C",
+        "text": "Autonomía privada, libertad contractual y beneficio.",
+        "rationale": "No corresponde: son conceptos propios de relaciones privadas o económicas, no el listado constitucional consultado."
+      },
+      {
+        "id": "D",
+        "text": "Secreto, centralización, informalidad y discrecionalidad.",
+        "rationale": "No corresponde al listado constitucional y contradice, entre otros, el principio de publicidad."
+      }
     ],
     "correctOptionId": "B",
     "explanation": "Es el conjunto constitucional de principios de la función administrativa.",
     "references": [
-      { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 4 y tabla de clave", "supports": "provenance" },
-      { "sourceId": "colombia-constitution-1991", "sourceUnitId": "constitution-1991-art-209", "locator": "Artículo 209, página PDF 135", "supports": "correct_answer" }
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 4 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "colombia-constitution-1991",
+        "sourceUnitId": "constitution-1991-art-209",
+        "locator": "Artículo 209, página PDF 135",
+        "supports": "correct_answer"
+      }
     ],
-    "targetCallIds": [],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [
-      { "id": "PGN-SEED-0004-factual-1", "kind": "factual", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:07:55-05:00", "outcome": "pass", "notes": "La opción B coincide con la enumeración del artículo 209 en el PDF oficial." },
-      { "id": "PGN-SEED-0004-editorial-1", "kind": "editorial", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:08:00-05:00", "outcome": "pass", "notes": "La pregunta pide un conjunto textual y solo la opción B satisface el criterio." },
-      {"id":"PGN-SEED-0004-factual-2","kind":"factual","method":"ai_assisted","reviewerId":"/root/factual_review","model":null,"reviewedAt":"2026-09-07T03:54:23Z","outcome":"pass","notes":"Clave B coincide con los siete principios del artículo 209 en la página PDF 135. Informe: dataset/reports/pilot-factual-review.md."},
-      {"id":"PGN-SEED-0004-editorial-2","kind":"editorial","method":"ai_assisted","reviewerId":"/root/editorial_review","model":null,"reviewedAt":"2026-09-07T03:52:05Z","outcome":"pass","notes":"Solo B reproduce el conjunto solicitado; racionales suficientes. Informe: dataset/reports/pilot-editorial-review.md."}
+      {
+        "id": "PGN-SEED-0004-factual-1",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex",
+        "model": null,
+        "reviewedAt": "2026-09-03T20:07:55-05:00",
+        "outcome": "pass",
+        "notes": "La opción B coincide con la enumeración del artículo 209 en el PDF oficial."
+      },
+      {
+        "id": "PGN-SEED-0004-editorial-1",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex",
+        "model": null,
+        "reviewedAt": "2026-09-03T20:08:00-05:00",
+        "outcome": "pass",
+        "notes": "La pregunta pide un conjunto textual y solo la opción B satisface el criterio."
+      },
+      {
+        "id": "PGN-SEED-0004-factual-2",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/factual_review",
+        "model": null,
+        "reviewedAt": "2026-09-07T03:54:23Z",
+        "outcome": "pass",
+        "notes": "Clave B coincide con los siete principios del artículo 209 en la página PDF 135. Informe: dataset/reports/pilot-factual-review.md."
+      },
+      {
+        "id": "PGN-SEED-0004-editorial-2",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/editorial_review",
+        "model": null,
+        "reviewedAt": "2026-09-07T03:52:05Z",
+        "outcome": "pass",
+        "notes": "Solo B reproduce el conjunto solicitado; racionales suficientes. Informe: dataset/reports/pilot-editorial-review.md."
+      }
     ],
     "validFrom": "2026-09-06",
-    "tags": ["principios"]
+    "tags": [
+      "principios"
+    ]
   },
   {
     "id": "PGN-SEED-0005",
     "status": "needs_review",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
-    "secondaryTopicIds": ["competencias_comportamentales"],
+    "secondaryTopicIds": [
+      "competencias_comportamentales"
+    ],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "Un servidor participa en la decisión de adjudicar un contrato a una empresa en la que su cónyuge tiene un interés particular y directo. La conducta adecuada es:",
+    "stem": "Un servidor que decide un asunto administrativo tiene un interés particular y directo en él. Según el artículo 11 del CPACA, ¿qué deber se activa ante el conflicto con el interés general?",
     "options": [
-      { "id": "A", "text": "Decidir rápidamente antes de que se conozca el conflicto.", "rationale": "No corresponde: acelerar la decisión no elimina el deber de declararse impedido." },
-      { "id": "B", "text": "Informar el conflicto y seguir el procedimiento de impedimento aplicable.", "rationale": "Es correcta: los artículos 11 y 12 exigen declarar y tramitar el impedimento." },
-      { "id": "C", "text": "Delegar informalmente la firma sin dejar registro.", "rationale": "No corresponde: omite la declaración motivada y el trámite formal." },
-      { "id": "D", "text": "Continuar si considera subjetivamente que será imparcial.", "rationale": "No corresponde: la valoración personal no sustituye la causal ni su trámite." }
+      {
+        "id": "A",
+        "text": "Decidir rápidamente antes de que se conozca el conflicto.",
+        "rationale": "La rapidez no elimina el interés particular y directo del servidor."
+      },
+      {
+        "id": "B",
+        "text": "Declararse impedido por ese conflicto de interés.",
+        "rationale": "Es el deber expresamente asociado al conflicto por el artículo 11."
+      },
+      {
+        "id": "C",
+        "text": "Delegar informalmente la firma sin dejar registro.",
+        "rationale": "Una delegación informal no sustituye la declaración de impedimento."
+      },
+      {
+        "id": "D",
+        "text": "Continuar si considera subjetivamente que será imparcial.",
+        "rationale": "La convicción subjetiva de imparcialidad no elimina la causal descrita."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Ante un interés particular y directo que entra en conflicto con el interés general, debe declararse el impedimento y tramitarlo formalmente.",
+    "explanation": "El artículo 11 del CPACA exige declararse impedido cuando el interés general de la función entra en conflicto con el interés particular y directo del servidor. La pregunta evalúa este deber, sin describir todo el trámite del artículo 12.",
     "references": [
-      { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 5 y tabla de clave", "supports": "provenance" },
-      { "sourceId": "law-1437-2011", "sourceUnitId": "law-1437-2011-art-11", "locator": "Artículo 11, páginas PDF 7 a 9", "supports": "correct_answer" },
-      { "sourceId": "law-1437-2011", "sourceUnitId": "law-1437-2011-art-12", "locator": "Artículo 12, página PDF 9 y reglas subsidiarias del trámite", "supports": "context" }
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 5 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-11",
+        "locator": "Artículo 11, páginas PDF 7 a 9",
+        "supports": "correct_answer"
+      }
     ],
-    "targetCallIds": [],
+    "targetCallIds": [
+      "121-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [
-      { "id": "PGN-SEED-0005-factual-1", "kind": "factual", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:07:55-05:00", "outcome": "pass", "notes": "La declaración del impedimento y su trámite están respaldados respectivamente por los artículos 11 y 12 de la Ley 1437." },
-      { "id": "PGN-SEED-0005-editorial-1", "kind": "editorial", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:08:00-05:00", "outcome": "pass", "notes": "La opción B es la única que exige revelar y tramitar formalmente el conflicto." },
-      {"id":"PGN-SEED-0005-factual-2","kind":"factual","method":"ai_assisted","reviewerId":"/root/factual_review","model":null,"reviewedAt":"2026-09-07T03:54:23Z","outcome":"needs_changes","notes":"Precisar interés particular y directo; la unidad del artículo 12 omite rutas subsidiarias. Informe: dataset/reports/pilot-factual-review.md."},
-      {"id":"PGN-SEED-0005-editorial-2","kind":"editorial","method":"ai_assisted","reviewerId":"/root/editorial_review","model":null,"reviewedAt":"2026-09-07T03:52:05Z","outcome":"needs_changes","notes":"El caso dice posible conflicto y los racionales presuponen deber configurado; alinear supuesto y explicación. Informe: dataset/reports/pilot-editorial-review.md."}
+      {
+        "id": "PGN-SEED-0005-factual-1",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex",
+        "model": null,
+        "reviewedAt": "2026-09-03T20:07:55-05:00",
+        "outcome": "pass",
+        "notes": "La declaración del impedimento y su trámite están respaldados respectivamente por los artículos 11 y 12 de la Ley 1437."
+      },
+      {
+        "id": "PGN-SEED-0005-editorial-1",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex",
+        "model": null,
+        "reviewedAt": "2026-09-03T20:08:00-05:00",
+        "outcome": "pass",
+        "notes": "La opción B es la única que exige revelar y tramitar formalmente el conflicto."
+      },
+      {
+        "id": "PGN-SEED-0005-factual-2",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/factual_review",
+        "model": null,
+        "reviewedAt": "2026-09-07T03:54:23Z",
+        "outcome": "needs_changes",
+        "notes": "Precisar interés particular y directo; la unidad del artículo 12 omite rutas subsidiarias. Informe: dataset/reports/pilot-factual-review.md."
+      },
+      {
+        "id": "PGN-SEED-0005-editorial-2",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/editorial_review",
+        "model": null,
+        "reviewedAt": "2026-09-07T03:52:05Z",
+        "outcome": "needs_changes",
+        "notes": "El caso dice posible conflicto y los racionales presuponen deber configurado; alinear supuesto y explicación. Informe: dataset/reports/pilot-editorial-review.md."
+      }
     ],
     "validFrom": null,
-    "tags": ["conflicto_de_interes"]
+    "tags": [
+      "conflicto_de_interes"
+    ]
   },
   {
     "id": "PGN-SEED-0006",
@@ -168,21 +507,54 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "Frente a una solicitud ciudadana, la primera evaluación debe identificar:",
+    "stem": "Una entidad recibe una petición escrita que debe tramitar conforme a la Ley 1755 de 2015. ¿Qué aspectos permiten determinar quién debe responder y qué término corresponde?",
     "options": [
-      { "id": "A", "text": "Si el solicitante tiene influencia política.", "rationale": null },
-      { "id": "B", "text": "Competencia, contenido, términos y eventual reserva de la información.", "rationale": null },
-      { "id": "C", "text": "Si responder mejora los indicadores del área.", "rationale": null },
-      { "id": "D", "text": "Si puede archivarse sin radicación.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Si el solicitante tiene influencia política.",
+        "rationale": "La influencia política del peticionario no determina la competencia ni el término legal."
+      },
+      {
+        "id": "B",
+        "text": "El contenido y la modalidad de la petición, la competencia de la autoridad y el término aplicable.",
+        "rationale": "La modalidad y contenido permiten determinar el término y examinar la autoridad competente."
+      },
+      {
+        "id": "C",
+        "text": "Si responder mejora los indicadores del área.",
+        "rationale": "La conveniencia de un indicador interno no define el trámite legal."
+      },
+      {
+        "id": "D",
+        "text": "Si puede archivarse sin radicación.",
+        "rationale": "Omitir la radicación no determina competencia ni término de respuesta."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Competencia, alcance, términos y reserva determinan el trámite correcto.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 6 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "Los artículos 13 a 16 regulan modalidades, términos y contenido de la petición, y el artículo 21 trata la falta de competencia. Estos aspectos orientan el trámite; no se plantea una secuencia universal ni se evalúa aquí el régimen de reserva.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 6 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "law-1755-2015",
+        "sourceUnitId": "law-1755-2015-review-unit",
+        "locator": "Ley 1755 de 2015, artículos 13 a 16 y 21",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["solicitud_ciudadana"]
+    "tags": [
+      "solicitud_ciudadana"
+    ]
   },
   {
     "id": "PGN-SEED-0007",
@@ -192,21 +564,52 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "Si un documento contiene información pública y datos personales protegidos, la respuesta más adecuada suele ser:",
+    "stem": "Un documento solicitado contiene información pública y una parte separable cubierta por una excepción legal de acceso. Según el artículo 21 de la Ley 1712 de 2014, ¿cómo se atiende el acceso al resto del documento?",
     "options": [
-      { "id": "A", "text": "Negar automáticamente todo el documento.", "rationale": null },
-      { "id": "B", "text": "Publicar el documento completo.", "rationale": null },
-      { "id": "C", "text": "Evaluar acceso parcial, anonimización o versión pública y motivar la decisión.", "rationale": null },
-      { "id": "D", "text": "Entregarlo solo verbalmente.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Negar automáticamente todo el documento.",
+        "rationale": "La excepción sobre una parte separable no justifica negar automáticamente la totalidad."
+      },
+      {
+        "id": "B",
+        "text": "Publicar el documento completo.",
+        "rationale": "La entrega íntegra revelaría también la parte exceptuada."
+      },
+      {
+        "id": "C",
+        "text": "Elaborar una versión pública que reserve únicamente la parte protegida.",
+        "rationale": "La versión pública preserva el acceso a la parte no protegida."
+      },
+      {
+        "id": "D",
+        "text": "Entregarlo solo verbalmente.",
+        "rationale": "El medio verbal no resuelve la separación entre información pública y exceptuada."
+      }
     ],
     "correctOptionId": "C",
-    "explanation": "Debe buscarse acceso compatible con protección de datos y decisión motivada.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 7 y tabla de clave", "supports": "provenance" }],
+    "explanation": "El acceso parcial permite entregar la parte pública y reservar la parte amparada por la excepción. No se presume que cualquier dato personal haga reservado todo el documento ni que toda anonimización sea suficiente.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 7 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "law-1712-2014",
+        "sourceUnitId": "law-1712-2014-review-unit",
+        "locator": "Ley 1712 de 2014, artículos 18 y 21",
+        "supports": "correct_answer"
+      }
+    ],
     "targetCallIds": [],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["datos_personales"]
+    "tags": [
+      "datos_personales"
+    ]
   },
   {
     "id": "PGN-SEED-0008",
@@ -216,21 +619,56 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "¿Qué práctica fortalece la gestión documental?",
+    "stem": "Un área organiza expedientes electrónicos y necesita conservar su contexto, seguimiento y disposición. ¿Qué práctica apoya esos objetivos de gestión documental?",
     "options": [
-      { "id": "A", "text": "Guardar copias finales en cuentas personales.", "rationale": null },
-      { "id": "B", "text": "Aplicar clasificación, metadatos, trazabilidad y tiempos de retención.", "rationale": null },
-      { "id": "C", "text": "Eliminar borradores y expedientes sin regla documental.", "rationale": null },
-      { "id": "D", "text": "Cambiar nombres de archivos para evitar búsquedas.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Guardar copias finales en cuentas personales.",
+        "rationale": "Las cuentas personales dispersan el expediente fuera de los controles institucionales."
+      },
+      {
+        "id": "B",
+        "text": "Aplicar clasificación, metadatos, trazabilidad y tiempos de retención.",
+        "rationale": "Clasificación, metadatos y reglas de retención apoyan organización, seguimiento y disposición."
+      },
+      {
+        "id": "C",
+        "text": "Eliminar borradores y expedientes sin regla documental.",
+        "rationale": "Eliminar sin instrumentos archivísticos desconoce el control de disposición."
+      },
+      {
+        "id": "D",
+        "text": "Cambiar nombres de archivos para evitar búsquedas.",
+        "rationale": "Ocultar archivos mediante sus nombres dificulta su identificación y recuperación."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Clasificación, trazabilidad y retención sostienen autenticidad y recuperación.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 8 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "La clasificación organiza expedientes, los metadatos preservan contexto y los instrumentos archivísticos orientan control y disposición. Estas prácticas apoyan la recuperación y trazabilidad sin garantizarlas por sí solas.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 8 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "decree-1080-2015-archives",
+        "sourceUnitId": "decree-1080-2015-archives-review-unit",
+        "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 y 2.8.2.7.9",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["gestion_documental"]
+    "tags": [
+      "gestion_documental"
+    ]
   },
   {
     "id": "PGN-SEED-0009",
@@ -242,19 +680,54 @@
     "difficulty": 1,
     "stem": "En el ciclo PHVA, comprobar indicadores y contrastarlos con metas corresponde principalmente a:",
     "options": [
-      { "id": "A", "text": "Planear.", "rationale": null },
-      { "id": "B", "text": "Hacer.", "rationale": null },
-      { "id": "C", "text": "Verificar.", "rationale": null },
-      { "id": "D", "text": "Actuar.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Planear.",
+        "rationale": "Planear define objetivos y acciones antes de ejecutarlos."
+      },
+      {
+        "id": "B",
+        "text": "Hacer.",
+        "rationale": "Hacer corresponde a ejecutar lo planificado."
+      },
+      {
+        "id": "C",
+        "text": "Verificar.",
+        "rationale": "Verificar compara resultados e indicadores con lo previsto."
+      },
+      {
+        "id": "D",
+        "text": "Actuar.",
+        "rationale": "Actuar adopta ajustes a partir de lo verificado; no es la comparación misma."
+      }
     ],
     "correctOptionId": "C",
     "explanation": "Verificar compara desempeño y metas; actuar introduce ajustes.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 9 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 9 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "minvivienda-phva-methodology",
+        "sourceUnitId": "minvivienda-phva-methodology-review-unit",
+        "locator": "Metodología de indicadores de gestión, página PDF 2, Introducción",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["phva"]
+    "tags": [
+      "phva"
+    ]
   },
   {
     "id": "PGN-SEED-0010",
@@ -264,21 +737,56 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "En contratación estatal, una necesidad tecnológica debería comenzar por:",
+    "stem": "En un proceso sujeto al Estatuto General de Contratación, ¿qué actuación expresa la planeación previa a iniciar la selección de un proveedor tecnológico?",
     "options": [
-      { "id": "A", "text": "Elegir proveedor y luego justificar la necesidad.", "rationale": null },
-      { "id": "B", "text": "Definir necesidad, alcance, alternativas, riesgos y estudios previos.", "rationale": null },
-      { "id": "C", "text": "Firmar el contrato y después asignar presupuesto.", "rationale": null },
-      { "id": "D", "text": "Publicar código fuente antes de establecer requisitos.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Elegir proveedor y luego justificar la necesidad.",
+        "rationale": "Elegir primero al proveedor invierte la justificación previa del proceso."
+      },
+      {
+        "id": "B",
+        "text": "Analizar conveniencia y necesidad y elaborar los estudios requeridos para el procedimiento.",
+        "rationale": "El análisis y los estudios previos permiten sustentar la selección conforme al procedimiento."
+      },
+      {
+        "id": "C",
+        "text": "Firmar el contrato y después asignar presupuesto.",
+        "rationale": "Firmar primero no sustituye los requisitos de planeación previos."
+      },
+      {
+        "id": "D",
+        "text": "Publicar código fuente antes de establecer requisitos.",
+        "rationale": "Publicar código no establece la necesidad ni reemplaza los estudios requeridos."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "La planeación antecede la selección y ejecución contractual.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 10 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "El artículo 25 de la Ley 80 ubica el análisis de conveniencia y los estudios antes de la selección o contratación, según corresponda. Es un principio de planeación, no una lista exhaustiva de requisitos para todos los regímenes.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 10 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "law-80-1993-review-unit",
+        "locator": "Ley 80 de 1993, artículo 25, numerales 7 y 12",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["planeacion_contractual"]
+    "tags": [
+      "planeacion_contractual"
+    ]
   },
   {
     "id": "PGN-SEED-0011",
@@ -286,23 +794,56 @@
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
-    "questionType": "technical_analysis",
+    "questionType": "conceptual",
     "difficulty": 1,
-    "stem": "Un indicador útil debe conectar correctamente:",
+    "stem": "Para documentar un indicador de seguimiento a un objetivo de gestión, ¿qué conjunto aporta información sobre cálculo, datos, frecuencia y responsabilidad?",
     "options": [
-      { "id": "A", "text": "Opinión, intuición y presentación.", "rationale": null },
-      { "id": "B", "text": "Objetivo, fórmula, fuente, periodicidad, meta y responsable.", "rationale": null },
-      { "id": "C", "text": "Servidor, lenguaje y proveedor.", "rationale": null },
-      { "id": "D", "text": "Documento, color y tamaño de archivo.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Opinión, intuición y presentación.",
+        "rationale": "Opinión y presentación no indican cómo calcular ni verificar el indicador."
+      },
+      {
+        "id": "B",
+        "text": "Objetivo, fórmula, fuente, periodicidad, meta y responsable.",
+        "rationale": "Incluye forma de cálculo, procedencia de datos, frecuencia, meta y responsabilidad."
+      },
+      {
+        "id": "C",
+        "text": "Servidor, lenguaje y proveedor.",
+        "rationale": "La tecnología utilizada no define la medición del objetivo."
+      },
+      {
+        "id": "D",
+        "text": "Documento, color y tamaño de archivo.",
+        "rationale": "El formato visual o tamaño del archivo no define la medición."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Sin definición, fuente, meta y responsable el indicador no es controlable.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 11 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "Una ficha de seguimiento relaciona el objetivo con su forma de medición, la fuente, periodicidad, meta y responsable. Es un conjunto de elementos pertinentes, no una definición exhaustiva ni un formato exclusivo de la PGN.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 11 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "funcion-publica-indicators",
+        "sourceUnitId": "funcion-publica-indicators-review-unit",
+        "locator": "Función Pública, MIPG, políticas de evaluación y seguimiento, lineamientos",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["indicadores"]
+    "tags": [
+      "indicadores"
+    ]
   },
   {
     "id": "PGN-SEED-0012",
@@ -312,21 +853,54 @@
     "secondaryTopicIds": [],
     "questionType": "technical_analysis",
     "difficulty": 1,
-    "stem": "Una alta correlación entre dos variables permite concluir que:",
+    "stem": "En los datos analizados se observa una correlación alta entre dos variables. ¿Qué interpretación respeta el límite de esa evidencia?",
     "options": [
-      { "id": "A", "text": "Una causa necesariamente la otra.", "rationale": null },
-      { "id": "B", "text": "Existe asociación, pero la causalidad requiere evidencia adicional.", "rationale": null },
-      { "id": "C", "text": "Ambas variables son idénticas.", "rationale": null },
-      { "id": "D", "text": "El análisis no contiene sesgo.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Una causa necesariamente la otra.",
+        "rationale": "Una asociación observada no demuestra que una variable cause la otra."
+      },
+      {
+        "id": "B",
+        "text": "Se observa asociación estadística, pero la correlación por sí sola no demuestra causalidad.",
+        "rationale": "Distingue asociación estadística de la evidencia necesaria para sostener causalidad."
+      },
+      {
+        "id": "C",
+        "text": "Ambas variables son idénticas.",
+        "rationale": "Dos variables pueden correlacionarse sin ser idénticas."
+      },
+      {
+        "id": "D",
+        "text": "El análisis no contiene sesgo.",
+        "rationale": "El coeficiente no demuestra ausencia de sesgos de selección o medición."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Correlación no demuestra causalidad.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 12 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "Una correlación describe asociación en los datos observados. No demuestra por sí sola causalidad, identidad entre variables ni ausencia de sesgos; interpretar causas requiere evidencia adicional.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 12 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "nist-correlation",
+        "sourceUnitId": "nist-correlation-review-unit",
+        "locator": "NIST Engineering Statistics Handbook, sección correlation and causation",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["correlacion"]
+    "tags": [
+      "correlacion"
+    ]
   },
   {
     "id": "PGN-SEED-0013",
@@ -336,21 +910,54 @@
     "secondaryTopicIds": [],
     "questionType": "technical_analysis",
     "difficulty": 1,
-    "stem": "Para estimar satisfacción institucional se encuesta solo a usuarios que completaron exitosamente un trámite digital. El riesgo principal es:",
+    "stem": "Para estimar satisfacción con un trámite digital se encuesta solo a quienes lo completaron exitosamente, excluyendo a quienes abandonaron o fallaron. ¿Qué riesgo introduce esa selección?",
     "options": [
-      { "id": "A", "text": "Normalización excesiva.", "rationale": null },
-      { "id": "B", "text": "Sesgo de selección.", "rationale": null },
-      { "id": "C", "text": "Cifrado asimétrico.", "rationale": null },
-      { "id": "D", "text": "Integridad referencial.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Normalización excesiva.",
+        "rationale": "La normalización de datos no explica la exclusión sistemática de usuarios."
+      },
+      {
+        "id": "B",
+        "text": "Sesgo de selección.",
+        "rationale": "La selección deja fuera experiencias que pueden diferir de las de usuarios exitosos."
+      },
+      {
+        "id": "C",
+        "text": "Cifrado asimétrico.",
+        "rationale": "El cifrado no describe cómo se seleccionan participantes."
+      },
+      {
+        "id": "D",
+        "text": "Integridad referencial.",
+        "rationale": "La integridad referencial trata relaciones entre registros, no representatividad de la muestra."
+      }
     ],
     "correctOptionId": "B",
     "explanation": "La muestra excluye a usuarios que abandonaron o fallaron el trámite.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 13 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 13 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "cdc-data-analysis",
+        "sourceUnitId": "cdc-data-analysis-review-unit",
+        "locator": "CDC Field Epidemiology Manual, capítulo Analyze and interpret data",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["sesgo_de_seleccion"]
+    "tags": [
+      "sesgo_de_seleccion"
+    ]
   },
   {
     "id": "PGN-SEED-0014",
@@ -360,21 +967,54 @@
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 1,
-    "stem": "Un análisis descriptivo responde principalmente:",
+    "stem": "¿Qué pregunta corresponde al análisis descriptivo de los datos observados?",
     "options": [
-      { "id": "A", "text": "¿Qué ocurrió y cómo se distribuyen los datos?", "rationale": null },
-      { "id": "B", "text": "¿Qué ocurrirá con certeza?", "rationale": null },
-      { "id": "C", "text": "¿Qué decisión es jurídicamente obligatoria?", "rationale": null },
-      { "id": "D", "text": "¿Qué contraseña debe utilizarse?", "rationale": null }
+      {
+        "id": "A",
+        "text": "¿Qué ocurrió y cómo se distribuyen los datos?",
+        "rationale": "Resume lo observado y su distribución, finalidad descriptiva."
+      },
+      {
+        "id": "B",
+        "text": "¿Qué ocurrirá con certeza?",
+        "rationale": "Una predicción cierta no se deriva de describir los datos."
+      },
+      {
+        "id": "C",
+        "text": "¿Qué decisión es jurídicamente obligatoria?",
+        "rationale": "La obligatoriedad jurídica requiere examinar reglas normativas, no solo describir datos."
+      },
+      {
+        "id": "D",
+        "text": "¿Qué contraseña debe utilizarse?",
+        "rationale": "Elegir credenciales no es una tarea de análisis descriptivo."
+      }
     ],
     "correctOptionId": "A",
     "explanation": "La descripción resume lo observado; no garantiza predicción ni causalidad.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 14 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 14 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "cdc-data-analysis",
+        "sourceUnitId": "cdc-data-analysis-review-unit",
+        "locator": "CDC Field Epidemiology Manual, capítulo Analyze and interpret data",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["analisis_descriptivo"]
+    "tags": [
+      "analisis_descriptivo"
+    ]
   },
   {
     "id": "PGN-SEED-0015",
@@ -384,21 +1024,55 @@
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 1,
-    "stem": "Una clave foránea en una base de datos relacional ayuda a:",
+    "stem": "En una base relacional, una restricción de clave foránea referencia una clave de otra tabla. ¿Qué finalidad tiene esa restricción?",
     "options": [
-      { "id": "A", "text": "Comprimir automáticamente todas las tablas.", "rationale": null },
-      { "id": "B", "text": "Mantener integridad entre registros relacionados.", "rationale": null },
-      { "id": "C", "text": "Cifrar todas las columnas.", "rationale": null },
-      { "id": "D", "text": "Sustituir las copias de seguridad.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Comprimir automáticamente todas las tablas.",
+        "rationale": "La compresión reduce almacenamiento y no es el objetivo de una clave foránea."
+      },
+      {
+        "id": "B",
+        "text": "Mantener referencias válidas entre los registros de las tablas relacionadas.",
+        "rationale": "La restricción relaciona referencias de la tabla hija con claves válidas."
+      },
+      {
+        "id": "C",
+        "text": "Cifrar todas las columnas.",
+        "rationale": "El cifrado protege contenido y no es función de esta restricción."
+      },
+      {
+        "id": "D",
+        "text": "Sustituir las copias de seguridad.",
+        "rationale": "Una referencia válida no permite recuperar datos perdidos sin respaldos."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "La clave foránea protege relaciones válidas entre tablas.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 15 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "La restricción comprueba que las referencias no nulas correspondan a claves válidas, evitando registros huérfanos conforme a las reglas declaradas. No sustituye respaldos, cifrado ni otros controles de integridad.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 15 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "missouri-db-integrity",
+        "sourceUnitId": "missouri-db-integrity-review-unit",
+        "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["bases_de_datos"]
+    "tags": [
+      "bases_de_datos"
+    ]
   },
   {
     "id": "PGN-SEED-0016",
@@ -408,21 +1082,54 @@
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 1,
-    "stem": "Una transacción debe revertirse si una operación crítica intermedia falla para preservar principalmente:",
+    "stem": "En una transacción con semántica todo-o-nada, las operaciones se confirman juntas o se revierten si no puede completarse el conjunto. ¿Qué propiedad expresa?",
     "options": [
-      { "id": "A", "text": "Atomicidad.", "rationale": null },
-      { "id": "B", "text": "Latencia.", "rationale": null },
-      { "id": "C", "text": "Disponibilidad geográfica.", "rationale": null },
-      { "id": "D", "text": "Compresión.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Atomicidad.",
+        "rationale": "Atomicidad es la propiedad todo-o-nada del conjunto transaccional."
+      },
+      {
+        "id": "B",
+        "text": "Latencia.",
+        "rationale": "La latencia mide demora, no confirmación indivisible."
+      },
+      {
+        "id": "C",
+        "text": "Disponibilidad geográfica.",
+        "rationale": "La disponibilidad geográfica trata acceso al servicio en ubicaciones, no atomicidad."
+      },
+      {
+        "id": "D",
+        "text": "Compresión.",
+        "rationale": "La compresión trata representación y tamaño de datos."
+      }
     ],
     "correctOptionId": "A",
-    "explanation": "Atomicidad exige completar todas las operaciones o revertir el conjunto.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 16 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "La atomicidad trata las operaciones de una transacción como un conjunto indivisible: se confirman todas o no se confirma ninguna. No supone revertir efectos externos ajenos a la transacción.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 16 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "nist-acid",
+        "sourceUnitId": "nist-acid-review-unit",
+        "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["transacciones"]
+    "tags": [
+      "transacciones"
+    ]
   },
   {
     "id": "PGN-SEED-0017",
@@ -434,19 +1141,54 @@
     "difficulty": 1,
     "stem": "El principio de mínimo privilegio indica que una identidad debe recibir:",
     "options": [
-      { "id": "A", "text": "Acceso administrativo para evitar bloqueos.", "rationale": null },
-      { "id": "B", "text": "Solo los permisos necesarios, durante el tiempo necesario.", "rationale": null },
-      { "id": "C", "text": "Los mismos permisos que su jefe.", "rationale": null },
-      { "id": "D", "text": "Acceso anónimo a los datos institucionales.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Acceso administrativo para evitar bloqueos.",
+        "rationale": "Dar administración por comodidad excede los permisos necesarios."
+      },
+      {
+        "id": "B",
+        "text": "Solo los permisos necesarios para realizar sus tareas.",
+        "rationale": "Los permisos se limitan a los requeridos por las tareas de la identidad."
+      },
+      {
+        "id": "C",
+        "text": "Los mismos permisos que su jefe.",
+        "rationale": "Los permisos del jefe no determinan las tareas propias de otra identidad."
+      },
+      {
+        "id": "D",
+        "text": "Acceso anónimo a los datos institucionales.",
+        "rationale": "El acceso anónimo general no limita privilegios según tareas."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Se asigna el acceso mínimo necesario por alcance y tiempo.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 17 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "El mínimo privilegio limita los accesos a los necesarios para la tarea. Los accesos temporales pueden ser una medida adicional, pero esta definición no impone una duración universal.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 17 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "nist-least-privilege",
+        "sourceUnitId": "nist-least-privilege-review-unit",
+        "locator": "NIST glossary, definición least privilege",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["minimo_privilegio"]
+    "tags": [
+      "minimo_privilegio"
+    ]
   },
   {
     "id": "PGN-SEED-0018",
@@ -456,21 +1198,56 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "¿Cuál control reduce mejor el riesgo de exponer secretos en un repositorio?",
+    "stem": "Una aplicación necesita credenciales de servicio y el equipo quiere evitar incluirlas en el código del repositorio. ¿Qué práctica de gestión de secretos responde al problema?",
     "options": [
-      { "id": "A", "text": "Codificarlos en Base64 dentro del código.", "rationale": null },
-      { "id": "B", "text": "Gestionarlos en un almacén de secretos y usar identidades con permisos limitados.", "rationale": null },
-      { "id": "C", "text": "Cambiar el nombre de las variables.", "rationale": null },
-      { "id": "D", "text": "Incluirlos en la documentación privada del proyecto.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Codificarlos en Base64 dentro del código.",
+        "rationale": "Base64 es una codificación reversible y conserva el secreto en el código."
+      },
+      {
+        "id": "B",
+        "text": "Gestionarlos en un almacén de secretos y usar identidades con permisos limitados.",
+        "rationale": "Separa secretos del repositorio y limita las identidades que pueden obtenerlos."
+      },
+      {
+        "id": "C",
+        "text": "Cambiar el nombre de las variables.",
+        "rationale": "Renombrar una variable no protege su contenido."
+      },
+      {
+        "id": "D",
+        "text": "Incluirlos en la documentación privada del proyecto.",
+        "rationale": "Documentar el secreto dentro del proyecto mantiene una copia expuesta al acceso a esos archivos."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Los secretos no deben incorporarse al código ni al historial del repositorio.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 18 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "Un almacén de secretos separa credenciales del código y los permisos limitados restringen su acceso. Es una práctica base, no una garantía completa de seguridad ni sustituto de rotación y otros controles.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 18 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "ncsc-cloud-security",
+        "sourceUnitId": "ncsc-cloud-security-review-unit",
+        "locator": "NCSC, Using a cloud platform securely, sección Protect secrets carefully",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["secretos"]
+    "tags": [
+      "secretos"
+    ]
   },
   {
     "id": "PGN-SEED-0019",
@@ -480,21 +1257,54 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "Al evolucionar una API utilizada por varios sistemas, una práctica adecuada es:",
+    "stem": "Un cambio incompatible en una API puede afectar integraciones existentes. Antes de migrar a los consumidores, ¿qué práctica facilita gestionar el cambio?",
     "options": [
-      { "id": "A", "text": "Romper el contrato sin aviso.", "rationale": null },
-      { "id": "B", "text": "Versionar, documentar compatibilidad y probar consumidores.", "rationale": null },
-      { "id": "C", "text": "Eliminar autenticación durante la migración.", "rationale": null },
-      { "id": "D", "text": "Cambiar simultáneamente todos los campos sin trazabilidad.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Romper el contrato sin aviso.",
+        "rationale": "Un cambio incompatible sin aviso impide preparar las integraciones."
+      },
+      {
+        "id": "B",
+        "text": "Gestionar la versión y compatibilidad, documentar el contrato y probar las integraciones afectadas.",
+        "rationale": "El contrato documentado y las pruebas permiten evaluar y comunicar compatibilidad."
+      },
+      {
+        "id": "C",
+        "text": "Eliminar autenticación durante la migración.",
+        "rationale": "Retirar autenticación añade exposición y no resuelve incompatibilidad."
+      },
+      {
+        "id": "D",
+        "text": "Cambiar simultáneamente todos los campos sin trazabilidad.",
+        "rationale": "Cambiar campos sin trazabilidad dificulta identificar el efecto sobre consumidores."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Versionado, contratos y pruebas reducen fallas de interoperabilidad.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 19 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "Ante un cambio incompatible, versionado, documentación y pruebas permiten evaluar efectos sobre las integraciones. No se exige aquí una estrategia concreta de versionado ni se afirma que todo cambio compatible necesite nueva versión mayor.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 19 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "homeoffice-api",
+        "sourceUnitId": "homeoffice-api-review-unit",
+        "locator": "Home Office API standard, secciones Versioning, API specification and testing",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["api"]
+    "tags": [
+      "api"
+    ]
   },
   {
     "id": "PGN-SEED-0020",
@@ -504,21 +1314,56 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "Ante una alerta de seguridad de alta severidad, la primera actuación técnica razonable es:",
+    "stem": "Se confirma ransomware en equipos de una entidad. Según la guía StopRansomware, ¿qué conjunto de acciones debe coordinar la respuesta conforme al plan institucional?",
     "options": [
-      { "id": "A", "text": "Borrar todos los registros para proteger a la entidad.", "rationale": null },
-      { "id": "B", "text": "Validar la alerta, preservar evidencia y activar el procedimiento de respuesta.", "rationale": null },
-      { "id": "C", "text": "Informarla únicamente por un canal personal.", "rationale": null },
-      { "id": "D", "text": "Desactivar permanentemente el sistema sin evaluar impacto.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Borrar todos los registros para proteger a la entidad.",
+        "rationale": "Borrar registros destruye evidencia útil para investigar y recuperar."
+      },
+      {
+        "id": "B",
+        "text": "Aislar sistemas afectados cuando sea posible, preservar evidencia y coordinar la respuesta y evaluación del impacto.",
+        "rationale": "Combina contención, evidencia y coordinación sin imponer una secuencia que retrase el aislamiento."
+      },
+      {
+        "id": "C",
+        "text": "Informar el incidente únicamente por un canal personal.",
+        "rationale": "Un canal personal aislado no activa la coordinación institucional."
+      },
+      {
+        "id": "D",
+        "text": "Desactivar permanentemente el sistema sin evaluar impacto.",
+        "rationale": "Una desactivación permanente sin evaluar impacto no constituye recuperación planificada."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Primero se valida, preserva evidencia y activa la respuesta definida.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 20 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "La contención, preservación de evidencia y coordinación deben responder al incidente y al plan institucional. No se exige completar una validación antes de toda contención urgente.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 20 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "cisa-ransomware",
+        "sourceUnitId": "cisa-ransomware-review-unit",
+        "locator": "CISA StopRansomware Guide, apartados Initial response y Preserve evidence",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["respuesta_a_incidentes"]
+    "tags": [
+      "respuesta_a_incidentes"
+    ]
   },
   {
     "id": "PGN-SEED-0021",
@@ -528,21 +1373,56 @@
     "secondaryTopicIds": [],
     "questionType": "behavioral",
     "difficulty": 1,
-    "stem": "Dos tareas críticas vencen el mismo día y no pueden terminarse con los recursos disponibles. La mejor respuesta es:",
+    "stem": "Un profesional detecta que no podrá completar dos tareas asignadas en el plazo previsto; su responsable puede ajustar las prioridades. ¿Qué conducta muestra análisis objetivo y comunicación con ese responsable?",
     "options": [
-      { "id": "A", "text": "Ocultar el retraso y trabajar sin priorización.", "rationale": null },
-      { "id": "B", "text": "Evaluar impacto y urgencia, proponer prioridades al responsable y dejar acuerdos documentados.", "rationale": null },
-      { "id": "C", "text": "Elegir la tarea más agradable.", "rationale": null },
-      { "id": "D", "text": "Transferir ambas a otra persona sin contexto.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Ocultar el retraso y trabajar sin priorización.",
+        "rationale": "Ocultar la limitación impide al responsable tomar decisiones informadas."
+      },
+      {
+        "id": "B",
+        "text": "Analizar información válida sobre la carga y comunicar la limitación al responsable para coordinar la decisión.",
+        "rationale": "Aporta información para una decisión objetiva y comunica a quien puede coordinarla."
+      },
+      {
+        "id": "C",
+        "text": "Elegir la tarea más agradable.",
+        "rationale": "La preferencia personal no es un criterio objetivo de decisión en este caso."
+      },
+      {
+        "id": "D",
+        "text": "Transferir ambas a otra persona sin contexto.",
+        "rationale": "Trasladar tareas sin contexto elude la comunicación con el responsable."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Organiza por impacto, comunica la restricción y documenta la decisión.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 21 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "El referente de competencias profesionales orienta el análisis con criterios objetivos y la comunicación con el responsable. El caso no establece una fórmula universal de priorización ni una escala oficial de la PGN.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 21 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "decreto-815-2018-review-unit",
+        "locator": "Decreto 815 de 2018, artículo 2.2.4.8, nivel profesional",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["priorizacion"]
+    "tags": [
+      "priorizacion"
+    ]
   },
   {
     "id": "PGN-SEED-0022",
@@ -552,21 +1432,56 @@
     "secondaryTopicIds": [],
     "questionType": "behavioral",
     "difficulty": 1,
-    "stem": "Encuentras un error propio en un informe ya enviado. Debes:",
+    "stem": "Detectas que un informe enviado por ti contiene una cifra equivocada. El equipo dispone de un canal institucional para informar errores. ¿Qué actuación expresa honestidad frente a los destinatarios?",
     "options": [
-      { "id": "A", "text": "Esperar a que alguien más lo detecte.", "rationale": null },
-      { "id": "B", "text": "Corregir silenciosamente el archivo original.", "rationale": null },
-      { "id": "C", "text": "Informar oportunamente, evaluar impacto, emitir corrección trazable y prevenir recurrencia.", "rationale": null },
-      { "id": "D", "text": "Eliminar el informe y sus evidencias.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Esperar a que alguien más lo detecte.",
+        "rationale": "Esperar deliberadamente mantiene a los destinatarios sin conocer el error detectado."
+      },
+      {
+        "id": "B",
+        "text": "Corregir silenciosamente el archivo original.",
+        "rationale": "Cambiar el original sin informar oculta la corrección a quienes recibieron la cifra."
+      },
+      {
+        "id": "C",
+        "text": "Informar oportunamente el error por el canal institucional y facilitar su aclaración.",
+        "rationale": "Reconoce el error y permite aclarar la información sin ocultarlo."
+      },
+      {
+        "id": "D",
+        "text": "Eliminar el informe y sus evidencias.",
+        "rationale": "Eliminar el informe no comunica la equivocación ni aclara la cifra."
+      }
     ],
     "correctOptionId": "C",
-    "explanation": "Responsabilidad implica transparencia, corrección y aprendizaje.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 22 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "La conducta se centra en reconocer e informar el error con veracidad, conforme al valor de honestidad. El canal es un supuesto del caso; la fuente no se presenta como un procedimiento de control de versiones.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 22 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "codigo-integridad",
+        "sourceUnitId": "codigo-integridad-review-unit",
+        "locator": "Código de Integridad, principios Lo que hago y Lo que no hago",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["responsabilidad"]
+    "tags": [
+      "responsabilidad"
+    ]
   },
   {
     "id": "PGN-SEED-0023",
@@ -576,45 +1491,117 @@
     "secondaryTopicIds": [],
     "questionType": "behavioral",
     "difficulty": 1,
-    "stem": "Un superior solicita omitir un control obligatorio para acelerar una entrega. La respuesta más adecuada es:",
+    "stem": "Un servidor debe cumplir un requisito legal aplicable a una entrega. Su superior le pide omitirlo solo para ahorrar tiempo, sin excepción legal. ¿Qué respuesta respeta el deber general del artículo 38 de la Ley 1952 de 2019?",
     "options": [
-      { "id": "A", "text": "Omitirlo porque la orden elimina la responsabilidad.", "rationale": null },
-      { "id": "B", "text": "Explicar el riesgo y la regla, proponer una alternativa lícita y escalar si persiste.", "rationale": null },
-      { "id": "C", "text": "Negarse sin explicación y abandonar la tarea.", "rationale": null },
-      { "id": "D", "text": "Ejecutar y documentar después si ocurre un incidente.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Omitirlo porque la orden elimina la responsabilidad.",
+        "rationale": "La orden descrita no modifica ni elimina el requisito legal."
+      },
+      {
+        "id": "B",
+        "text": "Cumplir el requisito legal aplicable al realizar la entrega.",
+        "rationale": "Mantiene el cumplimiento de la regla aplicable al supuesto."
+      },
+      {
+        "id": "C",
+        "text": "Negarse sin explicación y abandonar la tarea.",
+        "rationale": "Abandonar sin explicación no cumple la tarea ni el deber de diligencia."
+      },
+      {
+        "id": "D",
+        "text": "Ejecutar y documentar después si ocurre un incidente.",
+        "rationale": "Documentar después de un incidente no subsana haber omitido el requisito."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Legalidad y control prevalecen; debe proponerse una salida válida y escalarse el riesgo.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 23 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "El deber general exige cumplir Constitución y ley. La conveniencia de acelerar una entrega no constituye la excepción legal ausente en el caso. No se evalúan sanciones ni se prescribe un canal universal de escalamiento.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 23 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "law-1952-2019-review-unit",
+        "locator": "Ley 1952 de 2019, artículo 38, numerales 1 y 3",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["legalidad"]
+    "tags": [
+      "legalidad"
+    ]
   },
   {
     "id": "PGN-SEED-0024",
     "status": "needs_review",
     "moduleId": "comun",
     "topicId": "competencias_comportamentales",
-    "secondaryTopicIds": ["datos_y_analitica"],
+    "secondaryTopicIds": [
+      "datos_y_analitica"
+    ],
     "questionType": "behavioral",
     "difficulty": 1,
-    "stem": "Un análisis arroja un resultado contrario a la expectativa del equipo. La conducta correcta es:",
+    "stem": "Tras revisar los datos y el método, un analista confirma un resultado contrario a la expectativa del equipo, con limitaciones documentadas. ¿Qué conducta preserva la honestidad de la información comunicada?",
     "options": [
-      { "id": "A", "text": "Cambiar los datos hasta confirmar la expectativa.", "rationale": null },
-      { "id": "B", "text": "Revisar calidad y método, documentar límites y presentar el resultado con evidencia.", "rationale": null },
-      { "id": "C", "text": "Excluir observaciones sin criterio.", "rationale": null },
-      { "id": "D", "text": "No comunicar el hallazgo.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Cambiar los datos hasta confirmar la expectativa.",
+        "rationale": "Alterar datos para confirmar una expectativa falsea la información."
+      },
+      {
+        "id": "B",
+        "text": "Presentar el resultado respaldado por los datos y comunicar las limitaciones documentadas.",
+        "rationale": "Comunica la evidencia revisada y evita ocultar los límites ya identificados."
+      },
+      {
+        "id": "C",
+        "text": "Excluir observaciones sin criterio.",
+        "rationale": "Excluir observaciones sin criterio altera la evidencia por conveniencia."
+      },
+      {
+        "id": "D",
+        "text": "No comunicar el hallazgo.",
+        "rationale": "Ocultar un hallazgo confirmado impide comunicar la información disponible con veracidad."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Investigación exige evidencia, revisión del método y comunicación de límites.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 24 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "La honestidad exige comunicar información veraz. En el supuesto, la revisión ya se realizó; sostener la expectativa mediante manipulación u ocultamiento no respeta ese valor. No se atribuye a la fuente un procedimiento estadístico universal.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 24 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "codigo-integridad",
+        "sourceUnitId": "codigo-integridad-review-unit",
+        "locator": "Código de Integridad, principios Lo que hago y Lo que no hago",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["integridad_de_datos"]
+    "tags": [
+      "integridad_de_datos"
+    ]
   },
   {
     "id": "PGN-SEED-0025",
@@ -624,20 +1611,55 @@
     "secondaryTopicIds": [],
     "questionType": "behavioral",
     "difficulty": 1,
-    "stem": "Para proponer una innovación en un proceso público conviene:",
+    "stem": "Un equipo público busca mejorar un trámite y aún no sabe qué solución responde a las necesidades de sus usuarios. ¿Qué enfoque corresponde a la exploración y experimentación en innovación pública?",
     "options": [
-      { "id": "A", "text": "Implementarla en producción sin autorización para demostrar rapidez.", "rationale": null },
-      { "id": "B", "text": "Definir problema, usuarios, restricciones, riesgos, indicadores y una prueba controlada.", "rationale": null },
-      { "id": "C", "text": "Copiar una solución privada sin adaptar requisitos.", "rationale": null },
-      { "id": "D", "text": "Medir únicamente el número de funciones desarrolladas.", "rationale": null }
+      {
+        "id": "A",
+        "text": "Implementarla en producción sin autorización para demostrar rapidez.",
+        "rationale": "Llevar directamente a producción evita el aprendizaje previo del piloto y omite la autorización descrita."
+      },
+      {
+        "id": "B",
+        "text": "Comprender el problema y los usuarios, explorar alternativas y probar una solución mediante un piloto acotado.",
+        "rationale": "Vincula comprensión del problema con exploración y prueba acotada."
+      },
+      {
+        "id": "C",
+        "text": "Copiar una solución privada sin adaptar requisitos.",
+        "rationale": "Copiar sin adaptar ignora las necesidades del contexto y sus usuarios."
+      },
+      {
+        "id": "D",
+        "text": "Medir únicamente el número de funciones desarrolladas.",
+        "rationale": "Contar funciones no permite por sí solo aprender si la solución responde al problema."
+      }
     ],
     "correctOptionId": "B",
-    "explanation": "Innovar responsablemente requiere problema, restricciones, medición y prueba controlada.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 25 y tabla de clave", "supports": "provenance" }],
-    "targetCallIds": [],
+    "explanation": "Comprender problemas y usuarios y experimentar con prototipos o pilotos permite aprender sobre alternativas. Este enfoque no impone un listado universal de indicadores ni garantiza el éxito de una solución.",
+    "references": [
+      {
+        "sourceId": "pgn-initial-diagnostic",
+        "sourceUnitId": null,
+        "locator": "Pregunta 25 y tabla de clave",
+        "supports": "provenance"
+      },
+      {
+        "sourceId": "dnp-public-innovation",
+        "sourceUnitId": "dnp-public-innovation-review-unit",
+        "locator": "Principios de la innovación pública en Colombia, páginas impresas 86-87",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [],
     "validFrom": null,
-    "tags": ["innovacion"]
+    "tags": [
+      "innovacion"
+    ]
   }
 ]

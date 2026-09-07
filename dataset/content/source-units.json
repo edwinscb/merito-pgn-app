@@ -7,7 +7,9 @@
     "content": "El Ministerio Público será ejercido por el Procurador General de la Nación, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás funcionarios que determine la ley.",
     "verificationStatus": "verified",
     "sourceHash": "6250cd4cf6dbfc044bcd6aaefc2e108ef5f7630f70898e5b6ffb57312a0dd225",
-    "topicIds": ["procuraduria_y_estado"],
+    "topicIds": [
+      "procuraduria_y_estado"
+    ],
     "targetCallIds": []
   },
   {
@@ -18,7 +20,9 @@
     "content": "La función administrativa se desarrolla con fundamento en los principios de igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.",
     "verificationStatus": "verified",
     "sourceHash": "6250cd4cf6dbfc044bcd6aaefc2e108ef5f7630f70898e5b6ffb57312a0dd225",
-    "topicIds": ["gestion_publica_y_mipg"],
+    "topicIds": [
+      "gestion_publica_y_mipg"
+    ],
     "targetCallIds": []
   },
   {
@@ -29,7 +33,9 @@
     "content": "El Procurador General de la Nación es el supremo director del Ministerio Público.",
     "verificationStatus": "verified",
     "sourceHash": "6250cd4cf6dbfc044bcd6aaefc2e108ef5f7630f70898e5b6ffb57312a0dd225",
-    "topicIds": ["procuraduria_y_estado"],
+    "topicIds": [
+      "procuraduria_y_estado"
+    ],
     "targetCallIds": []
   },
   {
@@ -40,7 +46,9 @@
     "content": "El artículo agrupa funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante autoridades administrativas y judiciales.",
     "verificationStatus": "verified",
     "sourceHash": "1b83f75676ad3e097c6a1889064dd6964e4c55fa2f13ca446875b2083f94c949",
-    "topicIds": ["procuraduria_y_estado"],
+    "topicIds": [
+      "procuraduria_y_estado"
+    ],
     "targetCallIds": []
   },
   {
@@ -51,7 +59,10 @@
     "content": "Cuando el interés general propio de la función pública entre en conflicto con el interés particular y directo del servidor público, este deberá declararse impedido.",
     "verificationStatus": "verified",
     "sourceHash": "da12ad29f4014af5a835cb232bb68b7bdb8031adb40f5b05dda12815a10f42f7",
-    "topicIds": ["gestion_publica_y_mipg", "competencias_comportamentales"],
+    "topicIds": [
+      "gestion_publica_y_mipg",
+      "competencias_comportamentales"
+    ],
     "targetCallIds": []
   },
   {
@@ -59,10 +70,13 @@
     "sourceId": "law-1437-2011",
     "locator": "Artículo 12, página PDF 9",
     "title": "Trámite de impedimentos y recusaciones",
-    "content": "La autoridad debe enviar la actuación con escrito motivado al superior o, en su ausencia, a la cabeza del sector, quien decidirá de plano sobre el impedimento.",
-    "verificationStatus": "pending_review",
+    "content": "Ante un impedimento, el servidor remite la actuación con escrito motivado dentro de tres días al superior o, si no lo tiene, a la cabeza del sector. En ausencia de ambos opera la competencia subsidiaria del Procurador General o regional según el caso. La autoridad competente decide de plano dentro de diez días del recibo; la actuación queda suspendida hasta la decisión.",
+    "verificationStatus": "verified",
     "sourceHash": "da12ad29f4014af5a835cb232bb68b7bdb8031adb40f5b05dda12815a10f42f7",
-    "topicIds": ["gestion_publica_y_mipg", "competencias_comportamentales"],
+    "topicIds": [
+      "gestion_publica_y_mipg",
+      "competencias_comportamentales"
+    ],
     "targetCallIds": []
   },
   {
@@ -73,7 +87,9 @@
     "content": "En el seguimiento al cumplimiento de la Ley 2492 de 2025, la PGN reiteró que la función preventiva no implica coadministración, prejuzgamiento ni ejercicio de control disciplinario. Este resumen se limita a la actuación descrita en el boletín.",
     "verificationStatus": "pending_review",
     "sourceHash": "d6e6bc4dd98d2631115b407ee21180fbdbc1a0c8ad2d9698096aa832f0cbfefa",
-    "topicIds": ["procuraduria_y_estado"],
+    "topicIds": [
+      "procuraduria_y_estado"
+    ],
     "targetCallIds": []
   },
   {
@@ -84,7 +100,9 @@
     "content": "La PGN presenta funciones preventiva, de intervención y disciplinaria; en la función preventiva vigila y advierte sin coadministrar.",
     "verificationStatus": "pending_review",
     "sourceHash": "7d57792e05a2418e3e878476b231a6f88a2c1c15650bc4799466300d06ed6401",
-    "topicIds": ["procuraduria_y_estado"],
+    "topicIds": [
+      "procuraduria_y_estado"
+    ],
     "targetCallIds": []
   },
   {
@@ -95,7 +113,9 @@
     "content": "Para tramitar una petición se identifica su contenido y modalidad, la autoridad competente y el traslado procedente cuando otra autoridad deba responder. El término depende de la modalidad legal aplicable.",
     "verificationStatus": "pending_review",
     "sourceHash": "c20a5f37cc5e9ac99af675c25385e92ad31de3a5a4d746833e34612c042d795d",
-    "topicIds": ["atencion_transparencia_y_datos"],
+    "topicIds": [
+      "atencion_transparencia_y_datos"
+    ],
     "targetCallIds": []
   },
   {
@@ -103,21 +123,25 @@
     "sourceId": "law-1712-2014",
     "locator": "Ley 1712 de 2014, artículos 18 y 21",
     "title": "Versión pública y acceso parcial",
-    "content": "Cuando un documento contiene información pública y una parte exceptuada, debe separarse la información protegida y facilitar una versión pública cuando sea posible, motivando la restricción.",
+    "content": "Si un documento contiene información pública y una parte amparada por una excepción legal, debe elaborarse una versión pública que reserve solo la parte indispensable y entregar la información no exceptuada. La denegación por protección de derechos del artículo 18 debe ser motivada y escrita.",
     "verificationStatus": "pending_review",
     "sourceHash": "a1c753e1ee0e401c25e82ca5cf7bc1d71b612a3bb698cc5e8dd6f410e06e2f3c",
-    "topicIds": ["atencion_transparencia_y_datos"],
+    "topicIds": [
+      "atencion_transparencia_y_datos"
+    ],
     "targetCallIds": []
   },
   {
     "id": "decree-1080-2015-archives-review-unit",
     "sourceId": "decree-1080-2015-archives",
-    "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 y 2.8.2.7.9",
+    "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
     "title": "Clasificación, metadatos y disposición documental",
-    "content": "La gestión documental articula clasificación, registro y metadatos, control y seguimiento y disposición conforme a instrumentos archivísticos. Esta unidad es conceptual y requiere verificar reformas antes de publicar una pregunta normativa.",
+    "content": "La gestión y trámite comprende registro, metadatos, acceso, control y seguimiento; la organización incluye clasificar y describir. La disposición se realiza conforme a tablas de retención o valoración. El sistema organiza documentos con sus metadatos mediante cuadros de clasificación y establece plazos de conservación y eliminación en TRD/TVD. Los metadatos electrónicos preservan contenido, estructura y contexto; estas reglas no garantizan por sí solas la trazabilidad.",
     "verificationStatus": "pending_review",
     "sourceHash": "a0c936b4f6a21e098d0b068c631f208e15277758d298eb70daad1c8678384978",
-    "topicIds": ["gestion_documental"],
+    "topicIds": [
+      "gestion_documental"
+    ],
     "targetCallIds": []
   },
   {
@@ -128,51 +152,61 @@
     "content": "La etapa Verificar contrasta lo ejecutado con lo planeado y con las metas mediante indicadores; sus resultados sirven para identificar desviaciones y orientar ajustes. Es una guía institucional de 2019 usada como respaldo conceptual.",
     "verificationStatus": "pending_review",
     "sourceHash": "14141e6ae1f4336499756a45e4ff43ea1663aef134050a3f3f34fe387223f244",
-    "topicIds": ["gestion_publica_y_mipg"],
+    "topicIds": [
+      "gestion_publica_y_mipg"
+    ],
     "targetCallIds": []
   },
   {
     "id": "law-80-1993-review-unit",
     "sourceId": "law-80-1993",
-    "locator": "Ley 80 de 1993, artículo 25, numerales 7 y 12",
+    "locator": "Ley 80 de 1993, artículo 25, numerales 7 y 12 (numeral 12 modificado por artículo 87 de Ley 1474 de 2011)",
     "title": "Planeación y estudios previos",
-    "content": "La planeación contractual exige analizar la conveniencia y necesidad y elaborar los estudios requeridos antes de iniciar la selección o celebrar el contrato, según corresponda al procedimiento. Deben revisarse las reformas y el régimen especial aplicable.",
+    "content": "La conveniencia del objeto y las autorizaciones se analizan antes de la selección o firma del contrato, según el caso. El numeral 12, reformado por Ley 1474 de 2011, exige estudios, diseños, proyectos y pliegos requeridos antes de abrir la selección o firmar en contratación directa, según corresponda. Se limita al Estatuto General de Contratación y no enumera requisitos de regímenes especiales.",
     "verificationStatus": "pending_review",
     "sourceHash": "a9ae8781bc98beca8456428802c5a8e635c28125b7ffcf942571e1c2053b99a7",
-    "topicIds": ["contratacion_estatal"],
+    "topicIds": [
+      "contratacion_estatal"
+    ],
     "targetCallIds": []
   },
   {
     "id": "funcion-publica-indicators-review-unit",
     "sourceId": "funcion-publica-indicators",
-    "locator": "Función Pública, MIPG, políticas de evaluación y seguimiento, lineamientos",
+    "locator": "MIPG, Seguimiento, evaluación y control integral, política Evaluación y seguimiento, Lineamientos, lista «La entidad debe verificar que»",
     "title": "Elementos de un indicador de seguimiento",
     "content": "Un indicador institucional se documenta con objetivo, línea base, fórmula, unidad de medida, fuente, periodicidad, meta y responsable. La unidad describe elementos pertinentes, no una ficha oficial exclusiva de la PGN.",
     "verificationStatus": "pending_review",
     "sourceHash": "172e66e0cef4cd235bbc8d5091fd417b617276e92ea4b79975366b7e46a40672",
-    "topicIds": ["gestion_publica_y_mipg"],
+    "topicIds": [
+      "gestion_publica_y_mipg"
+    ],
     "targetCallIds": []
   },
   {
     "id": "nist-correlation-review-unit",
     "sourceId": "nist-correlation",
-    "locator": "NIST Engineering Statistics Handbook, sección correlation and causation",
+    "locator": "NIST Engineering Statistics Handbook, 3.1.3.6 Experiments and Experimental Design, apartados Correlation y Causality",
     "title": "Asociación no implica causalidad",
     "content": "Una correlación alta describe asociación entre variables; por sí sola no demuestra que una variable cause la otra. La inferencia causal requiere diseño, contexto y evidencia adicional.",
     "verificationStatus": "pending_review",
     "sourceHash": "0c4a9426363c2c9b1aff367ade805287e7bec718ba4fc252b8a321788a9cd4cf",
-    "topicIds": ["datos_y_analitica"],
+    "topicIds": [
+      "datos_y_analitica"
+    ],
     "targetCallIds": []
   },
   {
     "id": "cdc-data-analysis-review-unit",
     "sourceId": "cdc-data-analysis",
-    "locator": "CDC Field Epidemiology Manual, capítulo Analyze and interpret data",
+    "locator": "CDC Field Epidemiology Manual, Analyzing and Interpreting Data, Developing an Analysis Plan (Get to know your data) e Interpreting Results (Selection bias)",
     "title": "Descripción de datos y sesgo de selección",
     "content": "El análisis descriptivo resume lo observado y la selección de participantes puede producir sesgo cuando excluye sistemáticamente a ciertos casos. La unidad se aplica como concepto analítico, no como regla jurídica.",
     "verificationStatus": "pending_review",
     "sourceHash": "0f448d3dcdab07373b1af3b3a1117076c5b4862e8f16b0a30814da3da9f3f765",
-    "topicIds": ["datos_y_analitica"],
+    "topicIds": [
+      "datos_y_analitica"
+    ],
     "targetCallIds": []
   },
   {
@@ -183,7 +217,9 @@
     "content": "Las claves y restricciones referenciales mantienen relaciones válidas entre registros y evitan referencias huérfanas. La fuente es una guía técnica gubernamental histórica; no es una obligación normativa colombiana.",
     "verificationStatus": "pending_review",
     "sourceHash": "bf4d88fe6673e473c7c288f273627f9df7d289ff1927431b02ddd496358ec17d",
-    "topicIds": ["software_e_interoperabilidad"],
+    "topicIds": [
+      "software_e_interoperabilidad"
+    ],
     "targetCallIds": []
   },
   {
@@ -194,7 +230,9 @@
     "content": "Atomicidad significa tratar una transacción como una operación todo-o-nada: se completa el conjunto o se revierte. La unidad no afirma que toda plataforma implemente idénticas políticas de recuperación.",
     "verificationStatus": "pending_review",
     "sourceHash": "04fd1b744c9c970c6b3d32c51f5f1bd187587e8dd0069a69e41afe77f9d7b4ec",
-    "topicIds": ["software_e_interoperabilidad"],
+    "topicIds": [
+      "software_e_interoperabilidad"
+    ],
     "targetCallIds": []
   },
   {
@@ -205,62 +243,74 @@
     "content": "El mínimo privilegio asigna a una identidad únicamente los accesos necesarios para realizar sus tareas. La definición no impone por sí sola una duración temporal ni una tecnología de control específica.",
     "verificationStatus": "pending_review",
     "sourceHash": "548f62d6e2ac52b04c7831731ece97bdebf3c984a266170d97b79865e13d2175",
-    "topicIds": ["infraestructura_nube_y_ciberseguridad"],
+    "topicIds": [
+      "infraestructura_nube_y_ciberseguridad"
+    ],
     "targetCallIds": []
   },
   {
     "id": "ncsc-cloud-security-review-unit",
     "sourceId": "ncsc-cloud-security",
-    "locator": "NCSC, Using a cloud platform securely, sección Protect secrets carefully",
+    "locator": "NCSC, Using a cloud platform securely, secciones Authenticate service identities, Apply access controls y Protect secrets carefully",
     "title": "Protección de secretos e identidades de servicio",
     "content": "Los secretos deben gestionarse con las capacidades de un almacén de secretos y las identidades de servicio deben limitarse mediante controles de acceso. Es una guía técnica extranjera y no norma PGN.",
     "verificationStatus": "pending_review",
     "sourceHash": "26e7c82ba349ae90d680157a34725c63c51584aefc377f765789b0115c7e7e6e",
-    "topicIds": ["infraestructura_nube_y_ciberseguridad"],
+    "topicIds": [
+      "infraestructura_nube_y_ciberseguridad"
+    ],
     "targetCallIds": []
   },
   {
     "id": "homeoffice-api-review-unit",
     "sourceId": "homeoffice-api",
-    "locator": "Home Office API standard, secciones Versioning, API specification and testing",
+    "locator": "Home Office, Designing and Maintaining an API, requisitos You MUST include a form of versioning to your API, You MUST test your API y You MUST use an API Specification",
     "title": "Versionado, contrato y pruebas de API",
     "content": "Una API debe versionarse, documentar su contrato y probar integraciones, errores y respuestas antes de comunicar cambios incompatibles. La unidad no prescribe una estrategia concreta de versionado.",
     "verificationStatus": "pending_review",
     "sourceHash": "b2aecf625d7e27b8511255b040356761c650256211d67061ecea287ba67d1689",
-    "topicIds": ["software_e_interoperabilidad"],
+    "topicIds": [
+      "software_e_interoperabilidad"
+    ],
     "targetCallIds": []
   },
   {
     "id": "cisa-ransomware-review-unit",
     "sourceId": "cisa-ransomware",
-    "locator": "CISA StopRansomware Guide, apartados Initial response y Preserve evidence",
+    "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
     "title": "Contención, evidencia y respuesta ante ransomware",
     "content": "Ante ransomware se determina el impacto, se aíslan sistemas cuando sea posible, se preserva evidencia volátil y se activa el procedimiento de respuesta. La prioridad operativa depende del plan institucional y del incidente.",
     "verificationStatus": "pending_review",
     "sourceHash": "a71d1cee55d37a368c91d2c105e7f92586af00efdf83588ae7b588b16e3e8e15",
-    "topicIds": ["infraestructura_nube_y_ciberseguridad"],
+    "topicIds": [
+      "infraestructura_nube_y_ciberseguridad"
+    ],
     "targetCallIds": []
   },
   {
     "id": "decreto-815-2018-review-unit",
     "sourceId": "decreto-815-2018",
-    "locator": "Decreto 815 de 2018, artículo 2.2.4.8, nivel profesional",
+    "locator": "Decreto 815 de 2018, artículo 1 que sustituye el título 4 del Decreto 1083 de 2015, artículo 2.2.4.8, nivel profesional: Comunicación efectiva e Instrumentación de decisiones",
     "title": "Competencias profesionales para decidir y comunicar",
     "content": "El referente describe analizar información válida, usar criterios objetivos, diferenciar decisiones y comunicar al responsable correspondiente. No prueba por sí solo la aplicabilidad a una convocatoria PGN concreta.",
     "verificationStatus": "pending_review",
     "sourceHash": "ec62fc4d672728f8d2d5cd226e07265555115f64dca7ee63bf3fbd77e0d2abb6",
-    "topicIds": ["competencias_comportamentales"],
+    "topicIds": [
+      "competencias_comportamentales"
+    ],
     "targetCallIds": []
   },
   {
     "id": "codigo-integridad-review-unit",
     "sourceId": "codigo-integridad",
-    "locator": "Código de Integridad, principios Lo que hago y Lo que no hago",
+    "locator": "Código de Integridad, valores Honestidad, Justicia y Diligencia, apartados Lo que hago y Lo que no hago",
     "title": "Honestidad, diligencia e información confiable",
     "content": "El Código de Integridad promueve honestidad, diligencia, transparencia y decisiones basadas en información confiable. Se usa para racionales conductuales, no como escala oficial de calificación.",
     "verificationStatus": "pending_review",
     "sourceHash": "6396a9296eb200c2ba8efe36b42d85cb3252162a9c19fc1d1697207a623014b6",
-    "topicIds": ["competencias_comportamentales"],
+    "topicIds": [
+      "competencias_comportamentales"
+    ],
     "targetCallIds": []
   },
   {
@@ -271,30 +321,98 @@
     "content": "Los servidores deben cumplir la Constitución, la ley y los reglamentos y actuar con diligencia en sus funciones. La unidad se limita al deber general y no resuelve por sí sola una situación disciplinaria concreta.",
     "verificationStatus": "pending_review",
     "sourceHash": "31c054da5b939fc84f88d06eb31d1fb4297f8b5320c79253f73fc808d52ef00f",
-    "topicIds": ["derecho_disciplinario"],
+    "topicIds": [
+      "derecho_disciplinario"
+    ],
     "targetCallIds": []
   },
   {
     "id": "dnp-public-innovation-review-unit",
     "sourceId": "dnp-public-innovation",
-    "locator": "Principios de la innovación pública en Colombia, páginas impresas 86-87",
+    "locator": "Principios de la innovación pública en Colombia, página PDF 44 (impresas 86-87), Exploración y Prueba y error",
     "title": "Problema, usuarios y piloto de innovación pública",
     "content": "La innovación pública parte de comprender el problema y sus usuarios, explorar alternativas y probar soluciones mediante prototipos, pilotos o experimentos acotados. La fuente no convierte indicadores específicos en requisito universal.",
     "verificationStatus": "pending_review",
     "sourceHash": "0b71f46e560009d5ffa4d9650a873897cbcdeb8d2094de538e00175f285027e7",
-    "topicIds": ["competencias_comportamentales"],
+    "topicIds": [
+      "competencias_comportamentales"
+    ],
     "targetCallIds": []
   },
   {
     "id": "pgn-resolution-212-2026-calls-121-126-127",
     "sourceId": "pgn-resolution-212-2026",
-    "locator": "Resolución 212 de 2026, artículos 6 y 8, páginas PDF 12-13",
+    "locator": "Resolución 212 de 2026, artículos 6 y 8, página PDF 12",
     "title": "Modificación de las convocatorias 121, 126 y 127",
     "content": "La Resolución 212 de 2026 incluye expresamente las convocatorias 121, 126 y 127 entre los formatos modificados. El artículo 6 trata la redistribución de vacantes reservadas para discapacidad en un conjunto que incluye la 121; el artículo 8 ordena ajustes que incluyen 121, 126 y 127 en ubicación, vacantes, disciplinas y redacción conforme al Manual Específico. Esta unidad no reproduce las fichas finales modificadas.",
     "verificationStatus": "pending_review",
     "sourceHash": "529bf617abf276ee1f68e006c8d7dd0b97c0a0f6468fa2c057d143f81bc1dd55",
-    "topicIds": ["procuraduria_y_estado"],
-    "targetCallIds": ["121-2026", "126-2026", "127-2026"]
+    "topicIds": [
+      "procuraduria_y_estado"
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ]
+  },
+  {
+    "id": "pgn-call-121-2026-v3-profile",
+    "sourceId": "pgn-call-121-2026-v3",
+    "locator": "Convocatoria 121-2026 versión 3, páginas 2-3, propósito, funciones y conocimientos esenciales",
+    "title": "Perfil vigente de conocimientos y funciones de la convocatoria 121",
+    "content": "La ficha versión 3 identifica un empleo profesional universitario 3PU-15 en la Dirección de Apoyo Estratégico, Análisis de Datos de Información. Incluye analítica de datos y seguridad informática, y como conocimientos comunes estructura y funciones de la PGN, gestión documental y gestión pública.",
+    "verificationStatus": "verified",
+    "sourceHash": "7b2a97914ee1aeab724363ca904ee694e6e35ab5048240ac8e96bcd3e72346bf",
+    "topicIds": [
+      "procuraduria_y_estado",
+      "datos_y_analitica",
+      "infraestructura_nube_y_ciberseguridad",
+      "gestion_documental",
+      "gestion_publica_y_mipg"
+    ],
+    "targetCallIds": [
+      "121-2026"
+    ]
+  },
+  {
+    "id": "pgn-call-126-2026-v3-profile",
+    "sourceId": "pgn-call-126-2026-v3",
+    "locator": "Convocatoria 126-2026 versión 3, páginas 2-3, propósito, funciones y conocimientos esenciales",
+    "title": "Perfil vigente de conocimientos y funciones de la convocatoria 126",
+    "content": "La ficha versión 3 identifica un empleo profesional universitario 3PU-15 en la Oficina de Tecnología, Innovación y Transformación Digital. Incluye redes, sistemas de información, seguridad informática, mantenimiento y ciclo de vida de software, además de conocimientos comunes de PGN, gestión documental y gestión pública.",
+    "verificationStatus": "verified",
+    "sourceHash": "de9a0775177aecc4aa42f2ee548fe8e48e3a5ebb16b9ddf2b0c1c2ac6a158152",
+    "topicIds": [
+      "procuraduria_y_estado",
+      "software_e_interoperabilidad",
+      "infraestructura_nube_y_ciberseguridad",
+      "gestion_documental",
+      "gestion_publica_y_mipg"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "pgn-call-127-2026-v3-profile",
+    "sourceId": "pgn-call-127-2026-v3",
+    "locator": "Convocatoria 127-2026 versión 3, páginas 2-3, propósito, funciones y conocimientos esenciales",
+    "title": "Perfil vigente de conocimientos y funciones de la convocatoria 127",
+    "content": "La ficha versión 3 identifica un empleo profesional universitario 3PU-15 en la Oficina de Tecnología, Innovación y Transformación Digital. Incluye infraestructura, seguridad, redes, migración y contratación estatal, además de conocimientos comunes de PGN, gestión documental y gestión pública.",
+    "verificationStatus": "verified",
+    "sourceHash": "5d951e7ca555c8431ddf4645dfd82ef7df82643b58f6258b07e0769235f02837",
+    "topicIds": [
+      "procuraduria_y_estado",
+      "software_e_interoperabilidad",
+      "infraestructura_nube_y_ciberseguridad",
+      "contratacion_estatal",
+      "gestion_documental",
+      "gestion_publica_y_mipg"
+    ],
+    "targetCallIds": [
+      "127-2026"
+    ]
   },
   {
     "id": "pgn-resolution-243-2026-call-scope",
@@ -304,7 +422,13 @@
     "content": "La Resolución 243 de 2026 modifica y adiciona la Resolución 076 en cumplimiento de una orden judicial. En el artículo 6 consultado no aparecen las convocatorias 121, 126 ni 127; esto no reemplaza la comprobación de otros artículos, anexos o actos posteriores.",
     "verificationStatus": "pending_review",
     "sourceHash": "fcb8d06965b2b4fd1a6f525666ab593ebb73021936a1466c175e6969e4a3f87e",
-    "topicIds": ["procuraduria_y_estado"],
-    "targetCallIds": ["121-2026", "126-2026", "127-2026"]
+    "topicIds": [
+      "procuraduria_y_estado"
+    ],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ]
   }
 ]
