@@ -284,5 +284,27 @@
     "sourceHash": "0b71f46e560009d5ffa4d9650a873897cbcdeb8d2094de538e00175f285027e7",
     "topicIds": ["competencias_comportamentales"],
     "targetCallIds": []
+  },
+  {
+    "id": "pgn-resolution-212-2026-calls-121-126-127",
+    "sourceId": "pgn-resolution-212-2026",
+    "locator": "Resolución 212 de 2026, artículos 6 y 8, páginas PDF 12-13",
+    "title": "Modificación de las convocatorias 121, 126 y 127",
+    "content": "La Resolución 212 de 2026 incluye expresamente las convocatorias 121, 126 y 127 entre los formatos modificados. El artículo 6 trata la redistribución de vacantes reservadas para discapacidad en un conjunto que incluye la 121; el artículo 8 ordena ajustes que incluyen 121, 126 y 127 en ubicación, vacantes, disciplinas y redacción conforme al Manual Específico. Esta unidad no reproduce las fichas finales modificadas.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "529bf617abf276ee1f68e006c8d7dd0b97c0a0f6468fa2c057d143f81bc1dd55",
+    "topicIds": ["procuraduria_y_estado"],
+    "targetCallIds": ["121-2026", "126-2026", "127-2026"]
+  },
+  {
+    "id": "pgn-resolution-243-2026-call-scope",
+    "sourceId": "pgn-resolution-243-2026",
+    "locator": "Resolución 243 de 2026, artículo 6, página PDF 8",
+    "title": "Alcance de la modificación judicial posterior",
+    "content": "La Resolución 243 de 2026 modifica y adiciona la Resolución 076 en cumplimiento de una orden judicial. En el artículo 6 consultado no aparecen las convocatorias 121, 126 ni 127; esto no reemplaza la comprobación de otros artículos, anexos o actos posteriores.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "fcb8d06965b2b4fd1a6f525666ab593ebb73021936a1466c175e6969e4a3f87e",
+    "topicIds": ["procuraduria_y_estado"],
+    "targetCallIds": ["121-2026", "126-2026", "127-2026"]
   }
 ]

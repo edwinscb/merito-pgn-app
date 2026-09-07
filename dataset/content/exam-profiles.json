@@ -3,30 +3,30 @@
     "id": "121-2026",
     "title": "Convocatoria 121-2026",
     "status": "provisional",
-    "sourceIds": ["pgn-call-121-2026"],
+    "sourceIds": ["pgn-call-121-2026", "pgn-resolution-212-2026", "pgn-resolution-243-2026"],
     "questionCount": null,
     "durationMinutes": null,
     "topicDistribution": [],
-    "notes": "Perfil provisional. La cantidad, duración y distribución no se afirmarán hasta contar con guía oficial revisada."
+    "notes": "Perfil provisional: la ficha local es versión 2 y la Resolución 212 de 2026 ordena modificaciones; falta incorporar la ficha resultante vigente. La cantidad, duración y distribución no se afirman."
   },
   {
     "id": "126-2026",
     "title": "Convocatoria 126-2026",
     "status": "provisional",
-    "sourceIds": ["pgn-call-126-2026"],
+    "sourceIds": ["pgn-call-126-2026", "pgn-resolution-212-2026", "pgn-resolution-243-2026"],
     "questionCount": null,
     "durationMinutes": null,
     "topicDistribution": [],
-    "notes": "Perfil provisional. La cantidad, duración y distribución no se afirmarán hasta contar con guía oficial revisada."
+    "notes": "Perfil provisional: la ficha local es versión 2 y la Resolución 212 de 2026 ordena modificaciones; falta incorporar la ficha resultante vigente. La cantidad, duración y distribución no se afirman."
   },
   {
     "id": "127-2026",
     "title": "Convocatoria 127-2026",
     "status": "provisional",
-    "sourceIds": ["pgn-call-127-2026"],
+    "sourceIds": ["pgn-call-127-2026", "pgn-resolution-212-2026", "pgn-resolution-243-2026"],
     "questionCount": null,
     "durationMinutes": null,
     "topicDistribution": [],
-    "notes": "Perfil provisional. La cantidad, duración y distribución no se afirmarán hasta contar con guía oficial revisada."
+    "notes": "Perfil provisional: la ficha local es versión 2 y la Resolución 212 de 2026 ordena modificaciones; falta incorporar la ficha resultante vigente. La cantidad, duración y distribución no se afirman."
   }
 ]

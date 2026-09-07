@@ -1,7 +1,7 @@
 # Cobertura del dataset
 
-- Fuentes: **43**
-- Unidades verificables: **26**
+- Fuentes: **45**
+- Unidades verificables: **28**
 - Preguntas: **25**
 - Preguntas publicables: **2**
 
@@ -24,14 +24,14 @@
 | reference | 3 |
 | seed_unapproved | 1 |
 | verified | 4 |
-| needs_review | 19 |
+| needs_review | 21 |
 | retired | 0 |
 
 ## Unidades por estado
 
 | Categoría | Cantidad |
 | --- | ---: |
-| pending_review | 21 |
+| pending_review | 23 |
 | verified | 5 |
 | retired | 0 |
 
@@ -39,7 +39,7 @@
 
 | Categoría | Cantidad |
 | --- | ---: |
-| A | 9 |
+| A | 11 |
 | B | 28 |
 | C | 0 |
 | D | 0 |
