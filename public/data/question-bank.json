@@ -1353,11 +1353,7 @@
           "supports": "correct_answer"
         }
       ],
-      "targetCallIds": [
-        "121-2026",
-        "126-2026",
-        "127-2026"
-      ],
+      "targetCallIds": [],
       "createdMethod": "seed_import",
       "reviews": [
         {
@@ -1433,11 +1429,7 @@
           "supports": "correct_answer"
         }
       ],
-      "targetCallIds": [
-        "121-2026",
-        "126-2026",
-        "127-2026"
-      ],
+      "targetCallIds": [],
       "createdMethod": "seed_import",
       "reviews": [
         {
@@ -1591,11 +1583,7 @@
           "supports": "correct_answer"
         }
       ],
-      "targetCallIds": [
-        "121-2026",
-        "126-2026",
-        "127-2026"
-      ],
+      "targetCallIds": [],
       "createdMethod": "seed_import",
       "reviews": [
         {

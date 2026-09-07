@@ -1,0 +1,4220 @@
+[
+  {
+    "id": "PGN-EXP-0026",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "procuraduria_y_estado",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Quiénes ejercen el Ministerio Público según el artículo 118?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La Registraduría y los partidos políticos.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "El Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros y los demás funcionarios que determine la ley.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Los ministros y gobernadores exclusivamente.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "La Rama Judicial por medio de sus jueces.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad constitution-1991-art-118. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "colombia-constitution-1991",
+        "sourceUnitId": "constitution-1991-art-118",
+        "locator": "Artículo 118, página PDF 82",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0027",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "procuraduria_y_estado",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Los ministros y gobernadores exclusivamente.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "La Rama Judicial por medio de sus jueces.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "La Registraduría y los partidos políticos.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "El Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros y los demás funcionarios que determine la ley.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad constitution-1991-art-118. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "colombia-constitution-1991",
+        "sourceUnitId": "constitution-1991-art-118",
+        "locator": "Artículo 118, página PDF 82",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0028",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "procuraduria_y_estado",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La Registraduría y los partidos políticos.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "El Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros y los demás funcionarios que determine la ley.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Los ministros y gobernadores exclusivamente.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "La Rama Judicial por medio de sus jueces.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad constitution-1991-art-118. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "colombia-constitution-1991",
+        "sourceUnitId": "constitution-1991-art-118",
+        "locator": "Artículo 118, página PDF 82",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0029",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué conjunto reúne principios constitucionales de la función administrativa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Competencia electoral, autonomía judicial y soberanía popular.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Innovación, meritocracia, descentralización y estabilidad fiscal únicamente.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Secreto, jerarquía, discrecionalidad, reserva y rentabilidad.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad constitution-1991-art-209. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "colombia-constitution-1991",
+        "sourceUnitId": "constitution-1991-art-209",
+        "locator": "Artículo 209, página PDF 135",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0030",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Secreto, jerarquía, discrecionalidad, reserva y rentabilidad.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Competencia electoral, autonomía judicial y soberanía popular.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Innovación, meritocracia, descentralización y estabilidad fiscal únicamente.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad constitution-1991-art-209. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "colombia-constitution-1991",
+        "sourceUnitId": "constitution-1991-art-209",
+        "locator": "Artículo 209, página PDF 135",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0031",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Competencia electoral, autonomía judicial y soberanía popular.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Innovación, meritocracia, descentralización y estabilidad fiscal únicamente.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Secreto, jerarquía, discrecionalidad, reserva y rentabilidad.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad constitution-1991-art-209. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "colombia-constitution-1991",
+        "sourceUnitId": "constitution-1991-art-209",
+        "locator": "Artículo 209, página PDF 135",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0032",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "procuraduria_y_estado",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué posición constitucional ocupa el Procurador General frente al Ministerio Público?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Es un delegado subordinado al alcalde de Bogotá.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Es el jefe de la Rama Judicial.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Es el director de la organización electoral.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Es el supremo director del Ministerio Público.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad constitution-1991-art-275. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "colombia-constitution-1991",
+        "sourceUnitId": "constitution-1991-art-275",
+        "locator": "Artículo 275, página PDF 170",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0033",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "procuraduria_y_estado",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Es el director de la organización electoral.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Es el supremo director del Ministerio Público.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Es un delegado subordinado al alcalde de Bogotá.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Es el jefe de la Rama Judicial.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad constitution-1991-art-275. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "colombia-constitution-1991",
+        "sourceUnitId": "constitution-1991-art-275",
+        "locator": "Artículo 275, página PDF 170",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0034",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "procuraduria_y_estado",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Es un delegado subordinado al alcalde de Bogotá.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Es el jefe de la Rama Judicial.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Es el director de la organización electoral.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Es el supremo director del Ministerio Público.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad constitution-1991-art-275. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "colombia-constitution-1991",
+        "sourceUnitId": "constitution-1991-art-275",
+        "locator": "Artículo 275, página PDF 170",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0035",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "procuraduria_y_estado",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué grupos funcionales contempla el artículo 23 del Decreto Ley 262?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Funciones preventivas y de control de gestión, disciplinarias, de derechos humanos e intervención.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Solo funciones presupuestales y de contratación.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Únicamente funciones electorales y notariales.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Solo funciones de policía administrativa.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad decree-law-262-2000-art-23. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "decree-law-262-2000",
+        "sourceUnitId": "decree-law-262-2000-art-23",
+        "locator": "Artículo 23, página PDF 15",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0036",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "procuraduria_y_estado",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Únicamente funciones electorales y notariales.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Solo funciones de policía administrativa.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Funciones preventivas y de control de gestión, disciplinarias, de derechos humanos e intervención.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Solo funciones presupuestales y de contratación.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad decree-law-262-2000-art-23. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "decree-law-262-2000",
+        "sourceUnitId": "decree-law-262-2000-art-23",
+        "locator": "Artículo 23, página PDF 15",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0037",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "procuraduria_y_estado",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Funciones preventivas y de control de gestión, disciplinarias, de derechos humanos e intervención.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Solo funciones presupuestales y de contratación.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Únicamente funciones electorales y notariales.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Solo funciones de policía administrativa.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad decree-law-262-2000-art-23. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "decree-law-262-2000",
+        "sourceUnitId": "decree-law-262-2000-art-23",
+        "locator": "Artículo 23, página PDF 15",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0038",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "procuraduria_y_estado",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué límite debe respetar la actuación preventiva de la Procuraduría?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aprobar todos los contratos antes de su suscripción.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Acompañar y advertir sin sustituir la decisión administrativa ni coadministrar.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Ordenar directamente el gasto de la entidad vigilada.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Reemplazar al ordenador del gasto en cada decisión.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad pgn-bulletin-107-2026-preventive-scope. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "pgn-bulletin-107-2026-preventive-function",
+        "sourceUnitId": "pgn-bulletin-107-2026-preventive-scope",
+        "locator": "Párrafo final que inicia «La Procuraduría General de la Nación reiteró», boletín del 6 de febrero de 2026",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0039",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "procuraduria_y_estado",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ordenar directamente el gasto de la entidad vigilada.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Reemplazar al ordenador del gasto en cada decisión.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Aprobar todos los contratos antes de su suscripción.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Acompañar y advertir sin sustituir la decisión administrativa ni coadministrar.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad pgn-bulletin-107-2026-preventive-scope. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "pgn-bulletin-107-2026-preventive-function",
+        "sourceUnitId": "pgn-bulletin-107-2026-preventive-scope",
+        "locator": "Párrafo final que inicia «La Procuraduría General de la Nación reiteró», boletín del 6 de febrero de 2026",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0040",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "procuraduria_y_estado",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aprobar todos los contratos antes de su suscripción.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Acompañar y advertir sin sustituir la decisión administrativa ni coadministrar.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Ordenar directamente el gasto de la entidad vigilada.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Reemplazar al ordenador del gasto en cada decisión.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad pgn-bulletin-107-2026-preventive-scope. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "pgn-bulletin-107-2026-preventive-function",
+        "sourceUnitId": "pgn-bulletin-107-2026-preventive-scope",
+        "locator": "Párrafo final que inicia «La Procuraduría General de la Nación reiteró», boletín del 6 de febrero de 2026",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0041",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "atencion_transparencia_y_datos",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "Ante una petición, ¿qué debe analizarse para determinar la respuesta institucional?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La preferencia personal del funcionario que la recibe.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "El número de páginas del expediente sin revisar la competencia.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "El contenido y modalidad de la petición, la competencia y los términos aplicables.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Solo el tamaño del documento recibido.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1755-2015-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1755-2015",
+        "sourceUnitId": "law-1755-2015-review-unit",
+        "locator": "Ley 1755 de 2015, artículos 13 a 16 y 21",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0042",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "atencion_transparencia_y_datos",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El contenido y modalidad de la petición, la competencia y los términos aplicables.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Solo el tamaño del documento recibido.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "La preferencia personal del funcionario que la recibe.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "El número de páginas del expediente sin revisar la competencia.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1755-2015-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1755-2015",
+        "sourceUnitId": "law-1755-2015-review-unit",
+        "locator": "Ley 1755 de 2015, artículos 13 a 16 y 21",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0043",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "atencion_transparencia_y_datos",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La preferencia personal del funcionario que la recibe.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "El número de páginas del expediente sin revisar la competencia.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "El contenido y modalidad de la petición, la competencia y los términos aplicables.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Solo el tamaño del documento recibido.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1755-2015-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1755-2015",
+        "sourceUnitId": "law-1755-2015-review-unit",
+        "locator": "Ley 1755 de 2015, artículos 13 a 16 y 21",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0044",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "atencion_transparencia_y_datos",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué permite el acceso parcial a un documento público?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Negar todo el documento sin motivación.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Publicar también los datos sometidos a reserva.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Eliminar el documento del archivo institucional.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Entregar la parte pública y reservar únicamente la información protegida, justificándolo.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1712-2014-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1712-2014",
+        "sourceUnitId": "law-1712-2014-review-unit",
+        "locator": "Ley 1712 de 2014, artículos 18 y 21",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0045",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "atencion_transparencia_y_datos",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eliminar el documento del archivo institucional.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Entregar la parte pública y reservar únicamente la información protegida, justificándolo.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Negar todo el documento sin motivación.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Publicar también los datos sometidos a reserva.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1712-2014-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1712-2014",
+        "sourceUnitId": "law-1712-2014-review-unit",
+        "locator": "Ley 1712 de 2014, artículos 18 y 21",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0046",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "atencion_transparencia_y_datos",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Negar todo el documento sin motivación.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Publicar también los datos sometidos a reserva.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Eliminar el documento del archivo institucional.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Entregar la parte pública y reservar únicamente la información protegida, justificándolo.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1712-2014-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1712-2014",
+        "sourceUnitId": "law-1712-2014-review-unit",
+        "locator": "Ley 1712 de 2014, artículos 18 y 21",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0047",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_documental",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué relación existe entre clasificación documental y disposición final?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La clasificación y valoración orientan la disposición y conservación de los documentos.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "La disposición se decide sin valorar series documentales.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Todo documento debe destruirse al finalizar el trámite.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "La clasificación solo sirve para nombrar carpetas personales.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad decree-1080-2015-archives-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "decree-1080-2015-archives",
+        "sourceUnitId": "decree-1080-2015-archives-review-unit",
+        "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0048",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_documental",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Todo documento debe destruirse al finalizar el trámite.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "La clasificación solo sirve para nombrar carpetas personales.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "La clasificación y valoración orientan la disposición y conservación de los documentos.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "La disposición se decide sin valorar series documentales.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad decree-1080-2015-archives-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "decree-1080-2015-archives",
+        "sourceUnitId": "decree-1080-2015-archives-review-unit",
+        "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0049",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_documental",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La clasificación y valoración orientan la disposición y conservación de los documentos.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "La disposición se decide sin valorar series documentales.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Todo documento debe destruirse al finalizar el trámite.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "La clasificación solo sirve para nombrar carpetas personales.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad decree-1080-2015-archives-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "decree-1080-2015-archives",
+        "sourceUnitId": "decree-1080-2015-archives-review-unit",
+        "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0050",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué caracteriza la etapa verificar del ciclo PHVA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cerrar el ciclo antes de medir los resultados.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Contrastar resultados y evidencias frente a lo planificado para identificar desviaciones.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Ejecutar actividades sin comparar resultados.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Definir el problema sin recoger evidencias.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad minvivienda-phva-methodology-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "minvivienda-phva-methodology",
+        "sourceUnitId": "minvivienda-phva-methodology-review-unit",
+        "locator": "Metodología de indicadores de gestión, página PDF 2, Introducción",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0051",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ejecutar actividades sin comparar resultados.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Definir el problema sin recoger evidencias.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Cerrar el ciclo antes de medir los resultados.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Contrastar resultados y evidencias frente a lo planificado para identificar desviaciones.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad minvivienda-phva-methodology-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "minvivienda-phva-methodology",
+        "sourceUnitId": "minvivienda-phva-methodology-review-unit",
+        "locator": "Metodología de indicadores de gestión, página PDF 2, Introducción",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0052",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cerrar el ciclo antes de medir los resultados.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Contrastar resultados y evidencias frente a lo planificado para identificar desviaciones.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Ejecutar actividades sin comparar resultados.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Definir el problema sin recoger evidencias.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad minvivienda-phva-methodology-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "minvivienda-phva-methodology",
+        "sourceUnitId": "minvivienda-phva-methodology-review-unit",
+        "locator": "Metodología de indicadores de gestión, página PDF 2, Introducción",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0053",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué elementos hacen interpretable un indicador de seguimiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Únicamente la opinión del equipo directivo.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Una cifra sin fuente ni periodo de medición.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Una definición, fórmula, fuente, línea base, meta, periodicidad y responsable.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Solo un nombre llamativo y un color.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad funcion-publica-indicators-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "funcion-publica-indicators",
+        "sourceUnitId": "funcion-publica-indicators-review-unit",
+        "locator": "MIPG, Seguimiento, evaluación y control integral, política Evaluación y seguimiento, Lineamientos, lista «La entidad debe verificar que»",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0054",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una definición, fórmula, fuente, línea base, meta, periodicidad y responsable.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Solo un nombre llamativo y un color.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Únicamente la opinión del equipo directivo.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Una cifra sin fuente ni periodo de medición.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad funcion-publica-indicators-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "funcion-publica-indicators",
+        "sourceUnitId": "funcion-publica-indicators-review-unit",
+        "locator": "MIPG, Seguimiento, evaluación y control integral, política Evaluación y seguimiento, Lineamientos, lista «La entidad debe verificar que»",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0055",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Únicamente la opinión del equipo directivo.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Una cifra sin fuente ni periodo de medición.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Una definición, fórmula, fuente, línea base, meta, periodicidad y responsable.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Solo un nombre llamativo y un color.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad funcion-publica-indicators-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "funcion-publica-indicators",
+        "sourceUnitId": "funcion-publica-indicators-review-unit",
+        "locator": "MIPG, Seguimiento, evaluación y control integral, política Evaluación y seguimiento, Lineamientos, lista «La entidad debe verificar que»",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0056",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué expresa el principio de planeación antes de seleccionar un proveedor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elegir primero al proveedor y justificar después.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Omitir estudios si el proveedor es conocido.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Contratar sin establecer la necesidad pública.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Definir la necesidad, analizar alternativas y soportar la decisión con estudios previos.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-80-1993-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "law-80-1993-review-unit",
+        "locator": "Ley 80 de 1993, artículo 25, numerales 7 y 12 (numeral 12 modificado por artículo 87 de Ley 1474 de 2011)",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0057",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contratar sin establecer la necesidad pública.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Definir la necesidad, analizar alternativas y soportar la decisión con estudios previos.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Elegir primero al proveedor y justificar después.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Omitir estudios si el proveedor es conocido.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-80-1993-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "law-80-1993-review-unit",
+        "locator": "Ley 80 de 1993, artículo 25, numerales 7 y 12 (numeral 12 modificado por artículo 87 de Ley 1474 de 2011)",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0058",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elegir primero al proveedor y justificar después.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Omitir estudios si el proveedor es conocido.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Contratar sin establecer la necesidad pública.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Definir la necesidad, analizar alternativas y soportar la decisión con estudios previos.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-80-1993-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "law-80-1993-review-unit",
+        "locator": "Ley 80 de 1993, artículo 25, numerales 7 y 12 (numeral 12 modificado por artículo 87 de Ley 1474 de 2011)",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0059",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué puede concluirse de una correlación entre dos variables?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que existe asociación estadística, pero no necesariamente causalidad.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Que una variable causa siempre a la otra.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Que los datos son representativos de toda población.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Que no se requiere revisar la calidad de los datos.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad nist-correlation-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "nist-correlation",
+        "sourceUnitId": "nist-correlation-review-unit",
+        "locator": "NIST Engineering Statistics Handbook, 3.1.3.6 Experiments and Experimental Design, apartados Correlation y Causality",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0060",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que los datos son representativos de toda población.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Que no se requiere revisar la calidad de los datos.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Que existe asociación estadística, pero no necesariamente causalidad.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Que una variable causa siempre a la otra.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad nist-correlation-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "nist-correlation",
+        "sourceUnitId": "nist-correlation-review-unit",
+        "locator": "NIST Engineering Statistics Handbook, 3.1.3.6 Experiments and Experimental Design, apartados Correlation y Causality",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0061",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que existe asociación estadística, pero no necesariamente causalidad.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Que una variable causa siempre a la otra.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Que los datos son representativos de toda población.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Que no se requiere revisar la calidad de los datos.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad nist-correlation-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "nist-correlation",
+        "sourceUnitId": "nist-correlation-review-unit",
+        "locator": "NIST Engineering Statistics Handbook, 3.1.3.6 Experiments and Experimental Design, apartados Correlation y Causality",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0062",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué riesgo introduce analizar solo los casos que lograron responder una encuesta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Causalidad demostrada por el tamaño de la muestra.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Sesgo de selección, porque quienes responden pueden diferir de quienes no responden.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Mayor validez automática del resultado.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Eliminación completa del error de medición.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad cdc-data-analysis-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "cdc-data-analysis",
+        "sourceUnitId": "cdc-data-analysis-review-unit",
+        "locator": "CDC Field Epidemiology Manual, Analyzing and Interpreting Data, Developing an Analysis Plan (Get to know your data) e Interpreting Results (Selection bias)",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0063",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mayor validez automática del resultado.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Eliminación completa del error de medición.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Causalidad demostrada por el tamaño de la muestra.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Sesgo de selección, porque quienes responden pueden diferir de quienes no responden.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad cdc-data-analysis-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "cdc-data-analysis",
+        "sourceUnitId": "cdc-data-analysis-review-unit",
+        "locator": "CDC Field Epidemiology Manual, Analyzing and Interpreting Data, Developing an Analysis Plan (Get to know your data) e Interpreting Results (Selection bias)",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0064",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Causalidad demostrada por el tamaño de la muestra.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Sesgo de selección, porque quienes responden pueden diferir de quienes no responden.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Mayor validez automática del resultado.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Eliminación completa del error de medición.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad cdc-data-analysis-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "cdc-data-analysis",
+        "sourceUnitId": "cdc-data-analysis-review-unit",
+        "locator": "CDC Field Epidemiology Manual, Analyzing and Interpreting Data, Developing an Analysis Plan (Get to know your data) e Interpreting Results (Selection bias)",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0065",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué protege la integridad referencial en una base de datos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que una transacción nunca pueda fallar.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Que los datos se almacenen sin ningún esquema.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Que las relaciones entre registros respeten las claves y no apunten a filas inexistentes.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Que todos los usuarios tengan permisos de administrador.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad missouri-db-integrity-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "missouri-db-integrity",
+        "sourceUnitId": "missouri-db-integrity-review-unit",
+        "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0066",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que las relaciones entre registros respeten las claves y no apunten a filas inexistentes.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Que todos los usuarios tengan permisos de administrador.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Que una transacción nunca pueda fallar.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Que los datos se almacenen sin ningún esquema.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad missouri-db-integrity-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "missouri-db-integrity",
+        "sourceUnitId": "missouri-db-integrity-review-unit",
+        "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0067",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que una transacción nunca pueda fallar.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Que los datos se almacenen sin ningún esquema.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Que las relaciones entre registros respeten las claves y no apunten a filas inexistentes.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Que todos los usuarios tengan permisos de administrador.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad missouri-db-integrity-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "missouri-db-integrity",
+        "sourceUnitId": "missouri-db-integrity-review-unit",
+        "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0068",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué significa atomicidad en una transacción?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que cada usuario puede modificar cualquier tabla.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Que los datos se envían sin autenticación.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Que una consulta siempre tarda el mismo tiempo.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Que sus operaciones se confirman como una unidad o se revierten completamente.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad nist-acid-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "nist-acid",
+        "sourceUnitId": "nist-acid-review-unit",
+        "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0069",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que una consulta siempre tarda el mismo tiempo.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Que sus operaciones se confirman como una unidad o se revierten completamente.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Que cada usuario puede modificar cualquier tabla.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Que los datos se envían sin autenticación.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad nist-acid-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "nist-acid",
+        "sourceUnitId": "nist-acid-review-unit",
+        "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0070",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que cada usuario puede modificar cualquier tabla.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Que los datos se envían sin autenticación.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Que una consulta siempre tarda el mismo tiempo.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Que sus operaciones se confirman como una unidad o se revierten completamente.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad nist-acid-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "nist-acid",
+        "sourceUnitId": "nist-acid-review-unit",
+        "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0071",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué exige el principio de mínimo privilegio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conceder solo los permisos necesarios para una función y durante el tiempo requerido.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Otorgar permisos globales para facilitar el soporte.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Usar una cuenta compartida para todo el equipo.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Conservar permisos indefinidos aunque cambie la función.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad nist-least-privilege-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "nist-least-privilege",
+        "sourceUnitId": "nist-least-privilege-review-unit",
+        "locator": "NIST glossary, definición least privilege",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0072",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usar una cuenta compartida para todo el equipo.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Conservar permisos indefinidos aunque cambie la función.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Conceder solo los permisos necesarios para una función y durante el tiempo requerido.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Otorgar permisos globales para facilitar el soporte.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad nist-least-privilege-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "nist-least-privilege",
+        "sourceUnitId": "nist-least-privilege-review-unit",
+        "locator": "NIST glossary, definición least privilege",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0073",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conceder solo los permisos necesarios para una función y durante el tiempo requerido.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Otorgar permisos globales para facilitar el soporte.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Usar una cuenta compartida para todo el equipo.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Conservar permisos indefinidos aunque cambie la función.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad nist-least-privilege-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "nist-least-privilege",
+        "sourceUnitId": "nist-least-privilege-review-unit",
+        "locator": "NIST glossary, definición least privilege",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0074",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Cuál es una práctica adecuada para proteger secretos en servicios cloud?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usar la misma clave permanente en todos los ambientes.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Usar un gestor de secretos, identidades de servicio y rotación controlada.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Guardar claves en el código fuente público.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Enviar contraseñas por correo sin cifrado.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad ncsc-cloud-security-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "ncsc-cloud-security",
+        "sourceUnitId": "ncsc-cloud-security-review-unit",
+        "locator": "NCSC, Using a cloud platform securely, secciones Authenticate service identities, Apply access controls y Protect secrets carefully",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0075",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Guardar claves en el código fuente público.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Enviar contraseñas por correo sin cifrado.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Usar la misma clave permanente en todos los ambientes.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Usar un gestor de secretos, identidades de servicio y rotación controlada.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad ncsc-cloud-security-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "ncsc-cloud-security",
+        "sourceUnitId": "ncsc-cloud-security-review-unit",
+        "locator": "NCSC, Using a cloud platform securely, secciones Authenticate service identities, Apply access controls y Protect secrets carefully",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0076",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usar la misma clave permanente en todos los ambientes.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Usar un gestor de secretos, identidades de servicio y rotación controlada.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Guardar claves en el código fuente público.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Enviar contraseñas por correo sin cifrado.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad ncsc-cloud-security-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "ncsc-cloud-security",
+        "sourceUnitId": "ncsc-cloud-security-review-unit",
+        "locator": "NCSC, Using a cloud platform securely, secciones Authenticate service identities, Apply access controls y Protect secrets carefully",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0077",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué debe acompañar un cambio incompatible en una API?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eliminar las pruebas para acelerar el despliegue.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Obligar a todos los consumidores a adivinar el nuevo contrato.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Un contrato versionado, comunicación del cambio y pruebas de compatibilidad.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Cambiar la respuesta sin modificar documentación.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad homeoffice-api-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "homeoffice-api",
+        "sourceUnitId": "homeoffice-api-review-unit",
+        "locator": "Home Office, Designing and Maintaining an API, requisitos You MUST include a form of versioning to your API, You MUST test your API y You MUST use an API Specification",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0078",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un contrato versionado, comunicación del cambio y pruebas de compatibilidad.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Cambiar la respuesta sin modificar documentación.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Eliminar las pruebas para acelerar el despliegue.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Obligar a todos los consumidores a adivinar el nuevo contrato.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad homeoffice-api-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "homeoffice-api",
+        "sourceUnitId": "homeoffice-api-review-unit",
+        "locator": "Home Office, Designing and Maintaining an API, requisitos You MUST include a form of versioning to your API, You MUST test your API y You MUST use an API Specification",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0079",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eliminar las pruebas para acelerar el despliegue.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Obligar a todos los consumidores a adivinar el nuevo contrato.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Un contrato versionado, comunicación del cambio y pruebas de compatibilidad.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Cambiar la respuesta sin modificar documentación.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad homeoffice-api-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "homeoffice-api",
+        "sourceUnitId": "homeoffice-api-review-unit",
+        "locator": "Home Office, Designing and Maintaining an API, requisitos You MUST include a form of versioning to your API, You MUST test your API y You MUST use an API Specification",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0080",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Cuál es una prioridad inicial ante un incidente de ransomware?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Borrar inmediatamente todos los registros.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Pagar sin investigar ni contener.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Reconectar los equipos afectados a la red principal.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Contener la propagación, preservar evidencia y activar el plan de respuesta.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad cisa-ransomware-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "cisa-ransomware",
+        "sourceUnitId": "cisa-ransomware-review-unit",
+        "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0081",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reconectar los equipos afectados a la red principal.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Contener la propagación, preservar evidencia y activar el plan de respuesta.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Borrar inmediatamente todos los registros.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Pagar sin investigar ni contener.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad cisa-ransomware-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "cisa-ransomware",
+        "sourceUnitId": "cisa-ransomware-review-unit",
+        "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0082",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Borrar inmediatamente todos los registros.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Pagar sin investigar ni contener.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Reconectar los equipos afectados a la red principal.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Contener la propagación, preservar evidencia y activar el plan de respuesta.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad cisa-ransomware-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "cisa-ransomware",
+        "sourceUnitId": "cisa-ransomware-review-unit",
+        "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0083",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Cuándo debe declararse impedido un servidor público?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cuando exista conflicto entre el interés general de la función y un interés particular y directo.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Cuando el trámite sea largo aunque no haya interés personal.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Solo cuando exista una orden escrita del superior.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Siempre que el ciudadano no comparta la decisión.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1437-2011-art-11. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-11",
+        "locator": "Artículo 11, páginas PDF 7 a 9",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0084",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo cuando exista una orden escrita del superior.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Siempre que el ciudadano no comparta la decisión.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Cuando exista conflicto entre el interés general de la función y un interés particular y directo.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Cuando el trámite sea largo aunque no haya interés personal.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1437-2011-art-11. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-11",
+        "locator": "Artículo 11, páginas PDF 7 a 9",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0085",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cuando exista conflicto entre el interés general de la función y un interés particular y directo.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Cuando el trámite sea largo aunque no haya interés personal.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Solo cuando exista una orden escrita del superior.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Siempre que el ciudadano no comparta la decisión.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1437-2011-art-11. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-11",
+        "locator": "Artículo 11, páginas PDF 7 a 9",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0086",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué ocurre con la actuación cuando se tramita un impedimento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La decide el mismo servidor impedido.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "La actuación se suspende hasta que la autoridad competente decida el impedimento.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Debe continuar sin registrar el conflicto.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Se archiva automáticamente sin decisión.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1437-2011-art-12. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-12",
+        "locator": "Artículo 12, página PDF 9",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0087",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Debe continuar sin registrar el conflicto.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Se archiva automáticamente sin decisión.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "La decide el mismo servidor impedido.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "La actuación se suspende hasta que la autoridad competente decida el impedimento.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1437-2011-art-12. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-12",
+        "locator": "Artículo 12, página PDF 9",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0088",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "gestion_publica_y_mipg",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La decide el mismo servidor impedido.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "La actuación se suspende hasta que la autoridad competente decida el impedimento.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Debe continuar sin registrar el conflicto.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Se archiva automáticamente sin decisión.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1437-2011-art-12. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-12",
+        "locator": "Artículo 12, página PDF 9",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0089",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué deber funcional se relaciona con cumplir la Constitución y la ley?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Priorizar la conveniencia personal sobre la norma.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Aplicar reglas privadas por encima de la ley.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Observar la Constitución, las leyes, los reglamentos y los manuales aplicables al servicio.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Cumplir únicamente instrucciones verbales.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1952-2019-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "law-1952-2019-review-unit",
+        "locator": "Ley 1952 de 2019, artículo 38, numerales 1 y 3",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0090",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Observar la Constitución, las leyes, los reglamentos y los manuales aplicables al servicio.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Cumplir únicamente instrucciones verbales.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Priorizar la conveniencia personal sobre la norma.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Aplicar reglas privadas por encima de la ley.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1952-2019-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "law-1952-2019-review-unit",
+        "locator": "Ley 1952 de 2019, artículo 38, numerales 1 y 3",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0091",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Priorizar la conveniencia personal sobre la norma.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Aplicar reglas privadas por encima de la ley.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Observar la Constitución, las leyes, los reglamentos y los manuales aplicables al servicio.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Cumplir únicamente instrucciones verbales.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad law-1952-2019-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "law-1952-2019-review-unit",
+        "locator": "Ley 1952 de 2019, artículo 38, numerales 1 y 3",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0092",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué conducta refleja honestidad en el servicio público?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ocultar el error para proteger la imagen del equipo.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Modificar una cifra sin dejar trazabilidad.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Presentar como propio un resultado ajeno.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Comunicar información veraz y reconocer oportunamente un error.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad codigo-integridad-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "codigo-integridad",
+        "sourceUnitId": "codigo-integridad-review-unit",
+        "locator": "Código de Integridad, valores Honestidad, Justicia y Diligencia, apartados Lo que hago y Lo que no hago",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0093",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Presentar como propio un resultado ajeno.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Comunicar información veraz y reconocer oportunamente un error.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Ocultar el error para proteger la imagen del equipo.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Modificar una cifra sin dejar trazabilidad.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad codigo-integridad-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "codigo-integridad",
+        "sourceUnitId": "codigo-integridad-review-unit",
+        "locator": "Código de Integridad, valores Honestidad, Justicia y Diligencia, apartados Lo que hago y Lo que no hago",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0094",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ocultar el error para proteger la imagen del equipo.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Modificar una cifra sin dejar trazabilidad.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Presentar como propio un resultado ajeno.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Comunicar información veraz y reconocer oportunamente un error.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad codigo-integridad-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "codigo-integridad",
+        "sourceUnitId": "codigo-integridad-review-unit",
+        "locator": "Código de Integridad, valores Honestidad, Justicia y Diligencia, apartados Lo que hago y Lo que no hago",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0095",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué enfoque es coherente con la innovación pública centrada en usuarios?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Comprender el problema, prototipar y aprender mediante pruebas controladas.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Implementar una solución definitiva sin validar necesidades.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Copiar una solución sin analizar el contexto.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Medir éxito solo por la cantidad de reuniones.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad dnp-public-innovation-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "dnp-public-innovation",
+        "sourceUnitId": "dnp-public-innovation-review-unit",
+        "locator": "Principios de la innovación pública en Colombia, página PDF 44 (impresas 86-87), Exploración y Prueba y error",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0096",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Copiar una solución sin analizar el contexto.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Medir éxito solo por la cantidad de reuniones.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Comprender el problema, prototipar y aprender mediante pruebas controladas.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Implementar una solución definitiva sin validar necesidades.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad dnp-public-innovation-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "dnp-public-innovation",
+        "sourceUnitId": "dnp-public-innovation-review-unit",
+        "locator": "Principios de la innovación pública en Colombia, página PDF 44 (impresas 86-87), Exploración y Prueba y error",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0097",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Comprender el problema, prototipar y aprender mediante pruebas controladas.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Implementar una solución definitiva sin validar necesidades.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Copiar una solución sin analizar el contexto.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Medir éxito solo por la cantidad de reuniones.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad dnp-public-innovation-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "dnp-public-innovation",
+        "sourceUnitId": "dnp-public-innovation-review-unit",
+        "locator": "Principios de la innovación pública en Colombia, página PDF 44 (impresas 86-87), Exploración y Prueba y error",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0098",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "Según la ficha v3 de la convocatoria 121, ¿qué enfoque técnico es pertinente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo gestión cultural sin componente tecnológico.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Analítica de datos y sistemas de información dentro del perfil descrito.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Únicamente litigio internacional.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Exclusivamente protocolo diplomático.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad pgn-call-121-2026-v3-profile. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "pgn-call-121-2026-v3",
+        "sourceUnitId": "pgn-call-121-2026-v3-profile",
+        "locator": "Convocatoria 121-2026 versión 3, páginas 2-3, propósito, funciones y conocimientos esenciales",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026"
+    ],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0099",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Únicamente litigio internacional.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Exclusivamente protocolo diplomático.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Solo gestión cultural sin componente tecnológico.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Analítica de datos y sistemas de información dentro del perfil descrito.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad pgn-call-121-2026-v3-profile. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "pgn-call-121-2026-v3",
+        "sourceUnitId": "pgn-call-121-2026-v3-profile",
+        "locator": "Convocatoria 121-2026 versión 3, páginas 2-3, propósito, funciones y conocimientos esenciales",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026"
+    ],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0100",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo gestión cultural sin componente tecnológico.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Analítica de datos y sistemas de información dentro del perfil descrito.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Únicamente litigio internacional.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Exclusivamente protocolo diplomático.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad pgn-call-121-2026-v3-profile. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "pgn-call-121-2026-v3",
+        "sourceUnitId": "pgn-call-121-2026-v3-profile",
+        "locator": "Convocatoria 121-2026 versión 3, páginas 2-3, propósito, funciones y conocimientos esenciales",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "121-2026"
+    ],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0101",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "Según la ficha v3 de la convocatoria 126, ¿qué bloque técnico aparece documentado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Únicamente contratación artística.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Exclusivamente atención presencial.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Ciclo de vida de software, sistemas de información y redes.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Solo archivo histórico sin sistemas.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad pgn-call-126-2026-v3-profile. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "pgn-call-126-2026-v3",
+        "sourceUnitId": "pgn-call-126-2026-v3-profile",
+        "locator": "Convocatoria 126-2026 versión 3, páginas 2-3, propósito, funciones y conocimientos esenciales",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0102",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ciclo de vida de software, sistemas de información y redes.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Solo archivo histórico sin sistemas.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Únicamente contratación artística.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Exclusivamente atención presencial.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad pgn-call-126-2026-v3-profile. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "pgn-call-126-2026-v3",
+        "sourceUnitId": "pgn-call-126-2026-v3-profile",
+        "locator": "Convocatoria 126-2026 versión 3, páginas 2-3, propósito, funciones y conocimientos esenciales",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0103",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Únicamente contratación artística.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Exclusivamente atención presencial.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Ciclo de vida de software, sistemas de información y redes.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Solo archivo histórico sin sistemas.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad pgn-call-126-2026-v3-profile. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "pgn-call-126-2026-v3",
+        "sourceUnitId": "pgn-call-126-2026-v3-profile",
+        "locator": "Convocatoria 126-2026 versión 3, páginas 2-3, propósito, funciones y conocimientos esenciales",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0104",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "Según la ficha v3 de la convocatoria 127, ¿qué conjunto técnico está documentado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo contabilidad financiera.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Únicamente ceremonial institucional.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Exclusivamente derecho de familia.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Infraestructura, redes, nube y seguridad de la información.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad pgn-call-127-2026-v3-profile. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "pgn-call-127-2026-v3",
+        "sourceUnitId": "pgn-call-127-2026-v3-profile",
+        "locator": "Convocatoria 127-2026 versión 3, páginas 2-3, propósito, funciones y conocimientos esenciales",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "127-2026"
+    ],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0105",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exclusivamente derecho de familia.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Infraestructura, redes, nube y seguridad de la información.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Solo contabilidad financiera.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Únicamente ceremonial institucional.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta se deriva del contenido de la unidad pgn-call-127-2026-v3-profile. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "pgn-call-127-2026-v3",
+        "sourceUnitId": "pgn-call-127-2026-v3-profile",
+        "locator": "Convocatoria 127-2026 versión 3, páginas 2-3, propósito, funciones y conocimientos esenciales",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "127-2026"
+    ],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0106",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo contabilidad financiera.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Únicamente ceremonial institucional.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Exclusivamente derecho de familia.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Infraestructura, redes, nube y seguridad de la información.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La respuesta se deriva del contenido de la unidad pgn-call-127-2026-v3-profile. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "pgn-call-127-2026-v3",
+        "sourceUnitId": "pgn-call-127-2026-v3-profile",
+        "locator": "Convocatoria 127-2026 versión 3, páginas 2-3, propósito, funciones y conocimientos esenciales",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [
+      "127-2026"
+    ],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0107",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Qué conducta corresponde a una competencia profesional de análisis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Examinar información con criterios objetivos y comunicar prioridades al responsable.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Decidir por rumores sin revisar datos.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Ocultar riesgos para evitar preguntas.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Cambiar prioridades sin informar a quien coordina.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad decreto-815-2018-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "decreto-815-2018-review-unit",
+        "locator": "Decreto 815 de 2018, artículo 1 que sustituye el título 4 del Decreto 1083 de 2015, artículo 2.2.4.8, nivel profesional: Comunicación efectiva e Instrumentación de decisiones",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0108",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "En un caso relacionado con la fuente, ¿cuál actuación es la más consistente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ocultar riesgos para evitar preguntas.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Cambiar prioridades sin informar a quien coordina.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Examinar información con criterios objetivos y comunicar prioridades al responsable.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Decidir por rumores sin revisar datos.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La respuesta se deriva del contenido de la unidad decreto-815-2018-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "decreto-815-2018-review-unit",
+        "locator": "Decreto 815 de 2018, artículo 1 que sustituye el título 4 del Decreto 1083 de 2015, artículo 2.2.4.8, nivel profesional: Comunicación efectiva e Instrumentación de decisiones",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0109",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 4,
+    "stem": "Para aplicar correctamente este criterio, ¿qué opción debe preferirse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Examinar información con criterios objetivos y comunicar prioridades al responsable.",
+        "rationale": "Es la opción que coincide con la unidad verificable citada."
+      },
+      {
+        "id": "B",
+        "text": "Decidir por rumores sin revisar datos.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "C",
+        "text": "Ocultar riesgos para evitar preguntas.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      },
+      {
+        "id": "D",
+        "text": "Cambiar prioridades sin informar a quien coordina.",
+        "rationale": "No coincide con el alcance de la unidad verificable citada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La respuesta se deriva del contenido de la unidad decreto-815-2018-review-unit. La pertinencia y la redacción de esta versión requieren revisión independiente antes de su publicación.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "decreto-815-2018-review-unit",
+        "locator": "Decreto 815 de 2018, artículo 1 que sustituye el título 4 del Decreto 1083 de 2015, artículo 2.2.4.8, nivel profesional: Comunicación efectiva e Instrumentación de decisiones",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "expansion-draft",
+      "web-informed"
+    ]
+  }
+]

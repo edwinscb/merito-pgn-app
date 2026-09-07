@@ -2,7 +2,7 @@
 
 - Fuentes: **48**
 - Unidades verificables: **31**
-- Preguntas: **25**
+- Preguntas: **109**
 - Preguntas publicables: **18**
 
 ## Preguntas por estado
@@ -11,7 +11,7 @@
 | --- | ---: |
 | draft_ai | 0 |
 | validated_assisted | 18 |
-| needs_review | 7 |
+| needs_review | 91 |
 | rejected | 0 |
 | retired | 0 |
 
@@ -49,23 +49,23 @@
 
 | Categoría | Cantidad |
 | --- | ---: |
-| procuraduria_y_estado — Procuraduría y Estado | 3 |
-| derecho_disciplinario — Derecho disciplinario | 0 |
-| gestion_publica_y_mipg — Gestión pública y MIPG | 3 |
-| contratacion_estatal — Contratación estatal | 1 |
-| atencion_transparencia_y_datos — Atención, transparencia y datos | 2 |
-| gestion_documental — Gestión documental | 1 |
+| procuraduria_y_estado — Procuraduría y Estado | 15 |
+| derecho_disciplinario — Derecho disciplinario | 3 |
+| gestion_publica_y_mipg — Gestión pública y MIPG | 18 |
+| contratacion_estatal — Contratación estatal | 4 |
+| atencion_transparencia_y_datos — Atención, transparencia y datos | 8 |
+| gestion_documental — Gestión documental | 4 |
 | ofimatica_y_sistemas_de_gestion — Ofimática y sistemas de gestión | 0 |
-| competencias_comportamentales — Competencias comportamentales | 5 |
-| datos_y_analitica — Datos y analítica | 4 |
-| software_e_interoperabilidad — Software e interoperabilidad | 3 |
-| infraestructura_nube_y_ciberseguridad — Infraestructura, nube y ciberseguridad | 3 |
+| competencias_comportamentales — Competencias comportamentales | 14 |
+| datos_y_analitica — Datos y analítica | 13 |
+| software_e_interoperabilidad — Software e interoperabilidad | 15 |
+| infraestructura_nube_y_ciberseguridad — Infraestructura, nube y ciberseguridad | 15 |
 
 ## Preguntas por convocatoria
 
 | Categoría | Cantidad |
 | --- | ---: |
-| 121-2026 | 22 |
-| 126-2026 | 18 |
-| 127-2026 | 15 |
-| sin_convocatoria | 1 |
+| 121-2026 | 15 |
+| 126-2026 | 12 |
+| 127-2026 | 10 |
+| sin_convocatoria | 85 |

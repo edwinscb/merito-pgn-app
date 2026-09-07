@@ -15,12 +15,16 @@ describe('pipeline con el dataset real', () => {
 
   it('mantiene fuera del banco las semillas con hallazgos pendientes', async () => {
     const result = await validateRepositoryDataset()
-    expect(result.data?.questions).toHaveLength(25)
+    expect(result.data?.questions).toHaveLength(109)
     expect(result.data?.questions.filter((question) => question.status === 'validated_assisted')).toHaveLength(18)
-    expect(result.data?.questions.filter((question) => question.status === 'needs_review')).toHaveLength(7)
+    expect(result.data?.questions.filter((question) => question.status === 'needs_review')).toHaveLength(91)
+    const expansion = result.data?.questions.filter((question) => question.id.startsWith('PGN-EXP-')) ?? []
+    expect(expansion).toHaveLength(84)
+    expect(expansion.every((question) => question.status === 'needs_review' && question.options.length === 4)).toBe(true)
     const pilotCorrections = result.data?.questions.filter((question) => ['PGN-SEED-0006', 'PGN-SEED-0010', 'PGN-SEED-0021', 'PGN-SEED-0022', 'PGN-SEED-0023', 'PGN-SEED-0024', 'PGN-SEED-0025'].includes(question.id)) ?? []
     expect(pilotCorrections.every((question) => question.status === 'needs_review')).toBe(true)
-    expect(pilotCorrections.every((question) => question.targetCallIds.includes('121-2026'))).toBe(true)
+    expect(pilotCorrections.filter((question) => question.id === 'PGN-SEED-0010')[0].targetCallIds).toEqual(['127-2026'])
+    expect(pilotCorrections.filter((question) => question.id !== 'PGN-SEED-0010').every((question) => question.targetCallIds.length === 0)).toBe(true)
     expect(pilotCorrections.every((question) => question.references.some((reference) => reference.sourceId !== 'pgn-initial-diagnostic'))).toBe(true)
     const first = buildQuestionBank(result.data?.questions ?? [])
     const second = buildQuestionBank(result.data?.questions ?? [])
@@ -43,8 +47,8 @@ describe('pipeline con el dataset real', () => {
     expect(report).toContain('## Unidades por estado')
     expect(report).toContain('| pending_review | 9 |')
     expect(report).toContain('| C | 0 |')
-    expect(report).toContain('| 121-2026 | 22 |')
-    expect(report).toContain('| sin_convocatoria | 1 |')
+    expect(report).toContain('| 121-2026 | 15 |')
+    expect(report).toContain('| sin_convocatoria | 85 |')
     expect(report).toContain('derecho_disciplinario')
   })
 })

@@ -16,7 +16,9 @@ El inventario canónico permanece en
 - `taxonomy.json`: módulos y temas;
 - `exam-profiles.json`: perfiles provisionales 121, 126 y 127;
 - `source-units.json`: fragmentos verificables con fuente, hash y localizador;
-- `questions/*.json`: preguntas editoriales publicables o pendientes.
+- `questions/*.json`: preguntas editoriales publicables o pendientes. Además de
+  las 25 semillas, `expansion-draft.json` contiene 84 preguntas originales de
+  trabajo, para un total de 109 registros.
 
 ## Contratos
 
@@ -90,6 +92,9 @@ mediante 25 registros `Question`:
 - las fichas vigentes no implican que una pregunta concreta aparezca en la prueba.
 
 La procedencia interna no convierte la pregunta en verificable ni publicable.
+Las 84 preguntas de expansión fueron redactadas a partir de unidades oficiales
+o institucionales locales y consultas web documentadas, pero permanecen en
+`needs_review` hasta completar revisión independiente.
 
 ## Comandos y flujo
 
@@ -112,7 +117,8 @@ preguntas publicables sin fuente oficial A o B verificada y vigente.
 
 `public/data/question-bank.json` contiene exclusivamente preguntas
 `validated_assisted`. Actualmente contiene 18 preguntas (Q1–Q5, Q7–Q9 y
-Q11–Q20). Los informes
+Q11–Q20). El conjunto estructurado contiene 109 preguntas; las 91 restantes
+no llegan al banco público. Los informes
 independientes y sus límites están en `dataset/reports/phase2-factual-final.json`
 y `dataset/reports/phase2-editorial-final.json`.
 
@@ -128,7 +134,8 @@ Limitaciones vigentes:
 - cuatro fuentes tienen procedencia/contenido comprobados para el alcance
   puntual indicado en sus notas; esto no certifica todos sus artículos;
 - nueve fuentes continúan pendientes de descarga;
-- siete semillas todavía no son publicables: Q6, Q10 y Q21–Q25;
+- 91 preguntas todavía no son publicables: las siete semillas pendientes y 84
+  preguntas de expansión;
 - la unidad del artículo 12 requiere completar el alcance del trámite;
 - la unidad del boletín se corrigió como resumen contextual y requiere nueva
   revisión; no respalda por sí sola una potestad general de gestionar riesgos;
@@ -146,7 +153,7 @@ Limitaciones vigentes:
   servidores.
 
 El frontend lee exclusivamente `public/data/question-bank.json`, por lo que las
-Las siete semillas `needs_review` nunca aparecen en práctica. El banco actual
+siete semillas y las preguntas de expansión en `needs_review` nunca aparecen en práctica. El banco actual
 contiene las 18 preguntas `validated_assisted` disponibles.
 
 ## Privacidad

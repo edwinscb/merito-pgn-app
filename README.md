@@ -23,6 +23,7 @@ backend ni despliegue.
 ```bash
 npm install
 npm run dataset:inventory
+npm run dataset:generate-expansion
 npm run dataset:validate
 npm run dataset:build
 npm run dataset:coverage
@@ -32,6 +33,8 @@ npm run dev
 ```
 
 - `dataset:inventory` regenera el inventario documental y sus hashes.
+- `dataset:generate-expansion` regenera el lote original de 84 preguntas de
+  trabajo, siempre en `needs_review`.
 - `dataset:validate` valida contratos, referencias y reglas de publicación.
 - `dataset:build` escribe `public/data/question-bank.json` solo con preguntas
   `validated_assisted`.
@@ -56,7 +59,9 @@ Las 25 preguntas diagnósticas conservan su procedencia: 18 están en
 Q7–Q9 y Q11–Q20, con informes finales independientes en
 `dataset/reports/phase2-factual-final.json` y
 `dataset/reports/phase2-editorial-final.json`. La asignación por convocatoria
-es conservadora y solo expresa pertinencia temática documentada.
+es conservadora y solo expresa pertinencia temática documentada. El dataset
+incluye además 84 preguntas originales de expansión en `needs_review` (109
+registros estructurados en total); no se publican hasta superar doble revisión.
 
 ## Privacidad
 
