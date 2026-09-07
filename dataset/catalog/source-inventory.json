@@ -125,7 +125,7 @@
     "mimeType": "text/markdown",
     "status": "reference",
     "notes": "Las fases 0 y 1 están implementadas y la Fase 2 se encuentra en curso.",
-    "sha256": "1b91aaa7a5a962343217c94eb4fabb1a371de94bcadc30826ced3a66c92b5fff",
+    "sha256": "7256b999505a7fc422e0cfbbfd72ff49b900d680e0cdd5fff84d595d65093e8c",
     "incorporatedAt": "2026-09-03",
     "public": false
   },

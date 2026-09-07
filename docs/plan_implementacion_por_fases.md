@@ -1,6 +1,6 @@
 # Plan de implementación por fases — Mérito PGN
 
-Estado: **Fase 1 implementada; Fase 2 en curso**
+Estado: **Fase 1 implementada; Fase 2 en curso, cierre bloqueado por fichas vigentes y correcciones editoriales**
 Fecha: **3 de septiembre de 2026**
 
 ## 1. Decisiones confirmadas
@@ -116,8 +116,11 @@ las cuatro aprobaciones prematuras. Después se ejecutaron las dos revisiones
 independientes autorizadas: solo 1 y 4 superaron ambas y llegan al banco.
 
 Pendiente para completar la fase: corregir y revisar de nuevo 2, 3 y 5,
-revisar las 20 semillas no abordadas, confirmar aplicabilidad por
-convocatoria y completar fuentes y unidades oficiales para cada respuesta.
+corregir las preguntas 6–25 según las revisiones independientes, enlazar cada
+respuesta con una unidad de respaldo, incorporar las fichas vigentes
+resultantes de las modificaciones oficiales y confirmar aplicabilidad por
+convocatoria. El detalle reproducible está en
+`dataset/reports/phase2-closure-checklist.md`.
 
 ## 5. Fase 3 — Entrenador esencial
 
