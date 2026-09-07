@@ -1,0 +1,1161 @@
+	
+﻿<!doctype html>
+<html lang="es">
+<head>
+
+
+
+<!-- Required meta tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Ley 1712 de 2014 - Gestor Normativo" />
+<meta property="og:description" content="Establece que toda la información que esté en custodia de un sujeto obligado es pública y no podrá ser reservada sino por disposición constitucional o legal.
+" />
+<meta property="og:image" content="https://www.funcionpublica.gov.co/documents/28587425/35428802/Logo_gestor_normativo_iconos.jpg/704e6daf-bdde-be35-374c-dee67809d4d1?t=1654122375247" />
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="divulgación,publicar,documental,reservada,consejo,corregido,proactiva,rad,mínima,atención,acceso,a,la,información,documentos,públicos,reserva,garantías,excepciones">    <meta itemprop="dateModified" content="2022-03-02">
+<title>Ley 1712 de 2014 - Gestor Normativo - Función Pública</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="Expires" content="0">
+<!-- <meta> -->
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="css_nuevo/style_gn.css"/>
+<!--Fontawesome-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+<script>
+	//Cambiar tamaño fuente
+	function cambia_tamano_fuente(accion){
+		<!-- console.log('Entró a cambia_tamano_fuente'); -->
+		var vcontenido;
+		
+		//div que contiene el texto de la norma
+		var divspag = document.getElementsByTagName('div'); //descripcion-contenido
+		for ( var j = 0; j < divspag.length; j++) {
+			<!-- console.log('className: ' + divspag[j].className); -->
+			if(divspag[j].className == 'descripcion-contenido'){
+				vcontenido = divspag[j];
+			}
+		}
+		
+		<!-- console.log('ENCONTRADO!!!!: ' + vcontenido.className); -->
+		
+		
+		var elementos_parrafo = vcontenido.getElementsByTagName('p');
+		var tam_actual;
+		for ( var i = 0; i < elementos_parrafo.length; i++) {
+			<!-- console.log(elementos_parrafo[i].style.fontSize); -->
+			tam_actual = parseInt(elementos_parrafo[i].style.fontSize.replace('px',''));
+			<!-- console.log('tam_actual:' + tam_actual); -->
+			if(Number.isNaN(tam_actual))
+				tam_actual = 16;
+			<!-- console.log('tam_actual:' + tam_actual); -->
+			if(accion=='aumenta'){
+					elementos_parrafo[i].style.fontSize = (tam_actual + 1) + 'px';
+			}
+			if(accion=='reduce'){
+					elementos_parrafo[i].style.fontSize = (tam_actual - 1) + 'px';
+			}
+		}
+	}
+	
+	
+
+	
+</script>
+<style>
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+</style>
+
+</head>
+<body>
+
+  
+
+
+<!--header-->
+<header class="header" style="margin-top:-28px;">
+  <div class="header-top d-none d-lg-block">
+    <div class="container logo-nav-container"> <a href="https://www.gov.co/home/" class="img-fluid"><img src="img_nuevo/logo-gov1.png" alt="Logo gov.co"/></a>
+      <nav class="navigation accesibilidad">
+        <ul>
+          <li class="mr-5" style="font-size: 15px;"><a href="https://www.funcionpublica.gov.co/inicio?p_p_id=com_liferay_login_web_portlet_LoginPortlet&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=false&_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin">INGRESAR A LA INTRANET</a></li>
+          <li class="mr-1"> <button href="https://www.funcionpublica.gov.co/rss" type="button" role="button" class="btn btn-white" alt="Página principal de Función Pública"><i class="fa fa-rss pr-1 pl-1" aria-hidden="true"></i></button> </li>
+          <li class="mr-1">
+            <button type="button" class="btn btn-white" onclick="cambia_tamano_fuente('aumenta')">A+</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-white" onclick="cambia_tamano_fuente('reduce')">A-</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- 
+  <div class="navbar-right">
+		<div id="iconos_barra">
+			<a class="navbar-link link-intranet" href="/web/intranet/inicio" title="Ingresar a la intranet">INGRESAR A LA INTRANET</a>
+			<a class="opcion" href="/rss" aria-label="Rss" target="_blank"><i class="icon-rss" aria-hidden="true"></i><span class="sr-only">RSS</span></a>
+			<a class="opcion" onclick="aumentarTexto()">A+</a>
+			<a class="opcion" onclick="reducirTexto()">A-</a>
+			<a title="Reestablecer el tama?o de la fuente" class="opcion" onclick="reducirTexto()"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+		</div>					
+	</div> -->
+  
+  
+  <!--Reemplazar img Banner acÃ¡-->
+  <!-- <div class="banner  d-none d-lg-block"><a href="#"><img src="img_nuevo/banner1.png" alt="" width="1440" class="img-fluid" height="120" border="0"/></a></div> -->
+  <!--fin banner--> 
+  <!--logo y buscador-->
+  <div class="container ">
+    <div class="row align-items-center logo2-search">
+      <div class="col-lg-4 col-md-6"> 
+		<a href="https://www.funcionpublica.gov.co" class="logo">
+			<!--<img src="https://www.funcionpublica.gov.co/documents/418537/37421537/logo-CP-2023.png/63ca9626-0978-03ad-1312-b0050ab726b0?t=1684959039170" width="285px" class="img-fluid" alt="Logo Función Pública"/>-->
+			<img src="https://www.funcionpublica.gov.co/image/layout_set_logo?img_id=224510&t=1718837174316" width="285px" class="img-fluid" alt="Logo Función Pública"/>
+		</a> 
+	  </div>
+      <div class="col-lg-4 col-md-6"> 
+		<!--<a href="https://www.funcionpublica.gov.co/" class="logo">
+			<img src="https://www.funcionpublica.gov.co/documents/418537/37421537/layout_set_logo_FP.png/0587270b-880a-4f78-9b74-aaf988700c87?t=1659904736491" width="285px" class="img-fluid" alt="Logo Función Pública"/>
+		</a>--> 
+	  </div>      
+	  <form action="/web/eva/curso-para-veedurias-ciudadanas?p_p_id=com_liferay_portal_search_web_portlet_SearchPortlet&amp;p_p_lifecycle=0&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath=%2Fsearch.jsp&amp;_com_liferay_portal_search_web_portlet_SearchPortlet_redirect=http%3A%2F%2Fwww.funcionpublica.gov.co%2Fweb%2Feva%2Fcurso-para-veedurias-ciudadanas%3Fp_p_id%3Dcom_liferay_portal_search_web_portlet_SearchPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview" class="form " data-fm-namespace="_com_liferay_portal_search_web_portlet_SearchPortlet_" id="_com_liferay_portal_search_web_portlet_SearchPortlet_fm" method="get" name="_com_liferay_portal_search_web_portlet_SearchPortlet_fm"> 
+	  <div class="col d-none d-lg-block  mt-md-4 align-self-end "> <span name="btnsearch" style="cursor: pointer;" class="g-pos-abs g-right-20 d-block g-width-50 h-100"> <i class="admin-search g-absolute-centered"></i> </span>
+	    <input class="field form-control" id="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate" name="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate" value="1535491536559" type="hidden"> 
+		<input name="p_p_id" value="com_liferay_portal_search_web_portlet_SearchPortlet" type="hidden">
+		<input name="p_p_lifecycle" value="0" type="hidden">
+		<input name="p_p_state" value="maximized" type="hidden">
+		<input name="p_p_mode" value="view" type="hidden">
+		<input name="_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath" value="/search.jsp" type="hidden">
+		<input name="_com_liferay_portal_search_web_portlet_SearchPortlet_redirect" value="/web/eva/curso-para-veedurias-ciudadanas?p_p_id=com_liferay_portal_search_web_portlet_SearchPortlet&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view" type="hidden"> 
+        <input name="_com_liferay_portal_search_web_portlet_SearchPortlet_keywords" class="form-control mr-sm-2 buscador_fp" type="search" placeholder="Buscar..." aria-label="Search">
+		</div>
+	  </form>
+      
+    </div>
+  </div>
+  
+  <!--menu principal-->
+  <div class="container">
+  
+
+  
+  
+  
+  
+    <nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="https://www.funcionpublica.gov.co/web/eva">EVA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item "> <a class="nav-link" href="https://www.funcionpublica.gov.co/web/eva/publicaciones">Publicaciones </a> </li>
+          <li class="nav-item active"> <a class="nav-link" href="https://www.funcionpublica.gov.co/web/eva/gestor-normativo">Gestor Normativo</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.funcionpublica.gov.co/eva/red">Red de servidores</a> </li>
+          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Cursos virtuales </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-integridad">Curso de integridad</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/programa-de-induccion-y-reinduccion">Programa de inducción y reinducción</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-para-veedurias-ciudadanas">Curso para Veedurías Ciudadanas</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-gerentes-publicos">Curso para Gerentes PÃºblicos</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-mipg">Curso MIPG</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-de-empleo-publico">Curso de Empleo PÃºblico</a> </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.funcionpublica.gov.co/eva/es/formatos-administracion-publica">Formatos</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.funcionpublica.gov.co/web/eva/contactenos">Contáctenos</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.funcionpublica.gov.co/web/eva/preguntas-frecuentes">Preguntas frecuentes</a> </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  
+  <!---breadcrumb-->
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb"  id="spanmiga" >
+        <li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/web/eva">EVA</a></li>
+        <li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/web/eva/gestor-normativo">Gestor Normativo</a></li>
+		<li class="breadcrumb-item active" aria-current="page">Normas de la Función Pública</li>
+      </ol>
+    </nav>
+  </div>
+  </div>
+  <!-- End Breadcrumbs --> 
+
+</header>
+
+<!---End header-->
+	
+	<script>
+	
+
+
+	
+	
+	
+	function Scrolldown() {
+			window.scroll(0,-30); 
+	}
+	function eliminateDuplicates(arr) {
+				//console.log(arr);
+			  var i,
+				  len=arr.length,
+				  out=[],
+				  obj={};
+
+			  for (i=len-1;i>=0;i--) {
+					obj[arr[i]]=0;
+			  }
+			  //console.log(obj);
+			  for (i in obj) {
+					out.push(i);
+					//console.log(i);
+			  }
+			  out.reverse();
+			  return out;
+	}
+		
+	function mostrar_ocultar_jurisprudencia(iddiv){
+		if(document.getElementById("juris"+iddiv).style.display=='none'){
+			document.getElementById("juris"+iddiv).style.display='block';
+		}else{
+			document.getElementById("juris"+iddiv).style.display='none';
+		}
+	}
+	
+	if (sessionStorage.migapan) {
+				sessionStorage.migapan = sessionStorage.migapan + '+Ley 1712/14|56882';
+				var normas = sessionStorage.migapan.split('+');
+				normas = eliminateDuplicates(normas);
+				sessionStorage.migapan = normas.join('+');
+	} else {
+				sessionStorage.migapan = 'Ley 1712/14|56882';
+	}
+	var migadepan = sessionStorage.migapan.split("+");
+	var txt_miga='<li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/web/eva">EVA</a></li>'+
+        '<li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/web/eva/gestor-normativo">Gestor Normativo</a></li>'+
+	    '<li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/eva/gestornormativo/consulta_avanzada.php">Consulta</a></li>';
+	for (j=0;j<migadepan.length;j++) {
+		var xnorma=migadepan[j].split("|");
+		txt_miga+='<li class="breadcrumb-item"><a href="/eva/gestornormativo/norma.php?i='+xnorma[1]+'">'+xnorma[0]+'</a></li>'; 
+	}
+	document.getElementById("spanmiga").innerHTML=txt_miga;
+	//document.getElementById("result").innerHTML = "You have clicked the button " +
+	//sessionStorage.migapan + " time(s) in this session.";
+
+	function mostrarMensajeNoDisponible() {
+		alert("Esta funcionalidad no está disponible por el momento.");
+	}
+	
+	</script>
+	<style>
+		h2,h3,h4 {
+			  text-align: center;
+			      font-size: 1em;
+			}
+		.titulo-norma{
+			  font-size: 2.441em;
+			  text-align: left;
+			}
+		h1 {
+			  text-align: center;
+			      font-size: 1em;
+			}
+		.jurisprudencia a {
+			color: #007bff!important;
+		}
+		ol {
+			padding-inline-start: 20px;
+		}
+	</style>
+  	
+  <main class="main"> 
+  <!-- Breadcrumbs -->
+  
+  <!-- getRealIP 191.104.145.109, 34.233.191.126-->  <!-- cache: cache/56882-20220302150625.fp -->  
+  
+  <div class="container">
+    <h2 class="titulo-norma"><strong>Ley 1712 de 2014</strong></h2>  
+  <div class="row" style="margin-top: 4rem">
+  <!--col left-->
+        <div class="col-lg-3 col-md-12">
+							
+		<a href="norma_pdf.php?i=56882" target="_blank">
+		<!--<a href="#" onclick="mostrarMensajeNoDisponible(); return false;" target="_blank">-->
+			<button type="button" class="btn btn-yellow">Descargar PDF</button>
+		</a>
+					 <!--accordion-->
+      <div class="accordion" id="accordion">
+	  <div class="card-accordion">
+	  <div class="card-header" id="headingOne">
+	  <h5 class="mb-0">
+	  <button class="btn btn-link collapsed  btn-accordion" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Fechas
+        </button>
+	  </h5>
+	  </div>
+	  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+			<p>Fecha de Expedición: 06 de marzo de 2014</p>
+			<p class="subrayado2"></p>
+			<p>Fecha de Entrada en Vigencia: 06 de septiembre de 2014</p>
+			<p class="subrayado2"></p>
+			<p>Medio de Publicación: Diario Oficial 49084 de marzo 6 de 2014</p>
+			<p class="subrayado2"></p>
+      </div>
+    </div>
+	  </div>
+	  
+	  <div class="card-accordion">
+			<div class="card-header" id="headingTwo">
+			  <h5 class="mb-0">
+				<button class="btn btn-link collapsed ; btn-accordion" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				 Temas (3)
+				</button>
+			  </h5>
+			</div>
+			
+			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+			  <div class="card-body">
+			  				  <h5 class="txt-18">ACCESO A LA INFORMACIÓN</h5> 
+				  <h6>- Subtema: Documentos Públicos</h6>
+				  
+				  				  <p>Regula el derecho de acceso a la información pública, los procedimientos para el ejercicio y garantía del derecho y las excepciones a la publicidad de la información. Arts. 1 y ss.
+</p>
+										
+								  				  <h5 class="txt-18">ACCESO A LA INFORMACIÓN</h5> 
+				  <h6>- Subtema: Garantías</h6>
+				  
+				  				  <p>Señala las garantías para el ejercicio del derecho de acceso a la información. Arts. 23 y ss.
+</p>
+										
+								  				  <h5 class="txt-18">ACCESO A LA INFORMACIÓN</h5> 
+				  <h6>- Subtema: Reserva</h6>
+				  
+				  				  <p>Establece que toda la información que esté en custodia de un sujeto obligado es pública y no podrá ser reservada sino por disposición constitucional o legal.
+</p>
+										
+								  			  </div>
+			</div>
+	</div>
+	  			  <div class="card-accordion">
+					<div class="card-header" id="headingConcepto">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed ; btn-accordion" data-toggle="collapse" data-target="#collapseConcepto" aria-expanded="false" aria-controls="collapseConcepto">
+						 Conceptos (5)
+						</button>
+					  </h5>
+					</div>
+					
+					<div id="collapseConcepto" class="collapse" aria-labelledby="headingConcepto" data-parent="#accordion">
+					  <div class="card-body">
+					  								  <h5 class="txt-18">ACCESO A LA INFORMACIÓN</h5> 
+								  <ul><li><a target="_blank" href="norma.php?i=268697">Concepto 319071 de 2024</a></li><li><a target="_blank" href="norma.php?i=268040">Concepto 536941 de 2024</a></li><li><a target="_blank" href="norma.php?i=266456">Concepto 461681 de 2024</a></li><li><a target="_blank" href="norma.php?i=239976">Concepto 014871 de 2024</a></li><li><a target="_blank" href="norma.php?i=237958">Concepto 036201 de 2024</a></li></ul>					  </div>
+					</div>
+			</div>
+		
+		
+	
+	 <div class="card-accordion">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+		<button class="btn btn-link collapsed; btn-accordion" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+          Vigencias(2)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse  show" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+	  <p><a href="norma.php?i=175606#">Modificado por Ley 2195 de 2022</a><p><p><a href="norma.php?i=60556#">Reglamentado por Decreto 103 de 2015</a><p>	  <p class="subrayado2"></p>
+      </div>
+    </div>
+  </div> 
+
+  </div>
+	   <!--end accordion-->
+	  </div>
+	  
+	  <!--end col left-->
+
+<!--col right-->
+<div class="col-lg-9 col-md-12">
+
+			
+											
+						
+						
+											<div class="alert alert-dismissible alert-info">
+												  <!-- <button type="button" class="close" data-dismiss="alert">X</button> -->
+												  <p ><small>Los datos publicados tienen propósitos exclusivamente informativos. El Departamento Administrativo de la Función Pública no se hace responsable de la vigencia de la presente norma. Nos encontramos en un proceso permanente de actualización de los contenidos.</small></p>
+											</div>
+
+
+	<div class="descripcion-contenido">
+		<P align=center><STRONG>LEY 1712 DE 2014</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>(Marzo 6)</STRONG></P>
+<P align=center>(Ver Ley <A href="norma.php?i=179486#0">2199</A> de 2022)</P>
+<P align=left>&nbsp;</P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>Nota:</STRONG> <EM>(El proyecto de Ley Estatutaria &#8220;Por medio del cual se crea la ley de transparencia y del derecho de acceso a la información pública nacional.&#8221;, fue revisado mediante la sentencia <A href="../norma.php?i=80453#0">C-274</A> de 2013, de acuerdo con lo establecido en los artículos 153 y 241-8 de la Constitución Política.)</EM></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>Por medio de la cual se crea la Ley de Transparencia y del Derecho de Acceso a la Información Pública Nacional y se dictan otras disposiciones.</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>El Congreso de la República</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>DECRETA:</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>TÍTULO I</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>DISPOSICIONES GENERALES</STRONG></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp1 name=1></A> 1.</STRONG> <STRONG><EM>Objeto.</EM></STRONG> El objeto de la presente ley es regular el derecho de acceso a la información pública, los procedimientos para el ejercicio y garantía del derecho y las excepciones a la publicidad de información.</P>
+<P><STRONG></STRONG></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.1.1">2.1.1.1.1</A>. Decreto 1081 de 2015)</EM></P>
+<P><EM></EM></P>
+<P><STRONG>ARTÍCULO<A id=sp2 name=2></A> 2.</STRONG> <STRONG><EM>Principio de máxima publicidad para titular universal.</EM></STRONG> Toda información en posesión, bajo control o custodia de un sujeto obligado es pública y no podrá ser reservada o limitada sino por disposición constitucional o legal, de conformidad con la presente ley.</P>
+<P></P>
+<P><EM>(Ver Sentencia de nov. 3 de 2016, Rad</EM>. <EM><A href="../norma.php?i=80533#0">2016-02216</A>,</EM> <EM>Consejo de Estado.</EM>)</P>
+<P></P>
+<P>(<EM>Ver Sentencia <A href="../norma.php?i=80475#0">T-398</A></EM> <EM>de 2015.</EM><EM>)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Concepto Rad. <A href="../norma.php?i=64498">2014-00112 (2209)</A>, Consejo de Estado.)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp3 name=3></A> 3.</STRONG> <STRONG><EM>Otros principios de la transparencia y acceso a la información pública. </EM></STRONG>En la interpretación del derecho de acceso a la información se deberá adoptar un criterio de razonabilidad y proporcionalidad, así como aplicar los siguientes principios:</P>
+<P></P>
+<P><EM>(Ver artículos <A href="../norma.php?i=73593#2.1.1.3.1.5">2.1.1.3.1.5</A>. y <A href="../norma.php?i=73593#2.1.1.5.3.1">2.1.1.5.3.1</A> Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P>Principio de transparencia. Principio conforme al cual toda la información en poder de los sujetos obligados definidos en esta ley se presume pública, en consecuencia de lo cual dichos sujetos están en el deber de proporcionar y facilitar el acceso a la misma en los términos más amplios posibles y a través de los medios y procedimientos que al efecto establezca la ley, excluyendo solo aquello que esté sujeto a las excepciones constitucionales y legales y bajo el cumplimiento de los requisitos establecidos en esta ley.</P>
+<P></P>
+<P>Principio de buena fe. En virtud del cual todo sujeto obligado, al cumplir con las obligaciones derivadas del derecho de acceso a la información pública, lo hará con motivación honesta, leal y desprovista de cualquier intención dolosa o culposa.</P>
+<P></P>
+<P>Principio de facilitación. En virtud de este principio los sujetos obligados deberán facilitar el ejercicio del derecho de acceso a la información pública, excluyendo exigencias o requisitos que puedan obstruirlo o impedirlo.</P>
+<P></P>
+<P>Principio de no discriminación. De acuerdo al cual los sujetos obligados deberán entregar información a todas las personas que lo soliciten, en igualdad de condiciones, sin hacer distinciones arbitrarias y sin exigir expresión de causa o motivación para la solicitud.</P>
+<P></P>
+<P>Principio de gratuidad. Según este principio el acceso a la información pública es gratuito y no se podrá cobrar valores adicionales al costo de reproducción de la información.</P>
+<P></P>
+<P>Principio de celeridad. Con este principio se busca la agilidad en el trámite y la gestión administrativa. Comporta la indispensable agilidad en el cumplimiento de las tareas a cargo de entidades y servidores públicos.</P>
+<P></P>
+<P>Principio de eficacia. El principio impone el logro de resultados mínimos en relación con las responsabilidades confiadas a los organis&shy;mos estatales, con miras a la efectividad de los derechos colectivos e individuales.</P>
+<P></P>
+<P>Principio de la calidad de la información. Toda la información de interés público que sea producida, gestionada y difundida por el sujeto obligado, deberá ser oportuna, objetiva, veraz, completa, reutilizable, procesable y estar disponible en formatos accesibles para los solicitantes e interesados en ella, teniendo en cuenta los procedimientos de gestión documental de la respectiva entidad.</P>
+<P></P>
+<P>Principio de la divulgación proactiva de la información. El derecho de acceso a la información no radica únicamente en la obligación de dar respuesta a las peticiones de la sociedad, sino también en el deber de los sujetos obligados de promover y generar una cultura de transparencia, lo que conlleva la obligación de publicar y divulgar documentos y archivos que plasman la actividad estatal y de interés público, de forma rutinaria y proactiva, actualizada, accesible y comprensible, atendiendo a límites razonables del talento humano y recursos físicos y financieros.</P>
+<P></P>
+<P>Principio de responsabilidad en el uso de la información. En virtud de este, cualquier persona que haga uso de la información que proporcionen los sujetos obligados, lo hará atendiendo a la misma.</P>
+<P></P>
+<P><EM>(Ver Sentencia <A href="../norma.php?i=80475#0">T-398</A> de 2015.</EM><EM>)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp4 name=4></A> 4.</STRONG> <STRONG><EM>Concepto del derecho.</EM></STRONG> En ejercicio del derecho fundamental de acceso a la información, toda persona puede conocer sobre la existencia y acceder a la información pública en posesión o bajo control de los sujetos obligados. El acceso a la información solamente podrá ser restringido excepcionalmente. Las excepciones serán limitadas y proporcionales, deberán estar contempladas en la ley o en la Constitución y ser acordes con los principios de una sociedad democrática.</P>
+<P></P>
+<P>El derecho de acceso a la información genera la obligación correlativa de divulgar proactivamente la información pública y responder de buena fe, de manera adecuada, veraz, oportuna y accesible a las solicitudes de acceso, lo que a su vez conlleva la obligación de producir o capturar la información pública. Para cumplir lo anterior los sujetos obligados deberán implementar procedimientos archivísticos que garanticen la disponibilidad en el tiempo de documentos electrónicos auténticos.</P>
+<P></P>
+<P><STRONG>PARÁGRAFO<A id=sp4.p name=4.p></A> .</STRONG> Cuando el usuario considere que la solicitud de la información pone en riesgo su integridad o la de su familia, podrá solicitar ante el Ministerio Público el procedimiento especial de solicitud con identificación reservada.</P>
+<P></P>
+<P><EM>(Ver Sentencias <A href="../norma.php?i=80476#0">T-828</A> de 2014)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Sentencias <A href="../norma.php?i=80474#0">T-198</A> de 2015)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Sentencias <A href="../norma.php?i=80433#0">C-221</A> de 2016)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Sentencias <A href="../norma.php?i=75594#0">C-379</A> de 2016)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.3.1.3">2.1.1.3.1.3</A> Decreto 1081 de 2015) </EM></P>
+<P></P>
+<P><EM>(Ver Concepto Rad. <A href="../norma.php?i=64498">2014-00112 (2209)</A>, Consejo de Estado.)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp5 name=5></A> 5.</STRONG> <STRONG><EM>Ámbito de aplicación.</EM></STRONG>Las disposiciones de esta ley serán aplicables a las siguientes personas en calidad de sujetos obligados:</P>
+<P></P>
+<P>a) Toda entidad pública, incluyendo las pertenecientes a todas las Ramas del Poder Público, en todos los niveles de la estructura estatal, central o descentralizada por servicios o territorialmente, en los órdenes nacional, departamental, municipal y distrital.</P>
+<P></P>
+<P>b) Los órganos, organismos y entidades estatales independientes o autónomos y de control;</P>
+<P></P>
+<P>c) Las personas naturales y jurídicas, públicas o privadas, que presten función pública, que presten servicios públicos respecto de la información directamente relacionada con la prestación del servicio público;</P>
+<P></P>
+<P>d) Cualquier persona natural, jurídica o dependencia de persona jurídica que desempeñe función pública o de autoridad pública, respecto de la información directamente relacionada con el desempeño de su función.</P>
+<P></P>
+<P>e) Los partidos o movimientos políticos y los grupos significativos de ciudadanos;</P>
+<P></P>
+<P>f) Las entidades que administren instituciones parafiscales, fondos o recursos de naturaleza u origen público.</P>
+<P></P>
+<P>Las personas naturales o jurídicas que reciban o intermedien fondos o beneficios públicos territoriales y nacionales y no cumplan ninguno de los otros requisitos para ser considerados sujetos obligados, solo deberán cumplir con la presente ley respecto de aquella información que se produzca en relación con fondos públicos que reciban o intermedien.</P>
+<P></P>
+<P><STRONG>PARÁGRAFO<A id=sp5.p name=5.p></A> 1.</STRONG> No serán sujetos obligados aquellas personas naturales o jurídicas de carácter privado que sean usuarios de información pública.</P>
+<P align=left>(<A href="norma.php?i=65312#1">Corregido por Art. 1, Decreto Ley 1494 de 2015</A>.)</P>
+<P></P>
+<P><EM>(Ver Sentencia <A href="../norma.php?i=80473#0">C-653</A> de 2015)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.1.2">2.1.1.1.2</A>, y <A href="../norma.php?i=73593#2.1.1.2.1.4">2.1.1.2.1.4</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp6 name=6></A> 6.</STRONG> <STRONG><EM>Definiciones.</EM></STRONG></P>
+<P></P>
+<P>a) Información. Se refiere a un conjunto organizado de datos contenido en cualquier documento que los sujetos obligados generen, obtengan, adquieran, transformen o controlen;</P>
+<P></P>
+<P>b) Información pública. Es toda información que un sujeto obligado genere, obtenga, adquiera, o controle en su calidad de tal;</P>
+<P></P>
+<P>c) Información pública clasificada. Es aquella información que estando en poder o custodia de un sujeto obligado en su calidad de tal, pertenece al ámbito propio, particular y privado o semiprivado de una persona natural o jurídica por lo que su acceso podrá ser negado o exceptuado, siempre que se trate de las circunstancias legítimas y necesarias y los derechos particulares o privados consagrados en el artículo 18 de esta ley;</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.4.2.1">2.1.1.4.2.1</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P>d) Información pública reservada. Es aquella información que estando en poder o custodia de un sujeto obligado en su calidad de tal, es exceptuada de acceso a la ciudadanía por daño a intereses públicos y bajo cumplimiento de la totalidad de los requisitos consagrados en el artículo 19 de esta ley;</P>
+<P></P>
+<P><EM>(Ver sentencia <A href="norma.php?i=61498#0">C-951 </A>de 2014)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Sentencia <A href="../norma.php?i=80433#0">C-221</A> de 2016.</EM><EM>)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.4.2.1">2.1.1.4.2.1</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P>e) Publicar o divulgar. Significa poner a disposición en una forma de acceso general a los miembros del público e incluye la impresión, emisión y las formas electrónicas de difusión;</P>
+<P></P>
+<P>f) Sujetos obligados. Se refiere a cualquier persona natural o jurídica, pública o privada incluida en el artículo 5 de esta ley;</P>
+<P></P>
+<P>g) Gestión documental. Es el conjunto de actividades administrativas y técnicas tendientes a la planificación, procesamiento, manejo y organización de la documentación producida y recibida por los sujetos obligados, desde su origen hasta su destino final, con el objeto de facilitar su utilización y conservación;</P>
+<P></P>
+<P>h) Documento de archivo. Es el registro de información producida o recibida por una entidad pública o privada en razón de sus actividades o funciones;</P>
+<P></P>
+<P>i) Archivo. Es el conjunto de documentos, sea cual fuere su fecha, forma y soporte material, acumulados en un proceso natural por una persona o entidad pública o privada, en el transcurso de su gestión, conservados respetando aquel orden para servir como testimonio e información a la persona o institución que los produce y a los ciudadanos, como fuentes de la historia. También se puede entender como la institución que está al servicio de la gestión administrativa, la información, la investigación y la cultura;</P>
+<P></P>
+<P>j) Datos Abiertos. Son todos aquellos datos primarios o sin procesar, que se encuentran en formatos estándar e interoperables que facilitan su acceso y reutilización, los cuales están bajo la custodia de las entidades públicas o privadas que cumplen con funciones públicas y que son puestos a disposición de cualquier ciudadano, de forma libre y sin restricciones, con el fin de que terceros puedan reutilizarlos y crear servicios derivados de los mismos;</P>
+<P></P>
+<P>k) Documento en construcción. No será considerada información pública aquella información preliminar y no definitiva, propia del proceso deliberatorio de un sujeto obligado en su calidad de tal.</P>
+<P></P>
+<P align=center><STRONG>TÍTULO II</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>DE LA PUBLICIDAD Y DEL CONTENIDO DE LA INFORMACIÓN</STRONG></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp7 name=7></A> 7.</STRONG> <STRONG><EM>Disponibilidad de la Información.</EM></STRONG> En virtud de los principios señalados, deberá estar a disposición del público la información a la que hace referencia la presente ley, a través de medios físicos, remotos o locales de comunicación electrónica. Los sujetos obligados deberán tener a disposición de las personas interesadas dicha información en la Web, a fin de que estas puedan obtener la información, de manera directa o mediante impresiones. Asimismo, estos deberán proporcionar apoyo a los usuarios que lo requieran y proveer todo tipo de asistencia respecto de los trámites y servicios que presten.</P>
+<P></P>
+<P><STRONG>PARÁGRAFO<A id=sp7.p name=7.p></A> .</STRONG> Se permite en todo caso la retransmisión de televisión por internet cuando el contenido sea información pública de entidades del Estado o noticias al respecto.</P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp8 name=8></A> 8.</STRONG> <STRONG><EM>Criterio diferencial de accesibilidad.</EM></STRONG> Con el objeto de facilitar que las poblaciones específicas accedan a la información que particularmente las afecte, los sujetos obligados, a solicitud de las autoridades de las comunidades, divulgarán la información pública en diversos idiomas y lenguas y elaborarán formatos alternativos comprensibles para dichos grupos. Deberá asegurarse el acceso a esa información a los distintos grupos étnicos y culturales del país y en especial se adecuarán los medios de comunicación para que faciliten el acceso a las personas que se encuentran en situación de discapacidad.</P>
+<P></P>
+<P><EM>(Ver Sentencia <A href="../norma.php?i=75594#0">C-379</A> de 2016)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.2.2.1">2.1.1.2.2.1</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp9 name=9></A> 9.</STRONG> <STRONG><EM>Información mínima obligatoria respecto a la estructura del sujeto obligado. </EM></STRONG>Todo sujeto obligado deberá publicar la siguiente información mínima obligatoria de manera proactiva en los sistemas de información del Estado o herramientas que lo sustituyan:</P>
+<P></P>
+<P>a) La descripción de su estructura orgánica, funciones y deberes, la ubicación de sus sedes y áreas, divisiones o departamentos, y sus horas de atención al público;</P>
+<P></P>
+<P>b) Su presupuesto general, ejecución presupuestal histórica anual y planes de gasto público para cada año fiscal, de conformidad con el artículo <A href="norma.php?i=43292#74">74</A> de la Ley <A href="norma.php?i=43292#0">1474</A> de 2011;</P>
+<P></P>
+<P>c) Un directorio que incluya el cargo, direcciones de correo electrónico y teléfono del despacho de los empleados y funcionarios y las escalas salariales correspondientes a las categorías de todos los servidores que trabajan en el sujeto obligado, de conformidad con el formato de información de servidores públicos y contratistas;</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.2.1.5">2.1.1.2.1.5</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P>d) Todas las normas generales y reglamentarias, políticas, lineamientos o manuales, las metas y objetivos de las unidades administrativas de conformidad con sus programas operativos y los resultados de las auditorías al ejercicio presupuestal e indicadores de desempeño;</P>
+<P></P>
+<P>e) Su respectivo plan de compras anual, así como las contrataciones adjudicadas para la correspondiente vigencia en lo relacionado con funcionamiento e inversión, las obras públicas, los bienes adquiridos, arrendados y en caso de los servicios de estudios o investigaciones deberá señalarse el tema específico, de conformidad con el artículo <A href="norma.php?i=43292#74">74</A> de la Ley <A href="norma.php?i=43292#0">1474</A> de 2011. En el caso de las personas naturales con contratos de prestación de servicios, deberá publicarse el objeto del contrato, monto de los honorarios y direcciones de correo electrónico, de conformidad con el formato de información de servidores públicos y contratistas;</P>
+<P></P>
+<P><EM>(Ver artículos <A href="../norma.php?i=73593#2.1.1.2.1.5">2.1.1.2.1.5</A>. y <A href="../norma.php?i=73593#2.1.1.2.1.10">2.1.1.2.1.10</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P>f) Los plazos de cumplimiento de los contratos;</P>
+<P></P>
+<P>g) Publicar el Plan Anticorrupción y de Atención al Ciudadano, de conformidad con el artículo 73 de la Ley 1474 de 2011.</P>
+<P></P>
+<P><STRONG>PARÁGRAFO<A id=sp9.p1 name=9.p1></A> 1.</STRONG> La información a que se refiere este artículo deberá publicarse de tal forma que facilite su uso y comprensión por las personas, y que permita asegurar su calidad, veracidad, oportunidad y confiabilidad.</P>
+<P></P>
+<P><STRONG>PARÁGRAFO<A id=sp9.p2 name=9.p2></A> 2.</STRONG> En relación a los literales c) y e) del presente artículo, el Departamento Administrativo de la Función Pública establecerá un formato de información de los servidores públicos y de personas naturales con contratos de prestación de servicios, el cual contendrá los nombres y apellidos completos, ciudad de nacimiento, formación académica, experiencia laboral y profesional de los funcionarios y de los contratistas. Se omitirá cualquier información que afecte la privacidad y el buen nombre de los servidores públicos y contratistas, en los términos definidos por la Constitución y la ley.</P>
+<P></P>
+<P><EM>(Ver Sentencia de nov. 3 de 2016, Rad. <A href="../norma.php?i=80533#0">2016-02216</A>, Consejo de Estado)</EM></P>
+<P><EM></EM></P>
+<P><STRONG>PARÁGRAFO<A id=sp9.p3 name=9.p3></A> 3.</STRONG> Sin perjuicio a lo establecido en el presente artículo, los sujetos obligados deberán observar lo establecido por la estrategia de gobierno en línea, o la que haga sus veces, en cuanto a la publicación y divulgación de la información.</P>
+<P></P>
+<P><EM>(Ver artículos <A href="../norma.php?i=73593#2.1.1.2.1.4">2.1.1.2.1.4</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp10 name=10></A> 10.</STRONG> <STRONG><EM>Publicidad de la contratación.</EM></STRONG> En el caso de la información de contratos indicada en el artículo 9 literal e), tratándose de contrataciones sometidas al régimen de contratación estatal, cada entidad publicará en el medio electrónico institucional sus contrataciones en curso y un vínculo al sistema electrónico para la contratación pública o el que haga sus veces, a través del cual podrá accederse directamente a la información correspondiente al respectivo proceso contractual, en aquellos que se encuentren sometidas a dicho sistema, sin excepción.</P>
+<P></P>
+<P><STRONG>PARÁGRAFO<A id=sp10.p name=10.p></A> .</STRONG> Los sujetos obligados deberán actualizar la información a la que se refiere el artículo 9, mínimo cada mes.</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.2.1.4">2.1.1.2.1.4</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp11 name=11></A> 11.</STRONG> Información mínima obligatoria respecto a servicios, procedimientos y funcionamiento del sujeto obligado. Todo sujeto obligado deberá publicar la siguiente información mínima obligatoria de manera proactiva:</P>
+<P></P>
+<P>a) Detalles pertinentes sobre todo servicio que brinde directamente al público, incluyendo normas, formularios y protocolos de atención;</P>
+<P></P>
+<P>b) Toda la información correspondiente a los trámites que se pueden agotar en la entidad, incluyendo la normativa relacionada, el proceso, los costos asociados y los distintos formatos o formularios requeridos;</P>
+<P></P>
+<P>c) Una descripción de los procedimientos que se siguen para tomar decisiones en las diferentes áreas;</P>
+<P></P>
+<P>d) El contenido de toda decisión y/o política que haya adoptado y afecte al público, junto con sus fundamentos y toda interpretación autorizada de ellas;</P>
+<P></P>
+<P>e) Todos los informes de gestión, evaluación y auditoría del sujeto obligado;</P>
+<P></P>
+<P>f) Todo mecanismo interno y externo de supervisión, notificación y vigilancia pertinente del sujeto obligado;</P>
+<P></P>
+<P>g) Sus procedimientos, lineamientos, políticas en materia de adquisiciones y compras, así como todos los datos de adjudicación y ejecución de contratos, incluidos concursos y licitaciones;</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.2.1.4">2.1.1.2.1.4</A>. Decreto 1081 de 2015)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver artículos <A href="../norma.php?i=73593#2.1.1.2.1.8">2.1.1.2.1.8</A>, y <A href="../norma.php?i=73593#2.1.1.2.1.9">2.1.1.2.1.9</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P>h) Todo mecanismo de presentación directa de solicitudes, quejas y reclamos a disposición del público en relación con acciones u omisiones del sujeto obligado, junto con un informe de todas las solicitudes, denuncias y los tiempos de respuesta del sujeto obligado;</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.6.2">2.1.1.6.2</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P>i) Todo mecanismo o procedimiento por medio del cual el público pueda participar en la formulación de la política o el ejercicio de las facultades de ese sujeto obligado;</P>
+<P></P>
+<P>j) Un registro de publicaciones que contenga los documentos publicados de conformidad con la presente ley y automáticamente disponibles, así como un Registro de Activos de Información;</P>
+<P></P>
+<P>k) Los sujetos obligados deberán publicar datos abiertos, para lo cual deberán contemplar las excepciones establecidas en el título 3 de la presente ley. Adicionalmente, para las condiciones técnicas de su publicación, se deberán observar los requisitos que establezca el Gobierno Nacional a través del Ministerio de las Tecnologías de la Información y las Comunicaciones o quien haga sus veces.</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.2.1.11">2.1.1.2.1.11</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp12 name=12></A> 12.</STRONG> <STRONG><EM>Adopción de esquemas de publicación.</EM></STRONG> Todo sujeto obligado deberá adoptar y difundir de manera amplia su esquema de publicación, dentro de los seis meses siguientes a la entrada en vigencia de la presente ley. El esquema será difundido a través de su sitio Web, y en su defecto, en los dispositivos de divulgación existentes en su dependencia, incluyendo boletines, gacetas y carteleras. El esquema de publicación deberá establecer:</P>
+<P></P>
+<P>a) Las clases de información que el sujeto obligado publicará de manera proactiva y que en todo caso deberá comprender la información mínima obligatoria;</P>
+<P></P>
+<P>b) La manera en la cual publicará dicha información;</P>
+<P></P>
+<P>c) Otras recomendaciones adicionales que establezca el Ministerio Público;</P>
+<P></P>
+<P>d) Los cuadros de clasificación documental que faciliten la consulta de los documentos públicos que se conservan en los archivos del respectivo sujeto obligado, de acuerdo con la reglamentación establecida por el Archivo General de la Nación;</P>
+<P></P>
+<P>e) La periodicidad de la divulgación, acorde a los principios administrativos de la función pública.</P>
+<P></P>
+<P>Todo sujeto obligado deberá publicar información de conformidad con su esquema de publicación.</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.5.3.2">2.1.1.5.3.2</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp13 name=13></A> 13.</STRONG> <STRONG><EM>Registros de Activos de Información.</EM></STRONG> Todo sujeto obligado deberá crear y mantener actualizado el Registro de Activos de Información haciendo un listado de:</P>
+<P></P>
+<P>a) Todas las categorías de información publicada por el sujeto obligado;</P>
+<P></P>
+<P>b) Todo registro publicado;</P>
+<P></P>
+<P>c) Todo registro disponible para ser solicitado por el público.</P>
+<P></P>
+<P>El Ministerio Público podrá establecer estándares en relación a los Registros Activos de Información.</P>
+<P></P>
+<P>Todo sujeto obligado deberá asegurarse de que sus Registros de Activos de Información cumplan con los estándares establecidos por el Ministerio Público y con aquellos dictados por el Archivo General de la Nación, en relación a la constitución de las Tablas de Retención Documental (TRD) y los inventarios documentales.</P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp14 name=14></A> 14.</STRONG> <STRONG><EM>Información publicada con anterioridad.</EM></STRONG> Los sujetos obligados deben garantizar y facilitar a los solicitantes, de la manera más sencilla posible, el acceso a toda la información previamente divulgada. Se publicará esta información en los términos establecidos por el artículo 14 de la Ley 1437 de 2011.</P>
+<P></P>
+<P>Cuando se dé respuesta a una de las solicitudes aquí previstas, esta deberá hacerse pública de manera proactiva en el sitio web del sujeto obligado, y en defecto de la existencia de un sitio web, en los dispositivos de divulgación existentes en su dependencia.</P>
+<P align=left>(<A href="norma.php?i=65323#1">Corregido por Art 1, Decreto Ley 1862 de 2015</A>.)</P>
+<P></P>
+<P><EM>(Ver sentencia <A href="../norma.php?i=80473#0">C-653</A> de 2015)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.5.4.5">2.1.1.5.4.5</A>. Decreto 1081 de 2015</EM><EM>.)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp15 name=15></A> 15.</STRONG> <STRONG><EM>Programa de Gestión Documental.</EM></STRONG> Dentro de los seis (6) meses siguientes a la entrada en vigencia de la presente ley, los sujetos obligados deberán adoptar un Programa de Gestión Documental en el cual se establezcan los procedimientos y lineamientos necesarios para la producción, distribución, organización, consulta y conservación de los documentos públicos. Este Programa deberá integrarse con las funciones administrativas del sujeto obligado. Deberán observarse los lineamientos y recomendaciones que el Archivo General de la Nación y demás entidades competentes expidan en la materia.</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.5.4.1">2.1.1.5.4.1</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp16 name=16></A> 16.</STRONG> <STRONG><EM>Archivos.</EM></STRONG> En su carácter de centros de información institucional que contribuyen tanto a la eficacia y eficiencia del Estado en el servicio al ciudadano, como a la promoción activa del acceso a la información pública, los sujetos obligados deben asegurarse de que existan dentro de sus entidades procedimientos claros para la creación, gestión, organización y conservación de sus archivos. Los procedimientos adoptados deberán observar los lineamientos que en la materia sean producidos por el Archivo General de la Nación.</P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp17 name=17></A> 17.</STRONG> <STRONG><EM>Sistemas de información.</EM></STRONG> Para asegurar que los sistemas de información electrónica sean efectivamente una herramienta para promover el acceso a la información pública, los sujetos obligados deben asegurar que estos:</P>
+<P></P>
+<P>a) Se encuentren alineados con los distintos procedimientos y articulados con los lineamientos establecidos en el Programa de Gestión Documental de la entidad;</P>
+<P></P>
+<P>b) Gestionen la misma información que se encuentre en los sistemas administrativos del sujeto obligado;</P>
+<P></P>
+<P>c) En el caso de la información de interés público, deberá existir una ventanilla en la cual se pueda acceder a la información en formatos y lenguajes comprensibles para los ciudadanos;</P>
+<P></P>
+<P>d) Se encuentren alineados con la estrategia de gobierno en línea o de la que haga sus veces.</P>
+<P></P>
+<P align=center><STRONG>TÍTULO III</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>EXCEPCIONES ACCESO A LA INFORMACIÓN</STRONG></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp18 name=18></A> 18.</STRONG> <STRONG><EM>Información exceptuada por daño de derechos a personas naturales o jurídicas.</EM></STRONG> Es toda aquella información pública clasificada, cuyo acceso podrá ser rechazado o denegado de manera motivada y por escrito, siempre que el acceso pudiere causar un daño a los siguientes derechos:</P>
+<P></P>
+<P>a) El derecho de toda persona a la intimidad, bajo las limitaciones propias que impone la condición de servidor público, en concordancia con lo estipulado por el artículo <A href="norma.php?i=41249#24">24</A> de la Ley <A href="norma.php?i=41249#0">1437</A> de 2011.</P>
+<P align=left>(<A href="norma.php?i=66446#1">Corregido por Art. 1, Decreto Ley 2199 de 2015</A>.)</P>
+<P></P>
+<P>b) El derecho de toda persona a la vida, la salud o la seguridad;</P>
+<P></P>
+<P>c) Los secretos comerciales, industriales y profesionales</P>
+<P></P>
+<P><STRONG>PARÁGRAFO<A id=sp18.p name=18.p></A> .</STRONG> Estas excepciones tienen una duración ilimitada y no deberán aplicarse cuando la persona natural o jurídica ha consentido en la revelación de sus datos personales o privados o bien cuando es claro que la información fue entregada como parte de aquella información que debe estar bajo el régimen de publicidad aplicable</P>
+<P align=left>(<A href="norma.php?i=65312#2">Corregido por Art. 2, Decreto Ley 1494 de 2015.)</A></P>
+<P></P>
+<P><EM>(Ver Sentencia <A href="../norma.php?i=80473#0">C-653</A> de 2015)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver artículos <A href="../norma.php?i=73593#2.1.1.4.2.1">2.1.1.4.2.1</A>, <A href="../norma.php?i=73593#2.1.1.4.4.1">2.1.1.4.4.1</A>, <A href="../norma.php?i=73593#2.1.1.5.2.2">2.1.1.5.2.2</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P><EM>(Ver Concepto Rad. <A href="../norma.php?i=64498">2014-00112 (2209)</A>, Consejo de Estado.)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp19 name=19></A> 19.</STRONG> <STRONG><EM>Información exceptuada por daño a los intereses públicos.</EM></STRONG> Es toda aquella información pública reservada, cuyo acceso podrá ser rechazado o denegado de manera motivada y por escrito en las siguientes circunstancias, siempre que dicho acceso estuviere expresamente prohibido por una norma legal o constitucional:</P>
+<P></P>
+<P>a) La defensa y seguridad nacional;</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.4.2.1">2.1.1.4.2.1</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P>b) La seguridad pública;</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.4.2.1">2.1.1.4.2.1</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P>c) Las relaciones internacionales;</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.4.2.1">2.1.1.4.2.1</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P>d) La prevención, investigación y persecución de los delitos y las faltas disciplinarias, mientras que no se haga efectiva la medida de aseguramiento o se formule pliego de cargos, según el caso;</P>
+<P><EM></EM></P>
+<P><EM>(Ver Sentencia C-951 de 2014)</EM></P>
+<P><EM></EM></P>
+<P>e) El debido proceso y la igualdad de las partes en los procesos judiciales;</P>
+<P></P>
+<P>f) La administración efectiva de la justicia;</P>
+<P></P>
+<P>g) Los derechos de la infancia y la adolescencia;</P>
+<P></P>
+<P>h) La estabilidad macroeconómica y financiera del país;</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.4.2.2">2.1.1.4.2.2</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P>i) La salud pública.</P>
+<P></P>
+<P><STRONG>PARÁGRAFO<A id=sp19.p name=19.p></A> .</STRONG> Se exceptúan también los documentos que contengan las opiniones o puntos de vista que formen parte del proceso deliberativo de los servidores públicos.</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=41249#24">24</A>, Ley 1437 de 2011)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Sentencias </EM><EM><A href="../norma.php?i=80433#0">C-221</A> de 2016 y <A href="../norma.php?i=28354#0">C-491</A> de 2007)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Artículos, <A href="../norma.php?i=73593#2.1.1.4.2.3">2.1.1.4.2.3</A>, <A href="../norma.php?i=73593#2.1.1.4.4.1">2.1.1.4.4.1</A>, <A href="../norma.php?i=73593#2.1.1.5.2.2">2.1.1.5.2.2</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P><EM>(Ver Concepto Rad. <A href="../norma.php?i=64498">2014-00112 (2209)</A>, Consejo de Estado.)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp20 name=20></A> 20.</STRONG> <STRONG><EM>Índice de Información clasificada y reservada.</EM></STRONG> Los sujetos obligados deberán mantener un índice actualizado de los actos, documentos e informaciones calificados como clasificados o reservados, de conformidad a esta ley. El índice incluirá sus denominaciones, la motivación y la individualización del acto en que conste tal calificación.</P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp21 name=21></A> 21.</STRONG> <STRONG><EM>Divulgación parcial y otras reglas.</EM></STRONG> En aquellas circunstancias en que la totalidad de la información contenida en un documento no esté protegida por una excepción contenida en la presente ley, debe hacerse una versión pública que mantenga la reserva únicamente de la parte indispensable. La información pública que no cae en ningún supuesto de excepción deberá ser entregada a la parte solicitante, así como ser de conocimiento público. La reserva de acceso a la información opera respecto del contenido de un documento público pero no de su existencia.</P>
+<P></P>
+<P>Ninguna autoridad pública puede negarse a indicar si un documento obra o no en su poder o negar la divulgación de un documento, salvo que el daño causado al interés protegido sea mayor al interés público de obtener acceso a la información.</P>
+<P></P>
+<P>Las excepciones de acceso a la información contenidas en la presente ley no aplican en casos de violación de derechos humanos o delitos de lesa humanidad, y en todo caso deberán protegerse los derechos de las víctimas de dichas violaciones.</P>
+<P align=left>(<A href="norma.php?i=65312#3">Corregido por Art. 3, Decreto Ley 1494 de 2015</A>.)</P>
+<P></P>
+<P><EM>(Ver Sentencia <A href="../norma.php?i=80473#0">C-653</A> de 2015)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.5.4.7">2.1.1.5.4.7</A>. Decreto 1081 de 2015</EM><EM>.)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp22 name=22></A> 22.</STRONG> <STRONG><EM>Excepciones temporales.</EM></STRONG> La reserva de las informaciones amparadas por el artículo 19 no deberá extenderse por un período mayor a quince (15) años.</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.4.2.3">2.1.1.4.2.3</A>. Decreto 1081 de 2015)</EM></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>TÍTULO IV</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>DE LAS GARANTÍAS AL EJERCICIO DEL DERECHO DE ACCESO A LA INFORMACIÓN</STRONG></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp23 name=23></A> 23.</STRONG> <STRONG><EM>Funciones del Ministerio Público.</EM></STRONG> El Ministerio Público será el encargado de velar por el adecuado cumplimiento de las obliga&shy;ciones estipuladas en la presente ley. Para tal propósito, la Procuraduría General de la Nación en un plazo no mayor a seis meses establecerá una metodología para que aquel cumpla las siguientes funciones y atribuciones:</P>
+<P></P>
+<P>a) Desarrollar acciones preventivas para el cumplimiento de esta ley;</P>
+<P></P>
+<P>b) Realizar informes sobre el cumplimiento de las decisiones de tutelas sobre acceso a la información;</P>
+<P></P>
+<P>c) Publicar las decisiones de tutela y normatividad sobre acceso a la información pública;</P>
+<P></P>
+<P>d) Promover el conocimiento y aplicación de la presente ley y sus disposiciones entre los sujetos obligados, así como su comprensión entre el público, teniendo en cuenta criterios diferenciales para su accesibilidad, sobre las materias de su competencia mediante la publicación y difusión de una guía sobre el derecho de acceso a la información;</P>
+<P></P>
+<P>e) Aplicar las sanciones disciplinarias que la presente ley consagra;</P>
+<P></P>
+<P>f) Decidir disciplinariamente, en los casos de ejercicio de poder preferente, los casos de faltas o mala conducta derivada del derecho de acceso a la información;</P>
+<P></P>
+<P>g) Promover la transparencia de la función pública, el acceso y la publicidad de la información de las entidades del Estado, por cualquier medio de publicación;</P>
+<P></P>
+<P>h) Requerir a los sujetos obligados para que ajusten sus procedimientos y sistema de atención al ciudadano a dicha legislación;</P>
+<P></P>
+<P>i) Realizar, directamente o a través de terceros, actividades de capacitación de funcionarios públicos en materia de transparencia y acceso a la información;</P>
+<P></P>
+<P>j) Efectuar estadísticas y reportes sobre transparencia y acceso a la información de los órganos de la administración del Estado y sobre el cumplimiento de esta ley;</P>
+<P></P>
+<P>k) Entregar en debida forma las respuestas a las peticiones formuladas con solicitud de identificación reservada a las que se refiere el parágrafo del artículo 4 de la presente ley;</P>
+<P></P>
+<P>l) Implementar y administrar los sistemas de información en el cumplimiento de sus funciones, para lo cual establecerá los plazos y criterios del reporte por parte de las entidades públicas que considere necesarias.</P>
+<P></P>
+<P>Las entidades del Ministerio Público contarán con una oficina designada que dispondrá de los medios necesarios para el cumplimiento de las anteriores funciones y atribuciones.</P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp24 name=24></A> 24.</STRONG> <STRONG><EM>Del Derecho de acceso a la información.</EM></STRONG> Toda persona tiene derecho a solicitar y recibir información de cualquier sujeto obligado, en la forma y condiciones que establece esta ley y la Constitución.</P>
+<P></P>
+<P><EM>(Ver Arts. <A href="../norma.php?i=41249#13">13</A> y ss., Ley 1437 de 2011)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=65334#1">1</A>, Ley 1755 de 2015.)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Sentencia <A href="../norma.php?i=80474#0">T-198</A> de 2015)</EM></P>
+<P><EM></EM></P>
+<P><EM>(Ver Sentencia <A href="../norma.php?i=80433#0">C-221</A> de 2016.</EM><EM>)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp25 name=25></A> 25.</STRONG> <STRONG><EM>Solicitud de acceso a la Información Pública.</EM></STRONG> Es aquella que, de forma oral o escrita, incluida la vía electrónica, puede hacer cualquier persona para acceder a la información pública.</P>
+<P></P>
+<P><STRONG>PARÁGRAFO<A id=sp25.p name=25.p></A> .</STRONG> En ningún caso podrá ser rechazada la petición por motivos de fundamentación inadecuada o incompleta.</P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp26 name=26></A> 26.</STRONG> <STRONG><EM>Respuesta a solicitud de acceso a información. </EM></STRONG>Es aquel acto escrito mediante el cual, de forma oportuna, veraz, completa, motivada y actualizada, todo sujeto obligado responde materialmente a cualquier persona que presente una solicitud de acceso a información pública. Su respuesta se dará en los términos establecidos por el artículo 14 de la Ley 1437 de 2011.</P>
+<P></P>
+<P>La respuesta a la solicitud deberá ser gratuita o sujeta a un costo que no supere el valor de la reproducción y envío de la misma al solicitante. Se preferirá, cuando sea posible, según los sujetos pasivo y activo, la respuesta por vía electrónica, con el consentimiento del solicitante.</P>
+<P align=left>(<A href="norma.php?i=65312#4">Corregido por Art. 4, Decreto Ley 1494 de 2015</A>.)</P>
+<P></P>
+<P><EM>(Ver sentencia <A href="../norma.php?i=80473#0">C-653</A> de 2015)</EM></P>
+<P><EM></EM></P>
+<P><EM>(</EM><EM>Ver artículos <A href="../norma.php?i=73593#2.1.1.3.1.4">2.1.1.3.1.4</A>. y <A href="../norma.php?i=73593#2.1.1.3.1.5">2.1.1.3.1.5</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp27 name=27></A> 27.</STRONG> <STRONG><EM>Recursos del solicitante.</EM></STRONG> Cuando la respuesta a la solicitud de información invoque la reserva de seguridad y defensa nacional o relaciones internacionales, el solicitante podrá acudir al recurso de reposición, el cual deberá interponerse por escrito y sustentando en la diligencia de notificación, o dentro de los tres (3) días siguientes a ella.</P>
+<P></P>
+<P>Negado este recurso corresponderá al Tribunal administrativo con jurisdicción en el lugar donde se encuentren los documentos, si se trata de autoridades nacionales, departamentales o del Distrito Capital de Bogotá, o al juez administrativo si se trata de autoridades distritales y municipales, decidir en única instancia si se niega o se acepta, total o parcialmente, la petición formulada.</P>
+<P></P>
+<P>Para ello, el funcionario respectivo enviará la documentación correspondiente al tribunal o al juez administrativo en un plazo no superior a tres (3) días. En caso de que el funcionario incumpla esta obligación el solicitante podrá hacer el respectivo envío de manera directa.</P>
+<P></P>
+<P>El juez administrativo decidirá dentro de los diez (10) días siguientes. Este término se interrumpirá en los siguientes casos:</P>
+<P></P>
+<P>1. Cuando el tribunal o el juez administrativo solicite copia o fotocopia de los documentos sobre cuya divulgación deba decidir, o cualquier otra información que requieran, y hasta la fecha en la cual las reciba oficialmente.</P>
+<P></P>
+<P>2. Cuando la autoridad solicite, a la sección del Consejo de Estado que el reglamento disponga, asumir conocimiento del asunto en atención a su importancia jurídica o con el objeto de unificar criterios sobre el tema. Si al cabo de cinco (5) días la sección guarda silencio, o decide no avocar conocimiento, la actuación continuará ante el respectivo tribunal o juzgado administrativo.</P>
+<P></P>
+<P><STRONG>PARÁGRAFO<A id=sp27.p name=27.p></A> .</STRONG> Será procedente la acción de tutela para aquellos casos no contemplados en el presente artículo, una vez agotado el recurso de reposición del Código Contencioso Administrativo. </P>
+<P></P>
+<P><EM>(Ver Sentencia <A href="../norma.php?i=80476#0">T-828</A> de 2014</EM><EM>.)</EM></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp28 name=28></A> 28.</STRONG> <STRONG><EM>Carga de la prueba.</EM></STRONG> Le corresponde al sujeto obligado aportar las razones y pruebas que fundamenten y evidencien que la información solicitada debe permanecer reservada o confidencial. En particular, el sujeto obligado debe demostrar que la información debe relacionarse con un objetivo legítimo establecido legal o constitucionalmente. Además, deberá establecer si se trata de una excepción contenida en los artículos 18 y 19 de esta ley y si la revelación de la información causaría un daño presente, probable y específico que excede el interés público que representa el acceso a la información.</P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp29 name=29></A> 29.</STRONG> <STRONG><EM>Responsabilidad Penal.</EM></STRONG> Todo acto de ocultamiento, destrucción o alteración deliberada total o parcial de información pública, una vez haya sido objeto de una solicitud de información, será sancionado en los términos del artículo 292 del Código Penal.</P>
+<P></P>
+<P align=center><STRONG>TÍTULO V</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>VIGENCIA Y MEDIDAS DE PROMOCIÓN</STRONG></P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp30 name=30></A> 30.</STRONG> <STRONG><EM>Capacitación.</EM></STRONG> El Ministerio Público, con el apoyo de la sociedad civil interesada en participar, deberá asistir a los sujetos obli&shy;gados y a la ciudadanía en la capacitación con enfoque diferencial, para la aplicación de esta ley.</P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp31 name=31></A> 31.</STRONG> <STRONG><EM>Educación Formal.</EM></STRONG> El Ministerio de Educación, con el apoyo de la sociedad civil, deberá promover que en el área relacionada con el estudio de la Constitución, la instrucción cívica y el fomento de prácticas democráticas obligatorias para las instituciones educativas privadas y públicas, de conformidad con el artículo 41 de la Constitu&shy;ción Política, se incluya información sobre el derecho de acceso a la información, sus principios y sus reglas básicas.</P>
+<P></P>
+<P><STRONG>ARTÍCULO<A id=sp32 name=32></A> 32.</STRONG> <STRONG><EM>Política Pública de acceso a la información.</EM></STRONG> El diseño, promoción e implementación de la política pública de acceso a la información pública, estará a cargo de la Secretaría de Transparencia de la Presidencia de la República, quien coordinará con el Ministerio de Tecnologías de la Información y las Comunicaciones, el Departamento Administrativo de la Función Pública (DAFP), el Departamento Nacional de Planeación (DNP), el Archivo General de la Nación y el Departamento Administrativo Nacional de Estadística (DANE).</P>
+<P></P>
+<P>(<A href="norma.php?i=175606#32">Modificado por el Art. 32 de la 2195 de 2022</A>).</P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.6.1">2.1.1.6.1</A>. Decreto 1081 de 2015)</EM></P>
+<P><EM>
+					<button type="button" class="btn btn-outline-secondary btn-sm" onClick="mostrar_ocultar_jurisprudencia(3623)">Norma Anterior</button>
+					<div id="juris3623" class="card border-light mb-12" style="display:none;font-size:small;">
+					  <div style="padding:0.5rem;" class="card-header">Texto Anterior</div>
+					  <div class="card-body jurisprudencia" >
+						<div style="padding:0.5rem;font-size:small;">
+							<p>El diseño, promoción e implementación de la política pública de acceso a la información pública, estará a cargo de la Secretaría de Transparencia de la Presidencia de la República, el Ministerio de Tecnologías de la Información y las Comunicaciones, el Departamento Administrativo de la Función Pública (DAFP), el Departamento Nacional de Planeación (DNP), el Archivo General de la Nación y el Departamento Administrativo Nacional de Estadística (DANE).</p>
+						</div>
+					  </div>
+					</div></EM> </P>
+<P><STRONG>ARTÍCULO<A id=sp33 name=33></A> 33.</STRONG> <STRONG><EM>Vigencia y derogatoria.</EM></STRONG> La presente ley rige a los seis (6) meses de la fecha de su promulgación para todos los sujetos obligados del orden nacional. Para los entes territoriales la ley entrará en vigencia un año después de su promulgación. La presente ley deroga todas las disposiciones que le sean contrarias.</P>
+<P></P>
+<P><EM>(Ver Art. <A href="../norma.php?i=73593#2.1.1.6.1">2.1.1.6.1</A>. Decreto 1081 de 2015)</EM></P>
+<P></P>
+<P align=center><STRONG>El Presidente del honorable Senado de la República,</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>Juan Fernando Cristo Bustos.</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>El Secretario General del honorable Senado de la República,</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>Gregorio Eljach Pacheco.</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>El Presidente de la honorable Cámara de Representantes,</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>Hernán Penagos Giraldo.</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>El Secretario General de la honorable Cámara de Representantes,</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>Jorge Humberto Mantilla Serrano.</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>REPÚBLICA DE COLOMBIA &#8211; GOBIERNO NACIONAL</STRONG></P>
+<P><STRONG></STRONG></P>
+<P align=center><STRONG>PUBLÍQUESE Y CÚMPLASE.</STRONG></P>
+<P></P>
+<P>En cumplimiento de lo dispuesto en la Sentencia <A href="norma.php?i=80453#274">C-274</A> del 9 de mayo de 2013, proferida por la Corte Constitucional, se procede a la sanción del proyecto de ley, toda vez que dicha Corporación ordena la remisión del expediente al Congreso de la República, para continuar el trámite legislativo de rigor y su posterior envío al Presidente de la República para efecto de la correspondiente sanción.</P>
+<P></P>
+<P align=center><STRONG>Dada en Bogotá, D.C., a los 6 días del mes de marzo de 2014.</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>JUAN MANUEL SANTOS CALDERÓN</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>EL PRESIDENTE DE LA REPÚBLICA,</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>AURELIO IRAGORRI VALENCIA.</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>EL MINISTRO DEL INTERIOR,</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>ALFONSO GÓMEZ MÉNDEZ.</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>EL MINISTRO DE JUSTICIA Y DEL DERECHO,</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>MARÍA FERNANDA CAMPO SAAVEDRA.</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>LA MINISTRA DE EDUCACIÓN NACIONAL,</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>DIEGO MOLANO VEGA.</STRONG></P>
+<P align=center><STRONG></STRONG></P>
+<P align=center><STRONG>EL MINISTRO DE TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES,</STRONG></P>
+<P></P>
+<P><STRONG>NOTA: Publicada en el Diario Oficial 49.084 de marzo 6 de 2014</STRONG></P>
+<P></P>	</div>
+	
+		
+</div>
+<!--end col right-->
+	  
+  </div>
+    </div>
+  
+  </main>
+	
+	
+    <div class="container">
+
+		<style type="text/css">
+		.stl-1-white-blue-second {
+			background-color: transparent;
+			border: 2px solid #1E3559 !important;
+			color: #1E3559;
+			transition-duration: .4s;
+			border-radius: 3px;
+			padding: 10px 30px;
+			font-size: 1.0em;
+			font-weight: 700;
+			display: inline-block;
+		}
+
+		.stl-1-white-blue-second:hover {
+			background-color: #1E3559;
+			color: #fff;
+			border: 2px solid #1E3559;
+			border-radius: 3px;
+			padding: 10px 30px;
+			font-weight: 700;
+			text-decoration: none;
+		}
+
+		.stl-1-white-blue-second:active {
+			background-color: #bfbfbf;
+			color: white;
+		}
+
+		</style>
+		<a href="javascript:history.back(1)">
+			<div class="col-md-4"><button type="submit" class="stl-1-white-blue-second mtop20">Volver Atrás</button>
+			</div>
+		</a>
+</div>
+
+
+<footer class="footer">
+  <div class="menu-gobierno">
+    <div class="container">
+      <div class="row" style="align-items: center">
+        <div class="col-lg-4 col-md-12 text-center mb-5"> <a href="https://www.presidencia.gov.co/" class="logo img-fluid"><img width="40%" src="https://www.funcionpublica.gov.co/documents/418537/37421537/logo-gobierno.png/af775a00-cdd7-3268-7e00-d2d89fabf76b?t=1659904736649" alt="Gobierno de Colombia"/></a> </div>
+        <div class="col-lg-2 col-md-3">
+          <ul>
+            <!-- <li><a href="https://www.presidencia.gov.co/">Presidencia</a></li> -->
+            <li><a href="https://www.vicepresidencia.gov.co/">Vicepresidencia</a></li>
+            <li><a href="https://www.minjusticia.gov.co/">MinJusticia</a></li>
+            <li><a href="https://www.mindefensa.gov.co/irj/portal/Mindefensa">MinDefensa</a></li>
+            <li><a href="https://www.mintrabajo.gov.co/web/guest/inicio">MinTrabajo</a></li>
+            <li><a href="https://www.mininterior.gov.co/">MinInterior</a></li>
+            <li><a href="https://minciencias.gov.co/">MinCiencias</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <ul>
+            <li><a href="https://www.cancilleria.gov.co/">MinRelaciones</a></li>
+            <li><a href="https://www.minhacienda.gov.co/">MinHacienda</a></li>
+            <li><a href="https://www.minsalud.gov.co/portada-covid-19.html">MinSalud</a></li>
+            <li><a href="https://www.minenergia.gov.co/">MinEnergía</a></li>
+            <li><a href="https://www.mincit.gov.co/">MinComercio</a></li>
+            <li><a href="https://www.mindeporte.gov.co/">MinDeporte</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <ul>
+            <li><a href="https://www.mintic.gov.co/portal/inicio/">MinTIC</a></li>
+            <li><a href="https://www.mineducacion.gov.co/portal/">MinEducacion</a></li>
+            <li><a href="https://www.mincultura.gov.co/Paginas/Inicio.aspx">MinCultura</a></li>
+            <li><a href="https://www.minagricultura.gov.co/paginas/default.aspx">MinAgricultura</a></li>
+            <li><a href="https://www.minambiente.gov.co">MinAmbiente</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <ul>
+            <li><a href="https://www.mintransporte.gov.co/">MinTransporte</a></li>
+            <li><a href="http://www.minvivienda.gov.co/">MinVivienda</a></li>
+            <li><a href="https://www.urnadecristal.gov.co/">Urna de Cristal</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="row text-center align-items-center">
+            <div class="col-lg-12 col-sm-6 mb-5">
+              <p><a haref="#"><img src="https://www.funcionpublica.gov.co/o/Fpublica-2021-theme/images/logos/logofinal_gov.png" class="img-fluid p-2" alt="Logo gov.co"/></a></p>
+            </div>
+            <div class="col-lg-12 col-sm-6 mb-5">
+              <p><a haref="#"><img src="img_nuevo/colombia-co.png" class="img-fluid" alt="Logo Marca Pais Colombia"/></a></p>
+            </div>
+          </div>
+          <div class="d-none d-lg-block">
+            <p style="text-align: left; text-transform: uppercase; font-size: 17px;">entidad del sector</p>
+            <p class="subrayado1"></p>
+            <br>
+            <br>
+            <p><a haref="#"><img src="img_nuevo/logo-esap.png" class="img-fluid" alt="Logo ESAP"/></a></p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-7">
+          <p style="text-align: left; text-transform: uppercase; font-size: 17px;">función publica</p>
+          <p class="subrayado1"></p>
+          <!--direccion-->
+          <div style="background-image: url(img_nuevo/map2.png); background-repeat: no-repeat;background-position: center top;">
+            <div class="d-flex">
+              <div class="mr-2"> <i class="fa fa-map-marker bg-white-opacity-0_1 g-color-white-opacity-0_6"></i> </div>
+              <p class="ml-1">Carrera 6 # 12-62,<br>
+                Bogotá D.C.</p>
+            </div>
+            <!--phone-->
+            <div class="d-flex mt-1">
+              <div class="mr-2"> <i class="fa fa-phone bg-white-opacity-0_1 g-color-white-opacity-0_6"></i> </div>
+              <p class="ml-1"><strong>Código Postal: </strong>111711<br>
+                <strong>Teléfono Conmutador::</strong> (+57) 601 5956600 <br>
+                <strong>Línea gratuita nacional:</strong> 018000931186 <br>
+              </p>
+            </div>
+          </div>
+          <!--url-->
+          <div class="d-flex">
+            <div class="mr-2"> <i class="fa fa-globe bg-white-opacity-0_1 g-color-white-opacity-0_6"></i> </div>
+            <p class="ml-1" style="word-wrap: break-word"><a href="#">www.funcionpublica.gov.co</a> <br>
+              Correo de Contacto: <a href="mailto:eva@funcionpublica.gov.co">eva@funcionpublica.gov.co</a><br>
+              <span class="d-none d-lg-block d-lg-block d-md-block"> Notificaciones judiciales:<br>
+              <a style="word-wrap: break-word" href="mailto:notificacionesjudiciales@funcionpublica.gov.co?Subject=Notificación%20judicial" target="_top">notificacionesjudiciales@funcionpublica.gov.co</a></span> <br>
+            </p>
+          </div>
+          <p class="mt-2" style="text-align: left; text-transform: uppercase; font-size: 17px;">contacto</p>
+          <p class="subrayado1"></p>
+          <p>Horario de atención presencial grupo de Servicio al ciudadano:<br>
+            Lunes a Viernes, 7:30 a.m a 6:00 p.m</p>
+          <p class="border-footer"></p>
+          <p>Recepción de correspondencia:<br>
+            Lunes a viernes, 8:00 am a 4:00 pm Jornada Continua</p>
+          <p class="subrayado2"></p>
+          <!--<p>Línea gratuita nacional: 018000917770</p>-->
+          <p class="subrayado2"></p>
+        </div>
+        <div class="col-lg-4 col-md-5">
+          <p style="text-align: left; text-transform: uppercase; font-size: 17px;">servicios al ciudadano</p>
+          <p class="subrayado1"></p>
+          <p><a href="mailto:notificacionesjudiciales@funcionpublica.gov.co?Subject=Notificación%20judicial" target="_top">Notificaciones judiciales</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="mailto:actosadministrativos@funcionpublica.gov.co?Subject=Notificaciones o comunicaciones de acto administrativo" target="_top">Notificación de actos administrativos</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/notificaciones-a-terceros" target="_top">Notificaciones a terceros</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/denuncias-por-actos-de-corrupci%C3%B3n">Denuncias por actos de corrupción</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/web/intranet/registrosyencuestas">Participación ciudadana</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/preguntas-frecuentes">Preguntas frecuentes</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/formule-su-peticion">Formule su petición PQRS</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/mapa-del-sitio">Mapa del sitio</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://mail.office365.com/">Ingreso correo institucional</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/estadisticas-sitio">Estadísticas del sitio</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/inicio?p_p_id=com_liferay_login_web_portlet_LoginPortlet&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=false&_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin">Acceder</a></p>
+          <p class="subrayado2"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--redes sociales-->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-lg-6"> <a href="https://www.funcionpublica.gov.co/politica-de-privacidad-y-condiciones-de-uso">Política de Privacidad &nbsp; | &nbsp; </a><a href="https://www.funcionpublica.gov.co/politica-de-privacidad-y-condiciones-de-uso"> Términos y condiciones de uso</a> </div>
+        <div class="col-sm-4 col-lg-6 text-left  text-md-right text-xl-right">
+          <nav class="navigation">
+            <ul>
+              <li class="mr-2"><a href="https://www.facebook.com/FuncionPublica" target="_blank" title="Icono facebook"> <i class="fa fa-facebook fa-2x g-color-white-opacity-0_6 link-footer-img"></i></a></li>
+              <li class="mr-2"><a href="https://www.linkedin.com/company/departamento-administrativo-de-la-funci%C3%B3n-p%C3%BAblica" target="_blank" title="Icono Linkedin"> <i class="fa fa-linkedin fa-2x g-color-white-opacity-0_6 link-footer-img" ></i> </a></li>
+              <li class="mr-2"><a href="https://twitter.com/dafp_colombia"  target="_blank" title="Icono Twitter"> <i class="fa fa-twitter fa-2x g-color-white-opacity-0_6 link-footer-img" ></i> </a></li>
+              <li><a href="https://www.instagram.com/funcionpublicacolombia/" target="_blank" title="Icono Instagram"> <i class="fa fa fa-instagram fa-2x g-color-white-opacity-0_6 link-footer-img"></i> </a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Optional JavaScript --> 
+<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  -->
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  -->
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <!-- Script para mostrar el modal al cargar la página -->
+  <script>
+    $(document).ready(function(){
+      // Verificar si el sessionStorage tiene la fecha guardada
+      var modalShownTime = sessionStorage.getItem('modalShownTime');
+      if (!modalShownTime) {
+        // Si no hay fecha guardada, guardar la fecha actual
+        sessionStorage.setItem('modalShownTime', new Date().getTime());
+      } else {
+        // Si hay fecha guardada, verificar si han pasado 2 minutos desde entonces
+        var currentTime = new Date().getTime();
+		sessionStorage.setItem('modalShownTimeresta', (currentTime - modalShownTime));
+        if ((currentTime - modalShownTime) < (15 * 1000)) {
+          // Si han pasado menos de 2 minutos, no mostrar el modal
+          return;
+        }
+      }
+      // Verificar si el modal existe antes de mostrarlo
+      if ($('#exampleModal').length) {
+        $('#exampleModal').modal('show');
+		sessionStorage.setItem('modalShownTime', new Date().getTime());
+		
+      }
+    });
+  </script>
+  <!-- Lupa del buscador del Header -->
+<script>
+	 $('[name="btnsearch"]').click(function(){
+	  $('[name="_com_liferay_portal_search_web_portlet_SearchPortlet_fm"]').submit();
+	});
+</script>
+
+<!-- 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'anteriorUA-///71957172-1', 'anteriorUA-///71957172-1');
+  ga('send', 'pageview');
+
+</script>
+-->
+
+			
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DVZ2E88S6R"></script>
+<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-DVZ2E88S6R');
+</script>
+
+
+
+
+</body>
+</html>

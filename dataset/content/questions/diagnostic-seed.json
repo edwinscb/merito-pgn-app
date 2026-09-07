@@ -39,18 +39,18 @@
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 1,
-    "stem": "¿Cuál describe mejor las funciones misionales generales de la Procuraduría?",
+    "stem": "¿Cuál clasificación resume las funciones misionales generales que la Procuraduría presenta institucionalmente?",
     "options": [
-      { "id": "A", "text": "Prevención, intervención y ejercicio de la función disciplinaria.", "rationale": null },
-      { "id": "B", "text": "Investigación penal, juzgamiento y ejecución de penas.", "rationale": null },
-      { "id": "C", "text": "Control fiscal, cobro coactivo y auditoría financiera.", "rationale": null },
-      { "id": "D", "text": "Organización electoral y registro civil.", "rationale": null }
+      { "id": "A", "text": "Prevención, intervención y función disciplinaria.", "rationale": "Es correcta para la clasificación institucional general consultada; no pretende agotar todas las competencias legales." },
+      { "id": "B", "text": "Investigación penal, juzgamiento y ejecución de penas.", "rationale": "No corresponde a la clasificación misional general de la Procuraduría." },
+      { "id": "C", "text": "Control fiscal, cobro coactivo y auditoría financiera.", "rationale": "No corresponde a la clasificación misional general de la Procuraduría." },
+      { "id": "D", "text": "Organización electoral y registro civil.", "rationale": "No corresponde a la clasificación misional general de la Procuraduría." }
     ],
     "correctOptionId": "A",
-    "explanation": "Sus grandes frentes son preventivo, de intervención y disciplinario.",
+    "explanation": "La PGN presenta prevención, intervención y función disciplinaria como sus tres funciones misionales principales; otras competencias pueden coexistir en normas especiales.",
     "references": [
       { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 2 y tabla de clave", "supports": "provenance" },
-      { "sourceId": "decree-law-262-2000", "sourceUnitId": "decree-law-262-2000-art-23", "locator": "Artículo 23, página PDF 15", "supports": "context" }
+      { "sourceId": "pgn-functions-general", "sourceUnitId": "pgn-functions-general-review-unit", "locator": "Sección «Conozca la entidad», apartado Funciones misionales principales", "supports": "context" }
     ],
     "targetCallIds": [],
     "createdMethod": "seed_import",
@@ -71,18 +71,18 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "En una actuación preventiva, la Procuraduría debe:",
+    "stem": "En una actuación preventiva, la Procuraduría debe vigilar y advertir posibles infracciones dentro de sus competencias, sin coadministrar. ¿Cuál actuación es compatible?",
     "options": [
-      { "id": "A", "text": "Sustituir permanentemente a la entidad vigilada.", "rationale": "No corresponde: la función preventiva no autoriza sustituir la gestión de la entidad vigilada." },
-      { "id": "B", "text": "Advertir y gestionar riesgos dentro de sus competencias, sin coadministrar.", "rationale": "Es correcta: la PGN describe la vigilancia y advertencia preventivas sin coadministración ni intromisión en la gestión." },
+      { "id": "A", "text": "Sustituir permanentemente a la entidad vigilada.", "rationale": "No corresponde: sustituye la gestión de la entidad vigilada." },
+      { "id": "B", "text": "Advertir una situación de riesgo sin asumir la gestión de la entidad.", "rationale": "Es correcta: expresa vigilancia y advertencia sin coadministración." },
       { "id": "C", "text": "Imponer siempre una sanción disciplinaria.", "rationale": "No corresponde: prevención y sanción disciplinaria son actuaciones diferentes." },
       { "id": "D", "text": "Ordenar directamente cualquier gasto público.", "rationale": "No corresponde: una orden general de gasto sería ajena al alcance preventivo descrito." }
     ],
     "correctOptionId": "B",
-    "explanation": "El control preventivo gestiona riesgos sin sustituir ni coadministrar a la entidad.",
+    "explanation": "La función preventiva permite vigilar y advertir, pero no coadministrar ni reemplazar a la entidad vigilada.",
     "references": [
       { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 3 y tabla de clave", "supports": "provenance" },
-      { "sourceId": "pgn-bulletin-107-2026-preventive-function", "sourceUnitId": "pgn-bulletin-107-2026-preventive-scope", "locator": "Párrafo final que inicia «La Procuraduría General de la Nación reiteró»", "supports": "context" }
+      { "sourceId": "pgn-functions-general", "sourceUnitId": "pgn-functions-general-review-unit", "locator": "Sección «Conozca la entidad», apartado Función Preventiva", "supports": "context" }
     ],
     "targetCallIds": [],
     "createdMethod": "seed_import",
@@ -135,7 +135,7 @@
     "secondaryTopicIds": ["competencias_comportamentales"],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "Un servidor detecta un posible conflicto entre su interés personal y una decisión oficial. La conducta más adecuada es:",
+    "stem": "Un servidor participa en la decisión de adjudicar un contrato a una empresa en la que su cónyuge tiene un interés particular y directo. La conducta adecuada es:",
     "options": [
       { "id": "A", "text": "Decidir rápidamente antes de que se conozca el conflicto.", "rationale": "No corresponde: acelerar la decisión no elimina el deber de declararse impedido." },
       { "id": "B", "text": "Informar el conflicto y seguir el procedimiento de impedimento aplicable.", "rationale": "Es correcta: los artículos 11 y 12 exigen declarar y tramitar el impedimento." },
@@ -143,11 +143,11 @@
       { "id": "D", "text": "Continuar si considera subjetivamente que será imparcial.", "rationale": "No corresponde: la valoración personal no sustituye la causal ni su trámite." }
     ],
     "correctOptionId": "B",
-    "explanation": "El conflicto debe declararse y tramitarse con trazabilidad.",
+    "explanation": "Ante un interés particular y directo que entra en conflicto con el interés general, debe declararse el impedimento y tramitarlo formalmente.",
     "references": [
       { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 5 y tabla de clave", "supports": "provenance" },
       { "sourceId": "law-1437-2011", "sourceUnitId": "law-1437-2011-art-11", "locator": "Artículo 11, páginas PDF 7 a 9", "supports": "correct_answer" },
-      { "sourceId": "law-1437-2011", "sourceUnitId": "law-1437-2011-art-12", "locator": "Artículo 12, página PDF 9", "supports": "context" }
+      { "sourceId": "law-1437-2011", "sourceUnitId": "law-1437-2011-art-12", "locator": "Artículo 12, página PDF 9 y reglas subsidiarias del trámite", "supports": "context" }
     ],
     "targetCallIds": [],
     "createdMethod": "seed_import",

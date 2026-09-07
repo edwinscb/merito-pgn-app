@@ -75,5 +75,16 @@
     "sourceHash": "d6e6bc4dd98d2631115b407ee21180fbdbc1a0c8ad2d9698096aa832f0cbfefa",
     "topicIds": ["procuraduria_y_estado"],
     "targetCallIds": []
+  },
+  {
+    "id": "pgn-functions-general-review-unit",
+    "sourceId": "pgn-functions-general",
+    "locator": "Sección «Conozca la entidad», apartados Funciones misionales principales y Función Preventiva",
+    "title": "Funciones misionales generales y alcance preventivo",
+    "content": "La PGN presenta funciones preventiva, de intervención y disciplinaria; en la función preventiva vigila y advierte sin coadministrar.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "7d57792e05a2418e3e878476b231a6f88a2c1c15650bc4799466300d06ed6401",
+    "topicIds": ["procuraduria_y_estado"],
+    "targetCallIds": []
   }
 ]

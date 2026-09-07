@@ -143,6 +143,34 @@ const localSources = [
   }
 ]
 
+// Fuentes estructuradas incorporadas durante la revisión de la Fase 2.
+// Se mantienen separadas del inventario heredado para conservar su paridad histórica.
+const phase2Sources = [
+  ['pgn-functions-general', 'Funciones misionales generales de la Procuraduría', 'official-institutional-content', 'Procuraduría General de la Nación', 'B', 'https://www.procuraduria.gov.co/procuraduria/conozca-entidad/Pages/objetivos-funciones.aspx', 'pgn-functions.html', 'text/html', 'needs_review', 'Contenido institucional general; sirve para clasificación y alcance, no sustituye una ficha de cargo.'],
+  ['law-1755-2015', 'Ley 1755 de 2015 — derecho de petición', 'official-general-law', 'Departamento Administrativo de la Función Pública', 'B', 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334', 'norm-ley1755-2015.html', 'text/html', 'needs_review', 'Copia oficial consultada para contenido, competencia, términos y reserva; vigencia específica debe revisarse al publicar.'],
+  ['law-1712-2014', 'Ley 1712 de 2014 — transparencia y acceso', 'official-general-law', 'Departamento Administrativo de la Función Pública', 'B', 'https://www1.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=56882', 'norm-ley1712-2014.html', 'text/html', 'needs_review', 'Copia oficial consultada para versión pública y acceso parcial.'],
+  ['decree-1080-2015-archives', 'Decreto 1080 de 2015 — gestión documental', 'official-general-law', 'Colombia Compra Eficiente', 'B', 'https://relatoria.colombiacompra.gov.co/normativa/decreto-1080-de-2015/', 'norm-decreto1080-2015.html', 'text/html', 'needs_review', 'Compilación consultada para clasificación, metadatos, seguimiento y disposición; verificar reformas antes de publicar.'],
+  ['minvivienda-phva-methodology', 'Metodología de indicadores de gestión y ciclo PHVA', 'official-institutional-guidance', 'Ministerio de Vivienda', 'B', 'https://www.minvivienda.gov.co/sites/default/files/procesos/pef-i-03-metodologia-de-indicadores-de-gestion-3.0.pdf', 'norm-phva-minvivienda.pdf', 'application/pdf', 'needs_review', 'Guía institucional 2019; respaldo conceptual, no se afirma vigencia general para PGN.'],
+  ['law-80-1993', 'Ley 80 de 1993 — principios de contratación estatal', 'official-general-law', 'Departamento Administrativo de la Función Pública', 'B', 'https://www1.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=304', 'norm-ley80-1993.html', 'text/html', 'needs_review', 'Copia oficial consultada para planeación contractual; revisar reformas y régimen aplicable.'],
+  ['funcion-publica-indicators', 'Lineamientos de indicadores de seguimiento institucional', 'official-institutional-guidance', 'Departamento Administrativo de la Función Pública', 'B', 'https://www.funcionpublica.gov.co/mipg/seguimiento-evaluacion-y-control-integral', 'norm-indicadores.html', 'text/html', 'needs_review', 'Lineamiento web consultado para campos mínimos de un indicador.'],
+  ['nist-correlation', 'NIST Engineering Statistics Handbook — correlation and causation', 'official-technical-guidance', 'National Institute of Standards and Technology', 'B', 'https://www.itl.nist.gov/div898/handbook/ppc/section1/ppc136.htm', 'nist-correlation.html', 'text/html', 'needs_review', 'Referencia técnica conceptual; no es norma colombiana ni temario oficial PGN.'],
+  ['cdc-data-analysis', 'CDC Field Epidemiology Manual — analysis and interpretation', 'official-technical-guidance', 'Centers for Disease Control and Prevention', 'B', 'https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html', 'cdc-data-analysis.html', 'text/html', 'needs_review', 'Referencia técnica conceptual para sesgos y descripción de datos.'],
+  ['missouri-db-integrity', 'Database Management Systems — Referential Integrity', 'official-technical-guidance', 'Missouri Office of Administration', 'B', 'https://oa.mo.gov/sites/default/files/CC-DBMSIntegrityARC.pdf', 'missouri-db-integrity.pdf', 'application/pdf', 'needs_review', 'Guía técnica gubernamental histórica; no se presenta como requisito normativo colombiano.'],
+  ['nist-acid', 'NIST — atomicity in relational and NoSQL tradeoffs', 'official-technical-guidance', 'National Institute of Standards and Technology', 'B', 'https://csrc.nist.gov/csrc/media/projects/forum/documents/2012/fcsm_june2012_cooper_mell.pdf', 'nist-acid.pdf', 'application/pdf', 'needs_review', 'Material técnico conceptual de 2012; se limita a la definición de atomicidad.'],
+  ['nist-least-privilege', 'NIST glossary — least privilege', 'official-technical-guidance', 'National Institute of Standards and Technology', 'B', 'https://csrc.nist.gov/glossary/term/least_privilege', 'nist-least-privilege.html', 'text/html', 'needs_review', 'Definición técnica conceptual de mínimo privilegio.'],
+  ['ncsc-cloud-security', 'NCSC — using a cloud platform securely', 'official-technical-guidance', 'National Cyber Security Centre (UK)', 'B', 'https://www.ncsc.gov.uk/collection/cloud/using-cloud-services-securely/using-a-cloud-platform-securely', 'ncsc-cloud-security.html', 'text/html', 'needs_review', 'Guía técnica oficial extranjera; no es norma PGN.'],
+  ['homeoffice-api', 'Home Office API standard — design and maintenance', 'official-technical-guidance', 'UK Home Office', 'B', 'https://engineering.homeoffice.gov.uk/standards/designing-and-maintaining-an-api/', 'homeoffice-api.html', 'text/html', 'needs_review', 'Estándar técnico oficial extranjero para versionado, documentación y pruebas.'],
+  ['cisa-ransomware', 'CISA StopRansomware Guide', 'official-technical-guidance', 'Cybersecurity and Infrastructure Security Agency', 'B', 'https://www.cisa.gov/stopransomware/ransomware-guide', 'cisa-ransomware.html', 'text/html', 'needs_review', 'Guía de respuesta a ransomware; la pregunta se limita a contención, evidencia y procedimiento.'],
+  ['decreto-815-2018', 'Decreto 815 de 2018 — competencias comportamentales', 'official-general-law', 'Departamento Administrativo de la Función Pública', 'B', 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=86304', 'norm-decreto815-2018.html', 'text/html', 'needs_review', 'Referencia general de competencias; no certifica aplicación a una convocatoria concreta.'],
+  ['codigo-integridad', 'Código de Integridad del Servicio Público', 'official-institutional-guidance', 'Departamento Administrativo de la Función Pública', 'B', 'https://www.funcionpublica.gov.co/web/eva/codigo-integridad', 'norm-integridad.html', 'text/html', 'needs_review', 'Guía ética general para racionales conductuales.'],
+  ['law-1952-2019', 'Ley 1952 de 2019 — Código General Disciplinario', 'official-general-law', 'Ministerio de Relaciones Exteriores', 'B', 'https://cancilleria.gov.co/normograma/compilacion/docs/ley_1952_2019.htm', 'norm-ley1952-2019.html', 'text/html', 'needs_review', 'Copia de compilación normativa consultada para deberes de legalidad y diligencia.'],
+  ['dnp-public-innovation', 'Principios de la innovación pública en Colombia', 'official-institutional-guidance', 'Departamento Nacional de Planeación', 'B', 'https://colaboracion.dnp.gov.co/CDT/ModernizacionEstado/EiP/Principios_Innovaci%C3%B3n_P%C3%BAblica.pdf', 'norm-innovacion-dnp.pdf', 'application/pdf', 'needs_review', 'Guía conceptual para problema, usuarios, exploración y pilotos; no es temario de convocatoria.']
+].map(([id, title, category, publisher, authorityTier, url, filename, mimeType, status, notes]) => ({
+  id, title, category, publisher, authorityTier, url,
+  sourcePath: url, targetPath: `dataset/raw/official/fase2-completion/${filename}`,
+  mimeType, status, notes
+}))
+
 const pendingSources = [
   ['pgn-resolution-108-2026', 'Resolución 108 de 2026', 'https://meritoconstruyendoexcelencia.com.co/statics/normativas_especificas/RESOLUCION%20108%20DE%2023%20DE%20ABRIL%20DE%202026.pdf'],
   ['pgn-resolution-133-2026', 'Resolución 133 de 2026', 'https://meritoconstruyendoexcelencia.com.co/statics/normativas_especificas/RESOLUCIO%CC%81N%20No.%20133%20(20%20MAYO%202026).pdf'],
@@ -170,7 +198,7 @@ const pendingSources = [
 
 const inventory = []
 
-for (const source of localSources) {
+for (const source of [...localSources, ...phase2Sources]) {
   const content = await readFile(resolve(projectRoot, source.targetPath))
   inventory.push({
     ...source,
