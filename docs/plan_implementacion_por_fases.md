@@ -1,6 +1,6 @@
 # Plan de implementación por fases — Mérito PGN
 
-Estado: **Fase 1 implementada; Fase 2 consolidada técnicamente, revisión factual final pendiente**
+Estado: **Fase 1 implementada; Fase 2 cerrada para el lote actual; Fase 3 implementada en alcance técnico**
 Fecha: **3 de septiembre de 2026**
 
 ## 1. Decisiones confirmadas
@@ -99,28 +99,29 @@ Completar la trazabilidad factual de las 25 preguntas ya estructuradas, asignar
 fuentes oficiales y unidades verificables, ejecutar dos revisiones asistidas
 independientes y publicar solo preguntas `validated_assisted`.
 
-Estado: **consolidada técnicamente; pendiente de cierre factual editorial**.
+Estado: **cerrada para el lote actual**.
 
-Primer lote ejecutado:
+Lote consolidado:
 
-- cuatro fuentes oficiales generales verificadas e incorporadas;
-- siete unidades estructuradas: cinco verificadas y dos pendientes de corrección/revisión;
-- cinco preguntas revisadas por dos subagentes independientes;
-- preguntas 1 y 4 en `validated_assisted`;
-- preguntas 2, 3 y 5 en `needs_review` por los problemas documentados en los
-  informes factual y editorial de `dataset/reports/`.
+- 48 fuentes y 31 unidades estructuradas; 22 unidades verificadas y 9 pendientes;
+- 25 preguntas revisadas por dos roles independientes;
+- 18 preguntas en `validated_assisted`;
+- Q6, Q10 y Q21–Q25 en `needs_review` por hallazgos factuales documentados.
 
 Auditoría del 6 de septiembre de 2026: los dos roles del lote correspondían
 al mismo asistente. Se corrigió el identificador de revisor y se retiraron
 las cuatro aprobaciones prematuras. Después se ejecutaron las dos revisiones
-independientes autorizadas: solo 1 y 4 superaron ambas y llegan al banco.
+independientes autorizadas sobre las versiones corregidas: 18 superaron ambas
+y llegan al banco.
 
 Se incorporaron las fichas oficiales versión 3 de 121, 126 y 127, vinculadas a
 la Resolución 212; se corrigieron las 25 semillas, se enlazaron unidades de
-respaldo, se completaron los racionales y la revisión editorial final aprobó
-editorialmente las 25. La revisión factual final independiente de las versiones
-corregidas sigue pendiente; por eso solo 1 y 4 permanecen en el banco público.
-El detalle reproducible está en `dataset/reports/phase2-closure-checklist.md`.
+respaldo y se completaron los racionales. Las revisiones factual y editorial
+finales independientes promovieron 18 preguntas a `validated_assisted`; Q6,
+Q10 y Q21–Q25 permanecen en `needs_review` por hallazgos factuales. El detalle
+reproducible está en `dataset/reports/phase2-closure-checklist.md` y los
+informes finales en `dataset/reports/phase2-factual-final.json` y
+`dataset/reports/phase2-editorial-final.json`.
 
 ## 5. Fase 3 — Entrenador esencial
 
@@ -133,8 +134,8 @@ Resultados: la aplicación carga exclusivamente el banco público aprobado,
 ofrece práctica y simulacro breve, registra respuestas y confianza en
 IndexedDB (con respaldo en memoria para entornos sin IndexedDB), muestra
 precisión y cola de repaso, y valida exportaciones/importaciones mediante
-`ProgressExport`. No se inventan parámetros de convocatoria y la Fase 2 sigue
-abierta por sus fichas vigentes y revisiones pendientes.
+`ProgressExport`. No se inventan parámetros de convocatoria; las siete
+preguntas pendientes de Fase 2 quedan fuera del banco hasta una revisión futura.
 
 ## 6. Fase 4 — Calidad y publicación
 

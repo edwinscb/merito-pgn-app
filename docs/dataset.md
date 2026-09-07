@@ -4,9 +4,9 @@
 
 La Fase 1 convirtió el inventario documental de la Fase 0 en registros tipados,
 validó sus relaciones y creó artefactos reproducibles. La Fase 2 está
-consolidada técnicamente: incorporó las fichas vigentes versión 3 de 121, 126 y
-127, corrigió las 25 semillas y completó una nueva revisión editorial. Falta la
-revisión factual final independiente de las versiones corregidas.
+cerrada para el lote actual: incorporó las fichas vigentes versión 3 de 121, 126
+y 127, corrigió las 25 semillas y registró revisiones factual y editorial
+finales independientes.
 
 El inventario canónico permanece en
 `dataset/catalog/source-inventory.json`. Los datos estructurados están en
@@ -84,8 +84,9 @@ mediante 25 registros `Question`:
 - se asignan a convocatorias solo con pertinencia temática documentada en las
   fichas versión 3;
 - las 25 cuentan con racionales para las cuatro opciones y referencias de respaldo;
-- las preguntas 1 y 4 superaron revisiones factual y editorial independientes;
-- 23 permanecen en `needs_review` mientras se ejecuta la revisión factual final;
+- las 25 recibieron revisión factual y editorial final; solo 18 superaron ambas;
+- 18 fueron promovidas a `validated_assisted` y 7 permanecen en `needs_review`
+  por hallazgos factuales de la revisión final;
 - las fichas vigentes no implican que una pregunta concreta aparezca en la prueba.
 
 La procedencia interna no convierte la pregunta en verificable ni publicable.
@@ -110,9 +111,10 @@ opciones vacías o repetidas, claves inexistentes, referencias inválidas y
 preguntas publicables sin fuente oficial A o B verificada y vigente.
 
 `public/data/question-bank.json` contiene exclusivamente preguntas
-`validated_assisted`. Actualmente contiene las preguntas 1 y 4. Los informes
-independientes y sus límites están en `dataset/reports/pilot-factual-review.md`
-y `dataset/reports/pilot-editorial-review.md`.
+`validated_assisted`. Actualmente contiene 18 preguntas (Q1–Q5, Q7–Q9 y
+Q11–Q20). Los informes
+independientes y sus límites están en `dataset/reports/phase2-factual-final.json`
+y `dataset/reports/phase2-editorial-final.json`.
 
 ## Cobertura y limitaciones reales
 
@@ -122,12 +124,11 @@ cero y preguntas sin convocatoria.
 
 Limitaciones vigentes:
 
-- existen 31 unidades: nueve verificadas y 22 en `pending_review`;
+- existen 31 unidades: 22 verificadas y nueve en `pending_review`;
 - cuatro fuentes tienen procedencia/contenido comprobados para el alcance
   puntual indicado en sus notas; esto no certifica todos sus artículos;
 - nueve fuentes continúan pendientes de descarga;
-- 23 semillas todavía no son publicables;
-- las preguntas 2, 3 y 5 requieren correcciones y nuevas revisiones;
+- siete semillas todavía no son publicables: Q6, Q10 y Q21–Q25;
 - la unidad del artículo 12 requiere completar el alcance del trámite;
 - la unidad del boletín se corrigió como resumen contextual y requiere nueva
   revisión; no respalda por sí sola una potestad general de gestionar riesgos;
@@ -138,16 +139,15 @@ Limitaciones vigentes:
   pero otros procesadores PDF pueden emitir advertencias;
 - los perfiles de simulacro no tienen todavía duración, cantidad ni
   distribución oficial;
-- la revisión factual final independiente de las 25 preguntas corregidas aún
-  no está registrada;
+- las siete preguntas no promovidas requieren corrección y nueva revisión factual;
 - Fase 3 implementa práctica, simulacro breve, captura de confianza, una cola
   local de repaso priorizada por errores/confianza baja, IndexedDB y
   exportación/importación validada; no crea un calendario espaciado ni usa
   servidores.
 
 El frontend lee exclusivamente `public/data/question-bank.json`, por lo que las
-23 semillas `needs_review` nunca aparecen en práctica. El banco actual contiene
-las dos preguntas `validated_assisted` disponibles.
+Las siete semillas `needs_review` nunca aparecen en práctica. El banco actual
+contiene las 18 preguntas `validated_assisted` disponibles.
 
 ## Privacidad
 

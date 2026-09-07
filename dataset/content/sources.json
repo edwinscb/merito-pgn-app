@@ -189,7 +189,7 @@
     "sourcePath": "06_preparacion/plan_implementacion_por_fases.md",
     "localPath": "docs/plan_implementacion_por_fases.md",
     "mimeType": "text/markdown",
-    "contentHash": "30c7fa477eef6fd3a841a81bd892a3134cd7bffca9cadf38fcf28599faadbd1a",
+    "contentHash": "dfdee5659de399da7621a6d3cae9eb942a72ad47032a7f6a6589894132957f24",
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
@@ -493,11 +493,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Contenido institucional general; sirve para clasificación y alcance, no sustituye una ficha de cargo."
+    "notes": "Contenido institucional general; sirve para clasificación y alcance, no sustituye una ficha de cargo. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "law-1755-2015",
@@ -533,11 +533,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Copia oficial consultada para versión pública y acceso parcial."
+    "notes": "Copia oficial consultada para versión pública y acceso parcial. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "decree-1080-2015-archives",
@@ -553,11 +553,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Compilación consultada para clasificación, metadatos, seguimiento y disposición; verificar reformas antes de publicar."
+    "notes": "Compilación consultada para clasificación, metadatos, seguimiento y disposición; verificar reformas antes de publicar. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "minvivienda-phva-methodology",
@@ -573,11 +573,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía institucional 2019; respaldo conceptual, no se afirma vigencia general para PGN."
+    "notes": "Guía institucional 2019; respaldo conceptual, no se afirma vigencia general para PGN. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "law-80-1993",
@@ -613,11 +613,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Lineamiento web consultado para campos mínimos de un indicador."
+    "notes": "Lineamiento web consultado para campos mínimos de un indicador. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "nist-correlation",
@@ -633,11 +633,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Referencia técnica conceptual; no es norma colombiana ni temario oficial PGN."
+    "notes": "Referencia técnica conceptual; no es norma colombiana ni temario oficial PGN. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "cdc-data-analysis",
@@ -653,11 +653,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Referencia técnica conceptual para sesgos y descripción de datos."
+    "notes": "Referencia técnica conceptual para sesgos y descripción de datos. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "missouri-db-integrity",
@@ -673,11 +673,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía técnica gubernamental histórica; no se presenta como requisito normativo colombiano."
+    "notes": "Guía técnica gubernamental histórica; no se presenta como requisito normativo colombiano. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "nist-acid",
@@ -693,11 +693,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Material técnico conceptual de 2012; se limita a la definición de atomicidad."
+    "notes": "Material técnico conceptual de 2012; se limita a la definición de atomicidad. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "nist-least-privilege",
@@ -713,11 +713,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Definición técnica conceptual de mínimo privilegio."
+    "notes": "Definición técnica conceptual de mínimo privilegio. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "ncsc-cloud-security",
@@ -733,11 +733,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía técnica oficial extranjera; no es norma PGN."
+    "notes": "Guía técnica oficial extranjera; no es norma PGN. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "homeoffice-api",
@@ -753,11 +753,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Estándar técnico oficial extranjero para versionado, documentación y pruebas."
+    "notes": "Estándar técnico oficial extranjero para versionado, documentación y pruebas. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "cisa-ransomware",
@@ -773,11 +773,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía de respuesta a ransomware; la pregunta se limita a contención, evidencia y procedimiento."
+    "notes": "Guía de respuesta a ransomware; la pregunta se limita a contención, evidencia y procedimiento. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
   },
   {
     "id": "decreto-815-2018",

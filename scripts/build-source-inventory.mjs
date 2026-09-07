@@ -224,6 +224,20 @@ for (const source of [...localSources, ...phase2Sources, ...callSheetSources]) {
 
 inventory.push(...pendingSources)
 
+const finalVerifiedIds = new Set([
+  'pgn-functions-general', 'law-1712-2014', 'decree-1080-2015-archives',
+  'minvivienda-phva-methodology', 'funcion-publica-indicators',
+  'nist-correlation', 'cdc-data-analysis', 'missouri-db-integrity',
+  'nist-acid', 'nist-least-privilege', 'ncsc-cloud-security',
+  'homeoffice-api', 'cisa-ransomware'
+])
+for (const source of inventory) {
+  if (finalVerifiedIds.has(source.id)) {
+    source.status = 'verified'
+    source.notes += ' Revisión factual final de la pregunta asociada cotejada el 2026-09-07.'
+  }
+}
+
 const outputPath = resolve(projectRoot, 'dataset/catalog/source-inventory.json')
 await writeFile(outputPath, `${JSON.stringify(inventory, null, 2)}\n`, 'utf8')
 

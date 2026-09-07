@@ -1,0 +1,156 @@
+{
+  "reviewerId": "/root/phase2_factual_final_approved",
+  "reviewedAt": "2026-09-07T19:01:10.959Z",
+  "questions": [
+    {
+      "id": "PGN-SEED-0001",
+      "outcome": "pass",
+      "notes": "La clave B y la explicación están respaldadas directamente por la unidad verificada del artículo 118 de la Constitución. La pertinencia temática para las tres convocatorias está respaldada por sus fichas v3; esto no afirma que la pregunta aparezca en un examen.",
+      "contentHash": "9544732ec18c495dae7e84327a21e4cad1514f5a73d22274bd2ed81c402c6220"
+    },
+    {
+      "id": "PGN-SEED-0002",
+      "outcome": "pass",
+      "notes": "La agrupación preventiva, de intervención y disciplinaria coincide con la unidad local de funciones institucionales y la clave A es coherente. La fuente y unidad permanecen needs_review, por lo que la evidencia es suficiente para el contenido conceptual pero no equivale a verificación editorial definitiva.",
+      "contentHash": "1581adf6bb6ec10fc5a7fd55334bab247f8f3bfd8369e9c4a39869fedb2df00f"
+    },
+    {
+      "id": "PGN-SEED-0003",
+      "outcome": "pass",
+      "notes": "La respuesta B aplica correctamente el límite de no coadministración descrito en la unidad local de funciones preventivas. La fuente y unidad permanecen needs_review; la pertinencia temática en las tres fichas v3 no prueba aparición en examen.",
+      "contentHash": "f416daacea8693e0f0bee96f626b746aa564e1433daa52f5ad18e7961e9a0b35"
+    },
+    {
+      "id": "PGN-SEED-0004",
+      "outcome": "pass",
+      "notes": "La clave B reproduce el listado del artículo 209 de la Constitución y los distractores no contradicen la evidencia. La pertinencia temática está respaldada por las tres fichas v3.",
+      "contentHash": "0cb5ebad302e9887b3a5142dcb1abc7c134e7ad61b9c2ad6702d8fc1ba062db4"
+    },
+    {
+      "id": "PGN-SEED-0005",
+      "outcome": "pass",
+      "notes": "La clave B coincide con el deber de declararse impedido del artículo 11 del CPACA. La pregunta se limita al artículo 11 y no confunde el trámite posterior del artículo 12. La pertinencia de 121 está respaldada por gestión pública en la ficha v3.",
+      "contentHash": "8237df6f6f47c5ce742b657bad876ed79fed0c60f86e4328c08fa939fdb2ad2d"
+    },
+    {
+      "id": "PGN-SEED-0006",
+      "outcome": "needs_changes",
+      "notes": "El contenido conceptual y la clave B son compatibles con la unidad local de la Ley 1755. Sin embargo, la asignación a 121 no puede confirmarse con la ficha v3 disponible, que no documenta el tema atencion_transparencia_y_datos; conservar la pregunta sin convocatoria hasta contar con evidencia de aplicabilidad.",
+      "contentHash": "6660768d5ede66339edcb66b4d8e3cdad4d6c12fcf0ee4c50aab980274e994c9"
+    },
+    {
+      "id": "PGN-SEED-0007",
+      "outcome": "pass",
+      "notes": "La clave C y la explicación reflejan el acceso parcial y la versión pública descritos en la unidad local de la Ley 1712. No tiene convocatoria asignada, lo que es correcto mientras no se pruebe aplicabilidad; no se afirma aparición en examen.",
+      "contentHash": "4b01e858894a8ea0b39c2c3dfea4302d5427104d35dc975171f706716fc14e02"
+    },
+    {
+      "id": "PGN-SEED-0008",
+      "outcome": "pass",
+      "notes": "La clave B está respaldada por clasificación, metadatos, seguimiento y disposición mediante instrumentos archivísticos. La pertinencia de gestión documental está presente en las fichas v3 de 121, 126 y 127.",
+      "contentHash": "57220c4bd8278948bedcff3ceb6950aa3d75c61941317e2dc846fd15c09689bc"
+    },
+    {
+      "id": "PGN-SEED-0009",
+      "outcome": "pass",
+      "notes": "La unidad de PHVA respalda que contrastar indicadores y metas corresponde a Verificar; la clave C y la explicación son correctas. La fuente es conceptual e institucional, no una regla exclusiva de la PGN.",
+      "contentHash": "55e14431d0ab3cf500e2987a0648cacf2e4e6ae2142064423b1bf70469de717f"
+    },
+    {
+      "id": "PGN-SEED-0010",
+      "outcome": "needs_changes",
+      "notes": "La clave B y el contenido sobre estudios previos son compatibles con la unidad de la Ley 80. La asignación a 121 y 126 no está respaldada por sus fichas v3, que no incluyen contratación estatal; solo 127 muestra ese tema. Ajustar targetCallIds a la evidencia de pertinencia.",
+      "contentHash": "c8a8c666330c1943f078d137549bb756b862c74ffb04c4fbff4a5f01ea9a7aaa"
+    },
+    {
+      "id": "PGN-SEED-0011",
+      "outcome": "pass",
+      "notes": "La clave B coincide con los elementos de documentación de indicadores de la unidad local. La pertinencia de datos y analítica en 121 está respaldada por su ficha v3; la fuente no se presenta como formato exclusivo de la PGN.",
+      "contentHash": "46411af95441250d939ec35e1ec95d00a71b7c025a06acb085a21a11dfbeddf6"
+    },
+    {
+      "id": "PGN-SEED-0012",
+      "outcome": "pass",
+      "notes": "La clave B respeta la distinción entre correlación y causalidad indicada por la unidad NIST. La pertinencia de datos y analítica en 121 está respaldada por la ficha v3; no se afirma aparición en examen.",
+      "contentHash": "bfefefd27ec0d6e4a2c48eecdfdcfc6e99829aedfd745b055ac21a941cddc5c7"
+    },
+    {
+      "id": "PGN-SEED-0013",
+      "outcome": "pass",
+      "notes": "La clave B identifica correctamente el sesgo de selección descrito por la unidad del CDC. La pertinencia de datos y analítica en 121 está respaldada por la ficha v3.",
+      "contentHash": "c4a63fec7428997ffe7aeb5a15e6fce18969fa9362164810079476dc0dc20a08"
+    },
+    {
+      "id": "PGN-SEED-0014",
+      "outcome": "pass",
+      "notes": "La clave A corresponde al propósito descriptivo de resumir lo observado y su distribución. La pertinencia de datos y analítica en 121 está respaldada por la ficha v3.",
+      "contentHash": "9d9384fe434230cc9ecf5616e8153bfd58d8e14fe55959f684723f9974cbb665"
+    },
+    {
+      "id": "PGN-SEED-0015",
+      "outcome": "pass",
+      "notes": "La clave B y la explicación coinciden con la integridad referencial de la unidad técnica. La fuente se reconoce como guía técnica histórica, no como obligación colombiana; la pertinencia de software en 121 y 126 está respaldada por las fichas v3.",
+      "contentHash": "cc19a386039cd7f25caadcfa5b0e95d5f7c39474414178292f52c8f447250a8b"
+    },
+    {
+      "id": "PGN-SEED-0016",
+      "outcome": "pass",
+      "notes": "La clave A expresa correctamente atomicidad como operación todo-o-nada. La pertinencia de software en 126 está respaldada por la ficha v3; la unidad no extiende la afirmación a efectos externos.",
+      "contentHash": "19572aa8f3228857dc80b9410c9074c5255f74a3d97c9e2354a75764f0bbf93d"
+    },
+    {
+      "id": "PGN-SEED-0017",
+      "outcome": "pass",
+      "notes": "La clave B coincide con la definición NIST de mínimo privilegio. La pertinencia de seguridad informática en las tres fichas v3 está respaldada; no se infiere una tecnología ni duración específica.",
+      "contentHash": "09716f9159c937e5d9919e6d44a07c684b28d8d2690b77400dcacdbb28e88013"
+    },
+    {
+      "id": "PGN-SEED-0018",
+      "outcome": "pass",
+      "notes": "La clave B está respaldada por la guía NCSC sobre almacenes de secretos y controles de acceso. La pertinencia de seguridad informática en las tres fichas v3 está respaldada; la fuente es guía extranjera, no norma PGN.",
+      "contentHash": "e69b583b1327d680ca2dadd3f1ed22bd2ded8b6d24e62ca1eb07069900d3c8ca"
+    },
+    {
+      "id": "PGN-SEED-0019",
+      "outcome": "pass",
+      "notes": "La clave B coincide con versionado, contrato y pruebas de API de la unidad local. La pertinencia de software en 126 está respaldada por su ficha v3; no se prescribe una estrategia concreta de versionado.",
+      "contentHash": "948dd67e0b606136e7a84758a71c906ef85d5185e7ba2f3db9b9225006139bca"
+    },
+    {
+      "id": "PGN-SEED-0020",
+      "outcome": "pass",
+      "notes": "La clave B combina aislamiento, preservación de evidencia, evaluación de impacto y coordinación, en línea con la unidad CISA. La pertinencia de seguridad informática en las tres fichas v3 está respaldada; la prioridad concreta depende del plan institucional.",
+      "contentHash": "2c2b06193f1ad3548baf70e01bf0453b472373ed64cfc22f3ea73590b1046c39"
+    },
+    {
+      "id": "PGN-SEED-0021",
+      "outcome": "needs_changes",
+      "notes": "La clave B es coherente con la unidad conductual del Decreto 815. Sin embargo, las fichas v3 consultadas no incluyen competencias_comportamentales como tema del perfil y la asignación a las tres convocatorias no queda demostrada; revisar targetCallIds antes de promover.",
+      "contentHash": "a5b0e81f1d84a2c3c7e4afd19d4947813e9ac6be9671e8f7f286a2ac0c78de14"
+    },
+    {
+      "id": "PGN-SEED-0022",
+      "outcome": "needs_changes",
+      "notes": "La clave C y la conducta de informar el error están respaldadas conceptualmente por la unidad del Código de Integridad. La asignación a las tres convocatorias no queda demostrada por sus fichas v3, que no documentan competencias_comportamentales; revisar targetCallIds.",
+      "contentHash": "8d7ee2564e35b26038642e4c85623135a897d09ca765161056d1b899b8742d0e"
+    },
+    {
+      "id": "PGN-SEED-0023",
+      "outcome": "needs_changes",
+      "notes": "La clave B coincide con el deber general del artículo 38 de la Ley 1952. La asignación a las tres convocatorias no queda demostrada por las fichas v3; además, la unidad corresponde a derecho disciplinario y no a un tema listado en esos perfiles. Revisar targetCallIds.",
+      "contentHash": "0e0b93c28fb185832a21b8502bd10151907b2b6b4cf91fdcb909b8d90f000dc7"
+    },
+    {
+      "id": "PGN-SEED-0024",
+      "outcome": "needs_changes",
+      "notes": "La clave B es compatible con el valor de honestidad y la evidencia de la unidad local. La asignación a las tres convocatorias no queda demostrada por las fichas v3, que no documentan competencias_comportamentales; revisar targetCallIds.",
+      "contentHash": "a7c959d6430c9a575b7cda6c7c90fbf3382c3d127d6fd81667899221cb9ca675"
+    },
+    {
+      "id": "PGN-SEED-0025",
+      "outcome": "needs_changes",
+      "notes": "La clave B y la explicación reflejan exploración, prototipado y piloto según la unidad del DNP. La asignación a las tres convocatorias no queda demostrada por las fichas v3, que no documentan competencias_comportamentales; revisar targetCallIds.",
+      "contentHash": "cd85cf179322346712bb617c23a32c9babc119390308ee75b76d3f74729fd48d"
+    }
+  ]
+}

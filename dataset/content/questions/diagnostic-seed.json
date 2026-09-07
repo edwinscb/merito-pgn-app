@@ -92,16 +92,36 @@
         "reviewedAt": "2026-09-07T03:52:05Z",
         "outcome": "pass",
         "notes": "Respuesta única y racionales suficientes para diagnóstico inicial; mejoras opcionales. Informe: dataset/reports/pilot-editorial-review.md."
+      },
+      {
+        "id": "factual-final-PGN-SEED-0001",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave B y la explicación están respaldadas directamente por la unidad verificada del artículo 118 de la Constitución. La pertinencia temática para las tres convocatorias está respaldada por sus fichas v3; esto no afirma que la pregunta aparezca en un examen."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0001",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Objetivo institucional único; B es la única categoría compatible. Racionales distinguen las cuatro ubicaciones. Principalmente es prescindible, pero no introduce una segunda respuesta."
       }
     ],
-    "validFrom": "2026-09-06",
+    "validFrom": "2026-09-07",
     "tags": [
       "institucion"
     ]
   },
   {
     "id": "PGN-SEED-0002",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -192,16 +212,36 @@
         "reviewedAt": "2026-09-07T03:52:05Z",
         "outcome": "needs_changes",
         "notes": "Precisar alcance de la clasificación y completar cuatro racionales. Informe: dataset/reports/pilot-editorial-review.md."
+      },
+      {
+        "id": "factual-final-PGN-SEED-0002",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La agrupación preventiva, de intervención y disciplinaria coincide con la unidad local de funciones institucionales y la clave A es coherente. La fuente y unidad permanecen needs_review, por lo que la evidencia es suficiente para el contenido conceptual pero no equivale a verificación editorial definitiva."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0002",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "La atribución a la presentación institucional delimita la clasificación y resuelve la apariencia de listado legal exhaustivo. A es única; D enumera solo dos ámbitos, pista de dificultad baja sin ambigüedad."
       }
     ],
-    "validFrom": null,
+    "validFrom": "2026-09-07",
     "tags": [
       "funciones"
     ]
   },
   {
     "id": "PGN-SEED-0003",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -292,9 +332,29 @@
         "reviewedAt": "2026-09-07T03:52:05Z",
         "outcome": "needs_changes",
         "notes": "Gestionar riesgos es ambiguo y no hay caso para clasificar como application. Informe: dataset/reports/pilot-editorial-review.md."
+      },
+      {
+        "id": "factual-final-PGN-SEED-0003",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La respuesta B aplica correctamente el límite de no coadministración descrito en la unidad local de funciones preventivas. La fuente y unidad permanecen needs_review; la pertinencia temática en las tres fichas v3 no prueba aparición en examen."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0003",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Revisada corrección: el caso de decisión administrativa y riesgo detectado proporciona situación concreta para application. Clave B única y ambigüedad sobre gestionar riesgos resuelta. Los absolutos de los distractores son una limitación diagnóstica, no otra respuesta defendible."
       }
     ],
-    "validFrom": null,
+    "validFrom": "2026-09-07",
     "tags": [
       "prevencion"
     ]
@@ -392,16 +452,36 @@
         "reviewedAt": "2026-09-07T03:52:05Z",
         "outcome": "pass",
         "notes": "Solo B reproduce el conjunto solicitado; racionales suficientes. Informe: dataset/reports/pilot-editorial-review.md."
+      },
+      {
+        "id": "factual-final-PGN-SEED-0004",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave B reproduce el listado del artículo 209 de la Constitución y los distractores no contradicen la evidencia. La pertinencia temática está respaldada por las tres fichas v3."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0004",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "El objetivo es reconocer un conjunto textual; B y sus racionales son inequívocos. Longitud de B y distractores lejanos reducen discriminación, admisible en diagnóstico básico."
       }
     ],
-    "validFrom": "2026-09-06",
+    "validFrom": "2026-09-07",
     "tags": [
       "principios"
     ]
   },
   {
     "id": "PGN-SEED-0005",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [
@@ -492,9 +572,29 @@
         "reviewedAt": "2026-09-07T03:52:05Z",
         "outcome": "needs_changes",
         "notes": "El caso dice posible conflicto y los racionales presuponen deber configurado; alinear supuesto y explicación. Informe: dataset/reports/pilot-editorial-review.md."
+      },
+      {
+        "id": "factual-final-PGN-SEED-0005",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave B coincide con el deber de declararse impedido del artículo 11 del CPACA. La pregunta se limita al artículo 11 y no confunde el trámite posterior del artículo 12. La pertinencia de 121 está respaldada por gestión pública en la ficha v3."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0005",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "El caso afirma interés particular y directo y pregunta solo por el deber de declararse impedido. B es única; explicación evita atribuir al ítem todo el procedimiento."
       }
     ],
-    "validFrom": null,
+    "validFrom": "2026-09-07",
     "tags": [
       "conflicto_de_interes"
     ]
@@ -550,7 +650,28 @@
       "121-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0006",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "needs_changes",
+        "notes": "El contenido conceptual y la clave B son compatibles con la unidad local de la Ley 1755. Sin embargo, la asignación a 121 no puede confirmarse con la ficha v3 disponible, que no documenta el tema atencion_transparencia_y_datos; conservar la pregunta sin convocatoria hasta contar con evidencia de aplicabilidad."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0006",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Situación mínima de recepción de petición y objetivo expreso de competencia y término; B responde y los racionales explican la irrelevancia de las demás. Distractores fáciles y caso poco discriminante: limitación diagnóstica."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "solicitud_ciudadana"
@@ -558,7 +679,7 @@
   },
   {
     "id": "PGN-SEED-0007",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -605,15 +726,36 @@
     ],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0007",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave C y la explicación reflejan el acceso parcial y la versión pública descritos en la unidad local de la Ley 1712. No tiene convocatoria asignada, lo que es correcto mientras no se pruebe aplicabilidad; no se afirma aparición en examen."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0007",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Excepción legal y separación son supuestos explícitos; C resuelve el acceso restante sin una regla indiscriminada sobre datos personales. Las otras actuaciones no realizan la separación solicitada."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "datos_personales"
     ]
   },
   {
     "id": "PGN-SEED-0008",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -664,15 +806,36 @@
       "127-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0008",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave B está respaldada por clasificación, metadatos, seguimiento y disposición mediante instrumentos archivísticos. La pertinencia de gestión documental está presente en las fichas v3 de 121, 126 y 127."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0008",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Caso básico con objetivos definidos de gestión documental; B es el único conjunto orientado a ellos. Explicación usa apoyar y evita garantizar resultados. D es muy poco plausible, limitación de dificultad."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "gestion_documental"
     ]
   },
   {
     "id": "PGN-SEED-0009",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -723,8 +886,29 @@
       "127-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0009",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La unidad de PHVA respalda que contrastar indicadores y metas corresponde a Verificar; la clave C y la explicación son correctas. La fuente es conceptual e institucional, no una regla exclusiva de la PGN."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0009",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Opciones homogéneas del mismo ciclo y límite explícito entre comparar y ajustar; C única. Es el ítem con mejor paralelismo de distractores del grupo conceptual."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "phva"
     ]
@@ -782,7 +966,28 @@
       "127-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0010",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "needs_changes",
+        "notes": "La clave B y el contenido sobre estudios previos son compatibles con la unidad de la Ley 80. La asignación a 121 y 126 no está respaldada por sus fichas v3, que no incluyen contratación estatal; solo 127 muestra ese tema. Ajustar targetCallIds a la evidencia de pertinencia."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0010",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Régimen y momento del proceso delimitados; B identifica planeación previa. Distractores no cumplen el objetivo, y explicación evita una lista exhaustiva universal."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "planeacion_contractual"
@@ -790,7 +995,7 @@
   },
   {
     "id": "PGN-SEED-0011",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -839,15 +1044,36 @@
       "121-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0011",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave B coincide con los elementos de documentación de indicadores de la unidad local. La pertinencia de datos y analítica en 121 está respaldada por su ficha v3; la fuente no se presenta como formato exclusivo de la PGN."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0011",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "La pregunta pide pertinencia de elementos, no definición exhaustiva. B es única y los racionales justifican el criterio. Distractores y longitud facilitan demasiado la respuesta, admisible solo como diagnóstico inicial."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "indicadores"
     ]
   },
   {
     "id": "PGN-SEED-0012",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -896,15 +1122,36 @@
       "121-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0012",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave B respeta la distinción entre correlación y causalidad indicada por la unidad NIST. La pertinencia de datos y analítica en 121 está respaldada por la ficha v3; no se afirma aparición en examen."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0012",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Interpreta un resultado observado sin generalizar a causalidad. B es única; identidad y ausencia de sesgo se descartan por razones diferentes. Análisis técnico elemental sin cálculo."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "correlacion"
     ]
   },
   {
     "id": "PGN-SEED-0013",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -953,15 +1200,36 @@
       "121-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0013",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave B identifica correctamente el sesgo de selección descrito por la unidad del CDC. La pertinencia de datos y analítica en 121 está respaldada por la ficha v3."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0013",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Población objetivo y exclusión están expresas; B identifica el riesgo. Los demás conceptos pertenecen a tareas diferentes y son distractores débiles, sin ambigüedad de clave."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "sesgo_de_seleccion"
     ]
   },
   {
     "id": "PGN-SEED-0014",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -1010,15 +1278,36 @@
       "121-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0014",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave A corresponde al propósito descriptivo de resumir lo observado y su distribución. La pertinencia de datos y analítica en 121 está respaldada por la ficha v3."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0014",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Objetivo descriptivo único y A coherente con explicación y racional. La certeza de B y distancia temática de C/D hacen el ítem muy fácil, sin segunda respuesta defendible."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "analisis_descriptivo"
     ]
   },
   {
     "id": "PGN-SEED-0015",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -1068,15 +1357,36 @@
       "126-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0015",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave B y la explicación coinciden con la integridad referencial de la unidad técnica. La fuente se reconoce como guía técnica histórica, no como obligación colombiana; la pertinencia de software en 121 y 126 está respaldada por las fichas v3."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0015",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Pregunta delimitada a finalidad de una restricción de clave foránea; B responde. La explicación precisa referencias no nulas y no promete integridad general. Distractores de otras funciones limitan profundidad."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "bases_de_datos"
     ]
   },
   {
     "id": "PGN-SEED-0016",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -1125,15 +1435,36 @@
       "126-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0016",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave A expresa correctamente atomicidad como operación todo-o-nada. La pertinencia de software en 126 está respaldada por la ficha v3; la unidad no extiende la afirmación a efectos externos."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0016",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Reconocimiento conceptual de todo-o-nada con A única; no confunde la transacción con efectos externos. Distractores técnicos distantes y baja discriminación son limitaciones explícitas del nivel inicial."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "transacciones"
     ]
   },
   {
     "id": "PGN-SEED-0017",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -1184,15 +1515,36 @@
       "127-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0017",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave B coincide con la definición NIST de mínimo privilegio. La pertinencia de seguridad informática en las tres fichas v3 está respaldada; no se infiere una tecnología ni duración específica."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0017",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Definición delimitada al permiso requerido por tareas; B única y se elimina una duración universal no contenida en el concepto. Racionales distinguen comodidad, jerarquía y acceso anónimo."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "minimo_privilegio"
     ]
   },
   {
     "id": "PGN-SEED-0018",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -1243,15 +1595,36 @@
       "127-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0018",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave B está respaldada por la guía NCSC sobre almacenes de secretos y controles de acceso. La pertinencia de seguridad informática en las tres fichas v3 está respaldada; la fuente es guía extranjera, no norma PGN."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0018",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Caso concreto de credenciales en repositorio; B aborda separación y control. Base64 es distractor pertinente; renombrar es trivial. Los pronombres masculinos se entienden por secretos en la pregunta; armonizar a credenciales sería mejora opcional."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "secretos"
     ]
   },
   {
     "id": "PGN-SEED-0019",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -1300,15 +1673,36 @@
       "126-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0019",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave B coincide con versionado, contrato y pruebas de API de la unidad local. La pertinencia de software en 126 está respaldada por su ficha v3; no se prescribe una estrategia concreta de versionado."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0019",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Cambio incompatible y consumidores afectados delimitan el problema; B única. La explicación evita exigir una estrategia única. Distractores extremos reducen dificultad, sin bloquear uso diagnóstico."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "api"
     ]
   },
   {
     "id": "PGN-SEED-0020",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -1359,8 +1753,29 @@
       "127-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0020",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "pass",
+        "notes": "La clave B combina aislamiento, preservación de evidencia, evaluación de impacto y coordinación, en línea con la unidad CISA. La pertinencia de seguridad informática en las tres fichas v3 está respaldada; la prioridad concreta depende del plan institucional."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0020",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Revisada corrección del antecedente: C ahora dice Informar el incidente. Clave B y criterio de respuesta claros. La respuesta correcta no impone demorar contención por una validación secuencial; distractores extremos limitan dificultad sin generar otra clave."
+      }
+    ],
+    "validFrom": "2026-09-07",
     "tags": [
       "respuesta_a_incidentes"
     ]
@@ -1418,7 +1833,28 @@
       "127-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0021",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "needs_changes",
+        "notes": "La clave B es coherente con la unidad conductual del Decreto 815. Sin embargo, las fichas v3 consultadas no incluyen competencias_comportamentales como tema del perfil y la asignación a las tres convocatorias no queda demostrada; revisar targetCallIds antes de promover."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0021",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "El responsable con capacidad de priorizar está expresamente establecido, haciendo B adecuada sin presuponer autonomía del profesional. Evalúa conducta básica con alta deseabilidad social; no es escala psicométrica."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "priorizacion"
@@ -1477,7 +1913,28 @@
       "127-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0022",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "needs_changes",
+        "notes": "La clave C y la conducta de informar el error están respaldadas conceptualmente por la unidad del Código de Integridad. La asignación a las tres convocatorias no queda demostrada por sus fichas v3, que no documentan competencias_comportamentales; revisar targetCallIds."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0022",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Error ya enviado y canal disponible resuelven el contexto; C informa a destinatarios. B es un distractor útil porque corregir sin avisar no cumple el objetivo explícito de honestidad ante ellos."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "responsabilidad"
@@ -1536,7 +1993,28 @@
       "127-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0023",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "needs_changes",
+        "notes": "La clave B coincide con el deber general del artículo 38 de la Ley 1952. La asignación a las tres convocatorias no queda demostrada por las fichas v3; además, la unidad corresponde a derecho disciplinario y no a un tema listado en esos perfiles. Revisar targetCallIds."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0023",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Requisito aplicable y ausencia de excepción se fijan en el caso; B única. Se pregunta por cumplimiento y no por un trámite de escalamiento omitido. Conducta de dificultad básica."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "legalidad"
@@ -1597,7 +2075,28 @@
       "127-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0024",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "needs_changes",
+        "notes": "La clave B es compatible con el valor de honestidad y la evidencia de la unidad local. La asignación a las tres convocatorias no queda demostrada por las fichas v3, que no documentan competencias_comportamentales; revisar targetCallIds."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0024",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "La revisión previa de datos y método evita que presentar sin comprobar resulte ambiguo; B única. El objetivo es honestidad, sin atribuir un procedimiento estadístico a la fuente. Alta deseabilidad social."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "integridad_de_datos"
@@ -1656,7 +2155,28 @@
       "127-2026"
     ],
     "createdMethod": "seed_import",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-SEED-0025",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_factual_final_approved",
+        "model": null,
+        "reviewedAt": "2026-09-07T19:01:10.959Z",
+        "outcome": "needs_changes",
+        "notes": "La clave B y la explicación reflejan exploración, prototipado y piloto según la unidad del DNP. La asignación a las tres convocatorias no queda demostrada por las fichas v3, que no documentan competencias_comportamentales; revisar targetCallIds."
+      },
+      {
+        "id": "editorial-final-PGN-SEED-0025",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "/root/phase2_editorial_final",
+        "model": null,
+        "reviewedAt": "2026-09-07T18:20:41Z",
+        "outcome": "pass",
+        "notes": "Problema y necesidades todavía no resueltos justifican explorar y experimentar; B única. Racionales enlazan contexto, aprendizaje y medición. Ítem de selección de conducta básica; no mide desempeño real en innovación."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "innovacion"

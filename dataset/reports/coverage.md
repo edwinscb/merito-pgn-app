@@ -3,15 +3,15 @@
 - Fuentes: **48**
 - Unidades verificables: **31**
 - Preguntas: **25**
-- Preguntas publicables: **2**
+- Preguntas publicables: **18**
 
 ## Preguntas por estado
 
 | Categoría | Cantidad |
 | --- | ---: |
 | draft_ai | 0 |
-| validated_assisted | 2 |
-| needs_review | 23 |
+| validated_assisted | 18 |
+| needs_review | 7 |
 | rejected | 0 |
 | retired | 0 |
 
@@ -23,16 +23,16 @@
 | pending_download | 9 |
 | reference | 3 |
 | seed_unapproved | 1 |
-| verified | 7 |
-| needs_review | 21 |
+| verified | 20 |
+| needs_review | 8 |
 | retired | 0 |
 
 ## Unidades por estado
 
 | Categoría | Cantidad |
 | --- | ---: |
-| pending_review | 22 |
-| verified | 9 |
+| pending_review | 9 |
+| verified | 22 |
 | retired | 0 |
 
 ## Fuentes por nivel de autoridad

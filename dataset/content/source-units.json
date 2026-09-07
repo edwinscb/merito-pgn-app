@@ -98,7 +98,7 @@
     "locator": "Sección «Conozca la entidad», apartados Funciones misionales principales y Función Preventiva",
     "title": "Funciones misionales generales y alcance preventivo",
     "content": "La PGN presenta funciones preventiva, de intervención y disciplinaria; en la función preventiva vigila y advierte sin coadministrar.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "7d57792e05a2418e3e878476b231a6f88a2c1c15650bc4799466300d06ed6401",
     "topicIds": [
       "procuraduria_y_estado"
@@ -124,7 +124,7 @@
     "locator": "Ley 1712 de 2014, artículos 18 y 21",
     "title": "Versión pública y acceso parcial",
     "content": "Si un documento contiene información pública y una parte amparada por una excepción legal, debe elaborarse una versión pública que reserve solo la parte indispensable y entregar la información no exceptuada. La denegación por protección de derechos del artículo 18 debe ser motivada y escrita.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "a1c753e1ee0e401c25e82ca5cf7bc1d71b612a3bb698cc5e8dd6f410e06e2f3c",
     "topicIds": [
       "atencion_transparencia_y_datos"
@@ -137,7 +137,7 @@
     "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
     "title": "Clasificación, metadatos y disposición documental",
     "content": "La gestión y trámite comprende registro, metadatos, acceso, control y seguimiento; la organización incluye clasificar y describir. La disposición se realiza conforme a tablas de retención o valoración. El sistema organiza documentos con sus metadatos mediante cuadros de clasificación y establece plazos de conservación y eliminación en TRD/TVD. Los metadatos electrónicos preservan contenido, estructura y contexto; estas reglas no garantizan por sí solas la trazabilidad.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "a0c936b4f6a21e098d0b068c631f208e15277758d298eb70daad1c8678384978",
     "topicIds": [
       "gestion_documental"
@@ -150,7 +150,7 @@
     "locator": "Metodología de indicadores de gestión, página PDF 2, Introducción",
     "title": "Etapa verificar del ciclo PHVA",
     "content": "La etapa Verificar contrasta lo ejecutado con lo planeado y con las metas mediante indicadores; sus resultados sirven para identificar desviaciones y orientar ajustes. Es una guía institucional de 2019 usada como respaldo conceptual.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "14141e6ae1f4336499756a45e4ff43ea1663aef134050a3f3f34fe387223f244",
     "topicIds": [
       "gestion_publica_y_mipg"
@@ -176,7 +176,7 @@
     "locator": "MIPG, Seguimiento, evaluación y control integral, política Evaluación y seguimiento, Lineamientos, lista «La entidad debe verificar que»",
     "title": "Elementos de un indicador de seguimiento",
     "content": "Un indicador institucional se documenta con objetivo, línea base, fórmula, unidad de medida, fuente, periodicidad, meta y responsable. La unidad describe elementos pertinentes, no una ficha oficial exclusiva de la PGN.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "172e66e0cef4cd235bbc8d5091fd417b617276e92ea4b79975366b7e46a40672",
     "topicIds": [
       "gestion_publica_y_mipg"
@@ -189,7 +189,7 @@
     "locator": "NIST Engineering Statistics Handbook, 3.1.3.6 Experiments and Experimental Design, apartados Correlation y Causality",
     "title": "Asociación no implica causalidad",
     "content": "Una correlación alta describe asociación entre variables; por sí sola no demuestra que una variable cause la otra. La inferencia causal requiere diseño, contexto y evidencia adicional.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "0c4a9426363c2c9b1aff367ade805287e7bec718ba4fc252b8a321788a9cd4cf",
     "topicIds": [
       "datos_y_analitica"
@@ -202,7 +202,7 @@
     "locator": "CDC Field Epidemiology Manual, Analyzing and Interpreting Data, Developing an Analysis Plan (Get to know your data) e Interpreting Results (Selection bias)",
     "title": "Descripción de datos y sesgo de selección",
     "content": "El análisis descriptivo resume lo observado y la selección de participantes puede producir sesgo cuando excluye sistemáticamente a ciertos casos. La unidad se aplica como concepto analítico, no como regla jurídica.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "0f448d3dcdab07373b1af3b3a1117076c5b4862e8f16b0a30814da3da9f3f765",
     "topicIds": [
       "datos_y_analitica"
@@ -215,7 +215,7 @@
     "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
     "title": "Integridad referencial",
     "content": "Las claves y restricciones referenciales mantienen relaciones válidas entre registros y evitan referencias huérfanas. La fuente es una guía técnica gubernamental histórica; no es una obligación normativa colombiana.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "bf4d88fe6673e473c7c288f273627f9df7d289ff1927431b02ddd496358ec17d",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -228,7 +228,7 @@
     "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
     "title": "Atomicidad transaccional",
     "content": "Atomicidad significa tratar una transacción como una operación todo-o-nada: se completa el conjunto o se revierte. La unidad no afirma que toda plataforma implemente idénticas políticas de recuperación.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "04fd1b744c9c970c6b3d32c51f5f1bd187587e8dd0069a69e41afe77f9d7b4ec",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -241,7 +241,7 @@
     "locator": "NIST glossary, definición least privilege",
     "title": "Mínimo privilegio",
     "content": "El mínimo privilegio asigna a una identidad únicamente los accesos necesarios para realizar sus tareas. La definición no impone por sí sola una duración temporal ni una tecnología de control específica.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "548f62d6e2ac52b04c7831731ece97bdebf3c984a266170d97b79865e13d2175",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -254,7 +254,7 @@
     "locator": "NCSC, Using a cloud platform securely, secciones Authenticate service identities, Apply access controls y Protect secrets carefully",
     "title": "Protección de secretos e identidades de servicio",
     "content": "Los secretos deben gestionarse con las capacidades de un almacén de secretos y las identidades de servicio deben limitarse mediante controles de acceso. Es una guía técnica extranjera y no norma PGN.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "26e7c82ba349ae90d680157a34725c63c51584aefc377f765789b0115c7e7e6e",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -267,7 +267,7 @@
     "locator": "Home Office, Designing and Maintaining an API, requisitos You MUST include a form of versioning to your API, You MUST test your API y You MUST use an API Specification",
     "title": "Versionado, contrato y pruebas de API",
     "content": "Una API debe versionarse, documentar su contrato y probar integraciones, errores y respuestas antes de comunicar cambios incompatibles. La unidad no prescribe una estrategia concreta de versionado.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "b2aecf625d7e27b8511255b040356761c650256211d67061ecea287ba67d1689",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -280,7 +280,7 @@
     "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
     "title": "Contención, evidencia y respuesta ante ransomware",
     "content": "Ante ransomware se determina el impacto, se aíslan sistemas cuando sea posible, se preserva evidencia volátil y se activa el procedimiento de respuesta. La prioridad operativa depende del plan institucional y del incidente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "a71d1cee55d37a368c91d2c105e7f92586af00efdf83588ae7b588b16e3e8e15",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"

@@ -5,15 +5,15 @@ Abierto de Méritos de la Procuraduría General de la Nación 2026.
 
 ## Estado
 
-Las **fases 0 y 1** están implementadas, la **Fase 2 está en curso** y la
+Las **fases 0 y 1** están implementadas, la **Fase 2 está cerrada para el lote actual** y la
 **Fase 3 está implementada en su alcance técnico**. El
 repositorio contiene la aplicación React, la configuración inicial de PWA y un
 dataset estructurado con contratos Zod, validación relacional, compilación
 reproducible y reporte de cobertura.
 
-El primer lote editorial enriqueció cinco semillas con fuentes y observaciones.
-Tras dos revisiones independientes, las preguntas 1 y 4 son publicables;
-las preguntas 2, 3 y 5 requieren cambios. Todavía
+Las 25 semillas fueron corregidas y revisadas por dos roles independientes.
+Dieciocho preguntas son publicables; Q6, Q10 y Q21–Q25 permanecen en
+`needs_review` por hallazgos factuales.
 La Fase 3 añade práctica, simulacro breve, confianza, repaso local, IndexedDB y
 exportación/importación validada. No incluye generación automática de preguntas,
 backend ni despliegue.
@@ -40,7 +40,7 @@ npm run dev
   contenga documentos fuente ni rutas sensibles.
 
 El entrenador muestra exclusivamente preguntas `validated_assisted` del banco
-público (actualmente 2). No inventa duración ni distribución de convocatoria.
+público (actualmente 18). No inventa duración ni distribución de convocatoria.
 El progreso permanece en IndexedDB y usa el contrato `ProgressExport` para
 exportar o importar datos.
 
@@ -51,11 +51,12 @@ Los contratos compartidos `Source`, `SourceUnit`, `Question`,
 `src/domain/dataset/contracts.ts`. Los registros editables están bajo
 `dataset/content/`.
 
-Las 25 preguntas diagnósticas conservan su procedencia: dos están en
-`validated_assisted` y 23 en `needs_review`. El banco público contiene solo
-las preguntas 1 y 4, con informes factual y editorial independientes en
-`dataset/reports/pilot-*-review.md`.
-Aún no se asigna ninguna pregunta a una convocatoria específica.
+Las 25 preguntas diagnósticas conservan su procedencia: 18 están en
+`validated_assisted` y 7 en `needs_review`. El banco público contiene Q1–Q5,
+Q7–Q9 y Q11–Q20, con informes finales independientes en
+`dataset/reports/phase2-factual-final.json` y
+`dataset/reports/phase2-editorial-final.json`. La asignación por convocatoria
+es conservadora y solo expresa pertinencia temática documentada.
 
 ## Privacidad
 
