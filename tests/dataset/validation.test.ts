@@ -12,10 +12,17 @@ describe('validaciones relacionales', () => {
     expect(await messages(validDocuments())).toBe('')
   })
 
-  it('detecta identificadores duplicados', async () => {
+  it.each(['sources', 'sourceUnits', 'examProfiles', 'questions', 'inventory'] as const)('detecta identificadores duplicados en %s', async (collection) => {
     const documents = validDocuments()
-    const questions = documents.questions as unknown[]
-    questions.push(structuredClone(questions[0]))
+    const records = documents[collection] as unknown[]
+    records.push(structuredClone(records[0]))
+    expect(await messages(documents)).toContain('Identificador duplicado')
+  })
+
+  it.each(['modules', 'topics'] as const)('detecta identificadores duplicados en taxonomy.%s', async (collection) => {
+    const documents = validDocuments()
+    const records = (documents.taxonomy as Record<string, unknown[]>)[collection]
+    records.push(structuredClone(records[0]))
     expect(await messages(documents)).toContain('Identificador duplicado')
   })
 
@@ -41,6 +48,25 @@ describe('validaciones relacionales', () => {
     const sources = documents.sources as Array<{ authorityTier: string }>
     sources[0].authorityTier = 'N/A'
     expect(await messages(documents)).toContain('fuente A o B verificada y vigente')
+  })
+
+  it('impide publicar sin una unidad oficial verificada', async () => {
+    const missingUnit = validDocuments()
+    const questions = missingUnit.questions as Array<{ references: Array<{ sourceUnitId: string | null }> }>
+    questions[0].references[0].sourceUnitId = null
+    expect(await messages(missingUnit)).toContain('unidad verificada')
+
+    const pendingUnit = validDocuments()
+    const units = pendingUnit.sourceUnits as Array<{ verificationStatus: string }>
+    units[0].verificationStatus = 'pending_review'
+    expect(await messages(pendingUnit)).toContain('unidad verificada')
+  })
+
+  it('impide verificar una unidad si su fuente no está verificada y vigente', async () => {
+    const documents = validDocuments()
+    const sources = documents.sources as Array<{ validity: string }>
+    sources[0].validity = 'unknown'
+    expect(await messages(documents)).toContain('unidad verificada requiere una fuente verificada y vigente')
   })
 
   it('detecta diferencias frente al inventario', async () => {

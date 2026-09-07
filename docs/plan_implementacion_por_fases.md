@@ -1,6 +1,6 @@
 # Plan de implementación por fases — Mérito PGN
 
-Estado: **Fase 1 implementada**
+Estado: **Fase 1 implementada; Fase 2 en curso**
 Fecha: **3 de septiembre de 2026**
 
 ## 1. Decisiones confirmadas
@@ -97,8 +97,27 @@ Resultados:
 
 Completar la trazabilidad factual de las 25 preguntas ya estructuradas, asignar
 fuentes oficiales y unidades verificables, ejecutar dos revisiones asistidas
-independientes y publicar solo preguntas `validated_assisted`. Solo se
-ejecutará con autorización posterior.
+independientes y publicar solo preguntas `validated_assisted`.
+
+Estado: **en curso**.
+
+Primer lote ejecutado:
+
+- cuatro fuentes oficiales generales verificadas e incorporadas;
+- siete unidades estructuradas: cinco verificadas y dos pendientes de corrección/revisión;
+- cinco preguntas revisadas por dos subagentes independientes;
+- preguntas 1 y 4 en `validated_assisted`;
+- preguntas 2, 3 y 5 en `needs_review` por los problemas documentados en los
+  informes factual y editorial de `dataset/reports/`.
+
+Auditoría del 6 de septiembre de 2026: los dos roles del lote correspondían
+al mismo asistente. Se corrigió el identificador de revisor y se retiraron
+las cuatro aprobaciones prematuras. Después se ejecutaron las dos revisiones
+independientes autorizadas: solo 1 y 4 superaron ambas y llegan al banco.
+
+Pendiente para completar la fase: corregir y revisar de nuevo 2, 3 y 5,
+revisar las 20 semillas no abordadas, confirmar aplicabilidad por
+convocatoria y completar fuentes y unidades oficiales para cada respuesta.
 
 ## 5. Fase 3 — Entrenador esencial
 

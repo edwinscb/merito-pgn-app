@@ -253,6 +253,12 @@ export async function validateDatasetDocuments(
     if (source?.contentHash && source.contentHash !== unit.sourceHash) {
       issues.push({ location: `sourceUnits.${index}.sourceHash`, message: 'El hash no coincide con la fuente referenciada.' })
     }
+    if (unit.verificationStatus === 'verified' && source && (source.status !== 'verified' || source.validity !== 'effective')) {
+      issues.push({
+        location: `sourceUnits.${index}.verificationStatus`,
+        message: 'Una unidad verificada requiere una fuente verificada y vigente.'
+      })
+    }
   })
 
   examProfiles.forEach((profile, index) => {
@@ -293,7 +299,11 @@ export async function validateDatasetDocuments(
     if (question.status === 'validated_assisted') {
       const hasPublishableSource = question.references.some((reference) => {
         const source = sourcesById.get(reference.sourceId)
+        const unit = reference.sourceUnitId ? unitsById.get(reference.sourceUnitId) : undefined
         return reference.supports === 'correct_answer'
+          && Boolean(reference.sourceUnitId)
+          && unit?.verificationStatus === 'verified'
+          && unit.sourceId === reference.sourceId
           && (source?.authorityTier === 'A' || source?.authorityTier === 'B')
           && source.status === 'verified'
           && source.validity === 'effective'
@@ -301,7 +311,7 @@ export async function validateDatasetDocuments(
       if (!hasPublishableSource) {
         issues.push({
           location: `questions.${index}.references`,
-          message: 'Una pregunta validated_assisted requiere respaldo de respuesta correcta en una fuente A o B verificada y vigente.'
+          message: 'Una pregunta validated_assisted requiere una unidad verificada que respalde la respuesta correcta en una fuente A o B verificada y vigente.'
         })
       }
     }

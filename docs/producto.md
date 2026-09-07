@@ -370,17 +370,38 @@ tener 250 buenas preguntas con fuentes que 1.000 ambiguas o desactualizadas.
   ],
   "correctOptionId": "B",
   "explanation": "...",
-  "sources": [
+  "references": [
     {
       "sourceId": "ley-1952-2019",
+      "sourceUnitId": "ley-1952-2019-articulo-ejemplo",
       "locator": "artículo ...",
       "supports": "correct_answer"
     }
   ],
-  "targetCalls": ["121-2026", "126-2026", "127-2026"],
-  "createdMethod": "ai_draft_human_reviewed",
-  "reviewedBy": "manual-reviewer",
-  "reviewedAt": "2026-09-03",
+  "targetCallIds": ["121-2026", "126-2026", "127-2026"],
+  "createdMethod": "ai_draft",
+  "reviews": [
+    {
+      "id": "PGN-COM-DIS-0001-factual-1",
+      "kind": "factual",
+      "method": "ai_assisted",
+      "reviewerId": "factual-reviewer",
+      "model": null,
+      "reviewedAt": "2026-09-03T20:00:00-05:00",
+      "outcome": "pass",
+      "notes": "Fuente y clave comprobadas."
+    },
+    {
+      "id": "PGN-COM-DIS-0001-editorial-1",
+      "kind": "editorial",
+      "method": "ai_assisted",
+      "reviewerId": "editorial-reviewer",
+      "model": null,
+      "reviewedAt": "2026-09-03T20:01:00-05:00",
+      "outcome": "pass",
+      "notes": "Redacción y distractores comprobados."
+    }
+  ],
   "validFrom": "2026-09-03",
   "tags": ["principios", "caso"]
 }

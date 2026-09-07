@@ -1,10 +1,10 @@
-# Dataset estructurado — Fase 1
+# Dataset estructurado — Fases 1 y 2
 
 ## Propósito y límites
 
-La Fase 1 convierte el inventario documental de la Fase 0 en registros
-tipados, valida sus relaciones y genera artefactos reproducibles. No extrae aún
-unidades normativas, no revisa con IA y no aprueba preguntas.
+La Fase 1 convirtió el inventario documental de la Fase 0 en registros tipados,
+validó sus relaciones y creó artefactos reproducibles. La Fase 2 está en curso:
+el primer lote incorporó unidades verificables y revisó cinco semillas.
 
 El inventario canónico permanece en
 `dataset/catalog/source-inventory.json`. Los datos estructurados están en
@@ -13,8 +13,8 @@ El inventario canónico permanece en
 - `sources.json`: fuentes y documentos de referencia;
 - `taxonomy.json`: módulos y temas;
 - `exam-profiles.json`: perfiles provisionales 121, 126 y 127;
-- `source-units.json`: unidades verificables, vacío en esta fase;
-- `questions/*.json`: preguntas editoriales no publicadas.
+- `source-units.json`: fragmentos verificables con fuente, hash y localizador;
+- `questions/*.json`: preguntas editoriales publicables o pendientes.
 
 ## Contratos
 
@@ -39,9 +39,16 @@ Los estados de pregunta permitidos son:
 - `rejected`;
 - `retired`.
 
-`approved` no es un estado válido. Una pregunta `validated_assisted` exige
-metadatos de revisión, racionales de sus cuatro opciones y respaldo de la
-respuesta correcta mediante una fuente A o B verificada y vigente.
+`approved` no es un estado válido. Una pregunta `validated_assisted` exige una
+revisión factual y otra editorial con resultado `pass`, vigencia, racionales de
+sus cuatro opciones y respaldo de la respuesta correcta mediante una unidad
+verificada de una fuente A o B verificada y vigente.
+
+Se considera la última revisión de cada tipo según su fecha; una revisión
+posterior adversa bloquea la publicación. Los IDs deben ser únicos y las
+últimas fechas no pueden ser ambiguas. Los revisores deben ser distintos:
+renombrar dos roles del mismo asistente no constituye independencia. El
+contrato comprueba metadatos; la evidencia de quién revisó debe auditarse.
 
 ## Fuentes, autoridad y vigencia
 
@@ -57,7 +64,8 @@ como:
 
 Las fuentes pendientes conservan `pending_download`, sin ruta local, MIME ni
 hash. La vigencia se mantiene como `unknown` mientras no exista evidencia de
-revisión. En esta fase no hay fuentes `verified`.
+revisión. El lote piloto verificó la Constitución Política, el Decreto Ley 262
+de 2000, la Ley 1437 de 2011 y un boletín oficial de la PGN de 2026.
 
 Los documentos locales siguen bajo `dataset/raw/` y nunca deben importarse
 desde el frontend. Las rutas originales se conservan como trazabilidad, pero el
@@ -65,16 +73,17 @@ pipeline solo comprueba archivos locales dentro de este repositorio.
 
 ## Preguntas semilla
 
-El diagnóstico inicial se conserva sin alterar y además se representa mediante
-25 registros `Question`:
+El diagnóstico inicial se conserva como fuente de procedencia y se representa
+mediante 25 registros `Question`:
 
-- todos tienen estado `needs_review`;
 - usan `seed_import` como método de creación;
 - mantienen cuatro opciones, clave y explicación del documento original;
 - apuntan al diagnóstico mediante una referencia `provenance` y localizador;
-- no declaran respaldo factual oficial;
 - no se asignan todavía a convocatorias;
-- pueden omitir racionales individuales hasta la revisión de Fase 2.
+- cuatro cuentan con racionales y referencias oficiales;
+- las preguntas 1 y 4 superaron revisiones factual y editorial independientes;
+- 23 permanecen en `needs_review`: 2, 3 y 5 requieren cambios y las otras 20
+  aún no se han revisado.
 
 La procedencia interna no convierte la pregunta en verificable ni publicable.
 
@@ -98,14 +107,9 @@ opciones vacías o repetidas, claves inexistentes, referencias inválidas y
 preguntas publicables sin fuente oficial A o B verificada y vigente.
 
 `public/data/question-bank.json` contiene exclusivamente preguntas
-`validated_assisted`. En la Fase 1 su contenido esperado es:
-
-```json
-{
-  "schemaVersion": 1,
-  "questions": []
-}
-```
+`validated_assisted`. Actualmente contiene las preguntas 1 y 4. Los informes
+independientes y sus límites están en `dataset/reports/pilot-factual-review.md`
+y `dataset/reports/pilot-editorial-review.md`.
 
 ## Cobertura y limitaciones reales
 
@@ -115,10 +119,19 @@ cero y preguntas sin convocatoria.
 
 Limitaciones vigentes:
 
-- no se han extraído unidades verificables;
-- ninguna fuente ha sido declarada verificada o vigente;
-- 11 fuentes continúan pendientes de descarga;
-- las 25 semillas requieren respaldo oficial y revisión asistida;
+- existen siete unidades: cinco verificadas y dos en `pending_review`;
+- cuatro fuentes tienen procedencia/contenido comprobados para el alcance
+  puntual indicado en sus notas; esto no certifica todos sus artículos;
+- nueve fuentes continúan pendientes de descarga;
+- 23 semillas todavía no son publicables;
+- las preguntas 2, 3 y 5 requieren correcciones y nuevas revisiones;
+- la unidad del artículo 12 requiere completar el alcance del trámite;
+- la unidad del boletín se corrigió como resumen contextual y requiere nueva
+  revisión; no respalda por sí sola una potestad general de gestionar riesgos;
+- ninguna pregunta está asignada todavía a una convocatoria específica;
+- algunos PDF oficiales descargados contienen bytes iniciales no canónicos;
+  los hashes se preservan y las páginas usadas se comprobaron visualmente,
+  pero otros procesadores PDF pueden emitir advertencias;
 - los perfiles de simulacro no tienen todavía duración, cantidad ni
   distribución oficial;
 - no existe persistencia, entrenador, simulacro, backend ni despliegue.
@@ -130,3 +143,26 @@ privadas excluidas o documentos fuente con extensiones PDF, DOC, DOCX, CSV o
 Markdown. No se incorporan CV, COPNIA, salario, contacto, convalidación, tokens
 ni secretos, y no se copia contenido de bancos comerciales, Misión Mérito o
 influencers.
+
+El control también compara hashes para detectar copias completas de fuentes
+inventariadas, incluido HTML renombrado. No identifica automáticamente toda
+paráfrasis o copia modificada; la revisión del artefacto sigue siendo necesaria.
+`.gitattributes` conserva los bytes de `dataset/raw/` y los documentos internos
+inventariados para evitar cambios de hash por conversión de saltos de línea.
+
+## Decisiones de la auditoría del 6 de septiembre de 2026
+
+Se corrigieron los IDs de las primeras pasadas: ambos roles pertenecían a
+`codex` y no eran independientes. Se conservan como historial, sin usarlos
+para acreditar independencia. Los nuevos informes provienen de los subagentes
+`/root/factual_review` y `/root/editorial_review`, con fechas reales y evidencia.
+Solo 1 y 4 obtuvieron `pass` en ambos; la validación anterior de cuatro
+preguntas fue prematura y quedó sustituida por estos resultados.
+
+`Source.status: verified` identifica comprobación acotada de procedencia y
+contenido, no auditoría integral. `effective` para normas se limita a las
+disposiciones utilizadas; no certifica todas las competencias actuales. El
+boletín institucional tiene vigencia `unknown`: no es una norma jurídica.
+Toda modificación del contenido de una pregunta exige volver a `needs_review`
+y obtener revisiones de la nueva versión; el contrato no identifica por sí solo
+una edición semántica que conserve indebidamente los metadatos antiguos.

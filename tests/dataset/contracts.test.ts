@@ -58,6 +58,60 @@ describe('contratos Zod del dataset', () => {
     expect(QuestionSchema.safeParse({ ...validQuestion, status: 'approved' }).success).toBe(false)
   })
 
+  it('rechaza unidades sin localizador y perfiles con parámetros inválidos', () => {
+    const documents = validDocuments()
+    const unit = (documents.sourceUnits as Array<Record<string, unknown>>)[0]
+    expect(SourceUnitSchema.safeParse({ ...unit, locator: '   ' }).success).toBe(false)
+    const profile = (documents.examProfiles as Array<Record<string, unknown>>)[0]
+    expect(ExamProfileSchema.safeParse({ ...profile, durationMinutes: -1 }).success).toBe(false)
+    expect(ExamProfileSchema.safeParse({ ...profile, questionCount: 0 }).success).toBe(false)
+    expect(ExamProfileSchema.safeParse({ ...profile, status: 'inventado' }).success).toBe(false)
+  })
+
+  it('exige dos revisiones aprobadas para validated_assisted', () => {
+    const question = structuredClone(validQuestion)
+    question.reviews = question.reviews.filter((review) => review.kind === 'factual')
+    expect(QuestionSchema.safeParse(question).success).toBe(false)
+
+    const failedEditorial = structuredClone(validQuestion)
+    failedEditorial.reviews[1].outcome = 'needs_changes'
+    expect(QuestionSchema.safeParse(failedEditorial).success).toBe(false)
+
+    const sameReviewer = structuredClone(validQuestion)
+    sameReviewer.reviews[1].reviewerId = sameReviewer.reviews[0].reviewerId
+    expect(QuestionSchema.safeParse(sameReviewer).success).toBe(false)
+  })
+
+  it('una revisión posterior adversa invalida una aprobación anterior sin depender del orden del arreglo', () => {
+    for (const outcome of ['needs_changes', 'fail'] as const) {
+      const question = structuredClone(validQuestion)
+      question.reviews.unshift({
+        ...question.reviews[1], id: 'editorial-2', outcome,
+        reviewedAt: '2026-09-04T20:00:00-05:00'
+      })
+      expect(QuestionSchema.safeParse(question).success).toBe(false)
+      question.reviews.reverse()
+      expect(QuestionSchema.safeParse(question).success).toBe(false)
+    }
+  })
+
+  it('rechaza revisiones duplicadas o simultáneas ambiguas', () => {
+    const duplicate = structuredClone(validQuestion)
+    duplicate.reviews.push(structuredClone(duplicate.reviews[0]))
+    expect(QuestionSchema.safeParse(duplicate).success).toBe(false)
+    duplicate.reviews[2].id = 'different-id-same-time'
+    expect(QuestionSchema.safeParse(duplicate).success).toBe(false)
+  })
+
+  it('acepta una nueva aprobación posterior a una solicitud de cambios resuelta', () => {
+    const question = structuredClone(validQuestion)
+    question.reviews.unshift({
+      ...question.reviews[1], id: 'editorial-needs-changes', outcome: 'needs_changes',
+      reviewedAt: '2026-09-02T20:00:00-05:00'
+    })
+    expect(QuestionSchema.safeParse(question).success).toBe(true)
+  })
+
   it('rechaza preguntas sin cuatro opciones, con opciones repetidas o clave inexistente', () => {
     expect(QuestionSchema.safeParse({
       ...validQuestion,
@@ -66,6 +120,10 @@ describe('contratos Zod del dataset', () => {
 
     const repeatedText = structuredClone(validQuestion)
     repeatedText.options[3].text = '  SEGUNDA   OPCIÓN '
+    expect(QuestionSchema.safeParse(repeatedText).success).toBe(false)
+    repeatedText.options[3].text = 'Segunda opción'.normalize('NFD')
+    expect(QuestionSchema.safeParse(repeatedText).success).toBe(false)
+    repeatedText.options[3].text = '   '
     expect(QuestionSchema.safeParse(repeatedText).success).toBe(false)
 
     const missingKey = structuredClone(validQuestion)

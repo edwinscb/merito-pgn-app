@@ -88,6 +88,17 @@ export const QuestionReferenceSchema = z.object({
   supports: z.enum(['provenance', 'correct_answer', 'distractor', 'context'])
 })
 
+export const ReviewPassSchema = z.object({
+  id: idSchema,
+  kind: z.enum(['factual', 'editorial']),
+  method: z.literal('ai_assisted'),
+  reviewerId: nonEmptyTextSchema,
+  model: nonEmptyTextSchema.nullable(),
+  reviewedAt: dateTimeSchema,
+  outcome: z.enum(['pass', 'needs_changes', 'fail']),
+  notes: nonEmptyTextSchema
+})
+
 export const QuestionSchema = z.object({
   id: idSchema,
   status: QuestionStatusSchema,
@@ -103,11 +114,15 @@ export const QuestionSchema = z.object({
   references: z.array(QuestionReferenceSchema).min(1),
   targetCallIds: z.array(idSchema),
   createdMethod: z.enum(['seed_import', 'manual', 'ai_draft']),
-  reviewedBy: nonEmptyTextSchema.nullable(),
-  reviewedAt: dateSchema.nullable(),
+  reviews: z.array(ReviewPassSchema),
   validFrom: dateSchema.nullable(),
   tags: z.array(nonEmptyTextSchema)
 }).superRefine((question, context) => {
+  const reviewIds = question.reviews.map((review) => review.id)
+  if (new Set(reviewIds).size !== reviewIds.length) {
+    context.addIssue({ code: 'custom', path: ['reviews'], message: 'Los identificadores de revisión no pueden repetirse.' })
+  }
+
   const optionIds = new Set(question.options.map((option) => option.id))
   if (optionIds.size !== question.options.length) {
     context.addIssue({ code: 'custom', path: ['options'], message: 'Los identificadores de opción no pueden repetirse.' })
@@ -124,8 +139,22 @@ export const QuestionSchema = z.object({
   }
 
   if (question.status === 'validated_assisted') {
-    if (!question.reviewedBy || !question.reviewedAt || !question.validFrom) {
-      context.addIssue({ code: 'custom', path: ['status'], message: 'Una pregunta validated_assisted requiere metadatos de revisión y vigencia.' })
+    const latestReview = (kind: 'factual' | 'editorial') => question.reviews
+      .filter((review) => review.kind === kind)
+      .sort((left, right) => Date.parse(right.reviewedAt) - Date.parse(left.reviewedAt))[0]
+    const factualReview = latestReview('factual')
+    const editorialReview = latestReview('editorial')
+    if (!question.validFrom || factualReview?.outcome !== 'pass' || editorialReview?.outcome !== 'pass') {
+      context.addIssue({ code: 'custom', path: ['status'], message: 'Una pregunta validated_assisted requiere vigencia y revisiones factual y editorial aprobadas.' })
+    }
+    if (factualReview && editorialReview && factualReview.reviewerId === editorialReview.reviewerId) {
+      context.addIssue({ code: 'custom', path: ['reviews'], message: 'Las revisiones factual y editorial deben tener revisores independientes.' })
+    }
+    for (const latest of [factualReview, editorialReview]) {
+      if (latest && question.reviews.filter((review) => review.kind === latest.kind
+        && Date.parse(review.reviewedAt) === Date.parse(latest.reviewedAt)).length > 1) {
+        context.addIssue({ code: 'custom', path: ['reviews'], message: 'La última revisión de cada tipo debe ser inequívoca: hay fechas repetidas.' })
+      }
     }
     question.options.forEach((option, index) => {
       if (!option.rationale) {
@@ -195,6 +224,7 @@ export type Source = z.infer<typeof SourceSchema>
 export type SourceUnit = z.infer<typeof SourceUnitSchema>
 export type QuestionStatus = z.infer<typeof QuestionStatusSchema>
 export type Question = z.infer<typeof QuestionSchema>
+export type ReviewPass = z.infer<typeof ReviewPassSchema>
 export type ExamProfile = z.infer<typeof ExamProfileSchema>
 export type Attempt = z.infer<typeof AttemptSchema>
 export type ProgressExport = z.infer<typeof ProgressExportSchema>

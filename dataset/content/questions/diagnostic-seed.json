@@ -1,7 +1,7 @@
 [
   {
     "id": "PGN-SEED-0001",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -9,19 +9,26 @@
     "difficulty": 1,
     "stem": "La Procuraduría General de la Nación forma parte principalmente de:",
     "options": [
-      { "id": "A", "text": "La Rama Judicial.", "rationale": null },
-      { "id": "B", "text": "El Ministerio Público.", "rationale": null },
-      { "id": "C", "text": "La Rama Ejecutiva.", "rationale": null },
-      { "id": "D", "text": "La organización electoral.", "rationale": null }
+      { "id": "A", "text": "La Rama Judicial.", "rationale": "No corresponde: la Constitución ubica a la Procuraduría dentro del Ministerio Público." },
+      { "id": "B", "text": "El Ministerio Público.", "rationale": "Es correcta: el artículo 118 incluye al Procurador General entre quienes ejercen el Ministerio Público." },
+      { "id": "C", "text": "La Rama Ejecutiva.", "rationale": "No corresponde: la Procuraduría no integra la Rama Ejecutiva." },
+      { "id": "D", "text": "La organización electoral.", "rationale": "No corresponde: la organización electoral tiene una ubicación constitucional distinta." }
     ],
     "correctOptionId": "B",
     "explanation": "La PGN integra el Ministerio Público; no pertenece a las ramas del poder público.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 1 y tabla de clave", "supports": "provenance" }],
+    "references": [
+      { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 1 y tabla de clave", "supports": "provenance" },
+      { "sourceId": "colombia-constitution-1991", "sourceUnitId": "constitution-1991-art-118", "locator": "Artículo 118, página PDF 82", "supports": "correct_answer" }
+    ],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "validFrom": null,
+    "reviews": [
+      { "id": "PGN-SEED-0001-factual-1", "kind": "factual", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:07:55-05:00", "outcome": "pass", "notes": "La respuesta B coincide con el artículo 118 de la Constitución y el localizador fue comprobado en el PDF oficial." },
+      { "id": "PGN-SEED-0001-editorial-1", "kind": "editorial", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:08:00-05:00", "outcome": "pass", "notes": "El enunciado tiene una única mejor respuesta y los distractores pertenecen a categorías institucionales distintas." },
+      {"id":"PGN-SEED-0001-factual-2","kind":"factual","method":"ai_assisted","reviewerId":"/root/factual_review","model":null,"reviewedAt":"2026-09-07T03:54:23Z","outcome":"pass","notes":"Clave B y artículo 118 comprobados; organización constitucional respaldada. Informe: dataset/reports/pilot-factual-review.md."},
+      {"id":"PGN-SEED-0001-editorial-2","kind":"editorial","method":"ai_assisted","reviewerId":"/root/editorial_review","model":null,"reviewedAt":"2026-09-07T03:52:05Z","outcome":"pass","notes":"Respuesta única y racionales suficientes para diagnóstico inicial; mejoras opcionales. Informe: dataset/reports/pilot-editorial-review.md."}
+    ],
+    "validFrom": "2026-09-06",
     "tags": ["institucion"]
   },
   {
@@ -41,11 +48,18 @@
     ],
     "correctOptionId": "A",
     "explanation": "Sus grandes frentes son preventivo, de intervención y disciplinario.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 2 y tabla de clave", "supports": "provenance" }],
+    "references": [
+      { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 2 y tabla de clave", "supports": "provenance" },
+      { "sourceId": "decree-law-262-2000", "sourceUnitId": "decree-law-262-2000-art-23", "locator": "Artículo 23, página PDF 15", "supports": "context" }
+    ],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [
+      { "id": "PGN-SEED-0002-factual-1", "kind": "factual", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:07:55-05:00", "outcome": "needs_changes", "notes": "El artículo 23 también identifica funciones de protección y defensa de derechos humanos; la opción A puede percibirse como incompleta." },
+      { "id": "PGN-SEED-0002-editorial-1", "kind": "editorial", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:08:00-05:00", "outcome": "needs_changes", "notes": "Debe precisarse el alcance de «funciones misionales generales» antes de que exista una única respuesta inequívoca." },
+      {"id":"PGN-SEED-0002-factual-2","kind":"factual","method":"ai_assisted","reviewerId":"/root/factual_review","model":null,"reviewedAt":"2026-09-07T03:54:23Z","outcome":"needs_changes","notes":"Clasificación de tres funciones respaldada institucionalmente, pero falta referencia directa y racionales. Informe: dataset/reports/pilot-factual-review.md."},
+      {"id":"PGN-SEED-0002-editorial-2","kind":"editorial","method":"ai_assisted","reviewerId":"/root/editorial_review","model":null,"reviewedAt":"2026-09-07T03:52:05Z","outcome":"needs_changes","notes":"Precisar alcance de la clasificación y completar cuatro racionales. Informe: dataset/reports/pilot-editorial-review.md."}
+    ],
     "validFrom": null,
     "tags": ["funciones"]
   },
@@ -59,24 +73,31 @@
     "difficulty": 1,
     "stem": "En una actuación preventiva, la Procuraduría debe:",
     "options": [
-      { "id": "A", "text": "Sustituir permanentemente a la entidad vigilada.", "rationale": null },
-      { "id": "B", "text": "Advertir y gestionar riesgos dentro de sus competencias, sin coadministrar.", "rationale": null },
-      { "id": "C", "text": "Imponer siempre una sanción disciplinaria.", "rationale": null },
-      { "id": "D", "text": "Ordenar directamente cualquier gasto público.", "rationale": null }
+      { "id": "A", "text": "Sustituir permanentemente a la entidad vigilada.", "rationale": "No corresponde: la función preventiva no autoriza sustituir la gestión de la entidad vigilada." },
+      { "id": "B", "text": "Advertir y gestionar riesgos dentro de sus competencias, sin coadministrar.", "rationale": "Es correcta: la PGN describe la vigilancia y advertencia preventivas sin coadministración ni intromisión en la gestión." },
+      { "id": "C", "text": "Imponer siempre una sanción disciplinaria.", "rationale": "No corresponde: prevención y sanción disciplinaria son actuaciones diferentes." },
+      { "id": "D", "text": "Ordenar directamente cualquier gasto público.", "rationale": "No corresponde: una orden general de gasto sería ajena al alcance preventivo descrito." }
     ],
     "correctOptionId": "B",
     "explanation": "El control preventivo gestiona riesgos sin sustituir ni coadministrar a la entidad.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 3 y tabla de clave", "supports": "provenance" }],
+    "references": [
+      { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 3 y tabla de clave", "supports": "provenance" },
+      { "sourceId": "pgn-bulletin-107-2026-preventive-function", "sourceUnitId": "pgn-bulletin-107-2026-preventive-scope", "locator": "Párrafo final que inicia «La Procuraduría General de la Nación reiteró»", "supports": "context" }
+    ],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [
+      { "id": "PGN-SEED-0003-factual-1", "kind": "factual", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:07:55-05:00", "outcome": "pass", "notes": "La respuesta B reproduce el alcance preventivo explicado por la PGN en contenido institucional oficial de 2026." },
+      { "id": "PGN-SEED-0003-editorial-1", "kind": "editorial", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:08:00-05:00", "outcome": "pass", "notes": "La situación y los distractores distinguen con claridad prevención, coadministración y sanción." },
+      {"id":"PGN-SEED-0003-factual-2","kind":"factual","method":"ai_assisted","reviewerId":"/root/factual_review","model":null,"reviewedAt":"2026-09-07T03:54:23Z","outcome":"fail","notes":"El localizador original no existe y el boletín no sustenta el contenido atribuido ni gestionar riesgos. Informe: dataset/reports/pilot-factual-review.md."},
+      {"id":"PGN-SEED-0003-editorial-2","kind":"editorial","method":"ai_assisted","reviewerId":"/root/editorial_review","model":null,"reviewedAt":"2026-09-07T03:52:05Z","outcome":"needs_changes","notes":"Gestionar riesgos es ambiguo y no hay caso para clasificar como application. Informe: dataset/reports/pilot-editorial-review.md."}
+    ],
     "validFrom": null,
     "tags": ["prevencion"]
   },
   {
     "id": "PGN-SEED-0004",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -84,19 +105,26 @@
     "difficulty": 1,
     "stem": "¿Cuál conjunto corresponde a principios constitucionales de la función administrativa?",
     "options": [
-      { "id": "A", "text": "Reserva, jerarquía, rentabilidad y competencia.", "rationale": null },
-      { "id": "B", "text": "Igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.", "rationale": null },
-      { "id": "C", "text": "Autonomía privada, libertad contractual y beneficio.", "rationale": null },
-      { "id": "D", "text": "Secreto, centralización, informalidad y discrecionalidad.", "rationale": null }
+      { "id": "A", "text": "Reserva, jerarquía, rentabilidad y competencia.", "rationale": "No corresponde al listado del artículo 209; incluye conceptos que este no enuncia como principios de la función administrativa." },
+      { "id": "B", "text": "Igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.", "rationale": "Es correcta: contiene exactamente los siete principios enumerados en el artículo 209." },
+      { "id": "C", "text": "Autonomía privada, libertad contractual y beneficio.", "rationale": "No corresponde: son conceptos propios de relaciones privadas o económicas, no el listado constitucional consultado." },
+      { "id": "D", "text": "Secreto, centralización, informalidad y discrecionalidad.", "rationale": "No corresponde al listado constitucional y contradice, entre otros, el principio de publicidad." }
     ],
     "correctOptionId": "B",
     "explanation": "Es el conjunto constitucional de principios de la función administrativa.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 4 y tabla de clave", "supports": "provenance" }],
+    "references": [
+      { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 4 y tabla de clave", "supports": "provenance" },
+      { "sourceId": "colombia-constitution-1991", "sourceUnitId": "constitution-1991-art-209", "locator": "Artículo 209, página PDF 135", "supports": "correct_answer" }
+    ],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "validFrom": null,
+    "reviews": [
+      { "id": "PGN-SEED-0004-factual-1", "kind": "factual", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:07:55-05:00", "outcome": "pass", "notes": "La opción B coincide con la enumeración del artículo 209 en el PDF oficial." },
+      { "id": "PGN-SEED-0004-editorial-1", "kind": "editorial", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:08:00-05:00", "outcome": "pass", "notes": "La pregunta pide un conjunto textual y solo la opción B satisface el criterio." },
+      {"id":"PGN-SEED-0004-factual-2","kind":"factual","method":"ai_assisted","reviewerId":"/root/factual_review","model":null,"reviewedAt":"2026-09-07T03:54:23Z","outcome":"pass","notes":"Clave B coincide con los siete principios del artículo 209 en la página PDF 135. Informe: dataset/reports/pilot-factual-review.md."},
+      {"id":"PGN-SEED-0004-editorial-2","kind":"editorial","method":"ai_assisted","reviewerId":"/root/editorial_review","model":null,"reviewedAt":"2026-09-07T03:52:05Z","outcome":"pass","notes":"Solo B reproduce el conjunto solicitado; racionales suficientes. Informe: dataset/reports/pilot-editorial-review.md."}
+    ],
+    "validFrom": "2026-09-06",
     "tags": ["principios"]
   },
   {
@@ -109,18 +137,26 @@
     "difficulty": 1,
     "stem": "Un servidor detecta un posible conflicto entre su interés personal y una decisión oficial. La conducta más adecuada es:",
     "options": [
-      { "id": "A", "text": "Decidir rápidamente antes de que se conozca el conflicto.", "rationale": null },
-      { "id": "B", "text": "Informar el conflicto y seguir el procedimiento de impedimento aplicable.", "rationale": null },
-      { "id": "C", "text": "Delegar informalmente la firma sin dejar registro.", "rationale": null },
-      { "id": "D", "text": "Continuar si considera subjetivamente que será imparcial.", "rationale": null }
+      { "id": "A", "text": "Decidir rápidamente antes de que se conozca el conflicto.", "rationale": "No corresponde: acelerar la decisión no elimina el deber de declararse impedido." },
+      { "id": "B", "text": "Informar el conflicto y seguir el procedimiento de impedimento aplicable.", "rationale": "Es correcta: los artículos 11 y 12 exigen declarar y tramitar el impedimento." },
+      { "id": "C", "text": "Delegar informalmente la firma sin dejar registro.", "rationale": "No corresponde: omite la declaración motivada y el trámite formal." },
+      { "id": "D", "text": "Continuar si considera subjetivamente que será imparcial.", "rationale": "No corresponde: la valoración personal no sustituye la causal ni su trámite." }
     ],
     "correctOptionId": "B",
     "explanation": "El conflicto debe declararse y tramitarse con trazabilidad.",
-    "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 5 y tabla de clave", "supports": "provenance" }],
+    "references": [
+      { "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 5 y tabla de clave", "supports": "provenance" },
+      { "sourceId": "law-1437-2011", "sourceUnitId": "law-1437-2011-art-11", "locator": "Artículo 11, páginas PDF 7 a 9", "supports": "correct_answer" },
+      { "sourceId": "law-1437-2011", "sourceUnitId": "law-1437-2011-art-12", "locator": "Artículo 12, página PDF 9", "supports": "context" }
+    ],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [
+      { "id": "PGN-SEED-0005-factual-1", "kind": "factual", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:07:55-05:00", "outcome": "pass", "notes": "La declaración del impedimento y su trámite están respaldados respectivamente por los artículos 11 y 12 de la Ley 1437." },
+      { "id": "PGN-SEED-0005-editorial-1", "kind": "editorial", "method": "ai_assisted", "reviewerId": "codex", "model": null, "reviewedAt": "2026-09-03T20:08:00-05:00", "outcome": "pass", "notes": "La opción B es la única que exige revelar y tramitar formalmente el conflicto." },
+      {"id":"PGN-SEED-0005-factual-2","kind":"factual","method":"ai_assisted","reviewerId":"/root/factual_review","model":null,"reviewedAt":"2026-09-07T03:54:23Z","outcome":"needs_changes","notes":"Precisar interés particular y directo; la unidad del artículo 12 omite rutas subsidiarias. Informe: dataset/reports/pilot-factual-review.md."},
+      {"id":"PGN-SEED-0005-editorial-2","kind":"editorial","method":"ai_assisted","reviewerId":"/root/editorial_review","model":null,"reviewedAt":"2026-09-07T03:52:05Z","outcome":"needs_changes","notes":"El caso dice posible conflicto y los racionales presuponen deber configurado; alinear supuesto y explicación. Informe: dataset/reports/pilot-editorial-review.md."}
+    ],
     "validFrom": null,
     "tags": ["conflicto_de_interes"]
   },
@@ -144,8 +180,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 6 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["solicitud_ciudadana"]
   },
@@ -169,8 +204,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 7 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["datos_personales"]
   },
@@ -194,8 +228,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 8 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["gestion_documental"]
   },
@@ -219,8 +252,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 9 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["phva"]
   },
@@ -244,8 +276,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 10 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["planeacion_contractual"]
   },
@@ -269,8 +300,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 11 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["indicadores"]
   },
@@ -294,8 +324,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 12 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["correlacion"]
   },
@@ -319,8 +348,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 13 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["sesgo_de_seleccion"]
   },
@@ -344,8 +372,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 14 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["analisis_descriptivo"]
   },
@@ -369,8 +396,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 15 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["bases_de_datos"]
   },
@@ -394,8 +420,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 16 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["transacciones"]
   },
@@ -419,8 +444,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 17 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["minimo_privilegio"]
   },
@@ -444,8 +468,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 18 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["secretos"]
   },
@@ -469,8 +492,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 19 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["api"]
   },
@@ -494,8 +516,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 20 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["respuesta_a_incidentes"]
   },
@@ -519,8 +540,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 21 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["priorizacion"]
   },
@@ -544,8 +564,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 22 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["responsabilidad"]
   },
@@ -569,8 +588,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 23 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["legalidad"]
   },
@@ -594,8 +612,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 24 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["integridad_de_datos"]
   },
@@ -619,8 +636,7 @@
     "references": [{ "sourceId": "pgn-initial-diagnostic", "sourceUnitId": null, "locator": "Pregunta 25 y tabla de clave", "supports": "provenance" }],
     "targetCallIds": [],
     "createdMethod": "seed_import",
-    "reviewedBy": null,
-    "reviewedAt": null,
+    "reviews": [],
     "validFrom": null,
     "tags": ["innovacion"]
   }

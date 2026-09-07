@@ -1,1 +1,79 @@
-[]
+[
+  {
+    "id": "constitution-1991-art-118",
+    "sourceId": "colombia-constitution-1991",
+    "locator": "Artículo 118, página PDF 82",
+    "title": "Integración y funciones generales del Ministerio Público",
+    "content": "El Ministerio Público será ejercido por el Procurador General de la Nación, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás funcionarios que determine la ley.",
+    "verificationStatus": "verified",
+    "sourceHash": "6250cd4cf6dbfc044bcd6aaefc2e108ef5f7630f70898e5b6ffb57312a0dd225",
+    "topicIds": ["procuraduria_y_estado"],
+    "targetCallIds": []
+  },
+  {
+    "id": "constitution-1991-art-209",
+    "sourceId": "colombia-constitution-1991",
+    "locator": "Artículo 209, página PDF 135",
+    "title": "Principios de la función administrativa",
+    "content": "La función administrativa se desarrolla con fundamento en los principios de igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.",
+    "verificationStatus": "verified",
+    "sourceHash": "6250cd4cf6dbfc044bcd6aaefc2e108ef5f7630f70898e5b6ffb57312a0dd225",
+    "topicIds": ["gestion_publica_y_mipg"],
+    "targetCallIds": []
+  },
+  {
+    "id": "constitution-1991-art-275",
+    "sourceId": "colombia-constitution-1991",
+    "locator": "Artículo 275, página PDF 170",
+    "title": "Dirección suprema del Ministerio Público",
+    "content": "El Procurador General de la Nación es el supremo director del Ministerio Público.",
+    "verificationStatus": "verified",
+    "sourceHash": "6250cd4cf6dbfc044bcd6aaefc2e108ef5f7630f70898e5b6ffb57312a0dd225",
+    "topicIds": ["procuraduria_y_estado"],
+    "targetCallIds": []
+  },
+  {
+    "id": "decree-law-262-2000-art-23",
+    "sourceId": "decree-law-262-2000",
+    "locator": "Artículo 23, página PDF 15",
+    "title": "Funciones de las procuradurías delegadas",
+    "content": "El artículo agrupa funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante autoridades administrativas y judiciales.",
+    "verificationStatus": "verified",
+    "sourceHash": "1b83f75676ad3e097c6a1889064dd6964e4c55fa2f13ca446875b2083f94c949",
+    "topicIds": ["procuraduria_y_estado"],
+    "targetCallIds": []
+  },
+  {
+    "id": "law-1437-2011-art-11",
+    "sourceId": "law-1437-2011",
+    "locator": "Artículo 11, páginas PDF 7 a 9",
+    "title": "Conflictos de interés y causales de impedimento",
+    "content": "Cuando el interés general propio de la función pública entre en conflicto con el interés particular y directo del servidor público, este deberá declararse impedido.",
+    "verificationStatus": "verified",
+    "sourceHash": "da12ad29f4014af5a835cb232bb68b7bdb8031adb40f5b05dda12815a10f42f7",
+    "topicIds": ["gestion_publica_y_mipg", "competencias_comportamentales"],
+    "targetCallIds": []
+  },
+  {
+    "id": "law-1437-2011-art-12",
+    "sourceId": "law-1437-2011",
+    "locator": "Artículo 12, página PDF 9",
+    "title": "Trámite de impedimentos y recusaciones",
+    "content": "La autoridad debe enviar la actuación con escrito motivado al superior o, en su ausencia, a la cabeza del sector, quien decidirá de plano sobre el impedimento.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "da12ad29f4014af5a835cb232bb68b7bdb8031adb40f5b05dda12815a10f42f7",
+    "topicIds": ["gestion_publica_y_mipg", "competencias_comportamentales"],
+    "targetCallIds": []
+  },
+  {
+    "id": "pgn-bulletin-107-2026-preventive-scope",
+    "sourceId": "pgn-bulletin-107-2026-preventive-function",
+    "locator": "Párrafo final que inicia «La Procuraduría General de la Nación reiteró», boletín del 6 de febrero de 2026",
+    "title": "Alcance preventivo sin coadministración",
+    "content": "En el seguimiento al cumplimiento de la Ley 2492 de 2025, la PGN reiteró que la función preventiva no implica coadministración, prejuzgamiento ni ejercicio de control disciplinario. Este resumen se limita a la actuación descrita en el boletín.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "d6e6bc4dd98d2631115b407ee21180fbdbc1a0c8ad2d9698096aa832f0cbfefa",
+    "topicIds": ["procuraduria_y_estado"],
+    "targetCallIds": []
+  }
+]

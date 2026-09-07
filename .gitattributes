@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Las copias oficiales y las semillas conservan sus bytes y hashes originales.
+dataset/raw/** -text -whitespace
+# Estos documentos internos también se inventarían por hash de sus bytes.
+docs/*.md -text

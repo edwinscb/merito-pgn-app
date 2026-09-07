@@ -85,7 +85,7 @@ const localSources = [
     targetPath: 'docs/plan_implementacion_por_fases.md',
     mimeType: 'text/markdown',
     status: 'reference',
-    notes: 'Las fases 0 y 1 están implementadas; las fases posteriores requieren autorización.'
+    notes: 'Las fases 0 y 1 están implementadas y la Fase 2 se encuentra en curso.'
   },
   {
     id: 'pgn-transversal-study-plan',
@@ -96,14 +96,56 @@ const localSources = [
     mimeType: 'text/markdown',
     status: 'reference',
     notes: 'Plan de estudio sujeto a la futura guía oficial.'
+  },
+  {
+    id: 'colombia-constitution-1991',
+    title: 'Constitución Política de Colombia',
+    category: 'official-general-law',
+    sourcePath: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125',
+    targetPath: 'dataset/raw/official/normatividad/fase2/constitucion_politica_1991_funcion_publica.pdf',
+    mimeType: 'application/pdf',
+    status: 'verified',
+    url: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125',
+    notes: 'Copia oficial de Función Pública; artículos 118, 209 y 275 revisados visualmente para el lote piloto.'
+  },
+  {
+    id: 'decree-law-262-2000',
+    title: 'Decreto Ley 262 de 2000',
+    category: 'official-general-law',
+    sourcePath: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=40618',
+    targetPath: 'dataset/raw/official/normatividad/fase2/decreto_ley_262_2000_funcion_publica.pdf',
+    mimeType: 'application/pdf',
+    status: 'verified',
+    url: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=40618',
+    notes: 'Copia oficial de Función Pública; artículos 7 y 23 revisados visualmente para el lote piloto.'
+  },
+  {
+    id: 'law-1437-2011',
+    title: 'Ley 1437 de 2011',
+    category: 'official-general-law',
+    sourcePath: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41249',
+    targetPath: 'dataset/raw/official/normatividad/fase2/ley_1437_2011_funcion_publica.pdf',
+    mimeType: 'application/pdf',
+    status: 'verified',
+    url: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41249',
+    notes: 'Copia oficial de Función Pública; artículos 11 y 12 revisados visualmente para el lote piloto.'
+  },
+  {
+    id: 'pgn-bulletin-107-2026-preventive-function',
+    title: 'Boletín 107 de 2026 sobre función preventiva',
+    category: 'official-institutional-content',
+    sourcePath: 'https://www.procuraduria.gov.co/Pages/procuraduria-vigila-cumplimiento-ley-fortalece-convivencia-paz-municipios.aspx',
+    targetPath: 'dataset/raw/official/normatividad/fase2/boletin_107_2026_funcion_preventiva.html',
+    mimeType: 'text/html',
+    status: 'verified',
+    url: 'https://www.procuraduria.gov.co/Pages/procuraduria-vigila-cumplimiento-ley-fortalece-convivencia-paz-municipios.aspx',
+    notes: 'Boletín oficial del 6 de febrero de 2026; ejemplo contextual de seguimiento a la Ley 2492. No respalda la definición general originalmente atribuida a su unidad; ver auditoría factual del piloto.'
   }
 ]
 
 const pendingSources = [
   ['pgn-resolution-108-2026', 'Resolución 108 de 2026', 'https://meritoconstruyendoexcelencia.com.co/statics/normativas_especificas/RESOLUCION%20108%20DE%2023%20DE%20ABRIL%20DE%202026.pdf'],
   ['pgn-resolution-133-2026', 'Resolución 133 de 2026', 'https://meritoconstruyendoexcelencia.com.co/statics/normativas_especificas/RESOLUCIO%CC%81N%20No.%20133%20(20%20MAYO%202026).pdf'],
-  ['colombia-constitution-1991', 'Constitución Política de Colombia', 'https://meritoconstruyendoexcelencia.com.co/#/convocatorias/normatividad'],
-  ['decree-law-262-2000', 'Decreto Ley 262 de 2000', 'https://meritoconstruyendoexcelencia.com.co/#/convocatorias/normatividad'],
   ['decree-263-2000', 'Decreto 263 de 2000', 'https://meritoconstruyendoexcelencia.com.co/#/convocatorias/normatividad'],
   ['decree-264-2000', 'Decreto 264 de 2000', 'https://meritoconstruyendoexcelencia.com.co/#/convocatorias/normatividad'],
   ['decree-law-265-2000', 'Decreto Ley 265 de 2000', 'https://meritoconstruyendoexcelencia.com.co/#/convocatorias/normatividad'],

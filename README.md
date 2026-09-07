@@ -5,12 +5,16 @@ Abierto de Méritos de la Procuraduría General de la Nación 2026.
 
 ## Estado
 
-Las **fases 0 y 1** están implementadas. El repositorio contiene la aplicación
-React, la configuración inicial de PWA y un dataset estructurado con contratos
-Zod, validación relacional, compilación reproducible y reporte de cobertura.
+Las **fases 0 y 1** están implementadas y la **Fase 2 está en curso**. El
+repositorio contiene la aplicación React, la configuración inicial de PWA y un
+dataset estructurado con contratos Zod, validación relacional, compilación
+reproducible y reporte de cobertura.
 
-Todavía no incluye práctica, simulacros, IndexedDB, generación o revisión de
-preguntas con IA, backend ni despliegue.
+El primer lote editorial enriqueció cinco semillas con fuentes y observaciones.
+Tras dos revisiones independientes, las preguntas 1 y 4 son publicables;
+las preguntas 2, 3 y 5 requieren cambios. Todavía
+no incluye práctica, simulacros, IndexedDB, generación automática de preguntas,
+backend ni despliegue.
 
 ## Comandos
 
@@ -40,9 +44,11 @@ Los contratos compartidos `Source`, `SourceUnit`, `Question`,
 `src/domain/dataset/contracts.ts`. Los registros editables están bajo
 `dataset/content/`.
 
-Las 25 preguntas diagnósticas son material semilla con estado
-`needs_review`. Su referencia al diagnóstico registra procedencia, no respaldo
-oficial; por eso el banco público de esta fase está vacío.
+Las 25 preguntas diagnósticas conservan su procedencia: dos están en
+`validated_assisted` y 23 en `needs_review`. El banco público contiene solo
+las preguntas 1 y 4, con informes factual y editorial independientes en
+`dataset/reports/pilot-*-review.md`.
+Aún no se asigna ninguna pregunta a una convocatoria específica.
 
 ## Privacidad
 

@@ -6,6 +6,7 @@ import { formatIssues, projectRoot, validateRepositoryDataset } from './core.js'
 const QUESTION_STATUSES = ['draft_ai', 'validated_assisted', 'needs_review', 'rejected', 'retired'] as const
 const SOURCE_STATUSES = ['copied_pending_review', 'pending_download', 'reference', 'seed_unapproved', 'verified', 'needs_review', 'retired'] as const
 const AUTHORITY_TIERS = ['A', 'B', 'C', 'D', 'N/A'] as const
+const UNIT_STATUSES = ['pending_review', 'verified', 'retired'] as const
 
 function table(rows: Array<[string, number]>): string {
   return ['| Categoría | Cantidad |', '| --- | ---: |', ...rows.map(([label, count]) => `| ${label} | ${count} |`)].join('\n')
@@ -41,6 +42,10 @@ export function renderCoverageReport(dataset: Dataset): string {
     '## Fuentes por estado',
     '',
     table(countBy(dataset.sources.map((source) => source.status), SOURCE_STATUSES)),
+    '',
+    '## Unidades por estado',
+    '',
+    table(countBy(dataset.sourceUnits.map((unit) => unit.verificationStatus), UNIT_STATUSES)),
     '',
     '## Fuentes por nivel de autoridad',
     '',

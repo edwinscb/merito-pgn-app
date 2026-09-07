@@ -3,7 +3,8 @@ import {
   QuestionSchema,
   SourceSchema,
   type Question,
-  type Source
+  type Source,
+  type SourceUnit
 } from '../../src/domain/dataset/contracts.js'
 import type { DatasetDocuments } from '../../scripts/dataset/core.js'
 
@@ -47,23 +48,54 @@ export const validQuestion: Question = QuestionSchema.parse({
   explanation: 'La segunda opción está respaldada.',
   references: [{
     sourceId: 'official-source',
-    sourceUnitId: null,
+    sourceUnitId: 'official-unit',
     locator: 'artículo 1',
     supports: 'correct_answer'
   }],
   targetCallIds: ['call-1'],
   createdMethod: 'manual',
-  reviewedBy: 'revisión asistida',
-  reviewedAt: '2026-09-03',
+  reviews: [
+    {
+      id: 'QUESTION-0001-factual-1',
+      kind: 'factual',
+      method: 'ai_assisted',
+      reviewerId: 'factual-reviewer',
+      model: null,
+      reviewedAt: '2026-09-03T20:00:00-05:00',
+      outcome: 'pass',
+      notes: 'Hechos y localizador comprobados.'
+    },
+    {
+      id: 'QUESTION-0001-editorial-1',
+      kind: 'editorial',
+      method: 'ai_assisted',
+      reviewerId: 'editorial-reviewer',
+      model: null,
+      reviewedAt: '2026-09-03T20:01:00-05:00',
+      outcome: 'pass',
+      notes: 'Redacción y distractores comprobados.'
+    }
+  ],
   validFrom: '2026-09-03',
   tags: []
 })
 
 export function validDocuments(): DatasetDocuments {
   const source = structuredClone(validSource)
+  const sourceUnit: SourceUnit = {
+    id: 'official-unit',
+    sourceId: source.id,
+    locator: 'artículo 1',
+    title: 'Unidad oficial',
+    content: 'Contenido verificable de la respuesta correcta.',
+    verificationStatus: 'verified',
+    sourceHash: source.contentHash!,
+    topicIds: ['topic'],
+    targetCallIds: ['call-1']
+  }
   return {
     sources: [source],
-    sourceUnits: [],
+    sourceUnits: [sourceUnit],
     taxonomy: {
       schemaVersion: 1,
       modules: [{ id: 'comun', label: 'Común' }],
