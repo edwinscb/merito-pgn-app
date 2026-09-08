@@ -25,6 +25,8 @@ quedaron fuera por duplicación editorial o contexto insuficiente. Esta
 limitación debe resolverse con revisión externa antes de tratar el banco como
 definitivo.
 
-El siguiente paso reproducible es ejecutar las revisiones finales sobre el
-snapshot actual y promover únicamente los registros cuyo hash coincida y cuyo
-resultado factual y editorial sea `pass`.
+El snapshot actual tiene 83 publicaciones. La promoción se ejecutó solo para
+los 65 ítems nuevos con dos resultados internos `pass`; las 19 observaciones
+editoriales y las siete semillas pendientes siguen fuera. Para cerrar con
+criterio externo hace falta repetir la revisión cuando haya revisores
+independientes disponibles y verificar que cada hash siga coincidiendo.

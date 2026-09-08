@@ -139,12 +139,19 @@ preguntas pendientes de Fase 2 quedan fuera del banco hasta una revisión futura
 
 ## 6. Fase 4 — Calidad y publicación
 
-Completar pruebas de escritorio, celular y funcionamiento offline; revisar el
-artefacto por privacidad y conectar el repositorio personal privado con Vercel
-Hobby. Solo se ejecutará con autorización posterior.
+Estado: **QA local completada; publicación pendiente**.
+
+Se ejecutaron validación del dataset, pruebas automatizadas, compilación PWA y
+comprobación de privacidad del artefacto. La publicación en un proveedor y la
+conexión con Vercel requieren una decisión posterior y no se realizan desde
+este cierre.
 
 ## 7. Fase 5 — Crecimiento y actualización
 
-Ampliar el banco en lotes de 25 hasta 200 preguntas útiles y, si la calidad se
-mantiene, hasta 400 antes de la prueba. Adaptar perfiles y preguntas cuando la
-PGN publique la guía de orientación.
+Estado: **en progreso**.
+
+El dataset contiene 109 registros y el banco público 83 preguntas. Quedan 26
+en revisión y faltan 17 publicaciones para alcanzar el objetivo inmediato de
+100. Las fuentes pendientes de descarga y la guía de orientación, si se
+publica, deben revisarse antes de ampliar perfiles o afirmar distribución del
+examen.
