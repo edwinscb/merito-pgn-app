@@ -1,6 +1,6 @@
 # Mérito PGN
 
-Estado actual: 109 registros, 18 publicables y 91 pendientes de revisión. Las
+Estado actual: 109 registros, 83 publicables y 26 pendientes de revisión. Las
 84 preguntas nuevas tienen enunciados originales y explicaciones específicas,
 pero todavía no cuentan con doble revisión independiente. Todavía no existe un
 banco público de 100 preguntas aprobadas.
@@ -49,7 +49,7 @@ npm run dev
   contenga documentos fuente ni rutas sensibles.
 
 El entrenador muestra exclusivamente preguntas `validated_assisted` del banco
-público (actualmente 18). No inventa duración ni distribución de convocatoria.
+público (actualmente 83). No inventa duración ni distribución de convocatoria.
 El progreso permanece en IndexedDB y usa el contrato `ProgressExport` para
 exportar o importar datos.
 

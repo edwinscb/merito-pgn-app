@@ -2,6 +2,4621 @@
   "schemaVersion": 1,
   "questions": [
     {
+      "id": "PGN-EXP-0026",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "procuraduria_y_estado",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una alcaldía pide a la PGN que escoja al contratista para evitar errores. ¿Qué respuesta conserva el límite de la función preventiva?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Advertir los riesgos identificados y dejar la selección a la autoridad competente.",
+          "rationale": "La prevención permite vigilar y advertir sin sustituir al administrador."
+        },
+        {
+          "id": "B",
+          "text": "Elegir al contratista y pedir al alcalde que formalice la selección.",
+          "rationale": "Escoger al proveedor sustituye materialmente la decisión administrativa."
+        },
+        {
+          "id": "C",
+          "text": "Compartir la decisión mediante una firma conjunta obligatoria.",
+          "rationale": "La firma conjunta convierte la vigilancia en participación decisoria."
+        },
+        {
+          "id": "D",
+          "text": "Aprobar previamente el puntaje de cada proponente.",
+          "rationale": "Fijar puntajes como requisito de aprobación participa en la selección."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "La prevención permite vigilar y advertir sin sustituir al administrador.",
+      "references": [
+        {
+          "sourceId": "pgn-functions-general",
+          "sourceUnitId": "pgn-functions-general-review-unit",
+          "locator": "Sección «Conozca la entidad», apartados Funciones misionales principales y Función Preventiva",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0026",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0026",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0027",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "procuraduria_y_estado",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un informe denomina «sanción preventiva» a una advertencia de la PGN. ¿Qué corrección conceptual procede?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clasificarla como orden del ordenador del gasto.",
+          "rationale": "La vigilancia preventiva no atribuye la ordenación del gasto."
+        },
+        {
+          "id": "B",
+          "text": "Distinguir la advertencia preventiva del ejercicio de la función disciplinaria.",
+          "rationale": "La clasificación institucional diferencia prevención y disciplina."
+        },
+        {
+          "id": "C",
+          "text": "Conservar el término porque toda advertencia impone una sanción.",
+          "rationale": "Advertir no equivale a sancionar."
+        },
+        {
+          "id": "D",
+          "text": "Llamarla sentencia judicial porque procede de un organismo de control.",
+          "rationale": "La procedencia institucional no convierte un aviso en sentencia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "La clasificación institucional diferencia prevención y disciplina.",
+      "references": [
+        {
+          "sourceId": "pgn-functions-general",
+          "sourceUnitId": "pgn-functions-general-review-unit",
+          "locator": "Sección «Conozca la entidad», apartados Funciones misionales principales y Función Preventiva",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0027",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0027",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0030",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "procuraduria_y_estado",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un equipo propone medir la prevención únicamente por sanciones impuestas. ¿Cuál es la objeción conceptual más directa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confunde la actividad de advertir riesgos con los resultados de otra función misional.",
+          "rationale": "La distinción prevención-disciplina impide equiparar sus productos sin justificación."
+        },
+        {
+          "id": "B",
+          "text": "Toda actividad preventiva debe terminar necesariamente en sanción.",
+          "rationale": "La prevención no exige un resultado sancionatorio."
+        },
+        {
+          "id": "C",
+          "text": "La intervención y la prevención son nombres idénticos para sancionar.",
+          "rationale": "La presentación institucional distingue las tres funciones."
+        },
+        {
+          "id": "D",
+          "text": "La PGN carece de cualquier función disciplinaria.",
+          "rationale": "La objeción no consiste en negar la función disciplinaria existente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "La distinción prevención-disciplina impide equiparar sus productos sin justificación.",
+      "references": [
+        {
+          "sourceId": "pgn-functions-general",
+          "sourceUnitId": "pgn-functions-general-review-unit",
+          "locator": "Sección «Conozca la entidad», apartados Funciones misionales principales y Función Preventiva",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0030",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0030",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0031",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Dos solicitudes equivalentes reciben trato distinto solo porque una proviene de un conocido del funcionario. ¿Qué principio del artículo 209 se compromete más directamente por ese trato desigual?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Celeridad.",
+          "rationale": "No se describe un retraso como elemento central."
+        },
+        {
+          "id": "B",
+          "text": "Igualdad.",
+          "rationale": "El criterio personal introduce una diferencia de trato entre situaciones equivalentes."
+        },
+        {
+          "id": "C",
+          "text": "Economía.",
+          "rationale": "La información del caso no se centra en uso de recursos."
+        },
+        {
+          "id": "D",
+          "text": "Publicidad.",
+          "rationale": "El problema descrito es el trato diferencial, no la divulgación."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "El criterio personal introduce una diferencia de trato entre situaciones equivalentes.",
+      "references": [
+        {
+          "sourceId": "colombia-constitution-1991",
+          "sourceUnitId": "constitution-1991-art-209",
+          "locator": "Artículo 209, página PDF 135",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0031",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0031",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0032",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un procedimiento cumple sus formalidades pero no logra el resultado público que debía producir. ¿Qué principio del artículo 209 orienta a examinar ese incumplimiento del objetivo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Imparcialidad.",
+          "rationale": "No se plantea una preferencia indebida entre interesados."
+        },
+        {
+          "id": "B",
+          "text": "Igualdad.",
+          "rationale": "No se comparan situaciones con trato desigual."
+        },
+        {
+          "id": "C",
+          "text": "Eficacia.",
+          "rationale": "La eficacia atiende al logro del resultado perseguido."
+        },
+        {
+          "id": "D",
+          "text": "Publicidad.",
+          "rationale": "Hacer visible el procedimiento no prueba que haya logrado su objetivo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "La eficacia atiende al logro del resultado perseguido.",
+      "references": [
+        {
+          "sourceId": "colombia-constitution-1991",
+          "sourceUnitId": "constitution-1991-art-209",
+          "locator": "Artículo 209, página PDF 135",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0032",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0032",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0033",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una entidad repite tres veces la misma verificación, sin valor adicional, consumiendo recursos. ¿Qué principio del artículo 209 orienta a reducir ese gasto innecesario?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Publicidad.",
+          "rationale": "Difundir la repetición no elimina el consumo innecesario."
+        },
+        {
+          "id": "B",
+          "text": "Igualdad.",
+          "rationale": "El caso no identifica una diferencia de trato."
+        },
+        {
+          "id": "C",
+          "text": "Imparcialidad.",
+          "rationale": "No se describe un interés que incline la decisión."
+        },
+        {
+          "id": "D",
+          "text": "Economía.",
+          "rationale": "La duplicación sin utilidad compromete el uso razonable de recursos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "La duplicación sin utilidad compromete el uso razonable de recursos.",
+      "references": [
+        {
+          "sourceId": "colombia-constitution-1991",
+          "sourceUnitId": "constitution-1991-art-209",
+          "locator": "Artículo 209, página PDF 135",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0033",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0033",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0034",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un trámite permanece inactivo por demoras injustificadas aunque existe capacidad de atenderlo. ¿Qué principio del artículo 209 orienta a impulsar su avance oportuno?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Celeridad.",
+          "rationale": "La demora injustificada afecta la prontitud de la actuación."
+        },
+        {
+          "id": "B",
+          "text": "Publicidad.",
+          "rationale": "La visibilidad del expediente es distinta de su avance oportuno."
+        },
+        {
+          "id": "C",
+          "text": "Igualdad.",
+          "rationale": "El supuesto no compara el trato de diferentes personas."
+        },
+        {
+          "id": "D",
+          "text": "Moralidad como requisito de rentabilidad financiera.",
+          "rationale": "Ese enunciado redefine incorrectamente un principio constitucional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "La demora injustificada afecta la prontitud de la actuación.",
+      "references": [
+        {
+          "sourceId": "colombia-constitution-1991",
+          "sourceUnitId": "constitution-1991-art-209",
+          "locator": "Artículo 209, página PDF 135",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0034",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0034",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0035",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una guía atribuye al artículo 209 la obligación de maximizar ganancias privadas como principio de la función administrativa. ¿Qué observación corresponde al listado constitucional citado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El artículo contiene solo principios financieros.",
+          "rationale": "Igualdad, imparcialidad y otros principios muestran un alcance más amplio."
+        },
+        {
+          "id": "B",
+          "text": "Ese criterio no integra el listado; allí figura, entre otros, la moralidad.",
+          "rationale": "El listado incluye moralidad y no la maximización de ganancias privadas."
+        },
+        {
+          "id": "C",
+          "text": "El criterio sustituye expresamente al principio de publicidad.",
+          "rationale": "El artículo no contiene esa sustitución."
+        },
+        {
+          "id": "D",
+          "text": "Economía significa exclusivamente aumentar ganancias privadas.",
+          "rationale": "Economía administrativa no equivale a ese objetivo privado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "El listado incluye moralidad y no la maximización de ganancias privadas.",
+      "references": [
+        {
+          "sourceId": "colombia-constitution-1991",
+          "sourceUnitId": "constitution-1991-art-209",
+          "locator": "Artículo 209, página PDF 135",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0035",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0035",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0036",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un servidor declara un impedimento dentro de una actuación sujeta al CPACA y tiene superior. ¿A quién debe remitir la actuación con escrito motivado según el artículo 12?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A un colega elegido informalmente.",
+          "rationale": "La elección informal no sigue el destinatario legal."
+        },
+        {
+          "id": "B",
+          "text": "A sí mismo, en un expediente separado.",
+          "rationale": "El impedido no resuelve su propio impedimento mediante esa remisión."
+        },
+        {
+          "id": "C",
+          "text": "A su superior.",
+          "rationale": "Es el destinatario previsto cuando existe superior."
+        },
+        {
+          "id": "D",
+          "text": "Al solicitante para que resuelva el impedimento.",
+          "rationale": "La parte interesada no sustituye al superior competente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Es el destinatario previsto cuando existe superior.",
+      "references": [
+        {
+          "sourceId": "law-1437-2011",
+          "sourceUnitId": "law-1437-2011-art-12",
+          "locator": "Artículo 12, página PDF 9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0036",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0036",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0037",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Para la remisión del impedimento regulada en el artículo 12 del CPACA, ¿qué documento debe acompañar la actuación?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una nota sin razones que solo diga «no puedo continuar».",
+          "rationale": "La mera negativa no satisface el carácter motivado."
+        },
+        {
+          "id": "B",
+          "text": "La decisión final de fondo tomada por el impedido.",
+          "rationale": "Resolver el fondo no reemplaza el trámite del impedimento."
+        },
+        {
+          "id": "C",
+          "text": "La autorización privada del interesado.",
+          "rationale": "No es el documento que exige la remisión descrita."
+        },
+        {
+          "id": "D",
+          "text": "Un escrito motivado.",
+          "rationale": "La remisión debe expresar las razones del impedimento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "La remisión debe expresar las razones del impedimento.",
+      "references": [
+        {
+          "sourceId": "law-1437-2011",
+          "sourceUnitId": "law-1437-2011-art-12",
+          "locator": "Artículo 12, página PDF 9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0037",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0037",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0038",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Sin calcular un calendario de días hábiles, ¿qué término señala el artículo 12 del CPACA para remitir la actuación por impedimento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dentro de los tres días siguientes a su conocimiento.",
+          "rationale": "Ese es el término textual de remisión previsto para el impedimento."
+        },
+        {
+          "id": "B",
+          "text": "Dentro de diez días, que es el término de remisión.",
+          "rationale": "Diez días corresponde a decidir desde el recibo, no a remitir."
+        },
+        {
+          "id": "C",
+          "text": "Solo al concluir el procedimiento principal.",
+          "rationale": "El trámite debe activarse antes de continuar decidiendo el fondo."
+        },
+        {
+          "id": "D",
+          "text": "No contempla término alguno de remisión.",
+          "rationale": "El artículo sí fija un término de tres días."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ese es el término textual de remisión previsto para el impedimento.",
+      "references": [
+        {
+          "sourceId": "law-1437-2011",
+          "sourceUnitId": "law-1437-2011-art-12",
+          "locator": "Artículo 12, página PDF 9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0038",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0038",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0039",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "La autoridad competente recibe la actuación remitida por impedimento. Según el artículo 12 del CPACA, ¿cuál es su término para decidir de plano?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El que libremente elija el servidor impedido.",
+          "rationale": "La norma no deja ese término a elección del impedido."
+        },
+        {
+          "id": "B",
+          "text": "Diez días contados a partir del recibo.",
+          "rationale": "Es el término de decisión, distinto del plazo de remisión."
+        },
+        {
+          "id": "C",
+          "text": "Tres días contados desde que el servidor conoció el impedimento.",
+          "rationale": "Mezcla el término y el hecho inicial de la remisión."
+        },
+        {
+          "id": "D",
+          "text": "Hasta el final del año presupuestal.",
+          "rationale": "El término citado no depende del cierre presupuestal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Es el término de decisión, distinto del plazo de remisión.",
+      "references": [
+        {
+          "sourceId": "law-1437-2011",
+          "sourceUnitId": "law-1437-2011-art-12",
+          "locator": "Artículo 12, página PDF 9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0039",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0039",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0040",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Se presenta un impedimento y aún no ha sido decidido. ¿Qué estado de la actuación prevé el artículo 12 del CPACA?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continuación de la decisión de fondo por el impedido.",
+          "rationale": "Es incompatible con la suspensión prevista."
+        },
+        {
+          "id": "B",
+          "text": "Traslado inmediato de la propiedad del expediente al peticionario.",
+          "rationale": "No es un efecto previsto para el impedimento."
+        },
+        {
+          "id": "C",
+          "text": "Suspensión hasta la decisión del impedimento.",
+          "rationale": "La suspensión protege el trámite mientras se resuelve la situación."
+        },
+        {
+          "id": "D",
+          "text": "Terminación definitiva automática.",
+          "rationale": "Suspender no equivale a terminar definitivamente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "La suspensión protege el trámite mientras se resuelve la situación.",
+      "references": [
+        {
+          "sourceId": "law-1437-2011",
+          "sourceUnitId": "law-1437-2011-art-12",
+          "locator": "Artículo 12, página PDF 9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0040",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0040",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0041",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "En una actuación bajo CPACA, un servidor no tiene superior pero sí existe cabeza del respectivo sector administrativo. ¿Cuál es el destinatario previsto para remitir su impedimento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Siempre el Procurador General, aunque exista cabeza del sector.",
+          "rationale": "La competencia subsidiaria no omite ese escalón."
+        },
+        {
+          "id": "B",
+          "text": "El primer funcionario que acepte voluntariamente.",
+          "rationale": "La voluntad de un tercero no define la competencia."
+        },
+        {
+          "id": "C",
+          "text": "El ciudadano que inició el trámite.",
+          "rationale": "El ciudadano no decide el impedimento del servidor por esa condición."
+        },
+        {
+          "id": "D",
+          "text": "La cabeza del respectivo sector administrativo.",
+          "rationale": "Es la alternativa legal al superior cuando este no existe."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Es la alternativa legal al superior cuando este no existe.",
+      "references": [
+        {
+          "sourceId": "law-1437-2011",
+          "sourceUnitId": "law-1437-2011-art-12",
+          "locator": "Artículo 12, página PDF 9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0041",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0041",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0042",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_documental",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un archivo electrónico conserva el texto, pero pierde quién lo produjo y en qué trámite. ¿Qué componente debe preservarse para mantener ese contexto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Los metadatos vinculados al documento.",
+          "rationale": "Los metadatos preservan información de contenido, estructura y contexto."
+        },
+        {
+          "id": "B",
+          "text": "Solo el tamaño del archivo.",
+          "rationale": "El tamaño no identifica por sí solo productor y trámite."
+        },
+        {
+          "id": "C",
+          "text": "Una captura del icono del documento.",
+          "rationale": "La apariencia del icono no conserva el contexto documental."
+        },
+        {
+          "id": "D",
+          "text": "El número de archivos del computador.",
+          "rationale": "Un conteo global no describe el documento particular."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Los metadatos preservan información de contenido, estructura y contexto.",
+      "references": [
+        {
+          "sourceId": "decree-1080-2015-archives",
+          "sourceUnitId": "decree-1080-2015-archives-review-unit",
+          "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0042",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0042",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0043",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_documental",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un sistema almacena documentos de distintas series en una carpeta única sin criterio archivístico. ¿Qué instrumento orienta su organización por clases documentales?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El orden aleatorio de carga.",
+          "rationale": "La llegada aleatoria no sustituye la clasificación."
+        },
+        {
+          "id": "B",
+          "text": "El cuadro de clasificación documental.",
+          "rationale": "Organiza los documentos conforme a una estructura archivística."
+        },
+        {
+          "id": "C",
+          "text": "La lista de contraseñas del servidor.",
+          "rationale": "Controlar credenciales no clasifica series documentales."
+        },
+        {
+          "id": "D",
+          "text": "El inventario de licencias de software.",
+          "rationale": "Las licencias describen herramientas, no clases documentales."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Organiza los documentos conforme a una estructura archivística.",
+      "references": [
+        {
+          "sourceId": "decree-1080-2015-archives",
+          "sourceUnitId": "decree-1080-2015-archives-review-unit",
+          "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0043",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0043",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0044",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_documental",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "El espacio de almacenamiento se agota y se propone borrar expedientes solo por su antigüedad. ¿Qué debe consultarse para decidir su disposición documental?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El tamaño de cada archivo como único criterio.",
+          "rationale": "El tamaño no determina por sí mismo la disposición autorizada."
+        },
+        {
+          "id": "B",
+          "text": "La preferencia del último usuario que abrió el expediente.",
+          "rationale": "Una preferencia individual no sustituye los instrumentos archivísticos."
+        },
+        {
+          "id": "C",
+          "text": "Las tablas de retención o valoración aplicables.",
+          "rationale": "La disposición debe ajustarse a esos instrumentos, no a una fecha elegida por conveniencia."
+        },
+        {
+          "id": "D",
+          "text": "Solo la fecha de compra del disco.",
+          "rationale": "La edad del equipo no establece el valor ni la retención documental."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "La disposición debe ajustarse a esos instrumentos, no a una fecha elegida por conveniencia.",
+      "references": [
+        {
+          "sourceId": "decree-1080-2015-archives",
+          "sourceUnitId": "decree-1080-2015-archives-review-unit",
+          "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0044",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0044",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0045",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_documental",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "La entidad tiene documentos clasificados, pero desconoce dónde se detiene cada trámite. ¿Qué actividad de gestión documental atiende ese problema?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cambiar el color de las carpetas.",
+          "rationale": "El cambio visual no registra las etapas del trámite."
+        },
+        {
+          "id": "B",
+          "text": "Eliminar los metadatos para reducir volumen.",
+          "rationale": "Eso destruye información útil para el seguimiento."
+        },
+        {
+          "id": "C",
+          "text": "Clasificar exclusivamente por extensión del archivo.",
+          "rationale": "El formato no informa el estado del trámite."
+        },
+        {
+          "id": "D",
+          "text": "El control y seguimiento del trámite.",
+          "rationale": "La gestión y trámite incluye controlar y seguir el recorrido de documentos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "La gestión y trámite incluye controlar y seguir el recorrido de documentos.",
+      "references": [
+        {
+          "sourceId": "decree-1080-2015-archives",
+          "sourceUnitId": "decree-1080-2015-archives-review-unit",
+          "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0045",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0045",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0046",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_documental",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una institución afirma que agregar un campo «fecha» garantiza por sí solo toda la trazabilidad documental. ¿Qué evaluación es adecuada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El campo aporta contexto, pero se necesitan controles y seguimiento coherentes.",
+          "rationale": "Los metadatos son componentes de la gestión; su mera presencia no garantiza trazabilidad completa."
+        },
+        {
+          "id": "B",
+          "text": "Es suficiente, aunque el campo nunca se actualice.",
+          "rationale": "Un dato desactualizado no acredita el recorrido real."
+        },
+        {
+          "id": "C",
+          "text": "La fecha permite prescindir del registro del documento.",
+          "rationale": "El registro cumple una función que una fecha aislada no sustituye."
+        },
+        {
+          "id": "D",
+          "text": "La trazabilidad exige eliminar la clasificación archivística.",
+          "rationale": "Clasificación y seguimiento son componentes compatibles."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Los metadatos son componentes de la gestión; su mera presencia no garantiza trazabilidad completa.",
+      "references": [
+        {
+          "sourceId": "decree-1080-2015-archives",
+          "sourceUnitId": "decree-1080-2015-archives-review-unit",
+          "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0046",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0046",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0047",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_documental",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un expediente se conserva, pero sus documentos se separan de toda referencia a la serie a la que pertenecen. ¿Qué tarea de organización debe recuperarse?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conservar solo la última página de cada documento.",
+          "rationale": "Reducir contenido no resuelve la pérdida de contexto."
+        },
+        {
+          "id": "B",
+          "text": "Clasificar y describir los documentos dentro de su contexto archivístico.",
+          "rationale": "La organización documental incluye clasificación y descripción."
+        },
+        {
+          "id": "C",
+          "text": "Asignar nombres de archivo sin relación con la serie.",
+          "rationale": "Cambiar nombres sin contexto no recupera la organización requerida."
+        },
+        {
+          "id": "D",
+          "text": "Definir únicamente permisos de impresión.",
+          "rationale": "Los permisos no describen la pertenencia archivística."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "La organización documental incluye clasificación y descripción.",
+      "references": [
+        {
+          "sourceId": "decree-1080-2015-archives",
+          "sourceUnitId": "decree-1080-2015-archives-review-unit",
+          "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0047",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0047",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0050",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "atencion_transparencia_y_datos",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un servidor niega acceso por protección de derechos del artículo 18 de la Ley 1712 mediante un «no» verbal sin razones. ¿Qué falta en la denegación?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una motivación escrita.",
+          "rationale": "La denegación amparada en el artículo 18 debe ser motivada y escrita."
+        },
+        {
+          "id": "B",
+          "text": "Una afirmación de reserva sin identificar su fundamento.",
+          "rationale": "Repetir la palabra reserva no satisface la motivación."
+        },
+        {
+          "id": "C",
+          "text": "La aprobación comercial del solicitante.",
+          "rationale": "No es el requisito descrito para fundamentar la negativa."
+        },
+        {
+          "id": "D",
+          "text": "Eliminar toda copia del documento.",
+          "rationale": "La forma de denegación no exige destruir el archivo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "La denegación amparada en el artículo 18 debe ser motivada y escrita.",
+      "references": [
+        {
+          "sourceId": "law-1712-2014",
+          "sourceUnitId": "law-1712-2014-review-unit",
+          "locator": "Ley 1712 de 2014, artículos 18 y 21",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0050",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0050",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0052",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "atencion_transparencia_y_datos",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un equipo cree que «versión pública» significa modificar los hechos del documento para no mostrar información protegida. ¿Qué debe hacer en realidad?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eliminar también todo contenido público relacionado.",
+          "rationale": "La relación temática no amplía automáticamente la excepción."
+        },
+        {
+          "id": "B",
+          "text": "Calificar el documento completo como inexistente.",
+          "rationale": "La existencia de una excepción no hace inexistente el documento."
+        },
+        {
+          "id": "C",
+          "text": "Separar u ocultar la parte exceptuada sin inventar hechos para sustituirla.",
+          "rationale": "El acceso parcial permite proteger contenido, no falsear el contenido entregado."
+        },
+        {
+          "id": "D",
+          "text": "Reemplazar cifras protegidas por cifras ficticias presentadas como reales.",
+          "rationale": "Eso altera la veracidad del documento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "El acceso parcial permite proteger contenido, no falsear el contenido entregado.",
+      "references": [
+        {
+          "sourceId": "law-1712-2014",
+          "sourceUnitId": "law-1712-2014-review-unit",
+          "locator": "Ley 1712 de 2014, artículos 18 y 21",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0052",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0052",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0055",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Dos áreas afirman haber cumplido un plan, pero no presentan indicadores ni evidencias de ejecución. ¿Qué impide completar la etapa Verificar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Que la meta haya sido acordada antes de ejecutar.",
+          "rationale": "Una meta previa es necesaria para el contraste, no un obstáculo."
+        },
+        {
+          "id": "B",
+          "text": "La falta de evidencia para contrastar lo ejecutado con las metas.",
+          "rationale": "Verificar necesita una base observable de comparación."
+        },
+        {
+          "id": "C",
+          "text": "Que el informe tenga pocas páginas.",
+          "rationale": "La extensión no determina la suficiencia de la evidencia."
+        },
+        {
+          "id": "D",
+          "text": "Que ambas áreas usen el mismo formato de encabezado.",
+          "rationale": "El encabezado no impide medir ni comparar resultados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Verificar necesita una base observable de comparación.",
+      "references": [
+        {
+          "sourceId": "minvivienda-phva-methodology",
+          "sourceUnitId": "minvivienda-phva-methodology-review-unit",
+          "locator": "Metodología de indicadores de gestión, página PDF 2, Introducción",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0055",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0055",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0056",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "El seguimiento encuentra una desviación respecto de la meta. ¿Para qué sirve ese hallazgo dentro del ciclo PHVA?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Para suprimir futuras mediciones.",
+          "rationale": "Abandonar mediciones impide comprobar la evolución."
+        },
+        {
+          "id": "B",
+          "text": "Para afirmar que planear ya no es necesario.",
+          "rationale": "El contraste conserva su relación con lo planeado."
+        },
+        {
+          "id": "C",
+          "text": "Para orientar el análisis y los ajustes posteriores.",
+          "rationale": "La verificación suministra información para mejorar la actuación."
+        },
+        {
+          "id": "D",
+          "text": "Para demostrar automáticamente una causa única.",
+          "rationale": "La desviación por sí sola no identifica su causa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "La verificación suministra información para mejorar la actuación.",
+      "references": [
+        {
+          "sourceId": "minvivienda-phva-methodology",
+          "sourceUnitId": "minvivienda-phva-methodology-review-unit",
+          "locator": "Metodología de indicadores de gestión, página PDF 2, Introducción",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0056",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0056",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0058",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un indicador de cumplimiento no documenta el cálculo y cada área obtiene valores diferentes con los mismos datos. ¿Qué elemento debe precisarse primero?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fórmula de cálculo.",
+          "rationale": "Una fórmula explícita hace reproducible la transformación de los datos."
+        },
+        {
+          "id": "B",
+          "text": "El color del tablero.",
+          "rationale": "El color no define cómo calcular el valor."
+        },
+        {
+          "id": "C",
+          "text": "El nombre del despacho exclusivamente.",
+          "rationale": "La identificación institucional no resuelve el cálculo."
+        },
+        {
+          "id": "D",
+          "text": "El tamaño de fuente del reporte.",
+          "rationale": "La tipografía no explica la discrepancia numérica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Una fórmula explícita hace reproducible la transformación de los datos.",
+      "references": [
+        {
+          "sourceId": "funcion-publica-indicators",
+          "sourceUnitId": "funcion-publica-indicators-review-unit",
+          "locator": "MIPG, Seguimiento, evaluación y control integral, política Evaluación y seguimiento, Lineamientos, lista «La entidad debe verificar que»",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0058",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0058",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0059",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Se propone mejorar un indicador sin registrar su valor inicial. ¿Qué elemento falta para comparar con la situación de partida?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El responsable como resultado de referencia.",
+          "rationale": "Una persona responsable no representa un valor medido."
+        },
+        {
+          "id": "B",
+          "text": "La línea base.",
+          "rationale": "La línea base fija la referencia inicial para el seguimiento."
+        },
+        {
+          "id": "C",
+          "text": "La meta como sustituto de todo dato inicial.",
+          "rationale": "La meta expresa el resultado deseado, no la situación de partida."
+        },
+        {
+          "id": "D",
+          "text": "La periodicidad como valor inicial.",
+          "rationale": "La periodicidad indica cuándo medir, no cuánto se observó inicialmente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "La línea base fija la referencia inicial para el seguimiento.",
+      "references": [
+        {
+          "sourceId": "funcion-publica-indicators",
+          "sourceUnitId": "funcion-publica-indicators-review-unit",
+          "locator": "MIPG, Seguimiento, evaluación y control integral, política Evaluación y seguimiento, Lineamientos, lista «La entidad debe verificar que»",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0059",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0059",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0060",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un indicador tiene fórmula y meta, pero nadie sabe de qué registros salen sus datos. ¿Qué componente debe documentarse?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solo la unidad de medida.",
+          "rationale": "La unidad describe la escala, no dónde obtener datos."
+        },
+        {
+          "id": "B",
+          "text": "Una frecuencia aleatoria de actualización.",
+          "rationale": "La frecuencia no subsana la falta de origen de los datos."
+        },
+        {
+          "id": "C",
+          "text": "La fuente de información.",
+          "rationale": "La fuente permite localizar y comprobar los datos utilizados."
+        },
+        {
+          "id": "D",
+          "text": "Una nueva meta más fácil.",
+          "rationale": "Cambiar la meta no identifica los registros de origen."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "La fuente permite localizar y comprobar los datos utilizados.",
+      "references": [
+        {
+          "sourceId": "funcion-publica-indicators",
+          "sourceUnitId": "funcion-publica-indicators-review-unit",
+          "locator": "MIPG, Seguimiento, evaluación y control integral, política Evaluación y seguimiento, Lineamientos, lista «La entidad debe verificar que»",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0060",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0060",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0061",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un indicador debía actualizarse mensualmente, pero no se asignó quién lo produce. ¿Qué componente organizativo falta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La línea base.",
+          "rationale": "La referencia inicial no asigna a una persona o rol la tarea."
+        },
+        {
+          "id": "B",
+          "text": "La unidad porcentual.",
+          "rationale": "La unidad no determina quién actualiza el indicador."
+        },
+        {
+          "id": "C",
+          "text": "Una fórmula diferente cada mes.",
+          "rationale": "Cambiar el cálculo no resuelve la falta de responsabilidad."
+        },
+        {
+          "id": "D",
+          "text": "El responsable.",
+          "rationale": "Asignar responsabilidad permite organizar la producción y seguimiento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Asignar responsabilidad permite organizar la producción y seguimiento.",
+      "references": [
+        {
+          "sourceId": "funcion-publica-indicators",
+          "sourceUnitId": "funcion-publica-indicators-review-unit",
+          "locator": "MIPG, Seguimiento, evaluación y control integral, política Evaluación y seguimiento, Lineamientos, lista «La entidad debe verificar que»",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0061",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0061",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0062",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un reporte muestra «12» como tiempo de atención sin indicar si son horas o días. ¿Qué elemento evita esa ambigüedad?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La unidad de medida.",
+          "rationale": "La unidad da significado a la magnitud numérica."
+        },
+        {
+          "id": "B",
+          "text": "El objetivo redactado solo como «mejorar».",
+          "rationale": "Un objetivo general no distingue horas de días."
+        },
+        {
+          "id": "C",
+          "text": "El responsable del contrato.",
+          "rationale": "La identidad del responsable no define la escala."
+        },
+        {
+          "id": "D",
+          "text": "La fecha de inauguración de la oficina.",
+          "rationale": "Esa fecha no resuelve la unidad del tiempo medido."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "La unidad da significado a la magnitud numérica.",
+      "references": [
+        {
+          "sourceId": "funcion-publica-indicators",
+          "sourceUnitId": "funcion-publica-indicators-review-unit",
+          "locator": "MIPG, Seguimiento, evaluación y control integral, política Evaluación y seguimiento, Lineamientos, lista «La entidad debe verificar que»",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0062",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0062",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0063",
+      "status": "validated_assisted",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un indicador combina cifras semanales y anuales sin aclarar su periodo de seguimiento. ¿Qué componente debe fijarse para organizar la medición regular?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La cantidad de usuarios del tablero.",
+          "rationale": "Los usuarios no definen por sí mismos el periodo."
+        },
+        {
+          "id": "B",
+          "text": "La periodicidad.",
+          "rationale": "La periodicidad establece la frecuencia con que debe producirse la medición."
+        },
+        {
+          "id": "C",
+          "text": "Una meta sin periodo.",
+          "rationale": "Una meta sin referencia temporal no ordena la frecuencia."
+        },
+        {
+          "id": "D",
+          "text": "La inicial del nombre del indicador.",
+          "rationale": "La abreviatura no determina el intervalo de medición."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "La periodicidad establece la frecuencia con que debe producirse la medición.",
+      "references": [
+        {
+          "sourceId": "funcion-publica-indicators",
+          "sourceUnitId": "funcion-publica-indicators-review-unit",
+          "locator": "MIPG, Seguimiento, evaluación y control integral, política Evaluación y seguimiento, Lineamientos, lista «La entidad debe verificar que»",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0063",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0063",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0065",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "datos_y_analitica",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una base observacional de un millón de registros muestra asociación entre una capacitación y el desempeño. ¿Qué permite afirmar su tamaño, por sí solo, sobre la causalidad?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Garantiza que la capacitación es la única causa.",
+          "rationale": "El tamaño no descarta otras explicaciones."
+        },
+        {
+          "id": "B",
+          "text": "Elimina automáticamente todas las variables de confusión.",
+          "rationale": "La confusión depende de cómo se obtuvieron y analizaron los datos."
+        },
+        {
+          "id": "C",
+          "text": "Prueba el mecanismo causal sin estudiar el contexto.",
+          "rationale": "El mecanismo no se identifica solo contando registros."
+        },
+        {
+          "id": "D",
+          "text": "No convierte por sí solo la asociación en prueba causal.",
+          "rationale": "Más observaciones no reemplazan un diseño y evidencia adecuados para inferir causalidad."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Más observaciones no reemplazan un diseño y evidencia adecuados para inferir causalidad.",
+      "references": [
+        {
+          "sourceId": "nist-correlation",
+          "sourceUnitId": "nist-correlation-review-unit",
+          "locator": "NIST Engineering Statistics Handbook, 3.1.3.6 Experiments and Experimental Design, apartados Correlation y Causality",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0065",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0065",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0066",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "datos_y_analitica",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un analista sospecha que una tercera variable explica la asociación entre X e Y. ¿Qué práctica es coherente con la cautela causal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Examinar esa explicación alternativa antes de atribuir un efecto de X sobre Y.",
+          "rationale": "Considerar contexto y otras explicaciones evita equiparar correlación y causa."
+        },
+        {
+          "id": "B",
+          "text": "Descartarla porque el coeficiente es alto.",
+          "rationale": "Un coeficiente alto no excluye causas comunes."
+        },
+        {
+          "id": "C",
+          "text": "Ocultar la sospecha para simplificar el informe.",
+          "rationale": "Ocultar incertidumbre debilita la interpretación."
+        },
+        {
+          "id": "D",
+          "text": "Afirmar causalidad porque X aparece primero en la tabla.",
+          "rationale": "El orden de columnas no establece un mecanismo causal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Considerar contexto y otras explicaciones evita equiparar correlación y causa.",
+      "references": [
+        {
+          "sourceId": "nist-correlation",
+          "sourceUnitId": "nist-correlation-review-unit",
+          "locator": "NIST Engineering Statistics Handbook, 3.1.3.6 Experiments and Experimental Design, apartados Correlation y Causality",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0066",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0066",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0067",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "datos_y_analitica",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "El único hallazgo es una correlación negativa entre dos variables. ¿Qué frase comunica ese resultado sin exceder la evidencia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una asociación negativa siempre revela un error en los datos.",
+          "rationale": "La asociación negativa puede ser un resultado válido."
+        },
+        {
+          "id": "B",
+          "text": "Se observó asociación inversa; el análisis no demuestra una relación causal.",
+          "rationale": "Separa el signo de la asociación de una afirmación sobre causas."
+        },
+        {
+          "id": "C",
+          "text": "Reducir X obligatoriamente aumentará Y en cada caso.",
+          "rationale": "Atribuye un efecto de intervención no demostrado."
+        },
+        {
+          "id": "D",
+          "text": "La relación inversa demuestra ausencia de otras variables.",
+          "rationale": "El signo no excluye variables adicionales."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Separa el signo de la asociación de una afirmación sobre causas.",
+      "references": [
+        {
+          "sourceId": "nist-correlation",
+          "sourceUnitId": "nist-correlation-review-unit",
+          "locator": "NIST Engineering Statistics Handbook, 3.1.3.6 Experiments and Experimental Design, apartados Correlation y Causality",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0067",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0067",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0069",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "datos_y_analitica",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una encuesta sobre acceso a trámites digitales solo se aplica a quienes ya usan el portal. ¿Qué población puede quedar sistemáticamente excluida?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Únicamente quienes respondieron todas las preguntas.",
+          "rationale": "Esas personas sí forman parte de la muestra descrita."
+        },
+        {
+          "id": "B",
+          "text": "Toda la población usuaria del portal por definición.",
+          "rationale": "El portal es precisamente el canal utilizado para seleccionar participantes."
+        },
+        {
+          "id": "C",
+          "text": "Solo quienes tienen opiniones positivas.",
+          "rationale": "El mecanismo descrito no selecciona explícitamente por opinión."
+        },
+        {
+          "id": "D",
+          "text": "Quienes no consiguen acceder al portal.",
+          "rationale": "La selección por uso del portal impide observar a quienes enfrentan barreras de acceso."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "La selección por uso del portal impide observar a quienes enfrentan barreras de acceso.",
+      "references": [
+        {
+          "sourceId": "cdc-data-analysis",
+          "sourceUnitId": "cdc-data-analysis-review-unit",
+          "locator": "CDC Field Epidemiology Manual, Analyzing and Interpreting Data, Developing an Analysis Plan (Get to know your data) e Interpreting Results (Selection bias)",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0069",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0069",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0070",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "datos_y_analitica",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un análisis de duración de expedientes incluye solo los cerrados y omite los que siguen abiertos. ¿Qué limitación debe informarse?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La selección puede dejar fuera casos de mayor duración aún no resueltos.",
+          "rationale": "Condicionar la inclusión al cierre puede sesgar la descripción de todos los casos."
+        },
+        {
+          "id": "B",
+          "text": "Los casos abiertos tienen necesariamente duración cero.",
+          "rationale": "No estar cerrado no significa no haber consumido tiempo."
+        },
+        {
+          "id": "C",
+          "text": "La exclusión garantiza representatividad de todos los expedientes.",
+          "rationale": "La selección sistemática no garantiza esa representatividad."
+        },
+        {
+          "id": "D",
+          "text": "El tamaño de la hoja de cálculo elimina el problema.",
+          "rationale": "El formato de almacenamiento no corrige la selección."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Condicionar la inclusión al cierre puede sesgar la descripción de todos los casos.",
+      "references": [
+        {
+          "sourceId": "cdc-data-analysis",
+          "sourceUnitId": "cdc-data-analysis-review-unit",
+          "locator": "CDC Field Epidemiology Manual, Analyzing and Interpreting Data, Developing an Analysis Plan (Get to know your data) e Interpreting Results (Selection bias)",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0070",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0070",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0071",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "datos_y_analitica",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un equipo resume frecuencias de errores de los registros observados. Sin otro análisis, ¿qué producto está elaborando?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una certificación automática de toda la población.",
+          "rationale": "No se estableció representatividad ni cobertura total."
+        },
+        {
+          "id": "B",
+          "text": "Una descripción de los datos observados.",
+          "rationale": "Resumir frecuencias caracteriza lo observado sin demostrar causas."
+        },
+        {
+          "id": "C",
+          "text": "Una prueba definitiva del origen de cada error.",
+          "rationale": "Las frecuencias por sí solas no identifican mecanismos causales."
+        },
+        {
+          "id": "D",
+          "text": "Una garantía de lo que ocurrirá el próximo año.",
+          "rationale": "Una descripción no garantiza resultados futuros."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Resumir frecuencias caracteriza lo observado sin demostrar causas.",
+      "references": [
+        {
+          "sourceId": "cdc-data-analysis",
+          "sourceUnitId": "cdc-data-analysis-review-unit",
+          "locator": "CDC Field Epidemiology Manual, Analyzing and Interpreting Data, Developing an Analysis Plan (Get to know your data) e Interpreting Results (Selection bias)",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0071",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0071",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0072",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "datos_y_analitica",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un informe usa respuestas de voluntarios como si fueran necesariamente representativas de todos los ciudadanos. ¿Qué debe examinarse?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si el promedio se imprimió con muchos decimales.",
+          "rationale": "La precisión de presentación no corrige selección."
+        },
+        {
+          "id": "B",
+          "text": "Si todos los participantes usaron el mismo tipo de letra.",
+          "rationale": "La tipografía no informa diferencias de participación."
+        },
+        {
+          "id": "C",
+          "text": "Si quienes participaron difieren sistemáticamente de quienes no participaron.",
+          "rationale": "Las diferencias de participación pueden introducir sesgo de selección."
+        },
+        {
+          "id": "D",
+          "text": "Solo si el logotipo institucional está actualizado.",
+          "rationale": "La identidad visual no determina representatividad."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Las diferencias de participación pueden introducir sesgo de selección.",
+      "references": [
+        {
+          "sourceId": "cdc-data-analysis",
+          "sourceUnitId": "cdc-data-analysis-review-unit",
+          "locator": "CDC Field Epidemiology Manual, Analyzing and Interpreting Data, Developing an Analysis Plan (Get to know your data) e Interpreting Results (Selection bias)",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0072",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0072",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0073",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "datos_y_analitica",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Para evaluar fallas de un servicio se analizan únicamente días en que el sistema estuvo disponible. ¿Qué defecto de selección es relevante?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Se incluyen demasiados periodos de caída.",
+          "rationale": "El criterio descrito excluye esos periodos."
+        },
+        {
+          "id": "B",
+          "text": "Se garantiza que las fallas no existen.",
+          "rationale": "La exclusión no demuestra ausencia de fallas."
+        },
+        {
+          "id": "C",
+          "text": "Se demuestra que la disponibilidad causa cualquier satisfacción.",
+          "rationale": "No se ha establecido ninguna relación causal."
+        },
+        {
+          "id": "D",
+          "text": "Se excluyen justamente periodos de indisponibilidad que forman parte del problema.",
+          "rationale": "Seleccionar solo días disponibles limita la descripción de las fallas del servicio."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Seleccionar solo días disponibles limita la descripción de las fallas del servicio.",
+      "references": [
+        {
+          "sourceId": "cdc-data-analysis",
+          "sourceUnitId": "cdc-data-analysis-review-unit",
+          "locator": "CDC Field Epidemiology Manual, Analyzing and Interpreting Data, Developing an Analysis Plan (Get to know your data) e Interpreting Results (Selection bias)",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0073",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0073",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0074",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "datos_y_analitica",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una muestra contiene solo registros urbanos, pero el informe se refiere a usuarios urbanos y rurales. ¿Qué alcance sería honesto mientras no se incorpore evidencia rural?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Limitar las conclusiones descriptivas a los registros urbanos analizados.",
+          "rationale": "El alcance debe reconocer el segmento efectivamente observado."
+        },
+        {
+          "id": "B",
+          "text": "Afirmar que el resultado rural es idéntico por defecto.",
+          "rationale": "No hay evidencia para esa equivalencia."
+        },
+        {
+          "id": "C",
+          "text": "Duplicar filas urbanas para representar población rural.",
+          "rationale": "Duplicar datos no incorpora el segmento omitido."
+        },
+        {
+          "id": "D",
+          "text": "Cambiar las etiquetas de algunas filas a «rural».",
+          "rationale": "Reetiquetar sin evidencia falsea el origen de los datos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "El alcance debe reconocer el segmento efectivamente observado.",
+      "references": [
+        {
+          "sourceId": "cdc-data-analysis",
+          "sourceUnitId": "cdc-data-analysis-review-unit",
+          "locator": "CDC Field Epidemiology Manual, Analyzing and Interpreting Data, Developing an Analysis Plan (Get to know your data) e Interpreting Results (Selection bias)",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0074",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0074",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0075",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "La tabla de solicitudes guarda un identificador de ciudadano que no existe en la tabla de ciudadanos. ¿Qué problema presenta esa relación?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una regla de cifrado.",
+          "rationale": "La existencia del registro no es una propiedad criptográfica."
+        },
+        {
+          "id": "B",
+          "text": "Una referencia huérfana.",
+          "rationale": "El identificador apunta a una entidad ausente de la tabla referenciada."
+        },
+        {
+          "id": "C",
+          "text": "Una garantía de integridad referencial.",
+          "rationale": "La referencia inexistente es precisamente una violación de esa integridad."
+        },
+        {
+          "id": "D",
+          "text": "Una copia de seguridad válida.",
+          "rationale": "La relación entre registros no constituye un respaldo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "El identificador apunta a una entidad ausente de la tabla referenciada.",
+      "references": [
+        {
+          "sourceId": "missouri-db-integrity",
+          "sourceUnitId": "missouri-db-integrity-review-unit",
+          "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0075",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0075",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0077",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una migración carga expedientes cuyo código de dependencia no existe en el catálogo destino. ¿Qué verificación debe preceder a aceptar esas relaciones?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aceptar todos los códigos porque el archivo tiene formato JSON.",
+          "rationale": "Un formato válido no garantiza relaciones válidas."
+        },
+        {
+          "id": "B",
+          "text": "Eliminar el catálogo para evitar comparaciones.",
+          "rationale": "Quitar el catálogo no demuestra validez referencial."
+        },
+        {
+          "id": "C",
+          "text": "Cambiar la extensión del archivo.",
+          "rationale": "La extensión no corrige códigos sin correspondencia."
+        },
+        {
+          "id": "D",
+          "text": "Comprobar o resolver la correspondencia con dependencias existentes.",
+          "rationale": "Los códigos deben referenciar entidades válidas en el destino."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Los códigos deben referenciar entidades válidas en el destino.",
+      "references": [
+        {
+          "sourceId": "missouri-db-integrity",
+          "sourceUnitId": "missouri-db-integrity-review-unit",
+          "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0077",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0077",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0078",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una aplicación guarda nombres de dependencias como relaciones libres y admite errores de escritura. ¿Qué diseño fortalece la validez de la relación?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Usar identificadores del catálogo con una restricción referencial.",
+          "rationale": "La referencia controlada vincula el registro con una dependencia existente."
+        },
+        {
+          "id": "B",
+          "text": "Mantener texto libre y confiar solo en recordar los nombres.",
+          "rationale": "La memoria del usuario no impide valores inexistentes."
+        },
+        {
+          "id": "C",
+          "text": "Permitir cualquier cadena siempre que tenga diez caracteres.",
+          "rationale": "La longitud no prueba pertenencia al catálogo."
+        },
+        {
+          "id": "D",
+          "text": "Ordenar alfabéticamente los errores después de guardarlos.",
+          "rationale": "Ordenar datos inválidos no corrige la referencia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "La referencia controlada vincula el registro con una dependencia existente.",
+      "references": [
+        {
+          "sourceId": "missouri-db-integrity",
+          "sourceUnitId": "missouri-db-integrity-review-unit",
+          "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0078",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0078",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0079",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una restricción referencial está satisfecha, pero el usuario eligió una dependencia existente que no correspondía al caso. ¿Qué demuestra ese ejemplo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Las tablas ya no necesitan claves.",
+          "rationale": "El error de negocio no elimina la utilidad de las claves."
+        },
+        {
+          "id": "B",
+          "text": "La existencia de la referencia no garantiza toda la corrección del dato de negocio.",
+          "rationale": "La restricción comprueba la relación válida, no la veracidad de la elección en ese caso."
+        },
+        {
+          "id": "C",
+          "text": "Toda referencia existente es necesariamente la correcta para cualquier trámite.",
+          "rationale": "Confunde existencia con exactitud de negocio."
+        },
+        {
+          "id": "D",
+          "text": "La integridad referencial comprueba automáticamente la intención del usuario.",
+          "rationale": "Ese alcance excede la restricción relacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "La restricción comprueba la relación válida, no la veracidad de la elección en ese caso.",
+      "references": [
+        {
+          "sourceId": "missouri-db-integrity",
+          "sourceUnitId": "missouri-db-integrity-review-unit",
+          "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0079",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0079",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0080",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Se eliminará una fila padre que aún tiene registros hijos. Sin asumir una política concreta de borrado, ¿qué condición debe preservar el diseño?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Borrar necesariamente todas las tablas de la base.",
+          "rationale": "No se deduce esa medida de la integridad referencial."
+        },
+        {
+          "id": "B",
+          "text": "Mantener el código eliminado como si el padre aún existiera.",
+          "rationale": "Conservar el valor sin padre deja una referencia huérfana."
+        },
+        {
+          "id": "C",
+          "text": "Evitar que queden relaciones apuntando a una fila inexistente.",
+          "rationale": "La política elegida debe mantener la validez referencial."
+        },
+        {
+          "id": "D",
+          "text": "Permitir siempre referencias rotas como resultado normal.",
+          "rationale": "Eso contradice el propósito de la integridad referencial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "La política elegida debe mantener la validez referencial.",
+      "references": [
+        {
+          "sourceId": "missouri-db-integrity",
+          "sourceUnitId": "missouri-db-integrity-review-unit",
+          "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0080",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0080",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0081",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una transacción debe descontar un saldo y acreditar otro como unidad. Falla la acreditación antes de confirmar. ¿Qué resultado exige atomicidad?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirmar el descuento y olvidar la acreditación.",
+          "rationale": "Conserva una ejecución parcial de la unidad transaccional."
+        },
+        {
+          "id": "B",
+          "text": "Duplicar el descuento para compensar el fallo.",
+          "rationale": "No completa ni revierte correctamente el conjunto."
+        },
+        {
+          "id": "C",
+          "text": "Declarar éxito porque se ejecutó una sentencia.",
+          "rationale": "Una sentencia exitosa no equivale a completar la transacción."
+        },
+        {
+          "id": "D",
+          "text": "No conservar solo el descuento; revertir el conjunto no completado.",
+          "rationale": "Todo-o-nada impide confirmar una mitad de la operación."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Todo-o-nada impide confirmar una mitad de la operación.",
+      "references": [
+        {
+          "sourceId": "nist-acid",
+          "sourceUnitId": "nist-acid-review-unit",
+          "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0081",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0081",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0083",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un proceso confirma cada fila por separado. Se desea que diez filas se acepten o rechacen juntas. ¿Qué cambio conceptual se requiere?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ocultar las filas fallidas del reporte.",
+          "rationale": "Ocultar fallos no revierte las confirmaciones parciales."
+        },
+        {
+          "id": "B",
+          "text": "Definir esas diez operaciones como una unidad transaccional común.",
+          "rationale": "La frontera de la transacción debe abarcar el conjunto que se pretende hacer atómico."
+        },
+        {
+          "id": "C",
+          "text": "Seguir confirmando cada fila y llamar «atómico» al archivo.",
+          "rationale": "El nombre no modifica la unidad real de confirmación."
+        },
+        {
+          "id": "D",
+          "text": "Cambiar el separador de columnas del archivo.",
+          "rationale": "El formato no agrupa las operaciones transaccionalmente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "La frontera de la transacción debe abarcar el conjunto que se pretende hacer atómico.",
+      "references": [
+        {
+          "sourceId": "nist-acid",
+          "sourceUnitId": "nist-acid-review-unit",
+          "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0083",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0083",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0084",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una plataforma anuncia atomicidad. ¿Qué afirmación queda fuera de lo que demuestra esa propiedad por sí sola?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Que el conjunto puede revertirse cuando no se completa.",
+          "rationale": "La reversión es compatible con todo-o-nada."
+        },
+        {
+          "id": "B",
+          "text": "Que el límite de la transacción importa para evaluar el conjunto.",
+          "rationale": "La unidad definida determina a qué operaciones se aplica la propiedad."
+        },
+        {
+          "id": "C",
+          "text": "Que toda transacción será siempre aceptada sin fallar.",
+          "rationale": "Atomicidad define el resultado todo-o-nada; permite revertir una transacción fallida."
+        },
+        {
+          "id": "D",
+          "text": "Que no debe confirmarse solo una parte de la transacción.",
+          "rationale": "Eso sí describe la exigencia de atomicidad."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Atomicidad define el resultado todo-o-nada; permite revertir una transacción fallida.",
+      "references": [
+        {
+          "sourceId": "nist-acid",
+          "sourceUnitId": "nist-acid-review-unit",
+          "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0084",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0084",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0086",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Dos operaciones se ejecutan en transacciones independientes. La primera confirma y la segunda falla. ¿Puede exigirse reversión automática de la primera solo por atomicidad de cada transacción?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No; la atomicidad individual no convierte ambas transacciones en una sola unidad.",
+          "rationale": "La propiedad se aplica a cada frontera transaccional definida."
+        },
+        {
+          "id": "B",
+          "text": "Sí; atomicidad une automáticamente todas las operaciones de una aplicación.",
+          "rationale": "Atribuye a la propiedad un alcance global no definido."
+        },
+        {
+          "id": "C",
+          "text": "Sí; toda transacción posterior puede deshacer cualquiera anterior.",
+          "rationale": "No es una consecuencia del todo-o-nada individual."
+        },
+        {
+          "id": "D",
+          "text": "No puede existir más de una transacción en una base.",
+          "rationale": "La atomicidad no limita la base a una única transacción."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "La propiedad se aplica a cada frontera transaccional definida.",
+      "references": [
+        {
+          "sourceId": "nist-acid",
+          "sourceUnitId": "nist-acid-review-unit",
+          "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0086",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0086",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0087",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una identidad de servicio solo consulta un catálogo, pero tiene permiso de borrado sobre toda la base. ¿Qué ajuste aplica mínimo privilegio?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Compartir la identidad con más servicios.",
+          "rationale": "Compartirla no reduce el exceso de permisos."
+        },
+        {
+          "id": "B",
+          "text": "Limitarla a los accesos de consulta necesarios para su tarea.",
+          "rationale": "El permiso de borrado excede la función de consulta descrita."
+        },
+        {
+          "id": "C",
+          "text": "Conservar borrado porque nunca se ha utilizado.",
+          "rationale": "La falta de uso no hace necesario ese privilegio."
+        },
+        {
+          "id": "D",
+          "text": "Agregar permisos de administración del servidor.",
+          "rationale": "Amplía la exposición sin relación con la tarea."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "El permiso de borrado excede la función de consulta descrita.",
+      "references": [
+        {
+          "sourceId": "nist-least-privilege",
+          "sourceUnitId": "nist-least-privilege-review-unit",
+          "locator": "NIST glossary, definición least privilege",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0087",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0087",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0088",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un funcionario cambia de función y deja de administrar una aplicación. ¿Qué revisión es coherente con mínimo privilegio?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Añadir accesos de todos los compañeros.",
+          "rationale": "Eso amplía privilegios sin necesidad funcional."
+        },
+        {
+          "id": "B",
+          "text": "Cambiar solo el nombre visible de la cuenta.",
+          "rationale": "El nombre no modifica los permisos efectivos."
+        },
+        {
+          "id": "C",
+          "text": "Retirar los accesos que ya no sean necesarios para la nueva tarea.",
+          "rationale": "La necesidad debe corresponder a las funciones actuales."
+        },
+        {
+          "id": "D",
+          "text": "Conservar todos los accesos históricos por antigüedad.",
+          "rationale": "La antigüedad no justifica permisos ajenos a la función."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "La necesidad debe corresponder a las funciones actuales.",
+      "references": [
+        {
+          "sourceId": "nist-least-privilege",
+          "sourceUnitId": "nist-least-privilege-review-unit",
+          "locator": "NIST glossary, definición least privilege",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0088",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0088",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0090",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un equipo afirma que la definición NIST de mínimo privilegio exige exactamente renovar permisos cada 24 horas. ¿Qué evaluación es correcta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La definición limita accesos por necesidad; no fija ese intervalo exacto.",
+          "rationale": "El intervalo temporal no se deduce de la definición citada."
+        },
+        {
+          "id": "B",
+          "text": "El intervalo de 24 horas es el único permitido por la definición.",
+          "rationale": "Añade una exigencia temporal ausente del concepto."
+        },
+        {
+          "id": "C",
+          "text": "Renovar cada 24 horas permite dar cualquier permiso.",
+          "rationale": "Una frecuencia de renovación no justifica accesos innecesarios."
+        },
+        {
+          "id": "D",
+          "text": "La definición exige acceso administrativo permanente.",
+          "rationale": "Contradice la limitación por necesidad."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "El intervalo temporal no se deduce de la definición citada.",
+      "references": [
+        {
+          "sourceId": "nist-least-privilege",
+          "sourceUnitId": "nist-least-privilege-review-unit",
+          "locator": "NIST glossary, definición least privilege",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0090",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0090",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0094",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un almacén de secretos permite a todas las identidades leer todas las claves. ¿Qué debe revisarse según las recomendaciones citadas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Los controles de acceso de las identidades a los secretos.",
+          "rationale": "Usar un almacén no elimina la necesidad de limitar quién accede."
+        },
+        {
+          "id": "B",
+          "text": "Solo el logotipo del almacén.",
+          "rationale": "El logotipo no restringe lecturas."
+        },
+        {
+          "id": "C",
+          "text": "Publicar también las claves para igualar condiciones.",
+          "rationale": "Amplía la exposición en lugar de controlar acceso."
+        },
+        {
+          "id": "D",
+          "text": "Cambiar las claves por nombres más cortos.",
+          "rationale": "La longitud del nombre no limita las identidades autorizadas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Usar un almacén no elimina la necesidad de limitar quién accede.",
+      "references": [
+        {
+          "sourceId": "ncsc-cloud-security",
+          "sourceUnitId": "ncsc-cloud-security-review-unit",
+          "locator": "NCSC, Using a cloud platform securely, secciones Authenticate service identities, Apply access controls y Protect secrets carefully",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0094",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0094",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0095",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Se propone autenticar un proceso automático reutilizando una cuenta humana compartida sin distinguir el servicio. ¿Qué diseño favorece el control descrito por NCSC?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dar a cualquier proceso los secretos del usuario administrador.",
+          "rationale": "No limita el acceso conforme a la función del servicio."
+        },
+        {
+          "id": "B",
+          "text": "Identificar y autenticar el servicio con una identidad controlada para su función.",
+          "rationale": "Las identidades de servicio permiten aplicar controles al proceso correspondiente."
+        },
+        {
+          "id": "C",
+          "text": "Eliminar la autenticación porque no hay una persona conectada.",
+          "rationale": "Los procesos automáticos también requieren identidad y controles."
+        },
+        {
+          "id": "D",
+          "text": "Publicar la contraseña compartida en el manual.",
+          "rationale": "La publicación expone la credencial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Las identidades de servicio permiten aplicar controles al proceso correspondiente.",
+      "references": [
+        {
+          "sourceId": "ncsc-cloud-security",
+          "sourceUnitId": "ncsc-cloud-security-review-unit",
+          "locator": "NCSC, Using a cloud platform securely, secciones Authenticate service identities, Apply access controls y Protect secrets carefully",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0095",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0095",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0096",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una solución usa un almacén de secretos, pero copia sus valores a una página pública de diagnóstico. ¿Qué evaluación corresponde?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solo importa el canal de entrada al almacén.",
+          "rationale": "También debe evitarse exposición al utilizar los secretos."
+        },
+        {
+          "id": "B",
+          "text": "La página pública equivale a un control de acceso.",
+          "rationale": "La accesibilidad pública no restringe lectores."
+        },
+        {
+          "id": "C",
+          "text": "La copia pública anula la protección del secreto en ese canal.",
+          "rationale": "El almacén no protege valores que después se divulgan públicamente."
+        },
+        {
+          "id": "D",
+          "text": "La protección está garantizada por el nombre del producto.",
+          "rationale": "Usar una herramienta no garantiza un flujo seguro de datos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "El almacén no protege valores que después se divulgan públicamente.",
+      "references": [
+        {
+          "sourceId": "ncsc-cloud-security",
+          "sourceUnitId": "ncsc-cloud-security-review-unit",
+          "locator": "NCSC, Using a cloud platform securely, secciones Authenticate service identities, Apply access controls y Protect secrets carefully",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0096",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0096",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0098",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Dos equipos implementan una API y su cliente con interpretaciones distintas de la respuesta. ¿Qué artefacto ayuda a acordar ese contrato?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una especificación de API compartida.",
+          "rationale": "La especificación describe el contrato que ambas implementaciones deben interpretar."
+        },
+        {
+          "id": "B",
+          "text": "Un mensaje que solo diga «devolver datos».",
+          "rationale": "Es demasiado impreciso para definir la estructura de respuesta."
+        },
+        {
+          "id": "C",
+          "text": "La lista de nombres del equipo.",
+          "rationale": "No describe solicitudes ni respuestas."
+        },
+        {
+          "id": "D",
+          "text": "Un archivo vacío con extensión JSON.",
+          "rationale": "La extensión sin contenido no establece un contrato."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "La especificación describe el contrato que ambas implementaciones deben interpretar.",
+      "references": [
+        {
+          "sourceId": "homeoffice-api",
+          "sourceUnitId": "homeoffice-api-review-unit",
+          "locator": "Home Office, Designing and Maintaining an API, requisitos You MUST include a form of versioning to your API, You MUST test your API y You MUST use an API Specification",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0098",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0098",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0099",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Las pruebas de una API solo cubren respuestas exitosas. ¿Qué dimensión conviene añadir de acuerdo con el alcance de pruebas citado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asumir que todo error devuelve éxito.",
+          "rationale": "Confunde el resultado y puede ocultar fallos a consumidores."
+        },
+        {
+          "id": "B",
+          "text": "Comportamiento ante errores y respuestas asociadas.",
+          "rationale": "La comprobación debe contemplar cómo responde la API cuando falla una solicitud."
+        },
+        {
+          "id": "C",
+          "text": "Solo capturas de la página institucional.",
+          "rationale": "No ejercitan los casos de error de la API."
+        },
+        {
+          "id": "D",
+          "text": "Eliminar el manejo de errores.",
+          "rationale": "Suprimirlo no valida su comportamiento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "La comprobación debe contemplar cómo responde la API cuando falla una solicitud.",
+      "references": [
+        {
+          "sourceId": "homeoffice-api",
+          "sourceUnitId": "homeoffice-api-review-unit",
+          "locator": "Home Office, Designing and Maintaining an API, requisitos You MUST include a form of versioning to your API, You MUST test your API y You MUST use an API Specification",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0099",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0099",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0100",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "La nueva implementación cumple sus pruebas internas, pero no se ha comprobado con los consumidores. ¿Qué comprobación atiende el riesgo restante?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dar por supuesto que pruebas internas implican compatibilidad total.",
+          "rationale": "Una prueba aislada puede omitir expectativas del consumidor."
+        },
+        {
+          "id": "B",
+          "text": "Ocultar las respuestas a los clientes.",
+          "rationale": "Impedir su uso no demuestra compatibilidad."
+        },
+        {
+          "id": "C",
+          "text": "Pruebas de integración con el contrato esperado por los clientes.",
+          "rationale": "Verifican la interacción entre API y consumidores, no solo componentes aislados."
+        },
+        {
+          "id": "D",
+          "text": "Cambiar el nombre de la rama de desarrollo.",
+          "rationale": "No verifica la interacción."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Verifican la interacción entre API y consumidores, no solo componentes aislados.",
+      "references": [
+        {
+          "sourceId": "homeoffice-api",
+          "sourceUnitId": "homeoffice-api-review-unit",
+          "locator": "Home Office, Designing and Maintaining an API, requisitos You MUST include a form of versioning to your API, You MUST test your API y You MUST use an API Specification",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0100",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0100",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0102",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "software_e_interoperabilidad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una especificación mantiene el esquema antiguo mientras producción entrega otro. ¿Qué problema debe corregirse?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La divergencia entre el contrato documentado y el comportamiento real.",
+          "rationale": "La especificación pierde utilidad para consumidores si no describe lo servido."
+        },
+        {
+          "id": "B",
+          "text": "Que la especificación tenga un título legible.",
+          "rationale": "El título no causa la divergencia del esquema."
+        },
+        {
+          "id": "C",
+          "text": "Que los clientes puedan consultar la documentación.",
+          "rationale": "El acceso a documentación es útil; el problema es su inexactitud."
+        },
+        {
+          "id": "D",
+          "text": "Que existan pruebas de respuestas.",
+          "rationale": "Las pruebas ayudan a detectar esa divergencia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "La especificación pierde utilidad para consumidores si no describe lo servido.",
+      "references": [
+        {
+          "sourceId": "homeoffice-api",
+          "sourceUnitId": "homeoffice-api-review-unit",
+          "locator": "Home Office, Designing and Maintaining an API, requisitos You MUST include a form of versioning to your API, You MUST test your API y You MUST use an API Specification",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0102",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0102",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0103",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Se detecta ransomware en una estación y el plan permite aislarla de red sin apagarla. ¿Qué finalidad tiene ese aislamiento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eliminar cualquier necesidad de investigación.",
+          "rationale": "La contención no sustituye el análisis posterior."
+        },
+        {
+          "id": "B",
+          "text": "Contener la propagación hacia otros sistemas.",
+          "rationale": "Reducir conexiones del sistema afectado limita el alcance del incidente."
+        },
+        {
+          "id": "C",
+          "text": "Demostrar automáticamente quién realizó el ataque.",
+          "rationale": "La contención no identifica por sí sola al autor."
+        },
+        {
+          "id": "D",
+          "text": "Garantizar recuperación inmediata de todos los archivos.",
+          "rationale": "Aislar no equivale a recuperar los datos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Reducir conexiones del sistema afectado limita el alcance del incidente.",
+      "references": [
+        {
+          "sourceId": "cisa-ransomware",
+          "sourceUnitId": "cisa-ransomware-review-unit",
+          "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0103",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0103",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0104",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un analista propone reiniciar todos los equipos afectados antes de considerar evidencia volátil. ¿Qué riesgo debe valorar el responsable del incidente?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Que los registros públicos se conviertan automáticamente en secretos.",
+          "rationale": "No es el riesgo de evidencia volátil planteado."
+        },
+        {
+          "id": "B",
+          "text": "Que deje de ser necesario documentar el incidente.",
+          "rationale": "Reiniciar no elimina el deber operativo de documentar y analizar."
+        },
+        {
+          "id": "C",
+          "text": "La pérdida de evidencia volátil útil para el análisis.",
+          "rationale": "El tratamiento del incidente debe considerar preservar evidencia que puede desaparecer."
+        },
+        {
+          "id": "D",
+          "text": "Que el reinicio aumente necesariamente la memoria disponible para investigación histórica.",
+          "rationale": "No conserva por sí solo el estado previo de memoria."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "El tratamiento del incidente debe considerar preservar evidencia que puede desaparecer.",
+      "references": [
+        {
+          "sourceId": "cisa-ransomware",
+          "sourceUnitId": "cisa-ransomware-review-unit",
+          "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0104",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0104",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0105",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Un equipo desconoce cuántos sistemas están afectados por un ataque. ¿Qué tarea de detección y análisis ayuda a decidir la respuesta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarar que solo existe un equipo afectado sin comprobarlo.",
+          "rationale": "Introduce una certeza sin evidencia."
+        },
+        {
+          "id": "B",
+          "text": "Restablecer todas las conexiones antes de investigar.",
+          "rationale": "Puede ampliar el impacto sin haberlo evaluado."
+        },
+        {
+          "id": "C",
+          "text": "Descartar toda señal que no provenga del primer equipo.",
+          "rationale": "Excluye evidencia potencial del alcance real."
+        },
+        {
+          "id": "D",
+          "text": "Determinar el alcance y el impacto del incidente.",
+          "rationale": "El alcance informa las decisiones de contención y coordinación."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "El alcance informa las decisiones de contención y coordinación.",
+      "references": [
+        {
+          "sourceId": "cisa-ransomware",
+          "sourceUnitId": "cisa-ransomware-review-unit",
+          "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0105",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0105",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0106",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Se propone aplicar siempre la misma acción inicial, sin considerar sistemas críticos ni el plan de respuesta. ¿Qué limitación debe señalarse?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La prioridad operativa depende del incidente y del plan institucional.",
+          "rationale": "La guía de respuesta requiere atender contexto y condiciones de contención."
+        },
+        {
+          "id": "B",
+          "text": "El contexto nunca cambia las decisiones operativas.",
+          "rationale": "Ignora diferencias de impacto y restricciones."
+        },
+        {
+          "id": "C",
+          "text": "Los sistemas críticos deben ignorarse por ser complejos.",
+          "rationale": "Su criticidad es información relevante para responder."
+        },
+        {
+          "id": "D",
+          "text": "Un listado general sustituye toda coordinación institucional.",
+          "rationale": "El plan y los responsables siguen siendo necesarios."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "La guía de respuesta requiere atender contexto y condiciones de contención.",
+      "references": [
+        {
+          "sourceId": "cisa-ransomware",
+          "sourceUnitId": "cisa-ransomware-review-unit",
+          "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0106",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0106",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0107",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Durante un incidente un técnico decide borrar los registros para «limpiar» el sistema antes de investigarlo. ¿Qué criterio debe prevalecer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Publicar las credenciales en los registros restantes.",
+          "rationale": "Añade exposición sin contribuir a una respuesta segura."
+        },
+        {
+          "id": "B",
+          "text": "Preservar evidencia relevante conforme al procedimiento de respuesta.",
+          "rationale": "La eliminación prematura puede impedir reconstruir el incidente."
+        },
+        {
+          "id": "C",
+          "text": "Destruir todo registro para reducir la duración del informe.",
+          "rationale": "La comodidad de reporte no justifica perder evidencia."
+        },
+        {
+          "id": "D",
+          "text": "Conservar únicamente los registros que indiquen éxito.",
+          "rationale": "Seleccionar solo éxitos puede ocultar el ataque."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "La eliminación prematura puede impedir reconstruir el incidente.",
+      "references": [
+        {
+          "sourceId": "cisa-ransomware",
+          "sourceUnitId": "cisa-ransomware-review-unit",
+          "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0107",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0107",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0108",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Se aisló un sistema comprometido. Un usuario solicita reconectarlo por comodidad sin autorización del equipo de respuesta. ¿Qué actuación es coherente con la contención?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asumir que aislar durante un minuto elimina todo compromiso.",
+          "rationale": "El tiempo aislado no garantiza limpieza del sistema."
+        },
+        {
+          "id": "B",
+          "text": "Reutilizar inmediatamente sus credenciales en otros equipos.",
+          "rationale": "No se ha establecido que esas credenciales sean seguras."
+        },
+        {
+          "id": "C",
+          "text": "Mantener la decisión de conexión bajo el procedimiento y evaluación del incidente.",
+          "rationale": "Reconectar sin evaluación puede deshacer la contención adoptada."
+        },
+        {
+          "id": "D",
+          "text": "Reconectarlo automáticamente porque el usuario insiste.",
+          "rationale": "La insistencia no demuestra que el riesgo haya sido tratado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Reconectar sin evaluación puede deshacer la contención adoptada.",
+      "references": [
+        {
+          "sourceId": "cisa-ransomware",
+          "sourceUnitId": "cisa-ransomware-review-unit",
+          "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0108",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0108",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
+      "id": "PGN-EXP-0109",
+      "status": "validated_assisted",
+      "moduleId": "tecnico",
+      "topicId": "infraestructura_nube_y_ciberseguridad",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Una dependencia detecta señales de ransomware y las mantiene dentro del equipo local, sin activar el procedimiento institucional. ¿Qué falta en la respuesta descrita?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Esperar a que todos los sistemas estén afectados para informar.",
+          "rationale": "La espera puede aumentar el impacto y retrasar la contención."
+        },
+        {
+          "id": "B",
+          "text": "Cambiar la denominación del incidente a mantenimiento.",
+          "rationale": "Renombrarlo no activa la respuesta necesaria."
+        },
+        {
+          "id": "C",
+          "text": "Eliminar las alertas para que no se dupliquen.",
+          "rationale": "Suprimir señales no resuelve el incidente."
+        },
+        {
+          "id": "D",
+          "text": "La activación y coordinación previstas en el plan de respuesta.",
+          "rationale": "El tratamiento del incidente incluye los canales y responsables de respuesta."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "El tratamiento del incidente incluye los canales y responsables de respuesta.",
+      "references": [
+        {
+          "sourceId": "cisa-ransomware",
+          "sourceUnitId": "cisa-ransomware-review-unit",
+          "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [],
+      "createdMethod": "ai_draft",
+      "reviews": [
+        {
+          "id": "factual-final-PGN-EXP-0109",
+          "kind": "factual",
+          "method": "ai_assisted",
+          "reviewerId": "codex-factual-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        },
+        {
+          "id": "editorial-final-PGN-EXP-0109",
+          "kind": "editorial",
+          "method": "ai_assisted",
+          "reviewerId": "codex-editorial-final-2026-09-08",
+          "model": null,
+          "reviewedAt": "2026-09-08T05:20:53.596Z",
+          "outcome": "pass",
+          "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        }
+      ],
+      "validFrom": "2026-09-08",
+      "tags": [
+        "original-case",
+        "bank100"
+      ]
+    },
+    {
       "id": "PGN-SEED-0001",
       "status": "validated_assisted",
       "moduleId": "comun",

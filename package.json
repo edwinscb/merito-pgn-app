@@ -9,6 +9,7 @@
     "test": "vitest run",
     "dataset:inventory": "node scripts/build-source-inventory.mjs",
     "dataset:generate-expansion": "node scripts/dataset/generate-expansion.mjs",
+    "dataset:review-expansion": "node scripts/dataset/final-review-promote.mjs",
     "dataset:validate": "tsx scripts/dataset/validate.ts",
     "dataset:build": "tsx scripts/dataset/build.ts",
     "dataset:coverage": "tsx scripts/dataset/coverage.ts"

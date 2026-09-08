@@ -3,15 +3,15 @@
 - Fuentes: **48**
 - Unidades verificables: **31**
 - Preguntas: **109**
-- Preguntas publicables: **18**
+- Preguntas publicables: **83**
 
 ## Preguntas por estado
 
 | Categoría | Cantidad |
 | --- | ---: |
 | draft_ai | 0 |
-| validated_assisted | 18 |
-| needs_review | 91 |
+| validated_assisted | 83 |
+| needs_review | 26 |
 | rejected | 0 |
 | retired | 0 |
 

@@ -1,7 +1,7 @@
 [
   {
     "id": "PGN-EXP-0026",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -42,8 +42,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0026",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0026",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -51,7 +72,7 @@
   },
   {
     "id": "PGN-EXP-0027",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -92,8 +113,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0027",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0027",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -142,7 +184,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0028",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0028",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -192,7 +255,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0029",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0029",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -201,7 +285,7 @@
   },
   {
     "id": "PGN-EXP-0030",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -242,8 +326,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0030",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0030",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -251,7 +356,7 @@
   },
   {
     "id": "PGN-EXP-0031",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -292,8 +397,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0031",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0031",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -301,7 +427,7 @@
   },
   {
     "id": "PGN-EXP-0032",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -342,8 +468,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0032",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0032",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -351,7 +498,7 @@
   },
   {
     "id": "PGN-EXP-0033",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -392,8 +539,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0033",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0033",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -401,7 +569,7 @@
   },
   {
     "id": "PGN-EXP-0034",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -442,8 +610,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0034",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0034",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -451,7 +640,7 @@
   },
   {
     "id": "PGN-EXP-0035",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -492,8 +681,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0035",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0035",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -501,7 +711,7 @@
   },
   {
     "id": "PGN-EXP-0036",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -542,8 +752,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0036",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0036",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -551,7 +782,7 @@
   },
   {
     "id": "PGN-EXP-0037",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -592,8 +823,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0037",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0037",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -601,7 +853,7 @@
   },
   {
     "id": "PGN-EXP-0038",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -642,8 +894,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0038",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0038",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -651,7 +924,7 @@
   },
   {
     "id": "PGN-EXP-0039",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -692,8 +965,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0039",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0039",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -701,7 +995,7 @@
   },
   {
     "id": "PGN-EXP-0040",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -742,8 +1036,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0040",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0040",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -751,7 +1066,7 @@
   },
   {
     "id": "PGN-EXP-0041",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -792,8 +1107,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0041",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0041",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -801,7 +1137,7 @@
   },
   {
     "id": "PGN-EXP-0042",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -842,8 +1178,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0042",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0042",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -851,7 +1208,7 @@
   },
   {
     "id": "PGN-EXP-0043",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -892,8 +1249,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0043",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0043",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -901,7 +1279,7 @@
   },
   {
     "id": "PGN-EXP-0044",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -942,8 +1320,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0044",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0044",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -951,7 +1350,7 @@
   },
   {
     "id": "PGN-EXP-0045",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -992,8 +1391,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0045",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0045",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1001,7 +1421,7 @@
   },
   {
     "id": "PGN-EXP-0046",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -1042,8 +1462,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0046",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0046",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1051,7 +1492,7 @@
   },
   {
     "id": "PGN-EXP-0047",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -1092,8 +1533,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0047",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0047",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1142,7 +1604,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0048",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0048",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -1192,7 +1675,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0049",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0049",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -1201,7 +1705,7 @@
   },
   {
     "id": "PGN-EXP-0050",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -1242,8 +1746,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0050",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0050",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1292,7 +1817,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0051",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0051",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -1301,7 +1847,7 @@
   },
   {
     "id": "PGN-EXP-0052",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -1342,8 +1888,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0052",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0052",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1392,7 +1959,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0053",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0053",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -1442,7 +2030,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0054",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0054",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -1451,7 +2060,7 @@
   },
   {
     "id": "PGN-EXP-0055",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1492,8 +2101,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0055",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0055",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1501,7 +2131,7 @@
   },
   {
     "id": "PGN-EXP-0056",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1542,8 +2172,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0056",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0056",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1592,7 +2243,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0057",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0057",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -1601,7 +2273,7 @@
   },
   {
     "id": "PGN-EXP-0058",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1642,8 +2314,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0058",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0058",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1651,7 +2344,7 @@
   },
   {
     "id": "PGN-EXP-0059",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1692,8 +2385,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0059",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0059",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1701,7 +2415,7 @@
   },
   {
     "id": "PGN-EXP-0060",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1742,8 +2456,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0060",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0060",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1751,7 +2486,7 @@
   },
   {
     "id": "PGN-EXP-0061",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1792,8 +2527,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0061",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0061",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1801,7 +2557,7 @@
   },
   {
     "id": "PGN-EXP-0062",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1842,8 +2598,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0062",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0062",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1851,7 +2628,7 @@
   },
   {
     "id": "PGN-EXP-0063",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1892,8 +2669,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0063",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0063",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -1942,7 +2740,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0064",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0064",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -1951,7 +2770,7 @@
   },
   {
     "id": "PGN-EXP-0065",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -1992,8 +2811,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0065",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0065",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2001,7 +2841,7 @@
   },
   {
     "id": "PGN-EXP-0066",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -2042,8 +2882,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0066",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0066",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2051,7 +2912,7 @@
   },
   {
     "id": "PGN-EXP-0067",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -2092,8 +2953,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0067",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0067",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2142,7 +3024,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0068",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0068",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -2151,7 +3054,7 @@
   },
   {
     "id": "PGN-EXP-0069",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -2192,8 +3095,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0069",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0069",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2201,7 +3125,7 @@
   },
   {
     "id": "PGN-EXP-0070",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -2242,8 +3166,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0070",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0070",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2251,7 +3196,7 @@
   },
   {
     "id": "PGN-EXP-0071",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -2292,8 +3237,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0071",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0071",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2301,7 +3267,7 @@
   },
   {
     "id": "PGN-EXP-0072",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -2342,8 +3308,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0072",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0072",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2351,7 +3338,7 @@
   },
   {
     "id": "PGN-EXP-0073",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -2392,8 +3379,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0073",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0073",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2401,7 +3409,7 @@
   },
   {
     "id": "PGN-EXP-0074",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "datos_y_analitica",
     "secondaryTopicIds": [],
@@ -2442,8 +3450,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0074",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0074",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2451,7 +3480,7 @@
   },
   {
     "id": "PGN-EXP-0075",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -2492,8 +3521,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0075",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0075",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2542,7 +3592,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0076",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0076",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -2551,7 +3622,7 @@
   },
   {
     "id": "PGN-EXP-0077",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -2592,8 +3663,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0077",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0077",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2601,7 +3693,7 @@
   },
   {
     "id": "PGN-EXP-0078",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -2642,8 +3734,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0078",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0078",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2651,7 +3764,7 @@
   },
   {
     "id": "PGN-EXP-0079",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -2692,8 +3805,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0079",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0079",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2701,7 +3835,7 @@
   },
   {
     "id": "PGN-EXP-0080",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -2742,8 +3876,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0080",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0080",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2751,7 +3906,7 @@
   },
   {
     "id": "PGN-EXP-0081",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -2792,8 +3947,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0081",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0081",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2842,7 +4018,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0082",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0082",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -2851,7 +4048,7 @@
   },
   {
     "id": "PGN-EXP-0083",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -2892,8 +4089,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0083",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0083",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2901,7 +4119,7 @@
   },
   {
     "id": "PGN-EXP-0084",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -2942,8 +4160,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0084",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0084",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -2992,7 +4231,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0085",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0085",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -3001,7 +4261,7 @@
   },
   {
     "id": "PGN-EXP-0086",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3042,8 +4302,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0086",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0086",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3051,7 +4332,7 @@
   },
   {
     "id": "PGN-EXP-0087",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -3092,8 +4373,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0087",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0087",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3101,7 +4403,7 @@
   },
   {
     "id": "PGN-EXP-0088",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -3142,8 +4444,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0088",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0088",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3192,7 +4515,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0089",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0089",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -3201,7 +4545,7 @@
   },
   {
     "id": "PGN-EXP-0090",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -3242,8 +4586,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0090",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0090",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3292,7 +4657,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0091",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0091",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -3342,7 +4728,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0092",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0092",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -3392,7 +4799,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0093",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0093",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -3401,7 +4829,7 @@
   },
   {
     "id": "PGN-EXP-0094",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -3442,8 +4870,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0094",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0094",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3451,7 +4900,7 @@
   },
   {
     "id": "PGN-EXP-0095",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -3492,8 +4941,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0095",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0095",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3501,7 +4971,7 @@
   },
   {
     "id": "PGN-EXP-0096",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -3542,8 +5012,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0096",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0096",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3592,7 +5083,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0097",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0097",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -3601,7 +5113,7 @@
   },
   {
     "id": "PGN-EXP-0098",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3642,8 +5154,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0098",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0098",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3651,7 +5184,7 @@
   },
   {
     "id": "PGN-EXP-0099",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3692,8 +5225,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0099",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0099",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3701,7 +5255,7 @@
   },
   {
     "id": "PGN-EXP-0100",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3742,8 +5296,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0100",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0100",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3792,7 +5367,28 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0101",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0101",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "needs_changes",
+        "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      }
+    ],
     "validFrom": null,
     "tags": [
       "original-case",
@@ -3801,7 +5397,7 @@
   },
   {
     "id": "PGN-EXP-0102",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3842,8 +5438,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0102",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0102",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3851,7 +5468,7 @@
   },
   {
     "id": "PGN-EXP-0103",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -3892,8 +5509,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0103",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0103",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3901,7 +5539,7 @@
   },
   {
     "id": "PGN-EXP-0104",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -3942,8 +5580,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0104",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0104",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -3951,7 +5610,7 @@
   },
   {
     "id": "PGN-EXP-0105",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -3992,8 +5651,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0105",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0105",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -4001,7 +5681,7 @@
   },
   {
     "id": "PGN-EXP-0106",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4042,8 +5722,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0106",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0106",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -4051,7 +5752,7 @@
   },
   {
     "id": "PGN-EXP-0107",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4092,8 +5793,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0107",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0107",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -4101,7 +5823,7 @@
   },
   {
     "id": "PGN-EXP-0108",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4142,8 +5864,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0108",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0108",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"
@@ -4151,7 +5894,7 @@
   },
   {
     "id": "PGN-EXP-0109",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4192,8 +5935,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-final-PGN-EXP-0109",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "codex-factual-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+      },
+      {
+        "id": "editorial-final-PGN-EXP-0109",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "codex-editorial-final-2026-09-08",
+        "model": null,
+        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "outcome": "pass",
+        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      }
+    ],
+    "validFrom": "2026-09-08",
     "tags": [
       "original-case",
       "bank100"

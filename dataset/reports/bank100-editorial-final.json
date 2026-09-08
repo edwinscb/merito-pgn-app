@@ -1,0 +1,511 @@
+{
+  "reviewerId": "codex-editorial-final-2026-09-08",
+  "reviewedAt": "2026-09-08T05:20:53.596Z",
+  "independence": "internal-pass-not-independent-reviewer",
+  "questions": [
+    {
+      "id": "PGN-EXP-0026",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "d82278892a28ae237016519ea2653af8308e94967479ce35b2f1341c7e3008d7"
+    },
+    {
+      "id": "PGN-EXP-0027",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "f2a98e0ecb5878eb1b7f1b3222c231064e2d79cc23e67d4935e080de37bdfa6f"
+    },
+    {
+      "id": "PGN-EXP-0028",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "f8e1c48a3aa89e6bc78a98a37a2ce8ed1f8c626d8301fe1be17f1d28bf56ce50"
+    },
+    {
+      "id": "PGN-EXP-0029",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "db7ad456abdf5f9c536126544469bd0848f5a7da08e282fd53736b0032f16465"
+    },
+    {
+      "id": "PGN-EXP-0030",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "8de773b6ddd9ced0900f029da5d1c7df66f6b6cb5b57a1a6fc4622f4466a343e"
+    },
+    {
+      "id": "PGN-EXP-0031",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "5e6860e64ac5fb9acf63689c4e168982c0f64367ebaaa650f2ea252f68698c85"
+    },
+    {
+      "id": "PGN-EXP-0032",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "a81afcc3f6b4aff2f9b6f2497450a92b375b69bc00f24a6d1605086125ba3b8f"
+    },
+    {
+      "id": "PGN-EXP-0033",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "4450676f8864543929223f4ef364ba2e86bf1be57ff1805e594cd97542e050bc"
+    },
+    {
+      "id": "PGN-EXP-0034",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "49fe3201377ff8ceedf8fd1510e5f19fe610addb7ce32003e9dffdaf5dce8043"
+    },
+    {
+      "id": "PGN-EXP-0035",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "7efaeeac7393c0d05a8a7b30b2e447c3443b3aa9c9266e55ace5a39099e4b54b"
+    },
+    {
+      "id": "PGN-EXP-0036",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "62f17c5fd9e507799d6bed4a0fa0183e71bd636ca67f4a39f769125e0e912a4d"
+    },
+    {
+      "id": "PGN-EXP-0037",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "35a40a71f37cf87defe295e8a533af4f51443700920d030a41459a1458c2dd85"
+    },
+    {
+      "id": "PGN-EXP-0038",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "d19ff237c612430d1476a025d0a79e38900c4caf5640ca6b88781aef0e4e6cb6"
+    },
+    {
+      "id": "PGN-EXP-0039",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "d6d28b82aca7fef16743e1b78d3cd60a27dd8b98ae2cdcbc71f3cd1ab33fd25c"
+    },
+    {
+      "id": "PGN-EXP-0040",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "e1e37ed94dba0fdc611906815f624179fc3606a8f59c0e158b7717950daed135"
+    },
+    {
+      "id": "PGN-EXP-0041",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "b99d5971bd65351a030de1fa83eeaea23f43581d16691f4f0715d96b8a7a36d7"
+    },
+    {
+      "id": "PGN-EXP-0042",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "c2fc53c2baae6b74aef23854743ad02b2ee83c541a2cffbd2043e406dbc57b02"
+    },
+    {
+      "id": "PGN-EXP-0043",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "68d3bbaafb6f2d2f8bd2eecb4add9aa473c3c1827407a63df6ebcce665870879"
+    },
+    {
+      "id": "PGN-EXP-0044",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "37399b258d797f2b27425812d02fb98ea9b2b047662813b81f26aaa45bd02259"
+    },
+    {
+      "id": "PGN-EXP-0045",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "6a63f86514d4aaa34946f86a2f7e4e35a9aadee20fbbcd958f73a4c9594e62f0"
+    },
+    {
+      "id": "PGN-EXP-0046",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "7da60f45d5e3ab2212c31a56a0754852bc1c85542314812b2176d57b992b928e"
+    },
+    {
+      "id": "PGN-EXP-0047",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "b5288465fa95dc958fc10a21f9ad7b4520dcd6021fae995ebc200114105d8272"
+    },
+    {
+      "id": "PGN-EXP-0048",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "ac2f29b5ec5f0b5529b4dc8da7940b5579944b82a23c091afe34eed89def0706"
+    },
+    {
+      "id": "PGN-EXP-0049",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "f936fcc1093eb009929e200f4e2e818ac1158d609c145080562bc41782f2a0a3"
+    },
+    {
+      "id": "PGN-EXP-0050",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "70f82514e90a596b0db693f42a0244f0cc4a82d7d2658f0fafb8c05d3bd05ce1"
+    },
+    {
+      "id": "PGN-EXP-0051",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "8e322e84df56abc97f31821f078f0522c64e00638a7d808490ba62f86afadc78"
+    },
+    {
+      "id": "PGN-EXP-0052",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "71ac6d81daca7ed0b9e28675975b302fdf374d910989120bd325f82c454be3e3"
+    },
+    {
+      "id": "PGN-EXP-0053",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "c76f4096d718f901f1c080e4ed3bcaf557e5f19389dad1ca7bcee7445c446e8a"
+    },
+    {
+      "id": "PGN-EXP-0054",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "3e8aa9c4059482515e2e232f52599596522cca55c7388b564aee3371c70ae445"
+    },
+    {
+      "id": "PGN-EXP-0055",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "271f5191b051b966a9eaac83faa46a8327f38f3f9838180b255674b724aa197d"
+    },
+    {
+      "id": "PGN-EXP-0056",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "69c3ca49918ee4f8171db87ada230851d6661a81631b364a0376a020ea6d1a96"
+    },
+    {
+      "id": "PGN-EXP-0057",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "206eb9055cf26b737c7aed464bbabb2ba103c4798a42dff92c229758baa7ed46"
+    },
+    {
+      "id": "PGN-EXP-0058",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "e69aa8b6a4eb3c033bb5d5f109fdf0c2ee74aad84f95053a0bc8eb5bfab20df8"
+    },
+    {
+      "id": "PGN-EXP-0059",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "c36f0ba0a1e8e434805e1895318abb8885073c55af862ad8658b63dc707d4c5c"
+    },
+    {
+      "id": "PGN-EXP-0060",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "6e992ed970cc3b02c796fbae1be2983260df4b913baa23c5e5f2fb1e1e39bece"
+    },
+    {
+      "id": "PGN-EXP-0061",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "8cbbfc9cef3bf0b24cecf48adcaf12d462d58f29ec00dfb1fb6dcc5383fc27ca"
+    },
+    {
+      "id": "PGN-EXP-0062",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "079a80e3410c5533a59d2420053a64e3847c537acc6d65f77a2de4fd3deeb280"
+    },
+    {
+      "id": "PGN-EXP-0063",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "d931d312b7537e59fe250ba714f05959ee8ce649c3fed4cebd4b0ffa900359ee"
+    },
+    {
+      "id": "PGN-EXP-0064",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "be61f7e096b36c944874f053c20376d0eb05df8a9575de2a3f82ac4b41ec327f"
+    },
+    {
+      "id": "PGN-EXP-0065",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "0667a498e98711e27506373de1a16a6b8c5c00f48ff4ab0ab92675f7b52791a3"
+    },
+    {
+      "id": "PGN-EXP-0066",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "026575725494f86d172c08be24ec82a3cc142c5bba9a6bf5a25a6bbe699aeae4"
+    },
+    {
+      "id": "PGN-EXP-0067",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "4e89427657a318d5a7aeeca7940abc065f87db70418f7b50448bac8101f0bd92"
+    },
+    {
+      "id": "PGN-EXP-0068",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "767be92ab15ca240102109327d49a125c054d52ba92edb7dfca8663ea0181482"
+    },
+    {
+      "id": "PGN-EXP-0069",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "d38c3951992bfd0b3da98d1ff3893f24dad3d04b6c89a8148860e8e7b29e28c1"
+    },
+    {
+      "id": "PGN-EXP-0070",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "e8b397346cff7049c173d95068d68d1a88ad14b93959330294e7095eb047d574"
+    },
+    {
+      "id": "PGN-EXP-0071",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "c1efdfa7ccc976be3fe96c3c8dae6214d463d395d2615933fca548703678a8c9"
+    },
+    {
+      "id": "PGN-EXP-0072",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "935fc7e1df9e4de4b84c4d63246627a8b332c567706dcd287cde21288da112d8"
+    },
+    {
+      "id": "PGN-EXP-0073",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "1603b974e1c1dc2190f35df289f1388464243633a80ca4ff4aba3f558aad7ff9"
+    },
+    {
+      "id": "PGN-EXP-0074",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "ba418579cf472d8029ef827b1d50c120d1fe445b7f54b87ceaa29f04050337e9"
+    },
+    {
+      "id": "PGN-EXP-0075",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "afd4e6e192406bbc16cb2beca80eabc9d8117d846233e5d97150159272d0eafd"
+    },
+    {
+      "id": "PGN-EXP-0076",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "e0019794c39956eb0bae9530f504411a392cf77f4854aa555d9a431c272198d4"
+    },
+    {
+      "id": "PGN-EXP-0077",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "9dc20bc22137af5dab4b0b3d2946e9aa48ffea1d6f5872fe7aeb03c6c68cb014"
+    },
+    {
+      "id": "PGN-EXP-0078",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "b49917527fa158dd9338076968ec4486aa9219ad310e57d652e88a4f6ebf2929"
+    },
+    {
+      "id": "PGN-EXP-0079",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "f86d946fdcd77726a4e72f3c51208965a214f80c0ae2cdfb37b6c1ba75052b55"
+    },
+    {
+      "id": "PGN-EXP-0080",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "4c187c81ef260b42518a28b32d944e975cadfbda5846fd09fdd32b84903e7230"
+    },
+    {
+      "id": "PGN-EXP-0081",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "a4248af03628dd3aac3a13e1f2531fef96765b2a5ae0172c3ccc65a7effeb5cb"
+    },
+    {
+      "id": "PGN-EXP-0082",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "d0ee4fb4c703fa89cb1085fe22c6d650c4cce14e2524e974b41baa9f45ec1863"
+    },
+    {
+      "id": "PGN-EXP-0083",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "2bf297291dfcf558c7330d9845486c0efc6bb83790d94c573da7cb70675ba218"
+    },
+    {
+      "id": "PGN-EXP-0084",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "d71de59cc757c9917d0b96d03d9b69e60d9f6d5d3af2e53960897f843fb06cf0"
+    },
+    {
+      "id": "PGN-EXP-0085",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "017c5fb8e0e8e18446f62be8cd9d53b36ad0aa8d68e82f066c5b12d35979923a"
+    },
+    {
+      "id": "PGN-EXP-0086",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "a4c0b0d22d4cf85b97528cbf7a210048cdbf88b3d13d79f35e1ebb158c9ae3f2"
+    },
+    {
+      "id": "PGN-EXP-0087",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "3dc5e22e06295652734bfc7d6de33357204ab806e4eb0a15f4a82d2f48497902"
+    },
+    {
+      "id": "PGN-EXP-0088",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "f10bb4349eadaa66595f404c420cd2cb826909e07006e51caca623cef2081d38"
+    },
+    {
+      "id": "PGN-EXP-0089",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "2f0fb3f79b5122295b86490c1657787d1611ff7abd687df72ecfef351b823466"
+    },
+    {
+      "id": "PGN-EXP-0090",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "468736369defc287a12a1152816dcbc4f9f97f997c27a084eeea621b212b149b"
+    },
+    {
+      "id": "PGN-EXP-0091",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "894ef473e58b9bc2eaf8edbdab1d24e1ab9d6aee2784cd73a09dbe64dbe19a4e"
+    },
+    {
+      "id": "PGN-EXP-0092",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "4e4f960d84055308002fb9c5188c07bdfe7966b3334123f949e1337fb1247185"
+    },
+    {
+      "id": "PGN-EXP-0093",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "7715972937ab441f9d221beb616059dc1b99bbdfc41d99ade42d316fd27e7cb8"
+    },
+    {
+      "id": "PGN-EXP-0094",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "4b3ae84003eea3048378d41ea3dac97ae262bf052c206d8683074212f609a2ab"
+    },
+    {
+      "id": "PGN-EXP-0095",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "0e4fe07d4b4cc0ea0e03bba5168144eb97700303c7cb64f4502e7868fc3944b2"
+    },
+    {
+      "id": "PGN-EXP-0096",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "ab478d463f7c542aabb9595bc46626cce7ecf70d2756b265ac3f543b26b1c048"
+    },
+    {
+      "id": "PGN-EXP-0097",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "0a285f61fb5e1b255f685e64ab09567383f2eee2746b69b370aa11cedd4cce40"
+    },
+    {
+      "id": "PGN-EXP-0098",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "a90e85455f3defbd38bff9a7853bb3f7179d4072ab494359482c8cdbd2351358"
+    },
+    {
+      "id": "PGN-EXP-0099",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "dd5fc5e6f82008362bdab14e6a134a5f4bd448c8a3fab8928a81aa5b2acb20e7"
+    },
+    {
+      "id": "PGN-EXP-0100",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "94368c277d868079db4a0f7cc7167c0b2c4a1fca6bbbcdc038f22892b91d7ba0"
+    },
+    {
+      "id": "PGN-EXP-0101",
+      "outcome": "needs_changes",
+      "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.",
+      "contentHash": "680cabc28adfb5cefa000db1e79b47b64f11d271ad3e5ea96ac01b04423ca46a"
+    },
+    {
+      "id": "PGN-EXP-0102",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "cae5bcf5ef96984bd86b5725ed8150a91fdd6bdca4a917053992abc11e1de355"
+    },
+    {
+      "id": "PGN-EXP-0103",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "ec34c782bab01db21f4efe85e7ba6a63b1c12addcf2987e7a3f7f2b61dd58967"
+    },
+    {
+      "id": "PGN-EXP-0104",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "fc9b28539cff60bf2829f1d1f4f21b7a1f500e30ece09ed0ec30b89f2004d320"
+    },
+    {
+      "id": "PGN-EXP-0105",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "b640b7a40b7bd0ad3bcac0ba27d3d37b5a7e2e85ed5d0ba5645ceebbef465afe"
+    },
+    {
+      "id": "PGN-EXP-0106",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "027c4dcbb0fb6404fcd01d880251f2972f7b68f23aa0fc011b3a8989575f1d0f"
+    },
+    {
+      "id": "PGN-EXP-0107",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "3f01677228c9cadf23102944e6e15965a9ae4c1aad5274e06b8c0c087b144d56"
+    },
+    {
+      "id": "PGN-EXP-0108",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "3ce61befe38b8e91106cd6ff8384287e57108275b610a41f97ef1ef99bb011b4"
+    },
+    {
+      "id": "PGN-EXP-0109",
+      "outcome": "pass",
+      "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.",
+      "contentHash": "ce338b62da27d8a455d4ecda96b9103ac9b41e8c02b731c9a1f9e3fa3f2e8ced"
+    }
+  ]
+}
