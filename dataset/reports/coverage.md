@@ -49,17 +49,17 @@
 
 | Categoría | Cantidad |
 | --- | ---: |
-| procuraduria_y_estado — Procuraduría y Estado | 15 |
-| derecho_disciplinario — Derecho disciplinario | 3 |
-| gestion_publica_y_mipg — Gestión pública y MIPG | 18 |
-| contratacion_estatal — Contratación estatal | 4 |
-| atencion_transparencia_y_datos — Atención, transparencia y datos | 8 |
-| gestion_documental — Gestión documental | 4 |
+| procuraduria_y_estado — Procuraduría y Estado | 8 |
+| derecho_disciplinario — Derecho disciplinario | 0 |
+| gestion_publica_y_mipg — Gestión pública y MIPG | 24 |
+| contratacion_estatal — Contratación estatal | 1 |
+| atencion_transparencia_y_datos — Atención, transparencia y datos | 7 |
+| gestion_documental — Gestión documental | 8 |
 | ofimatica_y_sistemas_de_gestion — Ofimática y sistemas de gestión | 0 |
-| competencias_comportamentales — Competencias comportamentales | 14 |
-| datos_y_analitica — Datos y analítica | 13 |
-| software_e_interoperabilidad — Software e interoperabilidad | 15 |
-| infraestructura_nube_y_ciberseguridad — Infraestructura, nube y ciberseguridad | 15 |
+| competencias_comportamentales — Competencias comportamentales | 5 |
+| datos_y_analitica — Datos y analítica | 15 |
+| software_e_interoperabilidad — Software e interoperabilidad | 21 |
+| infraestructura_nube_y_ciberseguridad — Infraestructura, nube y ciberseguridad | 20 |
 
 ## Preguntas por convocatoria
 
@@ -68,4 +68,4 @@
 | 121-2026 | 15 |
 | 126-2026 | 12 |
 | 127-2026 | 10 |
-| sin_convocatoria | 85 |
+| sin_convocatoria | 91 |

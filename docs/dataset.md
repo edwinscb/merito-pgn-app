@@ -1,5 +1,10 @@
 # Dataset estructurado — Fases 1, 2 y 3
 
+Corrección de la expansión: 18 preguntas publicables y 91 pendientes. Las 84
+nuevas preguntas tienen enunciados originales y explicaciones específicas, pero
+requieren doble revisión independiente antes de publicarse. La auditoría está
+en `dataset/reports/expansion-quality-audit.md`.
+
 ## Propósito y límites
 
 La Fase 1 convirtió el inventario documental de la Fase 0 en registros tipados,

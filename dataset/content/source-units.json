@@ -266,7 +266,7 @@
     "sourceId": "homeoffice-api",
     "locator": "Home Office, Designing and Maintaining an API, requisitos You MUST include a form of versioning to your API, You MUST test your API y You MUST use an API Specification",
     "title": "Versionado, contrato y pruebas de API",
-    "content": "Una API debe versionarse, documentar su contrato y probar integraciones, errores y respuestas antes de comunicar cambios incompatibles. La unidad no prescribe una estrategia concreta de versionado.",
+    "content": "Una API debe versionarse, documentar su contrato, probar integraciones, errores y respuestas, y comunicar los cambios incompatibles o las deprecaciones. La unidad no prescribe una estrategia concreta de versionado.",
     "verificationStatus": "verified",
     "sourceHash": "b2aecf625d7e27b8511255b040356761c650256211d67061ecea287ba67d1689",
     "topicIds": [

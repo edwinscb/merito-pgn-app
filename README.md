@@ -1,5 +1,11 @@
 # Mérito PGN
 
+Estado actual: 109 registros, 18 publicables y 91 pendientes de revisión. Las
+84 preguntas nuevas tienen enunciados originales y explicaciones específicas,
+pero todavía no cuentan con doble revisión independiente. Todavía no existe un
+banco público de 100 preguntas aprobadas.
+Véase `dataset/reports/expansion-quality-audit.md`.
+
 Base técnica y documental de un aplicativo personal para preparar el Concurso
 Abierto de Méritos de la Procuraduría General de la Nación 2026.
 

@@ -20,7 +20,9 @@ describe('pipeline con el dataset real', () => {
     expect(result.data?.questions.filter((question) => question.status === 'needs_review')).toHaveLength(91)
     const expansion = result.data?.questions.filter((question) => question.id.startsWith('PGN-EXP-')) ?? []
     expect(expansion).toHaveLength(84)
-    expect(expansion.every((question) => question.status === 'needs_review' && question.options.length === 4)).toBe(true)
+    expect(expansion.every((question) => question.status !== 'validated_assisted' && question.options.length === 4)).toBe(true)
+    const active = expansion.filter((question) => question.status !== 'rejected')
+    expect(new Set(active.map((question) => question.stem)).size).toBe(active.length)
     const pilotCorrections = result.data?.questions.filter((question) => ['PGN-SEED-0006', 'PGN-SEED-0010', 'PGN-SEED-0021', 'PGN-SEED-0022', 'PGN-SEED-0023', 'PGN-SEED-0024', 'PGN-SEED-0025'].includes(question.id)) ?? []
     expect(pilotCorrections.every((question) => question.status === 'needs_review')).toBe(true)
     expect(pilotCorrections.filter((question) => question.id === 'PGN-SEED-0010')[0].targetCallIds).toEqual(['127-2026'])
@@ -48,7 +50,7 @@ describe('pipeline con el dataset real', () => {
     expect(report).toContain('| pending_review | 9 |')
     expect(report).toContain('| C | 0 |')
     expect(report).toContain('| 121-2026 | 15 |')
-    expect(report).toContain('| sin_convocatoria | 85 |')
+    expect(report).toContain('| sin_convocatoria | 91 |')
     expect(report).toContain('derecho_disciplinario')
   })
 })
