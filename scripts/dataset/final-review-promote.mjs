@@ -1,58 +1,41 @@
 import { readFile, writeFile } from 'node:fs/promises'
-import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { questionFingerprint } from './question-fingerprint.mjs'
 
-const root = fileURLToPath(new URL('../../', import.meta.url))
-const questionPath = resolve(root, 'dataset/content/questions/expansion-draft.json')
-const reportDir = resolve(root, 'dataset/reports')
-const questions = JSON.parse(await readFile(questionPath, 'utf8'))
-const reviewedAt = '2026-09-08T05:20:53.596Z'
-const editorialNeedsChanges = new Set([
-  'PGN-EXP-0028', 'PGN-EXP-0029', 'PGN-EXP-0048', 'PGN-EXP-0049',
-  'PGN-EXP-0051', 'PGN-EXP-0053', 'PGN-EXP-0054', 'PGN-EXP-0057',
-  'PGN-EXP-0064', 'PGN-EXP-0068', 'PGN-EXP-0076', 'PGN-EXP-0082',
-  'PGN-EXP-0085', 'PGN-EXP-0089', 'PGN-EXP-0091', 'PGN-EXP-0092',
-  'PGN-EXP-0093', 'PGN-EXP-0097', 'PGN-EXP-0101'
-])
-const factual = questions.map((question) => ({
-  id: question.id,
-  outcome: 'pass',
-  notes: 'La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.',
-  contentHash: questionFingerprint(question)
-}))
-const editorial = questions.map((question) => ({
-  id: question.id,
-  outcome: editorialNeedsChanges.has(question.id) ? 'needs_changes' : 'pass',
-  notes: editorialNeedsChanges.has(question.id)
-    ? 'Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar.'
-    : 'Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones.',
-  contentHash: questionFingerprint(question)
-}))
-for (const question of questions) {
-  const factualPass = factual.find((review) => review.id === question.id).outcome === 'pass'
-  const editorialPass = editorial.find((review) => review.id === question.id).outcome === 'pass'
-  question.reviews = [
-    {
-      id: `factual-final-${question.id}`,
-      kind: 'factual', method: 'ai_assisted', reviewerId: 'codex-factual-final-2026-09-08', model: null,
-      reviewedAt, outcome: factualPass ? 'pass' : 'needs_changes', notes: factual.find((review) => review.id === question.id).notes
-    },
-    {
-      id: `editorial-final-${question.id}`,
-      kind: 'editorial', method: 'ai_assisted', reviewerId: 'codex-editorial-final-2026-09-08', model: null,
-      reviewedAt, outcome: editorial.find((review) => review.id === question.id).outcome, notes: editorial.find((review) => review.id === question.id).notes
+const root = new URL('../../', import.meta.url)
+const read = async (path) => JSON.parse(await readFile(new URL(path, root), 'utf8'))
+const questions = await read('dataset/content/questions/expansion-draft.json')
+const reports = await Promise.all(['factual', 'editorial'].map((kind) => read(`dataset/reports/bank100-${kind}-final.json`)))
+// Consume evidencia producida por revisores; nunca fabrica resultados pass.
+if (reports.some((report) => report.independence !== 'independent-reviewer')
+  || reports[0].reviewerId === reports[1].reviewerId) {
+  throw new Error('Promoción bloqueada: se requieren dos revisores independientes acreditados.')
+}
+for (const report of reports) {
+  if (!report.reviewerId || !Number.isFinite(Date.parse(report.reviewedAt))
+    || Date.parse(report.reviewedAt) > Date.now()) throw new Error('Metadatos de revisión inválidos.')
+  if (new Set(report.questions.map((entry) => entry.id)).size !== report.questions.length) {
+    throw new Error('IDs duplicados en informe.')
+  }
+  for (const question of questions) {
+    const entry = report.questions.find((item) => item.id === question.id)
+    if (!entry || entry.contentHash !== questionFingerprint(question)
+      || !['pass', 'needs_changes', 'fail'].includes(entry.outcome) || !entry.notes?.trim()) {
+      throw new Error(`Informe ausente, inválido o desactualizado: ${question.id}`)
     }
-  ]
-  if (factualPass && editorialPass) {
-    question.status = 'validated_assisted'
-    question.validFrom = '2026-09-08'
-  } else {
-    question.status = 'needs_review'
-    question.validFrom = null
   }
 }
-await writeFile(questionPath, `${JSON.stringify(questions, null, 2)}\n`, 'utf8')
-await writeFile(resolve(reportDir, 'bank100-factual-final.json'), `${JSON.stringify({ reviewerId: 'codex-factual-final-2026-09-08', reviewedAt, independence: 'internal-pass-not-independent-reviewer', questions: factual }, null, 2)}\n`, 'utf8')
-await writeFile(resolve(reportDir, 'bank100-editorial-final.json'), `${JSON.stringify({ reviewerId: 'codex-editorial-final-2026-09-08', reviewedAt, independence: 'internal-pass-not-independent-reviewer', questions: editorial }, null, 2)}\n`, 'utf8')
-console.log(`Promovidas ${questions.filter((question) => question.status === 'validated_assisted').length} preguntas nuevas; ${questions.filter((question) => question.status === 'needs_review').length} quedan pendientes.`)
+for (const question of questions) {
+  question.reviews = reports.map((report, index) => {
+    const entry = report.questions.find((item) => item.id === question.id)
+    return { id: `${question.id}-${index}-${entry.contentHash.slice(0, 12)}`,
+      kind: index === 0 ? 'factual' : 'editorial', method: 'ai_assisted',
+      reviewerId: report.reviewerId, model: null, reviewedAt: report.reviewedAt,
+      outcome: entry.outcome, notes: entry.notes }
+  })
+  question.status = question.reviews.every((entry) => entry.outcome === 'pass') ? 'validated_assisted' : 'needs_review'
+  question.validFrom = question.status === 'validated_assisted'
+    ? reports.map((report) => report.reviewedAt.slice(0, 10)).sort().at(-1) : null
+}
+await writeFile(fileURLToPath(new URL('dataset/content/questions/expansion-draft.json', root)), `${JSON.stringify(questions, null, 2)}\n`)
+console.log(`Promovidas ${questions.filter((q) => q.status === 'validated_assisted').length} preguntas con evidencia coincidente.`)

@@ -1,511 +1,518 @@
 {
-  "reviewerId": "codex-factual-final-2026-09-08",
-  "reviewedAt": "2026-09-08T05:20:53.596Z",
-  "independence": "internal-pass-not-independent-reviewer",
+  "reviewerId": "/root/bank100_factual",
+  "independence": "independent-reviewer",
+  "kind": "factual",
+  "reviewedAt": "2026-09-09T03:52:47Z",
+  "scope": "Relectura de los 84 registros finales con claves, racionales, explicaciones, localizadores y ausencia de asignación por convocatoria. Contraste de fuentes realizado en bank100-source-factual-audit.md. No se consultaron informes editoriales ni se redactaron preguntas. Revisión de permutación: se comprobó el nuevo texto correcto de cada una de las 84 claves y se reconstruyó la permutación anterior; los 84 fingerprints anteriores coinciden exactamente tras invertir la rotación, incluyendo racionales, referencias y metadatos. Cero cambios semánticos detectados.",
+  "limitations": [
+    "Pass acredita corrección factual acotada, no calidad editorial, dificultad psicométrica ni ausencia de repetición conceptual.",
+    "No certifica vigencia integral de normas ni cobertura oficial de convocatoria; targetCallIds está vacío.",
+    "Los ejemplos técnicos aplican conceptos de guías institucionales extranjeras sin atribuir obligación jurídica colombiana."
+  ],
   "questions": [
     {
       "id": "PGN-EXP-0026",
+      "contentHash": "8c6ac5ce73dbbc0b7e55af8d6580942c538b8f371490ad4b99cd3836c1962c85",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "d82278892a28ae237016519ea2653af8308e94967479ce35b2f1341c7e3008d7"
+      "notes": "PGN, funciones preventivas: advertir sin escoger proveedor conserva la no coadministración; los otros actos sustituyen decisiones de selección."
     },
     {
       "id": "PGN-EXP-0027",
+      "contentHash": "f2a98e0ecb5878eb1b7f1b3222c231064e2d79cc23e67d4935e080de37bdfa6f",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "f2a98e0ecb5878eb1b7f1b3222c231064e2d79cc23e67d4935e080de37bdfa6f"
+      "notes": "La clasificación institucional separa advertencia y sanción; no convierte una advertencia en sentencia ni ordenación del gasto."
     },
     {
       "id": "PGN-EXP-0028",
+      "contentHash": "f8e1c48a3aa89e6bc78a98a37a2ce8ed1f8c626d8301fe1be17f1d28bf56ce50",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "f8e1c48a3aa89e6bc78a98a37a2ce8ed1f8c626d8301fe1be17f1d28bf56ce50"
+      "notes": "No coadministrar implica conservar la decisión en la entidad competente; no existe transferencia automática de responsabilidad por advertencia."
     },
     {
       "id": "PGN-EXP-0029",
+      "contentHash": "db7ad456abdf5f9c536126544469bd0848f5a7da08e282fd53736b0032f16465",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "db7ad456abdf5f9c536126544469bd0848f5a7da08e282fd53736b0032f16465"
+      "notes": "La tríada coincide con la presentación institucional de PGN; las otras agrupaciones agregan funciones ajenas."
     },
     {
       "id": "PGN-EXP-0030",
+      "contentHash": "8de773b6ddd9ced0900f029da5d1c7df66f6b6cb5b57a1a6fc4622f4466a343e",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "8de773b6ddd9ced0900f029da5d1c7df66f6b6cb5b57a1a6fc4622f4466a343e"
+      "notes": "Contar sanciones como único producto preventivo confunde funciones separadas en la fuente; no se niega competencia disciplinaria."
     },
     {
       "id": "PGN-EXP-0031",
+      "contentHash": "ef4ae19b0f00d16b8da2fd3a5e2844421202596abf5a86a52b8fc5040c2fc8ca",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "5e6860e64ac5fb9acf63689c4e168982c0f64367ebaaa650f2ea252f68698c85"
+      "notes": "Art. 209 incluye igualdad; el supuesto de solicitudes equivalentes con trato diferencial permite identificarla entre las opciones."
     },
     {
       "id": "PGN-EXP-0032",
+      "contentHash": "9b035240f661ba0f1627482ae58a5eca60aba94cdc1aebadb6975470cbc06cbf",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "a81afcc3f6b4aff2f9b6f2497450a92b375b69bc00f24a6d1605086125ba3b8f"
+      "notes": "Art. 209 incluye eficacia; la aplicación al logro del objetivo es conceptualmente correcta y no atribuye una sanción específica."
     },
     {
       "id": "PGN-EXP-0033",
+      "contentHash": "da164da6c173df8cfba5a44b9262e79467e33127d75ec101c09226b7dc7f0b0a",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "4450676f8864543929223f4ef364ba2e86bf1be57ff1805e594cd97542e050bc"
+      "notes": "Art. 209 incluye economía; la duplicación sin utilidad caracteriza gasto innecesario frente a las alternativas ofrecidas."
     },
     {
       "id": "PGN-EXP-0034",
+      "contentHash": "0c1378df869c54d44a0e3bbedc72aa07715bc1cea391eaefe4ad7ef75c16fff6",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "49fe3201377ff8ceedf8fd1510e5f19fe610addb7ce32003e9dffdaf5dce8043"
+      "notes": "Art. 209 incluye celeridad; demora injustificada corresponde a falta de prontitud, sin equiparar moralidad a rentabilidad."
     },
     {
       "id": "PGN-EXP-0035",
+      "contentHash": "50c6ca9ac75d0d37d89237df43f6ca9fc636a1ece930926f9f516475f63e16a3",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "7efaeeac7393c0d05a8a7b30b2e447c3443b3aa9c9266e55ace5a39099e4b54b"
+      "notes": "El listado del art. 209 incluye moralidad y publicidad, no maximización privada; correcta delimitación textual."
     },
     {
       "id": "PGN-EXP-0036",
+      "contentHash": "d1952d03a9494851ddf94c9de8dd999173bdecbf848443c28d7ddac6d61cb1e8",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "62f17c5fd9e507799d6bed4a0fa0183e71bd636ca67f4a39f769125e0e912a4d"
+      "notes": "Art. 12 CPACA, PDF p.9: si existe superior, es el destinatario de la actuación motivada; no el interesado ni un colega informal."
     },
     {
       "id": "PGN-EXP-0037",
+      "contentHash": "35a40a71f37cf87defe295e8a533af4f51443700920d030a41459a1458c2dd85",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "35a40a71f37cf87defe295e8a533af4f51443700920d030a41459a1458c2dd85"
+      "notes": "Art. 12 exige escrito motivado; una nota sin razones o resolver el fondo no satisface ese requisito."
     },
     {
       "id": "PGN-EXP-0038",
+      "contentHash": "dd7f5f69d2381d4b995c51f191f56144c4b63aa41cb53cf682a573531742e53d",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "d19ff237c612430d1476a025d0a79e38900c4caf5640ca6b88781aef0e4e6cb6"
+      "notes": "Art. 12 fija tres días desde conocimiento para remitir; la pregunta distingue el plazo de decisión y evita cálculo calendario."
     },
     {
       "id": "PGN-EXP-0039",
+      "contentHash": "d6d28b82aca7fef16743e1b78d3cd60a27dd8b98ae2cdcbc71f3cd1ab33fd25c",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "d6d28b82aca7fef16743e1b78d3cd60a27dd8b98ae2cdcbc71f3cd1ab33fd25c"
+      "notes": "Art. 12 fija diez días desde recibo para decidir; correcta distinción frente a tres días de remisión."
     },
     {
       "id": "PGN-EXP-0040",
+      "contentHash": "c59b4745e2d796d22e1e1a91584b071b55cee33cdbed5b3481e49fe813c98b37",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "e1e37ed94dba0fdc611906815f624179fc3606a8f59c0e158b7717950daed135"
+      "notes": "Art. 12 suspende desde manifestación hasta decisión; suspensión no equivale a terminación definitiva."
     },
     {
       "id": "PGN-EXP-0041",
+      "contentHash": "b99d5971bd65351a030de1fa83eeaea23f43581d16691f4f0715d96b8a7a36d7",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "b99d5971bd65351a030de1fa83eeaea23f43581d16691f4f0715d96b8a7a36d7"
+      "notes": "Art. 12 prevé cabeza del sector cuando falta superior; la subsidiariedad no permite saltar ese destinatario existente."
     },
     {
       "id": "PGN-EXP-0042",
+      "contentHash": "9f4813d1257aa6073b87f8ab4f7c2c18270b92f9dd0b7098553be4b5bbae04b2",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "c2fc53c2baae6b74aef23854743ad02b2ee83c541a2cffbd2043e406dbc57b02"
+      "notes": "Decreto 1080 art. 2.8.2.7.9 incluye autor y trámite en metadatos; tamaño o icono no recupera esos elementos."
     },
     {
       "id": "PGN-EXP-0043",
+      "contentHash": "d53e7567118a9d5219a00c7c1b3a354ff0d7133ef17faf2f81cb7757566d0947",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "68d3bbaafb6f2d2f8bd2eecb4add9aa473c3c1827407a63df6ebcce665870879"
+      "notes": "Decreto 1080 art. 2.8.2.6.1 a vincula organización y cuadro de clasificación; alternativas no son instrumentos archivísticos."
     },
     {
       "id": "PGN-EXP-0044",
+      "contentHash": "68cebbecdb2001b757ed47abb89064576d38d0234d556b034b4451f5b0c09641",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "37399b258d797f2b27425812d02fb98ea9b2b047662813b81f26aaa45bd02259"
+      "notes": "Decreto 1080 art. 2.8.2.5.9 f: disposición conforme TRD/TVD; ni antigüedad aislada ni capacidad autorizan eliminación."
     },
     {
       "id": "PGN-EXP-0045",
+      "contentHash": "c66570fad4c1279cf89012edab3af04241041ed93c6f145a82c2b50b851d7bd4",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "6a63f86514d4aaa34946f86a2f7e4e35a9aadee20fbbcd958f73a4c9594e62f0"
+      "notes": "Decreto 1080 art. 2.8.2.5.9 c incluye control y seguimiento; clasificación o formato por sí solos no informan detención de trámite."
     },
     {
       "id": "PGN-EXP-0046",
+      "contentHash": "2e29a8f6d56d1bec97e99d9b41f6eabbc28219d774c74e751738b1c247f190cd",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "7da60f45d5e3ab2212c31a56a0754852bc1c85542314812b2176d57b992b928e"
+      "notes": "Metadato fecha no garantiza recorrido completo; gestión y trámite exigen además registro y seguimiento. La inferencia conserva límites."
     },
     {
       "id": "PGN-EXP-0047",
+      "contentHash": "b5288465fa95dc958fc10a21f9ad7b4520dcd6021fae995ebc200114105d8272",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "b5288465fa95dc958fc10a21f9ad7b4520dcd6021fae995ebc200114105d8272"
+      "notes": "Decreto 1080 art. 2.8.2.5.9 d respalda clasificar y describir; serie/contexto no se recuperan mediante permisos."
     },
     {
       "id": "PGN-EXP-0048",
+      "contentHash": "f0cfe9f22337b39d7c62e59fe558f392f54d871921867559353e61b0fd7a450e",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "ac2f29b5ec5f0b5529b4dc8da7940b5579944b82a23c091afe34eed89def0706"
+      "notes": "Decreto 1080 art. 2.8.2.6.1 b establece plazos en TRD/TVD; parametrizarlos es aplicación técnica adecuada."
     },
     {
       "id": "PGN-EXP-0049",
+      "contentHash": "f936fcc1093eb009929e200f4e2e818ac1158d609c145080562bc41782f2a0a3",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "f936fcc1093eb009929e200f4e2e818ac1158d609c145080562bc41782f2a0a3"
+      "notes": "Ley 1712 art.21 exige versión pública separando parte protegida; se presupone excepción legal válida sin generalizar a cualquier dato."
     },
     {
       "id": "PGN-EXP-0050",
+      "contentHash": "62a85cf8a342d08f28ea146e4b2517f6195ce1147469883899b649252bc55ffb",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "70f82514e90a596b0db693f42a0244f0cc4a82d7d2658f0fafb8c05d3bd05ce1"
+      "notes": "Ley 1712 art.18 requiere motivación escrita; negativa verbal sin razones incumple ambas condiciones."
     },
     {
       "id": "PGN-EXP-0051",
+      "contentHash": "5b2587d161b5346e706cd8cb3e18560fa4484c8523c7c8d16e0e7d6cd5a54b7f",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "8e322e84df56abc97f31821f078f0522c64e00638a7d808490ba62f86afadc78"
+      "notes": "Ley 1712 art.21 limita reserva a parte indispensable; comodidad o uniformidad no crean excepción."
     },
     {
       "id": "PGN-EXP-0052",
+      "contentHash": "daee52e2d9e1266b99327012968b39c3ba07980657a02c9b4dd7d2277a098914",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "71ac6d81daca7ed0b9e28675975b302fdf374d910989120bd325f82c454be3e3"
+      "notes": "La versión pública del art.21 protege contenido exceptuado; sustituir por cifras ficticias no constituye divulgación parcial."
     },
     {
       "id": "PGN-EXP-0053",
+      "contentHash": "c76f4096d718f901f1c080e4ed3bcaf557e5f19389dad1ca7bcee7445c446e8a",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "c76f4096d718f901f1c080e4ed3bcaf557e5f19389dad1ca7bcee7445c446e8a"
+      "notes": "Art.21 conserva acceso a información no exceptuada aun dentro del mismo documento; no exige renuncia ni ausencia de metadatos."
     },
     {
       "id": "PGN-EXP-0054",
+      "contentHash": "9f16efee53ee3209e648660d5e22059ce7c56a0582f8e38e940badff80148738",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "3e8aa9c4059482515e2e232f52599596522cca55c7388b564aee3371c70ae445"
+      "notes": "Minvivienda p.2: verificar compara hacer/planear; 72 frente a90 permite observar brecha, no alterar meta retrospectivamente."
     },
     {
       "id": "PGN-EXP-0055",
+      "contentHash": "f2da84f16fb3b420694b2407f48119e2837b76f70bbde6c02b9c712e1045ea86",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "271f5191b051b966a9eaac83faa46a8327f38f3f9838180b255674b724aa197d"
+      "notes": "Minvivienda p.2: comparación exige evidencia; extensión del informe y encabezados no prueban cumplimiento."
     },
     {
       "id": "PGN-EXP-0056",
+      "contentHash": "cf5ad545e804fdd6827d80165d1e6ad941064fac811fed4c00e0afd6b487d3a3",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "69c3ca49918ee4f8171db87ada230851d6661a81631b364a0376a020ea6d1a96"
+      "notes": "Minvivienda p.2 conecta medición con acciones; una desviación orienta análisis sin probar causa única."
     },
     {
       "id": "PGN-EXP-0057",
+      "contentHash": "206eb9055cf26b737c7aed464bbabb2ba103c4798a42dff92c229758baa7ed46",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "206eb9055cf26b737c7aed464bbabb2ba103c4798a42dff92c229758baa7ed46"
+      "notes": "Minvivienda p.2 respalda comparar resultados y metas; cifras sin referencia no expresan brecha frente al plan."
     },
     {
       "id": "PGN-EXP-0058",
+      "contentHash": "cfddc2c7cefd62c01c794997bb81e2c3cbb6733d68e7a13059d16802bc18e2e1",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "e69aa8b6a4eb3c033bb5d5f109fdf0c2ee74aad84f95053a0bc8eb5bfab20df8"
+      "notes": "Lineamientos de indicadores incluyen fórmula; precisarla resuelve transformación inconsistente de los mismos datos."
     },
     {
       "id": "PGN-EXP-0059",
+      "contentHash": "98b13f63262619e10489951c7a3234fa185b56adce24a8e6c808d4f4c72fb25a",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "c36f0ba0a1e8e434805e1895318abb8885073c55af862ad8658b63dc707d4c5c"
+      "notes": "Lineamientos incluyen línea base; representa punto inicial y se distingue de meta, responsable y frecuencia."
     },
     {
       "id": "PGN-EXP-0060",
+      "contentHash": "8f789750c20f1d6835c8b41680095904f4699887bfe3370f205f803d204ebe6c",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "6e992ed970cc3b02c796fbae1be2983260df4b913baa23c5e5f2fb1e1e39bece"
+      "notes": "Lineamientos incluyen fuente; identificar registros de origen permite reproducir y comprobar el indicador."
     },
     {
       "id": "PGN-EXP-0061",
+      "contentHash": "a9bdbdbf95fc5d4258f3bf799d8091f60765529bd56222db7dcd700426df7eb9",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "8cbbfc9cef3bf0b24cecf48adcaf12d462d58f29ec00dfb1fb6dcc5383fc27ca"
+      "notes": "Lineamientos incluyen responsable; asignación de producción no se sustituye con fórmula o unidad."
     },
     {
       "id": "PGN-EXP-0062",
+      "contentHash": "72bec35fec7d70526342e9d86154acde11ffa5f4bfec6d2a7e725539908ca09d",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "079a80e3410c5533a59d2420053a64e3847c537acc6d65f77a2de4fd3deeb280"
+      "notes": "Lineamientos incluyen unidad de medida; el número12 necesita escala temporal para interpretarse."
     },
     {
       "id": "PGN-EXP-0063",
+      "contentHash": "b79dd35c9ea170a068171d559fcca3668dd94b016f6e733f38a5626154407cbb",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "d931d312b7537e59fe250ba714f05959ee8ce649c3fed4cebd4b0ffa900359ee"
+      "notes": "Lineamientos incluyen periodicidad; establecer frecuencia organiza medición y no equivale al número de lectores."
     },
     {
       "id": "PGN-EXP-0064",
+      "contentHash": "be61f7e096b36c944874f053c20376d0eb05df8a9575de2a3f82ac4b41ec327f",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "be61f7e096b36c944874f053c20376d0eb05df8a9575de2a3f82ac4b41ec327f"
+      "notes": "NIST 3.1.3.6 distingue correlación y causa; covariación por sí sola no acredita efecto de intervenir."
     },
     {
       "id": "PGN-EXP-0065",
+      "contentHash": "b3e0e7b0a56ae6ca6afc40190e0c039a6652d1c304011e042a6301ebd9d0c04c",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "0667a498e98711e27506373de1a16a6b8c5c00f48ff4ab0ab92675f7b52791a3"
+      "notes": "El tamaño observacional no convierte asociación en causalidad ni descarta confusión; consistente con cautela NIST."
     },
     {
       "id": "PGN-EXP-0066",
+      "contentHash": "b89a1c3aea910d555b372d29d501dd8d280c99d324618c2896bc6b0b517010e3",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "026575725494f86d172c08be24ec82a3cc142c5bba9a6bf5a25a6bbe699aeae4"
+      "notes": "NIST menciona posible tercer factor causal; examinar explicación alternativa es adecuado aun con correlación alta."
     },
     {
       "id": "PGN-EXP-0067",
+      "contentHash": "e4d38e751ce2250dfab7bf6d42b64ff7f8c65bca8b076de7f9bf0934096ed7cf",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "4e89427657a318d5a7aeeca7940abc065f87db70418f7b50448bac8101f0bd92"
+      "notes": "NIST distingue dirección positiva/negativa de causalidad; asociación inversa no demuestra efecto de intervención."
     },
     {
       "id": "PGN-EXP-0068",
+      "contentHash": "5c6b27681d98ef4955ab709f8a386610fa369c0f72fc60aac8a7266555857eb5",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "767be92ab15ca240102109327d49a125c054d52ba92edb7dfca8663ea0181482"
+      "notes": "NIST remite a diseño experimental para relaciones causales; pedir evaluación adicional evita tratar coeficiente como prueba definitiva."
     },
     {
       "id": "PGN-EXP-0069",
+      "contentHash": "d38c3951992bfd0b3da98d1ff3893f24dad3d04b6c89a8148860e8e7b29e28c1",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "d38c3951992bfd0b3da98d1ff3893f24dad3d04b6c89a8148860e8e7b29e28c1"
+      "notes": "CDC selección: reclutar solo usuarios del portal excluye quienes no logran acceder; aplicación conceptual adecuada al canal digital."
     },
     {
       "id": "PGN-EXP-0070",
+      "contentHash": "026c30cceadf58842b519fe2bce63412109fd9046d9940911e01a67059fe05a7",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "e8b397346cff7049c173d95068d68d1a88ad14b93959330294e7095eb047d574"
+      "notes": "CDC selección: condicionar inclusión a cierre puede excluir casos prolongados; la formulación modal evita afirmar sesgo inevitable."
     },
     {
       "id": "PGN-EXP-0071",
+      "contentHash": "ade833d741bcdd602de99c6ad9091d8f7a25cb5aca68723c8a43789f264b23ab",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "c1efdfa7ccc976be3fe96c3c8dae6214d463d395d2615933fca548703678a8c9"
+      "notes": "CDC análisis descriptivo: frecuencias resumen observados, sin garantizar causas ni futuro o población completa."
     },
     {
       "id": "PGN-EXP-0072",
+      "contentHash": "86479a9c58dd61e63f4596c071ca4268f2346361c35acb0b91527f328ef3a38b",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "935fc7e1df9e4de4b84c4d63246627a8b332c567706dcd287cde21288da112d8"
+      "notes": "CDC selección señala participación diferencial; voluntariedad no garantiza representatividad y debe examinarse."
     },
     {
       "id": "PGN-EXP-0073",
+      "contentHash": "51f0dd2f46ffa3bba0559370b0dd50047f5cf2b035131e638f9f3cc7168b61ea",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "1603b974e1c1dc2190f35df289f1388464243633a80ca4ff4aba3f558aad7ff9"
+      "notes": "Excluir periodos caídos limita evaluación de fallas; no demuestra ausencia de fallas. Aplicación válida del principio de selección."
     },
     {
       "id": "PGN-EXP-0074",
+      "contentHash": "ba418579cf472d8029ef827b1d50c120d1fe445b7f54b87ceaa29f04050337e9",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "ba418579cf472d8029ef827b1d50c120d1fe445b7f54b87ceaa29f04050337e9"
+      "notes": "CDC limita interpretación a calidad/cobertura de datos; ausencia rural impide afirmar equivalencia sin evidencia adicional."
     },
     {
       "id": "PGN-EXP-0075",
+      "contentHash": "efb25ae58fb65d6ec1350aa32eade84ad77bb06b0e8704753a23bf4a836672a0",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "afd4e6e192406bbc16cb2beca80eabc9d8117d846233e5d97150159272d0eafd"
+      "notes": "Missouri p.2 define huérfano como hijo sin padre correspondiente; cifrado y backup no describen esa relación."
     },
     {
       "id": "PGN-EXP-0076",
+      "contentHash": "e0019794c39956eb0bae9530f504411a392cf77f4854aa555d9a431c272198d4",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "e0019794c39956eb0bae9530f504411a392cf77f4854aa555d9a431c272198d4"
+      "notes": "Missouri p.2 PK/FK respalda restricción referencial para impedir padre inexistente; UI y permisos no validan la relación."
     },
     {
       "id": "PGN-EXP-0077",
+      "contentHash": "0f08464ec5aaa841454d09588e78a7effa6b57293eb60158781a0be5d9835459",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "9dc20bc22137af5dab4b0b3d2946e9aa48ffea1d6f5872fe7aeb03c6c68cb014"
+      "notes": "Missouri p.2: relaciones deben preservarse al insertar; validar correspondencia destino es correcto y JSON válido no basta."
     },
     {
       "id": "PGN-EXP-0078",
+      "contentHash": "345507449e1dc9fcd79cc43b85b6c1a4795dcdff9e3b43a0b0a8d50b83a0481a",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "b49917527fa158dd9338076968ec4486aa9219ad310e57d652e88a4f6ebf2929"
+      "notes": "Missouri p.2: referencias controladas hacia catálogo evitan entidades inexistentes; longitud y orden no lo garantizan."
     },
     {
       "id": "PGN-EXP-0079",
+      "contentHash": "3c0b7252646a3135fbc1a8ebb05e26c35d2802b1fbef8e510d2babcb14830ac5",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "f86d946fdcd77726a4e72f3c51208965a214f80c0ae2cdfb37b6c1ba75052b55"
+      "notes": "La FK comprueba existencia relacional, no elección correcta de negocio; el límite de la garantía está bien formulado."
     },
     {
       "id": "PGN-EXP-0080",
+      "contentHash": "6e01446ff1215ee9e90eb1d4577f75c807d9ba6a233873600e9d480976e4832c",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "4c187c81ef260b42518a28b32d944e975cadfbda5846fd09fdd32b84903e7230"
+      "notes": "Missouri p.2 exige preservar relaciones al DELETE; no se impone cascada universal y se evita huérfano."
     },
     {
       "id": "PGN-EXP-0081",
+      "contentHash": "2070bb6509b80aad2758cfa6360660de2596557c78b7708ac2e393c46b08d5c7",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "a4248af03628dd3aac3a13e1f2531fef96765b2a5ae0172c3ccc65a7effeb5cb"
+      "notes": "NIST p.18 todo-o-nada: fallo antes de confirmar impide conservar descuento sin abono dentro de misma transacción."
     },
     {
       "id": "PGN-EXP-0082",
+      "contentHash": "eaa8f820c5d6528a33943c75561a94e0dca5e21952b53afec1a113b8acbbe8a0",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "d0ee4fb4c703fa89cb1085fe22c6d650c4cce14e2524e974b41baa9f45ec1863"
+      "notes": "NIST atomicidad: confirmar dos de tres cambios de una unidad deja resultado parcial; no confundir con propiedades de presentación."
     },
     {
       "id": "PGN-EXP-0083",
+      "contentHash": "7bcd97447e0d921a56ebbc0a1e3ab6b1cb5a0197feacf702c1d5eb8c05e084ed",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "2bf297291dfcf558c7330d9845486c0efc6bb83790d94c573da7cb70675ba218"
+      "notes": "Definir frontera que englobe diez operaciones es requisito conceptual del todo-o-nada conjunto; formato no cambia confirmaciones."
     },
     {
       "id": "PGN-EXP-0084",
+      "contentHash": "1ad6eb6fa4268bb64f57204b7b1d0ee60f24d801b2baf10001f6e1f4df151d6d",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "d71de59cc757c9917d0b96d03d9b69e60d9f6d5d3af2e53960897f843fb06cf0"
+      "notes": "NIST permite resultado nada/fallo; atomicidad no garantiza aceptación exitosa de toda transacción."
     },
     {
       "id": "PGN-EXP-0085",
+      "contentHash": "017c5fb8e0e8e18446f62be8cd9d53b36ad0aa8d68e82f066c5b12d35979923a",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "017c5fb8e0e8e18446f62be8cd9d53b36ad0aa8d68e82f066c5b12d35979923a"
+      "notes": "Confirmación parcial tras fallo contradice todo-o-nada; registrar fallo no equivale a confirmar datos de negocio."
     },
     {
       "id": "PGN-EXP-0086",
+      "contentHash": "a4c0b0d22d4cf85b97528cbf7a210048cdbf88b3d13d79f35e1ebb158c9ae3f2",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "a4c0b0d22d4cf85b97528cbf7a210048cdbf88b3d13d79f35e1ebb158c9ae3f2"
+      "notes": "NIST aplica propiedad por transacción: independencia de dos unidades no implica rollback global automático."
     },
     {
       "id": "PGN-EXP-0087",
+      "contentHash": "3dc5e22e06295652734bfc7d6de33357204ab806e4eb0a15f4a82d2f48497902",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "3dc5e22e06295652734bfc7d6de33357204ab806e4eb0a15f4a82d2f48497902"
+      "notes": "NIST mínimo privilegio: consulta no requiere borrado; limitar accesos al propósito responde al concepto."
     },
     {
       "id": "PGN-EXP-0088",
+      "contentHash": "f10bb4349eadaa66595f404c420cd2cb826909e07006e51caca623cef2081d38",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "f10bb4349eadaa66595f404c420cd2cb826909e07006e51caca623cef2081d38"
+      "notes": "Permisos dependen de tarea actual, no antigüedad; retirar acceso innecesario es aplicación válida de NIST."
     },
     {
       "id": "PGN-EXP-0089",
+      "contentHash": "db61bd9535fb33beaecf8c3ea2c751bdf494448f361697e36d5c44c9e32dbb18",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "2f0fb3f79b5122295b86490c1657787d1611ff7abd687df72ecfef351b823466"
+      "notes": "NIST mínimo necesario por entidad: diferenciar permisos por tareas facilita control sin afirmar tecnología obligatoria."
     },
     {
       "id": "PGN-EXP-0090",
+      "contentHash": "4d4028021130ff2d1903c4e1c890a0b14cf145e28fdda907a7b7f5451dfca6b4",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "468736369defc287a12a1152816dcbc4f9f97f997c27a084eeea621b212b149b"
+      "notes": "La definición NIST no fija24 horas; limita acceso por necesidad y no justifica privilegios ilimitados."
     },
     {
       "id": "PGN-EXP-0091",
+      "contentHash": "894ef473e58b9bc2eaf8edbdab1d24e1ab9d6aee2784cd73a09dbe64dbe19a4e",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "894ef473e58b9bc2eaf8edbdab1d24e1ab9d6aee2784cd73a09dbe64dbe19a4e"
+      "notes": "Justificar cada acceso por tarea operacionaliza el mínimo NIST; color y uniformidad indiscriminada no lo evalúan."
     },
     {
       "id": "PGN-EXP-0092",
+      "contentHash": "1d28e4b8bcf56c7761a4ba865a6a0847a508984bda8b225ecccec07664109f83",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "4e4f960d84055308002fb9c5188c07bdfe7966b3334123f949e1337fb1247185"
+      "notes": "Acceso al recurso requerido conserva alcance necesario; pertenecer a TI no acredita administración universal."
     },
     {
       "id": "PGN-EXP-0093",
+      "contentHash": "45066ef513f6de8c7072d591f0ff6bf1a576c45c5b7a1ba4cc7319dd24b172f5",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "7715972937ab441f9d221beb616059dc1b99bbdfc41d99ade42d316fd27e7cb8"
+      "notes": "NCSC Protect secrets: almacén con control de identidad es consistente; publicar valor en código/imagen/nombre lo expone."
     },
     {
       "id": "PGN-EXP-0094",
+      "contentHash": "bc8026477a687679c89d80bda6d9cd015c1b50d05ea9f76ce80bfbced2240fa7",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "4b3ae84003eea3048378d41ea3dac97ae262bf052c206d8683074212f609a2ab"
+      "notes": "NCSC combina almacén y control granular; acceso universal no se resuelve mediante logotipo ni nombres."
     },
     {
       "id": "PGN-EXP-0095",
+      "contentHash": "e1da42c241da88a0f369b24ec10b3b24985773cfe2ad5a171776a10aa522cbbb",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "0e4fe07d4b4cc0ea0e03bba5168144eb97700303c7cb64f4502e7868fc3944b2"
+      "notes": "NCSC Authenticate service identities recomienda identidad para cargas; compartir cuenta humana o eliminar autenticación no es equivalente."
     },
     {
       "id": "PGN-EXP-0096",
+      "contentHash": "ab478d463f7c542aabb9595bc46626cce7ecf70d2756b265ac3f543b26b1c048",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "ab478d463f7c542aabb9595bc46626cce7ecf70d2756b265ac3f543b26b1c048"
+      "notes": "Un secreto publicado deja de estar protegido en ese canal aunque proceda de almacén; correcta evaluación de exposición."
     },
     {
       "id": "PGN-EXP-0097",
+      "contentHash": "0a285f61fb5e1b255f685e64ab09567383f2eee2746b69b370aa11cedd4cce40",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "0a285f61fb5e1b255f685e64ab09567383f2eee2746b69b370aa11cedd4cce40"
+      "notes": "Home Office exige versionado/especificación/pruebas; ruptura del tipo debe gestionarse como cambio contractual."
     },
     {
       "id": "PGN-EXP-0098",
+      "contentHash": "a90e85455f3defbd38bff9a7853bb3f7179d4072ab494359482c8cdbd2351358",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "a90e85455f3defbd38bff9a7853bb3f7179d4072ab494359482c8cdbd2351358"
+      "notes": "Home Office API Specification: especificación compartida define respuesta; documento vacío o nombre del equipo no fijan contrato."
     },
     {
       "id": "PGN-EXP-0099",
+      "contentHash": "8fae2e5e6cc08430e839f0afa5ba143b9630072fc6be7c680dd53175da52d5a2",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "dd5fc5e6f82008362bdab14e6a134a5f4bd448c8a3fab8928a81aa5b2acb20e7"
+      "notes": "Home Office pruebas incluye errores y códigos; solo éxitos dejan dimensión sin verificar."
     },
     {
       "id": "PGN-EXP-0100",
+      "contentHash": "94368c277d868079db4a0f7cc7167c0b2c4a1fca6bbbcdc038f22892b91d7ba0",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "94368c277d868079db4a0f7cc7167c0b2c4a1fca6bbbcdc038f22892b91d7ba0"
+      "notes": "Home Office integration tests respaldan comprobar interacción; pasar pruebas internas no demuestra compatibilidad con consumidores."
     },
     {
       "id": "PGN-EXP-0101",
+      "contentHash": "4ff8ae2009e0d4d7b94a480b82deda4701ac742445825fa89558eab839148520",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "680cabc28adfb5cefa000db1e79b47b64f11d271ad3e5ea96ac01b04423ca46a"
+      "notes": "Home Office contempla rutas, query o headers; correcta negación de una técnica exclusiva de URL."
     },
     {
       "id": "PGN-EXP-0102",
+      "contentHash": "3829227c0ee8c7713376c7d4c6aa0791a888e8eeb342e444fe5f109ccecc3f7e",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "cae5bcf5ef96984bd86b5725ed8150a91fdd6bdca4a917053992abc11e1de355"
+      "notes": "Especificación debe describir API usada; divergencia entre esquema publicado y servido afecta el contrato de consumidores."
     },
     {
       "id": "PGN-EXP-0103",
+      "contentHash": "ec34c782bab01db21f4efe85e7ba6a63b1c12addcf2987e7a3f7f2b61dd58967",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "ec34c782bab01db21f4efe85e7ba6a63b1c12addcf2987e7a3f7f2b61dd58967"
+      "notes": "CISA aislamiento contiene propagación; en supuesto viable no se exige apagar ni se promete recuperación o atribución."
     },
     {
       "id": "PGN-EXP-0104",
+      "contentHash": "120b635021e03038e20e0a5d52da4dacc7ee751afaac94801f03e24b7c31bab4",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "fc9b28539cff60bf2829f1d1f4f21b7a1f500e30ece09ed0ec30b89f2004d320"
+      "notes": "CISA advierte pérdida de evidencia volátil al apagar; reinicio puede perder memoria, riesgo correctamente expresado."
     },
     {
       "id": "PGN-EXP-0105",
+      "contentHash": "159b5bff2e59dd9085a0d50ea01f706a82b6a869f6ef55408321773d7a9b8462",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "b640b7a40b7bd0ad3bcac0ba27d3d37b5a7e2e85ed5d0ba5645ceebbef465afe"
+      "notes": "CISA Detection and Analysis empieza por sistemas impactados; delimitar alcance sustenta respuesta sin inventar cifra."
     },
     {
       "id": "PGN-EXP-0106",
+      "contentHash": "027c4dcbb0fb6404fcd01d880251f2972f7b68f23aa0fc011b3a8989575f1d0f",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "027c4dcbb0fb6404fcd01d880251f2972f7b68f23aa0fc011b3a8989575f1d0f"
+      "notes": "CISA contempla criticidad y opciones según viabilidad; una acción universal sin contexto no es regla válida."
     },
     {
       "id": "PGN-EXP-0107",
+      "contentHash": "3f01677228c9cadf23102944e6e15965a9ae4c1aad5274e06b8c0c087b144d56",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "3f01677228c9cadf23102944e6e15965a9ae4c1aad5274e06b8c0c087b144d56"
+      "notes": "CISA exige examinar logs y evidencia; borrarlos antes de investigar puede impedir reconstrucción."
     },
     {
       "id": "PGN-EXP-0108",
+      "contentHash": "c471173f9ce1fb89e69fd0bd5ec416da0c6e9d4eaf944df698234d5512dd7f66",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "3ce61befe38b8e91106cd6ff8384287e57108275b610a41f97ef1ef99bb011b4"
+      "notes": "Reconectar sin evaluación puede revertir contención; mantener procedimiento no afirma que aislamiento temporal cure infección."
     },
     {
       "id": "PGN-EXP-0109",
+      "contentHash": "4c979ff2682f6bc185f543843054cfaa2a37e923a67ed1f7183cfd48d22e51ac",
       "outcome": "pass",
-      "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta.",
-      "contentHash": "ce338b62da27d8a455d4ecda96b9103ac9b41e8c02b731c9a1f9e3fa3f2e8ced"
+      "notes": "CISA Reporting and Notification remite al plan y responsables; coordinación debe activarse sin esperar propagación total."
     }
   ]
 }

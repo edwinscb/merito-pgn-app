@@ -139,19 +139,21 @@ preguntas pendientes de Fase 2 quedan fuera del banco hasta una revisión futura
 
 ## 6. Fase 4 — Calidad y publicación
 
-Estado: **QA local completada; publicación pendiente**.
+Estado: **verificación automatizada realizada; QA local ejecutado; publicación Vercel preparada, no desplegada**.
 
-Se ejecutaron validación del dataset, pruebas automatizadas, compilación PWA y
-comprobación de privacidad del artefacto. La publicación en un proveedor y la
-conexión con Vercel requieren una decisión posterior y no se realizan desde
-este cierre.
+Se ejecutaron validación del dataset, pruebas automatizadas, compilación PWA,
+flujo de simulacro en navegador local y comprobación de privacidad del artefacto.
+`vercel.json` fija el build de Vite y `dist` como salida. El despliegue real aún
+requiere una cuenta/proyecto Vercel autorizado y no se ejecuta sin esa
+asociación.
 
 ## 7. Fase 5 — Crecimiento y actualización
 
 Estado: **en progreso**.
 
-El dataset contiene 109 registros y el banco público 83 preguntas. Quedan 26
-en revisión y faltan 17 publicaciones para alcanzar el objetivo inmediato de
-100. Las fuentes pendientes de descarga y la guía de orientación, si se
+El dataset contiene 109 registros; 18 semillas conservan revisión independiente
+acreditada y 91 registros están pendientes. La meta original es 200 preguntas
+útiles, ampliable a 400 si se mantiene la calidad; 100 es un hito intermedio.
+Las fuentes pendientes de descarga y la guía de orientación, si se
 publica, deben revisarse antes de ampliar perfiles o afirmar distribución del
 examen.

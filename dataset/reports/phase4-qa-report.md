@@ -1,5 +1,10 @@
 # QA local de Fase 4
 
+Corrección: este informe acredita únicamente verificaciones automatizadas.
+No acredita QA en navegador, móvil ni offline; Fase 4 sigue pendiente.
+El banco de 83 indicado abajo fue generado antes de retirar 65 promociones
+sin independencia acreditada y no representa el banco aprobado actual.
+
 Fecha: 2026-09-08.
 
 Comprobaciones ejecutadas:

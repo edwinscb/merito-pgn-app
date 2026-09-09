@@ -16,12 +16,12 @@ describe('pipeline con el dataset real', () => {
   it('mantiene fuera del banco las semillas con hallazgos pendientes', async () => {
     const result = await validateRepositoryDataset()
     expect(result.data?.questions).toHaveLength(109)
-    expect(result.data?.questions.filter((question) => question.status === 'validated_assisted')).toHaveLength(83)
-    expect(result.data?.questions.filter((question) => question.status === 'needs_review')).toHaveLength(26)
+    expect(result.data?.questions.filter((question) => question.status === 'validated_assisted')).toHaveLength(18)
+    expect(result.data?.questions.filter((question) => question.status === 'needs_review')).toHaveLength(91)
     const expansion = result.data?.questions.filter((question) => question.id.startsWith('PGN-EXP-')) ?? []
     expect(expansion).toHaveLength(84)
-    expect(expansion.filter((question) => question.status === 'validated_assisted')).toHaveLength(65)
-    expect(expansion.filter((question) => question.status === 'needs_review')).toHaveLength(19)
+    expect(expansion.filter((question) => question.status === 'validated_assisted')).toHaveLength(0)
+    expect(expansion.filter((question) => question.status === 'needs_review')).toHaveLength(84)
     expect(expansion.every((question) => question.options.length === 4)).toBe(true)
     expect(new Set(expansion.map((question) => question.stem)).size).toBe(expansion.length)
     const pilotCorrections = result.data?.questions.filter((question) => ['PGN-SEED-0006', 'PGN-SEED-0010', 'PGN-SEED-0021', 'PGN-SEED-0022', 'PGN-SEED-0023', 'PGN-SEED-0024', 'PGN-SEED-0025'].includes(question.id)) ?? []
@@ -32,7 +32,7 @@ describe('pipeline con el dataset real', () => {
     const first = buildQuestionBank(result.data?.questions ?? [])
     const second = buildQuestionBank(result.data?.questions ?? [])
     expect(first.schemaVersion).toBe(1)
-    expect(first.questions).toHaveLength(83)
+    expect(first.questions).toHaveLength(18)
     expect(first.questions.map((question) => question.id)).toEqual(expect.arrayContaining([
       'PGN-SEED-0001', 'PGN-SEED-0002', 'PGN-SEED-0003', 'PGN-SEED-0004',
       'PGN-SEED-0005', 'PGN-SEED-0007', 'PGN-SEED-0008', 'PGN-SEED-0009',
@@ -47,7 +47,7 @@ describe('pipeline con el dataset real', () => {
     const result = await validateRepositoryDataset()
     if (!result.data) throw new Error('El dataset de prueba debe ser válido.')
     const report = renderCoverageReport(result.data)
-    expect(report).toContain('| validated_assisted | 83 |')
+    expect(report).toContain('| validated_assisted | 18 |')
     expect(report).toContain('## Unidades por estado')
     expect(report).toContain('| pending_review | 9 |')
     expect(report).toContain('| C | 0 |')

@@ -145,3 +145,7 @@ label.button { display: inline-block; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+.session-settings { display: grid; gap: .75rem; margin: 1rem 0; border: 1px solid #c7cec5; border-radius: .75rem; padding: 1rem; }
+.session-settings label { display: grid; gap: .3rem; }
+.session-settings select, .session-settings input { width: 100%; min-width: 0; padding: .6rem; font: inherit; }
+.summary details { text-align: left; padding: 1rem; border-bottom: 1px solid #c7cec5; }

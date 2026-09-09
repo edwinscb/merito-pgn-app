@@ -3,6 +3,8 @@ import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { groups } from '../../dataset/editorial/expansion-items.mjs'
 import { questionFingerprint } from './question-fingerprint.mjs'
+import { createHash } from 'node:crypto'
+import { replacements } from '../../dataset/editorial/replacements.mjs'
 
 const root = fileURLToPath(new URL('../../', import.meta.url))
 const units = JSON.parse(await readFile(resolve(root, 'dataset/content/source-units.json'), 'utf8'))
@@ -14,7 +16,12 @@ try { previous = JSON.parse(await readFile(path, 'utf8')) } catch (error) {
 }
 const previousById = new Map(previous.map((q) => [q.id, q]))
 const questions = []
-for (const [unitId, items] of groups) {
+for (const [groupUnitId, items] of groups) {
+  for (const [originalStem, ...originalAnswers] of items) {
+  const replacement = replacements[`PGN-EXP-${String(questions.length + 26).padStart(4, '0')}`]
+  const unitId = replacement?.unitId ?? groupUnitId
+  const stem = replacement?.stem ?? originalStem
+  const answers = replacement?.answers ?? originalAnswers
   const unit = units.find((candidate) => candidate.id === unitId)
   if (!unit || unit.verificationStatus !== 'verified') throw new Error(`Unidad no verificada: ${unitId}`)
   const topicId = unit.topicIds[0]
@@ -23,10 +30,10 @@ for (const [unitId, items] of groups) {
   // Solo se conservan convocatorias expresamente asignadas a la unidad.
   const applicable = units.filter((candidate) => candidate.id.match(/^pgn-call-\d+-2026-v3-profile$/)
     && unit.targetCallIds.includes(candidate.targetCallIds[0]))
-  for (const [stem, ...answers] of items) {
     if (answers.length !== 4) throw new Error(`Se requieren cuatro opciones: ${stem}`)
     const index = questions.length
-    const correctIndex = index % 4
+    // Reproducible sin secuencia ABCD que permita anticipar respuestas.
+    const correctIndex = createHash('sha256').update(`pgn-answer-position:${index + 26}`).digest()[0] % 4
     const options = answers.map((_, position) => {
       const answerIndex = (position - correctIndex + 4) % 4
       const [text, rationale] = answers[answerIndex]
@@ -37,7 +44,7 @@ for (const [unitId, items] of groups) {
       status: 'needs_review', moduleId: topic.moduleId, topicId,
       secondaryTopicIds: [], questionType: 'application', difficulty: 2,
       stem, options, correctOptionId: 'ABCD'[correctIndex],
-      explanation: answers[0][1],
+      explanation: replacement?.explanation ?? answers[0][1],
       references: [
         { sourceId: unit.sourceId, sourceUnitId: unit.id, locator: unit.locator, supports: 'correct_answer' },
         ...applicable.map((profile) => ({ sourceId: profile.sourceId, sourceUnitId: profile.id, locator: profile.locator, supports: 'context' }))

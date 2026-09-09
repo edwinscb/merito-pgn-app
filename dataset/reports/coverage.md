@@ -3,15 +3,15 @@
 - Fuentes: **48**
 - Unidades verificables: **31**
 - Preguntas: **109**
-- Preguntas publicables: **83**
+- Preguntas publicables: **18**
 
 ## Preguntas por estado
 
 | Categoría | Cantidad |
 | --- | ---: |
 | draft_ai | 0 |
-| validated_assisted | 83 |
-| needs_review | 26 |
+| validated_assisted | 18 |
+| needs_review | 91 |
 | rejected | 0 |
 | retired | 0 |
 
@@ -51,10 +51,10 @@
 | --- | ---: |
 | procuraduria_y_estado — Procuraduría y Estado | 8 |
 | derecho_disciplinario — Derecho disciplinario | 0 |
-| gestion_publica_y_mipg — Gestión pública y MIPG | 24 |
+| gestion_publica_y_mipg — Gestión pública y MIPG | 25 |
 | contratacion_estatal — Contratación estatal | 1 |
-| atencion_transparencia_y_datos — Atención, transparencia y datos | 7 |
-| gestion_documental — Gestión documental | 8 |
+| atencion_transparencia_y_datos — Atención, transparencia y datos | 5 |
+| gestion_documental — Gestión documental | 9 |
 | ofimatica_y_sistemas_de_gestion — Ofimática y sistemas de gestión | 0 |
 | competencias_comportamentales — Competencias comportamentales | 5 |
 | datos_y_analitica — Datos y analítica | 15 |

@@ -1,6 +1,6 @@
 # Dataset estructurado — Fases 1, 2 y 3
 
-Corrección de la expansión: 83 preguntas publicables y 26 pendientes. Las 84
+Corrección de la expansión: 18 preguntas publicables y 91 pendientes. Las 84
 nuevas preguntas tienen enunciados originales y explicaciones específicas, pero
 requieren doble revisión independiente antes de publicarse. La auditoría está
 en `dataset/reports/expansion-quality-audit.md`.
@@ -121,8 +121,9 @@ opciones vacías o repetidas, claves inexistentes, referencias inválidas y
 preguntas publicables sin fuente oficial A o B verificada y vigente.
 
 `public/data/question-bank.json` contiene exclusivamente preguntas
-`validated_assisted`. Actualmente contiene 83 preguntas (las 18 semillas
-aprobadas y 65 nuevas). El conjunto estructurado contiene 109 preguntas; las 26 restantes
+`validated_assisted`. Actualmente contiene 18 semillas aprobadas. Las 65
+promociones internas se retiraron por falta de independencia acreditada.
+El conjunto estructurado contiene 109 preguntas; las 91 restantes
 no llegan al banco público. Los informes
 independientes y sus límites están en `dataset/reports/phase2-factual-final.json`
 y `dataset/reports/phase2-editorial-final.json`.
@@ -139,7 +140,7 @@ Limitaciones vigentes:
 - cuatro fuentes tienen procedencia/contenido comprobados para el alcance
   puntual indicado en sus notas; esto no certifica todos sus artículos;
 - nueve fuentes continúan pendientes de descarga;
-- 26 preguntas todavía no son publicables: las siete semillas pendientes y 19
+- 91 preguntas todavía no son publicables: las siete semillas pendientes y 84
   preguntas de expansión;
 - la unidad del artículo 12 requiere completar el alcance del trámite;
 - la unidad del boletín se corrigió como resumen contextual y requiere nueva

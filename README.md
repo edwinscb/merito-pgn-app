@@ -1,6 +1,6 @@
 # Mérito PGN
 
-Estado actual: 109 registros, 83 publicables y 26 pendientes de revisión. Las
+Estado actual: 109 registros, 18 publicables y 91 pendientes de revisión. Las
 84 preguntas nuevas tienen enunciados originales y explicaciones específicas,
 pero todavía no cuentan con doble revisión independiente. Todavía no existe un
 banco público de 100 preguntas aprobadas.
@@ -38,6 +38,12 @@ npm run build
 npm run dev
 ```
 
+Para preparar Vercel, importa este repositorio y conserva `npm run build` como
+comando de construcción y `dist` como directorio de salida. El archivo
+`vercel.json` deja esa configuración versionada; no contiene credenciales ni
+realiza el despliegue. La publicación requiere asociar el proyecto a una cuenta
+Vercel autorizada.
+
 - `dataset:inventory` regenera el inventario documental y sus hashes.
 - `dataset:generate-expansion` regenera el lote original de 84 preguntas de
   trabajo, siempre en `needs_review`.
@@ -49,7 +55,7 @@ npm run dev
   contenga documentos fuente ni rutas sensibles.
 
 El entrenador muestra exclusivamente preguntas `validated_assisted` del banco
-público (actualmente 83). No inventa duración ni distribución de convocatoria.
+público (actualmente 18). No inventa duración ni distribución de convocatoria.
 El progreso permanece en IndexedDB y usa el contrato `ProgressExport` para
 exportar o importar datos.
 
