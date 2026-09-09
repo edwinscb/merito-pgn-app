@@ -201,7 +201,7 @@ export const AttemptSchema = z.object({
   attemptedAt: dateTimeSchema,
   selectedOptionId: z.enum(['A', 'B', 'C', 'D']),
   correct: z.boolean(),
-  confidence: z.number().int().min(1).max(3),
+  confidence: z.number().int().min(1).max(3).nullable(),
   responseTimeSeconds: z.number().nonnegative(),
   mode: z.enum(['practice', 'simulation']),
   examId: idSchema.nullable()

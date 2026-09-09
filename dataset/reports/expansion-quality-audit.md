@@ -1,5 +1,10 @@
 # Auditoría de calidad de la expansión
 
+Nota de vigencia (2026-09-09): el texto siguiente es histórico. Las promociones
+internas se retiraron: actualmente hay 18 revisadas y 91 `needs_review`.
+El banco de estudio habilita 84 provisionales sin promoción editorial. Véase
+`study-release-audit.md` para el estado de esta entrega.
+
 La primera ampliación no satisfacía el objetivo de 100 preguntas útiles: sus 84
 registros provenían de 28 tarjetas repetidas tres veces. Ese lote fue sustituido
 por 84 preguntas originales con escenarios diferentes, racionales propios y

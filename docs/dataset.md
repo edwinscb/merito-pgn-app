@@ -1,9 +1,9 @@
 # Dataset estructurado — Fases 1, 2 y 3
 
-Corrección de la expansión: 18 preguntas publicables y 91 pendientes. Las 84
-nuevas preguntas tienen enunciados originales y explicaciones específicas, pero
-requieren doble revisión independiente antes de publicarse. La auditoría está
-en `dataset/reports/expansion-quality-audit.md`.
+Estado editorial: 18 preguntas revisadas y 91 pendientes. La aplicación usa un
+banco de estudio de 102: las 18 revisadas y 84 provisionales habilitadas por el
+propietario. Esa habilitación no sustituye la doble revisión independiente.
+Las siete semillas con hallazgos factuales siguen excluidas.
 
 ## Propósito y límites
 
@@ -38,7 +38,17 @@ Los esquemas Zod y sus tipos TypeScript inferidos se exportan desde
 - `ExamProfile`: convocatoria y parámetros de simulacro; los valores aún no
   publicados permanecen en `null`.
 - `Attempt`: respuesta, confianza, tiempo y modo.
-- `ProgressExport`: envoltura versionada para una futura exportación.
+- `ProgressExport`: exportación anterior v1, todavía importable.
+
+`src/domain/learning.ts` añade `PracticeProfileSchema`, `SessionSchema`,
+`MarkSchema`, `LearningProgressSchema` y `LearningExportSchema` (v2).
+Los dos perfiles de práctica son General/comun y Sistemas/tecnico: 20 preguntas
+y 30 minutos ajustables, independientes de los perfiles oficiales de convocatoria.
+La confianza puede ser `null`. Las sesiones conservan preguntas y opciones en su
+orden barajado, respuestas por ID, marcas, posición y vencimiento absoluto.
+IndexedDB v2 conserva el almacén de intentos anterior y añade `learning`.
+Las escrituras esperan confirmación de la transacción; el fallo activa un aviso
+de progreso temporal y permite exportar la copia en memoria.
 
 Los estados de pregunta permitidos son:
 
@@ -124,7 +134,7 @@ preguntas publicables sin fuente oficial A o B verificada y vigente.
 `validated_assisted`. Actualmente contiene 18 semillas aprobadas. Las 65
 promociones internas se retiraron por falta de independencia acreditada.
 El conjunto estructurado contiene 109 preguntas; las 91 restantes
-no llegan al banco público. Los informes
+no llegan al artefacto exclusivamente revisado. Los informes
 independientes y sus límites están en `dataset/reports/phase2-factual-final.json`
 y `dataset/reports/phase2-editorial-final.json`.
 
@@ -140,8 +150,8 @@ Limitaciones vigentes:
 - cuatro fuentes tienen procedencia/contenido comprobados para el alcance
   puntual indicado en sus notas; esto no certifica todos sus artículos;
 - nueve fuentes continúan pendientes de descarga;
-- 91 preguntas todavía no son publicables: las siete semillas pendientes y 84
-  preguntas de expansión;
+- 91 preguntas todavía no tienen revisión editorial suficiente: las siete
+  semillas excluidas y 84 de expansión habilitadas como provisionales;
 - la unidad del artículo 12 requiere completar el alcance del trámite;
 - la unidad del boletín se corrigió como resumen contextual y requiere nueva
   revisión; no respalda por sí sola una potestad general de gestionar riesgos;
@@ -153,14 +163,28 @@ Limitaciones vigentes:
 - los perfiles de simulacro no tienen todavía duración, cantidad ni
   distribución oficial;
 - las siete preguntas no promovidas requieren corrección y nueva revisión factual;
-- Fase 3 implementa práctica, simulacro breve, captura de confianza, una cola
-  local de repaso priorizada por errores/confianza baja, IndexedDB y
-  exportación/importación validada; no crea un calendario espaciado ni usa
-  servidores.
+- La nueva interfaz implementa estudio, dos simuladores, confianza opcional,
+  repaso de errores/omitidas y guardadas, IndexedDB y exportación/importación;
+  no crea un calendario espaciado ni usa servidores para el progreso.
 
-El frontend lee exclusivamente `public/data/question-bank.json`, por lo que las
-siete semillas y las preguntas de expansión en `needs_review` nunca aparecen en práctica. El banco actual
-contiene las 18 preguntas `validated_assisted` disponibles.
+El frontend consume `public/data/study-bank.json`: 102 preguntas, 46 de General
+y 56 de Sistemas. `provisionalIds` y los estados editoriales distinguen las 84
+provisionales. El artefacto contiene etiquetas de temas y enlaces de fuentes,
+sin copiar documentos completos ni rutas locales de fuentes.
+
+`dataset/content/study-authorization.json` registra propietario, motivo e ID/hash
+SHA-256 de las 84 habilitadas. `scripts/dataset/build-study.mjs` valida ese
+contrato con Zod y bloquea duplicados, cambios de contenido, estados no
+habilitables o cantidades distintas de 102. El hash reutiliza la huella editorial
+canónica; estado y metadatos de revisión no cambian la identidad del contenido.
+Modificar un enunciado, opción, clave, explicación o referencia obliga a renovar
+la habilitación de esa versión. La autorización de uso nunca añade un `pass`.
+
+`dataset:build` valida y genera ambos bancos de forma determinista. `npm run build`
+lo ejecuta también para evitar publicar un JSON obsoleto. No ejecutar el generador
+histórico de expansión para preparar despliegues: sobrescribiría correcciones.
+La corrección de EXP-0049 y los límites actuales se registran en
+`dataset/reports/study-release-audit.md`.
 
 ## Privacidad
 

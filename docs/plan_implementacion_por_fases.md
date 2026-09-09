@@ -3,6 +3,12 @@
 Estado: **Fase 1 implementada; Fase 2 cerrada para el lote actual; Fase 3 implementada en alcance técnico**
 Fecha: **3 de septiembre de 2026**
 
+Actualización de experiencia de estudio (9 de septiembre de 2026): se implementan
+dos simuladores General/Sistemas, estudio de 102 preguntas (18 revisadas y 84
+provisionales autorizadas), marcas personales y migración del progreso. Véase
+`docs/experiencia-estudio.md`. Este ajuste no declara completada la revisión
+editorial de la expansión ni modifica los objetivos de las fases siguientes.
+
 ## 1. Decisiones confirmadas
 
 - Aplicativo de uso personal para preparar el Concurso PGN 2026.

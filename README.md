@@ -1,35 +1,39 @@
 # Mérito PGN
 
-Estado actual: 109 registros, 18 publicables y 91 pendientes de revisión. Las
-84 preguntas nuevas tienen enunciados originales y explicaciones específicas,
-pero todavía no cuentan con doble revisión independiente. Todavía no existe un
-banco público de 100 preguntas aprobadas.
-Véase `dataset/reports/expansion-quality-audit.md`.
+Aplicación personal para estudiar y practicar el examen de la Procuraduría,
+pensada para celular. Sitio: https://merito-pgn-app.vercel.app/.
 
-Base técnica y documental de un aplicativo personal para preparar el Concurso
-Abierto de Méritos de la Procuraduría General de la Nación 2026.
+## Experiencia
 
-## Estado
+- Dos bloques: **General** (46 preguntas) y **Sistemas** (56).
+- Estudiar por bloque/tema, buscar, consultar explicaciones y fuentes.
+- Simulacros de 20 preguntas y 30 minutos por defecto, ajustables. Son parámetros
+  de práctica, no el formato oficial de una convocatoria.
+- Cambiar respuestas, marcar para volver, recuperar una sesión tras recargar y
+  revisar resultados, errores y omitidas al terminar. El reloj no se pausa al salir.
+- Guardadas, revisión personal y problemas con notas en el dispositivo.
+- Progreso en IndexedDB, exportación v2 e importación v1/v2. Si falla el guardado,
+  se informa que el progreso es temporal. No hay sincronización entre dispositivos.
+- PWA con aplicación y banco precargados para uso sin conexión después de la
+  primera carga completa. Los enlaces a fuentes y al curso requieren conexión.
 
-Las **fases 0 y 1** están implementadas, la **Fase 2 está cerrada para el lote actual** y la
-**Fase 3 está implementada en su alcance técnico**. El
-repositorio contiene la aplicación React, la configuración inicial de PWA y un
-dataset estructurado con contratos Zod, validación relacional, compilación
-reproducible y reporte de cobertura.
+## Banco y honestidad editorial
 
-Las 25 semillas fueron corregidas y revisadas por dos roles independientes.
-Dieciocho preguntas son publicables; Q6, Q10 y Q21–Q25 permanecen en
-`needs_review` por hallazgos factuales.
-La Fase 3 añade práctica, simulacro breve, confianza, repaso local, IndexedDB y
-exportación/importación validada. No incluye generación automática de preguntas,
-backend ni despliegue.
+El dataset conserva 109 registros: 18 `validated_assisted` y 91 `needs_review`.
+La aplicación habilita **102 preguntas: 18 revisadas y 84 provisionales**, por
+autorización expresa del propietario ligada al hash de su contenido. No se
+atribuyen revisiones inexistentes. Las semillas 6, 10 y 21–25 siguen excluidas.
 
-## Comandos
+- `public/data/question-bank.json`: 18 preguntas exclusivamente revisadas.
+- `public/data/study-bank.json`: 102 preguntas disponibles, con condición visible.
+- `dataset/content/study-authorization.json`: autorización de las 84 provisionales.
+- `dataset/reports/study-release-audit.md`: correcciones y hallazgos pendientes.
+
+## Desarrollo y validación
 
 ```bash
-npm install
+npm ci
 npm run dataset:inventory
-npm run dataset:generate-expansion
 npm run dataset:validate
 npm run dataset:build
 npm run dataset:coverage
@@ -38,58 +42,30 @@ npm run build
 npm run dev
 ```
 
-Para preparar Vercel, importa este repositorio y conserva `npm run build` como
-comando de construcción y `dist` como directorio de salida. El archivo
-`vercel.json` deja esa configuración versionada; no contiene credenciales ni
-realiza el despliegue. La publicación requiere asociar el proyecto a una cuenta
-Vercel autorizada.
+`dataset:build` valida el dataset, genera el banco revisado y comprueba hashes
+antes de generar el de estudio. `build` ejecuta ese pipeline, comprueba TypeScript,
+genera la PWA e inspecciona la privacidad de `dist`. La generación es determinista.
+`dataset:coverage` describe estados editoriales, no autorizaciones de uso.
+No ejecutar `dataset:generate-expansion` sobre el lote corregido: es una
+herramienta histórica que puede sobrescribir las correcciones editoriales.
 
-- `dataset:inventory` regenera el inventario documental y sus hashes.
-- `dataset:generate-expansion` regenera el lote original de 84 preguntas de
-  trabajo, siempre en `needs_review`.
-- `dataset:validate` valida contratos, referencias y reglas de publicación.
-- `dataset:build` escribe `public/data/question-bank.json` solo con preguntas
-  `validated_assisted`.
-- `dataset:coverage` actualiza `dataset/reports/coverage.md`.
-- `build` comprueba TypeScript, construye la PWA y verifica que `dist/` no
-  contenga documentos fuente ni rutas sensibles.
+La única nueva dependencia de pruebas es `fake-indexeddb`, para comprobar la
+migración y transacciones sin depender del navegador del usuario.
 
-El entrenador muestra exclusivamente preguntas `validated_assisted` del banco
-público (actualmente 18). No inventa duración ni distribución de convocatoria.
-El progreso permanece en IndexedDB y usa el contrato `ProgressExport` para
-exportar o importar datos.
+## Publicación y privacidad
 
-## Dataset
-
-Los contratos compartidos `Source`, `SourceUnit`, `Question`,
-`ExamProfile`, `Attempt` y `ProgressExport` se definen con Zod en
-`src/domain/dataset/contracts.ts`. Los registros editables están bajo
-`dataset/content/`.
-
-Las 25 preguntas diagnósticas conservan su procedencia: 18 están en
-`validated_assisted` y 7 en `needs_review`. El banco público contiene Q1–Q5,
-Q7–Q9 y Q11–Q20, con informes finales independientes en
-`dataset/reports/phase2-factual-final.json` y
-`dataset/reports/phase2-editorial-final.json`. La asignación por convocatoria
-es conservadora y solo expresa pertinencia temática documentada. El dataset
-incluye además 84 preguntas originales de expansión en `needs_review` (109
-registros estructurados en total); no se publican hasta superar doble revisión.
-
-## Privacidad
-
-`dataset/raw/` conserva documentos de trabajo dentro del repositorio privado,
-pero no forma parte de `public/` ni del artefacto generado en `dist/`. Este
-proyecto no debe recibir hojas de vida, certificados profesionales, datos de
-contacto, análisis salariales, archivos de postulación ni secretos.
-
-La futura URL del sitio y el banco compilado serán públicos. Solo el contenido
-generado expresamente dentro de `public/data/` podrá llegar al sitio; nunca se
-publican documentos fuente completos.
+Vercel usa `npm run build` y `dist`. Primero se revisa una preview; después se
+publica la rama principal. No necesita variables secretas ni backend.
+Nunca se copian `dataset/raw`, documentos completos ni carpetas privadas al sitio.
+No se guardan credenciales. Misión Mérito se enlaza como recurso externo y su
+temario orienta vacíos; no se reproducen sus cuestionarios, videos ni guías.
+Los respaldos de progreso contienen notas personales: consérvalos en privado.
 
 ## Documentación
 
-- `docs/producto.md`: definición completa del aplicativo.
-- `docs/plan_implementacion_por_fases.md`: alcance ejecutado y fases futuras.
-- `docs/dataset.md`: contratos, procedencia, estados y flujo editorial.
-- `dataset/catalog/source-inventory.json`: inventario reproducible con hashes.
-- `dataset/reports/coverage.md`: cobertura actual del dataset.
+- `docs/experiencia-estudio.md`: decisiones, uso, migración y aceptación.
+- `docs/dataset.md`: contratos y flujo editorial.
+- `docs/producto.md`: definición del producto.
+- `docs/plan_implementacion_por_fases.md`: historial y alcance de fases.
+- `dataset/catalog/source-inventory.json`: fuentes y hashes.
+- `dataset/reports/coverage.md`: cobertura editorial.

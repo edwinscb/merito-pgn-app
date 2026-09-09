@@ -1,5 +1,9 @@
 # Estado de revisión del lote de 100
 
+Aviso: informe histórico sustituido para el estado actual por
+`study-release-audit.md`. No acredita 83 aprobaciones vigentes: actualmente hay
+18 preguntas revisadas y 84 adicionales habilitadas solo como provisionales.
+
 Fecha: 2026-09-08.
 
 El lote contiene 84 preguntas nuevas, distintas por enunciado y conjunto de

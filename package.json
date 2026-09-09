@@ -5,13 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.dataset.json && vite build && tsx scripts/dataset/check-dist.ts",
+    "build": "npm run dataset:build && tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.dataset.json && vite build && tsx scripts/dataset/check-dist.ts",
     "test": "vitest run",
     "dataset:inventory": "node scripts/build-source-inventory.mjs",
     "dataset:generate-expansion": "node scripts/dataset/generate-expansion.mjs",
     "dataset:review-expansion": "node scripts/dataset/final-review-promote.mjs",
     "dataset:validate": "tsx scripts/dataset/validate.ts",
-    "dataset:build": "tsx scripts/dataset/build.ts",
+    "dataset:build": "tsx scripts/dataset/build.ts && node scripts/dataset/build-study.mjs",
     "dataset:coverage": "tsx scripts/dataset/coverage.ts"
   },
   "dependencies": {
@@ -26,6 +26,7 @@
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
+    "fake-indexeddb": "^6.2.5",
     "jsdom": "^29.1.1",
     "tsx": "^4.23.13",
     "typescript": "^7.0.2",

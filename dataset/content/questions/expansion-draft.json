@@ -1283,36 +1283,36 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Una solicitud comprende un documento con diez páginas públicas y un anexo legalmente exceptuado. ¿Qué solución aplica el acceso parcial?",
+    "stem": "Una comunicación solicita copia de un documento y una respuesta a una consulta sobre una materia de competencia de la entidad. Antes de asignar términos, ¿qué análisis evita tratar ambas solicitudes como una sola modalidad?",
     "options": [
       {
         "id": "A",
-        "text": "Negar las once partes sin analizar su separación.",
-        "rationale": "Extiende indebidamente la excepción a información pública."
+        "text": "Aplicar un término escogido por la longitud del correo.",
+        "rationale": "La extensión del escrito no determina la modalidad ni su término legal."
       },
       {
         "id": "B",
-        "text": "Entregar el anexo protegido para evitar cualquier omisión.",
-        "rationale": "El acceso parcial preserva la protección legal de la parte exceptuada."
+        "text": "Clasificar ambas exclusivamente por el título «consulta».",
+        "rationale": "El título no reemplaza el examen de lo realmente solicitado."
       },
       {
         "id": "C",
-        "text": "Destruir el anexo antes de responder.",
-        "rationale": "Reservar información no autoriza destruirla."
+        "text": "Omitir la solicitud de copia porque acompaña a una consulta.",
+        "rationale": "Reunir dos solicitudes en un escrito no elimina la obligación de examinar cada una."
       },
       {
         "id": "D",
-        "text": "Entregar las páginas públicas y proteger únicamente el contenido exceptuado.",
-        "rationale": "La excepción parcial no se extiende automáticamente al documento completo."
+        "text": "Identificar el contenido y la modalidad de cada solicitud.",
+        "rationale": "Distinguir la petición de copia de la consulta permite verificar la regla aplicable a cada componente."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La excepción parcial no se extiende automáticamente al documento completo.",
+    "explanation": "La autoridad debe examinar lo solicitado: obtener una copia y formular una consulta son modalidades distintas del derecho de petición. Identificar cada componente permite verificar el término y trámite legal aplicable sin ignorar ninguna solicitud. El artículo 13 reconoce las modalidades y el artículo 14 distingue sus términos; el título o la longitud del correo no sustituyen ese análisis.",
     "references": [
       {
-        "sourceId": "law-1712-2014",
-        "sourceUnitId": "law-1712-2014-review-unit",
-        "locator": "Ley 1712 de 2014, artículos 18 y 21",
+        "sourceId": "law-1755-2015",
+        "sourceUnitId": "law-1755-2015-review-unit",
+        "locator": "Ley 1755 de 2015, artículos 13 y 14",
         "supports": "correct_answer"
       }
     ],
