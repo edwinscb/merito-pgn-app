@@ -1,0 +1,5000 @@
+[
+  {
+    "id": "PGN-NEW-0110",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Se propone sancionar una conducta únicamente porque hoy parece reprochable, aunque no estaba descrita como falta al ocurrir. ¿Qué debe examinarse primero?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La existencia de una descripción legal previa de la falta aplicable.",
+        "rationale": "La legalidad disciplinaria exige una conducta descrita como falta en la ley vigente al realizarse. La valoración moral posterior no crea por sí sola un tipo sancionable."
+      },
+      {
+        "id": "B",
+        "text": "La popularidad de la sanción.",
+        "rationale": "El respaldo social no sustituye la tipicidad legal."
+      },
+      {
+        "id": "C",
+        "text": "La opinión personal del denunciante.",
+        "rationale": "Una opinión no crea una falta disciplinaria."
+      },
+      {
+        "id": "D",
+        "text": "La conveniencia de crear una regla retroactiva desfavorable.",
+        "rationale": "Una regla posterior desfavorable no subsana la falta de legalidad previa."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La legalidad disciplinaria exige una conducta descrita como falta en la ley vigente al realizarse. La valoración moral posterior no crea por sí sola un tipo sancionable.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-110",
+        "locator": "Artículo 4, legalidad",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0111",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Durante una actuación cambia la ley sustancial y el régimen nuevo es más favorable al disciplinado. ¿Qué principio orienta la comparación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aplicar siempre la sanción más alta.",
+        "rationale": "La mayor severidad contradice la favorabilidad."
+      },
+      {
+        "id": "B",
+        "text": "Aplicar la norma favorable en los términos del principio de favorabilidad.",
+        "rationale": "La norma permisiva o favorable, sustancial o procesal con efectos sustanciales, prevalece sobre la restrictiva o desfavorable, incluso si es posterior. No se trata de elegir siempre la norma más reciente."
+      },
+      {
+        "id": "C",
+        "text": "Ignorar todo cambio posterior al hecho.",
+        "rationale": "La favorabilidad permite considerar una disposición posterior."
+      },
+      {
+        "id": "D",
+        "text": "Elegir la norma que facilite recaudar multas.",
+        "rationale": "La finalidad recaudatoria no decide el régimen aplicable."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La norma permisiva o favorable, sustancial o procesal con efectos sustanciales, prevalece sobre la restrictiva o desfavorable, incluso si es posterior. No se trata de elegir siempre la norma más reciente.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-111",
+        "locator": "Artículo 8, favorabilidad",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0112",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Se detecta una irregularidad formal. Antes de concluir que existe ilicitud sustancial, ¿qué análisis exige el Código?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contar cuántas personas comentaron el caso.",
+        "rationale": "La notoriedad no demuestra afectación del deber funcional."
+      },
+      {
+        "id": "B",
+        "text": "Presumir que todo error de formato es sustancial.",
+        "rationale": "Confunde incumplimiento formal con ilicitud sustancial."
+      },
+      {
+        "id": "C",
+        "text": "Determinar si se afectó sustancialmente el deber funcional sin justificación.",
+        "rationale": "El artículo 9 vincula la ilicitud sustancial con la afectación sustancial del deber funcional sin justificación. Un defecto formal aislado no permite omitir ese análisis."
+      },
+      {
+        "id": "D",
+        "text": "Verificar únicamente el cargo jerárquico.",
+        "rationale": "El cargo no demuestra por sí solo la afectación."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "El artículo 9 vincula la ilicitud sustancial con la afectación sustancial del deber funcional sin justificación. Un defecto formal aislado no permite omitir ese análisis.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-112",
+        "locator": "Artículo 9, ilicitud sustancial",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0113",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Un informe recomienda sancionar por el solo resultado dañoso, sin estudiar dolo o culpa. ¿Qué objeción es pertinente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Todo daño demuestra automáticamente dolo.",
+        "rationale": "El resultado no acredita por sí mismo la intención."
+      },
+      {
+        "id": "B",
+        "text": "La culpa solo importa si el investigado lo solicita.",
+        "rationale": "La culpabilidad es una exigencia del régimen, no una concesión."
+      },
+      {
+        "id": "C",
+        "text": "La jerarquía reemplaza el examen de culpabilidad.",
+        "rationale": "Ser superior no elimina el análisis subjetivo exigido."
+      },
+      {
+        "id": "D",
+        "text": "Está proponiendo responsabilidad objetiva, proscrita en materia disciplinaria.",
+        "rationale": "Solo se sancionan conductas realizadas con culpabilidad. El daño no elimina la necesidad de examinar dolo o culpa y los demás presupuestos de responsabilidad."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Solo se sancionan conductas realizadas con culpabilidad. El daño no elimina la necesidad de examinar dolo o culpa y los demás presupuestos de responsabilidad.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-113",
+        "locator": "Artículo 10, culpabilidad",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0114",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una actuación reúne documentos pero no busca esclarecer lo ocurrido. ¿Cuál objetivo procesal está desatendiendo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La búsqueda de la verdad material con respeto de las garantías.",
+        "rationale": "El proceso no se agota en acumular papeles: persigue la verdad material y la efectividad del derecho sustantivo respetando derechos y garantías. La rapidez no justifica prescindir de esclarecimiento."
+      },
+      {
+        "id": "B",
+        "text": "La obligación de confirmar toda denuncia.",
+        "rationale": "La denuncia debe investigarse, no darse por verdadera automáticamente."
+      },
+      {
+        "id": "C",
+        "text": "La necesidad de aumentar el número de sanciones.",
+        "rationale": "Un volumen de sanciones no es fin procesal."
+      },
+      {
+        "id": "D",
+        "text": "La prioridad de cerrar sin examinar pruebas.",
+        "rationale": "Cerrar sin examen puede frustrar el esclarecimiento."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "El proceso no se agota en acumular papeles: persigue la verdad material y la efectividad del derecho sustantivo respetando derechos y garantías. La rapidez no justifica prescindir de esclarecimiento.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-114",
+        "locator": "Artículo 11, fines del proceso",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0115",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Aparece un documento que podría excluir la responsabilidad del investigado. ¿Cómo debe tratarlo la autoridad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ignorarlo porque favorece al investigado.",
+        "rationale": "La evidencia favorable también debe examinarse."
+      },
+      {
+        "id": "B",
+        "text": "Investigarlo con el mismo rigor que los elementos incriminatorios.",
+        "rationale": "La investigación integral comprende hechos que establecen responsabilidad y los que muestran inexistencia de la falta o la excluyen. Seleccionar solo evidencia de cargo desconoce ese deber."
+      },
+      {
+        "id": "C",
+        "text": "Destruirlo si contradice la hipótesis inicial.",
+        "rationale": "Eliminar evidencia impide una investigación integral."
+      },
+      {
+        "id": "D",
+        "text": "Dejar de investigar cualquier otro hecho.",
+        "rationale": "Una evidencia favorable debe valorarse, no sustituye todo el análisis."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La investigación integral comprende hechos que establecen responsabilidad y los que muestran inexistencia de la falta o la excluyen. Seleccionar solo evidencia de cargo desconoce ese deber.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-115",
+        "locator": "Artículo 13, investigación integral",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0116",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Durante una actuación existe duda razonable sobre la responsabilidad disciplinaria. ¿En favor de quién debe resolverse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Del denunciante por haber iniciado la actuación.",
+        "rationale": "Denunciar no invierte la presunción de inocencia."
+      },
+      {
+        "id": "B",
+        "text": "De la autoridad para proteger su reputación.",
+        "rationale": "La reputación institucional no permite resolver la duda contra el investigado."
+      },
+      {
+        "id": "C",
+        "text": "Del sujeto disciplinable.",
+        "rationale": "El texto vigente del artículo 14 dispone resolver toda duda razonable a favor del sujeto disciplinable. No se incorpora como condición el aparte declarado inexequible. La sospecha no equivale a una declaración de responsabilidad."
+      },
+      {
+        "id": "D",
+        "text": "De quien tenga más antigüedad laboral.",
+        "rationale": "La antigüedad es ajena a esta garantía."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "El texto vigente del artículo 14 dispone resolver toda duda razonable a favor del sujeto disciplinable. No se incorpora como condición el aparte declarado inexequible. La sospecha no equivale a una declaración de responsabilidad.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-116",
+        "locator": "Artículo 14, presunción de inocencia; texto vigente con aparte inexequible excluido",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0117",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Un investigado pide ejercer defensa material y contar con asistencia de abogado. ¿Cuál respuesta reconoce la garantía legal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Admitir solo la versión del denunciante.",
+        "rationale": "Excluir al investigado desconoce el derecho de defensa."
+      },
+      {
+        "id": "B",
+        "text": "Permitir defensa únicamente después de sancionar.",
+        "rationale": "La defensa opera durante la actuación, no solo tras la sanción."
+      },
+      {
+        "id": "C",
+        "text": "Sustituir la defensa por una encuesta interna.",
+        "rationale": "Una encuesta no garantiza contradicción ni asistencia jurídica."
+      },
+      {
+        "id": "D",
+        "text": "Permitir la defensa material y la asistencia letrada conforme al Código.",
+        "rationale": "La defensa comprende la actuación del propio investigado y la asistencia de abogado. La organización interna del despacho no puede suprimir esas garantías."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La defensa comprende la actuación del propio investigado y la asistencia de abogado. La organización interna del despacho no puede suprimir esas garantías.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-117",
+        "locator": "Artículo 15, derecho a la defensa",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0118",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Existe fallo disciplinario ejecutoriado de autoridad competente sobre un hecho. Se pretende investigarlo de nuevo cambiando solo el nombre de la falta. ¿Qué principio se debe considerar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La cosa juzgada disciplinaria, sin perjuicio de la revocatoria directa legal.",
+        "rationale": "La misma situación decidida con fuerza vinculante no se reabre simplemente cambiando la denominación del hecho. El artículo 16 conserva la excepción de revocatoria directa prevista en la ley."
+      },
+      {
+        "id": "B",
+        "text": "El cambio de título permite siempre reiniciar.",
+        "rationale": "La denominación nueva no elimina la identidad del hecho."
+      },
+      {
+        "id": "C",
+        "text": "Todo fallo pierde fuerza al cambiar de jefe.",
+        "rationale": "Un cambio de personal no extingue la cosa juzgada."
+      },
+      {
+        "id": "D",
+        "text": "Una denuncia nueva anula automáticamente el fallo.",
+        "rationale": "La presentación de otra denuncia no anula la decisión ejecutoriada."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La misma situación decidida con fuerza vinculante no se reabre simplemente cambiando la denominación del hecho. El artículo 16 conserva la excepción de revocatoria directa prevista en la ley.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-118",
+        "locator": "Artículo 16, cosa juzgada disciplinaria",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0119",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Se exige al disciplinado pagar una tarifa de trámite para que el despacho dicte una decisión. ¿Es compatible con la gratuidad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sí, porque toda decisión es un servicio comercial.",
+        "rationale": "La actuación disciplinaria no se cobra como servicio comercial."
+      },
+      {
+        "id": "B",
+        "text": "No; la actuación procesal no causa esa tarifa.",
+        "rationale": "La regla es la gratuidad de la actuación. El artículo distingue el costo de ciertas copias solicitadas y la entrega gratuita de determinadas decisiones; no autoriza cobrar por decidir."
+      },
+      {
+        "id": "C",
+        "text": "Sí, si el pago se exige solo al investigado.",
+        "rationale": "Limitar el cobro a una parte no lo hace legal."
+      },
+      {
+        "id": "D",
+        "text": "Sí, si se denomina colaboración voluntaria obligatoria.",
+        "rationale": "Cambiar el nombre no justifica condicionar el trámite a un pago."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La regla es la gratuidad de la actuación. El artículo distingue el costo de ciertas copias solicitadas y la entrega gratuita de determinadas decisiones; no autoriza cobrar por decidir.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-119",
+        "locator": "Artículo 17, gratuidad",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0120",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Un expediente permanece inmóvil porque ninguna parte solicita el siguiente paso, aunque corresponde al despacho impulsarlo. ¿Qué exige el Código?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esperar indefinidamente una solicitud.",
+        "rationale": "El impulso no depende exclusivamente de las partes."
+      },
+      {
+        "id": "B",
+        "text": "Archivar automáticamente por silencio del investigado.",
+        "rationale": "El silencio no es una causal automática de archivo."
+      },
+      {
+        "id": "C",
+        "text": "Impulsar oficiosamente la actuación y cumplir los términos.",
+        "rationale": "La autoridad competente tiene deber de impulso oficioso y de cumplimiento estricto de términos. La inactividad de las partes no la libera de ese deber."
+      },
+      {
+        "id": "D",
+        "text": "Suspender todos los términos por decisión informal.",
+        "rationale": "Una pausa informal no reemplaza una causa legal."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La autoridad competente tiene deber de impulso oficioso y de cumplimiento estricto de términos. La inactividad de las partes no la libera de ese deber.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-120",
+        "locator": "Artículo 18, impulso oficioso",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0121",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Un fallo solo dice «se sanciona por considerarlo necesario», sin explicar hechos ni razones. ¿Qué obligación incumple?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usar un número mínimo de páginas.",
+        "rationale": "La ley exige razones, no un volumen arbitrario."
+      },
+      {
+        "id": "B",
+        "text": "Obtener aprobación del denunciante.",
+        "rationale": "La motivación no se reemplaza por el consentimiento del denunciante."
+      },
+      {
+        "id": "C",
+        "text": "Publicar opiniones de los compañeros.",
+        "rationale": "Las opiniones no suplen la fundamentación de la decisión."
+      },
+      {
+        "id": "D",
+        "text": "Motivar la decisión de fondo.",
+        "rationale": "La motivación hace explícitas las razones de la decisión y permite controlarla y controvertirla. Una frase conclusiva de conveniencia no explica la determinación adoptada."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La motivación hace explícitas las razones de la decisión y permite controlarla y controvertirla. Una frase conclusiva de conveniencia no explica la determinación adoptada.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-121",
+        "locator": "Artículo 19, motivación",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0122",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Sin variar legalmente el pliego, se quiere declarar responsabilidad por un hecho que nunca estuvo en los cargos. ¿Cuál garantía resulta comprometida?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La congruencia entre cargos y declaración de responsabilidad.",
+        "rationale": "La decisión no puede atribuir responsabilidad por hechos o faltas ausentes del pliego, sin perjuicio de su variación conforme a derecho. El investigado debe poder defenderse de la imputación que se decide."
+      },
+      {
+        "id": "B",
+        "text": "La libertad para sorprender al investigado.",
+        "rationale": "La sorpresa no es una garantía procesal."
+      },
+      {
+        "id": "C",
+        "text": "La obligación de aceptar cualquier rumor nuevo.",
+        "rationale": "Un rumor no integra por sí mismo los cargos."
+      },
+      {
+        "id": "D",
+        "text": "La posibilidad de omitir toda formulación de cargos.",
+        "rationale": "El artículo no autoriza sancionar sin imputación."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La decisión no puede atribuir responsabilidad por hechos o faltas ausentes del pliego, sin perjuicio de su variación conforme a derecho. El investigado debe poder defenderse de la imputación que se decide.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-122",
+        "locator": "Artículo 20, congruencia",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0123",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "derecho_disciplinario",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Se demuestra que una prueba fue obtenida violando derechos fundamentales. ¿Cuál es la regla para esa prueba?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conservarla siempre que sea útil para sancionar.",
+        "rationale": "La utilidad no subsana la vulneración de derechos."
+      },
+      {
+        "id": "B",
+        "text": "Excluirla de la actuación procesal por nulidad de pleno derecho.",
+        "rationale": "La cláusula de exclusión impide usar la prueba obtenida con violación de derechos fundamentales. Las reglas sobre pruebas derivadas y sus excepciones exigen examen propio; no validan automáticamente la prueba originaria."
+      },
+      {
+        "id": "C",
+        "text": "Convertirla en válida al cambiarle el nombre.",
+        "rationale": "Una etiqueta distinta no sanea su obtención."
+      },
+      {
+        "id": "D",
+        "text": "Permitirla si se mantiene secreta.",
+        "rationale": "El secreto no elimina la violación de garantías."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La cláusula de exclusión impide usar la prueba obtenida con violación de derechos fundamentales. Las reglas sobre pruebas derivadas y sus excepciones exigen examen propio; no validan automáticamente la prueba originaria.",
+    "references": [
+      {
+        "sourceId": "law-1952-2019",
+        "sourceUnitId": "study200-123",
+        "locator": "Artículo 21, cláusula de exclusión",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0124",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "En una licitación se oculta el informe de evaluación hasta adjudicar. ¿Qué derecho de los interesados se está impidiendo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elegir personalmente a los evaluadores.",
+        "rationale": "Conocer y controvertir no supone designar evaluadores."
+      },
+      {
+        "id": "B",
+        "text": "Vetarle el contrato a todo competidor.",
+        "rationale": "Las observaciones no otorgan un veto privado."
+      },
+      {
+        "id": "C",
+        "text": "Conocer y controvertir el informe mediante observaciones.",
+        "rationale": "La transparencia exige etapas para conocer informes, conceptos y decisiones y expresar observaciones. Publicar solo después de decidir impide esa oportunidad dentro de la selección."
+      },
+      {
+        "id": "D",
+        "text": "Modificar unilateralmente los pliegos.",
+        "rationale": "Los interesados no pueden modificar unilateralmente las reglas."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La transparencia exige etapas para conocer informes, conceptos y decisiones y expresar observaciones. Publicar solo después de decidir impide esa oportunidad dentro de la selección.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "study200-124",
+        "locator": "Artículo 24.2",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0125",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Un pliego exige una capacidad físicamente imposible de demostrar y contiene reglas contradictorias. ¿Qué ajuste procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mantener las contradicciones para probar creatividad.",
+        "rationale": "La creatividad no justifica reglas de selección ambiguas."
+      },
+      {
+        "id": "B",
+        "text": "Explicar la regla solo al proveedor preferido.",
+        "rationale": "Una aclaración selectiva vulnera igualdad y transparencia."
+      },
+      {
+        "id": "C",
+        "text": "Calificar según una regla secreta.",
+        "rationale": "Una regla secreta no permite ofertas comparables."
+      },
+      {
+        "id": "D",
+        "text": "Establecer reglas objetivas, claras, completas y de cumplimiento posible.",
+        "rationale": "Los pliegos deben permitir ofertas comparables y evitar exigencias imposibles. La entidad debe corregir la regla, no trasladar al proponente la imposibilidad creada por ella."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Los pliegos deben permitir ofertas comparables y evitar exigencias imposibles. La entidad debe corregir la regla, no trasladar al proponente la imposibilidad creada por ella.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "study200-125",
+        "locator": "Artículo 24.5.b y d",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0126",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "La declaratoria de desierta no explica qué impidió escoger objetivamente. ¿Qué requisito formal sustantivo falta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Motivación detallada y precisa de la decisión.",
+        "rationale": "El artículo 24.7 exige motivar la declaratoria de desierta, además de otros actos relevantes. No basta anunciar el resultado sin las razones que permitan su control."
+      },
+      {
+        "id": "B",
+        "text": "Una campaña publicitaria.",
+        "rationale": "La difusión no sustituye las razones del acto."
+      },
+      {
+        "id": "C",
+        "text": "El consentimiento de todos los proveedores.",
+        "rationale": "La motivación no depende de unanimidad privada."
+      },
+      {
+        "id": "D",
+        "text": "Una votación popular.",
+        "rationale": "La licitación no se decide mediante votación popular."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "El artículo 24.7 exige motivar la declaratoria de desierta, además de otros actos relevantes. No basta anunciar el resultado sin las razones que permitan su control.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "study200-126",
+        "locator": "Artículo 24.7",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0127",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una entidad pretende abrir una licitación sin las respectivas disponibilidades presupuestales. ¿Qué debe resolver antes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esperar a que el contratista financie toda la entidad.",
+        "rationale": "El financiamiento supuesto no subsana el requisito."
+      },
+      {
+        "id": "B",
+        "text": "Contar con las partidas o disponibilidades presupuestales exigidas.",
+        "rationale": "El artículo 25.6 condiciona la apertura al respaldo presupuestal correspondiente. Una expectativa informal de recursos no reemplaza ese requisito."
+      },
+      {
+        "id": "C",
+        "text": "Emitir una promesa verbal de pago.",
+        "rationale": "La promesa no constituye disponibilidad presupuestal."
+      },
+      {
+        "id": "D",
+        "text": "Eliminar la cláusula de precio.",
+        "rationale": "Ocultar el precio no crea respaldo presupuestal."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "El artículo 25.6 condiciona la apertura al respaldo presupuestal correspondiente. Una expectativa informal de recursos no reemplaza ese requisito.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "study200-127",
+        "locator": "Artículo 25.6",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0128",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Se agrega una autenticación notarial a todas las propuestas sin ley especial que la exija. ¿Qué principio concreto debe aplicarse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Toda formalidad adicional mejora legalmente la selección.",
+        "rationale": "Más requisitos no equivalen a mayor legalidad."
+      },
+      {
+        "id": "B",
+        "text": "Solo las grandes empresas deben autenticar.",
+        "rationale": "El tamaño no crea la excepción legal."
+      },
+      {
+        "id": "C",
+        "text": "No imponer formalidades rituales que la ley no exige.",
+        "rationale": "El numeral 15 prohíbe exigir autenticaciones y otras formalidades salvo mandato legal especial, expreso y perentorio. La comodidad administrativa no habilita un requisito adicional."
+      },
+      {
+        "id": "D",
+        "text": "La costumbre interna reemplaza la ley especial.",
+        "rationale": "Una práctica interna no es mandato legal."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "El numeral 15 prohíbe exigir autenticaciones y otras formalidades salvo mandato legal especial, expreso y perentorio. La comodidad administrativa no habilita un requisito adicional.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "study200-128",
+        "locator": "Artículo 25.15",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0129",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Después de firmar, un servidor sostiene que ya no debe vigilar la ejecución. ¿Qué deber contractual desconoce?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Garantizar ganancias ilimitadas al proveedor.",
+        "rationale": "La vigilancia protege los fines contractuales, no ganancias ilimitadas."
+      },
+      {
+        "id": "B",
+        "text": "Realizar personalmente cualquier trabajo del contratista.",
+        "rationale": "Vigilar no supone sustituir siempre al ejecutor."
+      },
+      {
+        "id": "C",
+        "text": "Aceptar cualquier entrega para cerrar rápido.",
+        "rationale": "Aceptar sin control puede contrariar el objeto pactado."
+      },
+      {
+        "id": "D",
+        "text": "Vigilar la correcta ejecución del objeto contratado.",
+        "rationale": "El principio de responsabilidad incluye buscar los fines de la contratación y vigilar la correcta ejecución. La firma no extingue las obligaciones de seguimiento asignadas."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "El principio de responsabilidad incluye buscar los fines de la contratación y vigilar la correcta ejecución. La firma no extingue las obligaciones de seguimiento asignadas.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "study200-129",
+        "locator": "Artículo 26.1",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0130",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Se abre una selección sin estudios necesarios y con información insuficiente que conduce a interpretaciones subjetivas. ¿Qué prevé el principio de responsabilidad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Responsabilidad de la entidad y sus servidores por esa actuación en los términos legales.",
+        "rationale": "El numeral 3 contempla la apertura sin estudios requeridos y los pliegos incompletos, ambiguos o confusos. No permite trasladar sin más al oferente toda consecuencia de esas omisiones."
+      },
+      {
+        "id": "B",
+        "text": "Inmunidad automática por haber publicado el proceso.",
+        "rationale": "Publicar no exonera las omisiones previstas."
+      },
+      {
+        "id": "C",
+        "text": "Responsabilidad exclusiva de quien leyó el pliego.",
+        "rationale": "Leer un documento no vuelve al oferente autor de sus defectos."
+      },
+      {
+        "id": "D",
+        "text": "Validez incuestionable de cualquier regla ambigua.",
+        "rationale": "La ambigüedad no queda protegida por el principio."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "El numeral 3 contempla la apertura sin estudios requeridos y los pliegos incompletos, ambiguos o confusos. No permite trasladar sin más al oferente toda consecuencia de esas omisiones.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "study200-130",
+        "locator": "Artículo 26.3",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0131",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una causa no imputable al afectado rompe la equivalencia entre derechos y obligaciones contractuales. ¿Qué institución se debe analizar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una ganancia garantizada sin estudiar causas.",
+        "rationale": "El restablecimiento requiere examinar los presupuestos de la ruptura."
+      },
+      {
+        "id": "B",
+        "text": "El restablecimiento de la ecuación contractual cuando proceda.",
+        "rationale": "La ley ordena mantener la equivalencia inicial y adoptar medidas de restablecimiento ante su ruptura por causas no imputables al afectado. No todo menor beneficio demuestra por sí mismo ese supuesto."
+      },
+      {
+        "id": "C",
+        "text": "Una sanción automática al contratista afectado.",
+        "rationale": "La causa no imputable exige análisis, no sanción automática."
+      },
+      {
+        "id": "D",
+        "text": "La desaparición de todas las obligaciones.",
+        "rationale": "El equilibrio no equivale a extinguir el contrato."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La ley ordena mantener la equivalencia inicial y adoptar medidas de restablecimiento ante su ruptura por causas no imputables al afectado. No todo menor beneficio demuestra por sí mismo ese supuesto.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "study200-131",
+        "locator": "Artículo 27",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0132",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "El objeto consiste en reparar físicamente un edificio público. ¿A qué tipo contractual descrito en la Ley 80 corresponde ese objeto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contrato de consultoría por el solo uso de planos.",
+        "rationale": "Utilizar planos no transforma la ejecución material en consultoría."
+      },
+      {
+        "id": "B",
+        "text": "Contrato de fiducia por administrar horarios.",
+        "rationale": "Administrar horarios no constituye negocio fiduciario."
+      },
+      {
+        "id": "C",
+        "text": "Contrato de obra.",
+        "rationale": "La obra comprende construcción, mantenimiento, instalación y otros trabajos materiales sobre inmuebles. El objeto material, no el nombre que se dé al expediente, orienta la clasificación."
+      },
+      {
+        "id": "D",
+        "text": "Contrato de concesión por cualquier pago.",
+        "rationale": "Recibir pago no convierte toda obra en concesión."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La obra comprende construcción, mantenimiento, instalación y otros trabajos materiales sobre inmuebles. El objeto material, no el nombre que se dé al expediente, orienta la clasificación.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "study200-132",
+        "locator": "Artículo 32.1",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0133",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Se contratan estudios de factibilidad y diseños para un proyecto de inversión, sin ejecutar la construcción. ¿Qué categoría describe mejor el objeto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obra porque el estudio menciona un edificio.",
+        "rationale": "Mencionar un inmueble no significa ejecutar trabajos materiales."
+      },
+      {
+        "id": "B",
+        "text": "Compraventa de bienes muebles.",
+        "rationale": "El objeto descrito es un estudio, no la adquisición de muebles."
+      },
+      {
+        "id": "C",
+        "text": "Concesión de un servicio público.",
+        "rationale": "No se está concediendo operación de un servicio."
+      },
+      {
+        "id": "D",
+        "text": "Consultoría.",
+        "rationale": "El artículo 32.2 incluye estudios necesarios para proyectos de inversión, factibilidad y diseños. Debe distinguirse la elaboración técnica del proyecto de la ejecución material de una obra."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "El artículo 32.2 incluye estudios necesarios para proyectos de inversión, factibilidad y diseños. Debe distinguirse la elaboración técnica del proyecto de la ejecución material de una obra.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "study200-133",
+        "locator": "Artículo 32.2",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0134",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Para un contrato estatal sujeto a la regla general de forma de la Ley 80, ¿qué debe observarse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Debe constar por escrito, sin escritura pública salvo los supuestos legales.",
+        "rationale": "El artículo 39 fija la forma escrita y contempla cuándo se requiere escritura pública por el objeto. La regla no permite confundir un acuerdo verbal con el documento contractual exigido."
+      },
+      {
+        "id": "B",
+        "text": "Todo contrato exige escritura pública sin excepción.",
+        "rationale": "La escritura pública no es exigencia universal."
+      },
+      {
+        "id": "C",
+        "text": "La conversación telefónica siempre basta.",
+        "rationale": "La regla general exige constancia escrita."
+      },
+      {
+        "id": "D",
+        "text": "Una noticia de prensa reemplaza la forma contractual.",
+        "rationale": "Un anuncio no equivale al instrumento del contrato."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "El artículo 39 fija la forma escrita y contempla cuándo se requiere escritura pública por el objeto. La regla no permite confundir un acuerdo verbal con el documento contractual exigido.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "study200-134",
+        "locator": "Artículo 39, regla general",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0135",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "contratacion_estatal",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Bajo la regla general del artículo 41, se acuerdan objeto y contraprestación y el acuerdo se eleva a escrito. ¿Qué hito describe?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La liquidación final.",
+        "rationale": "La liquidación es posterior y no coincide con perfeccionar."
+      },
+      {
+        "id": "B",
+        "text": "El perfeccionamiento del contrato.",
+        "rationale": "El perfeccionamiento se produce con acuerdo sobre objeto y contraprestación elevado a escrito. Es distinto de cumplir los requisitos adicionales que habilitan la ejecución."
+      },
+      {
+        "id": "C",
+        "text": "La recepción definitiva de la obra.",
+        "rationale": "El acuerdo escrito no prueba entrega material."
+      },
+      {
+        "id": "D",
+        "text": "El cumplimiento automático de todos los requisitos de ejecución.",
+        "rationale": "Perfeccionamiento y requisitos de ejecución son categorías distintas."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "El perfeccionamiento se produce con acuerdo sobre objeto y contraprestación elevado a escrito. Es distinto de cumplir los requisitos adicionales que habilitan la ejecución.",
+    "references": [
+      {
+        "sourceId": "law-80-1993",
+        "sourceUnitId": "study200-135",
+        "locator": "Artículo 41, inciso primero",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0136",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "ofimatica_y_sistemas_de_gestion",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "En Excel se copia la fórmula =A2+B2 de C2 a C3 sin mover columnas. ¿Cuál queda en C3?",
+    "options": [
+      {
+        "id": "A",
+        "text": "=A2+B2",
+        "rationale": "Ese resultado supondría fijar las filas."
+      },
+      {
+        "id": "B",
+        "text": "=B2+C2",
+        "rationale": "Ese cambio corresponde a desplazar columnas, no una fila."
+      },
+      {
+        "id": "C",
+        "text": "=A3+B3",
+        "rationale": "Las referencias relativas conservan el desplazamiento respecto de la celda de la fórmula. Al bajar una fila cambian las filas referidas, no las columnas."
+      },
+      {
+        "id": "D",
+        "text": "=A4+B4",
+        "rationale": "La copia indicada baja una sola fila."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Las referencias relativas conservan el desplazamiento respecto de la celda de la fórmula. Al bajar una fila cambian las filas referidas, no las columnas.",
+    "references": [
+      {
+        "sourceId": "excel-formulas",
+        "sourceUnitId": "study200-136",
+        "locator": "Using references in Excel formulas — relative references",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0137",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "ofimatica_y_sistemas_de_gestion",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "La tasa única está en F1. Al copiar una fórmula a distintas filas y columnas, ¿qué referencia mantiene esa celda fija?",
+    "options": [
+      {
+        "id": "A",
+        "text": "F1",
+        "rationale": "Sin signos la referencia es relativa."
+      },
+      {
+        "id": "B",
+        "text": "$F1",
+        "rationale": "Fija la columna pero deja variar la fila."
+      },
+      {
+        "id": "C",
+        "text": "F$1",
+        "rationale": "Fija la fila pero deja variar la columna."
+      },
+      {
+        "id": "D",
+        "text": "$F$1",
+        "rationale": "Los dos signos de dólar fijan columna y fila. Así todas las copias consultan la misma celda que contiene la tasa."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Los dos signos de dólar fijan columna y fila. Así todas las copias consultan la misma celda que contiene la tasa.",
+    "references": [
+      {
+        "sourceId": "excel-formulas",
+        "sourceUnitId": "study200-137",
+        "locator": "Using references — absolute references",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0138",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "ofimatica_y_sistemas_de_gestion",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una matriz multiplica encabezados de la fila 1 por valores de la columna A. Al copiar =B$1*$A2 a C3, ¿qué fórmula resulta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "=C$1*$A3",
+        "rationale": "B$1 conserva la fila 1 y permite cambiar la columna; $A2 conserva la columna A y permite cambiar la fila. Cada referencia fija un eje distinto."
+      },
+      {
+        "id": "B",
+        "text": "=B$1*$A2",
+        "rationale": "No aplica ninguno de los desplazamientos relativos."
+      },
+      {
+        "id": "C",
+        "text": "=$B$1*$A$2",
+        "rationale": "Introduce fijaciones que la fórmula original no tenía."
+      },
+      {
+        "id": "D",
+        "text": "=C$2*$B3",
+        "rationale": "Cambia ejes que estaban fijados."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "B$1 conserva la fila 1 y permite cambiar la columna; $A2 conserva la columna A y permite cambiar la fila. Cada referencia fija un eje distinto.",
+    "references": [
+      {
+        "sourceId": "excel-formulas",
+        "sourceUnitId": "study200-138",
+        "locator": "Using references — mixed references",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0139",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "ofimatica_y_sistemas_de_gestion",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una hoja calcula =8+4*3. Sin paréntesis, ¿qué valor produce Excel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "36",
+        "rationale": "Corresponde a (8+4)*3, no a la fórmula dada."
+      },
+      {
+        "id": "B",
+        "text": "20",
+        "rationale": "La multiplicación se realiza antes que la suma: 4 por 3 es 12 y se suman 8. Los paréntesis serían necesarios para sumar primero."
+      },
+      {
+        "id": "C",
+        "text": "24",
+        "rationale": "Omite la suma e interpreta solo 8*3."
+      },
+      {
+        "id": "D",
+        "text": "15",
+        "rationale": "Suma los tres números sin respetar el operador de multiplicación."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La multiplicación se realiza antes que la suma: 4 por 3 es 12 y se suman 8. Los paréntesis serían necesarios para sumar primero.",
+    "references": [
+      {
+        "sourceId": "excel-formulas",
+        "sourceUnitId": "study200-139",
+        "locator": "The order in which Excel performs operations",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0140",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "ofimatica_y_sistemas_de_gestion",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Se quiere sumar el intervalo continuo B2:B6 en una fórmula de Excel en español. ¿Cuál expresión representa ese intervalo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "=B2+B6",
+        "rationale": "Suma solo extremos, omitiendo las celdas intermedias."
+      },
+      {
+        "id": "B",
+        "text": "=SUMA(B2)*B6",
+        "rationale": "Multiplica y no suma todo el intervalo."
+      },
+      {
+        "id": "C",
+        "text": "=SUMA(B2:B6)",
+        "rationale": "Los dos puntos delimitan un rango continuo desde B2 hasta B6, incluidos los extremos. La función agrega las celdas del intervalo."
+      },
+      {
+        "id": "D",
+        "text": "=B2/B6",
+        "rationale": "Calcula un cociente, no la suma del rango."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Los dos puntos delimitan un rango continuo desde B2 hasta B6, incluidos los extremos. La función agrega las celdas del intervalo.",
+    "references": [
+      {
+        "sourceId": "excel-formulas",
+        "sourceUnitId": "study200-140",
+        "locator": "Using functions and nested functions in formulas",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0141",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "ofimatica_y_sistemas_de_gestion",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una fórmula debe comprobar si B2 es mayor o igual que 10. ¿Qué expresión devuelve VERDADERO o FALSO para esa comparación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "=B2+10",
+        "rationale": "Realiza una suma, no una comparación."
+      },
+      {
+        "id": "B",
+        "text": "=B2&10",
+        "rationale": "Concatena valores como texto."
+      },
+      {
+        "id": "C",
+        "text": "=B2*10",
+        "rationale": "Multiplica, sin comprobar el umbral."
+      },
+      {
+        "id": "D",
+        "text": "=B2>=10",
+        "rationale": "El operador >= compara mayor o igual y devuelve un valor lógico. No asigna el número 10 a la celda B2."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "El operador >= compara mayor o igual y devuelve un valor lógico. No asigna el número 10 a la celda B2.",
+    "references": [
+      {
+        "sourceId": "excel-formulas",
+        "sourceUnitId": "study200-141",
+        "locator": "Calculation operators — comparison operators",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0142",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "ofimatica_y_sistemas_de_gestion",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Dos celdas contienen un prefijo y un número de expediente como texto. ¿Qué operador permite unirlos en una fórmula Excel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "&",
+        "rationale": "El operador & concatena texto. Une los contenidos sin sumar sus valores numéricos; un separador debe incorporarse explícitamente si se necesita."
+      },
+      {
+        "id": "B",
+        "text": "/",
+        "rationale": "La barra indica división aritmética."
+      },
+      {
+        "id": "C",
+        "text": "^",
+        "rationale": "El acento circunflejo indica potenciación."
+      },
+      {
+        "id": "D",
+        "text": ">",
+        "rationale": "El signo mayor que realiza una comparación."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "El operador & concatena texto. Une los contenidos sin sumar sus valores numéricos; un separador debe incorporarse explícitamente si se necesita.",
+    "references": [
+      {
+        "sourceId": "excel-formulas",
+        "sourceUnitId": "study200-142",
+        "locator": "Calculation operators — text concatenation operator",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0143",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "ofimatica_y_sistemas_de_gestion",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "En una hoja Excel, ¿qué identifica la referencia D7?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Toda la séptima hoja.",
+        "rationale": "La referencia no indica el número de hoja."
+      },
+      {
+        "id": "B",
+        "text": "La celda de la columna D y la fila 7.",
+        "rationale": "Las columnas se identifican por letras y las filas por números en el estilo A1. Una referencia cruza ambos ejes para identificar una celda."
+      },
+      {
+        "id": "C",
+        "text": "Siete columnas comenzando en D.",
+        "rationale": "Una celda no equivale a un rango de siete columnas."
+      },
+      {
+        "id": "D",
+        "text": "Una función llamada D.",
+        "rationale": "D es la columna, no una función en esta referencia."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Las columnas se identifican por letras y las filas por números en el estilo A1. Una referencia cruza ambos ejes para identificar una celda.",
+    "references": [
+      {
+        "sourceId": "excel-basics",
+        "sourceUnitId": "study200-143",
+        "locator": "Enter your data",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0144",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "ofimatica_y_sistemas_de_gestion",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Se muestra 0,25 como 25 % mediante formato de porcentaje. ¿Qué cambia principalmente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La celda pasa a almacenar necesariamente 25.",
+        "rationale": "Confunde representación porcentual con el valor numérico."
+      },
+      {
+        "id": "B",
+        "text": "Se borra cualquier fórmula.",
+        "rationale": "Aplicar formato no elimina la fórmula."
+      },
+      {
+        "id": "C",
+        "text": "La presentación del valor almacenado.",
+        "rationale": "El formato numérico determina cómo se muestra el dato. Aplicar porcentaje a 0,25 lo presenta como 25 %, sin convertir por ello el valor almacenado en 25."
+      },
+      {
+        "id": "D",
+        "text": "Se cambia el nombre de la columna.",
+        "rationale": "El formato no renombra columnas."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "El formato numérico determina cómo se muestra el dato. Aplicar porcentaje a 0,25 lo presenta como 25 %, sin convertir por ello el valor almacenado en 25.",
+    "references": [
+      {
+        "sourceId": "excel-basics",
+        "sourceUnitId": "study200-144",
+        "locator": "Apply a number format",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0145",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "ofimatica_y_sistemas_de_gestion",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una lista de trámites se convierte en tabla de Excel. ¿Qué facilidad ofrece para localizar subconjuntos de registros?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Validación jurídica automática de cada trámite.",
+        "rationale": "Excel no determina legalidad por convertir un rango en tabla."
+      },
+      {
+        "id": "B",
+        "text": "Cifrado automático de todo el archivo.",
+        "rationale": "La estructura de tabla no implica cifrado."
+      },
+      {
+        "id": "C",
+        "text": "Eliminación automática de todos los registros repetidos.",
+        "rationale": "Crear una tabla no deduplica automáticamente los datos."
+      },
+      {
+        "id": "D",
+        "text": "Controles de ordenación y filtrado en los encabezados.",
+        "rationale": "Las tablas incorporan controles que facilitan ordenar y filtrar registros. Esto organiza la consulta sin convertir automáticamente la hoja en un sistema transaccional."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Las tablas incorporan controles que facilitan ordenar y filtrar registros. Esto organiza la consulta sin convertir automáticamente la hoja en un sistema transaccional.",
+    "references": [
+      {
+        "sourceId": "excel-basics",
+        "sourceUnitId": "study200-145",
+        "locator": "Put your data in a table",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0146",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "ofimatica_y_sistemas_de_gestion",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Se aplica un filtro para mostrar solo trámites pendientes. ¿Qué ocurre con los registros que no cumplen el criterio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se ocultan de la vista filtrada, sin borrarse por esa operación.",
+        "rationale": "Filtrar restringe las filas visibles. Quitar el filtro permite volver a ver los registros excluidos; no equivale a eliminarlos."
+      },
+      {
+        "id": "B",
+        "text": "Se eliminan permanentemente.",
+        "rationale": "Confunde ocultamiento por filtro con borrado."
+      },
+      {
+        "id": "C",
+        "text": "Se trasladan a otra base de datos.",
+        "rationale": "El filtro no migra datos."
+      },
+      {
+        "id": "D",
+        "text": "Cambian automáticamente a estado pendiente.",
+        "rationale": "El criterio no modifica los valores."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Filtrar restringe las filas visibles. Quitar el filtro permite volver a ver los registros excluidos; no equivale a eliminarlos.",
+    "references": [
+      {
+        "sourceId": "excel-basics",
+        "sourceUnitId": "study200-146",
+        "locator": "Filter your data",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0147",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "ofimatica_y_sistemas_de_gestion",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Antes de imprimir una tabla extensa, ¿qué permite detectar columnas cortadas y páginas innecesarias?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cambiar todas las fórmulas por ceros.",
+        "rationale": "Destruye resultados sin resolver la paginación."
+      },
+      {
+        "id": "B",
+        "text": "Examinar la vista previa y ajustar la configuración de impresión.",
+        "rationale": "La vista previa permite revisar el resultado paginado antes de gastar papel. Los ajustes de orientación, escala o área deben comprobarse allí."
+      },
+      {
+        "id": "C",
+        "text": "Ocultar las extensiones de archivo.",
+        "rationale": "No afecta la distribución de impresión."
+      },
+      {
+        "id": "D",
+        "text": "Renombrar el libro.",
+        "rationale": "El nombre no corrige columnas cortadas."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La vista previa permite revisar el resultado paginado antes de gastar papel. Los ajustes de orientación, escala o área deben comprobarse allí.",
+    "references": [
+      {
+        "sourceId": "excel-basics",
+        "sourceUnitId": "study200-147",
+        "locator": "Print your work",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0148",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "behavioral",
+    "difficulty": 2,
+    "stem": "Como ejercicio de preparación general, una profesional detecta que su conocimiento de una herramienta quedó obsoleto. ¿Qué conducta evidencia aprendizaje continuo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ocultar la brecha y repetir errores.",
+        "rationale": "No desarrolla capacidades ni mejora el trabajo."
+      },
+      {
+        "id": "B",
+        "text": "Coleccionar cursos sin relación con sus funciones.",
+        "rationale": "La acumulación aislada no acredita aplicación pertinente."
+      },
+      {
+        "id": "C",
+        "text": "Actualizarse y aplicar el aprendizaje a sus responsabilidades.",
+        "rationale": "La competencia supone adquirir y desarrollar conocimientos y habilidades y transferirlos al trabajo. Reconocer una brecha debe conducir a aprendizaje pertinente, no solo a acumular certificados."
+      },
+      {
+        "id": "D",
+        "text": "Esperar que otra persona asuma siempre la tarea.",
+        "rationale": "Trasladar indefinidamente la tarea no resuelve la brecha."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La competencia supone adquirir y desarrollar conocimientos y habilidades y transferirlos al trabajo. Reconocer una brecha debe conducir a aprendizaje pertinente, no solo a acumular certificados.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "study200-148",
+        "locator": "Artículo 2.2.4.7, aprendizaje continuo",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0149",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "behavioral",
+    "difficulty": 2,
+    "stem": "Un equipo confunde asistir a reuniones con lograr su meta. ¿Qué conducta distingue orientación a resultados?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Medir solo la duración de las reuniones.",
+        "rationale": "Mide actividad sin comprobar el logro."
+      },
+      {
+        "id": "B",
+        "text": "Evitar revisar metas para no detectar atrasos.",
+        "rationale": "Ocultar desviaciones impide corregirlas."
+      },
+      {
+        "id": "C",
+        "text": "Cambiar la meta después para simular cumplimiento.",
+        "rationale": "Manipular la referencia no es lograr resultados."
+      },
+      {
+        "id": "D",
+        "text": "Contrastar productos y logros con objetivos y tiempos establecidos.",
+        "rationale": "La orientación a resultados vincula actuaciones con metas y verifica su consecución. Una actividad realizada no demuestra por sí misma el resultado esperado."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La orientación a resultados vincula actuaciones con metas y verifica su consecución. Una actividad realizada no demuestra por sí misma el resultado esperado.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "study200-149",
+        "locator": "Artículo 2.2.4.7, orientación a resultados",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0150",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "behavioral",
+    "difficulty": 2,
+    "stem": "Una persona no comprende un requisito explicado con siglas. ¿Qué actuación evidencia orientación al ciudadano?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Escuchar su dificultad y explicar con lenguaje claro y veraz.",
+        "rationale": "La conducta asociada incluye escucha activa e información veraz. Adaptar la explicación facilita comprensión sin prometer resultados que no dependen del servidor."
+      },
+      {
+        "id": "B",
+        "text": "Repetir las siglas en voz más alta.",
+        "rationale": "No responde a la barrera de comprensión."
+      },
+      {
+        "id": "C",
+        "text": "Prometer aprobación sin revisar requisitos.",
+        "rationale": "Una promesa infundada no es información veraz."
+      },
+      {
+        "id": "D",
+        "text": "Descalificar a quien pregunta.",
+        "rationale": "La descalificación desconoce trato incluyente."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La conducta asociada incluye escucha activa e información veraz. Adaptar la explicación facilita comprensión sin prometer resultados que no dependen del servidor.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "study200-150",
+        "locator": "Artículo 2.2.4.7, orientación al usuario y al ciudadano",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0151",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "behavioral",
+    "difficulty": 2,
+    "stem": "Otra dependencia requiere apoyo puntual compatible con las tareas propias. ¿Qué conducta refleja compromiso organizacional?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abandonar indefinidamente el trabajo propio sin avisar.",
+        "rationale": "La colaboración no exige incumplir otras responsabilidades."
+      },
+      {
+        "id": "B",
+        "text": "Colaborar coordinadamente sin descuidar las responsabilidades asignadas.",
+        "rationale": "El compromiso incluye iniciativa de colaboración con compañeros y otras áreas sin descuidar las tareas propias. No significa abandonar obligaciones ni actuar fuera de competencia."
+      },
+      {
+        "id": "C",
+        "text": "Negarse solo porque el logro no lleva su nombre.",
+        "rationale": "Prioriza reconocimiento individual sobre metas comunes."
+      },
+      {
+        "id": "D",
+        "text": "Ofrecer apoyo sin capacidad y no cumplir.",
+        "rationale": "La promesa incumplible no es colaboración efectiva."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "El compromiso incluye iniciativa de colaboración con compañeros y otras áreas sin descuidar las tareas propias. No significa abandonar obligaciones ni actuar fuera de competencia.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "study200-151",
+        "locator": "Artículo 2.2.4.7, compromiso con la organización",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0152",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "behavioral",
+    "difficulty": 2,
+    "stem": "Dos integrantes discrepan sobre una solución. ¿Qué comportamiento contribuye al trabajo en equipo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Silenciar a quien tiene menos antigüedad.",
+        "rationale": "La antigüedad no vuelve innecesario escuchar argumentos."
+      },
+      {
+        "id": "B",
+        "text": "Ocultar información para ganar la discusión.",
+        "rationale": "La retención deliberada perjudica la coordinación."
+      },
+      {
+        "id": "C",
+        "text": "Escuchar criterios con respeto y coordinar una solución orientada a la meta común.",
+        "rationale": "El trabajo en equipo supone comunicación respetuosa, reconocimiento de criterios y cumplimiento de compromisos. La discrepancia técnica puede procesarse sin descalificar personas."
+      },
+      {
+        "id": "D",
+        "text": "Romper todo compromiso por discrepar.",
+        "rationale": "La diferencia no exime de los compromisos del equipo."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "El trabajo en equipo supone comunicación respetuosa, reconocimiento de criterios y cumplimiento de compromisos. La discrepancia técnica puede procesarse sin descalificar personas.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "study200-152",
+        "locator": "Artículo 2.2.4.7, trabajo en equipo",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0153",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "behavioral",
+    "difficulty": 2,
+    "stem": "Se adopta formalmente un procedimiento nuevo y válido. ¿Qué conducta muestra adaptación al cambio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seguir en secreto el procedimiento derogado.",
+        "rationale": "La resistencia oculta impide implementar el cambio."
+      },
+      {
+        "id": "B",
+        "text": "Afirmar que funciona sin haberlo usado.",
+        "rationale": "La afirmación sin evidencia no aporta adaptación."
+      },
+      {
+        "id": "C",
+        "text": "Negarse a aprender por dominar el método anterior.",
+        "rationale": "La experiencia previa no justifica evitar actualización."
+      },
+      {
+        "id": "D",
+        "text": "Aprenderlo, aplicarlo y comunicar dificultades para mejorar su implementación.",
+        "rationale": "Adaptarse implica responder constructivamente a nuevas formas de trabajo y cooperar en su implementación. No exige ignorar problemas ni mantener por comodidad el procedimiento anterior."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Adaptarse implica responder constructivamente a nuevas formas de trabajo y cooperar en su implementación. No exige ignorar problemas ni mantener por comodidad el procedimiento anterior.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "study200-153",
+        "locator": "Artículo 2.2.4.7, adaptación al cambio",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0154",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "behavioral",
+    "difficulty": 2,
+    "stem": "Una decisión requiere conocimientos de la especialidad de una profesional. ¿Qué aporte corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Presentar alternativas fundamentadas en su conocimiento y experiencia pertinente.",
+        "rationale": "El aporte técnico-profesional pone saberes específicos al servicio de decisiones. Debe hacer visibles las razones técnicas, sin sustituirlas por presión jerárquica o preferencias personales."
+      },
+      {
+        "id": "B",
+        "text": "Afirmar que su opinión no necesita fundamentos.",
+        "rationale": "La especialidad no exime de sustentar."
+      },
+      {
+        "id": "C",
+        "text": "Ocultar riesgos para que aprueben su propuesta.",
+        "rationale": "Omitir riesgos perjudica la calidad del aporte."
+      },
+      {
+        "id": "D",
+        "text": "Elegir por simpatía al proveedor.",
+        "rationale": "La simpatía no es criterio técnico."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "El aporte técnico-profesional pone saberes específicos al servicio de decisiones. Debe hacer visibles las razones técnicas, sin sustituirlas por presión jerárquica o preferencias personales.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "study200-154",
+        "locator": "Artículo 2.2.4.8, nivel profesional, aporte técnico-profesional",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0155",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "behavioral",
+    "difficulty": 2,
+    "stem": "Un informe técnico será usado por personas de varias áreas. ¿Cómo favorecer una comunicación efectiva?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Añadir siglas sin definir para aparentar rigor.",
+        "rationale": "Los tecnicismos innecesarios dificultan comprensión."
+      },
+      {
+        "id": "B",
+        "text": "Organizar un mensaje claro y preciso, adecuado a sus destinatarios.",
+        "rationale": "La comunicación efectiva busca comprensión mediante mensajes pertinentes y claros. No se mide por cantidad de tecnicismos ni por longitud del documento."
+      },
+      {
+        "id": "C",
+        "text": "Omitir el propósito del informe.",
+        "rationale": "Sin propósito se dificulta interpretar la información."
+      },
+      {
+        "id": "D",
+        "text": "Enviar datos contradictorios sin explicación.",
+        "rationale": "La contradicción no aclarada resta precisión."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La comunicación efectiva busca comprensión mediante mensajes pertinentes y claros. No se mide por cantidad de tecnicismos ni por longitud del documento.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "study200-155",
+        "locator": "Artículo 2.2.4.8, nivel profesional, comunicación efectiva",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0156",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "behavioral",
+    "difficulty": 2,
+    "stem": "Se repite un cuello de botella en un trámite a cargo de una profesional. ¿Qué respuesta se alinea con gestionar procedimientos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suprimir un requisito legal por cuenta propia.",
+        "rationale": "Mejorar no habilita desconocer normas."
+      },
+      {
+        "id": "B",
+        "text": "Ocultar el atraso en el reporte.",
+        "rationale": "Ocultar impide conocer y gestionar el problema."
+      },
+      {
+        "id": "C",
+        "text": "Analizar el flujo y proponer mejoras compatibles con las reglas aplicables.",
+        "rationale": "La gestión de procedimientos requiere comprender, ejecutar y mejorar procesos. La mejora no autoriza suprimir controles legales ni esconder tiempos reales."
+      },
+      {
+        "id": "D",
+        "text": "Aceptar la repetición porque siempre ha ocurrido.",
+        "rationale": "Normalizar el problema evita la mejora."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La gestión de procedimientos requiere comprender, ejecutar y mejorar procesos. La mejora no autoriza suprimir controles legales ni esconder tiempos reales.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "study200-156",
+        "locator": "Artículo 2.2.4.8, nivel profesional, gestión de procedimientos",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0157",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "competencias_comportamentales",
+    "secondaryTopicIds": [],
+    "questionType": "behavioral",
+    "difficulty": 2,
+    "stem": "Una profesional recibe asuntos que no todos corresponden a su esfera de decisión. ¿Qué conducta concreta exige instrumentación de decisiones según el Decreto 815?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decidir todos los asuntos sin revisar competencia.",
+        "rationale": "Ignora la distinción entre ámbitos de decisión."
+      },
+      {
+        "id": "B",
+        "text": "Elevar hasta la decisión que le corresponde tomar solo para evitar responsabilidad.",
+        "rationale": "No aplica la discriminación de responsabilidades prevista."
+      },
+      {
+        "id": "C",
+        "text": "Elegir según rumores y excluir a las personas involucradas.",
+        "rationale": "Contradice información rigurosa y análisis objetivo con los involucrados."
+      },
+      {
+        "id": "D",
+        "text": "Distinguir cuáles debe elevar al superior, socializar con el equipo o decidir dentro de su competencia.",
+        "rationale": "La conducta asociada discrimina esos tres ámbitos y exige información válida y rigurosa y criterios objetivos. No significa asumir cualquier decisión por el solo hecho de recibir un asunto."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La conducta asociada discrimina esos tres ámbitos y exige información válida y rigurosa y criterios objetivos. No significa asumir cualquier decisión por el solo hecho de recibir un asunto.",
+    "references": [
+      {
+        "sourceId": "decreto-815-2018",
+        "sourceUnitId": "study200-157",
+        "locator": "Artículo 2.2.4.8, nivel profesional, instrumentación de decisiones",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0158",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "atencion_transparencia_y_datos",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una ciudadana presenta una petición sin abogado. ¿Puede exigírsele contratar uno como regla general para tramitarla?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No; el ejercicio del derecho de petición es gratuito y no requiere abogado.",
+        "rationale": "El artículo 13 permite ejercer directamente el derecho. La ausencia de apoderado no justifica rechazar una petición que la persona puede presentar por sí misma."
+      },
+      {
+        "id": "B",
+        "text": "Sí, cualquier petición exige poder notarial.",
+        "rationale": "No existe esa exigencia general."
+      },
+      {
+        "id": "C",
+        "text": "Sí, salvo que sea servidora pública.",
+        "rationale": "La garantía no depende de tener empleo público."
+      },
+      {
+        "id": "D",
+        "text": "Sí, si la petición tiene más de una página.",
+        "rationale": "La extensión no crea representación obligatoria."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "El artículo 13 permite ejercer directamente el derecho. La ausencia de apoderado no justifica rechazar una petición que la persona puede presentar por sí misma.",
+    "references": [
+      {
+        "sourceId": "law-1755-2015",
+        "sourceUnitId": "study200-158",
+        "locator": "Artículo 13, gratuidad y ausencia de representación obligatoria",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0159",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "atencion_transparencia_y_datos",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una oficina se niega a recibir una petición respetuosa porque no se usó su formato interno. ¿Qué criterio corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El formato interno prevalece sobre la ley.",
+        "rationale": "Un formato no puede impedir la radicación legal."
+      },
+      {
+        "id": "B",
+        "text": "Recibirla y tramitarla conforme a las modalidades legales de presentación.",
+        "rationale": "La autoridad no puede negarse a recibir y radicar peticiones respetuosas por no usar un formato propio. Los mecanismos de estandarización no deben impedir el derecho."
+      },
+      {
+        "id": "C",
+        "text": "Solo deben recibirse peticiones redactadas por la oficina.",
+        "rationale": "El peticionario puede presentar su propio escrito."
+      },
+      {
+        "id": "D",
+        "text": "Toda petición fuera del formato se destruye.",
+        "rationale": "Destruirla impide ejercicio y trazabilidad."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La autoridad no puede negarse a recibir y radicar peticiones respetuosas por no usar un formato propio. Los mecanismos de estandarización no deben impedir el derecho.",
+    "references": [
+      {
+        "sourceId": "law-1755-2015",
+        "sourceUnitId": "study200-159",
+        "locator": "Artículo 15, presentación y radicación",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0160",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "atencion_transparencia_y_datos",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una petición ya radicada necesita un documento indispensable que el ciudadano debe aportar. ¿Qué procede antes de presumir desistimiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Archivar de inmediato sin comunicarlo.",
+        "rationale": "Omite el requerimiento y la oportunidad de completar."
+      },
+      {
+        "id": "B",
+        "text": "Inventar el documento faltante.",
+        "rationale": "La autoridad no puede suplirlo con información falsa."
+      },
+      {
+        "id": "C",
+        "text": "Requerir la subsanación dentro de las condiciones y plazos legales.",
+        "rationale": "El artículo 17 prevé requerir al peticionario para completar la solicitud. La falta inicial no autoriza a declarar inmediatamente desistimiento sin esa oportunidad."
+      },
+      {
+        "id": "D",
+        "text": "Sancionar automáticamente al peticionario.",
+        "rationale": "La incompletitud no equivale por sí sola a infracción."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "El artículo 17 prevé requerir al peticionario para completar la solicitud. La falta inicial no autoriza a declarar inmediatamente desistimiento sin esa oportunidad.",
+    "references": [
+      {
+        "sourceId": "law-1755-2015",
+        "sourceUnitId": "study200-160",
+        "locator": "Artículo 17, peticiones incompletas",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0161",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "atencion_transparencia_y_datos",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Quien presentó una petición manifiesta expresamente que desiste. ¿Puede la autoridad continuar de oficio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, nunca puede continuar en ningún supuesto.",
+        "rationale": "Desconoce la excepción expresa de interés público."
+      },
+      {
+        "id": "B",
+        "text": "Sí, pero solo para castigar el desistimiento.",
+        "rationale": "La continuación tiene razón de interés público, no castigo."
+      },
+      {
+        "id": "C",
+        "text": "Sí, sin expresar razones en ningún caso.",
+        "rationale": "El artículo exige resolución motivada."
+      },
+      {
+        "id": "D",
+        "text": "Sí, si lo considera necesario por interés público y expide resolución motivada.",
+        "rationale": "El desistimiento no impide continuar una actuación por razones de interés público mediante decisión motivada. Tampoco equivale a prohibir que la persona presente otra solicitud legalmente admisible."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "El desistimiento no impide continuar una actuación por razones de interés público mediante decisión motivada. Tampoco equivale a prohibir que la persona presente otra solicitud legalmente admisible.",
+    "references": [
+      {
+        "sourceId": "law-1755-2015",
+        "sourceUnitId": "study200-161",
+        "locator": "Artículo 18, desistimiento expreso",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0162",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "atencion_transparencia_y_datos",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "No se comprende la finalidad de una petición. ¿Qué actuación prevé la ley?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Devolverla para que se corrija o aclare dentro del término legal.",
+        "rationale": "El artículo 19 permite pedir aclaración cuando no se entiende finalidad u objeto. No autoriza rechazar por una fundamentación jurídica inadecuada si el objeto sí es comprensible."
+      },
+      {
+        "id": "B",
+        "text": "Rechazar toda petición que cite mal una ley.",
+        "rationale": "La fundamentación jurídica inadecuada no basta para rechazo."
+      },
+      {
+        "id": "C",
+        "text": "Resolver un asunto diferente elegido al azar.",
+        "rationale": "La decisión debe atender el objeto real de la petición."
+      },
+      {
+        "id": "D",
+        "text": "Publicar los datos personales para pedir ayuda.",
+        "rationale": "La dificultad de comprensión no autoriza esa divulgación."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "El artículo 19 permite pedir aclaración cuando no se entiende finalidad u objeto. No autoriza rechazar por una fundamentación jurídica inadecuada si el objeto sí es comprensible.",
+    "references": [
+      {
+        "sourceId": "law-1755-2015",
+        "sourceUnitId": "study200-162",
+        "locator": "Artículo 19, peticiones oscuras",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0163",
+    "status": "needs_review",
+    "moduleId": "comun",
+    "topicId": "atencion_transparencia_y_datos",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una entidad recibe más de diez peticiones análogas de información, interés general o consulta. ¿Qué posibilidad contempla el artículo 22?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No responder porque son repetidas.",
+        "rationale": "La analogía no elimina el deber de respuesta."
+      },
+      {
+        "id": "B",
+        "text": "Dar una única respuesta con la publicidad y entrega a solicitantes previstas en la ley.",
+        "rationale": "La respuesta única está permitida para ese supuesto, con publicación en diario de amplia circulación, página web y entrega a quienes soliciten copia. No equivale a ignorar a los peticionarios."
+      },
+      {
+        "id": "C",
+        "text": "Responder únicamente al primer ciudadano en secreto.",
+        "rationale": "Desconoce las medidas de publicidad y entrega."
+      },
+      {
+        "id": "D",
+        "text": "Cobrar una tarifa para aceptar cada petición.",
+        "rationale": "No hay autorización general para cobrar por ejercer el derecho."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La respuesta única está permitida para ese supuesto, con publicación en diario de amplia circulación, página web y entrega a quienes soliciten copia. No equivale a ignorar a los peticionarios.",
+    "references": [
+      {
+        "sourceId": "law-1755-2015",
+        "sourceUnitId": "study200-163",
+        "locator": "Artículo 22, organización para el trámite interno",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0164",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "En PostgreSQL 18, monto tiene CHECK (monto > 0) pero admite NULL. ¿Qué restricción adicional expresa que el dato es obligatorio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "UNIQUE únicamente.",
+        "rationale": "La unicidad no impide todos los nulos."
+      },
+      {
+        "id": "B",
+        "text": "DEFAULT 1 únicamente.",
+        "rationale": "Un valor por defecto no prohíbe insertar explícitamente NULL."
+      },
+      {
+        "id": "C",
+        "text": "NOT NULL.",
+        "rationale": "CHECK no rechaza una evaluación desconocida causada por NULL. NOT NULL impide precisamente la ausencia de valor; debe combinarse con la comprobación del monto positivo."
+      },
+      {
+        "id": "D",
+        "text": "ORDER BY monto.",
+        "rationale": "Ordenar una consulta no restringe inserciones."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "CHECK no rechaza una evaluación desconocida causada por NULL. NOT NULL impide precisamente la ausencia de valor; debe combinarse con la comprobación del monto positivo.",
+    "references": [
+      {
+        "sourceId": "postgres-constraints-18",
+        "sourceUnitId": "study200-164",
+        "locator": "5.5.1 y 5.5.2",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0165",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Se define PRIMARY KEY (expediente_id) en PostgreSQL. ¿Qué combinación garantiza esa restricción?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo orden físico permanente de filas.",
+        "rationale": "La clave primaria no promete un orden físico de consulta."
+      },
+      {
+        "id": "B",
+        "text": "Cifrado de todos los campos.",
+        "rationale": "Una restricción de clave no cifra datos."
+      },
+      {
+        "id": "C",
+        "text": "Igualdad de todas las claves.",
+        "rationale": "Exige unicidad, no repetición."
+      },
+      {
+        "id": "D",
+        "text": "Unicidad y ausencia de NULL en la clave.",
+        "rationale": "Una clave primaria identifica cada fila y exige valores únicos y no nulos. No garantiza por sí sola que los demás atributos sean correctos desde el punto de vista del negocio."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Una clave primaria identifica cada fila y exige valores únicos y no nulos. No garantiza por sí sola que los demás atributos sean correctos desde el punto de vista del negocio.",
+    "references": [
+      {
+        "sourceId": "postgres-constraints-18",
+        "sourceUnitId": "study200-165",
+        "locator": "5.5.4 Primary Keys",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0166",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una tabla tiene UNIQUE (dependencia, consecutivo), ambas columnas NOT NULL. Ya existe (Norte, 7). ¿Qué nueva fila permite esa unicidad compuesta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(Sur, 7).",
+        "rationale": "La restricción impide repetir el par completo, no cada componente por separado. Otro consecutivo 7 en una dependencia diferente no repite la combinación existente."
+      },
+      {
+        "id": "B",
+        "text": "(Norte, 7) otra vez.",
+        "rationale": "Repite ambos componentes del par."
+      },
+      {
+        "id": "C",
+        "text": "Ninguna fila con consecutivo 7 en cualquier dependencia.",
+        "rationale": "Confunde unicidad compuesta con unicidad individual."
+      },
+      {
+        "id": "D",
+        "text": "Ninguna fila adicional en la tabla.",
+        "rationale": "La restricción no limita la tabla a una fila."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La restricción impide repetir el par completo, no cada componente por separado. Otro consecutivo 7 en una dependencia diferente no repite la combinación existente.",
+    "references": [
+      {
+        "sourceId": "postgres-constraints-18",
+        "sourceUnitId": "study200-166",
+        "locator": "5.5.3 Unique Constraints — combination of columns",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0167",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una tabla PostgreSQL debe impedir que fecha_fin sea anterior a fecha_inicio; ambas son NOT NULL. ¿Qué restricción expresa esa relación en la misma fila?",
+    "options": [
+      {
+        "id": "A",
+        "text": "UNIQUE (fecha_inicio).",
+        "rationale": "Evita ciertos duplicados pero no compara inicio y fin."
+      },
+      {
+        "id": "B",
+        "text": "CHECK (fecha_fin >= fecha_inicio).",
+        "rationale": "CHECK puede comparar columnas de la fila para restringir combinaciones inválidas. NOT NULL resuelve la ausencia de fechas; la comparación resuelve su orden."
+      },
+      {
+        "id": "C",
+        "text": "DEFAULT CURRENT_DATE en fecha_fin.",
+        "rationale": "Un valor predeterminado no impide posteriores valores incompatibles."
+      },
+      {
+        "id": "D",
+        "text": "ORDER BY fecha_inicio.",
+        "rationale": "Ordenar resultados no valida la relación temporal de cada fila."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "CHECK puede comparar columnas de la fila para restringir combinaciones inválidas. NOT NULL resuelve la ausencia de fechas; la comparación resuelve su orden.",
+    "references": [
+      {
+        "sourceId": "postgres-constraints-18",
+        "sourceUnitId": "study200-167",
+        "locator": "5.5.1 Check Constraints — multiple columns",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0168",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "En PostgreSQL 18, se desea que una columna UNIQUE trate los NULL como iguales para impedir más de uno. ¿Qué variante lo expresa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "UNIQUE elimina siempre todos los NULL por defecto.",
+        "rationale": "El comportamiento predeterminado no es ese."
+      },
+      {
+        "id": "B",
+        "text": "ORDER BY NULLS FIRST.",
+        "rationale": "Solo cambia la ordenación de resultados."
+      },
+      {
+        "id": "C",
+        "text": "UNIQUE NULLS NOT DISTINCT.",
+        "rationale": "Por defecto, PostgreSQL considera distintos los NULL para unicidad. NULLS NOT DISTINCT cambia ese tratamiento sin convertir la columna en obligatoria."
+      },
+      {
+        "id": "D",
+        "text": "DEFAULT NULL.",
+        "rationale": "Un valor predeterminado no controla duplicación."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Por defecto, PostgreSQL considera distintos los NULL para unicidad. NULLS NOT DISTINCT cambia ese tratamiento sin convertir la columna en obligatoria.",
+    "references": [
+      {
+        "sourceId": "postgres-constraints-18",
+        "sourceUnitId": "study200-168",
+        "locator": "5.5.3 Unique Constraints — NULLS NOT DISTINCT",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0169",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Se necesitan todas las dependencias, incluso las que no tienen expedientes, junto con los expedientes coincidentes. ¿Qué unión parte de dependencias para conservarlas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "INNER JOIN exclusivamente.",
+        "rationale": "Solo conserva coincidencias entre ambas tablas."
+      },
+      {
+        "id": "B",
+        "text": "CROSS JOIN sin condición.",
+        "rationale": "Combina todas las filas sin respetar la relación."
+      },
+      {
+        "id": "C",
+        "text": "Eliminar antes las dependencias sin expedientes.",
+        "rationale": "Contradice el requisito de incluirlas."
+      },
+      {
+        "id": "D",
+        "text": "LEFT JOIN de dependencias con expedientes usando la condición de relación.",
+        "rationale": "La unión externa izquierda conserva las filas de la tabla izquierda sin coincidencia y completa con NULL las columnas de la derecha. Una unión interna descartaría esas dependencias."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La unión externa izquierda conserva las filas de la tabla izquierda sin coincidencia y completa con NULL las columnas de la derecha. Una unión interna descartaría esas dependencias.",
+    "references": [
+      {
+        "sourceId": "postgres-queries-18",
+        "sourceUnitId": "study200-169",
+        "locator": "7.2.1.1 Joined Tables — LEFT OUTER JOIN",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0170",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Se requieren únicamente pares de solicitud y oficina que cumplan la condición ON de la relación. ¿Qué unión expresa esa necesidad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "INNER JOIN.",
+        "rationale": "La unión interna produce pares que satisfacen la condición de unión. No añade filas sin correspondencia como haría una unión externa."
+      },
+      {
+        "id": "B",
+        "text": "FULL OUTER JOIN como única opción.",
+        "rationale": "También conserva filas sin coincidencia."
+      },
+      {
+        "id": "C",
+        "text": "CROSS JOIN sin condición.",
+        "rationale": "Produce combinaciones no relacionadas."
+      },
+      {
+        "id": "D",
+        "text": "UNION de columnas incompatibles.",
+        "rationale": "UNION no enlaza pares por una condición ON."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La unión interna produce pares que satisfacen la condición de unión. No añade filas sin correspondencia como haría una unión externa.",
+    "references": [
+      {
+        "sourceId": "postgres-queries-18",
+        "sourceUnitId": "study200-170",
+        "locator": "7.2.1.1 Joined Tables — INNER JOIN",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0171",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una tabla tiene 3 filas y otra 4. ¿Cuántas filas produce su CROSS JOIN sin filtros?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7.",
+        "rationale": "Suma tamaños en vez de multiplicarlos."
+      },
+      {
+        "id": "B",
+        "text": "12.",
+        "rationale": "El producto cartesiano combina cada fila de la primera tabla con cada fila de la segunda: 3 × 4. No elimina combinaciones por similitud de datos."
+      },
+      {
+        "id": "C",
+        "text": "4.",
+        "rationale": "Toma solo el tamaño mayor."
+      },
+      {
+        "id": "D",
+        "text": "3.",
+        "rationale": "Toma solo el tamaño menor."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "El producto cartesiano combina cada fila de la primera tabla con cada fila de la segunda: 3 × 4. No elimina combinaciones por similitud de datos.",
+    "references": [
+      {
+        "sourceId": "postgres-queries-18",
+        "sourceUnitId": "study200-171",
+        "locator": "7.2.1.1 Joined Tables — CROSS JOIN",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0172",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Tras un LEFT JOIN, se agrega WHERE expediente.estado = 1. ¿Qué ocurre con una dependencia sin expedientes, cuyo estado unido es NULL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Siempre permanece por haber usado LEFT JOIN.",
+        "rationale": "Una condición posterior puede descartar la fila preservada inicialmente."
+      },
+      {
+        "id": "B",
+        "text": "Se crea un expediente con estado 1.",
+        "rationale": "El filtro no inserta datos."
+      },
+      {
+        "id": "C",
+        "text": "Queda fuera porque la comparación no resulta verdadera.",
+        "rationale": "WHERE se aplica después de la unión. En una fila extendida con NULL, la comparación no es verdadera y se descarta; colocar el criterio en ON tiene un efecto diferente sobre la conservación de la izquierda."
+      },
+      {
+        "id": "D",
+        "text": "NULL se convierte automáticamente en 1.",
+        "rationale": "La comparación no reemplaza NULL."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "WHERE se aplica después de la unión. En una fila extendida con NULL, la comparación no es verdadera y se descarta; colocar el criterio en ON tiene un efecto diferente sobre la conservación de la izquierda.",
+    "references": [
+      {
+        "sourceId": "postgres-queries-18",
+        "sourceUnitId": "study200-172",
+        "locator": "7.2.1.1 — restriction in ON versus WHERE for outer joins",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0173",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Se quieren oficinas cuyo total de trámites sea superior a 50 después de agrupar. ¿Qué cláusula filtra los grupos por COUNT(*)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "WHERE COUNT(*) > 50 en el mismo nivel.",
+        "rationale": "Intenta filtrar con un agregado antes de formar grupos."
+      },
+      {
+        "id": "B",
+        "text": "ORDER BY oficina únicamente.",
+        "rationale": "Ordenar no excluye grupos por su total."
+      },
+      {
+        "id": "C",
+        "text": "LIMIT 50 únicamente.",
+        "rationale": "Limita filas de salida, no exige un total por oficina."
+      },
+      {
+        "id": "D",
+        "text": "HAVING COUNT(*) > 50.",
+        "rationale": "HAVING restringe grupos después de la agregación. WHERE filtra filas antes de agrupar y no ocupa el mismo papel para una condición sobre el total del grupo."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "HAVING restringe grupos después de la agregación. WHERE filtra filas antes de agrupar y no ocupa el mismo papel para una condición sobre el total del grupo.",
+    "references": [
+      {
+        "sourceId": "postgres-queries-18",
+        "sourceUnitId": "study200-173",
+        "locator": "7.2.3 GROUP BY and HAVING",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0174",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Para contar trámites por estado en PostgreSQL, ¿qué agrupación corresponde a SELECT estado, COUNT(*) FROM tramites ...?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GROUP BY estado.",
+        "rationale": "Agrupar por estado reúne las filas que comparten esa categoría y calcula el conteo de cada grupo. No es necesario agrupar por la clave única de cada trámite."
+      },
+      {
+        "id": "B",
+        "text": "GROUP BY id si cada id es único.",
+        "rationale": "Produce grupos individuales, no el total por estado."
+      },
+      {
+        "id": "C",
+        "text": "ORDER BY estado sin agrupación.",
+        "rationale": "La ordenación no crea los grupos requeridos."
+      },
+      {
+        "id": "D",
+        "text": "CROSS JOIN tramites.",
+        "rationale": "Duplica combinaciones en lugar de agrupar por estado."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Agrupar por estado reúne las filas que comparten esa categoría y calcula el conteo de cada grupo. No es necesario agrupar por la clave única de cada trámite.",
+    "references": [
+      {
+        "sourceId": "postgres-queries-18",
+        "sourceUnitId": "study200-174",
+        "locator": "7.2.3 GROUP BY",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0175",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una consulta debe conservar registros donde fecha_cierre está ausente. ¿Qué predicado SQL utiliza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "fecha_cierre = NULL.",
+        "rationale": "La comparación de igualdad con NULL no es la prueba de nulidad."
+      },
+      {
+        "id": "B",
+        "text": "fecha_cierre IS NULL.",
+        "rationale": "IS NULL comprueba la ausencia de valor. La igualdad ordinaria con NULL no produce la condición verdadera necesaria para seleccionar esas filas."
+      },
+      {
+        "id": "C",
+        "text": "fecha_cierre = 0.",
+        "rationale": "Una fecha ausente no equivale a cero."
+      },
+      {
+        "id": "D",
+        "text": "fecha_cierre > NULL.",
+        "rationale": "Comparar con NULL no identifica las filas nulas."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "IS NULL comprueba la ausencia de valor. La igualdad ordinaria con NULL no produce la condición verdadera necesaria para seleccionar esas filas.",
+    "references": [
+      {
+        "sourceId": "postgres-queries-18",
+        "sourceUnitId": "study200-175",
+        "locator": "7.2.2 The WHERE Clause",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0176",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una transacción lee cambios de otra que todavía no ha confirmado. ¿Cómo se denomina ese fenómeno?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lectura no repetible de datos ya confirmados.",
+        "rationale": "Ese fenómeno no exige leer cambios sin confirmar."
+      },
+      {
+        "id": "B",
+        "text": "Interbloqueo necesariamente.",
+        "rationale": "Una lectura no implica necesariamente un ciclo de bloqueos."
+      },
+      {
+        "id": "C",
+        "text": "Lectura sucia.",
+        "rationale": "La lectura sucia consiste en observar datos escritos por una transacción no confirmada. Es diferente de volver a leer un dato que otra transacción ya confirmó."
+      },
+      {
+        "id": "D",
+        "text": "Copia de respaldo consistente.",
+        "rationale": "No describe una operación de respaldo."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La lectura sucia consiste en observar datos escritos por una transacción no confirmada. Es diferente de volver a leer un dato que otra transacción ya confirmó.",
+    "references": [
+      {
+        "sourceId": "postgres-isolation-18",
+        "sourceUnitId": "study200-176",
+        "locator": "13.2 — SQL transaction isolation levels",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0177",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "En PostgreSQL con Read Committed, dos SELECT sucesivos de una misma transacción pueden observar distintos datos confirmados. ¿Por qué?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Porque lee siempre cambios aún sin confirmar.",
+        "rationale": "PostgreSQL no permite lecturas sucias en este nivel."
+      },
+      {
+        "id": "B",
+        "text": "Porque cada SELECT borra la tabla.",
+        "rationale": "Consultar no implica borrar."
+      },
+      {
+        "id": "C",
+        "text": "Porque nunca existen instantáneas.",
+        "rationale": "Sí existen; su alcance es por sentencia."
+      },
+      {
+        "id": "D",
+        "text": "Cada sentencia obtiene su propia instantánea de datos confirmados.",
+        "rationale": "Read Committed usa una instantánea al inicio de cada comando. Una confirmación concurrente entre dos consultas puede resultar visible en la segunda."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Read Committed usa una instantánea al inicio de cada comando. Una confirmación concurrente entre dos consultas puede resultar visible en la segunda.",
+    "references": [
+      {
+        "sourceId": "postgres-isolation-18",
+        "sourceUnitId": "study200-177",
+        "locator": "13.2.1 Read Committed",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0178",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una transacción PostgreSQL necesita que consultas sucesivas vean la misma instantánea, salvo sus propios cambios. ¿Qué nivel ofrece esa base?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repeatable Read.",
+        "rationale": "Repeatable Read mantiene la instantánea tomada al inicio de la primera sentencia no transaccional. Esto no equivale a garantizar por sí solo toda ejecución serializable."
+      },
+      {
+        "id": "B",
+        "text": "Read Committed garantiza siempre esa misma instantánea.",
+        "rationale": "En ese nivel la instantánea cambia por comando."
+      },
+      {
+        "id": "C",
+        "text": "Autocommit de sentencias independientes.",
+        "rationale": "Cada sentencia independiente puede ver otro estado confirmado."
+      },
+      {
+        "id": "D",
+        "text": "Desactivar todas las transacciones.",
+        "rationale": "No mantiene una instantánea transaccional compartida."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Repeatable Read mantiene la instantánea tomada al inicio de la primera sentencia no transaccional. Esto no equivale a garantizar por sí solo toda ejecución serializable.",
+    "references": [
+      {
+        "sourceId": "postgres-isolation-18",
+        "sourceUnitId": "study200-178",
+        "locator": "13.2.2 Repeatable Read",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0179",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "datos_y_analitica",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "PostgreSQL devuelve un fallo de serialización por concurrencia. ¿Cómo debe estar preparada la aplicación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Registrar éxito sin volver a ejecutar.",
+        "rationale": "El fallo indica que la transacción no completó correctamente."
+      },
+      {
+        "id": "B",
+        "text": "Para reintentar la transacción completa conforme a su política de reintentos.",
+        "rationale": "El nivel serializable puede abortar una transacción para impedir una anomalía. Reintentar la unidad completa permite volver a leer y decidir sobre un estado coherente; no basta fingir que confirmó."
+      },
+      {
+        "id": "C",
+        "text": "Reintentar solo el COMMIT de una transacción abortada.",
+        "rationale": "No reconstruye las lecturas y decisiones de la unidad fallida."
+      },
+      {
+        "id": "D",
+        "text": "Deshabilitar permanentemente la integridad.",
+        "rationale": "Eliminar garantías no es tratamiento correcto del error."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "El nivel serializable puede abortar una transacción para impedir una anomalía. Reintentar la unidad completa permite volver a leer y decidir sobre un estado coherente; no basta fingir que confirmó.",
+    "references": [
+      {
+        "sourceId": "postgres-isolation-18",
+        "sourceUnitId": "study200-179",
+        "locator": "13.2.3 Serializable",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0180",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una API elimina expedientes mediante GET al abrir un enlace. ¿Qué propiedad semántica de GET contradice ese diseño?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La obligación de usar siempre XML.",
+        "rationale": "HTTP no obliga a XML para GET."
+      },
+      {
+        "id": "B",
+        "text": "La prohibición de devolver contenido.",
+        "rationale": "GET normalmente devuelve una representación."
+      },
+      {
+        "id": "C",
+        "text": "Su carácter seguro: el cliente no solicita un cambio de estado destructivo.",
+        "rationale": "GET tiene semántica de lectura. Que el servidor registre logs no autoriza que el recurso solicitado borre expedientes como efecto pretendido de la consulta."
+      },
+      {
+        "id": "D",
+        "text": "La exigencia de crear un expediente en cada lectura.",
+        "rationale": "GET no define creación como operación solicitada."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "GET tiene semántica de lectura. Que el servidor registre logs no autoriza que el recurso solicitado borre expedientes como efecto pretendido de la consulta.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-180",
+        "locator": "RFC 9110, 9.2.1 y 9.3.1",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0181",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Un cliente repite un PUT idéntico al mismo recurso tras perder la respuesta. ¿Qué significa su idempotencia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Debe devolver siempre el mismo código y cuerpo.",
+        "rationale": "La idempotencia no exige respuestas idénticas."
+      },
+      {
+        "id": "B",
+        "text": "No puede modificar recursos.",
+        "rationale": "PUT puede modificar; idempotente no significa seguro."
+      },
+      {
+        "id": "C",
+        "text": "Cada repetición debe crear otro recurso independiente.",
+        "rationale": "Ese efecto acumulativo no corresponde al PUT descrito."
+      },
+      {
+        "id": "D",
+        "text": "El efecto pretendido de repetirlo equivale al de una sola solicitud.",
+        "rationale": "La idempotencia se refiere al efecto solicitado sobre el servidor, no a que todas las respuestas o los registros de auditoría sean idénticos. PUT permite esa semántica de reemplazo."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La idempotencia se refiere al efecto solicitado sobre el servidor, no a que todas las respuestas o los registros de auditoría sean idénticos. PUT permite esa semántica de reemplazo.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-181",
+        "locator": "RFC 9110, 9.2.2 y 9.3.4",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0182",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Un POST crea una solicitud y la conexión se corta antes de recibir respuesta. Sin mecanismo adicional de deduplicación, ¿qué riesgo tiene repetirlo automáticamente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Crear otra solicitud porque POST no es idempotente por definición.",
+        "rationale": "No debe suponerse que un POST se puede repetir sin efectos adicionales. Un mecanismo de idempotencia de la aplicación requiere un contrato explícito, no se deduce del método."
+      },
+      {
+        "id": "B",
+        "text": "HTTP elimina siempre las creaciones duplicadas.",
+        "rationale": "El protocolo no garantiza esa deduplicación para cualquier POST."
+      },
+      {
+        "id": "C",
+        "text": "Todo POST es una lectura sin efectos.",
+        "rationale": "POST puede causar procesamiento y cambios."
+      },
+      {
+        "id": "D",
+        "text": "Repetir cambia automáticamente el método a GET.",
+        "rationale": "El cliente sigue enviando POST."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "No debe suponerse que un POST se puede repetir sin efectos adicionales. Un mecanismo de idempotencia de la aplicación requiere un contrato explícito, no se deduce del método.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-182",
+        "locator": "RFC 9110, 9.2.2 y 9.3.3",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0183",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Se necesitan metadatos de una representación sin transferir su contenido. ¿Qué método HTTP está definido con ese propósito?",
+    "options": [
+      {
+        "id": "A",
+        "text": "POST.",
+        "rationale": "POST solicita procesamiento, no esta variante de GET sin contenido."
+      },
+      {
+        "id": "B",
+        "text": "HEAD.",
+        "rationale": "HEAD tiene semántica equivalente a GET salvo que el servidor no envía contenido en la respuesta. Es útil para consultar metadatos, con las salvedades de encabezados previstas por el RFC."
+      },
+      {
+        "id": "C",
+        "text": "DELETE.",
+        "rationale": "DELETE solicita quitar la asociación del recurso."
+      },
+      {
+        "id": "D",
+        "text": "CONNECT.",
+        "rationale": "CONNECT establece un túnel, no consulta estos metadatos."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "HEAD tiene semántica equivalente a GET salvo que el servidor no envía contenido en la respuesta. Es útil para consultar metadatos, con las salvedades de encabezados previstas por el RFC.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-183",
+        "locator": "RFC 9110, 9.3.2 HEAD",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0184",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una API terminó de crear un recurso como resultado de la solicitud. ¿Qué código expresa específicamente creación exitosa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "202 Accepted.",
+        "rationale": "Indica aceptación para procesamiento, no creación ya completada."
+      },
+      {
+        "id": "B",
+        "text": "404 Not Found.",
+        "rationale": "No expresa creación exitosa."
+      },
+      {
+        "id": "C",
+        "text": "201 Created.",
+        "rationale": "201 indica que la solicitud produjo uno o más recursos nuevos. La URI principal puede identificarse mediante Location, según lo previsto por HTTP."
+      },
+      {
+        "id": "D",
+        "text": "503 Service Unavailable.",
+        "rationale": "Indica indisponibilidad del servicio."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "201 indica que la solicitud produjo uno o más recursos nuevos. La URI principal puede identificarse mediante Location, según lo previsto por HTTP.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-184",
+        "locator": "RFC 9110, 15.3.2, 201 Created",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0185",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una exportación fue aceptada para procesarse en segundo plano, pero todavía no terminó. ¿Qué respuesta describe ese estado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "201 Created garantiza que ya existe el archivo final.",
+        "rationale": "La exportación todavía no terminó."
+      },
+      {
+        "id": "B",
+        "text": "204 No Content demuestra que el proceso no tiene errores futuros.",
+        "rationale": "Ese código no es garantía sobre un trabajo pendiente."
+      },
+      {
+        "id": "C",
+        "text": "403 Forbidden confirma que el trabajo se ejecutará.",
+        "rationale": "403 comunica rechazo, no aceptación."
+      },
+      {
+        "id": "D",
+        "text": "202 Accepted.",
+        "rationale": "202 confirma aceptación, no finalización exitosa del procesamiento. La aplicación debe ofrecer información apropiada sobre el seguimiento del trabajo."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "202 confirma aceptación, no finalización exitosa del procesamiento. La aplicación debe ofrecer información apropiada sobre el seguimiento del trabajo.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-185",
+        "locator": "RFC 9110, 15.3.3, 202 Accepted",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0186",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una operación HTTP termina correctamente y el servidor no devuelve contenido. ¿Qué código permite expresarlo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "204 No Content.",
+        "rationale": "204 comunica cumplimiento satisfactorio sin contenido adicional de respuesta. Un cliente no debe intentar interpretar un cuerpo JSON inexistente por ese solo código."
+      },
+      {
+        "id": "B",
+        "text": "400 Bad Request.",
+        "rationale": "Indica un problema atribuible a la solicitud."
+      },
+      {
+        "id": "C",
+        "text": "401 Unauthorized.",
+        "rationale": "Indica ausencia de credenciales válidas."
+      },
+      {
+        "id": "D",
+        "text": "500 Internal Server Error.",
+        "rationale": "Indica un error del servidor, no éxito."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "204 comunica cumplimiento satisfactorio sin contenido adicional de respuesta. Un cliente no debe intentar interpretar un cuerpo JSON inexistente por ese solo código.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-186",
+        "locator": "RFC 9110, 15.3.5, 204 No Content",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0187",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "El servidor rechaza una solicitud HTTP por sintaxis malformada atribuible al cliente. ¿Qué código general corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "201 Created.",
+        "rationale": "No se completó una creación."
+      },
+      {
+        "id": "B",
+        "text": "400 Bad Request.",
+        "rationale": "400 cubre errores percibidos del cliente, incluida sintaxis malformada. No describe una creación ni una indisponibilidad temporal del servidor."
+      },
+      {
+        "id": "C",
+        "text": "304 Not Modified.",
+        "rationale": "Se relaciona con una petición condicional de representación."
+      },
+      {
+        "id": "D",
+        "text": "503 Service Unavailable.",
+        "rationale": "Se refiere a indisponibilidad del servicio, no a la sintaxis planteada."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "400 cubre errores percibidos del cliente, incluida sintaxis malformada. No describe una creación ni una indisponibilidad temporal del servidor.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-187",
+        "locator": "RFC 9110, 15.5.1, 400 Bad Request",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0188",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "La solicitud carece de credenciales de autenticación válidas para el recurso. ¿Qué código corresponde con el desafío de autenticación aplicable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "200 OK.",
+        "rationale": "No expresa el rechazo por falta de autenticación."
+      },
+      {
+        "id": "B",
+        "text": "201 Created.",
+        "rationale": "No se está informando creación."
+      },
+      {
+        "id": "C",
+        "text": "401 Unauthorized.",
+        "rationale": "401 indica que faltan credenciales válidas y exige WWW-Authenticate con al menos un desafío aplicable. No es equivalente a una autorización concedida."
+      },
+      {
+        "id": "D",
+        "text": "301 Moved Permanently.",
+        "rationale": "Una redirección no describe la falta de credenciales."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "401 indica que faltan credenciales válidas y exige WWW-Authenticate con al menos un desafío aplicable. No es equivalente a una autorización concedida.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-188",
+        "locator": "RFC 9110, 15.5.2, 401 Unauthorized",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0189",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "El servidor entiende la solicitud pero se niega a satisfacerla por falta de autorización. ¿Qué código expresa ese rechazo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "202 Accepted.",
+        "rationale": "El servidor no aceptó el procesamiento."
+      },
+      {
+        "id": "B",
+        "text": "204 No Content.",
+        "rationale": "No hubo éxito sin contenido."
+      },
+      {
+        "id": "C",
+        "text": "206 Partial Content.",
+        "rationale": "No es una entrega parcial de una representación."
+      },
+      {
+        "id": "D",
+        "text": "403 Forbidden.",
+        "rationale": "403 expresa negativa a cumplir una solicitud entendida. Tener identidad autenticada no garantiza autorización; repetir las mismas credenciales no obliga a conceder acceso."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "403 expresa negativa a cumplir una solicitud entendida. Tener identidad autenticada no garantiza autorización; repetir las mismas credenciales no obliga a conceder acceso.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-189",
+        "locator": "RFC 9110, 15.5.4, 403 Forbidden",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0190",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Un recurso existe pero no admite el método solicitado. ¿Qué respuesta informa esa situación y enumera los métodos admitidos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "405 Method Not Allowed con encabezado Allow.",
+        "rationale": "405 se usa cuando el método es conocido pero no está permitido para ese recurso. El servidor debe generar Allow con los métodos actualmente admitidos."
+      },
+      {
+        "id": "B",
+        "text": "404 con la contraseña administrativa.",
+        "rationale": "No corresponde divulgar credenciales ni describe la condición indicada."
+      },
+      {
+        "id": "C",
+        "text": "201 sin Location como corrección universal.",
+        "rationale": "Crear no explica que un método esté prohibido para el recurso."
+      },
+      {
+        "id": "D",
+        "text": "200 fingiendo ejecutar el método.",
+        "rationale": "Informar éxito falso oculta el rechazo."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "405 se usa cuando el método es conocido pero no está permitido para ese recurso. El servidor debe generar Allow con los métodos actualmente admitidos.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-190",
+        "locator": "RFC 9110, 15.5.6, 405 Method Not Allowed",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0191",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una solicitud entra en conflicto con el estado actual del recurso y el usuario podría resolverlo y reenviarla. ¿Qué código representa ese conflicto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "200 OK.",
+        "rationale": "No expresa el conflicto que impide completar."
+      },
+      {
+        "id": "B",
+        "text": "409 Conflict.",
+        "rationale": "409 permite comunicar un conflicto con el estado actual e información para reconocer su causa. No significa necesariamente fallo de red ni inexistencia del recurso."
+      },
+      {
+        "id": "C",
+        "text": "301 Moved Permanently.",
+        "rationale": "No se ha descrito una mudanza de URI."
+      },
+      {
+        "id": "D",
+        "text": "204 No Content.",
+        "rationale": "Expresaría éxito sin contenido, no conflicto."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "409 permite comunicar un conflicto con el estado actual e información para reconocer su causa. No significa necesariamente fallo de red ni inexistencia del recurso.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-191",
+        "locator": "RFC 9110, 15.5.10, 409 Conflict",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0192",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Un cliente envía If-Match con un ETag antiguo para evitar sobrescribir cambios ajenos. La precondición falla. ¿Qué respuesta corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aplicar igual el cambio y devolver 200.",
+        "rationale": "Ignora la precondición de concurrencia."
+      },
+      {
+        "id": "B",
+        "text": "Crear otra identidad de usuario.",
+        "rationale": "No resuelve el conflicto de versión del recurso."
+      },
+      {
+        "id": "C",
+        "text": "412 Precondition Failed.",
+        "rationale": "If-Match condiciona la modificación a la coincidencia del validador. Si no se cumple, 412 evita tratar como vigente una versión desactualizada; así se ayuda a prevenir actualizaciones perdidas."
+      },
+      {
+        "id": "D",
+        "text": "Borrar el recurso para que coincida.",
+        "rationale": "Destruirlo no satisface la precondición."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "If-Match condiciona la modificación a la coincidencia del validador. Si no se cumple, 412 evita tratar como vigente una versión desactualizada; así se ayuda a prevenir actualizaciones perdidas.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-192",
+        "locator": "RFC 9110, 13.1.1 If-Match y 15.5.13",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0193",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "El servicio está temporalmente sobrecargado. ¿Qué combinación puede indicar indisponibilidad y cuándo volver a intentar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "201 Created con cualquier fecha.",
+        "rationale": "La creación no expresa indisponibilidad."
+      },
+      {
+        "id": "B",
+        "text": "204 No Content obligando reintentos infinitos.",
+        "rationale": "No es un error temporal ni justifica un bucle sin límites."
+      },
+      {
+        "id": "C",
+        "text": "403 Forbidden como garantía de recuperación inmediata.",
+        "rationale": "La prohibición no garantiza recuperación temporal."
+      },
+      {
+        "id": "D",
+        "text": "503 Service Unavailable con Retry-After.",
+        "rationale": "503 describe incapacidad temporal para atender, por sobrecarga o mantenimiento, y puede incluir Retry-After. El cliente debe respetar además su política de reintentos y la semántica del método."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "503 describe incapacidad temporal para atender, por sobrecarga o mantenimiento, y puede incluir Retry-After. El cliente debe respetar además su política de reintentos y la semántica del método.",
+    "references": [
+      {
+        "sourceId": "http-semantics-9110",
+        "sourceUnitId": "study200-193",
+        "locator": "RFC 9110, 15.6.4 y 10.2.3 Retry-After",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0194",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una entidad contrata máquinas virtuales y administra sus sistemas operativos y aplicaciones, sin controlar el hardware físico subyacente. ¿Qué modelo NIST describe?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Infraestructura como servicio (IaaS).",
+        "rationale": "IaaS proporciona recursos de cómputo, almacenamiento y red sobre los que el consumidor despliega software, incluidos sistemas operativos. No equivale a recibir solamente una aplicación terminada."
+      },
+      {
+        "id": "B",
+        "text": "SaaS.",
+        "rationale": "SaaS ofrece aplicaciones del proveedor, no ese control del sistema operativo."
+      },
+      {
+        "id": "C",
+        "text": "PaaS exclusivamente.",
+        "rationale": "PaaS no atribuye al consumidor la administración del sistema operativo subyacente."
+      },
+      {
+        "id": "D",
+        "text": "Ausencia de todo servicio informático.",
+        "rationale": "Sí se están proporcionando capacidades de infraestructura."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "IaaS proporciona recursos de cómputo, almacenamiento y red sobre los que el consumidor despliega software, incluidos sistemas operativos. No equivale a recibir solamente una aplicación terminada.",
+    "references": [
+      {
+        "sourceId": "nist-cloud-145",
+        "sourceUnitId": "study200-194",
+        "locator": "Sección 2, Service Models — IaaS",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0195",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Un equipo despliega su aplicación usando herramientas admitidas por el proveedor, que administra infraestructura y sistema operativo. ¿Qué modelo encaja?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IaaS con administración del sistema operativo por el consumidor.",
+        "rationale": "No coincide con la responsabilidad descrita."
+      },
+      {
+        "id": "B",
+        "text": "Plataforma como servicio (PaaS).",
+        "rationale": "PaaS permite desplegar aplicaciones del consumidor sobre la plataforma del proveedor. El equipo controla su aplicación sin administrar la infraestructura subyacente."
+      },
+      {
+        "id": "C",
+        "text": "SaaS de una aplicación final ajena sin despliegue propio.",
+        "rationale": "El escenario sí incluye desplegar una aplicación propia."
+      },
+      {
+        "id": "D",
+        "text": "Compra obligatoria de servidores físicos.",
+        "rationale": "No se describió adquisición de hardware."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "PaaS permite desplegar aplicaciones del consumidor sobre la plataforma del proveedor. El equipo controla su aplicación sin administrar la infraestructura subyacente.",
+    "references": [
+      {
+        "sourceId": "nist-cloud-145",
+        "sourceUnitId": "study200-195",
+        "locator": "Sección 2, Service Models — PaaS",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0196",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "La entidad utiliza una aplicación de correo ofrecida por el proveedor y solo configura preferencias de usuarios. ¿Qué modelo describe NIST?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IaaS con control del núcleo del sistema.",
+        "rationale": "No hay administración del sistema operativo descrita."
+      },
+      {
+        "id": "B",
+        "text": "Un centro de datos propio obligatorio.",
+        "rationale": "El servicio no exige poseer el centro de datos."
+      },
+      {
+        "id": "C",
+        "text": "Software como servicio (SaaS).",
+        "rationale": "SaaS permite utilizar aplicaciones del proveedor ejecutadas en infraestructura de nube. El consumidor no administra esa infraestructura y su configuración está limitada al ámbito ofrecido."
+      },
+      {
+        "id": "D",
+        "text": "Desarrollo de un sistema operativo.",
+        "rationale": "Usar correo no es desarrollar un sistema operativo."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "SaaS permite utilizar aplicaciones del proveedor ejecutadas en infraestructura de nube. El consumidor no administra esa infraestructura y su configuración está limitada al ámbito ofrecido.",
+    "references": [
+      {
+        "sourceId": "nist-cloud-145",
+        "sourceUnitId": "study200-196",
+        "locator": "Sección 2, Service Models — SaaS",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0197",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Un administrador aprovisiona capacidad mediante un portal sin intervención humana del proveedor en cada solicitud. ¿Qué característica esencial ilustra?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intervención manual obligatoria en cada alta.",
+        "rationale": "Es lo contrario del autoservicio descrito."
+      },
+      {
+        "id": "B",
+        "text": "Gratuidad permanente.",
+        "rationale": "El autoservicio no elimina el cobro."
+      },
+      {
+        "id": "C",
+        "text": "Prohibición de aumentar capacidad.",
+        "rationale": "No representa aprovisionamiento según necesidad."
+      },
+      {
+        "id": "D",
+        "text": "Autoservicio bajo demanda.",
+        "rationale": "El consumidor puede aprovisionar capacidades automáticamente según necesidad. Esto describe el mecanismo de obtención, no una promesa de costo nulo o capacidad ilimitada contractual."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "El consumidor puede aprovisionar capacidades automáticamente según necesidad. Esto describe el mecanismo de obtención, no una promesa de costo nulo o capacidad ilimitada contractual.",
+    "references": [
+      {
+        "sourceId": "nist-cloud-145",
+        "sourceUnitId": "study200-197",
+        "locator": "Sección 2, Essential Characteristics — On-demand self-service",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0198",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Un servicio de nube está disponible por mecanismos estándar desde estaciones y dispositivos móviles compatibles. ¿Qué característica representa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acceso amplio a la red.",
+        "rationale": "NIST describe acceso mediante mecanismos estándar que permiten uso desde plataformas heterogéneas. No significa acceso sin autenticación ni obligación de hacerlo público a cualquiera."
+      },
+      {
+        "id": "B",
+        "text": "Ausencia de controles de acceso.",
+        "rationale": "La amplitud de acceso no elimina la seguridad."
+      },
+      {
+        "id": "C",
+        "text": "Uso exclusivo desde una máquina fija del proveedor.",
+        "rationale": "Contradice las plataformas heterogéneas descritas."
+      },
+      {
+        "id": "D",
+        "text": "Eliminación de las comunicaciones de red.",
+        "rationale": "El servicio se accede precisamente por red."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "NIST describe acceso mediante mecanismos estándar que permiten uso desde plataformas heterogéneas. No significa acceso sin autenticación ni obligación de hacerlo público a cualquiera.",
+    "references": [
+      {
+        "sourceId": "nist-cloud-145",
+        "sourceUnitId": "study200-198",
+        "locator": "Sección 2, Essential Characteristics — Broad network access",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0199",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Un proveedor asigna dinámicamente recursos físicos y virtuales a varios consumidores según demanda. ¿Qué característica NIST es central?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Compartir públicamente todas las bases de datos.",
+        "rationale": "El recurso compartido no implica acceso cruzado a datos."
+      },
+      {
+        "id": "B",
+        "text": "Agrupación de recursos.",
+        "rationale": "Resource pooling reúne capacidades para atender varios consumidores y reasignarlas. Compartir infraestructura no implica que los clientes deban poder leer los datos de otros."
+      },
+      {
+        "id": "C",
+        "text": "Asignación inmutable de cada equipo a un único usuario.",
+        "rationale": "No describe la reasignación dinámica planteada."
+      },
+      {
+        "id": "D",
+        "text": "Ausencia de aislamiento lógico.",
+        "rationale": "La agrupación no exige eliminar aislamiento."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Resource pooling reúne capacidades para atender varios consumidores y reasignarlas. Compartir infraestructura no implica que los clientes deban poder leer los datos de otros.",
+    "references": [
+      {
+        "sourceId": "nist-cloud-145",
+        "sourceUnitId": "study200-199",
+        "locator": "Sección 2, Essential Characteristics — Resource pooling",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0200",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una aplicación aumenta capacidad ante demanda y la libera cuando baja. ¿Qué característica está aprovechando?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Capacidad estática invariable.",
+        "rationale": "No se ajusta al cambio de demanda."
+      },
+      {
+        "id": "B",
+        "text": "Eliminación de toda medición.",
+        "rationale": "Ajustar capacidad no requiere dejar de medir."
+      },
+      {
+        "id": "C",
+        "text": "Elasticidad rápida.",
+        "rationale": "La elasticidad permite aprovisionar y liberar capacidades para ajustarlas a demanda. No basta con tener un servidor grande que permanece fijo todo el año."
+      },
+      {
+        "id": "D",
+        "text": "Duplicación obligatoria de datos personales.",
+        "rationale": "La elasticidad no define esa duplicación."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La elasticidad permite aprovisionar y liberar capacidades para ajustarlas a demanda. No basta con tener un servidor grande que permanece fijo todo el año.",
+    "references": [
+      {
+        "sourceId": "nist-cloud-145",
+        "sourceUnitId": "study200-200",
+        "locator": "Sección 2, Essential Characteristics — Rapid elasticity",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0201",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "El proveedor mide consumo de almacenamiento y transferencia para informar el uso a cliente y operador. ¿Qué característica ilustra?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consumo imposible de observar.",
+        "rationale": "Es lo contrario de medir y reportar."
+      },
+      {
+        "id": "B",
+        "text": "Precio necesariamente cero.",
+        "rationale": "La medición no implica gratuidad."
+      },
+      {
+        "id": "C",
+        "text": "Eliminación de límites contractuales.",
+        "rationale": "Los reportes no anulan condiciones pactadas."
+      },
+      {
+        "id": "D",
+        "text": "Servicio medido.",
+        "rationale": "La medición permite controlar y reportar uso con transparencia para proveedor y consumidor. Puede apoyar modelos de cobro, pero no determina por sí sola una tarifa específica."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "La medición permite controlar y reportar uso con transparencia para proveedor y consumidor. Puede apoyar modelos de cobro, pero no determina por sí sola una tarifa específica.",
+    "references": [
+      {
+        "sourceId": "nist-cloud-145",
+        "sourceUnitId": "study200-201",
+        "locator": "Sección 2, Essential Characteristics — Measured service",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0202",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Antes de un incidente, ¿qué diseño dificulta que el ransomware cifre también todas las copias de respaldo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mantener copias aisladas o fuera de línea y protegidas frente a modificación.",
+        "rationale": "CISA recomienda copias fuera de línea y protegidas. Si producción y todos los respaldos son modificables con el mismo acceso comprometido, un incidente puede alcanzar ambos."
+      },
+      {
+        "id": "B",
+        "text": "Guardar la única copia en una carpeta de producción con igual acceso.",
+        "rationale": "Comparte la exposición del sistema original."
+      },
+      {
+        "id": "C",
+        "text": "Conservar solo un acceso directo al archivo.",
+        "rationale": "Un acceso directo no es una copia de respaldo."
+      },
+      {
+        "id": "D",
+        "text": "Desactivar todo respaldo para evitar duplicados.",
+        "rationale": "Elimina una capacidad esencial de recuperación."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "CISA recomienda copias fuera de línea y protegidas. Si producción y todos los respaldos son modificables con el mismo acceso comprometido, un incidente puede alcanzar ambos.",
+    "references": [
+      {
+        "sourceId": "cisa-ransomware",
+        "sourceUnitId": "study200-202",
+        "locator": "Part 1, Ransomware and Data Extortion Preparation, Mitigation, and Prevention — backups",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0203",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Un reporte dice que los respaldos terminaron sin error. ¿Qué comprobación adicional demuestra mejor que pueden usarse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confiar solo en el color verde del panel.",
+        "rationale": "El indicador no reemplaza la prueba de recuperación."
+      },
+      {
+        "id": "B",
+        "text": "Ensayar restauraciones y verificar disponibilidad e integridad de los datos recuperados.",
+        "rationale": "Un mensaje de tarea completada no prueba que la recuperación funcione. Las pruebas de restauración permiten descubrir copias incompletas, corruptas o procedimientos inviables."
+      },
+      {
+        "id": "C",
+        "text": "Borrar el original antes de cualquier ensayo.",
+        "rationale": "No es necesario arriesgar el original para validar una copia."
+      },
+      {
+        "id": "D",
+        "text": "Contar carpetas sin abrir ni restaurar datos.",
+        "rationale": "El conteo no demuestra integridad ni recuperabilidad."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Un mensaje de tarea completada no prueba que la recuperación funcione. Las pruebas de restauración permiten descubrir copias incompletas, corruptas o procedimientos inviables.",
+    "references": [
+      {
+        "sourceId": "cisa-ransomware",
+        "sourceUnitId": "study200-203",
+        "locator": "Part 1 — Maintain offline backups and regularly test backup availability and integrity",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0204",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Se identifica una vulnerabilidad explotada activamente en un servicio expuesto. ¿Qué acción preventiva debe priorizarse conforme a la guía CISA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cambiar solo el fondo de pantalla.",
+        "rationale": "No corrige la vulnerabilidad."
+      },
+      {
+        "id": "B",
+        "text": "Ocultar la alerta del inventario.",
+        "rationale": "Ocultar no reduce la exposición."
+      },
+      {
+        "id": "C",
+        "text": "Aplicar la mitigación o actualización pertinente mediante un proceso controlado.",
+        "rationale": "La guía recomienda mantener sistemas actualizados y priorizar vulnerabilidades explotadas y servicios expuestos. El control del cambio debe permitir verificar la corrección sin posponer indefinidamente el riesgo."
+      },
+      {
+        "id": "D",
+        "text": "Esperar siempre al siguiente año sin evaluación.",
+        "rationale": "Ignora el riesgo de explotación activa."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "La guía recomienda mantener sistemas actualizados y priorizar vulnerabilidades explotadas y servicios expuestos. El control del cambio debe permitir verificar la corrección sin posponer indefinidamente el riesgo.",
+    "references": [
+      {
+        "sourceId": "cisa-ransomware",
+        "sourceUnitId": "study200-204",
+        "locator": "Part 1 — Patch operating systems, software, and firmware",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0205",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Se exige reforzar accesos frente al robo de contraseñas. ¿Qué control recomienda CISA, especialmente donde sea viable resistente al phishing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usar la misma contraseña en todos los servicios.",
+        "rationale": "Amplía el impacto de una filtración."
+      },
+      {
+        "id": "B",
+        "text": "Publicar preguntas secretas junto al usuario.",
+        "rationale": "Facilita el acceso indebido."
+      },
+      {
+        "id": "C",
+        "text": "Deshabilitar autenticación para evitar bloqueos.",
+        "rationale": "Suprime la protección de identidad."
+      },
+      {
+        "id": "D",
+        "text": "Autenticación multifactor.",
+        "rationale": "Un factor adicional reduce dependencia de una contraseña robada; la resistencia al phishing fortalece la defensa ante captura o retransmisión de credenciales. No vuelve innecesarios los demás controles."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Un factor adicional reduce dependencia de una contraseña robada; la resistencia al phishing fortalece la defensa ante captura o retransmisión de credenciales. No vuelve innecesarios los demás controles.",
+    "references": [
+      {
+        "sourceId": "cisa-ransomware",
+        "sourceUnitId": "study200-205",
+        "locator": "Part 1 — Implement phishing-resistant multifactor authentication",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0206",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Un servicio de escritorio remoto innecesario está accesible desde Internet. ¿Qué medida preventiva se alinea con CISA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deshabilitar la exposición innecesaria y restringir los accesos remotos necesarios.",
+        "rationale": "Reducir servicios remotos expuestos limita vías de entrada. Cuando el acceso es necesario, debe protegerse y controlarse; cambiar únicamente el nombre del equipo no protege el servicio."
+      },
+      {
+        "id": "B",
+        "text": "Abrirlo a toda dirección para facilitar soporte.",
+        "rationale": "Aumenta la superficie de ataque."
+      },
+      {
+        "id": "C",
+        "text": "Compartir una cuenta sin trazabilidad.",
+        "rationale": "Impide atribuir accesos y aumenta exposición."
+      },
+      {
+        "id": "D",
+        "text": "Cambiar el nombre del equipo sin restringir el servicio.",
+        "rationale": "No elimina la accesibilidad riesgosa."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Reducir servicios remotos expuestos limita vías de entrada. Cuando el acceso es necesario, debe protegerse y controlarse; cambiar únicamente el nombre del equipo no protege el servicio.",
+    "references": [
+      {
+        "sourceId": "cisa-ransomware",
+        "sourceUnitId": "study200-206",
+        "locator": "Part 1 — Limit the use of remote desktop services",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  },
+  {
+    "id": "PGN-NEW-0207",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "infraestructura_nube_y_ciberseguridad",
+    "secondaryTopicIds": [],
+    "questionType": "technical_analysis",
+    "difficulty": 2,
+    "stem": "Una persona recibe un correo inesperado que pide abrir un adjunto y desactivar protecciones. ¿Qué conducta preventiva es adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desactivar el antivirus para leer el adjunto.",
+        "rationale": "Cumple la instrucción riesgosa del mensaje."
+      },
+      {
+        "id": "B",
+        "text": "No abrirlo y reportarlo por el canal de seguridad establecido.",
+        "rationale": "La sensibilización ayuda a reconocer y reportar intentos de phishing. Pedir desactivar protecciones es una señal de riesgo que debe evaluarse por canales autorizados, no ejecutarse por urgencia aparente."
+      },
+      {
+        "id": "C",
+        "text": "Reenviarlo masivamente para que otros prueben.",
+        "rationale": "Puede ampliar la exposición."
+      },
+      {
+        "id": "D",
+        "text": "Introducir credenciales en el enlace para verificarlo.",
+        "rationale": "Puede entregar las credenciales al atacante."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "La sensibilización ayuda a reconocer y reportar intentos de phishing. Pedir desactivar protecciones es una señal de riesgo que debe evaluarse por canales autorizados, no ejecutarse por urgencia aparente.",
+    "references": [
+      {
+        "sourceId": "cisa-ransomware",
+        "sourceUnitId": "study200-207",
+        "locator": "Part 1 — Employee awareness and training",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": [
+      "original-case",
+      "study200",
+      "provisional-authorized"
+    ]
+  }
+]

@@ -1006,3 +1006,7 @@ textarea {
     flex: 1;
   }
 }
+.registration { margin-bottom: 1rem; }
+.registration h2 { margin: 0; font-size: 1.1rem; }
+.registration-time { font-size: 1.15rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.registration details { margin-top: .75rem; }

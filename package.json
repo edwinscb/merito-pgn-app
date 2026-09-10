@@ -11,7 +11,7 @@
     "dataset:generate-expansion": "node scripts/dataset/generate-expansion.mjs",
     "dataset:review-expansion": "node scripts/dataset/final-review-promote.mjs",
     "dataset:validate": "tsx scripts/dataset/validate.ts",
-    "dataset:build": "tsx scripts/dataset/build.ts && node scripts/dataset/build-study.mjs",
+    "dataset:build": "tsx scripts/dataset/build.ts && tsx scripts/dataset/build-study.mjs",
     "dataset:coverage": "tsx scripts/dataset/coverage.ts"
   },
   "dependencies": {

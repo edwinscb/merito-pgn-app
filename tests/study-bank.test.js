@@ -5,21 +5,22 @@ const read = (p) =>
   JSON.parse(readFileSync(new URL('../' + p, import.meta.url), 'utf8'))
 const args = [
   read('public/data/question-bank.json'),
-  read('dataset/content/questions/expansion-draft.json'),
+  [...read('dataset/content/questions/expansion-draft.json'), ...read('dataset/content/questions/study-200.json')],
   read('dataset/content/study-authorization.json'),
   read('dataset/content/taxonomy.json'),
   read('dataset/content/sources.json'),
+  read('dataset/content/registration.json'),
 ]
 describe('habilitación de estudio ligada al contenido', () => {
-  it('publica 102, distingue 18/84, excluye siete semillas y es determinista', () => {
+  it('publica 200, distingue 18/182, excluye siete semillas y es determinista', () => {
     const bank = buildStudyBank(...args)
-    expect(bank.questions).toHaveLength(102)
-    expect(bank.provisionalIds).toHaveLength(84)
+    expect(bank.questions).toHaveLength(200)
+    expect(bank.provisionalIds).toHaveLength(182)
     expect(bank.questions.filter((q) => q.moduleId === 'comun')).toHaveLength(
-      46,
+      100,
     )
     expect(bank.questions.filter((q) => q.moduleId === 'tecnico')).toHaveLength(
-      56,
+      100,
     )
     expect(
       bank.questions.filter((q) => q.status === 'validated_assisted'),

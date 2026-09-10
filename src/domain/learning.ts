@@ -1,4 +1,5 @@
 import { z } from 'zod'
+import { RegistrationSchema } from './registration.js'
 import {
   AttemptSchema,
   QuestionSchema,
@@ -196,6 +197,7 @@ export function settleExpired(
 }
 
 const BankSchema = z.object({
+  registration: RegistrationSchema.optional(),
   schemaVersion: z.literal(1),
   questions: z.array(QuestionSchema),
   topics: z.array(

@@ -1,11 +1,12 @@
 # Plan de implementación por fases — Mérito PGN
 
 Estado: **Fase 1 implementada; Fase 2 cerrada para el lote actual; Fase 3 implementada en alcance técnico**
-Fecha: **3 de septiembre de 2026**
+Fecha: **10 de septiembre de 2026**
 
-Actualización de experiencia de estudio (9 de septiembre de 2026): se implementan
-dos simuladores General/Sistemas, estudio de 102 preguntas (18 revisadas y 84
-provisionales autorizadas), marcas personales y migración del progreso. Véase
+Actualización de experiencia de estudio (10 de septiembre de 2026): se implementan
+dos simuladores General/Sistemas, estudio de 200 preguntas (18 revisadas y 182
+provisionales autorizadas), secuencia aleatoria recuperable, marcas personales,
+migración del progreso y contador de inscripción respaldado por Resolución 133. Véase
 `docs/experiencia-estudio.md`. Este ajuste no declara completada la revisión
 editorial de la expansión ni modifica los objetivos de las fases siguientes.
 

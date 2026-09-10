@@ -1,8 +1,9 @@
-import { readFile, writeFile } from 'node:fs/promises'
+import { readFile, writeFile, readdir } from 'node:fs/promises'
 import { questionFingerprint } from './question-fingerprint.mjs'
 import { pathToFileURL } from 'node:url'
 import { resolve } from 'node:path'
 import { z } from 'zod'
+import { RegistrationSchema } from '../../src/domain/registration.ts'
 
 export const AuthorizationSchema = z.object({
   schemaVersion: z.literal(1),
@@ -22,6 +23,7 @@ export function buildStudyBank(
   rawAuthorization,
   taxonomy,
   sources,
+  registration,
 ) {
   const authorization = AuthorizationSchema.parse(rawAuthorization)
   const ids = new Set()
@@ -43,14 +45,15 @@ export function buildStudyBank(
       [...reviewed.questions, ...extra].map((q) => [q.id, q]),
     ).values(),
   ].sort((a, b) => a.id.localeCompare(b.id))
-  if (questions.length !== 102)
+  if (questions.length !== 200 || ['comun', 'tecnico'].some(block => questions.filter(q => q.moduleId === block).length !== 100))
     throw Error(
-      `La entrega debe contener 102 preguntas; hay ${questions.length}.`,
+      `La entrega debe contener 200 preguntas, 100 por bloque; hay ${questions.length}.`,
     )
   const usedSources = new Set(
     questions.flatMap((q) => q.references.map((r) => r.sourceId)),
   )
   return {
+    ...(registration ? { registration: RegistrationSchema.parse(registration) } : {}),
     schemaVersion: 1,
     questions,
     topics: taxonomy.topics.map(({ id, label, moduleId }) => ({
@@ -75,16 +78,19 @@ if (
   const read = async (path) =>
     JSON.parse(await readFile(new URL(path, root), 'utf8'))
   const reviewed = await read('public/data/question-bank.json')
-  const expansion = await read('dataset/content/questions/expansion-draft.json')
+  const batches = (await readdir(new URL('dataset/content/questions/', root))).filter(name => name.endsWith('.json')).sort()
+  const expansion = (await Promise.all(batches.map(name => read(`dataset/content/questions/${name}`)))).flat()
   const authorization = await read('dataset/content/study-authorization.json')
   const taxonomy = await read('dataset/content/taxonomy.json')
   const sources = await read('dataset/content/sources.json')
+  const registration = await read('dataset/content/registration.json')
   const bank = buildStudyBank(
     reviewed,
     expansion,
     authorization,
     taxonomy,
     sources,
+    registration,
   )
   await writeFile(
     new URL('public/data/study-bank.json', root),

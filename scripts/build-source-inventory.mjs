@@ -239,6 +239,18 @@ for (const source of inventory) {
 }
 
 const outputPath = resolve(projectRoot, 'dataset/catalog/source-inventory.json')
+// Nuevos recursos registrados: copiar metadatos y recalcular el hash del archivo real.
+const structured = JSON.parse(await readFile(resolve(projectRoot, 'dataset/content/sources.json'), 'utf8'))
+for (const source of structured.filter(s => !inventory.some(i => i.id === s.id) || (s.id === 'pgn-resolution-133-2026' && s.localPath))) {
+  const bytes = await readFile(resolve(projectRoot, source.localPath))
+  const entry = { id: source.id, title: source.title, category: source.category, publisher: source.publisher,
+    authorityTier: source.authorityTier, url: source.url, sourcePath: source.sourcePath,
+    targetPath: source.localPath, mimeType: source.mimeType, status: source.status, notes: source.notes,
+    sha256: createHash('sha256').update(bytes).digest('hex'), incorporatedAt: source.incorporatedAt, public: false }
+  const index = inventory.findIndex(i => i.id === source.id)
+  if (index >= 0) inventory[index] = entry
+  else inventory.push(entry)
+}
 await writeFile(outputPath, `${JSON.stringify(inventory, null, 2)}\n`, 'utf8')
 
 console.log(`Inventario generado: ${inventory.length} registros (${localSources.length} archivos locales).`)

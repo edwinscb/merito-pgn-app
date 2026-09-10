@@ -3,6 +3,7 @@ dist/
 coverage/
 .vite/
 .vercel/
+tmp/
 
 .env
 .env.*

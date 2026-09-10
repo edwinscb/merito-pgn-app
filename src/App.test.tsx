@@ -23,6 +23,8 @@ vi.mock('./domain/progress/learning-store', () => ({
   isPersistent: vi.fn(),
 }))
 beforeEach(() => {
+  sessionStorage.clear()
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999)
   const values = new Map<string, string>()
   vi.stubGlobal('localStorage', {
     getItem: (key: string) => values.get(key) ?? null,
@@ -46,6 +48,29 @@ afterEach(() => {
 const ready = () =>
   screen.findByRole('heading', { name: '¿Qué vas a practicar hoy?' })
 describe('estudio y simuladores móviles', () => {
+  it('recupera orden, opciones y posición; tema, filtros y marcas no vuelven a mezclar', async () => {
+    vi.mocked(Math.random).mockReturnValue(0)
+    const first = render(<App />)
+    await ready()
+    fireEvent.click(screen.getByRole('button', { name: 'Estudiar Sistemas' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Siguiente →' }))
+    const snapshot = JSON.parse(sessionStorage.getItem('merito-pgn-study:v1')!)
+    const stem = document.querySelector('.question-title')!.textContent
+    const options = [...document.querySelectorAll('.option')].map(e => e.textContent)
+    fireEvent.click(screen.getByRole('button', { name: 'Cambiar a modo claro' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Guardar para repasar' }))
+    expect(JSON.parse(sessionStorage.getItem('merito-pgn-study:v1')!).order).toEqual(snapshot.order)
+    first.unmount()
+    render(<App />)
+    await screen.findByRole('heading', { name: 'Tu banco de preguntas' })
+    expect(document.querySelector('.question-title')!.textContent).toBe(stem)
+    expect([...document.querySelectorAll('.option')].map(e => e.textContent)).toEqual(options)
+    expect(screen.getByText('Pregunta 2 de 100')).toBeInTheDocument()
+    fireEvent.change(screen.getByLabelText('Buscar pregunta'), { target: { value: 'SQL' } })
+    expect(JSON.parse(sessionStorage.getItem('merito-pgn-study:v1')!).order).toEqual(snapshot.order)
+    fireEvent.click(screen.getByRole('button', { name: 'Mezclar de nuevo' }))
+    expect(JSON.parse(sessionStorage.getItem('merito-pgn-study:v1')!).sequenceId).not.toBe(snapshot.sequenceId)
+  })
   it('inicia en oscuro, cambia a claro y recuerda la elección', async () => {
     const first = render(<App />)
     await ready()
@@ -83,14 +108,13 @@ describe('estudio y simuladores móviles', () => {
     expect(option).toHaveClass('correct')
     expect(option).toHaveClass('selected')
   })
-  it('carga explícita y dos bloques, 102 preguntas, sin fases ni convocatorias', async () => {
+  it('carga explícita y dos bloques, 200 preguntas, sin fases ni convocatorias', async () => {
     render(<App />)
     expect(screen.getByText('Cargando preguntas…')).toBeInTheDocument()
     await ready()
-    expect(screen.getByText('46 preguntas')).toBeInTheDocument()
-    expect(screen.getByText('56 preguntas')).toBeInTheDocument()
-    expect(screen.getByText(/102 preguntas para estudiar/)).toHaveTextContent(
-      '18 revisadas · 84 provisionales',
+    expect(screen.getAllByText('100 preguntas')).toHaveLength(2)
+    expect(screen.getByText(/200 preguntas para estudiar/)).toHaveTextContent(
+      '18 revisadas · 182 provisionales',
     )
     expect(screen.queryByText(/Fase \d/)).not.toBeInTheDocument()
     expect(screen.queryByLabelText(/convocatoria/i)).not.toBeInTheDocument()

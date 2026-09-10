@@ -23,6 +23,8 @@ import {
   saveLearning,
 } from './domain/progress/learning-store'
 import './styles.css'
+import { RegistrationCard } from './RegistrationCard'
+import { newStudyOrder, orderedQuestions, restoreStudyOrder, STUDY_KEY, type StudyOrder } from './domain/study-order'
 
 type Theme = 'dark' | 'light'
 const THEME_KEY = 'merito-pgn-theme:v1'
@@ -138,7 +140,7 @@ function StudyQuestion({
       </div>
       <h2 className="question-title">{question.stem}</h2>
       <div className="options">
-        {question.options.map((o) => (
+        {question.options.map((o, i) => (
           <button
             key={o.id}
             aria-pressed={selected === o.id}
@@ -146,7 +148,7 @@ function StudyQuestion({
             className={`option ${selected === o.id ? 'selected' : ''} ${revealed && o.id === question.correctOptionId ? 'correct' : ''}`}
             onClick={() => setSelected(o.id)}
           >
-            <span className="option-letter">{o.id}</span> {o.text}
+            <span className="option-letter">{'ABCD'[i]}</span> {o.text}
           </button>
         ))}
       </div>
@@ -256,6 +258,8 @@ export default function App() {
   const [onlySaved, setOnlySaved] = useState(false)
   const [reviewIds, setReviewIds] = useState<string[] | null>(null)
   const [studyIndex, setStudyIndex] = useState(0)
+  const [studyOrder, setStudyOrder] = useState<StudyOrder | null>(null)
+  const [studyTemporary, setStudyTemporary] = useState(false)
   const [count, setCount] = useState(20)
   const [minutes, setMinutes] = useState(30)
   const [sessionId, setSessionId] = useState<string | null>(null)
@@ -288,6 +292,18 @@ export default function App() {
       .then(([b, p]) => {
         if (!mounted) return
         setBank(b)
+        try {
+          const saved = restoreStudyOrder(sessionStorage.getItem(STUDY_KEY), b.questions)
+          setStudyOrder(saved ?? newStudyOrder(b.questions, 'comun'))
+          if (saved) {
+            setBlock(saved.block); setStudyIndex(saved.index); setSearch(saved.search)
+            setTopic(saved.topic); setOnlySaved(saved.onlySaved); setReviewIds(saved.reviewIds)
+            setView('questions')
+          }
+        } catch {
+          setStudyOrder(newStudyOrder(b.questions, 'comun'))
+          setStudyTemporary(true)
+        }
         const settled = settleExpired(p)
         progressRef.current = settled
         setProgress(settled)
@@ -311,8 +327,17 @@ export default function App() {
   }, [])
   useEffect(() => {
     const timer = window.setInterval(() => setNow(Date.now()), 1000)
-    return () => window.clearInterval(timer)
+    const refresh = () => setNow(Date.now())
+    window.addEventListener('focus', refresh)
+    return () => { window.clearInterval(timer); window.removeEventListener('focus', refresh) }
   }, [])
+  useEffect(() => {
+    if (!studyOrder || view !== 'questions') return
+    try {
+      sessionStorage.setItem(STUDY_KEY, JSON.stringify({ ...studyOrder, index: studyIndex, search, topic, onlySaved, reviewIds }))
+      setStudyTemporary(false)
+    } catch { setStudyTemporary(true) }
+  }, [studyOrder, studyIndex, search, topic, onlySaved, reviewIds, view])
   useEffect(() => {
     const p = progressRef.current
     if (p.sessions.some((s) => !s.finishedAt && s.endsAt <= now)) {
@@ -323,7 +348,7 @@ export default function App() {
   const session = progress.sessions.find((s) => s.id === sessionId)
   const active = progress.sessions.filter((s) => !s.finishedAt)
   const available = bank?.questions.filter((q) => q.moduleId === block) ?? []
-  const filtered = available.filter(
+  const filtered = (studyOrder && studyOrder.block === block && bank ? orderedQuestions(studyOrder, bank.questions) : available).filter(
     (q) =>
       (!topic || q.topicId === topic) &&
       (!onlySaved || progress.marks[q.id]?.saved) &&
@@ -335,6 +360,7 @@ export default function App() {
   const labelTopic = (id: string) =>
     bank?.topics.find((t) => t.id === id)?.label ?? 'Tema'
   const goStudy = (b: Block, ids: string[] | null = null) => {
+    if (bank) setStudyOrder(newStudyOrder(bank.questions, b))
     setBlock(b)
     setTopic('')
     setSearch('')
@@ -394,6 +420,7 @@ export default function App() {
   }
   const leave = (target: 'home' | 'questions' | 'progress') => {
     if (view === 'exam') updateSession((s) => s)
+    if (target === 'questions' && (view === 'home' || studyOrder?.block !== block)) { goStudy(block); return }
     setView(target)
   }
   const download = () => {
@@ -477,6 +504,7 @@ export default function App() {
               <h1>¿Qué vas a practicar hoy?</h1>
               <p>Elige un bloque y avanza a tu ritmo.</p>
             </div>
+            <RegistrationCard registration={bank.registration} now={now} />
             {active.map((s) => (
               <div className="resume" key={s.id}>
                 <div>
@@ -620,6 +648,11 @@ export default function App() {
               </p>
             </div>
             <div className="filters">
+              <button className="secondary" onClick={() => {
+                setStudyOrder(newStudyOrder(bank.questions, block))
+                setStudyIndex(0)
+              }}>Mezclar de nuevo</button>
+              {studyTemporary && <p role="status">El orden de estudio es temporal: no se puede recuperar al recargar.</p>}
               <div className="segmented" aria-label="Bloque">
                 {profiles.map((p) => (
                   <button
@@ -709,7 +742,7 @@ export default function App() {
                   </div>
                 </div>
                 <StudyQuestion
-                  key={question.id}
+                  key={`${studyOrder?.sequenceId}:${question.id}`}
                   question={question}
                   bank={bank}
                   mark={progress.marks[question.id] ?? blankMark()}

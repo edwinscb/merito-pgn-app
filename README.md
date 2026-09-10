@@ -5,7 +5,8 @@ pensada para celular. Sitio: https://merito-pgn-app.vercel.app/.
 
 ## Experiencia
 
-- Dos bloques: **General** (46 preguntas) y **Sistemas** (56).
+- Dos bloques: **General** (100 preguntas) y **Sistemas** (100).
+- El estudio baraja preguntas y opciones al entrar o pulsar «Mezclar de nuevo» y conserva la secuencia en la pestaña.
 - Estudiar por bloque/tema, buscar, consultar explicaciones y fuentes.
 - Simulacros de 20 preguntas y 30 minutos por defecto, ajustables. Son parámetros
   de práctica, no el formato oficial de una convocatoria.
@@ -22,14 +23,15 @@ pensada para celular. Sitio: https://merito-pgn-app.vercel.app/.
 
 ## Banco y honestidad editorial
 
-El dataset conserva 109 registros: 18 `validated_assisted` y 91 `needs_review`.
-La aplicación habilita **102 preguntas: 18 revisadas y 84 provisionales**, por
+El dataset conserva 207 registros: 18 `validated_assisted` y 189 `needs_review`.
+La aplicación habilita **200 preguntas: 18 revisadas y 182 provisionales**, por
 autorización expresa del propietario ligada al hash de su contenido. No se
 atribuyen revisiones inexistentes. Las semillas 6, 10 y 21–25 siguen excluidas.
 
 - `public/data/question-bank.json`: 18 preguntas exclusivamente revisadas.
-- `public/data/study-bank.json`: 102 preguntas disponibles, con condición visible.
-- `dataset/content/study-authorization.json`: autorización de las 84 provisionales.
+- `public/data/study-bank.json`: 200 preguntas disponibles, con condición visible.
+- `dataset/content/study-authorization.json`: autorizaciones provisionales ligadas al hash.
+- `dataset/content/registration.json`: cierre oficial, evidencia y portal.
 - `dataset/reports/study-release-audit.md`: correcciones y hallazgos pendientes.
 
 ## Desarrollo y validación

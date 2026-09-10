@@ -1,7 +1,7 @@
 # Dataset estructurado — Fases 1, 2 y 3
 
-Estado editorial: 18 preguntas revisadas y 91 pendientes. La aplicación usa un
-banco de estudio de 102: las 18 revisadas y 84 provisionales habilitadas por el
+Estado editorial: 18 preguntas revisadas y 189 pendientes. La aplicación usa un
+banco de estudio de 200: las 18 revisadas y 182 provisionales habilitadas por el
 propietario. Esa habilitación no sustituye la doble revisión independiente.
 Las siete semillas con hallazgos factuales siguen excluidas.
 
@@ -22,8 +22,10 @@ El inventario canónico permanece en
 - `exam-profiles.json`: perfiles provisionales 121, 126 y 127;
 - `source-units.json`: fragmentos verificables con fuente, hash y localizador;
 - `questions/*.json`: preguntas editoriales publicables o pendientes. Además de
-  las 25 semillas, `expansion-draft.json` contiene 84 preguntas originales de
-  trabajo, para un total de 109 registros.
+  las 25 semillas, `expansion-draft.json` contiene 84 preguntas y `study-200.json`
+  añade 98 ejercicios originales (54 General y 44 Sistemas), para un total de 207.
+- `registration.json`: ventana oficial 7–18 de septiembre de 2026, cierre a las
+  16:00 hora legal colombiana, con evidencia y enlace al portal.
 
 ## Contratos
 
@@ -167,15 +169,15 @@ Limitaciones vigentes:
   repaso de errores/omitidas y guardadas, IndexedDB y exportación/importación;
   no crea un calendario espaciado ni usa servidores para el progreso.
 
-El frontend consume `public/data/study-bank.json`: 102 preguntas, 46 de General
-y 56 de Sistemas. `provisionalIds` y los estados editoriales distinguen las 84
+El frontend consume `public/data/study-bank.json`: 200 preguntas, 100 de General
+y 100 de Sistemas. `provisionalIds` y los estados editoriales distinguen las 182
 provisionales. El artefacto contiene etiquetas de temas y enlaces de fuentes,
 sin copiar documentos completos ni rutas locales de fuentes.
 
 `dataset/content/study-authorization.json` registra propietario, motivo e ID/hash
-SHA-256 de las 84 habilitadas. `scripts/dataset/build-study.mjs` valida ese
+SHA-256 de las provisionales habilitadas. `scripts/dataset/build-study.mjs` valida ese
 contrato con Zod y bloquea duplicados, cambios de contenido, estados no
-habilitables o cantidades distintas de 102. El hash reutiliza la huella editorial
+habilitables o cantidades distintas de 200 (100 por bloque). El hash reutiliza la huella editorial
 canónica; estado y metadatos de revisión no cambian la identidad del contenido.
 Modificar un enunciado, opción, clave, explicación o referencia obliga a renovar
 la habilitación de esa versión. La autorización de uso nunca añade un `pass`.
