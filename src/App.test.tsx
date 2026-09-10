@@ -23,6 +23,11 @@ vi.mock('./domain/progress/learning-store', () => ({
   isPersistent: vi.fn(),
 }))
 beforeEach(() => {
+  const values = new Map<string, string>()
+  vi.stubGlobal('localStorage', {
+    getItem: (key: string) => values.get(key) ?? null,
+    setItem: (key: string, value: string) => values.set(key, value),
+  })
   vi.spyOn(window, 'scrollTo').mockImplementation(() => {})
   vi.mocked(loadLearning).mockResolvedValue(emptyProgress())
   vi.mocked(saveLearning).mockResolvedValue(true)
@@ -41,6 +46,43 @@ afterEach(() => {
 const ready = () =>
   screen.findByRole('heading', { name: '¿Qué vas a practicar hoy?' })
 describe('estudio y simuladores móviles', () => {
+  it('inicia en oscuro, cambia a claro y recuerda la elección', async () => {
+    const first = render(<App />)
+    await ready()
+    expect(document.documentElement.dataset.theme).toBe('dark')
+    const toggle = screen.getByRole('button', { name: 'Cambiar a modo claro' })
+    fireEvent.click(toggle)
+    expect(document.documentElement.dataset.theme).toBe('light')
+    expect(localStorage.getItem('merito-pgn-theme:v1')).toBe('light')
+    first.unmount()
+    render(<App />)
+    await ready()
+    expect(document.documentElement.dataset.theme).toBe('light')
+    expect(
+      screen.getByRole('button', { name: 'Cambiar a modo oscuro' }),
+    ).toBeInTheDocument()
+  })
+  it('mantiene separados los estados seleccionado y correcto', async () => {
+    render(<App />)
+    await ready()
+    fireEvent.click(
+      screen.getByRole('button', { name: 'Estudiar General' }),
+    )
+    const question = rawBank.questions.find((q) => q.moduleId === 'comun')!
+    const correct = question.options.find(
+      (option) => option.id === question.correctOptionId,
+    )!
+    const option = screen.getByRole('button', {
+      name: `${correct.id} ${correct.text}`,
+    })
+    fireEvent.click(option)
+    expect(option).toHaveClass('selected')
+    fireEvent.click(
+      screen.getByRole('button', { name: 'Comprobar' }),
+    )
+    expect(option).toHaveClass('correct')
+    expect(option).toHaveClass('selected')
+  })
   it('carga explícita y dos bloques, 102 preguntas, sin fases ni convocatorias', async () => {
     render(<App />)
     expect(screen.getByText('Cargando preguntas…')).toBeInTheDocument()

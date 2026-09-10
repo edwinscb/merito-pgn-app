@@ -24,6 +24,16 @@ import {
 } from './domain/progress/learning-store'
 import './styles.css'
 
+type Theme = 'dark' | 'light'
+const THEME_KEY = 'merito-pgn-theme:v1'
+const readTheme = (): Theme => {
+  try {
+    return localStorage.getItem(THEME_KEY) === 'light' ? 'light' : 'dark'
+  } catch {
+    return 'dark'
+  }
+}
+
 const clock = (seconds: number) =>
   `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`
 const blockLabel = (block: Block) =>
@@ -230,6 +240,7 @@ function StudyQuestion({
 }
 
 export default function App() {
+  const [theme, setTheme] = useState<Theme>(readTheme)
   const mainRef = useRef<HTMLElement>(null)
   const [bank, setBank] = useState<StudyBank | null>(null)
   const [progress, setProgress] = useState<LearningProgress>(emptyProgress)
@@ -251,6 +262,17 @@ export default function App() {
   const [now, setNow] = useState(Date.now())
   const [confirmFinish, setConfirmFinish] = useState(false)
   const lastVisit = useRef(Date.now())
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme
+    document
+      .querySelector('meta[name="theme-color"]')
+      ?.setAttribute('content', theme === 'dark' ? '#101a1f' : '#f5f8fb')
+    try {
+      localStorage.setItem(THEME_KEY, theme)
+    } catch {
+      /* preferencia no disponible */
+    }
+  }, [theme])
   useEffect(() => {
     mainRef.current?.focus({ preventScroll: true })
     window.scrollTo(0, 0)
@@ -405,7 +427,7 @@ export default function App() {
     progress.attempts.filter((a) => a.correct).length +
     completed.reduce((n, s) => n + scoreSession(s).correct, 0)
   return (
-    <div className="app">
+    <div className="app" data-theme={theme}>
       <a href="#contenido" className="skip-link">
         Saltar al contenido
       </a>
@@ -414,6 +436,17 @@ export default function App() {
           <span className="brand-icon">M</span>Mérito PGN
         </button>
         <span className="header-note">Tu espacio de estudio</span>
+        <button
+          className="theme-toggle"
+          type="button"
+          aria-label={
+            theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'
+          }
+          onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+        >
+          <span aria-hidden="true">{theme === 'dark' ? '☀' : '☾'}</span>
+          {theme === 'dark' ? 'Modo claro' : 'Modo oscuro'}
+        </button>
       </header>
       <main id="contenido" ref={mainRef} tabIndex={-1}>
         <div aria-live="polite">

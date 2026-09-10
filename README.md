@@ -16,6 +16,9 @@ pensada para celular. Sitio: https://merito-pgn-app.vercel.app/.
   se informa que el progreso es temporal. No hay sincronización entre dispositivos.
 - PWA con aplicación y banco precargados para uso sin conexión después de la
   primera carga completa. Los enlaces a fuentes y al curso requieren conexión.
+- Modo oscuro predeterminado, con selector en el encabezado. El modo claro usa
+  azul para acciones/selección y reserva el verde para respuestas correctas;
+  la elección se guarda únicamente en este dispositivo.
 
 ## Banco y honestidad editorial
 

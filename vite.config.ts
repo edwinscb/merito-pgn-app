@@ -12,8 +12,8 @@ export default defineConfig({
         name: 'Mérito PGN',
         short_name: 'Mérito PGN',
         description: 'Preparación personal para el Concurso PGN 2026',
-        theme_color: '#245d46',
-        background_color: '#f5f8f5',
+        theme_color: '#101a1f',
+        background_color: '#101a1f',
         display: 'standalone',
         start_url: '/',
         icons: [

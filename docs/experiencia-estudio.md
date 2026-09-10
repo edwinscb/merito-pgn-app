@@ -8,6 +8,13 @@ exponen fases, IDs internos ni selector de convocatorias. La clasificación de
 General usa `comun`; Sistemas usa `tecnico`, incluyendo datos/analítica, software,
 bases de datos, interoperabilidad, infraestructura, nube y ciberseguridad.
 
+El tema oscuro es el predeterminado. El encabezado permite cambiar a modo claro
+y volver a oscuro; la elección se guarda con la clave local versionada
+`merito-pgn-theme:v1`. En ambos temas, el azul comunica acción o selección, el
+verde solo respuesta correcta, el rojo respuesta incorrecta y el ámbar una
+advertencia o condición provisional. Si el almacenamiento local no está
+disponible, la elección solo dura la sesión.
+
 El usuario ajusta cantidad (1 hasta el total del bloque) y duración (1–240 minutos).
 Los valores iniciales son 20 y 30. Las opciones se barajan conservando su ID
 original, de modo que la letra de pantalla no determina la calificación. No hay
