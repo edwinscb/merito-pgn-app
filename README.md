@@ -23,6 +23,12 @@ pensada para celular. Sitio: https://merito-pgn-app.vercel.app/.
 
 ## Banco y honestidad editorial
 
+Las 200 preguntas disponibles cuentan con aprobación expresa del propietario,
+registrada por ID y hash en `dataset/content/owner-approval.json`. La aplicación
+muestra «Aprobada por el propietario». Un cambio de contenido exige renovar esa
+aprobación. La aprobación personal no constituye aval de la PGN ni añade revisiones
+factuales o editoriales independientes a los registros del dataset.
+
 El dataset conserva 207 registros: 18 `validated_assisted` y 189 `needs_review`.
 La aplicación habilita **200 preguntas: 18 revisadas y 182 provisionales**, por
 autorización expresa del propietario ligada al hash de su contenido. No se

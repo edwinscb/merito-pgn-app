@@ -10,11 +10,13 @@ const args = [
   read('dataset/content/taxonomy.json'),
   read('dataset/content/sources.json'),
   read('dataset/content/registration.json'),
+  read('dataset/content/owner-approval.json'),
 ]
 describe('habilitación de estudio ligada al contenido', () => {
   it('publica 200, distingue 18/182, excluye siete semillas y es determinista', () => {
     const bank = buildStudyBank(...args)
     expect(bank.questions).toHaveLength(200)
+    expect(bank.ownerApprovedIds).toHaveLength(200)
     expect(bank.provisionalIds).toHaveLength(182)
     expect(bank.questions.filter((q) => q.moduleId === 'comun')).toHaveLength(
       100,
@@ -35,6 +37,9 @@ describe('habilitación de estudio ligada al contenido', () => {
     expect(bank).toEqual(read('public/data/study-bank.json'))
   })
   it('rechaza autorizaciones duplicadas, desactualizadas y preguntas retiradas', () => {
+    const approval = structuredClone(args)
+    approval[6].questions[0].contentHash = '0'.repeat(64)
+    expect(() => buildStudyBank(...approval)).toThrow(/Aprobación desactualizada/)
     const duplicate = structuredClone(args)
     duplicate[2].questions.push(duplicate[2].questions[0])
     expect(() => buildStudyBank(...duplicate)).toThrow(/duplicada/)

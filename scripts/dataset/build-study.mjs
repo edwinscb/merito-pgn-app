@@ -24,6 +24,7 @@ export function buildStudyBank(
   taxonomy,
   sources,
   registration,
+  rawApproval,
 ) {
   const authorization = AuthorizationSchema.parse(rawAuthorization)
   const ids = new Set()
@@ -52,7 +53,19 @@ export function buildStudyBank(
   const usedSources = new Set(
     questions.flatMap((q) => q.references.map((r) => r.sourceId)),
   )
+  const ownerApprovedIds = []
+  if (rawApproval) {
+    const approval = AuthorizationSchema.omit({ authorizedBy: true }).extend({ approvedBy: z.literal('project-owner') }).parse(rawApproval)
+    for (const entry of approval.questions) {
+      if (ownerApprovedIds.includes(entry.questionId)) throw Error(`Aprobación duplicada: ${entry.questionId}`)
+      const question = questions.find(q => q.id === entry.questionId)
+      if (!question || questionFingerprint(question) !== entry.contentHash) throw Error(`Aprobación desactualizada: ${entry.questionId}`)
+      ownerApprovedIds.push(entry.questionId)
+    }
+    ownerApprovedIds.sort()
+  }
   return {
+    ownerApprovedIds,
     ...(registration ? { registration: RegistrationSchema.parse(registration) } : {}),
     schemaVersion: 1,
     questions,
@@ -84,6 +97,7 @@ if (
   const taxonomy = await read('dataset/content/taxonomy.json')
   const sources = await read('dataset/content/sources.json')
   const registration = await read('dataset/content/registration.json')
+  const approval = await read('dataset/content/owner-approval.json')
   const bank = buildStudyBank(
     reviewed,
     expansion,
@@ -91,6 +105,7 @@ if (
     taxonomy,
     sources,
     registration,
+    approval,
   )
   await writeFile(
     new URL('public/data/study-bank.json', root),

@@ -197,6 +197,7 @@ export function settleExpired(
 }
 
 const BankSchema = z.object({
+  ownerApprovedIds: z.array(z.string()).default([]),
   registration: RegistrationSchema.optional(),
   schemaVersion: z.literal(1),
   questions: z.array(QuestionSchema),

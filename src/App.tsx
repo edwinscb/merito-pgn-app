@@ -47,12 +47,15 @@ const blankMark = (): Mark => ({
   note: '',
   updatedAt: Date.now(),
 })
-function Badge({ question }: { question: Question }) {
+function Badge({ question, bank }: { question: Question; bank: StudyBank }) {
+  const current = bank.questions.find(q => q.id === question.id)
+  const content = (q: Question) => JSON.stringify([q.stem, [...q.options].sort((a, b) => a.id.localeCompare(b.id)), q.correctOptionId, q.explanation, q.references])
+  const approved = bank.ownerApprovedIds.includes(question.id) && current && content(current) === content(question)
   return (
     <span
-      className={`badge ${question.status === 'validated_assisted' ? 'reviewed' : 'provisional'}`}
+      className={`badge ${approved || question.status === 'validated_assisted' ? 'reviewed' : 'provisional'}`}
     >
-      {question.status === 'validated_assisted' ? 'Revisada' : 'Provisional'}
+      {approved ? 'Aprobada por el propietario' : question.status === 'validated_assisted' ? 'Revisada' : 'Provisional'}
     </span>
   )
 }
@@ -135,7 +138,7 @@ function StudyQuestion({
   return (
     <article className="question-card">
       <div className="question-meta">
-        <Badge question={question} />
+        <Badge question={question} bank={bank} />
         <span>{bank.topics.find((t) => t.id === question.topicId)?.label}</span>
       </div>
       <h2 className="question-title">{question.stem}</h2>
@@ -556,10 +559,7 @@ export default function App() {
             </div>
             <p className="bank-note">
               {bank.questions.length} preguntas para estudiar ·{' '}
-              {bank.questions.length - bank.provisionalIds.length} revisadas ·{' '}
-              {bank.provisionalIds.length} provisionales. Las provisionales
-              están habilitadas para tu revisión y pueden necesitar
-              correcciones.
+              {bank.ownerApprovedIds.length} aprobadas por el propietario.
             </p>
             <section className="resource">
               <h2>Recursos para estudiar</h2>
@@ -626,8 +626,7 @@ export default function App() {
               parámetros de práctica.
             </p>
             <p className="bank-note">
-              Incluye preguntas provisionales identificadas. Su resultado es
-              orientativo para estudiar.
+              Preguntas aprobadas por el propietario. Resultado orientativo para estudiar.
             </p>
             <button
               className="primary"
@@ -810,7 +809,7 @@ export default function App() {
                 />
                 <article className="question-card">
                   <div className="question-meta">
-                    <Badge question={q} />
+                    <Badge question={q} bank={bank} />
                     <span>{labelTopic(q.topicId)}</span>
                   </div>
                   <h1 className="question-title">{q.stem}</h1>
@@ -1025,7 +1024,7 @@ export default function App() {
                             : 'Incorrecta'}
                       </span>
                     </summary>
-                    <Badge question={q} />
+                    <Badge question={q} bank={bank} />
                     <p>
                       Tu respuesta:{' '}
                       {q.options.find(

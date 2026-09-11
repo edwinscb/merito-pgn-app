@@ -114,7 +114,7 @@ describe('estudio y simuladores móviles', () => {
     await ready()
     expect(screen.getAllByText('100 preguntas')).toHaveLength(2)
     expect(screen.getByText(/200 preguntas para estudiar/)).toHaveTextContent(
-      '18 revisadas · 182 provisionales',
+      '200 aprobadas por el propietario',
     )
     expect(screen.queryByText(/Fase \d/)).not.toBeInTheDocument()
     expect(screen.queryByLabelText(/convocatoria/i)).not.toBeInTheDocument()
@@ -124,7 +124,7 @@ describe('estudio y simuladores móviles', () => {
     await ready()
     fireEvent.click(screen.getByRole('button', { name: 'Estudiar General' }))
     const q = rawBank.questions.find((q) => q.moduleId === 'comun')!
-    expect(screen.getByText('Provisional')).toBeInTheDocument()
+    expect(screen.getByText('Aprobada por el propietario')).toBeInTheDocument()
     expect(screen.queryByText(q.explanation)).not.toBeInTheDocument()
     fireEvent.click(
       screen.getByRole('button', {
@@ -153,7 +153,7 @@ describe('estudio y simuladores móviles', () => {
         },
       }),
     )
-    expect(screen.getByText('Provisional')).toBeInTheDocument()
+    expect(screen.getByText('Aprobada por el propietario')).toBeInTheDocument()
     fireEvent.change(screen.getByLabelText('Buscar pregunta'), {
       target: { value: 'xyz-no-existe' },
     })
