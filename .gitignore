@@ -28,3 +28,14 @@ progress-export*.json
 Thumbs.db
 .idea/
 .vscode/
+
+# --- Base de configuracion IA (ver docs/BASE-IA.md) ---
+# Estado por-proyecto de las skills de comunidad: no se versiona.
+skills-instaladas.json
+skills-lock.json
+.agents/skills/
+.claude/skills/
+.kiro/skills/
+# Ajustes locales de Kiro CLI (preferencia de la maquina).
+# OJO: .kiro/steering/ SI se versiona: lo genera tools/sync.ps1
+.kiro/settings/
