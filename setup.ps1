@@ -82,6 +82,35 @@ if ($Aplicar) {
   Write-Output "`n== Sincronizando reglas en el destino =="
   & (Join-Path $Destino "tools\sync.ps1")
 
+  # El destino necesita las mismas exclusiones, o versionara estado local.
+  $giDestino = Join-Path $Destino ".gitignore"
+  $marcaGi = "# --- Base de configuracion IA (ver docs/BASE-IA.md) ---"
+  $reglasGi = @"
+
+$marcaGi
+# Estado por-proyecto de las skills de comunidad: no se versiona.
+skills-instaladas.json
+skills-lock.json
+.agents/skills/
+.claude/skills/
+.kiro/skills/
+# Ajustes locales de Kiro CLI (preferencia de la maquina).
+# OJO: .kiro/steering/ SI se versiona: lo genera tools/sync.ps1
+.kiro/settings/
+"@
+  if (Test-Path $giDestino) {
+    $actual = Get-Content $giDestino -Raw
+    if ($actual -notmatch [regex]::Escape($marcaGi)) {
+      Add-Content $giDestino $reglasGi
+      Write-Output "  .gitignore: reglas del base agregadas"
+    } else {
+      Write-Output "  .gitignore: ya tenia las reglas del base"
+    }
+  } else {
+    Set-Content $giDestino $reglasGi.TrimStart() -Encoding UTF8
+    Write-Output "  .gitignore: creado con las reglas del base"
+  }
+
   Write-Output "`n== Aplicado =="
   Write-Output "Siguientes pasos en el proyecto destino:"
   Write-Output "  1. Revisa el diff y commitea (mensaje en espanol, convencion de commits)."
