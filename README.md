@@ -15,6 +15,10 @@ correctas los descarga cualquiera que tenga la URL.
 - Estudiar por bloque/tema, buscar, consultar explicaciones y fuentes.
 - Simulacros de 20 preguntas y 30 minutos por defecto, ajustables. Son parámetros
   de práctica, no el formato oficial de una convocatoria.
+- La aplicación apunta solo a la **convocatoria 126-2026**, la de la candidatura:
+  es el único perfil con formato oficial respaldado (cargo 3PU-15, corte 65 sobre
+  100). No hay selector de convocatoria. Los perfiles 121-2026 y 127-2026 siguen
+  en el dataset como registro editorial, sin pesos y sin preguntas elegibles.
 - Cambiar respuestas, marcar para volver, recuperar una sesión tras recargar y
   revisar resultados, errores y omitidas al terminar. El reloj no se pausa al salir.
 - Guardadas, revisión personal y problemas con notas en el dispositivo.

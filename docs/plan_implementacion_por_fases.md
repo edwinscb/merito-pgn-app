@@ -176,3 +176,27 @@ calidad; 100 fue el hito intermedio, ya superado.
 Las fuentes pendientes de descarga y la guía de orientación, si se
 publica, deben revisarse antes de ampliar perfiles o afirmar distribución del
 examen.
+
+### Convocatoria objetivo: solo 126-2026
+
+La aplicación apunta **exclusivamente a la convocatoria 126-2026**, la de la
+candidatura. Está fijada en `src/App.tsx` mediante la constante
+`EXAM_PROFILE_ID`, no se ofrece un selector de convocatoria y es el único perfil
+con formato oficial respaldado: cargo 3PU-15, prueba de Conocimientos
+eliminatoria con corte de 65 sobre 100 y peso del 70%, según los artículos 18 a
+21 de la Resolución 076 de 2026.
+
+Los perfiles `121-2026` y `127-2026` **se conservan en el dataset** como registro
+editorial, no como opciones de estudio: `topicDistribution` vacío y
+`passingKnowledgeScore` en null, porque nunca se verificó a qué nivel de empleo
+corresponden sus cargos. Por eso `dataset/reports/coverage.md` les reporta cero
+preguntas elegibles; es el estado correcto, no un defecto.
+
+No se eliminan. Dieciséis preguntas los declaran en `targetCallIds`, y ese campo
+afirma un hecho —que su contenido cae dentro de ese temario— que no deja de ser
+cierto porque el perfil se borre. Además `targetCallIds` entra en el fingerprint
+de la pregunta (`scripts/dataset/question-fingerprint.mjs` solo excluye `status`,
+`reviews` y `validFrom`), así que editarlo invalidaría la aprobación del
+propietario de quince preguntas `validated_assisted` — quince de las dieciocho
+revisadas del proyecto — y `dataset:build` fallaría hasta renovarla. El costo es
+alto y el beneficio para quien estudia es nulo.
