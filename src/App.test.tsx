@@ -355,4 +355,80 @@ describe('estudio y simuladores móviles', () => {
       'Prueba de Conocimientos',
     )
   })
+
+  it('marca las preguntas fuera de la convocatoria y no las de dentro', async () => {
+    render(<App />)
+    await ready()
+    fireEvent.click(screen.getByRole('button', { name: 'Estudiar General' }))
+    const fuera = rawBank.questions.find(
+      (q) => q.topicId === 'derecho_disciplinario',
+    )!
+    fireEvent.change(screen.getByLabelText('Buscar pregunta'), {
+      target: { value: fuera.stem },
+    })
+    expect(screen.getByRole('heading', { name: fuera.stem })).toBeInTheDocument()
+    expect(screen.getByText('Fuera de tu convocatoria')).toBeInTheDocument()
+    const dentro = rawBank.questions.find(
+      (q) => q.topicId === 'gestion_documental',
+    )!
+    fireEvent.change(screen.getByLabelText('Buscar pregunta'), {
+      target: { value: dentro.stem },
+    })
+    expect(
+      screen.getByRole('heading', { name: dentro.stem }),
+    ).toBeInTheDocument()
+    expect(
+      screen.queryByText('Fuera de tu convocatoria'),
+    ).not.toBeInTheDocument()
+  })
+  it('aparta las comportamentales con la nota de prueba clasificatoria', async () => {
+    render(<App />)
+    await ready()
+    fireEvent.click(screen.getByRole('button', { name: 'Estudiar General' }))
+    // Fuera de su seccion no se mezclan con el resto del banco.
+    expect(
+      screen.queryByText(/clasificatoria: no se califica por acierto/),
+    ).not.toBeInTheDocument()
+    fireEvent.change(screen.getByLabelText('Alcance'), {
+      target: { value: 'comportamentales' },
+    })
+    expect(
+      screen.getByText(/clasificatoria: no se califica por acierto/),
+    ).toBeInTheDocument()
+    const comportamentales = rawBank.questions.filter(
+      (q) => q.topicId === 'competencias_comportamentales',
+    )
+    expect(comportamentales).toHaveLength(10)
+    const mostrada = document.querySelector('.question-title')!.textContent
+    expect(comportamentales.some((q) => q.stem === mostrada)).toBe(true)
+  })
+  it('filtra el estudio al alcance de la convocatoria', async () => {
+    render(<App />)
+    await ready()
+    fireEvent.click(screen.getByRole('button', { name: 'Estudiar General' }))
+    const fuera = rawBank.questions.find(
+      (q) => q.topicId === 'contratacion_estatal',
+    )!
+    fireEvent.change(screen.getByLabelText('Buscar pregunta'), {
+      target: { value: fuera.stem },
+    })
+    expect(screen.getByRole('heading', { name: fuera.stem })).toBeInTheDocument()
+    fireEvent.change(screen.getByLabelText('Alcance'), {
+      target: { value: 'convocatoria' },
+    })
+    expect(
+      screen.getByText(/Solo los temas de la convocatoria/),
+    ).toBeInTheDocument()
+    // La pregunta sale del listado, pero sigue accesible en Todo el banco.
+    expect(
+      screen.queryByRole('heading', { name: fuera.stem }),
+    ).not.toBeInTheDocument()
+    expect(
+      screen.getByText(/No hay preguntas con estos filtros/),
+    ).toBeInTheDocument()
+    fireEvent.change(screen.getByLabelText('Alcance'), {
+      target: { value: 'todo' },
+    })
+    expect(screen.getByRole('heading', { name: fuera.stem })).toBeInTheDocument()
+  })
 })

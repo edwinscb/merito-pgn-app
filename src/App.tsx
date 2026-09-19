@@ -45,6 +45,7 @@ const blockLabel = (block: Block | null) =>
 const sessionTitle = (s: Session) =>
   s.profileId ? 'Prueba de Conocimientos' : `Simulacro de ${blockLabel(s.block)}`
 const EXAM_PROFILE_ID = '126-2026'
+const BEHAVIORAL_TOPIC = 'competencias_comportamentales'
 const blankMark = (): Mark => ({
   saved: false,
   reviewed: false,
@@ -120,12 +121,14 @@ function StudyQuestion({
   question,
   bank,
   mark,
+  outOfScope,
   onMark,
   onAnswer,
 }: {
   question: Question
   bank: StudyBank
   mark: Mark
+  outOfScope: boolean
   onMark: (m: Mark) => void
   onAnswer: (
     option: 'A' | 'B' | 'C' | 'D',
@@ -145,6 +148,9 @@ function StudyQuestion({
       <div className="question-meta">
         <Badge question={question} bank={bank} />
         <span>{bank.topics.find((t) => t.id === question.topicId)?.label}</span>
+        {outOfScope && (
+          <span className="badge provisional">Fuera de tu convocatoria</span>
+        )}
       </div>
       <h2 className="question-title">{question.stem}</h2>
       <div className="options">
@@ -264,6 +270,11 @@ export default function App() {
   const [search, setSearch] = useState('')
   const [topic, setTopic] = useState('')
   const [onlySaved, setOnlySaved] = useState(false)
+  // Alcance del estudio. Vive aqui, en la capa de filtrado, no en study-order:
+  // cambiarlo no debe invalidar el orden barajado que el usuario ya tiene.
+  const [scope, setScope] = useState<'todo' | 'convocatoria' | 'comportamentales'>(
+    'todo',
+  )
   const [reviewIds, setReviewIds] = useState<string[] | null>(null)
   const [studyIndex, setStudyIndex] = useState(0)
   const [studyOrder, setStudyOrder] = useState<StudyOrder | null>(null)
@@ -369,11 +380,18 @@ export default function App() {
   const cutoffOf = (s: Session) =>
     bank?.examProfiles.find((p) => p.id === s.profileId)
       ?.passingKnowledgeScore ?? null
+  // Las comportamentales no estan "fuera": son otra prueba, clasificatoria.
+  const outOfScope = (q: Question) =>
+    !examTopics.has(q.topicId) && q.topicId !== BEHAVIORAL_TOPIC
   const filtered = (studyOrder && studyOrder.block === block && bank ? orderedQuestions(studyOrder, bank.questions) : available).filter(
     (q) =>
       (!topic || q.topicId === topic) &&
       (!onlySaved || progress.marks[q.id]?.saved) &&
       (!reviewIds || reviewIds.includes(q.id)) &&
+      (scope !== 'convocatoria' || examTopics.has(q.topicId)) &&
+      (scope === 'comportamentales'
+        ? q.topicId === BEHAVIORAL_TOPIC
+        : q.topicId !== BEHAVIORAL_TOPIC) &&
       q.stem.toLocaleLowerCase('es').includes(search.toLocaleLowerCase('es')),
   )
   const question =
@@ -755,7 +773,45 @@ export default function App() {
                 />{' '}
                 Solo guardadas
               </label>
+              <label>
+                Alcance
+                <select
+                  value={scope}
+                  onChange={(e) => {
+                    const next = e.target.value as typeof scope
+                    // Las comportamentales viven en el nucleo comun: se cambia de
+                    // bloque para que la seccion tenga contenido.
+                    if (next === 'comportamentales' && block !== 'comun')
+                      goStudy('comun')
+                    setScope(next)
+                    setStudyIndex(0)
+                  }}
+                >
+                  <option value="todo">Todo el banco</option>
+                  <option value="convocatoria">
+                    Solo mi convocatoria {examProfile ? examProfile.id : ''}
+                  </option>
+                  <option value="comportamentales">
+                    Competencias comportamentales
+                  </option>
+                </select>
+              </label>
             </div>
+            {scope === 'comportamentales' && (
+              <p className="notice" role="note">
+                La prueba real de competencias comportamentales es
+                clasificatoria: no se califica por acierto y esta aplicación no la
+                simula. Estas preguntas sirven para reconocer el tipo de
+                planteamiento, no para estimar un puntaje.
+              </p>
+            )}
+            {scope === 'convocatoria' && (
+              <p className="notice">
+                Solo los temas de la convocatoria{' '}
+                {examProfile ? examProfile.id : ''}. Las demás preguntas del banco
+                siguen disponibles en {String.fromCharCode(171)}Todo el banco{String.fromCharCode(187)}.
+              </p>
+            )}
             {reviewIds && (
               <p className="notice">
                 Repaso de errores y omitidas{' '}
@@ -791,6 +847,7 @@ export default function App() {
                   question={question}
                   bank={bank}
                   mark={progress.marks[question.id] ?? blankMark()}
+                  outOfScope={outOfScope(question)}
                   onMark={(m) =>
                     commit({
                       ...progressRef.current,
