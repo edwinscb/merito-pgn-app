@@ -465,8 +465,10 @@ export default function App() {
         Saltar al contenido
       </a>
       <header className="app-header">
-        <button className="brand" onClick={() => leave('home')}>
-          <span className="brand-icon">M</span>Mérito PGN
+        <button className="brand" type="button" onClick={() => leave('home')}>
+          {/* La M es decorativa: sin ocultarla el nombre accesible del boton
+              quedaba "MMérito PGN" y un lector de pantalla leia la letra. */}
+          <span className="brand-icon" aria-hidden="true">M</span>Mérito PGN
         </button>
         <span className="header-note">Tu espacio de estudio</span>
         <button
