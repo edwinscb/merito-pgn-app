@@ -4,6 +4,7 @@ import { pathToFileURL } from 'node:url'
 import { resolve } from 'node:path'
 import { z } from 'zod'
 import { RegistrationSchema } from '../../src/domain/registration.ts'
+import { ExamProfilesFileSchema } from '../../src/domain/dataset/contracts.ts'
 
 export const AuthorizationSchema = z.object({
   schemaVersion: z.literal(1),
@@ -25,6 +26,7 @@ export function buildStudyBank(
   sources,
   registration,
   rawApproval,
+  examProfiles,
 ) {
   const authorization = AuthorizationSchema.parse(rawAuthorization)
   const ids = new Set()
@@ -80,6 +82,27 @@ export function buildStudyBank(
     provisionalIds: questions
       .filter((q) => q.status !== 'validated_assisted')
       .map((q) => q.id),
+    // El perfil de la convocatoria viaja con el banco: la app necesita el formato
+    // oficial y el alcance tematico sin volver a leer el dataset.
+    examProfiles: ExamProfilesFileSchema.parse(examProfiles ?? []).map(
+      ({
+        id,
+        title,
+        status,
+        questionCount,
+        durationMinutes,
+        topicDistribution,
+        notes,
+      }) => ({
+        id,
+        title,
+        status,
+        questionCount,
+        durationMinutes,
+        topicDistribution,
+        notes,
+      }),
+    ),
   }
 }
 
@@ -98,6 +121,7 @@ if (
   const sources = await read('dataset/content/sources.json')
   const registration = await read('dataset/content/registration.json')
   const approval = await read('dataset/content/owner-approval.json')
+  const examProfiles = await read('dataset/content/exam-profiles.json')
   const bank = buildStudyBank(
     reviewed,
     expansion,
@@ -106,6 +130,7 @@ if (
     sources,
     registration,
     approval,
+    examProfiles,
   )
   await writeFile(
     new URL('public/data/study-bank.json', root),

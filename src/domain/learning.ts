@@ -212,6 +212,23 @@ const BankSchema = z.object({
     }),
   ),
   provisionalIds: z.array(z.string()),
+  // Perfiles de convocatoria emitidos por build-study. Con default para que un
+  // banco viejo en cache de la PWA siga cargando sin el campo.
+  examProfiles: z
+    .array(
+      z.object({
+        id: z.string(),
+        title: z.string(),
+        status: z.enum(['provisional', 'confirmed']),
+        questionCount: z.number().int().positive().nullable(),
+        durationMinutes: z.number().int().positive().nullable(),
+        topicDistribution: z.array(
+          z.object({ topicId: z.string(), weight: z.number().min(0).max(1) }),
+        ),
+        notes: z.string(),
+      }),
+    )
+    .default([]),
 })
 export type StudyBank = z.infer<typeof BankSchema>
 export async function loadStudyBank(): Promise<StudyBank> {
