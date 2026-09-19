@@ -85,7 +85,7 @@ const localSources = [
     targetPath: 'docs/plan_implementacion_por_fases.md',
     mimeType: 'text/markdown',
     status: 'reference',
-    notes: 'Las fases 0 y 1 están implementadas y la Fase 2 se encuentra en curso.'
+    notes: 'Fases 0 a 3 implementadas, Fase 4 desplegada en producción y Fase 5 en progreso.'
   },
   {
     id: 'pgn-transversal-study-plan',
