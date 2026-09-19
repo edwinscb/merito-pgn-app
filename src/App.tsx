@@ -25,16 +25,11 @@ import {
 import './styles.css'
 import { RegistrationCard } from './RegistrationCard'
 import { newStudyOrder, orderedQuestions, restoreStudyOrder, STUDY_KEY, type StudyOrder } from './domain/study-order'
-
-type Theme = 'dark' | 'light'
-const THEME_KEY = 'merito-pgn-theme:v1'
-const readTheme = (): Theme => {
-  try {
-    return localStorage.getItem(THEME_KEY) === 'light' ? 'light' : 'dark'
-  } catch {
-    return 'dark'
-  }
-}
+import { useClock } from './hooks/useClock'
+import { useExpiredSessions } from './hooks/useExpiredSessions'
+import { useFocusOnViewChange } from './hooks/useFocusOnViewChange'
+import { useStudyOrderPersistence } from './hooks/useStudyOrderPersistence'
+import { useTheme } from './hooks/useTheme'
 
 const clock = (seconds: number) =>
   `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`
@@ -256,8 +251,7 @@ function StudyQuestion({
 }
 
 export default function App() {
-  const [theme, setTheme] = useState<Theme>(readTheme)
-  const mainRef = useRef<HTMLElement>(null)
+  const [theme, setTheme] = useTheme()
   const [bank, setBank] = useState<StudyBank | null>(null)
   const [progress, setProgress] = useState<LearningProgress>(emptyProgress)
   const progressRef = useRef(progress)
@@ -282,24 +276,10 @@ export default function App() {
   const [count, setCount] = useState(20)
   const [minutes, setMinutes] = useState(30)
   const [sessionId, setSessionId] = useState<string | null>(null)
-  const [now, setNow] = useState(Date.now())
+  const [now, setNow] = useClock()
   const [confirmFinish, setConfirmFinish] = useState(false)
   const lastVisit = useRef(Date.now())
-  useEffect(() => {
-    document.documentElement.dataset.theme = theme
-    document
-      .querySelector('meta[name="theme-color"]')
-      ?.setAttribute('content', theme === 'dark' ? '#101a1f' : '#f5f8fb')
-    try {
-      localStorage.setItem(THEME_KEY, theme)
-    } catch {
-      /* preferencia no disponible */
-    }
-  }, [theme])
-  useEffect(() => {
-    mainRef.current?.focus({ preventScroll: true })
-    window.scrollTo(0, 0)
-  }, [view])
+  const mainRef = useFocusOnViewChange(view)
   const commit = (next: LearningProgress) => {
     progressRef.current = next
     setProgress(next)
@@ -344,26 +324,13 @@ export default function App() {
       mounted = false
     }
   }, [])
-  useEffect(() => {
-    const timer = window.setInterval(() => setNow(Date.now()), 1000)
-    const refresh = () => setNow(Date.now())
-    window.addEventListener('focus', refresh)
-    return () => { window.clearInterval(timer); window.removeEventListener('focus', refresh) }
-  }, [])
-  useEffect(() => {
-    if (!studyOrder || view !== 'questions') return
-    try {
-      sessionStorage.setItem(STUDY_KEY, JSON.stringify({ ...studyOrder, index: studyIndex, search, topic, onlySaved, reviewIds }))
-      setStudyTemporary(false)
-    } catch { setStudyTemporary(true) }
-  }, [studyOrder, studyIndex, search, topic, onlySaved, reviewIds, view])
-  useEffect(() => {
-    const p = progressRef.current
-    if (p.sessions.some((s) => !s.finishedAt && s.endsAt <= now)) {
-      commit(settleExpired(p, now))
-      if (view === 'exam') setView('results')
-    }
-  }, [now])
+  useStudyOrderPersistence(
+    { studyOrder, studyIndex, search, topic, onlySaved, reviewIds, view },
+    setStudyTemporary,
+  )
+  useExpiredSessions(now, progressRef, commit, () => {
+    if (view === 'exam') setView('results')
+  })
   const session = progress.sessions.find((s) => s.id === sessionId)
   const active = progress.sessions.filter((s) => !s.finishedAt)
   const available = bank?.questions.filter((q) => q.moduleId === block) ?? []
