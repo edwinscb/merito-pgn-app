@@ -20,7 +20,7 @@ estándar por defecto. Se citan por su título, no por número.
 Responde siempre en **español**.
 
 ## Estilo de respuesta
-Sé **corto y al punto**. Conclusión primero, sin preámbulo. El detalle solo si
+Usa la skill **i-have-adhd.md**. Sé **corto y al punto**. Conclusión primero, sin preámbulo. El detalle solo si
 se pide.
 
 ## Ramas de trabajo
@@ -70,6 +70,12 @@ Sigue las buenas prácticas del lenguaje y las convenciones del proyecto.
 **Prefiere lo simple:** no añadas abstracción, configurabilidad ni capas que la
 tarea no pide.
 
+## Usa las skills disponibles
+Si la tarea coincide con una skill de `shared/skills/`, **léela con `cat` antes
+de actuar** y sigue su procedimiento. No la reproduzcas de memoria ni improvises
+un procedimiento propio cuando ya existe uno escrito. El índice de skills está
+en `shared/skills/` (y en el archivo de skills que cada CLI carga).
+
 ## Honestidad
 No inventes. Si no sabes algo o no lo verificaste, dilo claramente.
 
@@ -111,6 +117,19 @@ a trabajar. Si el usuario no lo indicó:
 
 Una vez definido, el agente se mantiene durante la sesión hasta que el usuario
 lo cambie. No vuelvas a preguntar en cada mensaje.
+
+## Recomienda el siguiente agente al cerrar
+Al terminar una tarea, **recomienda el siguiente agente natural** y ofrece
+continuar, para que el flujo no se corte. El encadenamiento típico es:
+
+`planificador → implementador → escritor-tests → probador`
+
+pero el siguiente depende de la tarea (ej. un fallo va a `depurador`, una
+reestructura a `refactorizador`).
+
+**No cambies de agente por tu cuenta.** Recomiendas y esperas la confirmación
+del usuario antes de actuar con el nuevo agente. Esto respeta "Exige saber con
+qué agente se trabaja": el handoff es una sugerencia, no un cambio automático.
 
 
 ## Agentes disponibles
