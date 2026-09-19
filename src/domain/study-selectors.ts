@@ -21,6 +21,21 @@ export const activeSessions = (progress: LearningProgress): Session[] =>
 export const finishedSessions = (progress: LearningProgress): Session[] =>
   progress.sessions.filter((s) => s.finishedAt)
 
+export const blockLabel = (block: Block | null): string =>
+  block === null ? 'Conocimientos' : block === 'comun' ? 'General' : 'Sistemas'
+
+// Una sesion con perfil es la prueba de la convocatoria; sin perfil es historial
+// heredado de los simulacros por bloque.
+export const sessionTitle = (s: Session): string =>
+  s.profileId ? 'Prueba de Conocimientos' : `Simulacro de ${blockLabel(s.block)}`
+
+/** Intentos totales y aciertos del estudio, para las estadisticas globales. */
+export const studyStats = (progress: LearningProgress) => ({
+  total: progress.attempts.length,
+  hits: progress.attempts.filter((a) => a.correct).length,
+  saved: Object.values(progress.marks).filter((m) => m.saved).length,
+})
+
 export const questionsOfBlock = (
   bank: StudyBank | null,
   block: Block,
