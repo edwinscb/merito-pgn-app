@@ -1,11 +1,10 @@
-import { useEffect, useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import type { Question } from './domain/dataset/contracts'
 import {
   createExamSession,
   exportLearning,
   finishSession,
   importLearning,
-  loadStudyBank,
   mergeProgress,
   profiles,
   scoreSession,
@@ -18,12 +17,12 @@ import {
 } from './domain/learning'
 import './styles.css'
 import { RegistrationCard } from './RegistrationCard'
-import { newStudyOrder, orderedQuestions, restoreStudyOrder, STUDY_KEY, type StudyOrder } from './domain/study-order'
+import { newStudyOrder, orderedQuestions, type StudyOrder } from './domain/study-order'
 import { useClock } from './hooks/useClock'
 import { useExpiredSessions } from './hooks/useExpiredSessions'
 import { useFocusOnViewChange } from './hooks/useFocusOnViewChange'
 import { useLearningProgress } from './hooks/useLearningProgress'
-import { useStudyOrderPersistence } from './hooks/useStudyOrderPersistence'
+import { useStudySession } from './hooks/useStudySession'
 import { useTheme } from './hooks/useTheme'
 
 const clock = (seconds: number) =>
@@ -248,24 +247,27 @@ function StudyQuestion({
 export default function App() {
   const [theme, setTheme] = useTheme()
   const { progress, progressRef, temporary, commit } = useLearningProgress()
-  const [bank, setBank] = useState<StudyBank | null>(null)
   const [view, setView] = useState<
     'home' | 'questions' | 'progress' | 'setup' | 'exam' | 'results'
   >('home')
+  // Un solo banner de error, compartido por el fallo de carga del banco y por el
+  // de importacion del progreso. Por eso vive aqui y no dentro de un hook.
   const [error, setError] = useState('')
-  const [block, setBlock] = useState<Block>('comun')
-  const [search, setSearch] = useState('')
-  const [topic, setTopic] = useState('')
-  const [onlySaved, setOnlySaved] = useState(false)
-  // Alcance del estudio. Vive aqui, en la capa de filtrado, no en study-order:
-  // cambiarlo no debe invalidar el orden barajado que el usuario ya tiene.
-  const [scope, setScope] = useState<'todo' | 'convocatoria' | 'comportamentales'>(
-    'todo',
-  )
-  const [reviewIds, setReviewIds] = useState<string[] | null>(null)
-  const [studyIndex, setStudyIndex] = useState(0)
-  const [studyOrder, setStudyOrder] = useState<StudyOrder | null>(null)
-  const [studyTemporary, setStudyTemporary] = useState(false)
+  const {
+    bank,
+    block, setBlock,
+    search, setSearch,
+    topic, setTopic,
+    onlySaved, setOnlySaved,
+    scope, setScope,
+    reviewIds, setReviewIds,
+    studyIndex, setStudyIndex,
+    studyOrder, setStudyOrder,
+    studyTemporary,
+  } = useStudySession(view, {
+    onRestored: () => setView('questions'),
+    onLoadError: setError,
+  })
   const [count, setCount] = useState(20)
   const [minutes, setMinutes] = useState(30)
   const [sessionId, setSessionId] = useState<string | null>(null)
@@ -273,39 +275,6 @@ export default function App() {
   const [confirmFinish, setConfirmFinish] = useState(false)
   const lastVisit = useRef(Date.now())
   const mainRef = useFocusOnViewChange(view)
-  useEffect(() => {
-    let mounted = true
-    loadStudyBank()
-      .then((b) => {
-        if (!mounted) return
-        setBank(b)
-        try {
-          const saved = restoreStudyOrder(sessionStorage.getItem(STUDY_KEY), b.questions)
-          setStudyOrder(saved ?? newStudyOrder(b.questions, 'comun'))
-          if (saved) {
-            setBlock(saved.block); setStudyIndex(saved.index); setSearch(saved.search)
-            setTopic(saved.topic); setOnlySaved(saved.onlySaved); setReviewIds(saved.reviewIds)
-            setView('questions')
-          }
-        } catch {
-          setStudyOrder(newStudyOrder(b.questions, 'comun'))
-          setStudyTemporary(true)
-        }
-      })
-      .catch(() => {
-        if (mounted)
-          setError(
-            'No se pudieron cargar las preguntas. Comprueba tu conexión y vuelve a intentar.',
-          )
-      })
-    return () => {
-      mounted = false
-    }
-  }, [])
-  useStudyOrderPersistence(
-    { studyOrder, studyIndex, search, topic, onlySaved, reviewIds, view },
-    setStudyTemporary,
-  )
   useExpiredSessions(now, progressRef, commit, () => {
     if (view === 'exam') setView('results')
   })
