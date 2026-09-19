@@ -1,4 +1,4 @@
-# sync.ps1
+﻿# sync.ps1
 # Copia la FUENTE ÚNICA (shared/) a los archivos que cada CLI lee.
 # Editas shared/, corres este script, y los tres quedan sincronizados.
 #
@@ -24,13 +24,22 @@ $root = Split-Path -Parent $PSScriptRoot
 $shared = Join-Path $root "shared"
 $marca = "<!-- ARCHIVO GENERADO por tools/sync.ps1 desde shared/. NO editar a mano. Edita shared/ y vuelve a correr el sync. -->"
 
+# Escribe UTF-8 SIN BOM en cualquier version de PowerShell.
+# 'Set-Content -Encoding UTF8' agrega BOM en PS 5.1 y no lo agrega en PS 7, lo
+# que hacia que los archivos generados cambiaran segun quien corriera el sync.
+function Escribir-Utf8SinBom($ruta, $texto) {
+  # Set-Content agregaba un salto de linea al final; se replica para no cambiar
+  # el contenido generado.
+  [System.IO.File]::WriteAllText($ruta, $texto + [Environment]::NewLine, (New-Object System.Text.UTF8Encoding $false))
+}
+
 if (-not (Test-Path $shared)) {
   Write-Error "No encuentro la carpeta shared/ en $root"
   exit 1
 }
 
 # --- 1. Reglas de comportamiento: solo lo que esta debajo del marcador ---
-$rawComp = Get-Content (Join-Path $shared "comportamiento.md") -Raw
+$rawComp = Get-Content (Join-Path $shared "comportamiento.md") -Raw -Encoding UTF8
 $sep = "<!-- SYNC:INICIO -->"
 if ($rawComp -match [regex]::Escape($sep)) {
   $comportamiento = ($rawComp -split [regex]::Escape($sep), 2)[1].Trim()
@@ -43,7 +52,7 @@ if ($rawComp -match [regex]::Escape($sep)) {
 # Lee el frontmatter YAML linea por linea (mas fiable que una regex): toma
 # 'description', soporta bloque '>' y se detiene en la siguiente clave YAML.
 function Resumen-Archivo($ruta) {
-  $lineas = Get-Content $ruta
+  $lineas = Get-Content $ruta -Encoding UTF8
   $desc = ""
 
   if ($lineas.Count -gt 0 -and $lineas[0].Trim() -eq '---') {
@@ -111,7 +120,7 @@ $idxSkills
 "@
 
 $agentsPath = Join-Path $root "AGENTS.md"
-$agentsMd | Set-Content $agentsPath -Encoding UTF8
+Escribir-Utf8SinBom $agentsPath $agentsMd
 
 # --- 4. CLAUDE.md apunta a AGENTS.md (Claude tambien lee AGENTS.md) ---
 $claudeMd = @"
@@ -125,7 +134,7 @@ comun). Lee ese archivo como fuente de verdad.
 Ver: [AGENTS.md](./AGENTS.md)
 "@
 $claudePath = Join-Path $root "CLAUDE.md"
-$claudeMd | Set-Content $claudePath -Encoding UTF8
+Escribir-Utf8SinBom $claudePath $claudeMd
 
 # --- 5. Kiro: varios steering por tema (recomendacion oficial) ---
 $kiroDir = Join-Path $root ".kiro\steering"
@@ -139,7 +148,7 @@ Get-ChildItem $kiroDir -Filter *.md -ErrorAction SilentlyContinue | Remove-Item 
 $marca
 
 $comportamiento
-"@ | Set-Content (Join-Path $kiroDir "comportamiento.md") -Encoding UTF8
+"@ | ForEach-Object { Escribir-Utf8SinBom (Join-Path $kiroDir "comportamiento.md") $_ }
 
 # 5b. Agentes (indice)
 if ($idxAgentes) {
@@ -148,7 +157,7 @@ $marca
 
 # Agentes
 $idxAgentes
-"@ | Set-Content (Join-Path $kiroDir "agentes.md") -Encoding UTF8
+"@ | ForEach-Object { Escribir-Utf8SinBom (Join-Path $kiroDir "agentes.md") $_ }
 }
 
 # 5c. Skills (indice)
@@ -158,7 +167,7 @@ $marca
 
 # Skills
 $idxSkills
-"@ | Set-Content (Join-Path $kiroDir "skills.md") -Encoding UTF8
+"@ | ForEach-Object { Escribir-Utf8SinBom (Join-Path $kiroDir "skills.md") $_ }
 }
 
 Write-Output "Sincronizado desde shared/ ->"
