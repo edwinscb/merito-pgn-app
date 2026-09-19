@@ -18,6 +18,7 @@ import './styles.css'
 import { RegistrationCard } from './RegistrationCard'
 import { blankMark } from './domain/learning'
 import { Badge } from './views/Badge'
+import { HomeView } from './views/HomeView'
 import { Explanation } from './views/Explanation'
 import { clock } from './views/format'
 import { StudyQuestion } from './views/StudyQuestion'
@@ -200,96 +201,21 @@ export default function App() {
           </p>
         )}
         {bank && view === 'home' && (
-          <>
-            <div className="page-heading">
-              <p className="eyebrow">PREPARACIÓN PROCURADURÍA</p>
-              <h1>¿Qué vas a practicar hoy?</h1>
-              <p>Elige un bloque y avanza a tu ritmo.</p>
-            </div>
-            <RegistrationCard registration={bank.registration} now={now} />
-            {active.map((s) => (
-              <div className="resume" key={s.id}>
-                <div>
-                  <strong>{sessionTitle(s)} en curso</strong>
-                  <p>
-                    {clock(Math.max(0, Math.ceil((s.endsAt - now) / 1000)))}{' '}
-                    restantes
-                  </p>
-                </div>
-                <button
-                  className="secondary"
-                  onClick={() => {
-                    setSessionId(s.id)
-                    lastVisit.current = Date.now()
-                    setView('exam')
-                    setConfirmFinish(false)
-                  }}
-                >
-                  Continuar
-                </button>
-              </div>
-            ))}
-            {examProfile && (
-              <section className="block-card exam-card">
-                <span className="block-symbol" aria-hidden="true">
-                  {String.fromCharCode(9678)}
-                </span>
-                <h2>Prueba de Conocimientos</h2>
-                <p>
-                  Eliminatoria, con los temas de la convocatoria{' '}
-                  {examProfile.id}.{' '}
-                  {examProfile.passingKnowledgeScore === null
-                    ? 'La PGN no ha publicado el puntaje minimo.'
-                    : `Se aprueba con ${examProfile.passingKnowledgeScore} sobre 100.`}
-                </p>
-                <span className="count">
-                  {examQuestions.length} preguntas en alcance
-                </span>
-                <button className="primary" onClick={setupExam}>
-                  Prueba de Conocimientos {String.fromCharCode(183)} {examProfile.id}
-                </button>
-              </section>
-            )}
-            <div className="block-grid">
-              {profiles.map((p) => (
-                <section className="block-card" key={p.id}>
-                  <span className="block-symbol" aria-hidden="true">
-                    {p.block === 'comun' ? '§' : '⌘'}
-                  </span>
-                  <h2>{p.label}</h2>
-                  <p>{p.description}</p>
-                  <span className="count">
-                    {
-                      bank.questions.filter((q) => q.moduleId === p.block)
-                        .length
-                    }{' '}
-                    preguntas
-                  </span>
-                  <button
-                    className="primary"
-                    onClick={() => goStudy(p.block)}
-                  >
-                    Estudiar {p.label}
-                  </button>
-                </section>
-              ))}
-            </div>
-            <p className="bank-note">
-              {bank.questions.length} preguntas para estudiar ·{' '}
-              {bank.ownerApprovedIds.length} aprobadas por el propietario.
-            </p>
-            <section className="resource">
-              <h2>Recursos para estudiar</h2>
-              <a
-                href="https://misionmerito.com/curso/concurso-procuraduria-nivel-profesional-y-asesor/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Abrir mi curso de Misión Mérito ↗
-              </a>
-              <p>El curso se consulta en su propia plataforma.</p>
-            </section>
-          </>
+          <HomeView
+            bank={bank}
+            progress={progress}
+            now={now}
+            examProfile={examProfile}
+            examQuestions={examQuestions}
+            onResume={(id) => {
+              setSessionId(id)
+              lastVisit.current = Date.now()
+              setView('exam')
+              setConfirmFinish(false)
+            }}
+            onSetupExam={setupExam}
+            onGoStudy={goStudy}
+          />
         )}
         {bank && examProfile && view === 'setup' && (
           <SetupView
