@@ -1,11 +1,9 @@
-import { useEffect, useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import type { Question } from './domain/dataset/contracts'
 import {
-  createExamSession,
   exportLearning,
   finishSession,
   importLearning,
-  loadStudyBank,
   mergeProgress,
   profiles,
   scoreSession,
@@ -18,22 +16,32 @@ import {
 } from './domain/learning'
 import './styles.css'
 import { RegistrationCard } from './RegistrationCard'
-import { newStudyOrder, orderedQuestions, restoreStudyOrder, STUDY_KEY, type StudyOrder } from './domain/study-order'
+import { ProgressView } from './views/ProgressView'
+import { SetupView } from './views/SetupView'
+import { newStudyOrder, orderedQuestions, type StudyOrder } from './domain/study-order'
+import {
+  activeSessions,
+  blockLabel,
+  filterStudyQuestions,
+  isOutOfScope,
+  passingScoreOf,
+  questionAt,
+  questionsInScope,
+  questionsOfBlock,
+  sessionTitle,
+  topicLabel,
+  weightedTopics,
+} from './domain/study-selectors'
 import { useClock } from './hooks/useClock'
 import { useExpiredSessions } from './hooks/useExpiredSessions'
+import { useExamRun } from './hooks/useExamRun'
 import { useFocusOnViewChange } from './hooks/useFocusOnViewChange'
 import { useLearningProgress } from './hooks/useLearningProgress'
-import { useStudyOrderPersistence } from './hooks/useStudyOrderPersistence'
+import { useStudySession } from './hooks/useStudySession'
 import { useTheme } from './hooks/useTheme'
 
 const clock = (seconds: number) =>
   `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`
-const blockLabel = (block: Block | null) =>
-  block === null ? 'Conocimientos' : block === 'comun' ? 'General' : 'Sistemas'
-// Una sesion con perfil es la prueba de la convocatoria; sin perfil es historial
-// heredado de los simulacros por bloque.
-const sessionTitle = (s: Session) =>
-  s.profileId ? 'Prueba de Conocimientos' : `Simulacro de ${blockLabel(s.block)}`
 const EXAM_PROFILE_ID = '126-2026'
 const BEHAVIORAL_TOPIC = 'competencias_comportamentales'
 const blankMark = (): Mark => ({
@@ -248,101 +256,64 @@ function StudyQuestion({
 export default function App() {
   const [theme, setTheme] = useTheme()
   const { progress, progressRef, temporary, commit } = useLearningProgress()
-  const [bank, setBank] = useState<StudyBank | null>(null)
   const [view, setView] = useState<
     'home' | 'questions' | 'progress' | 'setup' | 'exam' | 'results'
   >('home')
+  // Un solo banner de error, compartido por el fallo de carga del banco y por el
+  // de importacion del progreso. Por eso vive aqui y no dentro de un hook.
   const [error, setError] = useState('')
-  const [block, setBlock] = useState<Block>('comun')
-  const [search, setSearch] = useState('')
-  const [topic, setTopic] = useState('')
-  const [onlySaved, setOnlySaved] = useState(false)
-  // Alcance del estudio. Vive aqui, en la capa de filtrado, no en study-order:
-  // cambiarlo no debe invalidar el orden barajado que el usuario ya tiene.
-  const [scope, setScope] = useState<'todo' | 'convocatoria' | 'comportamentales'>(
-    'todo',
-  )
-  const [reviewIds, setReviewIds] = useState<string[] | null>(null)
-  const [studyIndex, setStudyIndex] = useState(0)
-  const [studyOrder, setStudyOrder] = useState<StudyOrder | null>(null)
-  const [studyTemporary, setStudyTemporary] = useState(false)
-  const [count, setCount] = useState(20)
-  const [minutes, setMinutes] = useState(30)
-  const [sessionId, setSessionId] = useState<string | null>(null)
+  const {
+    bank,
+    block, setBlock,
+    search, setSearch,
+    topic, setTopic,
+    onlySaved, setOnlySaved,
+    scope, setScope,
+    reviewIds, setReviewIds,
+    studyIndex, setStudyIndex,
+    studyOrder, setStudyOrder,
+    studyTemporary,
+  } = useStudySession(view, {
+    onRestored: () => setView('questions'),
+    onLoadError: setError,
+  })
   const [now, setNow] = useClock()
-  const [confirmFinish, setConfirmFinish] = useState(false)
   const lastVisit = useRef(Date.now())
   const mainRef = useFocusOnViewChange(view)
-  useEffect(() => {
-    let mounted = true
-    loadStudyBank()
-      .then((b) => {
-        if (!mounted) return
-        setBank(b)
-        try {
-          const saved = restoreStudyOrder(sessionStorage.getItem(STUDY_KEY), b.questions)
-          setStudyOrder(saved ?? newStudyOrder(b.questions, 'comun'))
-          if (saved) {
-            setBlock(saved.block); setStudyIndex(saved.index); setSearch(saved.search)
-            setTopic(saved.topic); setOnlySaved(saved.onlySaved); setReviewIds(saved.reviewIds)
-            setView('questions')
-          }
-        } catch {
-          setStudyOrder(newStudyOrder(b.questions, 'comun'))
-          setStudyTemporary(true)
-        }
-      })
-      .catch(() => {
-        if (mounted)
-          setError(
-            'No se pudieron cargar las preguntas. Comprueba tu conexión y vuelve a intentar.',
-          )
-      })
-    return () => {
-      mounted = false
-    }
-  }, [])
-  useStudyOrderPersistence(
-    { studyOrder, studyIndex, search, topic, onlySaved, reviewIds, view },
-    setStudyTemporary,
-  )
   useExpiredSessions(now, progressRef, commit, () => {
     if (view === 'exam') setView('results')
   })
-  const session = progress.sessions.find((s) => s.id === sessionId)
-  const active = progress.sessions.filter((s) => !s.finishedAt)
-  const available = bank?.questions.filter((q) => q.moduleId === block) ?? []
+  const active = activeSessions(progress)
+  const available = questionsOfBlock(bank, block)
   const examProfile =
     bank?.examProfiles.find((p) => p.id === EXAM_PROFILE_ID) ?? null
-  // El alcance sale de topicDistribution, no de targetCallIds.
-  const examTopics = new Set(
-    examProfile?.topicDistribution
-      .filter((item) => item.weight > 0)
-      .map((item) => item.topicId) ?? [],
-  )
-  const examQuestions =
-    bank?.questions.filter((q) => examTopics.has(q.topicId)) ?? []
-  const cutoffOf = (s: Session) =>
-    bank?.examProfiles.find((p) => p.id === s.profileId)
-      ?.passingKnowledgeScore ?? null
-  // Las comportamentales no estan "fuera": son otra prueba, clasificatoria.
-  const outOfScope = (q: Question) =>
-    !examTopics.has(q.topicId) && q.topicId !== BEHAVIORAL_TOPIC
-  const filtered = (studyOrder && studyOrder.block === block && bank ? orderedQuestions(studyOrder, bank.questions) : available).filter(
-    (q) =>
-      (!topic || q.topicId === topic) &&
-      (!onlySaved || progress.marks[q.id]?.saved) &&
-      (!reviewIds || reviewIds.includes(q.id)) &&
-      (scope !== 'convocatoria' || examTopics.has(q.topicId)) &&
-      (scope === 'comportamentales'
-        ? q.topicId === BEHAVIORAL_TOPIC
-        : q.topicId !== BEHAVIORAL_TOPIC) &&
-      q.stem.toLocaleLowerCase('es').includes(search.toLocaleLowerCase('es')),
-  )
-  const question =
-    filtered[Math.min(studyIndex, Math.max(0, filtered.length - 1))]
-  const labelTopic = (id: string) =>
-    bank?.topics.find((t) => t.id === id)?.label ?? 'Tema'
+  const exam = useExamRun({
+    bank,
+    examProfile,
+    progress,
+    progressRef,
+    commit,
+    seedClock: setNow,
+    goTo: setView,
+    lastVisit,
+  })
+  const {
+    count, setCount,
+    minutes, setMinutes,
+    sessionId, setSessionId,
+    confirmFinish, setConfirmFinish,
+    session, setupExam, start, updateSession,
+  } = exam
+  const examTopics = weightedTopics(examProfile)
+  const examQuestions = questionsInScope(bank, examTopics)
+  const cutoffOf = (s: Session) => passingScoreOf(bank, s)
+  const outOfScope = (q: Question) => isOutOfScope(q, examTopics)
+  const filtered = filterStudyQuestions({
+    bank, studyOrder, block, topic, search, onlySaved, reviewIds, scope,
+    marks: progress.marks, examTopics,
+  })
+  const question = questionAt(filtered, studyIndex)
+  const labelTopic = (id: string) => topicLabel(bank, id)
   const goStudy = (b: Block, ids: string[] | null = null) => {
     if (bank) setStudyOrder(newStudyOrder(bank.questions, b))
     setBlock(b)
@@ -355,55 +326,6 @@ export default function App() {
   }
   // Cantidad y duracion salen del perfil. Si la PGN no las publico, quedan como
   // parametros de practica y la pantalla lo rotula.
-  const setupExam = () => {
-    setCount(examProfile?.questionCount ?? 20)
-    setMinutes(examProfile?.durationMinutes ?? 30)
-    setView('setup')
-  }
-  const start = () => {
-    if (!bank) return
-    if (!examProfile) return
-    const s = createExamSession(bank.questions, examProfile, count, minutes)
-    setNow(s.startedAt)
-    commit({
-      ...progressRef.current,
-      sessions: [...progressRef.current.sessions, s],
-    })
-    setSessionId(s.id)
-    lastVisit.current = Date.now()
-    setView('exam')
-    setConfirmFinish(false)
-  }
-  const updateSession = (mutate: (s: Session) => Session) => {
-    const p = progressRef.current
-    const s = p.sessions.find((s) => s.id === sessionId)
-    if (!s || s.finishedAt) return
-    const time = Date.now()
-    if (time >= s.endsAt) {
-      commit(settleExpired(p, time))
-      setView('results')
-      return
-    }
-    const q = s.questions[s.index]
-    const timed = {
-      ...s,
-      answers: {
-        ...s.answers,
-        [q.id]: {
-          ...s.answers[q.id],
-          seconds:
-            s.answers[q.id].seconds +
-            Math.max(0, (time - lastVisit.current) / 1000),
-        },
-      },
-    }
-    lastVisit.current = time
-    const updated = mutate(timed)
-    commit({
-      ...p,
-      sessions: p.sessions.map((x) => (x.id === updated.id ? updated : x)),
-    })
-  }
   const leave = (target: 'home' | 'questions' | 'progress') => {
     if (view === 'exam') updateSession((s) => s)
     if (target === 'questions' && (view === 'home' || studyOrder?.block !== block)) { goStudy(block); return }
@@ -576,77 +498,12 @@ export default function App() {
           </>
         )}
         {bank && examProfile && view === 'setup' && (
-          <section className="setup panel">
-            <button className="text-button" onClick={() => setView('home')}>
-              ← Inicio
-            </button>
-            <h1>
-              Prueba de Conocimientos {String.fromCharCode(183)} {examProfile.id}
-            </h1>
-            <p>
-              Prueba eliminatoria. Una pregunta a la vez. Las explicaciones
-              aparecen al finalizar.
-            </p>
-            {(examProfile.questionCount === null ||
-              examProfile.durationMinutes === null) && (
-              <p className="notice">
-                Formato no confirmado por la PGN: la Resolución 076 no define
-                cantidad de preguntas ni duración. Los valores de abajo son de
-                entrenamiento, no el formato oficial.
-              </p>
-            )}
-            <label>
-              Preguntas
-              <input
-                type="number"
-                min={1}
-                max={examQuestions.length}
-                value={count}
-                onChange={(e) =>
-                  setCount(
-                    Math.max(
-                      1,
-                      Math.min(
-                        examQuestions.length,
-                        Math.floor(Number(e.target.value)) || 1,
-                      ),
-                    ),
-                  )
-                }
-              />
-            </label>
-            <label>
-              Duración en minutos
-              <input
-                type="number"
-                min={1}
-                max={240}
-                value={minutes}
-                onChange={(e) =>
-                  setMinutes(
-                    Math.max(
-                      1,
-                      Math.min(240, Math.floor(Number(e.target.value)) || 1),
-                    ),
-                  )
-                }
-              />
-            </label>
-            <p>
-              Se usarán {Math.min(count, examQuestions.length)} de{' '}
-              {examQuestions.length} preguntas del alcance de la convocatoria.
-            </p>
-            <p className="bank-note">
-              Preguntas aprobadas por el propietario. Resultado orientativo para estudiar.
-            </p>
-            <button
-              className="primary"
-              disabled={!examQuestions.length}
-              onClick={start}
-            >
-              Comenzar la prueba
-            </button>
-          </section>
+          <SetupView
+            profile={examProfile}
+            examQuestions={examQuestions}
+            exam={exam}
+            onBack={() => setView('home')}
+          />
         )}
         {bank && view === 'questions' && (
           <>
@@ -1127,81 +984,16 @@ export default function App() {
             )
           })()}
         {bank && view === 'progress' && (
-          <>
-            <div className="page-heading">
-              <h1>Tu progreso</h1>
-              <p>
-                {temporary
-                  ? 'Tus resultados son temporales. Exporta una copia antes de cerrar.'
-                  : 'Un paso cada día. Tus resultados se guardan en este dispositivo.'}
-              </p>
-            </div>
-            <div className="stats">
-              <div>
-                <strong>{total}</strong>Preguntas intentadas
-              </div>
-              <div>
-                <strong>{total ? Math.round((hits / total) * 100) : 0}%</strong>
-                Aciertos
-              </div>
-              <div>
-                <strong>
-                  {Object.values(progress.marks).filter((m) => m.saved).length}
-                </strong>
-                Guardadas
-              </div>
-            </div>
-            <div className="button-row">
-              <button className="primary" onClick={download}>
-                Exportar progreso
-              </button>
-              <label className="secondary file-label">
-                Importar progreso
-                <input
-                  aria-label="Importar progreso"
-                  type="file"
-                  accept="application/json"
-                  onChange={(e) => {
-                    if (e.target.files?.[0]) void upload(e.target.files[0])
-                    e.target.value = ''
-                  }}
-                />
-              </label>
-            </div>
-            <p className="bank-note">
-              Incluye tus marcas y notas personales. Conserva la copia en un
-              lugar privado. Los resultados con preguntas provisionales son
-              orientativos.
-            </p>
-            <h2>Pruebas terminadas</h2>
-            {!completed.length ? (
-              <p className="empty">Tu primera prueba aparecerá aquí.</p>
-            ) : (
-              completed
-                .slice()
-                .reverse()
-                .map((s) => (
-                  <button
-                    className="history-row"
-                    key={s.id}
-                    onClick={() => {
-                      setSessionId(s.id)
-                      setView('results')
-                    }}
-                  >
-                    <span>
-                      {sessionTitle(s)}
-                      <small>
-                        {new Date(s.startedAt).toLocaleDateString('es-CO')}
-                      </small>
-                    </span>
-                    <strong>
-                      {scoreSession(s, cutoffOf(s)).score}/100 →
-                    </strong>
-                  </button>
-                ))
-            )}
-          </>
+          <ProgressView
+            learning={{ progress, temporary }}
+            cutoffOf={cutoffOf}
+            onDownload={download}
+            onUpload={(f) => void upload(f)}
+            onOpenResults={(id) => {
+              setSessionId(id)
+              setView('results')
+            }}
+          />
         )}
       </main>
       <footer>Material de preparación no oficial · Progreso local</footer>
