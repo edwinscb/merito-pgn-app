@@ -17,6 +17,17 @@ import {
 import './styles.css'
 import { RegistrationCard } from './RegistrationCard'
 import { newStudyOrder, orderedQuestions, type StudyOrder } from './domain/study-order'
+import {
+  activeSessions,
+  filterStudyQuestions,
+  isOutOfScope,
+  passingScoreOf,
+  questionAt,
+  questionsInScope,
+  questionsOfBlock,
+  topicLabel,
+  weightedTopics,
+} from './domain/study-selectors'
 import { useClock } from './hooks/useClock'
 import { useExpiredSessions } from './hooks/useExpiredSessions'
 import { useExamRun } from './hooks/useExamRun'
@@ -274,8 +285,8 @@ export default function App() {
   useExpiredSessions(now, progressRef, commit, () => {
     if (view === 'exam') setView('results')
   })
-  const active = progress.sessions.filter((s) => !s.finishedAt)
-  const available = bank?.questions.filter((q) => q.moduleId === block) ?? []
+  const active = activeSessions(progress)
+  const available = questionsOfBlock(bank, block)
   const examProfile =
     bank?.examProfiles.find((p) => p.id === EXAM_PROFILE_ID) ?? null
   const exam = useExamRun({
@@ -295,35 +306,16 @@ export default function App() {
     confirmFinish, setConfirmFinish,
     session, setupExam, start, updateSession,
   } = exam
-  // El alcance sale de topicDistribution, no de targetCallIds.
-  const examTopics = new Set(
-    examProfile?.topicDistribution
-      .filter((item) => item.weight > 0)
-      .map((item) => item.topicId) ?? [],
-  )
-  const examQuestions =
-    bank?.questions.filter((q) => examTopics.has(q.topicId)) ?? []
-  const cutoffOf = (s: Session) =>
-    bank?.examProfiles.find((p) => p.id === s.profileId)
-      ?.passingKnowledgeScore ?? null
-  // Las comportamentales no estan "fuera": son otra prueba, clasificatoria.
-  const outOfScope = (q: Question) =>
-    !examTopics.has(q.topicId) && q.topicId !== BEHAVIORAL_TOPIC
-  const filtered = (studyOrder && studyOrder.block === block && bank ? orderedQuestions(studyOrder, bank.questions) : available).filter(
-    (q) =>
-      (!topic || q.topicId === topic) &&
-      (!onlySaved || progress.marks[q.id]?.saved) &&
-      (!reviewIds || reviewIds.includes(q.id)) &&
-      (scope !== 'convocatoria' || examTopics.has(q.topicId)) &&
-      (scope === 'comportamentales'
-        ? q.topicId === BEHAVIORAL_TOPIC
-        : q.topicId !== BEHAVIORAL_TOPIC) &&
-      q.stem.toLocaleLowerCase('es').includes(search.toLocaleLowerCase('es')),
-  )
-  const question =
-    filtered[Math.min(studyIndex, Math.max(0, filtered.length - 1))]
-  const labelTopic = (id: string) =>
-    bank?.topics.find((t) => t.id === id)?.label ?? 'Tema'
+  const examTopics = weightedTopics(examProfile)
+  const examQuestions = questionsInScope(bank, examTopics)
+  const cutoffOf = (s: Session) => passingScoreOf(bank, s)
+  const outOfScope = (q: Question) => isOutOfScope(q, examTopics)
+  const filtered = filterStudyQuestions({
+    bank, studyOrder, block, topic, search, onlySaved, reviewIds, scope,
+    marks: progress.marks, examTopics,
+  })
+  const question = questionAt(filtered, studyIndex)
+  const labelTopic = (id: string) => topicLabel(bank, id)
   const goStudy = (b: Block, ids: string[] | null = null) => {
     if (bank) setStudyOrder(newStudyOrder(bank.questions, b))
     setBlock(b)
