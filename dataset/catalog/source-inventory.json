@@ -125,7 +125,7 @@
     "mimeType": "text/markdown",
     "status": "reference",
     "notes": "Fases 0 a 3 implementadas, Fase 4 desplegada en producción y Fase 5 en progreso.",
-    "sha256": "fc8acf531f1af8e492945f88bd334b300e97d6e9987018b9a3405e8f0c515d7c",
+    "sha256": "469d457e36947468b2aa42830e21c4e68b639f910791f2789ed54360f7ebf54e",
     "incorporatedAt": "2026-09-03",
     "public": false
   },

@@ -10,6 +10,13 @@ migración del progreso y contador de inscripción respaldado por Resolución 13
 `docs/experiencia-estudio.md`. Este ajuste no declara completada la revisión
 editorial de la expansión ni modifica los objetivos de las fases siguientes.
 
+Retiro del contador de inscripción (19 de septiembre de 2026): la ventana cerró el
+18 de septiembre a las 16:00 y la cuenta atrás solo podía mostrar ceros, así que se
+retiró de la interfaz. La tarjeta conserva el estado, la fecha de cierre, el enlace
+al portal y la Resolución 133 como evidencia. `registrationState` y sus pruebas se
+mantienen intactas: siguen verificando el manejo de zona horaria con instantes
+absolutos.
+
 ## 1. Decisiones confirmadas
 
 - Aplicativo de uso personal para preparar el Concurso PGN 2026.
