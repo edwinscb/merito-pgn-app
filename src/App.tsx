@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react'
 import type { Question } from './domain/dataset/contracts'
 import {
   createExamSession,
-  emptyProgress,
   exportLearning,
   finishSession,
   importLearning,
@@ -17,17 +16,13 @@ import {
   type Session,
   type StudyBank,
 } from './domain/learning'
-import {
-  isPersistent,
-  loadLearning,
-  saveLearning,
-} from './domain/progress/learning-store'
 import './styles.css'
 import { RegistrationCard } from './RegistrationCard'
 import { newStudyOrder, orderedQuestions, restoreStudyOrder, STUDY_KEY, type StudyOrder } from './domain/study-order'
 import { useClock } from './hooks/useClock'
 import { useExpiredSessions } from './hooks/useExpiredSessions'
 import { useFocusOnViewChange } from './hooks/useFocusOnViewChange'
+import { useLearningProgress } from './hooks/useLearningProgress'
 import { useStudyOrderPersistence } from './hooks/useStudyOrderPersistence'
 import { useTheme } from './hooks/useTheme'
 
@@ -252,14 +247,12 @@ function StudyQuestion({
 
 export default function App() {
   const [theme, setTheme] = useTheme()
+  const { progress, progressRef, temporary, commit } = useLearningProgress()
   const [bank, setBank] = useState<StudyBank | null>(null)
-  const [progress, setProgress] = useState<LearningProgress>(emptyProgress)
-  const progressRef = useRef(progress)
   const [view, setView] = useState<
     'home' | 'questions' | 'progress' | 'setup' | 'exam' | 'results'
   >('home')
   const [error, setError] = useState('')
-  const [temporary, setTemporary] = useState(false)
   const [block, setBlock] = useState<Block>('comun')
   const [search, setSearch] = useState('')
   const [topic, setTopic] = useState('')
@@ -280,15 +273,10 @@ export default function App() {
   const [confirmFinish, setConfirmFinish] = useState(false)
   const lastVisit = useRef(Date.now())
   const mainRef = useFocusOnViewChange(view)
-  const commit = (next: LearningProgress) => {
-    progressRef.current = next
-    setProgress(next)
-    void saveLearning(next).then((ok) => setTemporary(!ok))
-  }
   useEffect(() => {
     let mounted = true
-    Promise.all([loadStudyBank(), loadLearning()])
-      .then(([b, p]) => {
+    loadStudyBank()
+      .then((b) => {
         if (!mounted) return
         setBank(b)
         try {
@@ -303,16 +291,6 @@ export default function App() {
           setStudyOrder(newStudyOrder(b.questions, 'comun'))
           setStudyTemporary(true)
         }
-        const settled = settleExpired(p)
-        progressRef.current = settled
-        setProgress(settled)
-        setTemporary(!isPersistent())
-        if (
-          settled.sessions.some(
-            (s, i) => s.finishedAt !== p.sessions[i].finishedAt,
-          )
-        )
-          void saveLearning(settled)
       })
       .catch(() => {
         if (mounted)
