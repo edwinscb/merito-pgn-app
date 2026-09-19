@@ -23,7 +23,7 @@ estándar por defecto. Se citan por su título, no por número.
 Responde siempre en **español**.
 
 ## Estilo de respuesta
-Sé **corto y al punto**. Conclusión primero, sin preámbulo. El detalle solo si
+Usa la skill **i-have-adhd.md**.Sé **corto y al punto**. Conclusión primero, sin preámbulo. El detalle solo si
 se pide.
 
 ## Ramas de trabajo
