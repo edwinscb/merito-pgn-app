@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import rawBank from '../public/data/study-bank.json'
 import { QuestionSchema } from '../src/domain/dataset/contracts.js'
 import {
+  createExamSession,
   createSession,
   emptyProgress,
   exportLearning,
@@ -83,7 +84,7 @@ describe('dos simuladores de práctica', () => {
     ).toBe(false)
     expect(SessionSchema.safeParse({ ...s, answers: {} }).success).toBe(false)
   })
-  it('importa v1, exporta v2 con marcas y confianza opcional; combina sin duplicar', () => {
+  it('importa v1, exporta v3 con marcas y confianza opcional; combina sin duplicar', () => {
     const attempt = {
       questionId: 'q1',
       attemptedAt: '2026-09-07T12:00:00.000Z',
@@ -116,3 +117,142 @@ describe('dos simuladores de práctica', () => {
     expect(() => importLearning('not json')).toThrow()
   })
 })
+
+const profile126 = rawBank.examProfiles.find((p) => p.id === '126-2026')!
+const enAlcance = new Set(
+  profile126.topicDistribution
+    .filter((t) => t.weight > 0)
+    .map((t) => t.topicId),
+)
+const fueraDeAlcance = [
+  'datos_y_analitica',
+  'derecho_disciplinario',
+  'contratacion_estatal',
+  'competencias_comportamentales',
+]
+
+describe('prueba de Conocimientos de la convocatoria 126-2026', () => {
+  it('arma la sesion solo con los temas en alcance del perfil', () => {
+    const s = createExamSession(questions, profile126, 40, 90, 1000)
+    expect(s.questions).toHaveLength(40)
+    expect(s.profileId).toBe('126-2026')
+    expect(s.block).toBeNull()
+    expect(s.endsAt).toBe(5401000)
+    expect(new Set(s.questions.map((q) => q.id)).size).toBe(40)
+    expect(s.questions.every((q) => enAlcance.has(q.topicId))).toBe(true)
+    for (const tema of fueraDeAlcance)
+      expect(s.questions.some((q) => q.topicId === tema)).toBe(false)
+  })
+  it('mezcla nucleo general y especifico, y el schema lo acepta', () => {
+    const s = createExamSession(questions, profile126, 30, 60, 1000)
+    expect(new Set(s.questions.map((q) => q.moduleId))).toEqual(
+      new Set(['comun', 'tecnico']),
+    )
+    expect(SessionSchema.safeParse(s).success).toBe(true)
+    // Con perfil y bloque a la vez la sesion es ambigua.
+    expect(SessionSchema.safeParse({ ...s, block: 'comun' }).success).toBe(false)
+    // Sin perfil vuelve a ser practica y el bloque unico se exige otra vez.
+    expect(
+      SessionSchema.safeParse({ ...s, block: 'comun', profileId: null }).success,
+    ).toBe(false)
+    expect(SessionSchema.safeParse({ ...s, block: null }).success).toBe(true)
+  })
+  it('rellena con los demas temas cuando uno no alcanza y no falla', () => {
+    const s = createExamSession(
+      questions,
+      {
+        id: 'hueco',
+        topicDistribution: [
+          { topicId: 'sistemas_operativos', weight: 0.5 },
+          { topicId: 'gestion_documental', weight: 0.5 },
+        ],
+      },
+      12,
+      30,
+      1000,
+    )
+    // sistemas_operativos no tiene preguntas y gestion_documental solo tiene 9:
+    // la sesion entrega lo que hay en vez de lanzar.
+    expect(s.questions).toHaveLength(9)
+    expect(s.questions.every((q) => q.topicId === 'gestion_documental')).toBe(
+      true,
+    )
+  })
+  it('califica sobre 100 y aplica el corte del perfil: 65 aprueba, 64 no', () => {
+    const aprueba = createExamSession(questions, profile126, 20, 30, 1000)
+    aprueba.questions.slice(0, 13).forEach((q) => {
+      aprueba.answers[q.id].selected = q.correctOptionId
+    })
+    expect(scoreSession(aprueba, 65)).toMatchObject({
+      correct: 13,
+      wrong: 0,
+      omitted: 7,
+      score: 65,
+      passed: true,
+    })
+    const reprueba = createExamSession(questions, profile126, 25, 30, 1000)
+    reprueba.questions.slice(0, 16).forEach((q) => {
+      reprueba.answers[q.id].selected = q.correctOptionId
+    })
+    expect(scoreSession(reprueba, 65)).toMatchObject({
+      correct: 16,
+      score: 64,
+      passed: false,
+    })
+    // Sin corte no hay veredicto.
+    expect(scoreSession(reprueba).passed).toBeNull()
+    expect(scoreSession(reprueba).score).toBe(64)
+  })
+  it('migra un progreso v2 a v3 sin perder sesiones ni marcas', () => {
+    const heredada = createSession(questions, 'tecnico', 4, 15, 1000)
+    const marcada = heredada.questions[0].id
+    heredada.answers[marcada] = { selected: 'B', flagged: true, seconds: 7 }
+    const sinPerfil = { ...heredada } as Record<string, unknown>
+    // Un export v2 real no conoce profileId.
+    delete sinPerfil.profileId
+    const v2 = {
+      schemaVersion: 2,
+      exportedAt: '2026-09-07T12:00:00.000Z',
+      appVersion: '0.2.0',
+      attempts: [
+        {
+          questionId: marcada,
+          attemptedAt: '2026-09-07T12:00:00.000Z',
+          selectedOptionId: 'B',
+          correct: false,
+          confidence: 2,
+          responseTimeSeconds: 7,
+          mode: 'practice',
+          examId: null,
+        },
+      ],
+      marks: {
+        [marcada]: {
+          saved: true,
+          reviewed: false,
+          problem: true,
+          note: 'Repasar',
+          updatedAt: 10,
+        },
+      },
+      sessions: [sinPerfil],
+    }
+    const migrado = importLearning(JSON.stringify(v2))
+    expect(migrado.sessions).toHaveLength(1)
+    expect(migrado.sessions[0].profileId).toBeNull()
+    expect(migrado.sessions[0].block).toBe('tecnico')
+    expect(migrado.sessions[0].questions).toHaveLength(4)
+    expect(migrado.sessions[0].answers[marcada]).toEqual({
+      selected: 'B',
+      flagged: true,
+      seconds: 7,
+    })
+    expect(migrado.marks[marcada].note).toBe('Repasar')
+    expect(migrado.attempts).toHaveLength(1)
+    expect(exportLearning(migrado).schemaVersion).toBe(3)
+    expect(importLearning(JSON.stringify(exportLearning(migrado)))).toEqual(
+      migrado,
+    )
+  })
+})
+

@@ -38,8 +38,8 @@ const readTheme = (): Theme => {
 
 const clock = (seconds: number) =>
   `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`
-const blockLabel = (block: Block) =>
-  block === 'comun' ? 'General' : 'Sistemas'
+const blockLabel = (block: Block | null) =>
+  block === null ? 'Conocimientos' : block === 'comun' ? 'General' : 'Sistemas'
 const blankMark = (): Mark => ({
   saved: false,
   reviewed: false,
@@ -980,7 +980,7 @@ export default function App() {
                     className="primary"
                     onClick={() =>
                       goStudy(
-                        session.block,
+                        session.block ?? block,
                         session.questions
                           .filter(
                             (q) =>
@@ -995,7 +995,7 @@ export default function App() {
                   </button>
                   <button
                     className="secondary"
-                    onClick={() => setup(session.block)}
+                    onClick={() => setup(session.block ?? block)}
                   >
                     Nuevo simulacro
                   </button>
