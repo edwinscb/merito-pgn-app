@@ -39,3 +39,6 @@ skills-lock.json
 # Ajustes locales de Kiro CLI (preferencia de la maquina).
 # OJO: .kiro/steering/ SI se versiona: lo genera tools/sync.ps1
 .kiro/settings/
+# Espacio de trabajo de playwright-cli: lo crea `playwright-cli install`.
+# Se declara aqui para que la herramienta no edite este archivo por su cuenta.
+.playwright/
