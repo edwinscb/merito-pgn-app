@@ -6,8 +6,9 @@
     "sourceIds": ["pgn-call-121-2026", "pgn-resolution-212-2026", "pgn-resolution-243-2026"],
     "questionCount": null,
     "durationMinutes": null,
+    "passingKnowledgeScore": null,
     "topicDistribution": [],
-    "notes": "Perfil provisional: la ficha local es versión 2 y la Resolución 212 de 2026 ordena modificaciones; falta incorporar la ficha resultante vigente. La cantidad, duración y distribución no se afirman."
+    "notes": "Perfil provisional: la ficha local es versión 2 y la Resolución 212 de 2026 ordena modificaciones; falta incorporar la ficha resultante vigente. La cantidad, duración y distribución no se afirman. El corte aprobatorio queda en null porque no se verificó a qué nivel de empleo corresponde el cargo de esta convocatoria en la Tabla No. 1 del artículo 18 de la Resolución 076."
   },
   {
     "id": "126-2026",
@@ -16,6 +17,7 @@
     "sourceIds": ["pgn-call-126-2026", "pgn-resolution-076-2026", "pgn-resolution-212-2026", "pgn-resolution-243-2026"],
     "questionCount": null,
     "durationMinutes": null,
+    "passingKnowledgeScore": 65,
     "topicDistribution": [
       { "topicId": "software_e_interoperabilidad", "weight": 0.2631 },
       { "topicId": "infraestructura_nube_y_ciberseguridad", "weight": 0.2556 },
@@ -34,7 +36,8 @@
     "sourceIds": ["pgn-call-127-2026", "pgn-resolution-212-2026", "pgn-resolution-243-2026"],
     "questionCount": null,
     "durationMinutes": null,
+    "passingKnowledgeScore": null,
     "topicDistribution": [],
-    "notes": "Perfil provisional: la ficha local es versión 2 y la Resolución 212 de 2026 ordena modificaciones; falta incorporar la ficha resultante vigente. La cantidad, duración y distribución no se afirman."
+    "notes": "Perfil provisional: la ficha local es versión 2 y la Resolución 212 de 2026 ordena modificaciones; falta incorporar la ficha resultante vigente. La cantidad, duración y distribución no se afirman. El corte aprobatorio queda en null porque no se verificó a qué nivel de empleo corresponde el cargo de esta convocatoria en la Tabla No. 1 del artículo 18 de la Resolución 076."
   }
 ]

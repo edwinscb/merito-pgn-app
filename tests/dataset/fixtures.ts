@@ -108,6 +108,7 @@ export function validDocuments(): DatasetDocuments {
       sourceIds: ['official-source'],
       questionCount: 1,
       durationMinutes: 1,
+      passingKnowledgeScore: 65,
       topicDistribution: [{ topicId: 'topic', weight: 1 }],
       notes: 'Fixture.'
     })],

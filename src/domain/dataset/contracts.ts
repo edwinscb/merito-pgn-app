@@ -189,6 +189,9 @@ export const ExamProfileSchema = z.object({
   sourceIds: z.array(idSchema).min(1),
   questionCount: z.number().int().positive().nullable(),
   durationMinutes: z.number().int().positive().nullable(),
+  // Corte aprobatorio de la prueba de Conocimientos sobre 100. La Tabla No. 1 del
+  // articulo 18 lo fija por nivel de empleo, asi que no es una constante global.
+  passingKnowledgeScore: z.number().int().min(0).max(100).nullable(),
   topicDistribution: z.array(z.object({
     topicId: idSchema,
     weight: z.number().min(0).max(1)

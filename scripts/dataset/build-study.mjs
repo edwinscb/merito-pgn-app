@@ -91,6 +91,7 @@ export function buildStudyBank(
         status,
         questionCount,
         durationMinutes,
+        passingKnowledgeScore,
         topicDistribution,
         notes,
       }) => ({
@@ -99,6 +100,7 @@ export function buildStudyBank(
         status,
         questionCount,
         durationMinutes,
+        passingKnowledgeScore,
         topicDistribution,
         notes,
       }),

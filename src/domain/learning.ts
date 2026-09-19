@@ -222,6 +222,7 @@ const BankSchema = z.object({
         status: z.enum(['provisional', 'confirmed']),
         questionCount: z.number().int().positive().nullable(),
         durationMinutes: z.number().int().positive().nullable(),
+        passingKnowledgeScore: z.number().int().min(0).max(100).nullable(),
         topicDistribution: z.array(
           z.object({ topicId: z.string(), weight: z.number().min(0).max(1) }),
         ),
