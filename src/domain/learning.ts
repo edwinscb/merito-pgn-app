@@ -23,11 +23,20 @@ export const profiles = [
     description: 'Datos, software, infraestructura y ciberseguridad.',
   },
 ] as const
-export const PracticeProfileSchema = z.object({
-  block: BlockSchema,
+// El articulo 18 de la Resolucion 076 no fija cantidad ni duracion, asi que los
+// limites siguen siendo los del producto, no un dato oficial.
+export const ExamSetupSchema = z.object({
   count: z.number().int().min(1).max(200),
   minutes: z.number().int().min(1).max(240),
 })
+export const PracticeProfileSchema = ExamSetupSchema.extend({
+  block: BlockSchema,
+})
+// Alcance minimo que la sesion necesita del perfil de la convocatoria.
+export interface ExamScope {
+  id: string
+  topicDistribution: Array<{ topicId: string; weight: number }>
+}
 const AnswerSchema = z.object({
   selected: z.enum(['A', 'B', 'C', 'D']).nullable(),
   flagged: z.boolean(),
@@ -36,7 +45,11 @@ const AnswerSchema = z.object({
 export const SessionSchema = z
   .object({
     id: z.string().min(1),
-    block: BlockSchema,
+    // Una sesion es de bloque (practica de un modulo) o de convocatoria (prueba de
+    // Conocimientos, que mezcla nucleo general y especifico). Nunca las dos cosas.
+    block: BlockSchema.nullable(),
+    // Las sesiones creadas antes de la convocatoria quedan en null: historial heredado.
+    profileId: z.string().min(1).nullable().default(null),
     questions: z.array(QuestionSchema).min(1),
     startedAt: z.number().nonnegative(),
     endsAt: z.number().nonnegative(),
@@ -53,8 +66,16 @@ export const SessionSchema = z
       new Set(s.questions.map((q) => q.id)).size !== s.questions.length
     )
       ctx.addIssue({ code: 'custom', message: 'Sesión inconsistente.' })
+    if ((s.block === null) === (s.profileId === null))
+      ctx.addIssue({
+        code: 'custom',
+        message: 'La sesion necesita bloque o perfil, nunca ambos ni ninguno.',
+      })
+    // La prueba de Conocimientos mezcla los dos modulos, por eso el bloque unico
+    // solo se exige cuando la sesion es de practica por bloque.
     if (
-      s.questions.some((q) => q.moduleId !== s.block || !s.answers[q.id]) ||
+      (s.block !== null && s.questions.some((q) => q.moduleId !== s.block)) ||
+      s.questions.some((q) => !s.answers[q.id]) ||
       Object.keys(s.answers).length !== s.questions.length
     )
       ctx.addIssue({
@@ -83,6 +104,13 @@ export const emptyProgress = (): LearningProgress => ({
   sessions: [],
 })
 export const LearningExportSchema = LearningProgressSchema.extend({
+  schemaVersion: z.literal(3),
+  exportedAt: z.string().datetime(),
+  appVersion: z.string(),
+})
+// v2 solo se diferencia de v3 en que sus sesiones no conocen profileId; el default
+// del schema lo pone en null y la sesion queda como historial heredado.
+const LearningExportV2Schema = LearningProgressSchema.extend({
   schemaVersion: z.literal(2),
   exportedAt: z.string().datetime(),
   appVersion: z.string(),
@@ -94,12 +122,14 @@ export function importLearning(text: string): LearningProgress {
       ...emptyProgress(),
       attempts: ProgressExportSchema.parse(value).attempts,
     }
+  if (value.schemaVersion === 2)
+    return LearningProgressSchema.parse(LearningExportV2Schema.parse(value))
   return LearningProgressSchema.parse(LearningExportSchema.parse(value))
 }
 export function exportLearning(progress: LearningProgress) {
   return LearningExportSchema.parse({
     ...progress,
-    schemaVersion: 2,
+    schemaVersion: 3,
     exportedAt: new Date().toISOString(),
     appVersion: '0.2.0',
   })
@@ -151,6 +181,51 @@ export function createSession(
   return SessionSchema.parse({
     id: crypto.randomUUID(),
     block,
+    profileId: null,
+    questions: chosen,
+    startedAt: now,
+    endsAt: now + minutes * 60000,
+    finishedAt: null,
+    index: 0,
+    answers: Object.fromEntries(
+      chosen.map((q) => [q.id, { selected: null, flagged: false, seconds: 0 }]),
+    ),
+  })
+}
+// Arma la prueba de Conocimientos: solo temas con peso en el perfil, repartidos por
+// ese peso. Si un tema no alcanza para su cupo, el hueco lo llenan los demas temas
+// del alcance en vez de fallar.
+export function createExamSession(
+  questions: Question[],
+  profile: ExamScope,
+  count = 20,
+  minutes = 30,
+  now = Date.now(),
+  random = Math.random,
+): Session {
+  ExamSetupSchema.parse({ count, minutes })
+  const scoped = profile.topicDistribution.filter((t) => t.weight > 0)
+  const totalWeight = scoped.reduce((sum, t) => sum + t.weight, 0)
+  const byTopic = new Map<string, Question[]>(scoped.map((t) => [t.topicId, []]))
+  for (const q of questions) byTopic.get(q.topicId)?.push(q)
+  const quota: Question[] = []
+  const leftover: Question[] = []
+  for (const t of scoped) {
+    const available = shuffled(byTopic.get(t.topicId) ?? [], random)
+    const target =
+      totalWeight > 0 ? Math.round((t.weight / totalWeight) * count) : 0
+    quota.push(...available.slice(0, target))
+    leftover.push(...available.slice(target))
+  }
+  const filler = shuffled(leftover, random)
+  while (quota.length < count && filler.length > 0) quota.push(filler.shift()!)
+  const chosen = shuffled(quota, random)
+    .slice(0, count)
+    .map((q) => ({ ...q, options: shuffled(q.options, random) }))
+  return SessionSchema.parse({
+    id: crypto.randomUUID(),
+    block: null,
+    profileId: profile.id,
     questions: chosen,
     startedAt: now,
     endsAt: now + minutes * 60000,
@@ -164,7 +239,9 @@ export function createSession(
 export function finishSession(s: Session, now = Date.now()): Session {
   return { ...s, finishedAt: s.finishedAt ?? Math.min(now, s.endsAt) }
 }
-export function scoreSession(s: Session) {
+// El corte llega como dato del perfil. Sin corte no hay veredicto: passed queda en
+// null en vez de inventar un aprobado.
+export function scoreSession(s: Session, passingScore: number | null = null) {
   let correct = 0,
     omitted = 0
   const topics: Record<string, { correct: number; total: number }> = {}
@@ -177,11 +254,14 @@ export function scoreSession(s: Session) {
     topics[q.topicId].total++
     if (hit) topics[q.topicId].correct++
   })
+  const score = Math.round((correct / s.questions.length) * 100)
   return {
     correct,
     omitted,
     wrong: s.questions.length - correct - omitted,
     topics,
+    score,
+    passed: passingScore === null ? null : score >= passingScore,
   }
 }
 export function settleExpired(
@@ -212,6 +292,24 @@ const BankSchema = z.object({
     }),
   ),
   provisionalIds: z.array(z.string()),
+  // Perfiles de convocatoria emitidos por build-study. Con default para que un
+  // banco viejo en cache de la PWA siga cargando sin el campo.
+  examProfiles: z
+    .array(
+      z.object({
+        id: z.string(),
+        title: z.string(),
+        status: z.enum(['provisional', 'confirmed']),
+        questionCount: z.number().int().positive().nullable(),
+        durationMinutes: z.number().int().positive().nullable(),
+        passingKnowledgeScore: z.number().int().min(0).max(100).nullable(),
+        topicDistribution: z.array(
+          z.object({ topicId: z.string(), weight: z.number().min(0).max(1) }),
+        ),
+        notes: z.string(),
+      }),
+    )
+    .default([]),
 })
 export type StudyBank = z.infer<typeof BankSchema>
 export async function loadStudyBank(): Promise<StudyBank> {

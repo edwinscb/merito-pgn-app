@@ -60,6 +60,8 @@
 | datos_y_analitica — Datos y analítica | 31 |
 | software_e_interoperabilidad — Software e interoperabilidad | 35 |
 | infraestructura_nube_y_ciberseguridad — Infraestructura, nube y ciberseguridad | 34 |
+| sistemas_operativos — Sistemas operativos | 0 |
+| soporte_y_mantenimiento — Soporte y mantenimiento de software y hardware | 0 |
 
 ## Preguntas por convocatoria
 
@@ -69,3 +71,13 @@
 | 126-2026 | 12 |
 | 127-2026 | 10 |
 | sin_convocatoria | 189 |
+
+## Preguntas elegibles por convocatoria (topicDistribution)
+
+Sobre el banco publicado: 200 preguntas.
+
+| Categoría | Cantidad |
+| --- | ---: |
+| 121-2026 — 0 temas con peso | 0 |
+| 126-2026 — 7 temas con peso | 133 |
+| 127-2026 — 0 temas con peso | 0 |
