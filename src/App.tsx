@@ -16,6 +16,7 @@ import {
 } from './domain/learning'
 import './styles.css'
 import { RegistrationCard } from './RegistrationCard'
+import { SetupView } from './views/SetupView'
 import { newStudyOrder, orderedQuestions, type StudyOrder } from './domain/study-order'
 import {
   activeSessions,
@@ -500,77 +501,12 @@ export default function App() {
           </>
         )}
         {bank && examProfile && view === 'setup' && (
-          <section className="setup panel">
-            <button className="text-button" onClick={() => setView('home')}>
-              ← Inicio
-            </button>
-            <h1>
-              Prueba de Conocimientos {String.fromCharCode(183)} {examProfile.id}
-            </h1>
-            <p>
-              Prueba eliminatoria. Una pregunta a la vez. Las explicaciones
-              aparecen al finalizar.
-            </p>
-            {(examProfile.questionCount === null ||
-              examProfile.durationMinutes === null) && (
-              <p className="notice">
-                Formato no confirmado por la PGN: la Resolución 076 no define
-                cantidad de preguntas ni duración. Los valores de abajo son de
-                entrenamiento, no el formato oficial.
-              </p>
-            )}
-            <label>
-              Preguntas
-              <input
-                type="number"
-                min={1}
-                max={examQuestions.length}
-                value={count}
-                onChange={(e) =>
-                  setCount(
-                    Math.max(
-                      1,
-                      Math.min(
-                        examQuestions.length,
-                        Math.floor(Number(e.target.value)) || 1,
-                      ),
-                    ),
-                  )
-                }
-              />
-            </label>
-            <label>
-              Duración en minutos
-              <input
-                type="number"
-                min={1}
-                max={240}
-                value={minutes}
-                onChange={(e) =>
-                  setMinutes(
-                    Math.max(
-                      1,
-                      Math.min(240, Math.floor(Number(e.target.value)) || 1),
-                    ),
-                  )
-                }
-              />
-            </label>
-            <p>
-              Se usarán {Math.min(count, examQuestions.length)} de{' '}
-              {examQuestions.length} preguntas del alcance de la convocatoria.
-            </p>
-            <p className="bank-note">
-              Preguntas aprobadas por el propietario. Resultado orientativo para estudiar.
-            </p>
-            <button
-              className="primary"
-              disabled={!examQuestions.length}
-              onClick={start}
-            >
-              Comenzar la prueba
-            </button>
-          </section>
+          <SetupView
+            profile={examProfile}
+            examQuestions={examQuestions}
+            exam={exam}
+            onBack={() => setView('home')}
+          />
         )}
         {bank && view === 'questions' && (
           <>
