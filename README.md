@@ -3,6 +3,11 @@
 Aplicación personal para estudiar y practicar el examen de la Procuraduría,
 pensada para celular. Sitio: https://merito-pgn-app.vercel.app/.
 
+El sitio es de **acceso público y sin autenticación** por decisión del 19 de
+septiembre de 2026. No hay cuentas ni datos personales en él, y el progreso sigue
+siendo local por dispositivo, pero el banco de preguntas y sus respuestas
+correctas los descarga cualquiera que tenga la URL.
+
 ## Experiencia
 
 - Dos bloques: **General** (100 preguntas) y **Sistemas** (100).
