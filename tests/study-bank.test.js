@@ -11,6 +11,7 @@ const args = [
   read('dataset/content/sources.json'),
   read('dataset/content/registration.json'),
   read('dataset/content/owner-approval.json'),
+  read('dataset/content/exam-profiles.json'),
 ]
 describe('habilitación de estudio ligada al contenido', () => {
   it('publica 200, distingue 18/182, excluye siete semillas y es determinista', () => {

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { Question } from './domain/dataset/contracts'
 import {
-  createSession,
+  createExamSession,
   emptyProgress,
   exportLearning,
   finishSession,
@@ -38,8 +38,14 @@ const readTheme = (): Theme => {
 
 const clock = (seconds: number) =>
   `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`
-const blockLabel = (block: Block) =>
-  block === 'comun' ? 'General' : 'Sistemas'
+const blockLabel = (block: Block | null) =>
+  block === null ? 'Conocimientos' : block === 'comun' ? 'General' : 'Sistemas'
+// Una sesion con perfil es la prueba de la convocatoria; sin perfil es historial
+// heredado de los simulacros por bloque.
+const sessionTitle = (s: Session) =>
+  s.profileId ? 'Prueba de Conocimientos' : `Simulacro de ${blockLabel(s.block)}`
+const EXAM_PROFILE_ID = '126-2026'
+const BEHAVIORAL_TOPIC = 'competencias_comportamentales'
 const blankMark = (): Mark => ({
   saved: false,
   reviewed: false,
@@ -115,12 +121,14 @@ function StudyQuestion({
   question,
   bank,
   mark,
+  outOfScope,
   onMark,
   onAnswer,
 }: {
   question: Question
   bank: StudyBank
   mark: Mark
+  outOfScope: boolean
   onMark: (m: Mark) => void
   onAnswer: (
     option: 'A' | 'B' | 'C' | 'D',
@@ -140,6 +148,9 @@ function StudyQuestion({
       <div className="question-meta">
         <Badge question={question} bank={bank} />
         <span>{bank.topics.find((t) => t.id === question.topicId)?.label}</span>
+        {outOfScope && (
+          <span className="badge provisional">Fuera de tu convocatoria</span>
+        )}
       </div>
       <h2 className="question-title">{question.stem}</h2>
       <div className="options">
@@ -259,6 +270,11 @@ export default function App() {
   const [search, setSearch] = useState('')
   const [topic, setTopic] = useState('')
   const [onlySaved, setOnlySaved] = useState(false)
+  // Alcance del estudio. Vive aqui, en la capa de filtrado, no en study-order:
+  // cambiarlo no debe invalidar el orden barajado que el usuario ya tiene.
+  const [scope, setScope] = useState<'todo' | 'convocatoria' | 'comportamentales'>(
+    'todo',
+  )
   const [reviewIds, setReviewIds] = useState<string[] | null>(null)
   const [studyIndex, setStudyIndex] = useState(0)
   const [studyOrder, setStudyOrder] = useState<StudyOrder | null>(null)
@@ -351,11 +367,31 @@ export default function App() {
   const session = progress.sessions.find((s) => s.id === sessionId)
   const active = progress.sessions.filter((s) => !s.finishedAt)
   const available = bank?.questions.filter((q) => q.moduleId === block) ?? []
+  const examProfile =
+    bank?.examProfiles.find((p) => p.id === EXAM_PROFILE_ID) ?? null
+  // El alcance sale de topicDistribution, no de targetCallIds.
+  const examTopics = new Set(
+    examProfile?.topicDistribution
+      .filter((item) => item.weight > 0)
+      .map((item) => item.topicId) ?? [],
+  )
+  const examQuestions =
+    bank?.questions.filter((q) => examTopics.has(q.topicId)) ?? []
+  const cutoffOf = (s: Session) =>
+    bank?.examProfiles.find((p) => p.id === s.profileId)
+      ?.passingKnowledgeScore ?? null
+  // Las comportamentales no estan "fuera": son otra prueba, clasificatoria.
+  const outOfScope = (q: Question) =>
+    !examTopics.has(q.topicId) && q.topicId !== BEHAVIORAL_TOPIC
   const filtered = (studyOrder && studyOrder.block === block && bank ? orderedQuestions(studyOrder, bank.questions) : available).filter(
     (q) =>
       (!topic || q.topicId === topic) &&
       (!onlySaved || progress.marks[q.id]?.saved) &&
       (!reviewIds || reviewIds.includes(q.id)) &&
+      (scope !== 'convocatoria' || examTopics.has(q.topicId)) &&
+      (scope === 'comportamentales'
+        ? q.topicId === BEHAVIORAL_TOPIC
+        : q.topicId !== BEHAVIORAL_TOPIC) &&
       q.stem.toLocaleLowerCase('es').includes(search.toLocaleLowerCase('es')),
   )
   const question =
@@ -372,15 +408,17 @@ export default function App() {
     setStudyIndex(0)
     setView('questions')
   }
-  const setup = (b: Block) => {
-    setBlock(b)
-    setCount(20)
-    setMinutes(30)
+  // Cantidad y duracion salen del perfil. Si la PGN no las publico, quedan como
+  // parametros de practica y la pantalla lo rotula.
+  const setupExam = () => {
+    setCount(examProfile?.questionCount ?? 20)
+    setMinutes(examProfile?.durationMinutes ?? 30)
     setView('setup')
   }
   const start = () => {
     if (!bank) return
-    const s = createSession(bank.questions, block, count, minutes)
+    if (!examProfile) return
+    const s = createExamSession(bank.questions, examProfile, count, minutes)
     setNow(s.startedAt)
     commit({
       ...progressRef.current,
@@ -450,12 +488,10 @@ export default function App() {
     }
   }
   const completed = progress.sessions.filter((s) => s.finishedAt)
-  const total =
-    progress.attempts.length +
-    completed.reduce((n, s) => n + s.questions.length, 0)
-  const hits =
-    progress.attempts.filter((a) => a.correct).length +
-    completed.reduce((n, s) => n + scoreSession(s).correct, 0)
+  // El global cuenta solo el estudio. Las pruebas viven en su propio historial con
+  // su nota: sumarlas mezclaría dos escalas distintas.
+  const total = progress.attempts.length
+  const hits = progress.attempts.filter((a) => a.correct).length
   return (
     <div className="app" data-theme={theme}>
       <a href="#contenido" className="skip-link">
@@ -511,7 +547,7 @@ export default function App() {
             {active.map((s) => (
               <div className="resume" key={s.id}>
                 <div>
-                  <strong>Simulacro de {blockLabel(s.block)} en curso</strong>
+                  <strong>{sessionTitle(s)} en curso</strong>
                   <p>
                     {clock(Math.max(0, Math.ceil((s.endsAt - now) / 1000)))}{' '}
                     restantes
@@ -530,6 +566,27 @@ export default function App() {
                 </button>
               </div>
             ))}
+            {examProfile && (
+              <section className="block-card exam-card">
+                <span className="block-symbol" aria-hidden="true">
+                  {String.fromCharCode(9678)}
+                </span>
+                <h2>Prueba de Conocimientos</h2>
+                <p>
+                  Eliminatoria, con los temas de la convocatoria{' '}
+                  {examProfile.id}.{' '}
+                  {examProfile.passingKnowledgeScore === null
+                    ? 'La PGN no ha publicado el puntaje minimo.'
+                    : `Se aprueba con ${examProfile.passingKnowledgeScore} sobre 100.`}
+                </p>
+                <span className="count">
+                  {examQuestions.length} preguntas en alcance
+                </span>
+                <button className="primary" onClick={setupExam}>
+                  Prueba de Conocimientos {String.fromCharCode(183)} {examProfile.id}
+                </button>
+              </section>
+            )}
             <div className="block-grid">
               {profiles.map((p) => (
                 <section className="block-card" key={p.id}>
@@ -545,11 +602,8 @@ export default function App() {
                     }{' '}
                     preguntas
                   </span>
-                  <button className="primary" onClick={() => setup(p.block)}>
-                    Iniciar simulacro de {p.label}
-                  </button>
                   <button
-                    className="secondary"
+                    className="primary"
                     onClick={() => goStudy(p.block)}
                   >
                     Estudiar {p.label}
@@ -574,28 +628,39 @@ export default function App() {
             </section>
           </>
         )}
-        {bank && view === 'setup' && (
+        {bank && examProfile && view === 'setup' && (
           <section className="setup panel">
             <button className="text-button" onClick={() => setView('home')}>
               ← Inicio
             </button>
-            <h1>Simulacro de {blockLabel(block)}</h1>
+            <h1>
+              Prueba de Conocimientos {String.fromCharCode(183)} {examProfile.id}
+            </h1>
             <p>
-              Una pregunta a la vez. Las explicaciones aparecen al finalizar.
+              Prueba eliminatoria. Una pregunta a la vez. Las explicaciones
+              aparecen al finalizar.
             </p>
+            {(examProfile.questionCount === null ||
+              examProfile.durationMinutes === null) && (
+              <p className="notice">
+                Formato no confirmado por la PGN: la Resolución 076 no define
+                cantidad de preguntas ni duración. Los valores de abajo son de
+                entrenamiento, no el formato oficial.
+              </p>
+            )}
             <label>
               Preguntas
               <input
                 type="number"
                 min={1}
-                max={available.length}
+                max={examQuestions.length}
                 value={count}
                 onChange={(e) =>
                   setCount(
                     Math.max(
                       1,
                       Math.min(
-                        available.length,
+                        examQuestions.length,
                         Math.floor(Number(e.target.value)) || 1,
                       ),
                     ),
@@ -621,19 +686,18 @@ export default function App() {
               />
             </label>
             <p>
-              Se usarán {Math.min(count, available.length)} de{' '}
-              {available.length} preguntas disponibles. Cantidad y tiempo son
-              parámetros de práctica.
+              Se usarán {Math.min(count, examQuestions.length)} de{' '}
+              {examQuestions.length} preguntas del alcance de la convocatoria.
             </p>
             <p className="bank-note">
               Preguntas aprobadas por el propietario. Resultado orientativo para estudiar.
             </p>
             <button
               className="primary"
-              disabled={!available.length}
+              disabled={!examQuestions.length}
               onClick={start}
             >
-              Comenzar simulacro
+              Comenzar la prueba
             </button>
           </section>
         )}
@@ -709,7 +773,45 @@ export default function App() {
                 />{' '}
                 Solo guardadas
               </label>
+              <label>
+                Alcance
+                <select
+                  value={scope}
+                  onChange={(e) => {
+                    const next = e.target.value as typeof scope
+                    // Las comportamentales viven en el nucleo comun: se cambia de
+                    // bloque para que la seccion tenga contenido.
+                    if (next === 'comportamentales' && block !== 'comun')
+                      goStudy('comun')
+                    setScope(next)
+                    setStudyIndex(0)
+                  }}
+                >
+                  <option value="todo">Todo el banco</option>
+                  <option value="convocatoria">
+                    Solo mi convocatoria {examProfile ? examProfile.id : ''}
+                  </option>
+                  <option value="comportamentales">
+                    Competencias comportamentales
+                  </option>
+                </select>
+              </label>
             </div>
+            {scope === 'comportamentales' && (
+              <p className="notice" role="note">
+                La prueba real de competencias comportamentales es
+                clasificatoria: no se califica por acierto y esta aplicación no la
+                simula. Estas preguntas sirven para reconocer el tipo de
+                planteamiento, no para estimar un puntaje.
+              </p>
+            )}
+            {scope === 'convocatoria' && (
+              <p className="notice">
+                Solo los temas de la convocatoria{' '}
+                {examProfile ? examProfile.id : ''}. Las demás preguntas del banco
+                siguen disponibles en {String.fromCharCode(171)}Todo el banco{String.fromCharCode(187)}.
+              </p>
+            )}
             {reviewIds && (
               <p className="notice">
                 Repaso de errores y omitidas{' '}
@@ -745,6 +847,7 @@ export default function App() {
                   question={question}
                   bank={bank}
                   mark={progress.marks[question.id] ?? blankMark()}
+                  outOfScope={outOfScope(question)}
                   onMark={(m) =>
                     commit({
                       ...progressRef.current,
@@ -790,10 +893,14 @@ export default function App() {
               <section className="exam">
                 <div className="exam-top">
                   <span>
-                    {blockLabel(session.block)} · {session.index + 1}/
+                    {sessionTitle(session)} · {session.index + 1}/
                     {session.questions.length}
                   </span>
-                  <strong role="timer" aria-label="Tiempo restante">
+                  <strong
+                    role="timer"
+                    aria-live="polite"
+                    aria-label="Tiempo restante"
+                  >
                     {clock(
                       Math.max(0, Math.ceil((session.endsAt - now) / 1000)),
                     )}
@@ -807,6 +914,11 @@ export default function App() {
                   max={session.questions.length}
                   aria-label="Preguntas respondidas"
                 />
+                {session.endsAt - now <= 300000 && session.endsAt > now && (
+                  <p className="notice" role="status">
+                    Quedan menos de 5 minutos.
+                  </p>
+                )}
                 <article className="question-card">
                   <div className="question-meta">
                     <Badge question={q} bank={bank} />
@@ -945,12 +1057,22 @@ export default function App() {
           view === 'results' &&
           session &&
           (() => {
-            const score = scoreSession(session)
+            const cutoff = cutoffOf(session)
+            const score = scoreSession(session, cutoff)
             return (
               <section>
                 <div className="page-heading">
-                  <p className="eyebrow">SIMULACRO FINALIZADO</p>
-                  <h1>Así te fue en {blockLabel(session.block)}</h1>
+                  <p className="eyebrow">
+                    {session.profileId
+                      ? 'PRUEBA DE CONOCIMIENTOS FINALIZADA'
+                      : 'SIMULACRO FINALIZADO'}
+                  </p>
+                  <h1>
+                    Así te fue en{' '}
+                    {session.profileId
+                      ? 'la Prueba de Conocimientos'
+                      : blockLabel(session.block)}
+                  </h1>
                   <p>
                     {clock(
                       Math.max(
@@ -966,6 +1088,9 @@ export default function App() {
                 </div>
                 <div className="stats">
                   <div>
+                    <strong>{score.score}/100</strong>Nota
+                  </div>
+                  <div>
                     <strong>{score.correct}</strong>Aciertos
                   </div>
                   <div>
@@ -975,29 +1100,46 @@ export default function App() {
                     <strong>{score.omitted}</strong>Omitidas
                   </div>
                 </div>
+                {cutoff === null ? (
+                  <p className="notice">
+                    Sin veredicto: la PGN no ha publicado el puntaje mínimo de esta
+                    prueba.
+                  </p>
+                ) : (
+                  <p className="notice" role="status">
+                    {score.passed
+                      ? `Aprobada: ${score.score} sobre 100, el mínimo es ${cutoff}.`
+                      : `No aprobada: ${score.score} sobre 100, el mínimo es ${cutoff}.`}
+                  </p>
+                )}
                 <div className="button-row">
                   <button
                     className="primary"
-                    onClick={() =>
-                      goStudy(
-                        session.block,
-                        session.questions
-                          .filter(
-                            (q) =>
-                              session.answers[q.id].selected !==
-                              q.correctOptionId,
-                          )
-                          .map((q) => q.id),
+                    onClick={() => {
+                      const failed = session.questions.filter(
+                        (q) =>
+                          session.answers[q.id].selected !== q.correctOptionId,
                       )
-                    }
+                      // La prueba mezcla modulos y el estudio filtra por uno: se abre el
+                      // del primer error. El filtro de alcance llega en la fase 5.
+                      // moduleId es string en el contrato; se estrecha aqui en vez
+                      // de forzar el tipo con una asercion.
+                      const destino =
+                        session.block ??
+                        (failed[0]?.moduleId === 'tecnico' ? 'tecnico' : 'comun')
+                      goStudy(
+                        destino,
+                        failed.map((q) => q.id),
+                      )
+                    }}
                   >
                     Repasar errores
                   </button>
                   <button
                     className="secondary"
-                    onClick={() => setup(session.block)}
+                    onClick={setupExam}
                   >
-                    Nuevo simulacro
+                    Nueva prueba
                   </button>
                 </div>
                 <h2>Resultados por tema</h2>
@@ -1084,9 +1226,9 @@ export default function App() {
               lugar privado. Los resultados con preguntas provisionales son
               orientativos.
             </p>
-            <h2>Simulacros terminados</h2>
+            <h2>Pruebas terminadas</h2>
             {!completed.length ? (
-              <p className="empty">Tu primer simulacro aparecerá aquí.</p>
+              <p className="empty">Tu primera prueba aparecerá aquí.</p>
             ) : (
               completed
                 .slice()
@@ -1101,13 +1243,13 @@ export default function App() {
                     }}
                   >
                     <span>
-                      {blockLabel(s.block)}
+                      {sessionTitle(s)}
                       <small>
                         {new Date(s.startedAt).toLocaleDateString('es-CO')}
                       </small>
                     </span>
                     <strong>
-                      {scoreSession(s).correct}/{s.questions.length} →
+                      {scoreSession(s, cutoffOf(s)).score}/100 →
                     </strong>
                   </button>
                 ))

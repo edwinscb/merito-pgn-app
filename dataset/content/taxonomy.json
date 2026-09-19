@@ -15,6 +15,8 @@
     { "id": "competencias_comportamentales", "moduleId": "comun", "label": "Competencias comportamentales", "parentTopicId": null },
     { "id": "datos_y_analitica", "moduleId": "tecnico", "label": "Datos y analítica", "parentTopicId": null },
     { "id": "software_e_interoperabilidad", "moduleId": "tecnico", "label": "Software e interoperabilidad", "parentTopicId": null },
-    { "id": "infraestructura_nube_y_ciberseguridad", "moduleId": "tecnico", "label": "Infraestructura, nube y ciberseguridad", "parentTopicId": null }
+    { "id": "infraestructura_nube_y_ciberseguridad", "moduleId": "tecnico", "label": "Infraestructura, nube y ciberseguridad", "parentTopicId": null },
+    { "id": "sistemas_operativos", "moduleId": "tecnico", "label": "Sistemas operativos", "parentTopicId": null },
+    { "id": "soporte_y_mantenimiento", "moduleId": "tecnico", "label": "Soporte y mantenimiento de software y hardware", "parentTopicId": null }
   ]
 }

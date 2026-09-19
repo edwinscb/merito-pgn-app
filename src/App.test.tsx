@@ -45,6 +45,22 @@ afterEach(() => {
   vi.unstubAllGlobals()
   vi.clearAllMocks()
 })
+const MID_CHAR = String.fromCharCode(183)
+// Banco con el formato ya publicado por la PGN, para el caso opuesto al real.
+const bankConFormato = {
+  ...rawBank,
+  examProfiles: rawBank.examProfiles.map((p) =>
+    p.id === '126-2026'
+      ? { ...p, questionCount: 60, durationMinutes: 90 }
+      : p,
+  ),
+}
+const abrirPrueba = () =>
+  fireEvent.click(
+    screen.getByRole('button', {
+      name: `Prueba de Conocimientos ${MID_CHAR} 126-2026`,
+    }),
+  )
 const ready = () =>
   screen.findByRole('heading', { name: '¿Qué vas a practicar hoy?' })
 describe('estudio y simuladores móviles', () => {
@@ -161,18 +177,20 @@ describe('estudio y simuladores móviles', () => {
       screen.getByText(/No hay preguntas con estos filtros/),
     ).toBeInTheDocument()
   })
-  it('simula con navegación, cambia respuestas, marca y no revela explicación hasta finalizar', async () => {
+  it('presenta la prueba con navegación, cambia respuestas y no revela explicación hasta finalizar', async () => {
     render(<App />)
     await ready()
     fireEvent.click(
-      screen.getByRole('button', { name: 'Iniciar simulacro de Sistemas' }),
+      screen.getByRole('button', {
+        name: `Prueba de Conocimientos ${MID_CHAR} 126-2026`,
+      }),
     )
     expect(screen.getByLabelText('Preguntas')).toHaveValue(20)
     expect(screen.getByLabelText('Duración en minutos')).toHaveValue(30)
     fireEvent.change(screen.getByLabelText('Preguntas'), {
       target: { value: '2' },
     })
-    fireEvent.click(screen.getByRole('button', { name: 'Comenzar simulacro' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Comenzar la prueba' }))
     const s = vi.mocked(saveLearning).mock.calls.at(-1)![0].sessions[0]
     expect(
       screen.queryByText(s.questions[0].explanation),
@@ -201,7 +219,9 @@ describe('estudio y simuladores móviles', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Terminar ahora' }))
     fireEvent.click(screen.getByRole('button', { name: 'Sí, ver resultados' }))
     expect(
-      screen.getByRole('heading', { name: 'Así te fue en Sistemas' }),
+      screen.getByRole('heading', {
+        name: 'Así te fue en la Prueba de Conocimientos',
+      }),
     ).toBeInTheDocument()
     expect(screen.getByText(s.questions[0].explanation)).toBeInTheDocument()
     expect(
@@ -258,5 +278,157 @@ describe('estudio y simuladores móviles', () => {
     expect(await screen.findByRole('alert')).toHaveTextContent(
       'No se pudieron cargar las preguntas',
     )
+  })
+
+  it('toma cantidad y duración del perfil cuando la PGN ya las publico', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({ ok: true, json: async () => bankConFormato }),
+    )
+    render(<App />)
+    await ready()
+    abrirPrueba()
+    expect(screen.getByLabelText('Preguntas')).toHaveValue(60)
+    expect(screen.getByLabelText('Duración en minutos')).toHaveValue(90)
+    expect(
+      screen.queryByText(/Formato no confirmado por la PGN/),
+    ).not.toBeInTheDocument()
+  })
+  it('rotula el formato como no confirmado cuando el perfil viene en null', async () => {
+    render(<App />)
+    await ready()
+    abrirPrueba()
+    expect(screen.getByLabelText('Preguntas')).toHaveValue(20)
+    expect(screen.getByLabelText('Duración en minutos')).toHaveValue(30)
+    expect(
+      screen.getByText(/Formato no confirmado por la PGN/),
+    ).toBeInTheDocument()
+  })
+  it('muestra la nota sobre 100 y el veredicto contra el corte de 65', async () => {
+    render(<App />)
+    await ready()
+    abrirPrueba()
+    fireEvent.change(screen.getByLabelText('Preguntas'), {
+      target: { value: '2' },
+    })
+    fireEvent.click(screen.getByRole('button', { name: 'Comenzar la prueba' }))
+    const s = vi.mocked(saveLearning).mock.calls.at(-1)![0].sessions[0]
+    expect(s.profileId).toBe('126-2026')
+    expect(s.block).toBeNull()
+    for (const q of s.questions) {
+      const correcta = q.options.find((o) => o.id === q.correctOptionId)!
+      fireEvent.click(
+        screen.getByRole('button', {
+          name: `${correcta.id} ${correcta.text}`,
+        }),
+      )
+      const siguiente = screen.queryByRole('button', { name: 'Siguiente' })
+      if (siguiente) fireEvent.click(siguiente)
+    }
+    fireEvent.click(screen.getByRole('button', { name: 'Terminar ahora' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Sí, ver resultados' }))
+    expect(document.querySelector('.stats')!.textContent).toContain(
+      '100/100Nota',
+    )
+    expect(
+      screen.getByText('Aprobada: 100 sobre 100, el mínimo es 65.'),
+    ).toBeInTheDocument()
+  })
+  it('no suma las preguntas de la prueba en el progreso global', async () => {
+    render(<App />)
+    await ready()
+    abrirPrueba()
+    fireEvent.change(screen.getByLabelText('Preguntas'), {
+      target: { value: '2' },
+    })
+    fireEvent.click(screen.getByRole('button', { name: 'Comenzar la prueba' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Terminar ahora' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Sí, ver resultados' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Progreso' }))
+    await screen.findByRole('heading', { name: 'Tu progreso' })
+    expect(document.querySelector('.stats')!.textContent).toContain(
+      '0Preguntas intentadas',
+    )
+    // La prueba aparece en su historial con la nota, no en el conteo global.
+    expect(screen.getByText('Pruebas terminadas')).toBeInTheDocument()
+    expect(document.querySelector('.history-row')!.textContent).toContain(
+      'Prueba de Conocimientos',
+    )
+  })
+
+  it('marca las preguntas fuera de la convocatoria y no las de dentro', async () => {
+    render(<App />)
+    await ready()
+    fireEvent.click(screen.getByRole('button', { name: 'Estudiar General' }))
+    const fuera = rawBank.questions.find(
+      (q) => q.topicId === 'derecho_disciplinario',
+    )!
+    fireEvent.change(screen.getByLabelText('Buscar pregunta'), {
+      target: { value: fuera.stem },
+    })
+    expect(screen.getByRole('heading', { name: fuera.stem })).toBeInTheDocument()
+    expect(screen.getByText('Fuera de tu convocatoria')).toBeInTheDocument()
+    const dentro = rawBank.questions.find(
+      (q) => q.topicId === 'gestion_documental',
+    )!
+    fireEvent.change(screen.getByLabelText('Buscar pregunta'), {
+      target: { value: dentro.stem },
+    })
+    expect(
+      screen.getByRole('heading', { name: dentro.stem }),
+    ).toBeInTheDocument()
+    expect(
+      screen.queryByText('Fuera de tu convocatoria'),
+    ).not.toBeInTheDocument()
+  })
+  it('aparta las comportamentales con la nota de prueba clasificatoria', async () => {
+    render(<App />)
+    await ready()
+    fireEvent.click(screen.getByRole('button', { name: 'Estudiar General' }))
+    // Fuera de su seccion no se mezclan con el resto del banco.
+    expect(
+      screen.queryByText(/clasificatoria: no se califica por acierto/),
+    ).not.toBeInTheDocument()
+    fireEvent.change(screen.getByLabelText('Alcance'), {
+      target: { value: 'comportamentales' },
+    })
+    expect(
+      screen.getByText(/clasificatoria: no se califica por acierto/),
+    ).toBeInTheDocument()
+    const comportamentales = rawBank.questions.filter(
+      (q) => q.topicId === 'competencias_comportamentales',
+    )
+    expect(comportamentales).toHaveLength(10)
+    const mostrada = document.querySelector('.question-title')!.textContent
+    expect(comportamentales.some((q) => q.stem === mostrada)).toBe(true)
+  })
+  it('filtra el estudio al alcance de la convocatoria', async () => {
+    render(<App />)
+    await ready()
+    fireEvent.click(screen.getByRole('button', { name: 'Estudiar General' }))
+    const fuera = rawBank.questions.find(
+      (q) => q.topicId === 'contratacion_estatal',
+    )!
+    fireEvent.change(screen.getByLabelText('Buscar pregunta'), {
+      target: { value: fuera.stem },
+    })
+    expect(screen.getByRole('heading', { name: fuera.stem })).toBeInTheDocument()
+    fireEvent.change(screen.getByLabelText('Alcance'), {
+      target: { value: 'convocatoria' },
+    })
+    expect(
+      screen.getByText(/Solo los temas de la convocatoria/),
+    ).toBeInTheDocument()
+    // La pregunta sale del listado, pero sigue accesible en Todo el banco.
+    expect(
+      screen.queryByRole('heading', { name: fuera.stem }),
+    ).not.toBeInTheDocument()
+    expect(
+      screen.getByText(/No hay preguntas con estos filtros/),
+    ).toBeInTheDocument()
+    fireEvent.change(screen.getByLabelText('Alcance'), {
+      target: { value: 'todo' },
+    })
+    expect(screen.getByRole('heading', { name: fuera.stem })).toBeInTheDocument()
   })
 })
