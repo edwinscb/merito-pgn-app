@@ -1,0 +1,44 @@
+name: verificacion
+
+# ALARMA, NO COMPUERTA.
+# Este workflow informa si las pruebas o el build se rompen; no decide si algo
+# se puede fusionar. No se configura como check requerido ni con proteccion de
+# rama: el estandar sigue siendo el nombre de rama, el commit y el contenido del
+# PR (ver "Ramas de trabajo" en shared/comportamiento.md).
+#
+# Motivo: Vercel ya corre "npm run build" al desplegar, pero nunca corre
+# "npm test". Sin esto, las pruebas del repo solo se ejecutan a mano.
+
+on:
+  push:
+    branches: [dev, main]
+  pull_request:
+    branches: [dev, main]
+
+jobs:
+  pruebas-y-build:
+    name: Pruebas y build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Traer el repositorio
+        uses: actions/checkout@v4
+
+      # El proyecto no declara "engines" en package.json. Vite 8 y TypeScript 7
+      # exigen Node 20+; se fija 22 para que la version no quede implicita.
+      - name: Preparar Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Instalar dependencias desde el lockfile
+        run: npm ci
+
+      - name: Correr las pruebas
+        run: npm test
+
+      # Incluye dataset:build, las dos verificaciones de TypeScript, vite build
+      # y check-dist (privacidad de dist). Es el mismo comando que usa Vercel.
+      - name: Construir
+        run: npm run build
