@@ -22,7 +22,12 @@ aplicativo sería una forma costosa de posponer la preparación.
 
 Decisiones confirmadas:
 
-- Uso personal y privado durante la convocatoria.
+- Sitio de acceso público, sin autenticación, decidido el 19 de septiembre de
+  2026. Reemplaza la decisión inicial de uso personal y privado durante la
+  convocatoria. El progreso sigue siendo local por dispositivo y no hay cuentas
+  ni datos personales en el sitio, pero el banco de preguntas y sus claves son
+  descargables por cualquiera que tenga la URL. Ver «Limitaciones que no deben
+  heredarse» más abajo.
 - Implementación nueva desde cero dentro de este repositorio.
 - Acceso desde computador y celular mediante una PWA responsive.
 - Preguntas originales derivadas de fuentes oficiales, no copiadas de bancos
@@ -111,7 +116,11 @@ opciones faltantes y otros conflictos.
 ### Limitaciones que no deben heredarse
 
 - La respuesta correcta queda incluida en un archivo servido al navegador.
-  Esto es aceptable para uso privado, pero no protege un banco comercial.
+  Con el sitio público (decisión del 19 de septiembre de 2026) esta limitación
+  se hereda de hecho: `public/data/study-bank.json` y `question-bank.json` se
+  descargan sin autenticación y contienen las claves. Es aceptable porque el
+  banco es propio y no comercial, pero deja de ser una limitación ajena y pasa
+  a ser una característica asumida de este proyecto.
 - El progreso depende de un navegador y puede perderse al borrar sus datos.
 - No existe trazabilidad normativa por artículo, página o versión.
 - No hay taxonomía jerárquica, dificultad, confianza ni repetición espaciada.

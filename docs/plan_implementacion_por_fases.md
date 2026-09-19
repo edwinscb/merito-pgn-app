@@ -1,7 +1,7 @@
 # Plan de implementación por fases — Mérito PGN
 
-Estado: **Fase 1 implementada; Fase 2 cerrada para el lote actual; Fase 3 implementada en alcance técnico**
-Fecha: **10 de septiembre de 2026**
+Estado: **Fase 1 implementada; Fase 2 cerrada para el lote actual; Fase 3 implementada en alcance técnico; Fase 4 desplegada en producción; Fase 5 en progreso**
+Fecha: **19 de septiembre de 2026**
 
 Actualización de experiencia de estudio (10 de septiembre de 2026): se implementan
 dos simuladores General/Sistemas, estudio de 200 preguntas (18 revisadas y 182
@@ -146,21 +146,57 @@ preguntas pendientes de Fase 2 quedan fuera del banco hasta una revisión futura
 
 ## 6. Fase 4 — Calidad y publicación
 
-Estado: **verificación automatizada realizada; QA local ejecutado; publicación Vercel preparada, no desplegada**.
+Estado: **desplegada en producción el 19 de septiembre de 2026**.
 
 Se ejecutaron validación del dataset, pruebas automatizadas, compilación PWA,
 flujo de simulacro en navegador local y comprobación de privacidad del artefacto.
-`vercel.json` fija el build de Vite y `dist` como salida. El despliegue real aún
-requiere una cuenta/proyecto Vercel autorizado y no se ejecuta sin esa
-asociación.
+`vercel.json` fija el build de Vite y `dist` como salida.
+
+El despliegue real se completó: el proyecto está asociado a una cuenta Vercel y
+publica [merito-pgn-app.vercel.app](https://merito-pgn-app.vercel.app/) desde
+`main`. Los entornos son `dev` (trabajo) y `main` (producción), sin rama
+intermedia. El sitio es de acceso público sin autenticación; ver la decisión del
+19 de septiembre de 2026 en `docs/producto.md`.
 
 ## 7. Fase 5 — Crecimiento y actualización
 
 Estado: **en progreso**.
 
-El dataset contiene 109 registros; 18 semillas conservan revisión independiente
-acreditada y 91 registros están pendientes. La meta original es 200 preguntas
-útiles, ampliable a 400 si se mantiene la calidad; 100 es un hito intermedio.
+El dataset contiene 207 registros: 18 conservan revisión asistida independiente
+acreditada (`validated_assisted`) y 189 están en `needs_review`. La aplicación
+habilita 200 preguntas para estudio — 18 revisadas y 182 provisionales — por
+autorización expresa del propietario ligada al hash de su contenido; esa
+autorización no equivale a revisión editorial. Las cifras vigentes están en
+`dataset/reports/coverage.md`, que es la fuente a consultar: los informes con
+fecha en `dataset/reports/` son registros históricos y conservan a propósito los
+números del momento en que se escribieron.
+
+La meta original es 200 preguntas útiles, ampliable a 400 si se mantiene la
+calidad; 100 fue el hito intermedio, ya superado.
 Las fuentes pendientes de descarga y la guía de orientación, si se
 publica, deben revisarse antes de ampliar perfiles o afirmar distribución del
 examen.
+
+### Convocatoria objetivo: solo 126-2026
+
+La aplicación apunta **exclusivamente a la convocatoria 126-2026**, la de la
+candidatura. Está fijada en `src/App.tsx` mediante la constante
+`EXAM_PROFILE_ID`, no se ofrece un selector de convocatoria y es el único perfil
+con formato oficial respaldado: cargo 3PU-15, prueba de Conocimientos
+eliminatoria con corte de 65 sobre 100 y peso del 70%, según los artículos 18 a
+21 de la Resolución 076 de 2026.
+
+Los perfiles `121-2026` y `127-2026` **se conservan en el dataset** como registro
+editorial, no como opciones de estudio: `topicDistribution` vacío y
+`passingKnowledgeScore` en null, porque nunca se verificó a qué nivel de empleo
+corresponden sus cargos. Por eso `dataset/reports/coverage.md` les reporta cero
+preguntas elegibles; es el estado correcto, no un defecto.
+
+No se eliminan. Dieciséis preguntas los declaran en `targetCallIds`, y ese campo
+afirma un hecho —que su contenido cae dentro de ese temario— que no deja de ser
+cierto porque el perfil se borre. Además `targetCallIds` entra en el fingerprint
+de la pregunta (`scripts/dataset/question-fingerprint.mjs` solo excluye `status`,
+`reviews` y `validFrom`), así que editarlo invalidaría la aprobación del
+propietario de quince preguntas `validated_assisted` — quince de las dieciocho
+revisadas del proyecto — y `dataset:build` fallaría hasta renovarla. El costo es
+alto y el beneficio para quien estudia es nulo.
