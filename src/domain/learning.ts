@@ -98,6 +98,14 @@ export const LearningProgressSchema = z.object({
   sessions: z.array(SessionSchema),
 })
 export type LearningProgress = z.infer<typeof LearningProgressSchema>
+// Marca personal en blanco: guardada, repasada, problema y nota.
+export const blankMark = (): Mark => ({
+  saved: false,
+  reviewed: false,
+  problem: false,
+  note: '',
+  updatedAt: Date.now(),
+})
 export const emptyProgress = (): LearningProgress => ({
   attempts: [],
   marks: {},
