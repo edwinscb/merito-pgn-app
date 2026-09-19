@@ -1,7 +1,6 @@
 import { useRef, useState } from 'react'
 import type { Question } from './domain/dataset/contracts'
 import {
-  createExamSession,
   exportLearning,
   finishSession,
   importLearning,
@@ -20,6 +19,7 @@ import { RegistrationCard } from './RegistrationCard'
 import { newStudyOrder, orderedQuestions, type StudyOrder } from './domain/study-order'
 import { useClock } from './hooks/useClock'
 import { useExpiredSessions } from './hooks/useExpiredSessions'
+import { useExamRun } from './hooks/useExamRun'
 import { useFocusOnViewChange } from './hooks/useFocusOnViewChange'
 import { useLearningProgress } from './hooks/useLearningProgress'
 import { useStudySession } from './hooks/useStudySession'
@@ -268,21 +268,33 @@ export default function App() {
     onRestored: () => setView('questions'),
     onLoadError: setError,
   })
-  const [count, setCount] = useState(20)
-  const [minutes, setMinutes] = useState(30)
-  const [sessionId, setSessionId] = useState<string | null>(null)
   const [now, setNow] = useClock()
-  const [confirmFinish, setConfirmFinish] = useState(false)
   const lastVisit = useRef(Date.now())
   const mainRef = useFocusOnViewChange(view)
   useExpiredSessions(now, progressRef, commit, () => {
     if (view === 'exam') setView('results')
   })
-  const session = progress.sessions.find((s) => s.id === sessionId)
   const active = progress.sessions.filter((s) => !s.finishedAt)
   const available = bank?.questions.filter((q) => q.moduleId === block) ?? []
   const examProfile =
     bank?.examProfiles.find((p) => p.id === EXAM_PROFILE_ID) ?? null
+  const exam = useExamRun({
+    bank,
+    examProfile,
+    progress,
+    progressRef,
+    commit,
+    seedClock: setNow,
+    goTo: setView,
+    lastVisit,
+  })
+  const {
+    count, setCount,
+    minutes, setMinutes,
+    sessionId, setSessionId,
+    confirmFinish, setConfirmFinish,
+    session, setupExam, start, updateSession,
+  } = exam
   // El alcance sale de topicDistribution, no de targetCallIds.
   const examTopics = new Set(
     examProfile?.topicDistribution
@@ -324,55 +336,6 @@ export default function App() {
   }
   // Cantidad y duracion salen del perfil. Si la PGN no las publico, quedan como
   // parametros de practica y la pantalla lo rotula.
-  const setupExam = () => {
-    setCount(examProfile?.questionCount ?? 20)
-    setMinutes(examProfile?.durationMinutes ?? 30)
-    setView('setup')
-  }
-  const start = () => {
-    if (!bank) return
-    if (!examProfile) return
-    const s = createExamSession(bank.questions, examProfile, count, minutes)
-    setNow(s.startedAt)
-    commit({
-      ...progressRef.current,
-      sessions: [...progressRef.current.sessions, s],
-    })
-    setSessionId(s.id)
-    lastVisit.current = Date.now()
-    setView('exam')
-    setConfirmFinish(false)
-  }
-  const updateSession = (mutate: (s: Session) => Session) => {
-    const p = progressRef.current
-    const s = p.sessions.find((s) => s.id === sessionId)
-    if (!s || s.finishedAt) return
-    const time = Date.now()
-    if (time >= s.endsAt) {
-      commit(settleExpired(p, time))
-      setView('results')
-      return
-    }
-    const q = s.questions[s.index]
-    const timed = {
-      ...s,
-      answers: {
-        ...s.answers,
-        [q.id]: {
-          ...s.answers[q.id],
-          seconds:
-            s.answers[q.id].seconds +
-            Math.max(0, (time - lastVisit.current) / 1000),
-        },
-      },
-    }
-    lastVisit.current = time
-    const updated = mutate(timed)
-    commit({
-      ...p,
-      sessions: p.sessions.map((x) => (x.id === updated.id ? updated : x)),
-    })
-  }
   const leave = (target: 'home' | 'questions' | 'progress') => {
     if (view === 'exam') updateSession((s) => s)
     if (target === 'questions' && (view === 'home' || studyOrder?.block !== block)) { goStudy(block); return }
