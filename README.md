@@ -63,7 +63,15 @@ herramienta histórica que puede sobrescribir las correcciones editoriales.
 La única nueva dependencia de pruebas es `fake-indexeddb`, para comprobar la
 migración y transacciones sin depender del navegador del usuario.
 
+El workflow `.github/workflows/verificacion.yml` corre `npm test` y `npm run build`
+en cada push y PR contra `dev` y `main`. Es una alarma, no una compuerta: avisa si
+algo se rompió, pero no bloquea la fusión ni sustituye la revisión del cambio.
+
 ## Publicación y privacidad
+
+Los entornos de este proyecto son dos: `dev`, la rama base de trabajo, y `main`,
+producción, que Vercel despliega. No existe rama intermedia de pruebas, así que
+la promoción es `dev → main` y se hace por fusión, sin commits directos en `main`.
 
 Vercel usa `npm run build` y `dist`. Primero se revisa una preview; después se
 publica la rama principal. No necesita variables secretas ni backend.
