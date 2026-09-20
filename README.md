@@ -16,8 +16,9 @@ correctas los descarga cualquiera que tenga la URL.
 - Simulacros de 20 preguntas y 30 minutos por defecto, ajustables. Son parámetros
   de práctica, no el formato oficial de una convocatoria.
 - La aplicación apunta solo a la **convocatoria 126-2026**, la de la candidatura:
-  es el único perfil con formato oficial respaldado (cargo 3PU-15, corte 65 sobre
-  100). No hay selector de convocatoria. Los perfiles 121-2026 y 127-2026 siguen
+  es el único perfil con formato oficial respaldado (cargo 3PU-15; la prueba de
+  conocimientos se aprueba con 65 sobre 100, y la lista de elegibles exige además
+  un puntaje final del 70 %). No hay selector de convocatoria. Los perfiles 121-2026 y 127-2026 siguen
   en el dataset como registro editorial, sin pesos y sin preguntas elegibles.
 - Cambiar respuestas, marcar para volver, recuperar una sesión tras recargar y
   revisar resultados, errores y omitidas al terminar. El reloj no se pausa al salir.
@@ -97,3 +98,5 @@ Los respaldos de progreso contienen notas personales: consérvalos en privado.
 - `docs/plan_implementacion_por_fases.md`: historial y alcance de fases.
 - `dataset/catalog/source-inventory.json`: fuentes y hashes.
 - `dataset/reports/coverage.md`: cobertura editorial.
+- `dataset/reports/temario-cobertura-audit-2026-09-20.md`: cobertura del banco
+  frente al temario oficial del cargo, según el Manual de Funciones V10.
