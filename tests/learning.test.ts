@@ -158,25 +158,27 @@ describe('prueba de Conocimientos de la convocatoria 126-2026', () => {
     expect(SessionSchema.safeParse({ ...s, block: null }).success).toBe(true)
   })
   it('rellena con los demas temas cuando uno no alcanza y no falla', () => {
+    // El escenario es la ESCASEZ, no un tema concreto: antes valia usar
+    // sistemas_operativos porque estaba vacio, pero ya tiene preguntas. Se pide
+    // mas de lo que existe en los temas del perfil para provocarla igual.
+    const temas = ['sistemas_operativos', 'gestion_documental']
+    const disponibles = questions.filter((q) => temas.includes(q.topicId))
     const s = createExamSession(
       questions,
       {
         id: 'hueco',
         topicDistribution: [
-          { topicId: 'sistemas_operativos', weight: 0.5 },
-          { topicId: 'gestion_documental', weight: 0.5 },
+          { topicId: temas[0], weight: 0.5 },
+          { topicId: temas[1], weight: 0.5 },
         ],
       },
-      12,
+      disponibles.length + 10,
       30,
       1000,
     )
-    // sistemas_operativos no tiene preguntas y gestion_documental solo tiene 9:
-    // la sesion entrega lo que hay en vez de lanzar.
-    expect(s.questions).toHaveLength(9)
-    expect(s.questions.every((q) => q.topicId === 'gestion_documental')).toBe(
-      true,
-    )
+    // Entrega lo que hay en vez de lanzar, y nunca inventa preguntas de fuera.
+    expect(s.questions).toHaveLength(disponibles.length)
+    expect(s.questions.every((q) => temas.includes(q.topicId))).toBe(true)
   })
   it('califica sobre 100 y aplica el corte del perfil: 65 aprueba, 64 no', () => {
     const aprueba = createExamSession(questions, profile126, 20, 30, 1000)

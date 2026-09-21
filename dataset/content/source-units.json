@@ -1728,5 +1728,410 @@
       "infraestructura_nube_y_ciberseguridad"
     ],
     "targetCallIds": []
+  },
+  {
+    "id": "nist-sp800-123-least-privilege",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 2.4, página PDF 15",
+    "title": "Principio de mínimo privilegio",
+    "content": "Least Privilege—This principle dictates that each task, process, or user is granted the minimum rights required to perform its job. By applying this principle consistently, if a task, process, or user is compromised, the scope of damage is constrained to the limited resources available to the compromised entity.",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-pasos-asegurar-so",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 4, página PDF 25",
+    "title": "Pasos básicos para asegurar el sistema operativo",
+    "content": "the following basic steps are necessary to secure the OS",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-parches-antes-de-exponer",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 4.1, página PDF 25",
+    "title": "Corregir vulnerabilidades conocidas antes de exponer el servidor",
+    "content": "Any known vulnerabilities an OS has should be corrected before using it to host a server or otherwise exposing it to untrusted users.",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-no-autoinstalar-parches",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 4.1, página PDF 26",
+    "title": "Descargar parches automáticamente pero no instalarlos sin probar",
+    "content": "Although administrators can configure servers to download patches automatically, the servers should not be configured to install them automatically so that they can first be tested.",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-bastion-host",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 4.2, página PDF 26",
+    "title": "Bastion host y mínima funcionalidad",
+    "content": "A bastion host has particularly strong security controls and is configured so as to offer the least functionality possible.",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-remover-servicios-innecesarios",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 4.2.1, página PDF 26",
+    "title": "Eliminar servicios, aplicaciones y protocolos innecesarios",
+    "content": "If possible, install the minimal OS configuration and then add, remove, or disable services, applications, and network protocols as needed.",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-remover-mejor-que-deshabilitar",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 4.2.1, página PDF 27",
+    "title": "Remover es preferible a solo deshabilitar",
+    "content": "Removing unnecessary services and applications is preferable to simply disabling them through configuration settings because attacks that attempt to alter settings and activate a disabled service cannot succeed when the functional components are completely removed.",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-cuentas-por-defecto",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 4.2.2, página PDF 28",
+    "title": "Remover o deshabilitar cuentas por defecto innecesarias",
+    "content": "Remove (whenever possible) or disable unnecessary accounts to eliminate their use by attackers, including guest accounts on computers containing sensitive information.",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-grupos-de-usuarios",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 4.2.2, página PDF 28",
+    "title": "Asignar derechos a grupos y no a usuarios individuales",
+    "content": "This approach is preferable to assigning rights to individual users, which becomes unwieldy with large numbers of users.",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-prevenir-adivinacion-contrasenas",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 4.2.2, página PDF 29",
+    "title": "Retardo o bloqueo tras intentos fallidos de autenticación",
+    "content": "If the OS provides the capability, configure it to increase the period between login attempts with each unsuccessful attempt.",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-control-de-recursos",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 4.2.3, página PDF 30",
+    "title": "Permisos sobre archivos y recursos: confidencialidad e integridad",
+    "content": "For example, denying read access to files and directories helps to protect confidentiality of information, and denying unnecessary write (modify) access can help maintain the integrity of information.",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-reducir-privilegios-tras-inicializar",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 5.2, página PDF 35",
+    "title": "Reducir privilegios del servicio después de la inicialización",
+    "content": "ensure that the server is configured to reduce its privileges to those of the server user after performing its initialization functions",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-logging-pilar",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 6.1, página PDF 38",
+    "title": "El registro como pilar de la postura de seguridad",
+    "content": "Logging is a cornerstone of a sound security posture.",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-123-logs-en-host-separado",
+    "sourceId": "nist-sp800-123",
+    "locator": "Sección 6.1.2, página PDF 40",
+    "title": "Proteger los registros almacenándolos en un host separado",
+    "content": "Although encryption can be useful in protecting log files, the best solution is to store log files on a host separate from the server.",
+    "verificationStatus": "verified",
+    "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "topicIds": [
+      "sistemas_operativos"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-definicion-parcheo",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Resumen ejecutivo, página PDF 6",
+    "title": "Qué es el parcheo y qué es la gestión de parches",
+    "content": "Enterprise patch management is the process of identifying, prioritizing, acquiring, installing, and verifying the installation of patches, updates, and upgrades throughout an organization.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-mantenimiento-preventivo",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Resumen ejecutivo, página PDF 6",
+    "title": "El parcheo como mantenimiento preventivo y costo normal del negocio",
+    "content": "Patching should be considered a standard cost of doing business and should be rigorously followed and tracked.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-software-end-of-life",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Sección 2.1, páginas PDF 10 a 11",
+    "title": "Software sin soporte: el parche no llegará nunca",
+    "content": "The vendor may no longer support the vulnerable software, meaning that a patch for it will never be released because the software is at end-of-life.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-inventario-prerequisito",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Sección 2.2, página PDF 11",
+    "title": "Conocer los activos y su software como prerrequisito",
+    "content": "This involves knowing what assets your organization uses and which software and software versions those assets run down to the level of packages and libraries, as well as keeping track of new vulnerabilities in that software.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-priorizar-por-riesgo",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Sección 2.3.1, página PDF 12",
+    "title": "Priorizar el parche por la reducción de riesgo que produce",
+    "content": "A patch may be a higher priority to deploy than others because its deployment would reduce cybersecurity risk more than other patches would.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-ventana-gestion-de-cambios",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Sección 2.3.1, página PDF 12",
+    "title": "El despliegue se programa dentro de la gestión de cambios",
+    "content": "Many organizations schedule patch deployments as part of their enterprise change management activities.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-validar-autenticidad-parche",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Sección 2.3.1, página PDF 12",
+    "title": "Validar autenticidad e integridad del parche antes de instalarlo",
+    "content": "The patch could have been acquired from a rogue source or tampered with in transit or after acquisition.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-probar-reduce-riesgo-operacional",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Sección 2.3.1, página PDF 12",
+    "title": "Probar el parche reduce el riesgo operacional",
+    "content": "This is intended to reduce operational risk by identifying problems with a patch before placing it into production.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-monitorear-parche-desplegado",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Sección 2.3.4, página PDF 14",
+    "title": "Verificar que el parche siga instalado",
+    "content": "For example, monitoring could confirm that the patch has not been uninstalled by a user or an attacker, an unpatched version of the software has not been restored from a backup, and the device has not been reset to a vulnerable factory-default state.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-automatizacion-indispensable",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Sección 3, página PDF 16",
+    "title": "Sin automatización no se puede sostener el parcheo",
+    "content": "There is no way that an organization can keep up with patching without automation because of the sheer number of assets, software installations, vulnerabilities, and patches.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-despliegue-por-fases-canarios",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Sección 3.5.1, página PDF 21",
+    "title": "Despliegue por fases con activos canario",
+    "content": "These assets act as canaries (i.e., bellwethers) for identifying issues and determining the likely operational impact of the patch.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-excepciones-revisadas",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Sección 3.5.5, página PDF 23",
+    "title": "Las excepciones al plan de mantenimiento se revisan periódicamente",
+    "content": "All exceptions to maintenance plans should be reviewed regularly to determine if the maintenance plan can be implemented now.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
+  },
+  {
+    "id": "nist-sp800-40r4-metricas-simples-no-accionables",
+    "sourceId": "nist-sp800-40r4",
+    "locator": "Sección 3.6, páginas PDF 23 a 24",
+    "title": "Las métricas demasiado simples no son accionables",
+    "content": "Metrics that are too simple are generally not actionable because they do not provide enough information.",
+    "verificationStatus": "verified",
+    "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "topicIds": [
+      "soporte_y_mantenimiento"
+    ],
+    "targetCallIds": [
+      "126-2026"
+    ]
   }
 ]

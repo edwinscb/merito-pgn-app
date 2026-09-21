@@ -7,9 +7,9 @@ describe('pipeline con el dataset real', () => {
   it('conserva inventario, hashes y fuentes pendientes', async () => {
     const result = await validateRepositoryDataset()
     expect(result.issues).toEqual([])
-    expect(result.data?.sources).toHaveLength(56)
-    expect(result.data?.inventory).toHaveLength(56)
-    expect(result.data?.sourceUnits).toHaveLength(131)
+    expect(result.data?.sources).toHaveLength(58)
+    expect(result.data?.inventory).toHaveLength(58)
+    expect(result.data?.sourceUnits).toHaveLength(158)
     const pendientes = result.data?.sources.filter((source) => source.status === 'pending_download') ?? []
     expect(pendientes).toHaveLength(7)
     // El Manual de Funciones dejó de ser una referencia sin documento al
@@ -23,9 +23,9 @@ describe('pipeline con el dataset real', () => {
 
   it('mantiene fuera del banco las semillas con hallazgos pendientes', async () => {
     const result = await validateRepositoryDataset()
-    expect(result.data?.questions).toHaveLength(207)
+    expect(result.data?.questions).toHaveLength(247)
     expect(result.data?.questions.filter((question) => question.status === 'validated_assisted')).toHaveLength(18)
-    expect(result.data?.questions.filter((question) => question.status === 'needs_review')).toHaveLength(189)
+    expect(result.data?.questions.filter((question) => question.status === 'needs_review')).toHaveLength(229)
     const expansion = result.data?.questions.filter((question) => question.id.startsWith('PGN-EXP-')) ?? []
     expect(expansion).toHaveLength(84)
     expect(expansion.filter((question) => question.status === 'validated_assisted')).toHaveLength(0)

@@ -7,8 +7,11 @@ describe('orden estable de estudio', () => {
   it('baraja preguntas y opciones sin perder identidades ni duplicar', () => {
     const order = newStudyOrder(questions, 'comun', () => 0)
     const result = orderedQuestions(order, questions)
-    expect(new Set(result.map(q => q.id)).size).toBe(100)
-    expect(result.map(q => q.id).sort()).toEqual(questions.filter(q => q.moduleId === 'comun').map(q => q.id).sort())
+    const delBloque = questions.filter(q => q.moduleId === 'comun')
+    // El invariante es no perder ni duplicar identidades, no el tamaño del
+    // bloque: se deriva del banco para que ampliarlo no rompa esta prueba.
+    expect(new Set(result.map(q => q.id)).size).toBe(delBloque.length)
+    expect(result.map(q => q.id).sort()).toEqual(delBloque.map(q => q.id).sort())
     for (const q of result) {
       const original = questions.find(o => o.id === q.id)!
       expect(q.options.map(o => o.id).sort()).toEqual(['A', 'B', 'C', 'D'])

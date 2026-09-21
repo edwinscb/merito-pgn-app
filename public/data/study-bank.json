@@ -1,5 +1,25 @@
 {
   "ownerApprovedIds": [
+    "PGN-COM-0001",
+    "PGN-COM-0002",
+    "PGN-COM-0003",
+    "PGN-COM-0004",
+    "PGN-COM-0005",
+    "PGN-COM-0006",
+    "PGN-COM-0007",
+    "PGN-COM-0008",
+    "PGN-COM-0009",
+    "PGN-COM-0010",
+    "PGN-COM-0011",
+    "PGN-COM-0012",
+    "PGN-COM-0013",
+    "PGN-COM-0014",
+    "PGN-COM-0015",
+    "PGN-COM-0016",
+    "PGN-COM-0017",
+    "PGN-COM-0018",
+    "PGN-COM-0019",
+    "PGN-COM-0020",
     "PGN-EXP-0026",
     "PGN-EXP-0027",
     "PGN-EXP-0028",
@@ -199,7 +219,27 @@
     "PGN-SEED-0017",
     "PGN-SEED-0018",
     "PGN-SEED-0019",
-    "PGN-SEED-0020"
+    "PGN-SEED-0020",
+    "PGN-TEC-0001",
+    "PGN-TEC-0002",
+    "PGN-TEC-0003",
+    "PGN-TEC-0004",
+    "PGN-TEC-0005",
+    "PGN-TEC-0006",
+    "PGN-TEC-0007",
+    "PGN-TEC-0008",
+    "PGN-TEC-0009",
+    "PGN-TEC-0010",
+    "PGN-TEC-0011",
+    "PGN-TEC-0012",
+    "PGN-TEC-0013",
+    "PGN-TEC-0014",
+    "PGN-TEC-0015",
+    "PGN-TEC-0016",
+    "PGN-TEC-0017",
+    "PGN-TEC-0018",
+    "PGN-TEC-0019",
+    "PGN-TEC-0020"
   ],
   "registration": {
     "schemaVersion": 1,
@@ -215,6 +255,1046 @@
   },
   "schemaVersion": 1,
   "questions": [
+    {
+      "id": "PGN-COM-0001",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "procuraduria_y_estado",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 2,
+      "stem": "De acuerdo con la Constitución Política, ¿quiénes ejercen el Ministerio Público?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El Procurador General de la Nación, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás funcionarios que determine la ley.",
+          "rationale": "El Ministerio Público es ejercido por el Procurador General de la Nación, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás funcionarios que determine la ley. La enumeración queda abierta a lo que la ley disponga."
+        },
+        {
+          "id": "B",
+          "text": "Únicamente el Procurador General de la Nación y sus procuradores delegados.",
+          "rationale": "La enumeración constitucional es más amplia e incluye al Defensor del Pueblo y a los personeros municipales, entre otros."
+        },
+        {
+          "id": "C",
+          "text": "El Procurador General de la Nación y el Contralor General de la República.",
+          "rationale": "El control fiscal que ejerce la Contraloría es una función distinta y ese órgano no integra el Ministerio Público."
+        },
+        {
+          "id": "D",
+          "text": "Los jueces de la República y los fiscales delegados.",
+          "rationale": "Jueces y fiscales pertenecen a la Rama Judicial y a la Fiscalía; no ejercen el Ministerio Público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "El Ministerio Público es ejercido por el Procurador General de la Nación, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás funcionarios que determine la ley. La enumeración queda abierta a lo que la ley disponga.",
+      "references": [
+        {
+          "sourceId": "colombia-constitution-1991",
+          "sourceUnitId": "constitution-1991-art-118",
+          "locator": "Artículo 118, página PDF 82",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0002",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "procuraduria_y_estado",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 1,
+      "stem": "¿Qué posición ocupa el Procurador General de la Nación dentro del Ministerio Público?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Es uno de sus integrantes, sin jerarquía sobre los demás.",
+          "rationale": "Aunque integra el Ministerio Público, la Constitución le atribuye además la dirección suprema del mismo."
+        },
+        {
+          "id": "B",
+          "text": "Es su supremo director.",
+          "rationale": "El Procurador General de la Nación es el supremo director del Ministerio Público."
+        },
+        {
+          "id": "C",
+          "text": "Depende funcionalmente del Defensor del Pueblo.",
+          "rationale": "El Defensor del Pueblo también ejerce el Ministerio Público, pero no dirige al Procurador General."
+        },
+        {
+          "id": "D",
+          "text": "Su dirección corresponde al Fiscal General de la Nación.",
+          "rationale": "El Fiscal General encabeza la Fiscalía y no tiene dirección alguna sobre el Ministerio Público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "El Procurador General de la Nación es el supremo director del Ministerio Público.",
+      "references": [
+        {
+          "sourceId": "colombia-constitution-1991",
+          "sourceUnitId": "constitution-1991-art-275",
+          "locator": "Artículo 275, página PDF 170",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0003",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "procuraduria_y_estado",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 3,
+      "stem": "El artículo 23 del Decreto Ley 262 de 2000 agrupa las funciones de la Procuraduría General de la Nación. ¿Cuáles son esos grupos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Funciones de control fiscal, de auditoría financiera y de vigilancia contractual.",
+          "rationale": "El control fiscal y la auditoría financiera corresponden a la Contraloría, no a la Procuraduría."
+        },
+        {
+          "id": "B",
+          "text": "Funciones jurisdiccionales penales y de acusación ante los jueces.",
+          "rationale": "La acusación penal corresponde a la Fiscalía General de la Nación."
+        },
+        {
+          "id": "C",
+          "text": "Preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos, y de intervención ante autoridades administrativas y judiciales.",
+          "rationale": "El artículo agrupa funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante autoridades administrativas y judiciales."
+        },
+        {
+          "id": "D",
+          "text": "Únicamente funciones disciplinarias y de intervención judicial.",
+          "rationale": "La enumeración es más amplia: deja fuera las preventivas y de control de gestión y las de derechos humanos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "El artículo agrupa funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante autoridades administrativas y judiciales.",
+      "references": [
+        {
+          "sourceId": "decree-law-262-2000",
+          "sourceUnitId": "decree-law-262-2000-art-23",
+          "locator": "Artículo 23, página PDF 15",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0004",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "procuraduria_y_estado",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Una dependencia de la Procuraduría advierte a una alcaldía sobre un riesgo en un trámite en curso. Según el alcance de la función preventiva, ¿cómo debe actuar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asumiendo la decisión administrativa que corresponde a la alcaldía para evitar el riesgo.",
+          "rationale": "Tomar la decisión en lugar de la entidad vigilada sería coadministrar, y la función preventiva no lo permite."
+        },
+        {
+          "id": "B",
+          "text": "Imponiendo de inmediato una sanción disciplinaria a los responsables.",
+          "rationale": "La sanción pertenece a la función disciplinaria y exige su propio procedimiento; no se deriva de una advertencia preventiva."
+        },
+        {
+          "id": "C",
+          "text": "Suspendiendo el trámite hasta que la entidad corrija el riesgo.",
+          "rationale": "Suspender el trámite sustituiría la voluntad de la administración, lo que excede el alcance de la función preventiva."
+        },
+        {
+          "id": "D",
+          "text": "Vigilando y advirtiendo, sin coadministrar.",
+          "rationale": "En ejercicio de la función preventiva la Procuraduría vigila y advierte, sin coadministrar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "En ejercicio de la función preventiva la Procuraduría vigila y advierte, sin coadministrar.",
+      "references": [
+        {
+          "sourceId": "pgn-functions-general",
+          "sourceUnitId": "pgn-functions-general-review-unit",
+          "locator": "Sección «Conozca la entidad», apartados Funciones misionales principales y Función Preventiva",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0005",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "procuraduria_y_estado",
+      "secondaryTopicIds": [],
+      "questionType": "interpretation",
+      "difficulty": 4,
+      "stem": "Al hacer seguimiento al cumplimiento de una ley, la Procuraduría reiteró los límites de su función preventiva. ¿Qué queda excluido de esa función?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La coadministración, el prejuzgamiento y el ejercicio de control disciplinario.",
+          "rationale": "La Procuraduría reiteró que la función preventiva no implica coadministración, prejuzgamiento ni ejercicio de control disciplinario."
+        },
+        {
+          "id": "B",
+          "text": "La vigilancia del cumplimiento de la ley por parte de las entidades.",
+          "rationale": "Vigilar el cumplimiento es propio de la función preventiva, no una exclusión."
+        },
+        {
+          "id": "C",
+          "text": "La formulación de advertencias a las entidades vigiladas.",
+          "rationale": "Advertir es una actuación característica de la función preventiva."
+        },
+        {
+          "id": "D",
+          "text": "El seguimiento al cumplimiento de una ley determinada.",
+          "rationale": "El seguimiento es precisamente el contexto en el que se ejerce la función preventiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "La Procuraduría reiteró que la función preventiva no implica coadministración, prejuzgamiento ni ejercicio de control disciplinario.",
+      "references": [
+        {
+          "sourceId": "pgn-bulletin-107-2026-preventive-function",
+          "sourceUnitId": "pgn-bulletin-107-2026-preventive-scope",
+          "locator": "Párrafo final que inicia «La Procuraduría General de la Nación reiteró», boletín del 6 de febrero de 2026",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0006",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "procuraduria_y_estado",
+      "secondaryTopicIds": [],
+      "questionType": "interpretation",
+      "difficulty": 3,
+      "stem": "La enumeración constitucional de quienes ejercen el Ministerio Público termina refiriéndose a «los demás funcionarios que determine la ley». ¿Qué consecuencia tiene esa expresión?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Que la enumeración es taxativa y no admite ninguna incorporación posterior.",
+          "rationale": "La expresión produce el efecto contrario: deja expresamente abierta la incorporación por vía legal."
+        },
+        {
+          "id": "B",
+          "text": "Que la ley puede atribuir el ejercicio del Ministerio Público a funcionarios adicionales a los nombrados en el texto.",
+          "rationale": "Además del Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes y los personeros municipales, el Ministerio Público es ejercido por los demás funcionarios que determine la ley."
+        },
+        {
+          "id": "C",
+          "text": "Que cualquier servidor público ejerce el Ministerio Público por el solo hecho de su vinculación.",
+          "rationale": "Se requiere que la ley lo determine; la condición de servidor público no basta."
+        },
+        {
+          "id": "D",
+          "text": "Que los personeros municipales quedan excluidos mientras la ley no los ratifique.",
+          "rationale": "Los personeros municipales están nombrados de manera expresa en el propio texto constitucional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Además del Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes y los personeros municipales, el Ministerio Público es ejercido por los demás funcionarios que determine la ley.",
+      "references": [
+        {
+          "sourceId": "colombia-constitution-1991",
+          "sourceUnitId": "constitution-1991-art-118",
+          "locator": "Artículo 118, página PDF 82",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0007",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "procuraduria_y_estado",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Un procurador delegado actúa ante un juez en un proceso en el que está en juego el patrimonio público. ¿A cuál de los grupos de funciones del artículo 23 del Decreto Ley 262 de 2000 corresponde esa actuación?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A las funciones disciplinarias.",
+          "rationale": "Las disciplinarias se dirigen a investigar y sancionar la conducta de servidores públicos, no a intervenir en un proceso ajeno."
+        },
+        {
+          "id": "B",
+          "text": "A las funciones preventivas y de control de gestión.",
+          "rationale": "Las preventivas se ejercen vigilando y advirtiendo a las entidades, no compareciendo ante un juez dentro de un proceso."
+        },
+        {
+          "id": "C",
+          "text": "A las funciones de intervención ante autoridades administrativas y judiciales.",
+          "rationale": "El artículo 23 agrupa, entre otras, las funciones de intervención ante autoridades administrativas y judiciales, que es la categoría en la que encaja actuar ante un juez."
+        },
+        {
+          "id": "D",
+          "text": "A las funciones de protección y defensa de los derechos humanos.",
+          "rationale": "Ese grupo se refiere a la protección y defensa de los derechos humanos, materia distinta a la del caso planteado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "El artículo 23 agrupa, entre otras, las funciones de intervención ante autoridades administrativas y judiciales, que es la categoría en la que encaja actuar ante un juez.",
+      "references": [
+        {
+          "sourceId": "decree-law-262-2000",
+          "sourceUnitId": "decree-law-262-2000-art-23",
+          "locator": "Artículo 23, página PDF 15",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0008",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "gestion_documental",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 2,
+      "stem": "Según el Decreto 1080 de 2015, ¿qué comprende el proceso de gestión y trámite de los documentos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Únicamente la digitalización y el respaldo en medios magnéticos.",
+          "rationale": "Digitalizar y respaldar son actividades de soporte y no describen el proceso de gestión y trámite."
+        },
+        {
+          "id": "B",
+          "text": "La eliminación de los documentos cuando se agota su vigencia administrativa.",
+          "rationale": "La eliminación corresponde a la disposición de documentos, que es un proceso distinto y se rige por las tablas de retención o de valoración."
+        },
+        {
+          "id": "C",
+          "text": "La clasificación y descripción de las series documentales.",
+          "rationale": "Clasificar y describir integran la organización de los documentos, no la gestión y trámite."
+        },
+        {
+          "id": "D",
+          "text": "Registro, metadatos, acceso, control y seguimiento.",
+          "rationale": "La gestión y trámite comprende el registro, los metadatos, el acceso, y el control y seguimiento de los documentos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "La gestión y trámite comprende el registro, los metadatos, el acceso, y el control y seguimiento de los documentos.",
+      "references": [
+        {
+          "sourceId": "decree-1080-2015-archives",
+          "sourceUnitId": "decree-1080-2015-archives-review-unit",
+          "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0009",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "gestion_documental",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Una dependencia debe decidir el destino final de un grupo de expedientes cuyo trámite ya terminó. ¿Conforme a qué instrumento se realiza esa disposición?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conforme a las tablas de retención documental o a las tablas de valoración documental.",
+          "rationale": "La disposición de documentos se realiza conforme a las tablas de retención documental o a las tablas de valoración documental."
+        },
+        {
+          "id": "B",
+          "text": "Conforme al criterio del jefe de la dependencia que produjo los expedientes.",
+          "rationale": "La decisión no se deja al criterio individual: depende de los instrumentos archivísticos adoptados."
+        },
+        {
+          "id": "C",
+          "text": "Conforme al plazo general de cinco años aplicable a todo documento público.",
+          "rationale": "No existe un plazo único aplicable a todo documento: los plazos se fijan en los instrumentos archivísticos."
+        },
+        {
+          "id": "D",
+          "text": "Conforme a la solicitud del ciudadano interesado en el expediente.",
+          "rationale": "El acceso del ciudadano es un asunto distinto y no determina la disposición final del documento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "La disposición de documentos se realiza conforme a las tablas de retención documental o a las tablas de valoración documental.",
+      "references": [
+        {
+          "sourceId": "decree-1080-2015-archives",
+          "sourceUnitId": "decree-1080-2015-archives-review-unit",
+          "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0010",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "gestion_documental",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 3,
+      "stem": "¿Mediante qué instrumento organiza el sistema de gestión documental los documentos junto con sus metadatos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mediante el inventario de bienes de la entidad.",
+          "rationale": "El inventario de bienes registra elementos patrimoniales y no organiza documentos con sus metadatos."
+        },
+        {
+          "id": "B",
+          "text": "Mediante los cuadros de clasificación.",
+          "rationale": "El sistema organiza los documentos con sus metadatos mediante cuadros de clasificación, y en ellos se establecen los plazos correspondientes."
+        },
+        {
+          "id": "C",
+          "text": "Mediante el registro de firmas autorizadas de la dependencia.",
+          "rationale": "El registro de firmas es un control de autorización, ajeno a la organización documental."
+        },
+        {
+          "id": "D",
+          "text": "Mediante el acta de entrega del funcionario que se retira.",
+          "rationale": "El acta de entrega documenta una transición de cargo y no cumple una función de clasificación."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "El sistema organiza los documentos con sus metadatos mediante cuadros de clasificación, y en ellos se establecen los plazos correspondientes.",
+      "references": [
+        {
+          "sourceId": "decree-1080-2015-archives",
+          "sourceUnitId": "decree-1080-2015-archives-review-unit",
+          "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0011",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "atencion_transparencia_y_datos",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Una entidad recibe un documento que contiene información pública y, además, una parte amparada por una excepción legal de acceso. ¿Cuál es la actuación que se ajusta a la Ley 1712 de 2014?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Negar por completo el acceso al documento porque contiene información con excepción legal.",
+          "rationale": "Negar todo el documento contradice la regla de acceso parcial: la reserva debe limitarse a la parte indispensable y entregarse el resto de la información no exceptuada."
+        },
+        {
+          "id": "B",
+          "text": "Entregar el documento íntegro sin reservar la parte amparada por la excepción legal.",
+          "rationale": "Entregar íntegro el documento desconoce la excepción legal aplicable a una parte; corresponde reservar únicamente esa parte y entregar lo demás."
+        },
+        {
+          "id": "C",
+          "text": "Elaborar una versión pública que reserve solo la parte indispensable y entregar la información no exceptuada.",
+          "rationale": "La Ley 1712 de 2014 dispone que, cuando un documento contiene información pública y una parte amparada por una excepción legal, debe elaborarse una versión pública que reserve solo la parte indispensable y entregar la información no exceptuada."
+        },
+        {
+          "id": "D",
+          "text": "Negar el acceso de forma verbal, sin dejar constancia escrita ni motivación.",
+          "rationale": "La denegación por protección de derechos del artículo 18 debe ser motivada y escrita, de modo que una negativa verbal y sin motivación no se ajusta a la ley."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "La Ley 1712 de 2014 dispone que, cuando un documento contiene información pública y una parte amparada por una excepción legal, debe elaborarse una versión pública que reserve solo la parte indispensable y entregar la información no exceptuada.",
+      "references": [
+        {
+          "sourceId": "law-1712-2014",
+          "sourceUnitId": "law-1712-2014-review-unit",
+          "locator": "Ley 1712 de 2014, artículos 18 y 21",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0012",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "atencion_transparencia_y_datos",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 2,
+      "stem": "Según la Ley 1712 de 2014, cuando una autoridad deniega el acceso a información amparada por la protección de derechos del artículo 18, ¿qué característica debe tener esa denegación?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Puede comunicarse verbalmente si el solicitante está presente.",
+          "rationale": "La ley no admite una denegación meramente verbal para ese supuesto: exige que sea motivada y escrita."
+        },
+        {
+          "id": "B",
+          "text": "Basta con registrarla internamente sin comunicar razones al solicitante.",
+          "rationale": "Un registro interno sin motivación comunicada no satisface la exigencia de que la denegación sea motivada y escrita."
+        },
+        {
+          "id": "C",
+          "text": "Puede omitirse la motivación cuando la excepción es evidente para la autoridad.",
+          "rationale": "La motivación es un requisito de la denegación y no puede omitirse por considerar evidente la excepción; la ley exige que sea motivada y escrita."
+        },
+        {
+          "id": "D",
+          "text": "Debe ser motivada y escrita.",
+          "rationale": "La denegación por protección de derechos del artículo 18 debe ser motivada y escrita, según la Ley 1712 de 2014."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "La denegación por protección de derechos del artículo 18 debe ser motivada y escrita, según la Ley 1712 de 2014.",
+      "references": [
+        {
+          "sourceId": "law-1712-2014",
+          "sourceUnitId": "law-1712-2014-review-unit",
+          "locator": "Ley 1712 de 2014, artículos 18 y 21",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0013",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "atencion_transparencia_y_datos",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Una persona presenta directamente, sin abogado, una petición respetuosa ante una entidad. Con base en el artículo 13 de la Ley 1755 de 2015, ¿cómo debe proceder la entidad respecto de la ausencia de apoderado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tramitar la petición, pues la persona puede ejercer el derecho directamente sin apoderado.",
+          "rationale": "El artículo 13 de la Ley 1755 de 2015 permite ejercer directamente el derecho, de modo que la ausencia de apoderado no justifica rechazar una petición que la persona puede presentar por sí misma."
+        },
+        {
+          "id": "B",
+          "text": "Rechazar la petición hasta que la persona designe un apoderado que la represente.",
+          "rationale": "Exigir apoderado para tramitar la petición contradice el artículo 13, que permite ejercer directamente el derecho."
+        },
+        {
+          "id": "C",
+          "text": "Exigir que la petición se presente a través de un abogado inscrito.",
+          "rationale": "La representación por abogado no es obligatoria: el artículo 13 permite ejercer directamente el derecho de petición."
+        },
+        {
+          "id": "D",
+          "text": "Cobrar una tarifa por tramitar la petición al no contar con representación profesional.",
+          "rationale": "El artículo 13 asocia el ejercicio del derecho a su gratuidad y a la ausencia de representación obligatoria; no habilita cobrar por atender una petición presentada directamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "El artículo 13 de la Ley 1755 de 2015 permite ejercer directamente el derecho, de modo que la ausencia de apoderado no justifica rechazar una petición que la persona puede presentar por sí misma.",
+      "references": [
+        {
+          "sourceId": "law-1755-2015",
+          "sourceUnitId": "study200-158",
+          "locator": "Artículo 13, gratuidad y ausencia de representación obligatoria",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0014",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "atencion_transparencia_y_datos",
+      "secondaryTopicIds": [],
+      "questionType": "interpretation",
+      "difficulty": 3,
+      "stem": "Un ciudadano radica una petición respetuosa que no usa el formato interno diseñado por la entidad. Conforme al artículo 15 de la Ley 1755 de 2015 sobre presentación y radicación, ¿qué conducta es correcta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rechazar la petición porque no fue diligenciada en el formato oficial de la entidad.",
+          "rationale": "Rechazarla por no usar el formato propio desconoce el artículo 15, que impide negarse a recibir y radicar peticiones respetuosas por esa razón."
+        },
+        {
+          "id": "B",
+          "text": "Recibir y radicar la petición respetuosa, ya que la autoridad no puede negarse por no usar un formato propio.",
+          "rationale": "El artículo 15 establece que la autoridad no puede negarse a recibir y radicar peticiones respetuosas por no usar un formato propio; los mecanismos de estandarización no deben impedir el derecho."
+        },
+        {
+          "id": "C",
+          "text": "Devolver el escrito y condicionar su recepción a que se transcriba en el formato interno.",
+          "rationale": "Condicionar la recepción al formato interno convierte la estandarización en un obstáculo al derecho, contrario a lo previsto en el artículo 15."
+        },
+        {
+          "id": "D",
+          "text": "Recibirla solo de manera informal, sin asignarle radicación.",
+          "rationale": "El artículo 15 exige recibir y radicar la petición respetuosa; recibirla sin radicación no cumple ese deber."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "El artículo 15 establece que la autoridad no puede negarse a recibir y radicar peticiones respetuosas por no usar un formato propio; los mecanismos de estandarización no deben impedir el derecho.",
+      "references": [
+        {
+          "sourceId": "law-1755-2015",
+          "sourceUnitId": "study200-159",
+          "locator": "Artículo 15, presentación y radicación",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0015",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "ofimatica_y_sistemas_de_gestion",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "En Excel, una fórmula con una referencia relativa se copia una fila hacia abajo. Según la documentación sobre referencias relativas, ¿qué ocurre con esa referencia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cambian las columnas referidas y las filas permanecen fijas.",
+          "rationale": "Al copiar hacia abajo una referencia relativa cambian las filas, no las columnas; el enunciado invierte el comportamiento descrito por la documentación."
+        },
+        {
+          "id": "B",
+          "text": "La referencia queda fija en la misma celda original.",
+          "rationale": "Una referencia relativa no queda fija al copiarla: conserva el desplazamiento y cambian las filas al bajar; fijarla correspondería a una referencia absoluta."
+        },
+        {
+          "id": "C",
+          "text": "Cambian las filas referidas, mientras que las columnas no cambian.",
+          "rationale": "Las referencias relativas conservan el desplazamiento respecto de la celda de la fórmula; al bajar una fila cambian las filas referidas, no las columnas."
+        },
+        {
+          "id": "D",
+          "text": "Se convierte automáticamente en una referencia absoluta.",
+          "rationale": "Copiar una referencia relativa no la convierte en absoluta; sigue siendo relativa y ajusta las filas referidas al desplazarse."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Las referencias relativas conservan el desplazamiento respecto de la celda de la fórmula; al bajar una fila cambian las filas referidas, no las columnas.",
+      "references": [
+        {
+          "sourceId": "excel-formulas",
+          "sourceUnitId": "study200-136",
+          "locator": "Using references in Excel formulas — relative references",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0016",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "ofimatica_y_sistemas_de_gestion",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 2,
+      "stem": "En Excel se escribe la fórmula =8+4*3. Según el orden en que Excel realiza las operaciones, ¿cuál es el resultado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "36, porque se suma 8+4 y luego se multiplica por 3.",
+          "rationale": "Ese resultado supondría sumar antes de multiplicar; Excel realiza primero la multiplicación, salvo que se usen paréntesis."
+        },
+        {
+          "id": "B",
+          "text": "15, porque Excel opera estrictamente de izquierda a derecha.",
+          "rationale": "Excel no opera de forma puramente izquierda a derecha entre suma y multiplicación: la multiplicación tiene prioridad sobre la suma."
+        },
+        {
+          "id": "C",
+          "text": "24, porque primero se calcula 8+4 y el 3 se ignora.",
+          "rationale": "El 3 no se ignora y no se suma primero: la multiplicación 4 por 3 se realiza antes que la suma, dando 20."
+        },
+        {
+          "id": "D",
+          "text": "20, porque la multiplicación se realiza antes que la suma.",
+          "rationale": "La multiplicación se realiza antes que la suma: 4 por 3 es 12 y se suman 8, lo que da 20; los paréntesis serían necesarios para sumar primero."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "La multiplicación se realiza antes que la suma: 4 por 3 es 12 y se suman 8, lo que da 20; los paréntesis serían necesarios para sumar primero.",
+      "references": [
+        {
+          "sourceId": "excel-formulas",
+          "sourceUnitId": "study200-139",
+          "locator": "The order in which Excel performs operations",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0017",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "ofimatica_y_sistemas_de_gestion",
+      "secondaryTopicIds": [],
+      "questionType": "interpretation",
+      "difficulty": 3,
+      "stem": "Una fórmula de Excel usa el operador de comparación >= sobre la celda B2, por ejemplo =B2>=10. Según los operadores de comparación, ¿qué produce esta expresión?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Devuelve un valor lógico según si B2 es mayor o igual que 10.",
+          "rationale": "El operador >= compara mayor o igual y devuelve un valor lógico; no asigna el número 10 a la celda B2."
+        },
+        {
+          "id": "B",
+          "text": "Asigna el número 10 a la celda B2.",
+          "rationale": "El operador de comparación no asigna valores: compara y devuelve un valor lógico, no coloca 10 en B2."
+        },
+        {
+          "id": "C",
+          "text": "Suma 10 al contenido de B2.",
+          "rationale": "El operador >= no realiza una suma; compara si un valor es mayor o igual y devuelve un resultado lógico."
+        },
+        {
+          "id": "D",
+          "text": "Convierte el contenido de B2 en el texto \"10\".",
+          "rationale": "El operador de comparación no transforma el contenido en texto; su resultado es un valor lógico de la comparación."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "El operador >= compara mayor o igual y devuelve un valor lógico; no asigna el número 10 a la celda B2.",
+      "references": [
+        {
+          "sourceId": "excel-formulas",
+          "sourceUnitId": "study200-141",
+          "locator": "Calculation operators — comparison operators",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0018",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 2,
+      "stem": "De acuerdo con el artículo 209 de la Constitución Política, ¿cuáles son los principios con fundamento en los cuales se desarrolla la función administrativa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Legalidad, jerarquía, confidencialidad, discrecionalidad y rentabilidad.",
+          "rationale": "Estos no son los principios que el artículo 209 enuncia para la función administrativa; el texto constitucional cita igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
+        },
+        {
+          "id": "B",
+          "text": "Igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.",
+          "rationale": "El artículo 209 establece que la función administrativa se desarrolla con fundamento en los principios de igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
+        },
+        {
+          "id": "C",
+          "text": "Autonomía, secreto, competitividad, oportunidad y libre configuración.",
+          "rationale": "El artículo 209 no menciona estos principios; su listado es igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
+        },
+        {
+          "id": "D",
+          "text": "Solidaridad, subsidiariedad, reserva, gradualidad y coordinación fiscal.",
+          "rationale": "Estos términos no corresponden a los principios que el artículo 209 fija para la función administrativa, que son igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "El artículo 209 establece que la función administrativa se desarrolla con fundamento en los principios de igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.",
+      "references": [
+        {
+          "sourceId": "colombia-constitution-1991",
+          "sourceUnitId": "constitution-1991-art-209",
+          "locator": "Artículo 209, página PDF 135",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0019",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Un servidor advierte que el interés general propio de su función entra en conflicto con un interés particular y directo suyo en un asunto que debe resolver. Según el artículo 11 de la Ley 1437 de 2011, ¿qué debe hacer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continuar con el trámite, pues el interés particular no afecta su competencia formal.",
+          "rationale": "El artículo 11 no permite continuar cuando existe conflicto entre el interés general y un interés particular y directo del servidor: en ese caso debe declararse impedido."
+        },
+        {
+          "id": "B",
+          "text": "Resolver el asunto y luego informar el conflicto una vez adoptada la decisión.",
+          "rationale": "El deber de declararse impedido opera ante el conflicto de interés, no después de decidir; resolver primero desconoce el artículo 11."
+        },
+        {
+          "id": "C",
+          "text": "Declararse impedido, porque el interés general entra en conflicto con su interés particular y directo.",
+          "rationale": "Cuando el interés general propio de la función pública entra en conflicto con el interés particular y directo del servidor, este deberá declararse impedido."
+        },
+        {
+          "id": "D",
+          "text": "Delegar informalmente el asunto en un compañero sin dejar constancia del impedimento.",
+          "rationale": "El artículo 11 impone declararse impedido ante el conflicto; una delegación informal sin declarar el impedimento no cumple ese deber."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Cuando el interés general propio de la función pública entra en conflicto con el interés particular y directo del servidor, este deberá declararse impedido.",
+      "references": [
+        {
+          "sourceId": "law-1437-2011",
+          "sourceUnitId": "law-1437-2011-art-11",
+          "locator": "Artículo 11, páginas PDF 7 a 9",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-COM-0020",
+      "status": "needs_review",
+      "moduleId": "comun",
+      "topicId": "gestion_publica_y_mipg",
+      "secondaryTopicIds": [],
+      "questionType": "interpretation",
+      "difficulty": 3,
+      "stem": "Dentro del ciclo PHVA descrito en la metodología de indicadores de gestión, ¿en qué consiste la etapa Verificar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En formular el plan y fijar las metas antes de ejecutar las actividades.",
+          "rationale": "Formular el plan y las metas corresponde a la etapa de planeación, no a la etapa Verificar del ciclo."
+        },
+        {
+          "id": "B",
+          "text": "En ejecutar las actividades previstas para alcanzar los objetivos.",
+          "rationale": "Ejecutar las actividades corresponde a la etapa Hacer; la etapa Verificar contrasta lo ejecutado con lo planeado."
+        },
+        {
+          "id": "C",
+          "text": "En implementar los ajustes correctivos derivados del análisis de resultados.",
+          "rationale": "Implementar los ajustes correctivos corresponde a la etapa Actuar; la etapa Verificar es la que contrasta lo ejecutado con lo planeado para identificar desviaciones."
+        },
+        {
+          "id": "D",
+          "text": "En contrastar lo ejecutado con lo planeado y con las metas mediante indicadores para identificar desviaciones y orientar ajustes.",
+          "rationale": "La etapa Verificar contrasta lo ejecutado con lo planeado y con las metas mediante indicadores; sus resultados sirven para identificar desviaciones y orientar ajustes."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "La etapa Verificar contrasta lo ejecutado con lo planeado y con las metas mediante indicadores; sus resultados sirven para identificar desviaciones y orientar ajustes.",
+      "references": [
+        {
+          "sourceId": "minvivienda-phva-methodology",
+          "sourceUnitId": "minvivienda-phva-methodology-review-unit",
+          "locator": "Metodología de indicadores de gestión, página PDF 2, Introducción",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "provisional-authorized"
+      ]
+    },
     {
       "id": "PGN-EXP-0026",
       "status": "needs_review",
@@ -11413,6 +12493,1066 @@
       "tags": [
         "respuesta_a_incidentes"
       ]
+    },
+    {
+      "id": "PGN-TEC-0001",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "sistemas_operativos",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 2,
+      "stem": "Un servicio del servidor se ejecuta con una cuenta que tiene permisos de administrador sobre todo el equipo, aunque para operar solo necesita leer una carpeta. Según el principio de mínimo privilegio, ¿cuál es la consecuencia principal de mantener esa configuración?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si el servicio resulta comprometido, el daño alcanzará todos los recursos accesibles con esos permisos.",
+          "rationale": "El principio de mínimo privilegio otorga a cada tarea, proceso o usuario únicamente los derechos que necesita, de modo que un compromiso quede confinado a los recursos limitados de la entidad comprometida. Con permisos de administrador, ese confinamiento desaparece."
+        },
+        {
+          "id": "B",
+          "text": "El servicio responderá más lento porque el sistema valida más permisos en cada operación.",
+          "rationale": "El costo de verificar permisos no es el riesgo que el principio busca evitar, y un privilegio amplio no encarece la verificación."
+        },
+        {
+          "id": "C",
+          "text": "El sistema operativo deshabilitará el servicio automáticamente por exceso de privilegios.",
+          "rationale": "Ningún sistema operativo revoca privilegios por sí mismo: la asignación excesiva persiste hasta que un administrador la corrige."
+        },
+        {
+          "id": "D",
+          "text": "La cuenta dejará de autenticarse cuando caduque la contraseña del administrador.",
+          "rationale": "La caducidad de contraseñas es un control de autenticación distinto y no limita el alcance del daño ante un compromiso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "El principio de mínimo privilegio otorga a cada tarea, proceso o usuario únicamente los derechos que necesita, de modo que un compromiso quede confinado a los recursos limitados de la entidad comprometida. Con permisos de administrador, ese confinamiento desaparece.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-123",
+          "sourceUnitId": "nist-sp800-123-least-privilege",
+          "locator": "Sección 2.4, página PDF 15",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-123",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0002",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "sistemas_operativos",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Al endurecer un servidor se identifica un servicio de red que la entidad no utiliza. El administrador puede deshabilitarlo en la configuración o desinstalarlo por completo. ¿Por qué se prefiere desinstalarlo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque un servicio deshabilitado sigue consumiendo memoria y procesador del servidor.",
+          "rationale": "Un servicio deshabilitado no permanece en ejecución, así que el argumento del consumo de recursos no sostiene la preferencia."
+        },
+        {
+          "id": "B",
+          "text": "Porque un ataque que altere la configuración puede reactivar un servicio deshabilitado, y también puede reactivarse por error humano.",
+          "rationale": "Retirar los componentes funcionales es preferible a deshabilitarlos porque un ataque que modifique la configuración para activar un servicio deshabilitado no puede tener éxito si el componente ya no existe; además, un servicio deshabilitado puede quedar habilitado de nuevo por error humano."
+        },
+        {
+          "id": "C",
+          "text": "Porque las condiciones de licenciamiento del sistema operativo obligan a retirar los componentes que no se usan.",
+          "rationale": "No existe una exigencia de licenciamiento que gobierne el endurecimiento del servidor."
+        },
+        {
+          "id": "D",
+          "text": "Porque desinstalar es la única forma de dejar registro de auditoría del cambio.",
+          "rationale": "Tanto la desinstalación como el cambio de configuración pueden registrarse; la auditoría no distingue entre ambas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Retirar los componentes funcionales es preferible a deshabilitarlos porque un ataque que modifique la configuración para activar un servicio deshabilitado no puede tener éxito si el componente ya no existe; además, un servicio deshabilitado puede quedar habilitado de nuevo por error humano.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-123",
+          "sourceUnitId": "nist-sp800-123-remover-mejor-que-deshabilitar",
+          "locator": "Sección 4.2.1, página PDF 27",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-123",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0003",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "soporte_y_mantenimiento",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 2,
+      "stem": "¿Cuál de las siguientes describe el alcance de la gestión de parches en una organización?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Instalar todas las actualizaciones disponibles el mismo día en que el fabricante las publica.",
+          "rationale": "El despliegue inmediato y sin priorizar omite las pruebas previas y las ventanas de mantenimiento, y no describe el alcance del proceso."
+        },
+        {
+          "id": "B",
+          "text": "Restaurar los equipos a su configuración de fábrica en periodos definidos.",
+          "rationale": "Restablecer a fábrica puede incluso devolver el equipo a un estado vulnerable y deshacer parches ya aplicados."
+        },
+        {
+          "id": "C",
+          "text": "Identificar, priorizar, adquirir, instalar y verificar la instalación de parches, actualizaciones y mejoras en toda la organización.",
+          "rationale": "La gestión de parches en la organización es el proceso de identificar, priorizar, adquirir, instalar y verificar la instalación de parches, actualizaciones y mejoras a lo largo de toda la entidad. La verificación forma parte del proceso, no termina con la instalación."
+        },
+        {
+          "id": "D",
+          "text": "Documentar los incidentes de seguridad e informarlos a la instancia competente.",
+          "rationale": "Corresponde a la gestión de incidentes, que es una actividad distinta de la gestión de parches."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "La gestión de parches en la organización es el proceso de identificar, priorizar, adquirir, instalar y verificar la instalación de parches, actualizaciones y mejoras a lo largo de toda la entidad. La verificación forma parte del proceso, no termina con la instalación.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-40r4",
+          "sourceUnitId": "nist-sp800-40r4-definicion-parcheo",
+          "locator": "Resumen ejecutivo, página PDF 6",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-40r4",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0004",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "soporte_y_mantenimiento",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Para el parcheo rutinario de un parque grande de equipos se recomienda desplegar el parche primero en un subconjunto pequeño de activos. ¿Cuál es el propósito de ese subconjunto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Repartir el consumo de ancho de banda de la descarga a lo largo de varios días.",
+          "rationale": "El ancho de banda puede ser una restricción operativa real, pero no es la razón por la que se elige un subconjunto inicial."
+        },
+        {
+          "id": "B",
+          "text": "Cumplir la regla de instalar los parches siguiendo el orden alfabético de los equipos.",
+          "rationale": "No existe una regla semejante en la planificación del mantenimiento."
+        },
+        {
+          "id": "C",
+          "text": "Reemplazar la validación de autenticidad e integridad del parche.",
+          "rationale": "La validación de autenticidad e integridad es un paso previo e independiente, que el despliegue por fases no sustituye."
+        },
+        {
+          "id": "D",
+          "text": "Detectar problemas y estimar el impacto operativo probable del parche antes de ampliar el despliegue.",
+          "rationale": "Ese subconjunto actúa como activos canario: sirve para identificar problemas y determinar el impacto operativo probable del parche. En la práctica, es así como el parcheo queda probado antes de extenderse al resto."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ese subconjunto actúa como activos canario: sirve para identificar problemas y determinar el impacto operativo probable del parche. En la práctica, es así como el parcheo queda probado antes de extenderse al resto.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-40r4",
+          "sourceUnitId": "nist-sp800-40r4-despliegue-por-fases-canarios",
+          "locator": "Sección 3.5.1, página PDF 21",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-40r4",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0005",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "sistemas_operativos",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 2,
+      "stem": "Un administrador de la Procuraduría va a poner en servicio un nuevo servidor y quiere seguir un enfoque ordenado para asegurar su sistema operativo. Según la guía NIST SP 800-123, ¿qué afirmación describe correctamente el aseguramiento del sistema operativo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Existen unos pasos básicos que son necesarios para asegurar el sistema operativo.",
+          "rationale": "Correcta: la guía señala expresamente que 'the following basic steps are necessary to secure the OS', es decir, que hay pasos básicos necesarios para asegurar el sistema operativo."
+        },
+        {
+          "id": "B",
+          "text": "El aseguramiento del sistema operativo es un evento único que basta realizar el día de la instalación.",
+          "rationale": "Incorrecta: la guía plantea el aseguramiento como un conjunto de pasos básicos y sostenidos, no como una acción única e irrepetible."
+        },
+        {
+          "id": "C",
+          "text": "El aseguramiento del sistema operativo solo aplica a servidores expuestos a Internet y no a los internos.",
+          "rationale": "Incorrecta: la guía no limita los pasos de aseguramiento a servidores expuestos a Internet; los presenta como necesarios de forma general."
+        },
+        {
+          "id": "D",
+          "text": "Asegurar el sistema operativo depende exclusivamente del proveedor del hardware y no del administrador.",
+          "rationale": "Incorrecta: la guía dirige los pasos de aseguramiento a la configuración que realiza el administrador, no al proveedor de hardware."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Correcta: la guía señala expresamente que 'the following basic steps are necessary to secure the OS', es decir, que hay pasos básicos necesarios para asegurar el sistema operativo.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-123",
+          "sourceUnitId": "nist-sp800-123-pasos-asegurar-so",
+          "locator": "Sección 4, página PDF 25",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-123",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0006",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "sistemas_operativos",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "El área de tecnología recibió un servidor con una versión de sistema operativo que tiene vulnerabilidades conocidas y planea usarlo para alojar un portal al que accederán usuarios externos. Siguiendo NIST SP 800-123, ¿cuál es el momento correcto para corregir esas vulnerabilidades conocidas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Después de publicar el portal, aprovechando las ventanas de mantenimiento cuando haya menos usuarios conectados.",
+          "rationale": "Incorrecta: la guía exige corregir las vulnerabilidades conocidas antes de exponer el servidor, no después de publicarlo."
+        },
+        {
+          "id": "B",
+          "text": "Antes de usar el sistema operativo para alojar el servicio o exponerlo a usuarios no confiables.",
+          "rationale": "Correcta: la guía indica que 'any known vulnerabilities an OS has should be corrected before using it to host a server or otherwise exposing it to untrusted users', es decir, corregirlas antes de alojar el servicio o exponerlo a usuarios no confiables."
+        },
+        {
+          "id": "C",
+          "text": "Solo si un usuario externo llega a reportar un problema de seguridad concreto.",
+          "rationale": "Incorrecta: la corrección no depende de un reporte externo; la guía ordena corregir las vulnerabilidades conocidas de forma previa a la exposición."
+        },
+        {
+          "id": "D",
+          "text": "En cualquier momento del primer año de operación, ya que las vulnerabilidades conocidas no son urgentes.",
+          "rationale": "Incorrecta: la guía no admite postergar la corrección; las vulnerabilidades conocidas deben corregirse antes de la exposición del servidor."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Correcta: la guía indica que 'any known vulnerabilities an OS has should be corrected before using it to host a server or otherwise exposing it to untrusted users', es decir, corregirlas antes de alojar el servicio o exponerlo a usuarios no confiables.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-123",
+          "sourceUnitId": "nist-sp800-123-parches-antes-de-exponer",
+          "locator": "Sección 4.1, página PDF 25",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-123",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0007",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "sistemas_operativos",
+      "secondaryTopicIds": [],
+      "questionType": "technical_analysis",
+      "difficulty": 3,
+      "stem": "Un administrador configura sus servidores para que descarguen parches automáticamente y, para ahorrar tiempo, quiere que también se instalen solos apenas se descarguen. Según NIST SP 800-123, ¿qué recomienda la guía sobre esta configuración?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tanto la descarga como la instalación deben ser automáticas para minimizar la ventana de exposición.",
+          "rationale": "Incorrecta: la guía desaconseja la instalación automática; recomienda no instalar de forma automática para poder probar antes."
+        },
+        {
+          "id": "B",
+          "text": "Ni la descarga ni la instalación deben automatizarse; ambas deben hacerse siempre a mano.",
+          "rationale": "Incorrecta: la guía sí admite la descarga automática de parches; lo que desaconseja es la instalación automática sin pruebas previas."
+        },
+        {
+          "id": "C",
+          "text": "Los servidores pueden descargar los parches automáticamente, pero no deben configurarse para instalarlos de forma automática, de modo que primero se puedan probar.",
+          "rationale": "Correcta: la guía indica que 'although administrators can configure servers to download patches automatically, the servers should not be configured to install them automatically so that they can first be tested', es decir, permite la descarga automática pero no la instalación automática, para poder probar los parches antes."
+        },
+        {
+          "id": "D",
+          "text": "La instalación automática es aceptable siempre que se realice fuera del horario laboral.",
+          "rationale": "Incorrecta: la objeción de la guía a la instalación automática es la falta de pruebas previas, no el horario en que ocurra."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Correcta: la guía indica que 'although administrators can configure servers to download patches automatically, the servers should not be configured to install them automatically so that they can first be tested', es decir, permite la descarga automática pero no la instalación automática, para poder probar los parches antes.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-123",
+          "sourceUnitId": "nist-sp800-123-no-autoinstalar-parches",
+          "locator": "Sección 4.1, página PDF 26",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-123",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0008",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "sistemas_operativos",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 2,
+      "stem": "En un documento de arquitectura de la entidad se menciona que un servidor específico se configurará como 'bastion host'. Según NIST SP 800-123, ¿qué caracteriza a un bastion host?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Es un servidor destinado a alojar la mayor cantidad posible de servicios para aprovechar el hardware.",
+          "rationale": "Incorrecta: el bastion host busca ofrecer la mínima funcionalidad posible, no concentrar la mayor cantidad de servicios."
+        },
+        {
+          "id": "B",
+          "text": "Es un equipo sin controles de seguridad especiales, pensado únicamente para pruebas internas.",
+          "rationale": "Incorrecta: el bastion host se define precisamente por tener controles de seguridad particularmente fuertes."
+        },
+        {
+          "id": "C",
+          "text": "Es un servidor que replica automáticamente la configuración de los demás equipos de la red.",
+          "rationale": "Incorrecta: la definición no se refiere a replicar configuraciones, sino a controles de seguridad fuertes y mínima funcionalidad."
+        },
+        {
+          "id": "D",
+          "text": "Es un equipo con controles de seguridad particularmente fuertes y configurado para ofrecer la menor funcionalidad posible.",
+          "rationale": "Correcta: la guía define que 'a bastion host has particularly strong security controls and is configured so as to offer the least functionality possible', es decir, controles de seguridad fuertes y la mínima funcionalidad posible."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Correcta: la guía define que 'a bastion host has particularly strong security controls and is configured so as to offer the least functionality possible', es decir, controles de seguridad fuertes y la mínima funcionalidad posible.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-123",
+          "sourceUnitId": "nist-sp800-123-bastion-host",
+          "locator": "Sección 4.2, página PDF 26",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-123",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0009",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "sistemas_operativos",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Un técnico debe preparar un servidor de la entidad partiendo de una instalación de sistema operativo. Quiere reducir la superficie de ataque desde el inicio. Según NIST SP 800-123, ¿cuál es el enfoque recomendado respecto a servicios, aplicaciones y protocolos de red?",
+      "options": [
+        {
+          "id": "A",
+          "text": "De ser posible, instalar la configuración mínima del sistema operativo y luego agregar, remover o deshabilitar servicios, aplicaciones y protocolos según lo necesario.",
+          "rationale": "Correcta: la guía recomienda 'install the minimal OS configuration and then add, remove, or disable services, applications, and network protocols as needed', es decir, partir de una instalación mínima y ajustar los servicios y protocolos según la necesidad."
+        },
+        {
+          "id": "B",
+          "text": "Instalar todos los servicios y protocolos disponibles y dejar que el firewall bloquee lo que no se use.",
+          "rationale": "Incorrecta: la guía busca partir de una configuración mínima; delegar todo al firewall deja instalados componentes innecesarios en el propio servidor."
+        },
+        {
+          "id": "C",
+          "text": "Instalar la configuración completa del sistema operativo, porque quitar servicios después puede dañar el sistema.",
+          "rationale": "Incorrecta: la guía recomienda expresamente partir de la configuración mínima y ajustar desde allí, no instalar la configuración completa."
+        },
+        {
+          "id": "D",
+          "text": "No modificar los servicios instalados por defecto para conservar la compatibilidad certificada por el fabricante.",
+          "rationale": "Incorrecta: la guía indica ajustar los servicios, aplicaciones y protocolos según la necesidad, no conservar sin cambios lo instalado por defecto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Correcta: la guía recomienda 'install the minimal OS configuration and then add, remove, or disable services, applications, and network protocols as needed', es decir, partir de una instalación mínima y ajustar los servicios y protocolos según la necesidad.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-123",
+          "sourceUnitId": "nist-sp800-123-remover-servicios-innecesarios",
+          "locator": "Sección 4.2.1, página PDF 26",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-123",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0010",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "sistemas_operativos",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 2,
+      "stem": "Al revisar un servidor recién instalado que almacena información sensible, un administrador encuentra varias cuentas por defecto que nadie utiliza, incluida una cuenta de invitado. Según NIST SP 800-123, ¿qué debe hacer con esas cuentas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dejarlas activas pero asignarles contraseñas largas, ya que las cuentas por defecto no representan riesgo.",
+          "rationale": "Incorrecta: la guía busca eliminar el uso de esas cuentas por atacantes removiéndolas o deshabilitándolas, no simplemente mantenerlas activas con contraseñas largas."
+        },
+        {
+          "id": "B",
+          "text": "Removerlas cuando sea posible o deshabilitarlas, para eliminar su uso por parte de atacantes, incluida la cuenta de invitado en equipos con información sensible.",
+          "rationale": "Correcta: la guía indica 'remove (whenever possible) or disable unnecessary accounts to eliminate their use by attackers, including guest accounts on computers containing sensitive information', es decir, remover o deshabilitar las cuentas innecesarias, incluida la de invitado en equipos con información sensible."
+        },
+        {
+          "id": "C",
+          "text": "Convertirlas en cuentas de administrador para tener respaldo de acceso ante un olvido de credenciales.",
+          "rationale": "Incorrecta: elevar cuentas por defecto innecesarias a administrador aumenta el riesgo; la guía recomienda removerlas o deshabilitarlas."
+        },
+        {
+          "id": "D",
+          "text": "Mantener la cuenta de invitado habilitada para facilitar el acceso ocasional de personal externo.",
+          "rationale": "Incorrecta: la guía menciona expresamente deshabilitar o remover la cuenta de invitado en equipos con información sensible, no mantenerla habilitada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Correcta: la guía indica 'remove (whenever possible) or disable unnecessary accounts to eliminate their use by attackers, including guest accounts on computers containing sensitive information', es decir, remover o deshabilitar las cuentas innecesarias, incluida la de invitado en equipos con información sensible.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-123",
+          "sourceUnitId": "nist-sp800-123-cuentas-por-defecto",
+          "locator": "Sección 4.2.2, página PDF 28",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-123",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0011",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "sistemas_operativos",
+      "secondaryTopicIds": [],
+      "questionType": "technical_analysis",
+      "difficulty": 3,
+      "stem": "Para dificultar los ataques de adivinación de contraseñas por fuerza bruta contra un servidor, un administrador estudia opciones que ofrece el sistema operativo. Según NIST SP 800-123, ¿qué medida se recomienda si el sistema operativo lo permite?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Enviar al administrador una copia de cada contraseña intentada para revisarla manualmente.",
+          "rationale": "Incorrecta: la guía no propone recolectar las contraseñas intentadas; recomienda aumentar el tiempo entre intentos de inicio de sesión."
+        },
+        {
+          "id": "B",
+          "text": "Deshabilitar por completo el registro de intentos de autenticación para no saturar los logs.",
+          "rationale": "Incorrecta: la guía busca dificultar la adivinación aumentando el intervalo entre intentos; deshabilitar el registro no es la medida recomendada."
+        },
+        {
+          "id": "C",
+          "text": "Configurar el sistema para incrementar el periodo entre intentos de inicio de sesión con cada intento fallido.",
+          "rationale": "Correcta: la guía señala 'if the OS provides the capability, configure it to increase the period between login attempts with each unsuccessful attempt', es decir, aumentar el intervalo entre intentos de inicio de sesión con cada intento fallido."
+        },
+        {
+          "id": "D",
+          "text": "Reducir el periodo entre intentos de inicio de sesión para que el usuario legítimo entre más rápido.",
+          "rationale": "Incorrecta: reducir el intervalo facilitaría la adivinación; la guía recomienda incrementarlo con cada intento fallido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Correcta: la guía señala 'if the OS provides the capability, configure it to increase the period between login attempts with each unsuccessful attempt', es decir, aumentar el intervalo entre intentos de inicio de sesión con cada intento fallido.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-123",
+          "sourceUnitId": "nist-sp800-123-prevenir-adivinacion-contrasenas",
+          "locator": "Sección 4.2.2, página PDF 29",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-123",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0012",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "sistemas_operativos",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Un administrador quiere proteger los archivos de registro (logs) de un servidor para que un atacante que lo comprometa no pueda alterarlos o borrarlos. Según NIST SP 800-123, ¿cuál es la mejor solución para proteger esos registros?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cifrar los archivos de registro y dejarlos en el mismo servidor, ya que el cifrado es suficiente por sí solo.",
+          "rationale": "Incorrecta: la guía reconoce que el cifrado puede ser útil, pero presenta como mejor solución almacenar los registros en un host separado, no dejarlos en el mismo servidor."
+        },
+        {
+          "id": "B",
+          "text": "Reducir la cantidad de eventos registrados para que haya menos información expuesta.",
+          "rationale": "Incorrecta: disminuir los eventos registrados no protege los logs; la guía recomienda almacenarlos en un host separado del servidor."
+        },
+        {
+          "id": "C",
+          "text": "Configurar los registros como archivos ocultos dentro del mismo servidor para que el atacante no los encuentre.",
+          "rationale": "Incorrecta: ocultar los archivos en el mismo servidor no los protege ante un compromiso; la mejor solución según la guía es almacenarlos en un host separado."
+        },
+        {
+          "id": "D",
+          "text": "Guardar los archivos de registro en un host separado del servidor.",
+          "rationale": "Correcta: la guía afirma que 'although encryption can be useful in protecting log files, the best solution is to store log files on a host separate from the server', es decir, almacenar los registros en un host separado del servidor es la mejor solución."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Correcta: la guía afirma que 'although encryption can be useful in protecting log files, the best solution is to store log files on a host separate from the server', es decir, almacenar los registros en un host separado del servidor es la mejor solución.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-123",
+          "sourceUnitId": "nist-sp800-123-logs-en-host-separado",
+          "locator": "Sección 6.1.2, página PDF 40",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-123",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0013",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "soporte_y_mantenimiento",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 2,
+      "stem": "En una entidad pública, un profesional de soporte propone posponer indefinidamente la aplicación de parches de seguridad porque, según él, no aportan valor a la operación diaria y solo consumen tiempo del equipo. ¿Cómo debe entenderse el parcheo dentro de la gestión de mantenimiento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Como un costo estándar del negocio que debe seguirse y registrarse con rigor.",
+          "rationale": "El parcheo debe considerarse un costo estándar del negocio y seguirse y registrarse rigurosamente, por lo que no puede posponerse indefinidamente como si careciera de valor."
+        },
+        {
+          "id": "B",
+          "text": "Como una actividad opcional que solo se ejecuta cuando sobra tiempo del equipo de soporte.",
+          "rationale": "El parcheo no es una actividad opcional supeditada al tiempo libre; se considera un costo estándar del negocio que debe seguirse y registrarse con rigor."
+        },
+        {
+          "id": "C",
+          "text": "Como una tarea que solo corresponde al proveedor del software y no a la entidad.",
+          "rationale": "La responsabilidad de aplicar y hacer seguimiento al parcheo recae en la organización; no se traslada íntegramente al proveedor, aunque este publique los parches."
+        },
+        {
+          "id": "D",
+          "text": "Como una medida correctiva que solo se ejecuta después de sufrir un incidente de seguridad.",
+          "rationale": "El parcheo es una práctica sostenida y rigurosa de mantenimiento, no una reacción que solo se activa una vez ocurrido el incidente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "El parcheo debe considerarse un costo estándar del negocio y seguirse y registrarse rigurosamente, por lo que no puede posponerse indefinidamente como si careciera de valor.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-40r4",
+          "sourceUnitId": "nist-sp800-40r4-mantenimiento-preventivo",
+          "locator": "Resumen ejecutivo, página PDF 6",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-40r4",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0014",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "soporte_y_mantenimiento",
+      "secondaryTopicIds": [],
+      "questionType": "technical_analysis",
+      "difficulty": 3,
+      "stem": "Durante el inventario de un parque de equipos de una entidad pública, el área de soporte detecta un sistema que presenta una vulnerabilidad conocida, pero el fabricante ya declaró ese producto en fin de vida (end-of-life). ¿Qué conclusión es correcta respecto a la disponibilidad de un parche?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El fabricante está obligado a emitir un parche final antes de retirar el soporte.",
+          "rationale": "El fin de vida implica precisamente que no habrá más parches; la fuente no establece obligación de emitir un parche final."
+        },
+        {
+          "id": "B",
+          "text": "El parche para esa vulnerabilidad no será liberado nunca porque el software está en fin de vida.",
+          "rationale": "Cuando el proveedor ya no soporta el software vulnerable, el parche nunca será liberado porque el producto está en fin de vida, de modo que la entidad debe gestionar el riesgo por otras vías."
+        },
+        {
+          "id": "C",
+          "text": "El parche llegará automáticamente en la siguiente actualización del sistema operativo.",
+          "rationale": "Un producto en fin de vida no recibe parches, por lo que no llegará ninguna corrección con futuras actualizaciones."
+        },
+        {
+          "id": "D",
+          "text": "El parche se descargará de un repositorio comunitario con las mismas garantías del fabricante.",
+          "rationale": "El estado de fin de vida significa que no se liberará parche del fabricante; la fuente no respalda que un repositorio comunitario provea una corrección equivalente y garantizada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cuando el proveedor ya no soporta el software vulnerable, el parche nunca será liberado porque el producto está en fin de vida, de modo que la entidad debe gestionar el riesgo por otras vías.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-40r4",
+          "sourceUnitId": "nist-sp800-40r4-software-end-of-life",
+          "locator": "Sección 2.1, páginas PDF 10 a 11",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-40r4",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0015",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "soporte_y_mantenimiento",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Una oficina de tecnología de una entidad pública quiere establecer un proceso ordenado de mantenimiento de software y desea saber qué debe garantizarse primero para poder gestionar las vulnerabilidades de su parque de equipos. ¿Cuál es el prerrequisito adecuado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contratar de inmediato un seguro que cubra los daños de cualquier incidente informático.",
+          "rationale": "Un seguro no reemplaza el conocimiento del inventario de activos y software, que es la base para gestionar las vulnerabilidades."
+        },
+        {
+          "id": "B",
+          "text": "Migrar todos los servidores a la nube antes de revisar cualquier vulnerabilidad.",
+          "rationale": "Migrar a la nube no es el prerrequisito señalado; primero debe conocerse el inventario de activos y de software con sus versiones."
+        },
+        {
+          "id": "C",
+          "text": "Conocer qué activos usa la organización y qué software y versiones ejecutan, hasta paquetes y librerías.",
+          "rationale": "El prerrequisito es conocer los activos y saber qué software y versiones ejecutan, hasta el nivel de paquetes y librerías, además de seguir las nuevas vulnerabilidades de ese software."
+        },
+        {
+          "id": "D",
+          "text": "Definir las tarifas de cobro por soporte a las demás dependencias de la entidad.",
+          "rationale": "Definir tarifas de cobro no habilita la gestión de vulnerabilidades; el prerrequisito es tener el inventario de activos y software."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "El prerrequisito es conocer los activos y saber qué software y versiones ejecutan, hasta el nivel de paquetes y librerías, además de seguir las nuevas vulnerabilidades de ese software.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-40r4",
+          "sourceUnitId": "nist-sp800-40r4-inventario-prerequisito",
+          "locator": "Sección 2.2, página PDF 11",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-40r4",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0016",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "soporte_y_mantenimiento",
+      "secondaryTopicIds": [],
+      "questionType": "technical_analysis",
+      "difficulty": 4,
+      "stem": "El área de soporte de una entidad pública tiene varios parches pendientes y limitado tiempo en la próxima ventana de mantenimiento, por lo que debe decidir cuál desplegar primero. ¿Con qué criterio se prioriza un parche frente a los demás?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Se prioriza el parche de menor tamaño en disco para terminar más rápido la instalación.",
+          "rationale": "El tamaño del archivo no es el criterio de priorización señalado por la fuente."
+        },
+        {
+          "id": "B",
+          "text": "Se prioriza el parche liberado por el proveedor más reconocido comercialmente.",
+          "rationale": "El prestigio comercial del proveedor no es el criterio de priorización; lo que define la prioridad es la reducción de riesgo."
+        },
+        {
+          "id": "C",
+          "text": "Se prioriza el parche que el usuario final solicite con mayor insistencia.",
+          "rationale": "La insistencia del usuario no determina la prioridad; el criterio es la reducción de riesgo de ciberseguridad que produce el despliegue."
+        },
+        {
+          "id": "D",
+          "text": "Se prioriza el parche cuyo despliegue reduciría más el riesgo de ciberseguridad que los demás.",
+          "rationale": "Un parche puede tener mayor prioridad de despliegue que otros porque su instalación reduciría el riesgo de ciberseguridad más que los demás parches."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Un parche puede tener mayor prioridad de despliegue que otros porque su instalación reduciría el riesgo de ciberseguridad más que los demás parches.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-40r4",
+          "sourceUnitId": "nist-sp800-40r4-priorizar-por-riesgo",
+          "locator": "Sección 2.3.1, página PDF 12",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-40r4",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0017",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "soporte_y_mantenimiento",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Antes de instalar un parche en los servidores de una entidad pública, el equipo de soporte lo descarga desde un enlace recibido por correo. ¿Qué riesgo debe controlar antes de proceder con la instalación?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Que el parche provenga de una fuente ilegítima o haya sido alterado en tránsito o tras su obtención.",
+          "rationale": "El parche podría haberse obtenido de una fuente ilegítima o haber sido alterado en tránsito o después de su obtención, por lo que debe validarse su procedencia e integridad antes de instalarlo."
+        },
+        {
+          "id": "B",
+          "text": "Que el parche resulte más pesado de lo previsto y ocupe demasiado ancho de banda.",
+          "rationale": "El consumo de ancho de banda no es el riesgo central que exige control previo a la instalación."
+        },
+        {
+          "id": "C",
+          "text": "Que el parche cambie el idioma de la interfaz del sistema operativo.",
+          "rationale": "El idioma de la interfaz no es el riesgo que la fuente señala como prioritario a controlar antes de instalar."
+        },
+        {
+          "id": "D",
+          "text": "Que el parche incremente el consumo eléctrico del centro de datos.",
+          "rationale": "El consumo eléctrico no es el riesgo que exige validación previa; el riesgo relevante es la procedencia ilegítima o la alteración del parche."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "El parche podría haberse obtenido de una fuente ilegítima o haber sido alterado en tránsito o después de su obtención, por lo que debe validarse su procedencia e integridad antes de instalarlo.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-40r4",
+          "sourceUnitId": "nist-sp800-40r4-validar-autenticidad-parche",
+          "locator": "Sección 2.3.1, página PDF 12",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-40r4",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0018",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "soporte_y_mantenimiento",
+      "secondaryTopicIds": [],
+      "questionType": "conceptual",
+      "difficulty": 3,
+      "stem": "Un profesional de soporte de una entidad pública propone probar los parches en un ambiente controlado antes de aplicarlos al parque de equipos en producción. ¿Cuál es el propósito principal de esa prueba previa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cumplir un requisito de imagen institucional ante los usuarios de la entidad.",
+          "rationale": "La prueba previa no busca imagen institucional, sino identificar problemas del parche antes de producción."
+        },
+        {
+          "id": "B",
+          "text": "Reducir el riesgo operacional identificando problemas del parche antes de llevarlo a producción.",
+          "rationale": "La prueba busca reducir el riesgo operacional al identificar problemas con el parche antes de ponerlo en producción."
+        },
+        {
+          "id": "C",
+          "text": "Reemplazar la necesidad de validar la procedencia e integridad del parche.",
+          "rationale": "Probar el parche no sustituye la validación de su autenticidad; su propósito es reducir el riesgo operacional detectando problemas antes de producción."
+        },
+        {
+          "id": "D",
+          "text": "Acelerar el despliegue omitiendo la ventana de gestión de cambios.",
+          "rationale": "La prueba no pretende omitir la gestión de cambios ni acelerar saltándose controles; su fin es detectar problemas antes de producción para reducir el riesgo operacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "La prueba busca reducir el riesgo operacional al identificar problemas con el parche antes de ponerlo en producción.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-40r4",
+          "sourceUnitId": "nist-sp800-40r4-probar-reduce-riesgo-operacional",
+          "locator": "Sección 2.3.1, página PDF 12",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-40r4",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0019",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "soporte_y_mantenimiento",
+      "secondaryTopicIds": [],
+      "questionType": "application",
+      "difficulty": 3,
+      "stem": "Tras aplicar un parche en un activo de una entidad pública, el equipo de soporte quiere asegurarse de que el activo se mantenga corregido con el paso del tiempo. ¿Qué actividad de monitoreo permite confirmarlo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Verificar únicamente que el consumo de memoria del activo bajó tras el parche.",
+          "rationale": "El consumo de memoria no confirma que el activo siga corregido; el monitoreo debe verificar que el parche permanezca instalado y no haya sido revertido."
+        },
+        {
+          "id": "B",
+          "text": "Comprobar solamente que el usuario firmó el acta de recepción del mantenimiento.",
+          "rationale": "La firma del acta no acredita el estado técnico del parche; se debe monitorear que no haya sido desinstalado o revertido a un estado vulnerable."
+        },
+        {
+          "id": "C",
+          "text": "Confirmar que el parche no fue desinstalado, ni restaurado desde un respaldo sin parchar, ni revertido a un estado de fábrica vulnerable.",
+          "rationale": "El monitoreo permite confirmar que el parche no fue desinstalado por un usuario o atacante, que no se restauró una versión sin parchar desde un respaldo y que el dispositivo no fue devuelto a un estado de fábrica vulnerable."
+        },
+        {
+          "id": "D",
+          "text": "Revisar que el color del indicador luminoso del equipo permanezca encendido.",
+          "rationale": "Un indicador luminoso no evidencia la persistencia del parche; el monitoreo pertinente confirma que el parche no fue removido ni el activo devuelto a un estado vulnerable."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "El monitoreo permite confirmar que el parche no fue desinstalado por un usuario o atacante, que no se restauró una versión sin parchar desde un respaldo y que el dispositivo no fue devuelto a un estado de fábrica vulnerable.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-40r4",
+          "sourceUnitId": "nist-sp800-40r4-monitorear-parche-desplegado",
+          "locator": "Sección 2.3.4, página PDF 14",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-40r4",
+        "provisional-authorized"
+      ]
+    },
+    {
+      "id": "PGN-TEC-0020",
+      "status": "needs_review",
+      "moduleId": "tecnico",
+      "topicId": "soporte_y_mantenimiento",
+      "secondaryTopicIds": [],
+      "questionType": "technical_analysis",
+      "difficulty": 4,
+      "stem": "Una entidad pública administra un parque muy grande de equipos con numerosas instalaciones de software, vulnerabilidades y parches. El jefe de soporte insiste en gestionar todo el parcheo de forma manual. ¿Qué advertencia técnica es pertinente?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El parcheo manual es preferible porque evita depender de cualquier herramienta tecnológica.",
+          "rationale": "La fuente indica lo contrario: ante el volumen de activos, software, vulnerabilidades y parches, no es posible mantenerse al día sin automatización."
+        },
+        {
+          "id": "B",
+          "text": "El parcheo manual solo falla si el equipo de soporte tiene menos de cinco personas.",
+          "rationale": "El problema no depende de un número específico de personas; por el volumen de activos y parches no se puede sostener el parcheo sin automatización."
+        },
+        {
+          "id": "C",
+          "text": "El parcheo manual garantiza mejor calidad porque cada equipo se revisa individualmente.",
+          "rationale": "La revisión individual manual no es sostenible frente al volumen; la fuente advierte que sin automatización no se puede mantener el parcheo al día."
+        },
+        {
+          "id": "D",
+          "text": "Sin automatización la organización no puede mantenerse al día por el enorme número de activos, instalaciones, vulnerabilidades y parches.",
+          "rationale": "No hay forma de que una organización se mantenga al día con el parcheo sin automatización, debido al enorme número de activos, instalaciones de software, vulnerabilidades y parches."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "No hay forma de que una organización se mantenga al día con el parcheo sin automatización, debido al enorme número de activos, instalaciones de software, vulnerabilidades y parches.",
+      "references": [
+        {
+          "sourceId": "nist-sp800-40r4",
+          "sourceUnitId": "nist-sp800-40r4-automatizacion-indispensable",
+          "locator": "Sección 3, página PDF 16",
+          "supports": "correct_answer"
+        }
+      ],
+      "targetCallIds": [
+        "126-2026"
+      ],
+      "createdMethod": "ai_draft",
+      "reviews": [],
+      "validFrom": null,
+      "tags": [
+        "temario-3pu-15",
+        "nist-sp800-40r4",
+        "provisional-authorized"
+      ]
     }
   ],
   "topics": [
@@ -11489,9 +13629,19 @@
       "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125"
     },
     {
+      "id": "decree-law-262-2000",
+      "title": "Decreto Ley 262 de 2000",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=40618"
+    },
+    {
       "id": "law-1437-2011",
       "title": "Ley 1437 de 2011",
       "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41249"
+    },
+    {
+      "id": "pgn-bulletin-107-2026-preventive-function",
+      "title": "Boletín 107 de 2026 sobre función preventiva",
+      "url": "https://www.procuraduria.gov.co/Pages/procuraduria-vigila-cumplimiento-ley-fortalece-convivencia-paz-municipios.aspx"
     },
     {
       "id": "pgn-functions-general",
@@ -11547,6 +13697,16 @@
       "id": "nist-acid",
       "title": "NIST — atomicity in relational and NoSQL tradeoffs",
       "url": "https://csrc.nist.gov/csrc/media/projects/forum/documents/2012/fcsm_june2012_cooper_mell.pdf"
+    },
+    {
+      "id": "nist-sp800-123",
+      "title": "NIST SP 800-123 — Guide to General Server Security",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-123.pdf"
+    },
+    {
+      "id": "nist-sp800-40r4",
+      "title": "NIST SP 800-40 Rev. 4 — Guide to Enterprise Patch Management Planning",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r4.pdf"
     },
     {
       "id": "nist-least-privilege",
@@ -11615,6 +13775,26 @@
     }
   ],
   "provisionalIds": [
+    "PGN-COM-0001",
+    "PGN-COM-0002",
+    "PGN-COM-0003",
+    "PGN-COM-0004",
+    "PGN-COM-0005",
+    "PGN-COM-0006",
+    "PGN-COM-0007",
+    "PGN-COM-0008",
+    "PGN-COM-0009",
+    "PGN-COM-0010",
+    "PGN-COM-0011",
+    "PGN-COM-0012",
+    "PGN-COM-0013",
+    "PGN-COM-0014",
+    "PGN-COM-0015",
+    "PGN-COM-0016",
+    "PGN-COM-0017",
+    "PGN-COM-0018",
+    "PGN-COM-0019",
+    "PGN-COM-0020",
     "PGN-EXP-0026",
     "PGN-EXP-0027",
     "PGN-EXP-0028",
@@ -11796,7 +13976,27 @@
     "PGN-NEW-0204",
     "PGN-NEW-0205",
     "PGN-NEW-0206",
-    "PGN-NEW-0207"
+    "PGN-NEW-0207",
+    "PGN-TEC-0001",
+    "PGN-TEC-0002",
+    "PGN-TEC-0003",
+    "PGN-TEC-0004",
+    "PGN-TEC-0005",
+    "PGN-TEC-0006",
+    "PGN-TEC-0007",
+    "PGN-TEC-0008",
+    "PGN-TEC-0009",
+    "PGN-TEC-0010",
+    "PGN-TEC-0011",
+    "PGN-TEC-0012",
+    "PGN-TEC-0013",
+    "PGN-TEC-0014",
+    "PGN-TEC-0015",
+    "PGN-TEC-0016",
+    "PGN-TEC-0017",
+    "PGN-TEC-0018",
+    "PGN-TEC-0019",
+    "PGN-TEC-0020"
   ],
   "examProfiles": [
     {
@@ -11819,34 +14019,42 @@
       "topicDistribution": [
         {
           "topicId": "software_e_interoperabilidad",
-          "weight": 0.2631
+          "weight": 0.2024
         },
         {
           "topicId": "infraestructura_nube_y_ciberseguridad",
-          "weight": 0.2556
+          "weight": 0.1965
         },
         {
           "topicId": "gestion_publica_y_mipg",
-          "weight": 0.188
+          "weight": 0.1618
         },
         {
           "topicId": "ofimatica_y_sistemas_de_gestion",
-          "weight": 0.0902
-        },
-        {
-          "topicId": "atencion_transparencia_y_datos",
-          "weight": 0.0752
-        },
-        {
-          "topicId": "gestion_documental",
-          "weight": 0.0677
+          "weight": 0.0867
         },
         {
           "topicId": "procuraduria_y_estado",
-          "weight": 0.0602
+          "weight": 0.0867
+        },
+        {
+          "topicId": "atencion_transparencia_y_datos",
+          "weight": 0.0809
+        },
+        {
+          "topicId": "gestion_documental",
+          "weight": 0.0694
+        },
+        {
+          "topicId": "sistemas_operativos",
+          "weight": 0.0578
+        },
+        {
+          "topicId": "soporte_y_mantenimiento",
+          "weight": 0.0578
         }
       ],
-      "notes": "FORMATO OFICIAL DE LA PRUEBA DE CONOCIMIENTOS. Fuente revisada: Resolución 076 de 2026, artículos 18 a 21 (páginas 23 a 26 del PDF escaneado; la fuente está declarada en sourceIds como pgn-resolution-076-2026). Artículo 18 y TABLA No. 1, aplicable a los empleos del nivel profesional, asesor y ejecutivo, donde está el cargo 3PU-15 de esta convocatoria: la prueba de CONOCIMIENTOS es de carácter eliminatorio, con calificación aprobatoria de 65 puntos sobre 100 y peso del 70%; COMPETENCIAS COMPORTAMENTALES es clasificatoria con peso del 20%; ANÁLISIS DE ANTECEDENTES es clasificatorio con peso del 10%. El mismo artículo 18 fija que las pruebas escritas se califican en escala estándar de cero a cien puntos, con dos enteros y dos decimales truncados, y que integran la lista de elegibles quienes obtengan un puntaje final igual o superior al 70% del máximo posible. Artículo 19 y TABLA No. 3: la prueba de Conocimientos está constituida por dos núcleos, uno general y otro específico, y se aprueba con puntaje igual o superior a 65. LO QUE NO QUEDÓ DEFINIDO en los artículos 18 a 21: la cantidad de preguntas, la duración de la prueba y la penalización por respuesta incorrecta. El artículo 18 remite el detalle de la calificación a la Guía de Orientación al aspirante para la prueba escrita, documento que no está incorporado al repositorio; por eso questionCount y durationMinutes se mantienen en null y no se afirma ninguna penalización. El artículo 19 no enumera el contenido del núcleo general, de modo que el alcance temático se sigue tomando de la ficha de la convocatoria y no de la resolución. ALCANCE TEMÁTICO Y PESOS PROVISIONALES: topicDistribution lista los siete temas del banco que caen dentro del temario de esta convocatoria (específicos: redes informáticas, sistemas de información, seguridad informática, sistemas operativos, soporte y mantenimiento; comunes: atención al usuario, elaboración de documentos de oficina, estructura y funciones de la PGN, sistemas de gestión, gestión documental, gestión pública y funcionamiento del Estado). Los pesos NO provienen de la Resolución 076: el artículo 18 no distribuye la prueba por tema. Son proporcionales a las 133 preguntas que el banco tiene en esos siete temas (35, 34, 25, 12, 10, 9 y 8 respectivamente) y se deben reemplazar en cuanto la PGN publique una distribución oficial. Los temas sistemas_operativos y soporte_y_mantenimiento existen en la taxonomía y no tienen peso ni preguntas: quedan a propósito para que la cobertura muestre el hueco frente al temario. Pendiente aparte: la ficha local es versión 2 y la Resolución 212 de 2026 ordena modificaciones; falta incorporar la ficha resultante vigente."
+      "notes": "FORMATO OFICIAL DE LA PRUEBA DE CONOCIMIENTOS. Fuente revisada: Resolución 076 de 2026, artículos 18 a 21 (páginas 23 a 26 del PDF escaneado; la fuente está declarada en sourceIds como pgn-resolution-076-2026). Artículo 18 y TABLA No. 1, aplicable a los empleos del nivel profesional, asesor y ejecutivo, donde está el cargo 3PU-15 de esta convocatoria: la prueba de CONOCIMIENTOS es de carácter eliminatorio, con calificación aprobatoria de 65 puntos sobre 100 y peso del 70%; COMPETENCIAS COMPORTAMENTALES es clasificatoria con peso del 20%; ANÁLISIS DE ANTECEDENTES es clasificatorio con peso del 10%. El mismo artículo 18 fija que las pruebas escritas se califican en escala estándar de cero a cien puntos, con dos enteros y dos decimales truncados, y que integran la lista de elegibles quienes obtengan un puntaje final igual o superior al 70% del máximo posible. Artículo 19 y TABLA No. 3: la prueba de Conocimientos está constituida por dos núcleos, uno general y otro específico, y se aprueba con puntaje igual o superior a 65. LO QUE NO QUEDÓ DEFINIDO en los artículos 18 a 21: la cantidad de preguntas, la duración de la prueba y la penalización por respuesta incorrecta. El artículo 18 remite el detalle de la calificación a la Guía de Orientación al aspirante para la prueba escrita, documento que no está incorporado al repositorio; por eso questionCount y durationMinutes se mantienen en null y no se afirma ninguna penalización. El artículo 19 no enumera el contenido del núcleo general, de modo que el alcance temático se sigue tomando de la ficha de la convocatoria y no de la resolución. ALCANCE TEMÁTICO Y PESOS PROVISIONALES: topicDistribution lista los nueve temas del banco que caen dentro del temario de esta convocatoria (específicos: redes informáticas, sistemas de información, seguridad informática, sistemas operativos, soporte y mantenimiento; comunes: atención al usuario, elaboración de documentos de oficina, estructura y funciones de la PGN, sistemas de gestión, gestión documental, gestión pública y funcionamiento del Estado). Los pesos NO provienen de la Resolución 076: el artículo 18 no distribuye la prueba por tema. Son proporcionales a las 173 preguntas que el banco tiene en los nueve temas del temario y se deben reemplazar en cuanto la PGN publique una distribución oficial. Los temas sistemas_operativos y soporte_y_mantenimiento ya tienen 10 preguntas cada uno, redactadas sobre NIST SP 800-123 y NIST SP 800-40 Rev. 4 con cita verificada contra el PDF; el hueco que la cobertura mostraba quedó cubierto. Pendiente aparte: la ficha local es versión 2 y la Resolución 212 de 2026 ordena modificaciones; falta incorporar la ficha resultante vigente."
     },
     {
       "id": "127-2026",

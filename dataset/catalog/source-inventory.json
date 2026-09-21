@@ -707,6 +707,38 @@
     "public": false
   },
   {
+    "id": "nist-sp800-123",
+    "title": "NIST SP 800-123 — Guide to General Server Security",
+    "category": "official-technical-guidance",
+    "publisher": "National Institute of Standards and Technology",
+    "authorityTier": "B",
+    "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-123.pdf",
+    "sourcePath": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-123.pdf",
+    "targetPath": "dataset/raw/official/normatividad/nist-sp800-123.pdf",
+    "mimeType": "application/pdf",
+    "status": "verified",
+    "notes": "Guía de seguridad general de servidores: endurecimiento del sistema operativo, gestión de cuentas y privilegios, retiro de servicios innecesarios, aplicación de parches y registro de eventos. Incorporada para sustentar el tema sistemas_operativos del temario del cargo 3PU-15. Portada fechada en julio de 2008; 53 páginas.",
+    "sha256": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "incorporatedAt": "2026-09-20",
+    "public": false
+  },
+  {
+    "id": "nist-sp800-40r4",
+    "title": "NIST SP 800-40 Rev. 4 — Guide to Enterprise Patch Management Planning",
+    "category": "official-technical-guidance",
+    "publisher": "National Institute of Standards and Technology",
+    "authorityTier": "B",
+    "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r4.pdf",
+    "sourcePath": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r4.pdf",
+    "targetPath": "dataset/raw/official/normatividad/nist-sp800-40r4.pdf",
+    "mimeType": "application/pdf",
+    "status": "verified",
+    "notes": "Guía de planificación de la gestión de parches en la empresa: mantenimiento preventivo y correctivo del software, ventanas de mantenimiento, priorización por riesgo y métricas. Incorporada para sustentar el tema soporte_y_mantenimiento del temario del cargo 3PU-15. Portada fechada en abril de 2022; 28 páginas.",
+    "sha256": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+    "incorporatedAt": "2026-09-20",
+    "public": false
+  },
+  {
     "id": "postgres-constraints-18",
     "title": "PostgreSQL 18 — Constraints",
     "category": "official-technical-guidance",
