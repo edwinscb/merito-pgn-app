@@ -980,6 +980,26 @@
     "notes": "Ficha oficial versión 3 visible en el portal del concurso y vinculada a la Resolución 212 de 2026; se cotejaron conocimientos, funciones, competencias y pruebas."
   },
   {
+    "id": "pgn-resolution-211-2026",
+    "title": "Resolución 211 de 2026 — modificación del Manual de Funciones",
+    "category": "official-call-amendment",
+    "publisher": "Procuraduría General de la Nación",
+    "authorityTier": "A",
+    "url": "https://www.procuraduria.gov.co/Documents/2026/8.%20Agosto/RESOLUCION%20211%20DE%2006%20DE%20AGOSTO%20DE%202026.pdf",
+    "sourcePath": "https://www.procuraduria.gov.co/Documents/2026/8.%20Agosto/RESOLUCION%20211%20DE%2006%20DE%20AGOSTO%20DE%202026.pdf",
+    "localPath": "dataset/raw/official/normatividad/resolucion-211-2026.pdf",
+    "mimeType": "application/pdf",
+    "contentHash": "4dad051599b152389206697339ba9c3d6e721eeec0e426bd47eab7acebd9582b",
+    "incorporatedAt": "2026-09-20",
+    "publishedAt": "2026-08-06",
+    "version": null,
+    "validity": "effective",
+    "status": "needs_review",
+    "redistribution": "internal_only",
+    "public": false,
+    "notes": "Acto administrativo cuyo propio título dice que modifica y adiciona el Manual Específico de Funciones por Competencias Laborales y Requisitos, firmado por el Procurador General el 6 de agosto de 2026; el Manual V10 está fechado el 10 de agosto, cuatro días después. Es la única modificatoria del Manual posterior a la Resolución 056 de 2026, que adoptó la V9. Cotejadas las páginas 1 y 2 (título, facultades invocadas y considerandos); el articulado resolutivo NO se revisó y NO se verificó que adopte la versión 10 de forma expresa: la relación entre esta resolución y esa versión se sostiene por título y fecha, no por lectura del articulado."
+  },
+  {
     "id": "pgn-resolution-243-2026",
     "title": "Resolución 243 de 2026 — modificación judicial",
     "category": "official-call-amendment",
