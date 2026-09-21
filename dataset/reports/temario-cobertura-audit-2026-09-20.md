@@ -49,13 +49,18 @@ cargo no se puede practicar.
 **2. Un tercio del banco está fuera del temario.** 67 de las 200 preguntas caen
 en temas que el Manual no lista para este cargo: datos y analítica (31),
 derecho disciplinario (14), contratación estatal (12) y competencias
-comportamentales (10). Las 133 restantes son las del perfil. En estudio libre
-por bloque o por búsqueda esas 67 son alcanzables sin advertencia alguna.
+comportamentales (10). Las 133 restantes son las del perfil.
 
-Caso aparte: las 10 de competencias comportamentales no son ajenas al concurso
-sino a esta prueba — pertenecen a la prueba clasificatoria del 20 %, que es
-psicotécnica y se evalúa contra el diccionario de competencias de la entidad,
-no a la prueba de conocimientos.
+La aplicación **ya las distingue**: `isOutOfScope` en
+`src/domain/study-selectors.ts` marca toda pregunta cuyo tema no esté en el
+perfil, y `BEHAVIORAL_TOPIC` aparta las comportamentales con la nota de prueba
+clasificatoria. Ambos comportamientos tienen prueba en `src/App.test.tsx`. Así
+que el problema no es que engañen al estudiar, sino que ocupan un tercio del
+banco sin servir a la prueba de conocimientos de este cargo.
+
+Las 10 comportamentales, además, no son ajenas al concurso sino a esta prueba:
+pertenecen a la clasificatoria del 20 %, psicotécnica y evaluada contra el
+diccionario de competencias de la entidad.
 
 **3. Cuatro conocimientos comparten dos temas, y eso impide medirlos.** Redes
 informáticas y seguridad informática caen ambos en
