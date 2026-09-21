@@ -48,9 +48,15 @@ export function buildStudyBank(
       [...reviewed.questions, ...extra].map((q) => [q.id, q]),
     ).values(),
   ].sort((a, b) => a.id.localeCompare(b.id))
-  if (questions.length !== 200 || ['comun', 'tecnico'].some(block => questions.filter(q => q.moduleId === block).length !== 100))
+  // Composicion comprometida en el README: dos bloques del mismo tamano, para
+  // que General y Sistemas pesen igual al estudiar. Subio de 200 (100+100) a
+  // 240 (120+120) al cubrir los dos conocimientos del temario del cargo que no
+  // tenian ninguna pregunta. Si cambia, el README cambia con ella.
+  const TOTAL_ENTREGA = 240
+  const POR_BLOQUE = 120
+  if (questions.length !== TOTAL_ENTREGA || ['comun', 'tecnico'].some(block => questions.filter(q => q.moduleId === block).length !== POR_BLOQUE))
     throw Error(
-      `La entrega debe contener 200 preguntas, 100 por bloque; hay ${questions.length}.`,
+      `La entrega debe contener ${TOTAL_ENTREGA} preguntas, ${POR_BLOQUE} por bloque; hay ${questions.length} (comun ${questions.filter(q => q.moduleId === 'comun').length}, tecnico ${questions.filter(q => q.moduleId === 'tecnico').length}).`,
     )
   const usedSources = new Set(
     questions.flatMap((q) => q.references.map((r) => r.sourceId)),
