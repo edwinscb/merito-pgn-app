@@ -1,11 +1,19 @@
-import { readFileSync } from 'node:fs'
+import { readdirSync, readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { buildStudyBank } from '../scripts/dataset/build-study.mjs'
 const read = (p) =>
   JSON.parse(readFileSync(new URL('../' + p, import.meta.url), 'utf8'))
+// El pipeline real descubre los archivos de preguntas con readdir. Enumerarlos a
+// mano aqui hacia que esta prueba ignorara cualquier archivo nuevo y las
+// autorizaciones de esas preguntas quedaran huerfanas.
+const questionsDir = new URL('../dataset/content/questions/', import.meta.url)
+const allQuestions = readdirSync(questionsDir)
+  .filter((f) => f.endsWith('.json'))
+  .sort()
+  .flatMap((f) => JSON.parse(readFileSync(new URL(f, questionsDir), 'utf8')))
 const args = [
   read('public/data/question-bank.json'),
-  [...read('dataset/content/questions/expansion-draft.json'), ...read('dataset/content/questions/study-200.json')],
+  allQuestions,
   read('dataset/content/study-authorization.json'),
   read('dataset/content/taxonomy.json'),
   read('dataset/content/sources.json'),
@@ -14,16 +22,16 @@ const args = [
   read('dataset/content/exam-profiles.json'),
 ]
 describe('habilitación de estudio ligada al contenido', () => {
-  it('publica 200, distingue 18/182, excluye siete semillas y es determinista', () => {
+  it('publica 240, distingue 18/222, excluye siete semillas y es determinista', () => {
     const bank = buildStudyBank(...args)
-    expect(bank.questions).toHaveLength(200)
-    expect(bank.ownerApprovedIds).toHaveLength(200)
-    expect(bank.provisionalIds).toHaveLength(182)
+    expect(bank.questions).toHaveLength(240)
+    expect(bank.ownerApprovedIds).toHaveLength(240)
+    expect(bank.provisionalIds).toHaveLength(222)
     expect(bank.questions.filter((q) => q.moduleId === 'comun')).toHaveLength(
-      100,
+      120,
     )
     expect(bank.questions.filter((q) => q.moduleId === 'tecnico')).toHaveLength(
-      100,
+      120,
     )
     expect(
       bank.questions.filter((q) => q.status === 'validated_assisted'),

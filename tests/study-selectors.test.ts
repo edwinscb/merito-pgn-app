@@ -207,12 +207,19 @@ describe('filtro de estudio', () => {
 // Estas cifras estan documentadas en dataset/reports/coverage.md.
 describe('coherencia con el banco real', () => {
   const real = rawBank as unknown as StudyBank
-  it('la convocatoria 126-2026 tiene siete temas con peso y 133 preguntas en alcance', () => {
+  it('la convocatoria 126-2026 tiene nueve temas con peso y 173 preguntas en alcance', () => {
     const perfil = real.examProfiles.find((p) => p.id === '126-2026')!
     const temas = weightedTopics(perfil)
-    expect(temas.size).toBe(7)
-    expect(questionsInScope(real, temas)).toHaveLength(133)
+    expect(temas.size).toBe(9)
+    expect(questionsInScope(real, temas)).toHaveLength(173)
     expect(perfil.passingKnowledgeScore).toBe(65)
+    // Los pesos reparten el 100% del alcance: si uno se edita a mano y la suma
+    // se descuadra, esto lo detecta antes de que el simulacro reparta mal.
+    const suma = perfil.topicDistribution.reduce((acc, t) => acc + t.weight, 0)
+    expect(suma).toBeCloseTo(1, 4)
+    // Los dos conocimientos del temario que estaban sin cubrir ya tienen peso.
+    expect(temas.has('sistemas_operativos')).toBe(true)
+    expect(temas.has('soporte_y_mantenimiento')).toBe(true)
   })
   it('121-2026 y 127-2026 no tienen temas con peso ni preguntas elegibles', () => {
     for (const id of ['121-2026', '127-2026']) {
@@ -222,8 +229,14 @@ describe('coherencia con el banco real', () => {
       expect(questionsInScope(real, temas)).toHaveLength(0)
     }
   })
-  it('los dos bloques suman las 200 preguntas del banco', () => {
-    expect(questionsOfBlock(real, 'comun')).toHaveLength(100)
-    expect(questionsOfBlock(real, 'tecnico')).toHaveLength(100)
+  it('los dos bloques miden igual y suman las 240 preguntas del banco', () => {
+    const comun = questionsOfBlock(real, 'comun')
+    const tecnico = questionsOfBlock(real, 'tecnico')
+    expect(comun).toHaveLength(120)
+    expect(tecnico).toHaveLength(120)
+    // La simetría es la promesa del README y la que impone build-study.mjs:
+    // se afirma como relación, no solo como dos cifras que hay que recordar.
+    expect(comun.length).toBe(tecnico.length)
+    expect(comun.length + tecnico.length).toBe(real.questions.length)
   })
 })
