@@ -10,7 +10,15 @@ describe('pipeline con el dataset real', () => {
     expect(result.data?.sources).toHaveLength(56)
     expect(result.data?.inventory).toHaveLength(56)
     expect(result.data?.sourceUnits).toHaveLength(131)
-    expect(result.data?.sources.filter((source) => source.status === 'pending_download')).toHaveLength(8)
+    const pendientes = result.data?.sources.filter((source) => source.status === 'pending_download') ?? []
+    expect(pendientes).toHaveLength(7)
+    // El Manual de Funciones dejó de ser una referencia sin documento al
+    // incorporarse su copia local (V10): el conteo bajó de 8 a 7 por eso. Se
+    // afirma por id para que un futuro cambio de conteo no lo esconda.
+    expect(pendientes.map((source) => source.id)).not.toContain('pgn-specific-functions-manual')
+    const manual = result.data?.sources.find((source) => source.id === 'pgn-specific-functions-manual')
+    expect(manual?.contentHash).toMatch(/^[0-9a-f]{64}$/)
+    expect(manual?.localPath).toBe('dataset/raw/official/normatividad/manual-funciones-v10-2026.pdf')
   })
 
   it('mantiene fuera del banco las semillas con hallazgos pendientes', async () => {
