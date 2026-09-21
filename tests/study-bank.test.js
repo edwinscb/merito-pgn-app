@@ -1,4 +1,5 @@
 import { readdirSync, readFileSync } from 'node:fs'
+import { resolve } from 'node:path'
 import { describe, expect, it } from 'vitest'
 import { buildStudyBank } from '../scripts/dataset/build-study.mjs'
 const read = (p) =>
@@ -6,11 +7,14 @@ const read = (p) =>
 // El pipeline real descubre los archivos de preguntas con readdir. Enumerarlos a
 // mano aqui hacia que esta prueba ignorara cualquier archivo nuevo y las
 // autorizaciones de esas preguntas quedaran huerfanas.
-const questionsDir = new URL('../dataset/content/questions/', import.meta.url)
-const allQuestions = readdirSync(questionsDir)
+// readdirSync recibe una ruta del sistema, no un URL: con un objeto URL falla
+// con "The URL must be of scheme file" segun el entorno en que vitest corra
+// este archivo, y el fallo solo aparece en la suite completa.
+const questionsRel = 'dataset/content/questions'
+const allQuestions = readdirSync(resolve(process.cwd(), questionsRel))
   .filter((f) => f.endsWith('.json'))
   .sort()
-  .flatMap((f) => JSON.parse(readFileSync(new URL(f, questionsDir), 'utf8')))
+  .flatMap((f) => read(`${questionsRel}/${f}`))
 const args = [
   read('public/data/question-bank.json'),
   allQuestions,
