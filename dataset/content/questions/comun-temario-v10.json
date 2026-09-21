@@ -801,8 +801,8 @@
       },
       {
         "id": "C",
-        "text": "24, porque primero se calcula 8+4 y el 3 se ignora.",
-        "rationale": "El 3 no se ignora y no se suma primero: la multiplicación 4 por 3 se realiza antes que la suma, dando 20."
+        "text": "12, porque primero se suma 8+4 y ese resultado se toma como respuesta.",
+        "rationale": "Sumar primero da 12, pero para que Excel opere así habría que escribir =(8+4)*3 con paréntesis; sin ellos la multiplicación va antes."
       },
       {
         "id": "D",
