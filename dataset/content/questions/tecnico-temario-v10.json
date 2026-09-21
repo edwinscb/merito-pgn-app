@@ -217,33 +217,33 @@
     "moduleId": "tecnico",
     "topicId": "sistemas_operativos",
     "secondaryTopicIds": [],
-    "questionType": "conceptual",
+    "questionType": "application",
     "difficulty": 2,
-    "stem": "Un administrador de la Procuraduría va a poner en servicio un nuevo servidor y quiere seguir un enfoque ordenado para asegurar su sistema operativo. Según la guía NIST SP 800-123, ¿qué afirmación describe correctamente el aseguramiento del sistema operativo?",
+    "stem": "Un administrador va a poner en servicio un nuevo servidor de la entidad y ya instaló el sistema operativo. Según la guía de seguridad de servidores del NIST, ¿cuáles son los pasos básicos para asegurarlo a partir de ese punto?",
     "options": [
       {
         "id": "A",
-        "text": "Existen unos pasos básicos que son necesarios para asegurar el sistema operativo.",
-        "rationale": "Correcta: la guía señala expresamente que 'the following basic steps are necessary to secure the OS', es decir, que hay pasos básicos necesarios para asegurar el sistema operativo."
+        "text": "Parchear y actualizar el sistema operativo, endurecerlo y configurarlo, instalar controles de seguridad adicionales si se necesitan, y probar la seguridad del resultado.",
+        "rationale": "La guía enumera cuatro pasos: parchear y actualizar el sistema operativo, endurecerlo y configurarlo para atender la seguridad de forma adecuada, instalar y configurar controles de seguridad adicionales si se necesitan, y probar la seguridad del sistema para confirmar que los pasos anteriores cubrieron los problemas."
       },
       {
         "id": "B",
-        "text": "El aseguramiento del sistema operativo es un evento único que basta realizar el día de la instalación.",
-        "rationale": "Incorrecta: la guía plantea el aseguramiento como un conjunto de pasos básicos y sostenidos, no como una acción única e irrepetible."
+        "text": "Instalar un antivirus, activar el firewall del sistema y programar copias de seguridad semanales.",
+        "rationale": "Son controles útiles, pero no son la secuencia de aseguramiento que la guía define: dejan fuera el parcheo, el endurecimiento y la prueba posterior."
       },
       {
         "id": "C",
-        "text": "El aseguramiento del sistema operativo solo aplica a servidores expuestos a Internet y no a los internos.",
-        "rationale": "Incorrecta: la guía no limita los pasos de aseguramiento a servidores expuestos a Internet; los presenta como necesarios de forma general."
+        "text": "Cambiar la contraseña del administrador, renombrar el equipo y unirlo al dominio de la entidad.",
+        "rationale": "Son tareas de puesta en marcha y de integración a la red, no los pasos de aseguramiento del sistema operativo."
       },
       {
         "id": "D",
-        "text": "Asegurar el sistema operativo depende exclusivamente del proveedor del hardware y no del administrador.",
-        "rationale": "Incorrecta: la guía dirige los pasos de aseguramiento a la configuración que realiza el administrador, no al proveedor de hardware."
+        "text": "Documentar la configuración en la hoja de vida del equipo y remitirla al inventario de activos.",
+        "rationale": "La documentación y el inventario son necesarios para la gestión del activo, pero por sí solos no aseguran el sistema operativo."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "Correcta: la guía señala expresamente que 'the following basic steps are necessary to secure the OS', es decir, que hay pasos básicos necesarios para asegurar el sistema operativo.",
+    "explanation": "La guía enumera cuatro pasos: parchear y actualizar el sistema operativo, endurecerlo y configurarlo para atender la seguridad de forma adecuada, instalar y configurar controles de seguridad adicionales si se necesitan, y probar la seguridad del sistema para confirmar que los pasos anteriores cubrieron los problemas.",
     "references": [
       {
         "sourceId": "nist-sp800-123",
@@ -541,8 +541,8 @@
     "options": [
       {
         "id": "A",
-        "text": "Enviar al administrador una copia de cada contraseña intentada para revisarla manualmente.",
-        "rationale": "Incorrecta: la guía no propone recolectar las contraseñas intentadas; recomienda aumentar el tiempo entre intentos de inicio de sesión."
+        "text": "Ampliar la longitud mínima de la contraseña y exigir más tipos de caracteres.",
+        "rationale": "Reforzar la política de contraseñas es una medida válida y distinta, pero no es la que la guía señala para dificultar la adivinación automatizada: esa es aumentar el periodo entre intentos fallidos."
       },
       {
         "id": "B",
@@ -874,8 +874,8 @@
       },
       {
         "id": "D",
-        "text": "Que el parche incremente el consumo eléctrico del centro de datos.",
-        "rationale": "El consumo eléctrico no es el riesgo que exige validación previa; el riesgo relevante es la procedencia ilegítima o la alteración del parche."
+        "text": "Que el parche exija reiniciar el servidor y afecte la disponibilidad del servicio.",
+        "rationale": "El reinicio es un impacto operativo real, y por eso se planifica la ventana de mantenimiento, pero no es el riesgo que obliga a validar el parche antes de instalarlo."
       }
     ],
     "correctOptionId": "A",
@@ -980,8 +980,8 @@
       },
       {
         "id": "D",
-        "text": "Revisar que el color del indicador luminoso del equipo permanezca encendido.",
-        "rationale": "Un indicador luminoso no evidencia la persistencia del parche; el monitoreo pertinente confirma que el parche no fue removido ni el activo devuelto a un estado vulnerable."
+        "text": "Comprobar que el parche quedó registrado en la hoja de vida del activo.",
+        "rationale": "Dejar constancia documental es buena práctica, pero no confirma que el parche siga efectivamente instalado en el activo."
       }
     ],
     "correctOptionId": "C",
@@ -1023,8 +1023,8 @@
       },
       {
         "id": "B",
-        "text": "El parcheo manual solo falla si el equipo de soporte tiene menos de cinco personas.",
-        "rationale": "El problema no depende de un número específico de personas; por el volumen de activos y parches no se puede sostener el parcheo sin automatización."
+        "text": "El parcheo manual es viable si se limita a los servidores críticos y se deja sin parchear el resto del parque.",
+        "rationale": "Dejar el resto del parque sin parchear no resuelve el problema: mantiene activos vulnerables y no sustituye la automatización que exige la escala."
       },
       {
         "id": "C",
