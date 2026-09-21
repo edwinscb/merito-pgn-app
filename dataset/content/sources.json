@@ -711,13 +711,13 @@
     "mimeType": "application/pdf",
     "contentHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
     "incorporatedAt": "2026-09-20",
-    "publishedAt": null,
+    "publishedAt": "2008-07-01",
     "version": null,
     "validity": "effective",
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía de seguridad general de servidores: endurecimiento del sistema operativo, gestión de cuentas y privilegios, retiro de servicios innecesarios, aplicación de parches y registro de eventos. Incorporada para sustentar el tema sistemas_operativos del temario del cargo 3PU-15. La fecha de publicación queda en null hasta cotejarla dentro del documento."
+    "notes": "Guía de seguridad general de servidores: endurecimiento del sistema operativo, gestión de cuentas y privilegios, retiro de servicios innecesarios, aplicación de parches y registro de eventos. Incorporada para sustentar el tema sistemas_operativos del temario del cargo 3PU-15. Portada fechada en julio de 2008; 53 páginas."
   },
   {
     "id": "nist-sp800-40r4",
@@ -731,13 +731,13 @@
     "mimeType": "application/pdf",
     "contentHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
     "incorporatedAt": "2026-09-20",
-    "publishedAt": null,
+    "publishedAt": "2022-04-01",
     "version": "Revisión 4",
     "validity": "effective",
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía de planificación de la gestión de parches en la empresa: mantenimiento preventivo y correctivo del software, ventanas de mantenimiento, priorización por riesgo y métricas. Incorporada para sustentar el tema soporte_y_mantenimiento del temario del cargo 3PU-15. La fecha de publicación queda en null hasta cotejarla dentro del documento."
+    "notes": "Guía de planificación de la gestión de parches en la empresa: mantenimiento preventivo y correctivo del software, ventanas de mantenimiento, priorización por riesgo y métricas. Incorporada para sustentar el tema soporte_y_mantenimiento del temario del cargo 3PU-15. Portada fechada en abril de 2022; 28 páginas."
   },
   {
     "id": "nist-least-privilege",
