@@ -1,0 +1,190 @@
+[
+  {
+    "id": "PGN-TEC-0001",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "sistemas_operativos",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "Un servicio del servidor se ejecuta con una cuenta que tiene permisos de administrador sobre todo el equipo, aunque para operar solo necesita leer una carpeta. Según el principio de mínimo privilegio, ¿cuál es la consecuencia principal de mantener esa configuración?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El servicio responderá más lento porque el sistema valida más permisos en cada operación.",
+        "rationale": "El costo de verificar permisos no es el riesgo que el principio busca evitar, y un privilegio amplio no encarece la verificación."
+      },
+      {
+        "id": "B",
+        "text": "Si el servicio resulta comprometido, el daño alcanzará todos los recursos accesibles con esos permisos.",
+        "rationale": "El principio de mínimo privilegio otorga a cada tarea, proceso o usuario únicamente los derechos que necesita, de modo que un compromiso quede confinado a los recursos limitados de la entidad comprometida. Con permisos de administrador, ese confinamiento desaparece."
+      },
+      {
+        "id": "C",
+        "text": "El sistema operativo deshabilitará el servicio automáticamente por exceso de privilegios.",
+        "rationale": "Ningún sistema operativo revoca privilegios por sí mismo: la asignación excesiva persiste hasta que un administrador la corrige."
+      },
+      {
+        "id": "D",
+        "text": "La cuenta dejará de autenticarse cuando caduque la contraseña del administrador.",
+        "rationale": "La caducidad de contraseñas es un control de autenticación distinto y no limita el alcance del daño ante un compromiso."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "El principio de mínimo privilegio otorga a cada tarea, proceso o usuario únicamente los derechos que necesita, de modo que un compromiso quede confinado a los recursos limitados de la entidad comprometida. Con permisos de administrador, ese confinamiento desaparece.",
+    "references": [
+      {
+        "sourceId": "nist-sp800-123",
+        "sourceUnitId": "nist-sp800-123-least-privilege",
+        "locator": "Sección 2.4, página PDF 15",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": ["126-2026"],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": ["temario-3pu-15", "nist-sp800-123", "provisional-authorized"]
+  },
+  {
+    "id": "PGN-TEC-0002",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "sistemas_operativos",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "Al endurecer un servidor se identifica un servicio de red que la entidad no utiliza. El administrador puede deshabilitarlo en la configuración o desinstalarlo por completo. ¿Por qué se prefiere desinstalarlo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Porque un servicio deshabilitado sigue consumiendo memoria y procesador del servidor.",
+        "rationale": "Un servicio deshabilitado no permanece en ejecución, así que el argumento del consumo de recursos no sostiene la preferencia."
+      },
+      {
+        "id": "B",
+        "text": "Porque un ataque que altere la configuración puede reactivar un servicio deshabilitado, y también puede reactivarse por error humano.",
+        "rationale": "Retirar los componentes funcionales es preferible a deshabilitarlos porque un ataque que modifique la configuración para activar un servicio deshabilitado no puede tener éxito si el componente ya no existe; además, un servicio deshabilitado puede quedar habilitado de nuevo por error humano."
+      },
+      {
+        "id": "C",
+        "text": "Porque las condiciones de licenciamiento del sistema operativo obligan a retirar los componentes que no se usan.",
+        "rationale": "No existe una exigencia de licenciamiento que gobierne el endurecimiento del servidor."
+      },
+      {
+        "id": "D",
+        "text": "Porque desinstalar es la única forma de dejar registro de auditoría del cambio.",
+        "rationale": "Tanto la desinstalación como el cambio de configuración pueden registrarse; la auditoría no distingue entre ambas."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Retirar los componentes funcionales es preferible a deshabilitarlos porque un ataque que modifique la configuración para activar un servicio deshabilitado no puede tener éxito si el componente ya no existe; además, un servicio deshabilitado puede quedar habilitado de nuevo por error humano.",
+    "references": [
+      {
+        "sourceId": "nist-sp800-123",
+        "sourceUnitId": "nist-sp800-123-remover-mejor-que-deshabilitar",
+        "locator": "Sección 4.2.1, página PDF 27",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": ["126-2026"],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": ["temario-3pu-15", "nist-sp800-123", "provisional-authorized"]
+  },
+  {
+    "id": "PGN-TEC-0003",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "soporte_y_mantenimiento",
+    "secondaryTopicIds": [],
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "¿Cuál de las siguientes describe el alcance de la gestión de parches en una organización?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Identificar, priorizar, adquirir, instalar y verificar la instalación de parches, actualizaciones y mejoras en toda la organización.",
+        "rationale": "La gestión de parches en la organización es el proceso de identificar, priorizar, adquirir, instalar y verificar la instalación de parches, actualizaciones y mejoras a lo largo de toda la entidad. La verificación forma parte del proceso, no termina con la instalación."
+      },
+      {
+        "id": "B",
+        "text": "Instalar todas las actualizaciones disponibles el mismo día en que el fabricante las publica.",
+        "rationale": "El despliegue inmediato y sin priorizar omite las pruebas previas y las ventanas de mantenimiento, y no describe el alcance del proceso."
+      },
+      {
+        "id": "C",
+        "text": "Restaurar los equipos a su configuración de fábrica en periodos definidos.",
+        "rationale": "Restablecer a fábrica puede incluso devolver el equipo a un estado vulnerable y deshacer parches ya aplicados."
+      },
+      {
+        "id": "D",
+        "text": "Documentar los incidentes de seguridad e informarlos a la instancia competente.",
+        "rationale": "Corresponde a la gestión de incidentes, que es una actividad distinta de la gestión de parches."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "La gestión de parches en la organización es el proceso de identificar, priorizar, adquirir, instalar y verificar la instalación de parches, actualizaciones y mejoras a lo largo de toda la entidad. La verificación forma parte del proceso, no termina con la instalación.",
+    "references": [
+      {
+        "sourceId": "nist-sp800-40r4",
+        "sourceUnitId": "nist-sp800-40r4-definicion-parcheo",
+        "locator": "Resumen ejecutivo, página PDF 6",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": ["126-2026"],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": ["temario-3pu-15", "nist-sp800-40r4", "provisional-authorized"]
+  },
+  {
+    "id": "PGN-TEC-0004",
+    "status": "needs_review",
+    "moduleId": "tecnico",
+    "topicId": "soporte_y_mantenimiento",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "Para el parcheo rutinario de un parque grande de equipos se recomienda desplegar el parche primero en un subconjunto pequeño de activos. ¿Cuál es el propósito de ese subconjunto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repartir el consumo de ancho de banda de la descarga a lo largo de varios días.",
+        "rationale": "El ancho de banda puede ser una restricción operativa real, pero no es la razón por la que se elige un subconjunto inicial."
+      },
+      {
+        "id": "B",
+        "text": "Cumplir la regla de instalar los parches siguiendo el orden alfabético de los equipos.",
+        "rationale": "No existe una regla semejante en la planificación del mantenimiento."
+      },
+      {
+        "id": "C",
+        "text": "Detectar problemas y estimar el impacto operativo probable del parche antes de ampliar el despliegue.",
+        "rationale": "Ese subconjunto actúa como activos canario: sirve para identificar problemas y determinar el impacto operativo probable del parche. En la práctica, es así como el parcheo queda probado antes de extenderse al resto."
+      },
+      {
+        "id": "D",
+        "text": "Reemplazar la validación de autenticidad e integridad del parche.",
+        "rationale": "La validación de autenticidad e integridad es un paso previo e independiente, que el despliegue por fases no sustituye."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Ese subconjunto actúa como activos canario: sirve para identificar problemas y determinar el impacto operativo probable del parche. En la práctica, es así como el parcheo queda probado antes de extenderse al resto.",
+    "references": [
+      {
+        "sourceId": "nist-sp800-40r4",
+        "sourceUnitId": "nist-sp800-40r4-despliegue-por-fases-canarios",
+        "locator": "Sección 3.5.1, página PDF 21",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": ["126-2026"],
+    "createdMethod": "ai_draft",
+    "reviews": [],
+    "validFrom": null,
+    "tags": ["temario-3pu-15", "nist-sp800-40r4", "provisional-authorized"]
+  }
+]
