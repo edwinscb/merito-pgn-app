@@ -1748,8 +1748,8 @@
     "id": "nist-sp800-123-pasos-asegurar-so",
     "sourceId": "nist-sp800-123",
     "locator": "Sección 4, página PDF 25",
-    "title": "Pasos básicos para asegurar el sistema operativo",
-    "content": "the following basic steps are necessary to secure the OS",
+    "title": "Los cuatro pasos básicos para asegurar el sistema operativo",
+    "content": "the following basic steps are necessary to secure the OS: Patch and update the OS Harden and configure the OS to address security adequately Install and configure additional security controls, if needed Test the security of the OS to ensure that the previous steps adequately addressed all security issues.",
     "verificationStatus": "verified",
     "sourceHash": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
     "topicIds": [
