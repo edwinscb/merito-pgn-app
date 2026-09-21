@@ -677,20 +677,6 @@
     "notes": "Fuente identificada; no existe una copia local incorporada en la fase 0."
   },
   {
-    "id": "pgn-specific-functions-manual",
-    "title": "Manual Específico de Funciones por Competencias Laborales y Requisitos",
-    "category": "official-source-pending",
-    "sourcePath": null,
-    "targetPath": null,
-    "mimeType": null,
-    "sha256": null,
-    "incorporatedAt": "2026-09-03",
-    "status": "pending_download",
-    "public": false,
-    "url": "https://meritoconstruyendoexcelencia.com.co/#/convocatorias/normatividad",
-    "notes": "Fuente identificada; no existe una copia local incorporada en la fase 0."
-  },
-  {
     "id": "pgn-resolution-056-2026",
     "title": "Resolución 056 de 2026",
     "category": "official-source-pending",
@@ -703,6 +689,22 @@
     "public": false,
     "url": "https://meritoconstruyendoexcelencia.com.co/#/convocatorias/normatividad",
     "notes": "Fuente identificada; no existe una copia local incorporada en la fase 0."
+  },
+  {
+    "id": "pgn-specific-functions-manual",
+    "title": "Manual Específico de Funciones por Competencias Laborales y Requisitos",
+    "category": "official-source-pending",
+    "publisher": "Procuraduría General de la Nación",
+    "authorityTier": "A",
+    "url": "https://www.procuraduria.gov.co/Documents/2026/8.%20Agosto/Manual%20de%20Funciones_V10.pdf",
+    "sourcePath": null,
+    "targetPath": "dataset/raw/official/normatividad/manual-funciones-v10-2026.pdf",
+    "mimeType": "application/pdf",
+    "status": "needs_review",
+    "notes": "Versión 10, código MC-M-01, fecha 10/08/2026, 1156 páginas. Copia descargada del portal institucional el 2026-09-20. Cotejadas las páginas 972 a 974, ficha «PROFESIONAL UNIVERSITARIO (3PU-15) — OFICINA DE TECNOLOGÍA, INNOVACIÓN Y TRANSFORMACIÓN DIGITAL»: requisitos de estudio, propósito, doce funciones esenciales, conocimientos esenciales y competencias comportamentales con su nivel. El resto del documento no se revisó. Es la fuente que el artículo 18 de la Resolución 076 de 2026 hace determinante del alcance de las pruebas. Su modificatoria, la Resolución 211 del 6 de agosto de 2026, aún no está incorporada.",
+    "sha256": "55d66af7e38765a4c32f99c69d14c188218375cc5a8ac881b6b66be93f5a8fd9",
+    "incorporatedAt": "2026-09-20",
+    "public": false
   },
   {
     "id": "postgres-constraints-18",
