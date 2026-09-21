@@ -7,8 +7,8 @@ describe('pipeline con el dataset real', () => {
   it('conserva inventario, hashes y fuentes pendientes', async () => {
     const result = await validateRepositoryDataset()
     expect(result.issues).toEqual([])
-    expect(result.data?.sources).toHaveLength(58)
-    expect(result.data?.inventory).toHaveLength(58)
+    expect(result.data?.sources).toHaveLength(59)
+    expect(result.data?.inventory).toHaveLength(59)
     expect(result.data?.sourceUnits).toHaveLength(158)
     const pendientes = result.data?.sources.filter((source) => source.status === 'pending_download') ?? []
     expect(pendientes).toHaveLength(7)
