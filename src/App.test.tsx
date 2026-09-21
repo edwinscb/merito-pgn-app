@@ -81,7 +81,7 @@ describe('estudio y simuladores móviles', () => {
     await screen.findByRole('heading', { name: 'Tu banco de preguntas' })
     expect(document.querySelector('.question-title')!.textContent).toBe(stem)
     expect([...document.querySelectorAll('.option')].map(e => e.textContent)).toEqual(options)
-    expect(screen.getByText('Pregunta 2 de 100')).toBeInTheDocument()
+    expect(screen.getByText('Pregunta 2 de 120')).toBeInTheDocument()
     fireEvent.change(screen.getByLabelText('Buscar pregunta'), { target: { value: 'SQL' } })
     expect(JSON.parse(sessionStorage.getItem('merito-pgn-study:v1')!).order).toEqual(snapshot.order)
     fireEvent.click(screen.getByRole('button', { name: 'Mezclar de nuevo' }))
@@ -124,13 +124,13 @@ describe('estudio y simuladores móviles', () => {
     expect(option).toHaveClass('correct')
     expect(option).toHaveClass('selected')
   })
-  it('carga explícita y dos bloques, 200 preguntas, sin fases ni convocatorias', async () => {
+  it('carga explícita y dos bloques, 240 preguntas, sin fases ni convocatorias', async () => {
     render(<App />)
     expect(screen.getByText('Cargando preguntas…')).toBeInTheDocument()
     await ready()
-    expect(screen.getAllByText('100 preguntas')).toHaveLength(2)
-    expect(screen.getByText(/200 preguntas para estudiar/)).toHaveTextContent(
-      '200 aprobadas por el propietario',
+    expect(screen.getAllByText('120 preguntas')).toHaveLength(2)
+    expect(screen.getByText(/240 preguntas para estudiar/)).toHaveTextContent(
+      '240 aprobadas por el propietario',
     )
     expect(screen.queryByText(/Fase \d/)).not.toBeInTheDocument()
     expect(screen.queryByLabelText(/convocatoria/i)).not.toBeInTheDocument()

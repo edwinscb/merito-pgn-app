@@ -10,14 +10,15 @@ correctas los descarga cualquiera que tenga la URL.
 
 ## Experiencia
 
-- Dos bloques: **General** (100 preguntas) y **Sistemas** (100).
+- Dos bloques: **General** (120 preguntas) y **Sistemas** (120).
 - El estudio baraja preguntas y opciones al entrar o pulsar «Mezclar de nuevo» y conserva la secuencia en la pestaña.
 - Estudiar por bloque/tema, buscar, consultar explicaciones y fuentes.
 - Simulacros de 20 preguntas y 30 minutos por defecto, ajustables. Son parámetros
   de práctica, no el formato oficial de una convocatoria.
 - La aplicación apunta solo a la **convocatoria 126-2026**, la de la candidatura:
-  es el único perfil con formato oficial respaldado (cargo 3PU-15, corte 65 sobre
-  100). No hay selector de convocatoria. Los perfiles 121-2026 y 127-2026 siguen
+  es el único perfil con formato oficial respaldado (cargo 3PU-15; la prueba de
+  conocimientos se aprueba con 65 sobre 100, y la lista de elegibles exige además
+  un puntaje final del 70 %). No hay selector de convocatoria. Los perfiles 121-2026 y 127-2026 siguen
   en el dataset como registro editorial, sin pesos y sin preguntas elegibles.
 - Cambiar respuestas, marcar para volver, recuperar una sesión tras recargar y
   revisar resultados, errores y omitidas al terminar. El reloj no se pausa al salir.
@@ -32,19 +33,24 @@ correctas los descarga cualquiera que tenga la URL.
 
 ## Banco y honestidad editorial
 
-Las 200 preguntas disponibles cuentan con aprobación expresa del propietario,
+Las 240 preguntas disponibles cuentan con aprobación expresa del propietario,
 registrada por ID y hash en `dataset/content/owner-approval.json`. La aplicación
 muestra «Aprobada por el propietario». Un cambio de contenido exige renovar esa
 aprobación. La aprobación personal no constituye aval de la PGN ni añade revisiones
 factuales o editoriales independientes a los registros del dataset.
 
-El dataset conserva 207 registros: 18 `validated_assisted` y 189 `needs_review`.
-La aplicación habilita **200 preguntas: 18 revisadas y 182 provisionales**, por
+El dataset conserva 247 registros: 18 `validated_assisted` y 229 `needs_review`.
+La aplicación habilita **240 preguntas: 18 revisadas y 222 provisionales**, por
 autorización expresa del propietario ligada al hash de su contenido. No se
 atribuyen revisiones inexistentes. Las semillas 6, 10 y 21–25 siguen excluidas.
 
+Las 40 preguntas más recientes cubren los dos conocimientos del temario del cargo
+que no tenían ninguna —sistemas operativos, y soporte y mantenimiento— y refuerzan
+los comunes más flacos. Se redactaron sobre NIST SP 800-123 y NIST SP 800-40 Rev. 4,
+con la cita de cada unidad comprobada literalmente contra el PDF incorporado.
+
 - `public/data/question-bank.json`: 18 preguntas exclusivamente revisadas.
-- `public/data/study-bank.json`: 200 preguntas disponibles, con condición visible.
+- `public/data/study-bank.json`: 240 preguntas disponibles, con condición visible.
 - `dataset/content/study-authorization.json`: autorizaciones provisionales ligadas al hash.
 - `dataset/content/registration.json`: cierre oficial, evidencia y portal.
 - `dataset/reports/study-release-audit.md`: correcciones y hallazgos pendientes.
@@ -97,3 +103,5 @@ Los respaldos de progreso contienen notas personales: consérvalos en privado.
 - `docs/plan_implementacion_por_fases.md`: historial y alcance de fases.
 - `dataset/catalog/source-inventory.json`: fuentes y hashes.
 - `dataset/reports/coverage.md`: cobertura editorial.
+- `dataset/reports/temario-cobertura-audit-2026-09-20.md`: cobertura del banco
+  frente al temario oficial del cargo, según el Manual de Funciones V10.

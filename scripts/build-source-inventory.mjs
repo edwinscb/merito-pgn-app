@@ -193,7 +193,9 @@ const pendingSources = [
   ['decree-law-265-2000', 'Decreto Ley 265 de 2000', 'https://meritoconstruyendoexcelencia.com.co/#/convocatorias/normatividad'],
   ['decree-1851-2021', 'Decreto 1851 de 2021', 'https://meritoconstruyendoexcelencia.com.co/#/convocatorias/normatividad'],
   ['law-909-2004', 'Ley 909 de 2004', 'https://meritoconstruyendoexcelencia.com.co/#/convocatorias/normatividad'],
-  ['pgn-specific-functions-manual', 'Manual Específico de Funciones por Competencias Laborales y Requisitos', 'https://meritoconstruyendoexcelencia.com.co/#/convocatorias/normatividad'],
+  // El Manual Específico de Funciones salió de esta lista al incorporarse su
+  // copia local (V10, 2026-08-10): al no estar ya en el inventario, el bloque
+  // final lo toma de sources.json y recalcula su hash contra el archivo real.
   ['pgn-resolution-056-2026', 'Resolución 056 de 2026', 'https://meritoconstruyendoexcelencia.com.co/#/convocatorias/normatividad']
 ].map(([id, title, url]) => ({
   id,
