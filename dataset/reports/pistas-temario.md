@@ -11,16 +11,16 @@ Criterio de cierre de cada lote: la correcta es la más larga en 30 % o menos de
 ## Resumen
 
 - Preguntas del temario: 173
-- Correcta más larga: 87 (50 %)
-- Pista absoluta: 62 (36 %)
-- Afectadas por al menos una: 111
+- Correcta más larga: 72 (42 %)
+- Pista absoluta: 43 (25 %)
+- Afectadas por al menos una: 88
 
 ## Lotes, del tema de más peso al de menos
 
 | Lote | Tema | Peso | Preguntas | Más larga | Absoluta | Afectadas | Cumple |
 | ---: | --- | ---: | ---: | ---: | ---: | ---: | :---: |
 | 1 | Software e interoperabilidad | 0.2024 | 35 | 3 (9 %) | 2 (6 %) | 3 | sí |
-| 2 | Infraestructura, nube y ciberseguridad | 0.1965 | 34 | 19 (56 %) | 20 (59 %) | 27 | no |
+| 2 | Infraestructura, nube y ciberseguridad | 0.1965 | 34 | 4 (12 %) | 1 (3 %) | 4 | sí |
 | 3 | Gestión pública y MIPG | 0.1618 | 28 | 11 (39 %) | 9 (32 %) | 17 | no |
 | 4 | Ofimática y sistemas de gestión | 0.0867 | 15 | 11 (73 %) | 4 (27 %) | 12 | no |
 | 5 | Procuraduría y Estado | 0.0867 | 15 | 9 (60 %) | 6 (40 %) | 11 | no |
@@ -39,30 +39,7 @@ Criterio de cierre de cada lote: la correcta es la más larga en 30 % o menos de
 
 ### Lote 2: Infraestructura, nube y ciberseguridad
 
-- PGN-EXP-0087: más larga, absoluta
-- PGN-EXP-0088: más larga, absoluta
 - PGN-EXP-0089: más larga
-- PGN-EXP-0090: más larga
-- PGN-EXP-0091: absoluta
-- PGN-EXP-0092: absoluta
-- PGN-EXP-0094: más larga, absoluta
-- PGN-EXP-0095: más larga
-- PGN-EXP-0096: más larga, absoluta
-- PGN-EXP-0103: absoluta
-- PGN-EXP-0104: absoluta
-- PGN-EXP-0105: absoluta
-- PGN-EXP-0106: más larga, absoluta
-- PGN-EXP-0107: más larga, absoluta
-- PGN-EXP-0108: más larga, absoluta
-- PGN-EXP-0109: más larga, absoluta
-- PGN-NEW-0194: absoluta
-- PGN-NEW-0199: absoluta
-- PGN-NEW-0202: más larga, absoluta
-- PGN-NEW-0203: más larga, absoluta
-- PGN-NEW-0204: más larga, absoluta
-- PGN-NEW-0205: absoluta
-- PGN-NEW-0206: más larga
-- PGN-NEW-0207: más larga
 - PGN-SEED-0017: más larga
 - PGN-SEED-0018: más larga
 - PGN-SEED-0020: más larga, absoluta
