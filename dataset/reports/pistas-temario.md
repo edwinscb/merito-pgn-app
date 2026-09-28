@@ -11,15 +11,15 @@ Criterio de cierre de cada lote: la correcta es la más larga en 30 % o menos de
 ## Resumen
 
 - Preguntas del temario: 173
-- Correcta más larga: 102 (59 %)
-- Pista absoluta: 75 (43 %)
-- Afectadas por al menos una: 128
+- Correcta más larga: 87 (50 %)
+- Pista absoluta: 62 (36 %)
+- Afectadas por al menos una: 111
 
 ## Lotes, del tema de más peso al de menos
 
 | Lote | Tema | Peso | Preguntas | Más larga | Absoluta | Afectadas | Cumple |
 | ---: | --- | ---: | ---: | ---: | ---: | ---: | :---: |
-| 1 | Software e interoperabilidad | 0.2024 | 35 | 18 (51 %) | 15 (43 %) | 20 | no |
+| 1 | Software e interoperabilidad | 0.2024 | 35 | 3 (9 %) | 2 (6 %) | 3 | sí |
 | 2 | Infraestructura, nube y ciberseguridad | 0.1965 | 34 | 19 (56 %) | 20 (59 %) | 27 | no |
 | 3 | Gestión pública y MIPG | 0.1618 | 28 | 11 (39 %) | 9 (32 %) | 17 | no |
 | 4 | Ofimática y sistemas de gestión | 0.0867 | 15 | 11 (73 %) | 4 (27 %) | 12 | no |
@@ -33,24 +33,7 @@ Criterio de cierre de cada lote: la correcta es la más larga en 30 % o menos de
 
 ### Lote 1: Software e interoperabilidad
 
-- PGN-EXP-0076: absoluta
-- PGN-EXP-0077: más larga, absoluta
-- PGN-EXP-0078: más larga, absoluta
-- PGN-EXP-0079: más larga, absoluta
-- PGN-EXP-0080: más larga, absoluta
-- PGN-EXP-0081: más larga
 - PGN-EXP-0082: más larga
-- PGN-EXP-0083: más larga
-- PGN-EXP-0086: más larga, absoluta
-- PGN-EXP-0097: más larga
-- PGN-EXP-0098: absoluta
-- PGN-EXP-0099: más larga, absoluta
-- PGN-EXP-0101: más larga, absoluta
-- PGN-EXP-0102: más larga
-- PGN-NEW-0180: más larga, absoluta
-- PGN-NEW-0181: más larga, absoluta
-- PGN-NEW-0182: más larga, absoluta
-- PGN-NEW-0190: más larga, absoluta
 - PGN-SEED-0015: más larga, absoluta
 - PGN-SEED-0019: más larga, absoluta
 
