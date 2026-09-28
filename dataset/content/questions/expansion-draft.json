@@ -1292,7 +1292,7 @@
       },
       {
         "id": "B",
-        "text": "Clasificar ambas exclusivamente por el título «consulta».",
+        "text": "Clasificar ambas por el título «consulta» que trae el correo.",
         "rationale": "El título no reemplaza el examen de lo realmente solicitado."
       },
       {
@@ -1468,8 +1468,8 @@
       },
       {
         "id": "C",
-        "text": "Eliminar también todo contenido público relacionado.",
-        "rationale": "La relación temática no amplía automáticamente la excepción."
+        "text": "Eliminar también el contenido público que esté relacionado con la parte protegida.",
+        "rationale": "La relación temática no amplía la excepción."
       },
       {
         "id": "D",
