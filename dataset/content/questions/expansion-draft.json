@@ -3271,8 +3271,8 @@
     "options": [
       {
         "id": "A",
-        "text": "Compartir la identidad con más servicios.",
-        "rationale": "Compartirla no reduce el exceso de permisos."
+        "text": "Mantener el permiso de borrado y registrar en bitácora cada vez que se use.",
+        "rationale": "Registrar detecta el uso, pero no retira un privilegio que la tarea no necesita."
       },
       {
         "id": "B",
@@ -3281,13 +3281,13 @@
       },
       {
         "id": "C",
-        "text": "Conservar borrado porque nunca se ha utilizado.",
+        "text": "Conservar el borrado porque no se ha usado.",
         "rationale": "La falta de uso no hace necesario ese privilegio."
       },
       {
         "id": "D",
-        "text": "Agregar permisos de administración del servidor.",
-        "rationale": "Amplía la exposición sin relación con la tarea."
+        "text": "Pasarla a un rol de administración con autenticación multifactor.",
+        "rationale": "La MFA protege el acceso, pero amplía los privilegios en vez de reducirlos."
       }
     ],
     "correctOptionId": "B",
@@ -3342,12 +3342,12 @@
     "options": [
       {
         "id": "A",
-        "text": "Añadir accesos de todos los compañeros.",
-        "rationale": "Eso amplía privilegios sin necesidad funcional."
+        "text": "Mantener los accesos por si debe volver a apoyar la aplicación más adelante.",
+        "rationale": "Una necesidad eventual no justifica conservar privilegios actuales."
       },
       {
         "id": "B",
-        "text": "Cambiar solo el nombre visible de la cuenta.",
+        "text": "Cambiar el nombre visible de la cuenta.",
         "rationale": "El nombre no modifica los permisos efectivos."
       },
       {
@@ -3357,8 +3357,8 @@
       },
       {
         "id": "D",
-        "text": "Conservar todos los accesos históricos por antigüedad.",
-        "rationale": "La antigüedad no justifica permisos ajenos a la función."
+        "text": "Conservar los accesos históricos, porque se otorgaron con autorización.",
+        "rationale": "Una autorización pasada no justifica permisos ajenos a la función actual."
       }
     ],
     "correctOptionId": "C",
@@ -3463,18 +3463,18 @@
     "options": [
       {
         "id": "A",
-        "text": "El intervalo de 24 horas es el único permitido por la definición.",
+        "text": "Es correcta, porque NIST fija ese intervalo de renovación de los permisos.",
         "rationale": "Añade una exigencia temporal ausente del concepto."
       },
       {
         "id": "B",
-        "text": "Renovar cada 24 horas permite dar cualquier permiso.",
-        "rationale": "Una frecuencia de renovación no justifica accesos innecesarios."
+        "text": "Es correcta para cuentas administrativas, pero no para las de usuarios comunes.",
+        "rationale": "La definición no fija intervalos para ningún tipo de cuenta."
       },
       {
         "id": "C",
-        "text": "La definición exige acceso administrativo permanente.",
-        "rationale": "Contradice la limitación por necesidad."
+        "text": "Es incorrecta, porque la definición exige renovar los permisos cada semana.",
+        "rationale": "Cambia el intervalo, pero comete el mismo error de atribuir un plazo."
       },
       {
         "id": "D",
@@ -3513,8 +3513,8 @@
     "options": [
       {
         "id": "A",
-        "text": "Agregar otro rol de consulta sin retirar ninguno.",
-        "rationale": "la suma conserva el permiso excesivo."
+        "text": "Agregar otro rol de consulta y conservar los dos que ya tiene.",
+        "rationale": "La suma conserva el permiso de modificar."
       },
       {
         "id": "B",
@@ -3568,18 +3568,18 @@
       },
       {
         "id": "B",
-        "text": "Solo G1.",
-        "rationale": "es precisamente el acceso requerido."
+        "text": "G1 y G2.",
+        "rationale": "G1 es precisamente el acceso requerido."
       },
       {
         "id": "C",
-        "text": "Solo G2.",
-        "rationale": "G3 también permite un recurso ajeno a la tarea."
+        "text": "G1 y G3.",
+        "rationale": "G1 es el acceso requerido y no sobra; además deja fuera a G2, que sí sobra."
       },
       {
         "id": "D",
-        "text": "Ninguna, porque leer y escribir son operaciones del mismo sistema.",
-        "rationale": "pertenecer al sistema no acredita necesidad."
+        "text": "G2, porque G3 da lectura, que es la operación pedida.",
+        "rationale": "G3 da lectura sobre B, un recurso ajeno a la tarea."
       }
     ],
     "correctOptionId": "A",
@@ -3663,8 +3663,8 @@
     "options": [
       {
         "id": "A",
-        "text": "Cambiar las claves por nombres más cortos.",
-        "rationale": "La longitud del nombre no limita las identidades autorizadas."
+        "text": "El cifrado del almacén, porque garantiza que nadie más pueda leer las claves.",
+        "rationale": "El cifrado en reposo no limita qué identidades autorizadas pueden leerlas."
       },
       {
         "id": "B",
@@ -3673,13 +3673,13 @@
       },
       {
         "id": "C",
-        "text": "Solo el logotipo del almacén.",
-        "rationale": "El logotipo no restringe lecturas."
+        "text": "La frecuencia de rotación de las claves, sin cambiar quién puede leerlas.",
+        "rationale": "Rotar ayuda, pero si todas las identidades leen las claves nuevas el problema sigue."
       },
       {
         "id": "D",
-        "text": "Publicar también las claves para igualar condiciones.",
-        "rationale": "Amplía la exposición en lugar de controlar acceso."
+        "text": "La disponibilidad del almacén.",
+        "rationale": "El problema es el exceso de acceso, no su disponibilidad."
       }
     ],
     "correctOptionId": "B",
@@ -3713,22 +3713,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Eliminar la autenticación porque no hay una persona conectada.",
-        "rationale": "Los procesos automáticos también requieren identidad y controles."
+        "text": "Mantener la cuenta humana compartida y cambiar su contraseña cada mes.",
+        "rationale": "Rotar no distingue al servicio ni limita su acceso."
       },
       {
         "id": "B",
-        "text": "Publicar la contraseña compartida en el manual.",
-        "rationale": "La publicación expone la credencial."
+        "text": "Usar la cuenta de un funcionario del equipo, con su autorización escrita.",
+        "rationale": "Sigue siendo una identidad humana: no distingue el servicio ni permite controlarlo."
       },
       {
         "id": "C",
-        "text": "Dar a cualquier proceso los secretos del usuario administrador.",
+        "text": "Autenticar el proceso con la cuenta del administrador para evitar fallos.",
         "rationale": "No limita el acceso conforme a la función del servicio."
       },
       {
         "id": "D",
-        "text": "Identificar y autenticar el servicio con una identidad controlada para su función.",
+        "text": "Darle al servicio su propia identidad, con los permisos de su función.",
         "rationale": "Las identidades de servicio permiten aplicar controles al proceso correspondiente."
       }
     ],
@@ -3763,13 +3763,13 @@
     "options": [
       {
         "id": "A",
-        "text": "Solo importa el canal de entrada al almacén.",
-        "rationale": "También debe evitarse exposición al utilizar los secretos."
+        "text": "Es aceptable mientras el almacén mantenga cifrados los valores originales.",
+        "rationale": "El almacén no protege valores que se copian fuera de él."
       },
       {
         "id": "B",
-        "text": "La página pública equivale a un control de acceso.",
-        "rationale": "La accesibilidad pública no restringe lectores."
+        "text": "Basta con ocultar la página de los buscadores para que nadie la encuentre.",
+        "rationale": "Ocultarla no restringe a quien conozca la dirección."
       },
       {
         "id": "C",
@@ -3778,8 +3778,8 @@
       },
       {
         "id": "D",
-        "text": "La protección está garantizada por el nombre del producto.",
-        "rationale": "Usar una herramienta no garantiza un flujo seguro de datos."
+        "text": "El riesgo es bajo porque los secretos se pueden rotar después de publicarlos.",
+        "rationale": "Rotar después no evita la exposición mientras estuvieron publicados."
       }
     ],
     "correctOptionId": "C",
@@ -4176,7 +4176,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Eliminar cualquier necesidad de investigación.",
+        "text": "Evitar tener que investigar el equipo.",
         "rationale": "La contención no sustituye el análisis posterior."
       },
       {
@@ -4186,12 +4186,12 @@
       },
       {
         "id": "C",
-        "text": "Demostrar automáticamente quién realizó el ataque.",
+        "text": "Identificar al autor del ataque a partir del tráfico bloqueado.",
         "rationale": "La contención no identifica por sí sola al autor."
       },
       {
         "id": "D",
-        "text": "Garantizar recuperación inmediata de todos los archivos.",
+        "text": "Recuperar los archivos cifrados sin necesidad de respaldos.",
         "rationale": "Aislar no equivale a recuperar los datos."
       }
     ],
@@ -4257,13 +4257,13 @@
       },
       {
         "id": "C",
-        "text": "Que el reinicio aumente necesariamente la memoria disponible para investigación histórica.",
-        "rationale": "No conserva por sí solo el estado previo de memoria."
+        "text": "Que el reinicio libere memoria y mejore la investigación posterior.",
+        "rationale": "Liberar memoria borra justo el estado que se quería conservar."
       },
       {
         "id": "D",
-        "text": "Que los registros públicos se conviertan automáticamente en secretos.",
-        "rationale": "No es el riesgo de evidencia volátil planteado."
+        "text": "Que el reinicio borre los registros guardados en disco de los equipos.",
+        "rationale": "Los registros en disco suelen persistir; el riesgo principal está en lo volátil."
       }
     ],
     "correctOptionId": "B",
@@ -4302,17 +4302,17 @@
       },
       {
         "id": "B",
-        "text": "Declarar que solo existe un equipo afectado sin comprobarlo.",
+        "text": "Declarar que hay un único equipo afectado hasta que aparezca otro.",
         "rationale": "Introduce una certeza sin evidencia."
       },
       {
         "id": "C",
-        "text": "Restablecer todas las conexiones antes de investigar.",
+        "text": "Reconectar para ver cómo se propaga.",
         "rationale": "Puede ampliar el impacto sin haberlo evaluado."
       },
       {
         "id": "D",
-        "text": "Descartar toda señal que no provenga del primer equipo.",
+        "text": "Limitar el análisis al primer equipo donde se detectó la alerta.",
         "rationale": "Excluye evidencia potencial del alcance real."
       }
     ],
@@ -4352,17 +4352,17 @@
       },
       {
         "id": "B",
-        "text": "El contexto nunca cambia las decisiones operativas.",
-        "rationale": "Ignora diferencias de impacto y restricciones."
+        "text": "Aplicar la misma acción garantiza una respuesta igual y más rápida en cada caso.",
+        "rationale": "La rapidez uniforme ignora diferencias de impacto y restricciones."
       },
       {
         "id": "C",
-        "text": "Los sistemas críticos deben ignorarse por ser complejos.",
-        "rationale": "Su criticidad es información relevante para responder."
+        "text": "Los sistemas críticos deben tratarse después, por ser más complejos.",
+        "rationale": "Su criticidad es información relevante para decidir, no para postergar."
       },
       {
         "id": "D",
-        "text": "Un listado general sustituye toda coordinación institucional.",
+        "text": "Un listado general de pasos reemplaza la coordinación con el plan institucional.",
         "rationale": "El plan y los responsables siguen siendo necesarios."
       }
     ],
@@ -4418,8 +4418,8 @@
     "options": [
       {
         "id": "A",
-        "text": "Publicar las credenciales en los registros restantes.",
-        "rationale": "Añade exposición sin contribuir a una respuesta segura."
+        "text": "Borrar los registros después de tomar capturas de pantalla del sistema.",
+        "rationale": "Una captura no reemplaza los registros como evidencia."
       },
       {
         "id": "B",
@@ -4428,13 +4428,13 @@
       },
       {
         "id": "C",
-        "text": "Destruir todo registro para reducir la duración del informe.",
-        "rationale": "La comodidad de reporte no justifica perder evidencia."
+        "text": "Borrar los registros para liberar espacio y acelerar la recuperación.",
+        "rationale": "La rapidez no justifica perder evidencia."
       },
       {
         "id": "D",
-        "text": "Conservar únicamente los registros que indiquen éxito.",
-        "rationale": "Seleccionar solo éxitos puede ocultar el ataque."
+        "text": "Conservar los registros que indiquen fallos y descartar los de operación normal.",
+        "rationale": "La actividad aparentemente normal también puede mostrar al atacante."
       }
     ],
     "correctOptionId": "B",
@@ -4489,22 +4489,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Reconectarlo automáticamente porque el usuario insiste.",
-        "rationale": "La insistencia no demuestra que el riesgo haya sido tratado."
+        "text": "Reconectarlo si el usuario firma que asume la responsabilidad total del riesgo.",
+        "rationale": "La aceptación del usuario no demuestra que el riesgo haya sido tratado."
       },
       {
         "id": "B",
-        "text": "Asumir que aislar durante un minuto elimina todo compromiso.",
-        "rationale": "El tiempo aislado no garantiza limpieza del sistema."
+        "text": "Reconectarlo si el antivirus ya no muestra alertas en el equipo que se aisló.",
+        "rationale": "La ausencia de alertas no prueba que el compromiso se haya eliminado."
       },
       {
         "id": "C",
-        "text": "Reutilizar inmediatamente sus credenciales en otros equipos.",
-        "rationale": "No se ha establecido que esas credenciales sean seguras."
+        "text": "Reconectarlo a una red de invitados para que el usuario siga trabajando.",
+        "rationale": "Sigue sin evaluación del equipo de respuesta y puede extender el compromiso."
       },
       {
         "id": "D",
-        "text": "Mantener la decisión de conexión bajo el procedimiento y evaluación del incidente.",
+        "text": "Decidir la reconexión dentro del procedimiento de respuesta al incidente.",
         "rationale": "Reconectar sin evaluación puede deshacer la contención adoptada."
       }
     ],
@@ -4539,13 +4539,13 @@
     "options": [
       {
         "id": "A",
-        "text": "Cambiar la denominación del incidente a mantenimiento.",
-        "rationale": "Renombrarlo no activa la respuesta necesaria."
+        "text": "Resolverlo localmente y reportarlo cuando el equipo termine la limpieza.",
+        "rationale": "Resolver de forma aislada omite la activación y coordinación que el plan prevé."
       },
       {
         "id": "B",
-        "text": "Eliminar las alertas para que no se dupliquen.",
-        "rationale": "Suprimir señales no resuelve el incidente."
+        "text": "Instalar otro antivirus en los equipos locales afectados.",
+        "rationale": "Una herramienta más no activa la respuesta institucional."
       },
       {
         "id": "C",
@@ -4554,7 +4554,7 @@
       },
       {
         "id": "D",
-        "text": "Esperar a que todos los sistemas estén afectados para informar.",
+        "text": "Esperar a que se confirme el cifrado de archivos antes de informar.",
         "rationale": "La espera puede aumentar el impacto y retrasar la contención."
       }
     ],
