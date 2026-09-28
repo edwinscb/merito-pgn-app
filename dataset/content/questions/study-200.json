@@ -3581,23 +3581,23 @@
     "options": [
       {
         "id": "A",
-        "text": "La obligación de usar siempre XML.",
-        "rationale": "HTTP no obliga a XML para GET."
+        "text": "Su carácter cacheable, que obliga a guardar la respuesta en el navegador.",
+        "rationale": "GET puede ser cacheable, pero eso no obliga a guardar nada ni es lo que el borrado contradice."
       },
       {
         "id": "B",
-        "text": "La prohibición de devolver contenido.",
-        "rationale": "GET normalmente devuelve una representación."
+        "text": "Su idempotencia, que exige devolver el mismo código en cada repetición.",
+        "rationale": "La idempotencia se refiere al efecto, no al código; y borrar un recurso ya es idempotente."
       },
       {
         "id": "C",
-        "text": "Su carácter seguro: el cliente no solicita un cambio de estado destructivo.",
+        "text": "Su carácter seguro: una consulta no debe pedir cambios de estado.",
         "rationale": "GET tiene semántica de lectura. Que el servidor registre logs no autoriza que el recurso solicitado borre expedientes como efecto pretendido de la consulta."
       },
       {
         "id": "D",
-        "text": "La exigencia de crear un expediente en cada lectura.",
-        "rationale": "GET no define creación como operación solicitada."
+        "text": "Su uso exclusivo para recursos que no requieren autenticación.",
+        "rationale": "GET se usa también con recursos protegidos; la autenticación no es el problema."
       }
     ],
     "correctOptionId": "C",
@@ -3632,12 +3632,12 @@
     "options": [
       {
         "id": "A",
-        "text": "Debe devolver siempre el mismo código y cuerpo.",
+        "text": "Debe devolver el mismo código de estado y el mismo cuerpo en cada intento.",
         "rationale": "La idempotencia no exige respuestas idénticas."
       },
       {
         "id": "B",
-        "text": "No puede modificar recursos.",
+        "text": "No modifica el recurso: idempotente equivale a método seguro.",
         "rationale": "PUT puede modificar; idempotente no significa seguro."
       },
       {
@@ -3688,18 +3688,18 @@
       },
       {
         "id": "B",
-        "text": "HTTP elimina siempre las creaciones duplicadas.",
+        "text": "Es inocuo, porque HTTP descarta los POST duplicados de la misma conexión.",
         "rationale": "El protocolo no garantiza esa deduplicación para cualquier POST."
       },
       {
         "id": "C",
-        "text": "Todo POST es una lectura sin efectos.",
-        "rationale": "POST puede causar procesamiento y cambios."
+        "text": "Es inocuo, porque un POST sin respuesta se considera no ejecutado.",
+        "rationale": "La falta de respuesta no prueba que el servidor no lo haya procesado."
       },
       {
         "id": "D",
-        "text": "Repetir cambia automáticamente el método a GET.",
-        "rationale": "El cliente sigue enviando POST."
+        "text": "Recibir un error 409, porque el servidor rechaza repetir un POST.",
+        "rationale": "HTTP no impone ese rechazo; depende de la aplicación."
       }
     ],
     "correctOptionId": "A",
@@ -4096,18 +4096,18 @@
       },
       {
         "id": "B",
-        "text": "404 con la contraseña administrativa.",
-        "rationale": "No corresponde divulgar credenciales ni describe la condición indicada."
+        "text": "404 Not Found, porque el método no existe para ese recurso.",
+        "rationale": "404 indica que no se encontró el recurso; aquí el recurso existe."
       },
       {
         "id": "C",
-        "text": "201 sin Location como corrección universal.",
-        "rationale": "Crear no explica que un método esté prohibido para el recurso."
+        "text": "501 Not Implemented con la lista de métodos del servidor.",
+        "rationale": "501 indica que el servidor no soporta el método en ningún recurso, no que esté prohibido para este."
       },
       {
         "id": "D",
-        "text": "200 fingiendo ejecutar el método.",
-        "rationale": "Informar éxito falso oculta el rechazo."
+        "text": "400 Bad Request, porque la solicitud usa un método no admitido.",
+        "rationale": "400 es para solicitudes malformadas; aquí el método es válido pero no está permitido."
       }
     ],
     "correctOptionId": "A",

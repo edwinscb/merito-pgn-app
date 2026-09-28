@@ -2700,13 +2700,13 @@
     "options": [
       {
         "id": "A",
-        "text": "Solo segunda.",
-        "rationale": "también falta la clave 40 de la cuarta."
+        "text": "La segunda.",
+        "rationale": "También falta la clave 40 de la cuarta."
       },
       {
         "id": "B",
-        "text": "Ninguna, porque todos los valores son números.",
-        "rationale": "el tipo numérico no prueba existencia en el catálogo."
+        "text": "La cuarta, porque 40 supera el mayor valor del catálogo.",
+        "rationale": "25 tampoco existe: lo que importa es pertenecer al catálogo, no el rango."
       },
       {
         "id": "C",
@@ -2750,13 +2750,13 @@
     "options": [
       {
         "id": "A",
-        "text": "Eliminar el catálogo para evitar comparaciones.",
-        "rationale": "Quitar el catálogo no demuestra validez referencial."
+        "text": "Cargar los expedientes y corregir los códigos cuando un usuario reporte el error.",
+        "rationale": "Aceptar primero deja relaciones inválidas en el destino mientras nadie las detecte."
       },
       {
         "id": "B",
-        "text": "Cambiar la extensión del archivo.",
-        "rationale": "La extensión no corrige códigos sin correspondencia."
+        "text": "Validar que cada código tenga el formato y la longitud definidos para el campo.",
+        "rationale": "El formato correcto no prueba que la dependencia exista en el catálogo."
       },
       {
         "id": "C",
@@ -2765,8 +2765,8 @@
       },
       {
         "id": "D",
-        "text": "Aceptar todos los códigos porque el archivo tiene formato JSON.",
-        "rationale": "Un formato válido no garantiza relaciones válidas."
+        "text": "Aceptar los códigos si el archivo de origen pasó su validación de esquema JSON.",
+        "rationale": "Un esquema válido no garantiza que las relaciones apunten a entidades existentes."
       }
     ],
     "correctOptionId": "C",
@@ -2800,8 +2800,8 @@
     "options": [
       {
         "id": "A",
-        "text": "Ordenar alfabéticamente los errores después de guardarlos.",
-        "rationale": "Ordenar datos inválidos no corrige la referencia."
+        "text": "Normalizar mayúsculas y tildes del texto antes de guardarlo para reducir variantes.",
+        "rationale": "Reduce variantes, pero sigue admitiendo nombres que no existen en el catálogo."
       },
       {
         "id": "B",
@@ -2810,12 +2810,12 @@
       },
       {
         "id": "C",
-        "text": "Mantener texto libre y confiar solo en recordar los nombres.",
-        "rationale": "La memoria del usuario no impide valores inexistentes."
+        "text": "Mantener el texto libre y revisar periódicamente los nombres con un reporte.",
+        "rationale": "La revisión posterior detecta errores, pero no impide que se guarden."
       },
       {
         "id": "D",
-        "text": "Permitir cualquier cadena siempre que tenga diez caracteres.",
+        "text": "Validar que el nombre escrito no supere la longitud máxima del campo.",
         "rationale": "La longitud no prueba pertenencia al catálogo."
       }
     ],
@@ -2850,22 +2850,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Toda referencia existente es necesariamente la correcta para cualquier trámite.",
-        "rationale": "Confunde existencia con exactitud de negocio."
+        "text": "La restricción referencial quedó mal definida y debe revisarse en la base.",
+        "rationale": "La restricción funcionó: la dependencia existe. El error es de elección, no de diseño relacional."
       },
       {
         "id": "B",
-        "text": "La integridad referencial comprueba automáticamente la intención del usuario.",
-        "rationale": "Ese alcance excede la restricción relacional."
+        "text": "La integridad referencial también valida que la dependencia corresponda al caso.",
+        "rationale": "Ese alcance excede la restricción relacional, que comprueba existencia."
       },
       {
         "id": "C",
-        "text": "Las tablas ya no necesitan claves.",
+        "text": "Conviene eliminar la clave foránea, porque no evitó el error del usuario.",
         "rationale": "El error de negocio no elimina la utilidad de las claves."
       },
       {
         "id": "D",
-        "text": "La existencia de la referencia no garantiza toda la corrección del dato de negocio.",
+        "text": "Una referencia válida no garantiza que el dato de negocio sea correcto.",
         "rationale": "La restricción comprueba la relación válida, no la veracidad de la elección en ese caso."
       }
     ],
@@ -2900,13 +2900,13 @@
     "options": [
       {
         "id": "A",
-        "text": "Permitir siempre referencias rotas como resultado normal.",
-        "rationale": "Eso contradice el propósito de la integridad referencial."
+        "text": "Borrar el padre y dejar que cada aplicación detecte después los hijos huérfanos.",
+        "rationale": "Aplaza el problema: mientras tanto existen referencias rotas."
       },
       {
         "id": "B",
-        "text": "Borrar necesariamente todas las tablas de la base.",
-        "rationale": "No se deduce esa medida de la integridad referencial."
+        "text": "Prohibir el borrado de filas padre en toda la base, tengan o no hijos.",
+        "rationale": "No se deduce esa medida: la integridad admite varias políticas mientras no queden huérfanos."
       },
       {
         "id": "C",
@@ -2950,23 +2950,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Declarar éxito porque se ejecutó una sentencia.",
-        "rationale": "Una sentencia exitosa no equivale a completar la transacción."
+        "text": "Declarar éxito parcial porque el descuento sí quedó registrado en la base.",
+        "rationale": "Una parte ejecutada no equivale a completar la transacción."
       },
       {
         "id": "B",
-        "text": "No conservar solo el descuento; revertir el conjunto no completado.",
+        "text": "Revertir también el descuento, porque la unidad no se completó.",
         "rationale": "Todo-o-nada impide confirmar una mitad de la operación."
       },
       {
         "id": "C",
-        "text": "Confirmar el descuento y olvidar la acreditación.",
-        "rationale": "Conserva una ejecución parcial de la unidad transaccional."
+        "text": "Confirmar el descuento y reintentar la acreditación más tarde en otra transacción.",
+        "rationale": "Deja confirmada una mitad de la unidad transaccional."
       },
       {
         "id": "D",
-        "text": "Duplicar el descuento para compensar el fallo.",
-        "rationale": "No completa ni revierte correctamente el conjunto."
+        "text": "Registrar el fallo en la bitácora y conservar el estado que quedó.",
+        "rationale": "Conservar el estado parcial contradice el todo o nada."
       }
     ],
     "correctOptionId": "B",
@@ -3055,13 +3055,13 @@
       },
       {
         "id": "B",
-        "text": "Cambiar el separador de columnas del archivo.",
-        "rationale": "El formato no agrupa las operaciones transaccionalmente."
+        "text": "Validar las diez filas antes de empezar y luego confirmar cada una por separado.",
+        "rationale": "La validación previa ayuda, pero un fallo durante la carga seguiría dejando filas confirmadas."
       },
       {
         "id": "C",
-        "text": "Ocultar las filas fallidas del reporte.",
-        "rationale": "Ocultar fallos no revierte las confirmaciones parciales."
+        "text": "Confirmar cada fila y, si alguna falla, avisar para que se corrija a mano.",
+        "rationale": "Deja confirmaciones parciales: el conjunto no se acepta ni se rechaza junto."
       },
       {
         "id": "D",
@@ -3205,18 +3205,18 @@
       },
       {
         "id": "B",
-        "text": "Sí; atomicidad une automáticamente todas las operaciones de una aplicación.",
-        "rationale": "Atribuye a la propiedad un alcance global no definido."
+        "text": "Sí; si ambas pertenecen al mismo proceso de negocio, la base las revierte juntas.",
+        "rationale": "La base no conoce el proceso de negocio: agrupa lo que está dentro de una misma transacción."
       },
       {
         "id": "C",
-        "text": "Sí; toda transacción posterior puede deshacer cualquiera anterior.",
-        "rationale": "No es una consecuencia del todo-o-nada individual."
+        "text": "Sí; la transacción que falla deshace también las confirmadas antes por la misma aplicación.",
+        "rationale": "Una transacción confirmada no se deshace por el fallo de otra independiente."
       },
       {
         "id": "D",
-        "text": "No puede existir más de una transacción en una base.",
-        "rationale": "La atomicidad no limita la base a una única transacción."
+        "text": "No, salvo que la segunda transacción termine en menos tiempo que la primera.",
+        "rationale": "La duración no cambia las fronteras transaccionales."
       }
     ],
     "correctOptionId": "A",
@@ -3844,8 +3844,8 @@
       },
       {
         "id": "C",
-        "text": "`{\"total\": 120}`.",
-        "rationale": "no se estableció límite superior que lo invalide."
+        "text": "`{\"total\": 12000}`.",
+        "rationale": "No se estableció límite superior que lo invalide."
       },
       {
         "id": "D",
@@ -3889,18 +3889,18 @@
       },
       {
         "id": "B",
-        "text": "Un mensaje que solo diga «devolver datos».",
+        "text": "Un mensaje breve que diga «devolver datos».",
         "rationale": "Es demasiado impreciso para definir la estructura de respuesta."
       },
       {
         "id": "C",
-        "text": "La lista de nombres del equipo.",
-        "rationale": "No describe solicitudes ni respuestas."
+        "text": "Un tablero con las tareas pendientes de cada equipo.",
+        "rationale": "Organiza el trabajo, pero no describe solicitudes ni respuestas."
       },
       {
         "id": "D",
-        "text": "Un archivo vacío con extensión JSON.",
-        "rationale": "La extensión sin contenido no establece un contrato."
+        "text": "Un registro de los errores de producción de la última semana.",
+        "rationale": "Muestra fallos pasados, no el contrato que ambas partes deben cumplir."
       }
     ],
     "correctOptionId": "A",
@@ -3955,13 +3955,13 @@
     "options": [
       {
         "id": "A",
-        "text": "Eliminar el manejo de errores.",
-        "rationale": "Suprimirlo no valida su comportamiento."
+        "text": "Más casos exitosos con datos de entrada más variados.",
+        "rationale": "Amplía el camino feliz, pero sigue sin probar los errores."
       },
       {
         "id": "B",
-        "text": "Asumir que todo error devuelve éxito.",
-        "rationale": "Confunde el resultado y puede ocultar fallos a consumidores."
+        "text": "Revisión visual de la documentación publicada de la API.",
+        "rationale": "Revisa la documentación, no ejercita respuestas de error."
       },
       {
         "id": "C",
@@ -3970,7 +3970,7 @@
       },
       {
         "id": "D",
-        "text": "Solo capturas de la página institucional.",
+        "text": "Capturas de pantalla de la aplicación que consume la API.",
         "rationale": "No ejercitan los casos de error de la API."
       }
     ],
@@ -4076,23 +4076,23 @@
     "options": [
       {
         "id": "A",
-        "text": "La versión afectada, el calendario anunciado de retirada y la alternativa de migración.",
+        "text": "La versión afectada, la fecha de retirada y la alternativa de migración.",
         "rationale": "hace operativa la comunicación del cambio para los integradores."
       },
       {
         "id": "B",
-        "text": "Solo el nuevo logotipo del servicio.",
-        "rationale": "no informa fechas ni alternativa de integración."
+        "text": "Las notas técnicas de la nueva versión, sin fecha de retiro de la anterior.",
+        "rationale": "Describe lo nuevo, pero no cuándo dejará de funcionar lo que usan."
       },
       {
         "id": "C",
-        "text": "El nombre interno de la rama de desarrollo.",
-        "rationale": "no establece qué deben cambiar los consumidores."
+        "text": "El listado de cambios internos del código fuente del servicio.",
+        "rationale": "No establece qué deben cambiar los consumidores ni cuándo."
       },
       {
         "id": "D",
-        "text": "Un mensaje enviado únicamente después de retirarla.",
-        "rationale": "no permite preparar la adaptación antes de la interrupción."
+        "text": "Un aviso enviado el mismo día en que la versión deje de responder.",
+        "rationale": "No da tiempo para preparar la adaptación antes de la interrupción."
       }
     ],
     "correctOptionId": "A",
@@ -4126,22 +4126,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Que la especificación tenga un título legible.",
-        "rationale": "El título no causa la divergencia del esquema."
+        "text": "Que la especificación use un formato distinto al del resto de los equipos.",
+        "rationale": "El formato no causa la divergencia del esquema."
       },
       {
         "id": "B",
-        "text": "Que los clientes puedan consultar la documentación.",
+        "text": "Que los clientes puedan consultar la documentación de la API.",
         "rationale": "El acceso a documentación es útil; el problema es su inexactitud."
       },
       {
         "id": "C",
-        "text": "Que existan pruebas de respuestas.",
-        "rationale": "Las pruebas ayudan a detectar esa divergencia."
+        "text": "Que existan pruebas de contrato sobre las respuestas del servicio.",
+        "rationale": "Las pruebas ayudan a detectar esa divergencia; no son el problema."
       },
       {
         "id": "D",
-        "text": "La divergencia entre el contrato documentado y el comportamiento real.",
+        "text": "La diferencia entre lo documentado y lo que entrega producción.",
         "rationale": "La especificación pierde utilidad para consumidores si no describe lo servido."
       }
     ],
