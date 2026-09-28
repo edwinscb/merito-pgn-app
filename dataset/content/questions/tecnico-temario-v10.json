@@ -11,7 +11,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Si el servicio resulta comprometido, el daño alcanzará todos los recursos accesibles con esos permisos.",
+        "text": "Si el servicio es comprometido, el daño alcanzará todo lo accesible con esos permisos.",
         "rationale": "El principio de mínimo privilegio otorga a cada tarea, proceso o usuario únicamente los derechos que necesita, de modo que un compromiso quede confinado a los recursos limitados de la entidad comprometida. Con permisos de administrador, ese confinamiento desaparece."
       },
       {
@@ -21,7 +21,7 @@
       },
       {
         "id": "C",
-        "text": "El sistema operativo deshabilitará el servicio automáticamente por exceso de privilegios.",
+        "text": "El sistema operativo deshabilitará el servicio al detectar el exceso de privilegios.",
         "rationale": "Ningún sistema operativo revoca privilegios por sí mismo: la asignación excesiva persiste hasta que un administrador la corrige."
       },
       {
@@ -69,7 +69,7 @@
       },
       {
         "id": "B",
-        "text": "Porque un ataque que altere la configuración puede reactivar un servicio deshabilitado, y también puede reactivarse por error humano.",
+        "text": "Porque un ataque o un error humano pueden reactivar un servicio que solo está deshabilitado.",
         "rationale": "Retirar los componentes funcionales es preferible a deshabilitarlos porque un ataque que modifique la configuración para activar un servicio deshabilitado no puede tener éxito si el componente ya no existe; además, un servicio deshabilitado puede quedar habilitado de nuevo por error humano."
       },
       {
@@ -223,12 +223,12 @@
     "options": [
       {
         "id": "A",
-        "text": "Parchear y actualizar el sistema operativo, endurecerlo y configurarlo, instalar controles de seguridad adicionales si se necesitan, y probar la seguridad del resultado.",
+        "text": "Parchear y actualizar el sistema, endurecerlo y configurarlo, añadir controles si se necesitan y probar su seguridad.",
         "rationale": "La guía enumera cuatro pasos: parchear y actualizar el sistema operativo, endurecerlo y configurarlo para atender la seguridad de forma adecuada, instalar y configurar controles de seguridad adicionales si se necesitan, y probar la seguridad del sistema para confirmar que los pasos anteriores cubrieron los problemas."
       },
       {
         "id": "B",
-        "text": "Instalar un antivirus, activar el firewall del sistema y programar copias de seguridad semanales.",
+        "text": "Instalar un antivirus, activar el firewall del sistema, programar copias de seguridad semanales y documentar la configuración.",
         "rationale": "Son controles útiles, pero no son la secuencia de aseguramiento que la guía define: dejan fuera el parcheo, el endurecimiento y la prueba posterior."
       },
       {
@@ -286,7 +286,7 @@
       },
       {
         "id": "C",
-        "text": "Solo si un usuario externo llega a reportar un problema de seguridad concreto.",
+        "text": "Cuando un usuario externo reporte un problema de seguridad concreto en el portal.",
         "rationale": "Incorrecta: la corrección no depende de un reporte externo; la guía ordena corregir las vulnerabilidades conocidas de forma previa a la exposición."
       },
       {
@@ -334,17 +334,17 @@
       },
       {
         "id": "B",
-        "text": "Ni la descarga ni la instalación deben automatizarse; ambas deben hacerse siempre a mano.",
+        "text": "Ni la descarga ni la instalación deben automatizarse; ambas deben hacerse a mano.",
         "rationale": "Incorrecta: la guía sí admite la descarga automática de parches; lo que desaconseja es la instalación automática sin pruebas previas."
       },
       {
         "id": "C",
-        "text": "Los servidores pueden descargar los parches automáticamente, pero no deben configurarse para instalarlos de forma automática, de modo que primero se puedan probar.",
+        "text": "Pueden descargar los parches automáticamente, pero no instalarlos así, para poder probarlos antes.",
         "rationale": "Correcta: la guía indica que 'although administrators can configure servers to download patches automatically, the servers should not be configured to install them automatically so that they can first be tested', es decir, permite la descarga automática pero no la instalación automática, para poder probar los parches antes."
       },
       {
         "id": "D",
-        "text": "La instalación automática es aceptable siempre que se realice fuera del horario laboral.",
+        "text": "La instalación automática es aceptable si se realiza fuera del horario laboral.",
         "rationale": "Incorrecta: la objeción de la guía a la instalación automática es la falta de pruebas previas, no el horario en que ocurra."
       }
     ],
@@ -382,22 +382,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Es un servidor destinado a alojar la mayor cantidad posible de servicios para aprovechar el hardware.",
+        "text": "Es un servidor destinado a alojar la mayor cantidad posible de servicios para aprovechar mejor el hardware.",
         "rationale": "Incorrecta: el bastion host busca ofrecer la mínima funcionalidad posible, no concentrar la mayor cantidad de servicios."
       },
       {
         "id": "B",
-        "text": "Es un equipo sin controles de seguridad especiales, pensado únicamente para pruebas internas.",
+        "text": "Es un equipo sin controles de seguridad especiales, pensado para pruebas internas.",
         "rationale": "Incorrecta: el bastion host se define precisamente por tener controles de seguridad particularmente fuertes."
       },
       {
         "id": "C",
-        "text": "Es un servidor que replica automáticamente la configuración de los demás equipos de la red.",
+        "text": "Es un servidor que replica la configuración de los demás equipos de la red.",
         "rationale": "Incorrecta: la definición no se refiere a replicar configuraciones, sino a controles de seguridad fuertes y mínima funcionalidad."
       },
       {
         "id": "D",
-        "text": "Es un equipo con controles de seguridad particularmente fuertes y configurado para ofrecer la menor funcionalidad posible.",
+        "text": "Es un equipo con controles de seguridad muy fuertes, configurado con la mínima funcionalidad posible.",
         "rationale": "Correcta: la guía define que 'a bastion host has particularly strong security controls and is configured so as to offer the least functionality possible', es decir, controles de seguridad fuertes y la mínima funcionalidad posible."
       }
     ],
@@ -435,12 +435,12 @@
     "options": [
       {
         "id": "A",
-        "text": "De ser posible, instalar la configuración mínima del sistema operativo y luego agregar, remover o deshabilitar servicios, aplicaciones y protocolos según lo necesario.",
+        "text": "Instalar la configuración mínima y luego agregar, quitar o deshabilitar servicios, aplicaciones y protocolos según se necesite.",
         "rationale": "Correcta: la guía recomienda 'install the minimal OS configuration and then add, remove, or disable services, applications, and network protocols as needed', es decir, partir de una instalación mínima y ajustar los servicios y protocolos según la necesidad."
       },
       {
         "id": "B",
-        "text": "Instalar todos los servicios y protocolos disponibles y dejar que el firewall bloquee lo que no se use.",
+        "text": "Instalar los servicios y protocolos disponibles y dejar que el firewall bloquee lo que no se use.",
         "rationale": "Incorrecta: la guía busca partir de una configuración mínima; delegar todo al firewall deja instalados componentes innecesarios en el propio servidor."
       },
       {
@@ -450,7 +450,7 @@
       },
       {
         "id": "D",
-        "text": "No modificar los servicios instalados por defecto para conservar la compatibilidad certificada por el fabricante.",
+        "text": "No modificar los servicios instalados por defecto, para conservar la compatibilidad certificada por el fabricante del sistema.",
         "rationale": "Incorrecta: la guía indica ajustar los servicios, aplicaciones y protocolos según la necesidad, no conservar sin cambios lo instalado por defecto."
       }
     ],
@@ -488,12 +488,12 @@
     "options": [
       {
         "id": "A",
-        "text": "Dejarlas activas pero asignarles contraseñas largas, ya que las cuentas por defecto no representan riesgo.",
+        "text": "Dejarlas activas pero asignarles contraseñas largas, ya que las cuentas por defecto no representan riesgo real.",
         "rationale": "Incorrecta: la guía busca eliminar el uso de esas cuentas por atacantes removiéndolas o deshabilitándolas, no simplemente mantenerlas activas con contraseñas largas."
       },
       {
         "id": "B",
-        "text": "Removerlas cuando sea posible o deshabilitarlas, para eliminar su uso por parte de atacantes, incluida la cuenta de invitado en equipos con información sensible.",
+        "text": "Removerlas cuando sea posible o deshabilitarlas, incluida la de invitado en equipos con información sensible.",
         "rationale": "Correcta: la guía indica 'remove (whenever possible) or disable unnecessary accounts to eliminate their use by attackers, including guest accounts on computers containing sensitive information', es decir, remover o deshabilitar las cuentas innecesarias, incluida la de invitado en equipos con información sensible."
       },
       {
@@ -551,7 +551,7 @@
       },
       {
         "id": "C",
-        "text": "Configurar el sistema para incrementar el periodo entre intentos de inicio de sesión con cada intento fallido.",
+        "text": "Aumentar el periodo entre intentos de inicio de sesión con cada intento fallido.",
         "rationale": "Correcta: la guía señala 'if the OS provides the capability, configure it to increase the period between login attempts with each unsuccessful attempt', es decir, aumentar el intervalo entre intentos de inicio de sesión con cada intento fallido."
       },
       {
@@ -594,7 +594,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Cifrar los archivos de registro y dejarlos en el mismo servidor, ya que el cifrado es suficiente por sí solo.",
+        "text": "Cifrar los archivos de registro y dejarlos en el mismo servidor, protegidos por el cifrado.",
         "rationale": "Incorrecta: la guía reconoce que el cifrado puede ser útil, pero presenta como mejor solución almacenar los registros en un host separado, no dejarlos en el mismo servidor."
       },
       {
