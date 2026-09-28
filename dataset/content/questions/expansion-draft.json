@@ -11,12 +11,12 @@
     "options": [
       {
         "id": "A",
-        "text": "Compartir la decisión mediante una firma conjunta obligatoria.",
-        "rationale": "La firma conjunta convierte la vigilancia en participación decisoria."
+        "text": "Acompañar la evaluación de las propuestas y firmar el acta de selección con la alcaldía.",
+        "rationale": "Firmar la selección convierte la vigilancia en participación decisoria."
       },
       {
         "id": "B",
-        "text": "Aprobar previamente el puntaje de cada proponente.",
+        "text": "Revisar y aprobar previamente el puntaje asignado a cada proponente.",
         "rationale": "Fijar puntajes como requisito de aprobación participa en la selección."
       },
       {
@@ -61,7 +61,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Clasificarla como orden del ordenador del gasto.",
+        "text": "Clasificarla como una orden dirigida al ordenador del gasto de la entidad vigilada.",
         "rationale": "La vigilancia preventiva no atribuye la ordenación del gasto."
       },
       {
@@ -71,8 +71,8 @@
       },
       {
         "id": "C",
-        "text": "Conservar el término porque toda advertencia impone una sanción.",
-        "rationale": "Advertir no equivale a sancionar."
+        "text": "Mantener el término, porque la advertencia tiene efectos obligatorios para la entidad.",
+        "rationale": "Advertir no equivale a sancionar ni impone obligaciones como lo haría una sanción."
       },
       {
         "id": "D",
@@ -137,7 +137,7 @@
       },
       {
         "id": "B",
-        "text": "Mantenerlo porque todos sus integrantes ejercen indistintamente la dirección suprema.",
+        "text": "Mantenerlo, porque los integrantes del Ministerio Público comparten la dirección suprema.",
         "rationale": "integrar el Ministerio Público no equivale a ostentar su dirección suprema."
       },
       {
@@ -147,7 +147,7 @@
       },
       {
         "id": "D",
-        "text": "Sustituirlo por el Contralor General.",
+        "text": "Sustituirlo por el Contralor General, como máxima autoridad de control.",
         "rationale": "confunde la dirección del Ministerio Público con otra autoridad de control."
       }
     ],
@@ -182,18 +182,18 @@
     "options": [
       {
         "id": "A",
-        "text": "Solo pueden ejercerlo autoridades de alcance nacional.",
+        "text": "Lo ejercen las autoridades de alcance nacional y departamental.",
         "rationale": "el artículo incluye autoridades del nivel municipal."
       },
       {
         "id": "B",
-        "text": "Su inclusión depende únicamente del tamaño del municipio.",
+        "text": "Su inclusión depende del tamaño y la categoría del municipio.",
         "rationale": "esa condición no aparece en la enumeración."
       },
       {
         "id": "C",
-        "text": "La lista menciona únicamente al Procurador General y al Defensor del Pueblo.",
-        "rationale": "omite procuradores delegados, agentes y personeros, entre otros."
+        "text": "La lista menciona al Procurador General, al Defensor del Pueblo y a los procuradores delegados.",
+        "rationale": "Omite a los agentes y a los personeros municipales, entre otros."
       },
       {
         "id": "D",
@@ -232,13 +232,13 @@
     "options": [
       {
         "id": "A",
-        "text": "Confunde la actividad de advertir riesgos con los resultados de otra función misional.",
+        "text": "Confunde advertir riesgos con los resultados de otra función misional.",
         "rationale": "La distinción prevención-disciplina impide equiparar sus productos sin justificación."
       },
       {
         "id": "B",
-        "text": "Toda actividad preventiva debe terminar necesariamente en sanción.",
-        "rationale": "La prevención no exige un resultado sancionatorio."
+        "text": "Las sanciones son un buen indicador, pero deben sumarse las multas cobradas.",
+        "rationale": "Sigue midiendo la prevención con productos de otra función."
       },
       {
         "id": "C",
@@ -247,8 +247,8 @@
       },
       {
         "id": "D",
-        "text": "La PGN carece de cualquier función disciplinaria.",
-        "rationale": "La objeción no consiste en negar la función disciplinaria existente."
+        "text": "La PGN no impone sanciones, porque esa función corresponde a los jueces.",
+        "rationale": "La PGN sí tiene función disciplinaria; la objeción no consiste en negarla."
       }
     ],
     "correctOptionId": "A",
