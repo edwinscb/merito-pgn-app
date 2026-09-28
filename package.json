@@ -15,7 +15,8 @@
     "dataset:review-expansion": "node scripts/dataset/final-review-promote.mjs",
     "dataset:validate": "tsx scripts/dataset/validate.ts",
     "dataset:build": "tsx scripts/dataset/build.ts && tsx scripts/dataset/build-study.mjs",
-    "dataset:coverage": "tsx scripts/dataset/coverage.ts"
+    "dataset:coverage": "tsx scripts/dataset/coverage.ts",
+    "dataset:pistas": "node scripts/dataset/pistas.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",
