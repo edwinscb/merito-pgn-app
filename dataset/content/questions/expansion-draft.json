@@ -916,13 +916,13 @@
     "options": [
       {
         "id": "A",
-        "text": "Una captura del icono del documento.",
-        "rationale": "La apariencia del icono no conserva el contexto documental."
+        "text": "Una copia del texto en formato PDF.",
+        "rationale": "Conserva el texto, pero no quién lo produjo ni en qué trámite."
       },
       {
         "id": "B",
-        "text": "El número de archivos del computador.",
-        "rationale": "Un conteo global no describe el documento particular."
+        "text": "La fecha de modificación que asigna el sistema.",
+        "rationale": "La fecha no identifica al productor ni el trámite."
       },
       {
         "id": "C",
@@ -931,8 +931,8 @@
       },
       {
         "id": "D",
-        "text": "Solo el tamaño del archivo.",
-        "rationale": "El tamaño no identifica por sí solo productor y trámite."
+        "text": "El tamaño y la extensión del archivo.",
+        "rationale": "Ni el tamaño ni la extensión identifican productor y trámite."
       }
     ],
     "correctOptionId": "C",
@@ -1021,13 +1021,13 @@
       },
       {
         "id": "B",
-        "text": "Solo la fecha de compra del disco.",
-        "rationale": "La edad del equipo no establece el valor ni la retención documental."
+        "text": "La fecha de creación de cada expediente.",
+        "rationale": "La antigüedad no establece por sí misma el valor ni la retención documental."
       },
       {
         "id": "C",
-        "text": "El tamaño de cada archivo como único criterio.",
-        "rationale": "El tamaño no determina por sí mismo la disposición autorizada."
+        "text": "El volumen que ocupa cada expediente en el servidor.",
+        "rationale": "El tamaño no determina la disposición autorizada."
       },
       {
         "id": "D",
@@ -1071,8 +1071,8 @@
       },
       {
         "id": "B",
-        "text": "Cambiar el color de las carpetas.",
-        "rationale": "El cambio visual no registra las etapas del trámite."
+        "text": "La clasificación de los documentos por series.",
+        "rationale": "Ya están clasificados; clasificar no muestra dónde se detiene el trámite."
       },
       {
         "id": "C",
@@ -1081,8 +1081,8 @@
       },
       {
         "id": "D",
-        "text": "Clasificar exclusivamente por extensión del archivo.",
-        "rationale": "El formato no informa el estado del trámite."
+        "text": "La digitalización de los expedientes en trámite.",
+        "rationale": "Digitalizar no registra las etapas del trámite."
       }
     ],
     "correctOptionId": "A",
@@ -1116,8 +1116,8 @@
     "options": [
       {
         "id": "A",
-        "text": "La trazabilidad exige eliminar la clasificación archivística.",
-        "rationale": "Clasificación y seguimiento son componentes compatibles."
+        "text": "Es suficiente, si la fecha se registra al momento de crear el documento.",
+        "rationale": "Un dato aislado no acredita el recorrido real del documento."
       },
       {
         "id": "B",
@@ -1126,8 +1126,8 @@
       },
       {
         "id": "C",
-        "text": "Es suficiente, aunque el campo nunca se actualice.",
-        "rationale": "Un dato desactualizado no acredita el recorrido real."
+        "text": "Es insuficiente, porque la trazabilidad exige conservar los documentos en papel.",
+        "rationale": "La trazabilidad no depende del soporte, sino de controles y seguimiento coherentes."
       },
       {
         "id": "D",
@@ -1166,8 +1166,8 @@
     "options": [
       {
         "id": "A",
-        "text": "Conservar solo la última página de cada documento.",
-        "rationale": "Reducir contenido no resuelve la pérdida de contexto."
+        "text": "Conservar la última versión de cada documento del expediente.",
+        "rationale": "Conservar versiones no resuelve la pérdida de contexto."
       },
       {
         "id": "B",
@@ -1176,12 +1176,12 @@
       },
       {
         "id": "C",
-        "text": "Asignar nombres de archivo sin relación con la serie.",
+        "text": "Asignar a los archivos nombres descriptivos, aunque no se relacionen con la serie.",
         "rationale": "Cambiar nombres sin contexto no recupera la organización requerida."
       },
       {
         "id": "D",
-        "text": "Definir únicamente permisos de impresión.",
+        "text": "Definir los permisos de acceso a cada documento.",
         "rationale": "Los permisos no describen la pertenencia archivística."
       }
     ],
@@ -1292,7 +1292,7 @@
       },
       {
         "id": "B",
-        "text": "Clasificar ambas exclusivamente por el título «consulta».",
+        "text": "Clasificar ambas por el título «consulta» que trae el correo.",
         "rationale": "El título no reemplaza el examen de lo realmente solicitado."
       },
       {
@@ -1468,8 +1468,8 @@
       },
       {
         "id": "C",
-        "text": "Eliminar también todo contenido público relacionado.",
-        "rationale": "La relación temática no amplía automáticamente la excepción."
+        "text": "Eliminar también el contenido público que esté relacionado con la parte protegida.",
+        "rationale": "La relación temática no amplía la excepción."
       },
       {
         "id": "D",
@@ -1513,13 +1513,13 @@
       },
       {
         "id": "B",
-        "text": "Solo D2.",
-        "rationale": "omite la falta de productor en D3."
+        "text": "D3 y D4.",
+        "rationale": "D4 ya tiene ambos datos, y la opción omite a D2."
       },
       {
         "id": "C",
-        "text": "Todos.",
-        "rationale": "desconoce que D1 y D4 cumplen la regla explícita."
+        "text": "D1, D2 y D3.",
+        "rationale": "D1 ya contiene los dos datos exigidos."
       },
       {
         "id": "D",

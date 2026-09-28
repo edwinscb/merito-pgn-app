@@ -2459,13 +2459,13 @@
     "options": [
       {
         "id": "A",
-        "text": "No; el ejercicio del derecho de petición es gratuito y no requiere abogado.",
+        "text": "No; el derecho de petición es gratuito y no requiere abogado.",
         "rationale": "El artículo 13 permite ejercer directamente el derecho. La ausencia de apoderado no justifica rechazar una petición que la persona puede presentar por sí misma."
       },
       {
         "id": "B",
-        "text": "Sí, cualquier petición exige poder notarial.",
-        "rationale": "No existe esa exigencia general."
+        "text": "Sí, cuando la petición se refiere a asuntos jurídicos complejos.",
+        "rationale": "El artículo 13 no crea representación obligatoria por la complejidad del asunto."
       },
       {
         "id": "C",
@@ -2474,8 +2474,8 @@
       },
       {
         "id": "D",
-        "text": "Sí, si la petición tiene más de una página.",
-        "rationale": "La extensión no crea representación obligatoria."
+        "text": "Sí, si la petición tiene más de una página o incluye documentos anexos.",
+        "rationale": "Ni la extensión ni los anexos crean representación obligatoria."
       }
     ],
     "correctOptionId": "A",
@@ -2520,13 +2520,13 @@
       },
       {
         "id": "C",
-        "text": "Solo deben recibirse peticiones redactadas por la oficina.",
-        "rationale": "El peticionario puede presentar su propio escrito."
+        "text": "Pedir al ciudadano que la rehaga en el formato y radicarla después.",
+        "rationale": "Condicionar la recepción al formato obstaculiza el derecho."
       },
       {
         "id": "D",
-        "text": "Toda petición fuera del formato se destruye.",
-        "rationale": "Destruirla impide ejercicio y trazabilidad."
+        "text": "Recibirla sin radicar hasta que la oficina la transcriba al formato interno.",
+        "rationale": "El deber es recibir y radicar; la transcripción no puede condicionarlo."
       }
     ],
     "correctOptionId": "B",
@@ -2561,13 +2561,13 @@
     "options": [
       {
         "id": "A",
-        "text": "Archivar de inmediato sin comunicarlo.",
-        "rationale": "Omite el requerimiento y la oportunidad de completar."
+        "text": "Archivar la petición y avisar al ciudadano que puede presentar otra.",
+        "rationale": "Omite el requerimiento previo para completar la solicitud."
       },
       {
         "id": "B",
-        "text": "Inventar el documento faltante.",
-        "rationale": "La autoridad no puede suplirlo con información falsa."
+        "text": "Resolver con la información disponible, sin pedir el documento faltante.",
+        "rationale": "Si el documento es indispensable, debe requerirse antes de decidir."
       },
       {
         "id": "C",
@@ -2576,8 +2576,8 @@
       },
       {
         "id": "D",
-        "text": "Sancionar automáticamente al peticionario.",
-        "rationale": "La incompletitud no equivale por sí sola a infracción."
+        "text": "Declarar el desistimiento al vencer el término para decidir.",
+        "rationale": "El desistimiento procede tras requerir al peticionario y no obtener respuesta en el plazo."
       }
     ],
     "correctOptionId": "C",
@@ -2612,22 +2612,22 @@
     "options": [
       {
         "id": "A",
-        "text": "No, nunca puede continuar en ningún supuesto.",
+        "text": "No, porque el desistimiento expreso termina la actuación de manera definitiva.",
         "rationale": "Desconoce la excepción expresa de interés público."
       },
       {
         "id": "B",
-        "text": "Sí, pero solo para castigar el desistimiento.",
-        "rationale": "La continuación tiene razón de interés público, no castigo."
+        "text": "Sí, pero requiere el consentimiento escrito de quien desistió.",
+        "rationale": "La ley no exige ese consentimiento; exige interés público y resolución motivada."
       },
       {
         "id": "C",
-        "text": "Sí, sin expresar razones en ningún caso.",
+        "text": "Sí, cuando lo considere conveniente, sin necesidad de motivar la decisión.",
         "rationale": "El artículo exige resolución motivada."
       },
       {
         "id": "D",
-        "text": "Sí, si lo considera necesario por interés público y expide resolución motivada.",
+        "text": "Sí, por razones de interés público y mediante resolución motivada.",
         "rationale": "El desistimiento no impide continuar una actuación por razones de interés público mediante decisión motivada. Tampoco equivale a prohibir que la persona presente otra solicitud legalmente admisible."
       }
     ],
@@ -2668,18 +2668,18 @@
       },
       {
         "id": "B",
-        "text": "Rechazar toda petición que cite mal una ley.",
-        "rationale": "La fundamentación jurídica inadecuada no basta para rechazo."
+        "text": "Rechazarla de plano si cita de forma incorrecta la norma en que se funda.",
+        "rationale": "La fundamentación jurídica inadecuada no basta para rechazarla."
       },
       {
         "id": "C",
-        "text": "Resolver un asunto diferente elegido al azar.",
-        "rationale": "La decisión debe atender el objeto real de la petición."
+        "text": "Resolver el asunto que la entidad considere más probable según el texto recibido.",
+        "rationale": "La decisión debe atender el objeto real de la petición, no una suposición."
       },
       {
         "id": "D",
-        "text": "Publicar los datos personales para pedir ayuda.",
-        "rationale": "La dificultad de comprensión no autoriza esa divulgación."
+        "text": "Remitirla a otra entidad para que interprete su finalidad.",
+        "rationale": "La remisión procede por falta de competencia, no por falta de claridad."
       }
     ],
     "correctOptionId": "A",
@@ -2714,23 +2714,23 @@
     "options": [
       {
         "id": "A",
-        "text": "No responder porque son repetidas.",
+        "text": "Responder la primera petición y archivar las demás como repetidas.",
         "rationale": "La analogía no elimina el deber de respuesta."
       },
       {
         "id": "B",
-        "text": "Dar una única respuesta con la publicidad y entrega a solicitantes previstas en la ley.",
+        "text": "Dar una única respuesta publicada y entregar copia a quien la pida.",
         "rationale": "La respuesta única está permitida para ese supuesto, con publicación en diario de amplia circulación, página web y entrega a quienes soliciten copia. No equivale a ignorar a los peticionarios."
       },
       {
         "id": "C",
-        "text": "Responder únicamente al primer ciudadano en secreto.",
-        "rationale": "Desconoce las medidas de publicidad y entrega."
+        "text": "Dar una única respuesta y comunicarla nada más al primer peticionario.",
+        "rationale": "Desconoce las medidas de publicidad y entrega previstas en el artículo."
       },
       {
         "id": "D",
-        "text": "Cobrar una tarifa para aceptar cada petición.",
-        "rationale": "No hay autorización general para cobrar por ejercer el derecho."
+        "text": "Acumularlas y resolverlas en el plazo de la petición más antigua.",
+        "rationale": "El artículo 22 prevé una respuesta única con publicidad, no acumular plazos."
       }
     ],
     "correctOptionId": "B",

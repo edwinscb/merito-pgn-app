@@ -375,7 +375,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Únicamente la digitalización y el respaldo en medios magnéticos.",
+        "text": "La digitalización y el respaldo de los documentos en medios magnéticos.",
         "rationale": "Digitalizar y respaldar son actividades de soporte y no describen el proceso de gestión y trámite."
       },
       {
@@ -427,7 +427,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Conforme a las tablas de retención documental o a las tablas de valoración documental.",
+        "text": "Conforme a las tablas de retención o de valoración documental.",
         "rationale": "La disposición de documentos se realiza conforme a las tablas de retención documental o a las tablas de valoración documental."
       },
       {
@@ -541,7 +541,7 @@
       },
       {
         "id": "C",
-        "text": "Elaborar una versión pública que reserve solo la parte indispensable y entregar la información no exceptuada.",
+        "text": "Elaborar una versión pública que reserve la parte indispensable y entregar el resto.",
         "rationale": "La Ley 1712 de 2014 dispone que, cuando un documento contiene información pública y una parte amparada por una excepción legal, debe elaborarse una versión pública que reserve solo la parte indispensable y entregar la información no exceptuada."
       },
       {
@@ -635,12 +635,12 @@
     "options": [
       {
         "id": "A",
-        "text": "Tramitar la petición, pues la persona puede ejercer el derecho directamente sin apoderado.",
+        "text": "Tramitarla, porque la persona puede ejercer el derecho directamente, sin apoderado.",
         "rationale": "El artículo 13 de la Ley 1755 de 2015 permite ejercer directamente el derecho, de modo que la ausencia de apoderado no justifica rechazar una petición que la persona puede presentar por sí misma."
       },
       {
         "id": "B",
-        "text": "Rechazar la petición hasta que la persona designe un apoderado que la represente.",
+        "text": "Rechazar la petición hasta que la persona designe un apoderado que la represente ante la entidad.",
         "rationale": "Exigir apoderado para tramitar la petición contradice el artículo 13, que permite ejercer directamente el derecho."
       },
       {
@@ -692,7 +692,7 @@
       },
       {
         "id": "B",
-        "text": "Recibir y radicar la petición respetuosa, ya que la autoridad no puede negarse por no usar un formato propio.",
+        "text": "Recibirla y radicarla, porque no puede negarse por no usar un formato propio.",
         "rationale": "El artículo 15 establece que la autoridad no puede negarse a recibir y radicar peticiones respetuosas por no usar un formato propio; los mecanismos de estandarización no deben impedir el derecho."
       },
       {
@@ -702,8 +702,8 @@
       },
       {
         "id": "D",
-        "text": "Recibirla solo de manera informal, sin asignarle radicación.",
-        "rationale": "El artículo 15 exige recibir y radicar la petición respetuosa; recibirla sin radicación no cumple ese deber."
+        "text": "Recibirla de manera informal y radicarla cuando se pase al formato interno.",
+        "rationale": "El artículo 15 exige recibir y radicar la petición respetuosa sin condicionarla al formato."
       }
     ],
     "correctOptionId": "B",
