@@ -11,23 +11,23 @@
     "options": [
       {
         "id": "A",
-        "text": "El Procurador General de la Nación, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás funcionarios que determine la ley.",
+        "text": "El Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás que determine la ley.",
         "rationale": "El Ministerio Público es ejercido por el Procurador General de la Nación, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás funcionarios que determine la ley. La enumeración queda abierta a lo que la ley disponga."
       },
       {
         "id": "B",
-        "text": "Únicamente el Procurador General de la Nación y sus procuradores delegados.",
-        "rationale": "La enumeración constitucional es más amplia e incluye al Defensor del Pueblo y a los personeros municipales, entre otros."
+        "text": "El Procurador General, el Contralor General, los procuradores delegados y agentes, los personeros municipales y los demás que determine la ley.",
+        "rationale": "Incluye al Contralor, cuyo control fiscal es una función distinta, y omite al Defensor del Pueblo."
       },
       {
         "id": "C",
-        "text": "El Procurador General de la Nación y el Contralor General de la República.",
-        "rationale": "El control fiscal que ejerce la Contraloría es una función distinta y ese órgano no integra el Ministerio Público."
+        "text": "El Procurador General, el Defensor del Pueblo, el Fiscal General, los procuradores delegados y agentes, y los demás que determine la ley.",
+        "rationale": "La Fiscalía no integra el Ministerio Público; además, la lista omite a los personeros municipales."
       },
       {
         "id": "D",
-        "text": "Los jueces de la República y los fiscales delegados.",
-        "rationale": "Jueces y fiscales pertenecen a la Rama Judicial y a la Fiscalía; no ejercen el Ministerio Público."
+        "text": "El Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes y los personeros municipales, sin que la ley pueda añadir otros.",
+        "rationale": "La enumeración constitucional queda abierta a los demás funcionarios que determine la ley."
       }
     ],
     "correctOptionId": "A",
@@ -115,13 +115,13 @@
     "options": [
       {
         "id": "A",
-        "text": "Funciones de control fiscal, de auditoría financiera y de vigilancia contractual.",
-        "rationale": "El control fiscal y la auditoría financiera corresponden a la Contraloría, no a la Procuraduría."
+        "text": "Preventivas y de control de gestión, disciplinarias, de control fiscal y de auditoría financiera sobre los recursos públicos, y de intervención ante autoridades administrativas y judiciales.",
+        "rationale": "El control fiscal y la auditoría financiera corresponden a la Contraloría; el artículo incluye en su lugar las funciones de protección y defensa de los derechos humanos."
       },
       {
         "id": "B",
-        "text": "Funciones jurisdiccionales penales y de acusación ante los jueces.",
-        "rationale": "La acusación penal corresponde a la Fiscalía General de la Nación."
+        "text": "Preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos, y de acusación penal ante los jueces de la República.",
+        "rationale": "La acusación penal corresponde a la Fiscalía; el cuarto grupo es la intervención ante autoridades administrativas y judiciales."
       },
       {
         "id": "C",
@@ -130,8 +130,8 @@
       },
       {
         "id": "D",
-        "text": "Únicamente funciones disciplinarias y de intervención judicial.",
-        "rationale": "La enumeración es más amplia: deja fuera las preventivas y de control de gestión y las de derechos humanos."
+        "text": "Disciplinarias, de protección y defensa de los derechos humanos y de intervención ante autoridades administrativas y judiciales, sin funciones preventivas.",
+        "rationale": "Deja fuera las funciones preventivas y de control de gestión, que el artículo sí incluye."
       }
     ],
     "correctOptionId": "C",
@@ -224,8 +224,8 @@
       },
       {
         "id": "B",
-        "text": "La vigilancia del cumplimiento de la ley por parte de las entidades.",
-        "rationale": "Vigilar el cumplimiento es propio de la función preventiva, no una exclusión."
+        "text": "La vigilancia del cumplimiento de la ley y el seguimiento a las entidades obligadas.",
+        "rationale": "Vigilar y hacer seguimiento son propios de la función preventiva, no exclusiones."
       },
       {
         "id": "C",
@@ -271,18 +271,18 @@
     "options": [
       {
         "id": "A",
-        "text": "Que la enumeración es taxativa y no admite ninguna incorporación posterior.",
-        "rationale": "La expresión produce el efecto contrario: deja expresamente abierta la incorporación por vía legal."
+        "text": "Que la enumeración es cerrada y la ley se limita a reglamentar las funciones de los ya nombrados.",
+        "rationale": "La expresión produce el efecto contrario: deja abierta la incorporación de otros funcionarios por vía legal."
       },
       {
         "id": "B",
-        "text": "Que la ley puede atribuir el ejercicio del Ministerio Público a funcionarios adicionales a los nombrados en el texto.",
+        "text": "Que la ley puede atribuir el ejercicio del Ministerio Público a otros funcionarios.",
         "rationale": "Además del Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes y los personeros municipales, el Ministerio Público es ejercido por los demás funcionarios que determine la ley."
       },
       {
         "id": "C",
-        "text": "Que cualquier servidor público ejerce el Ministerio Público por el solo hecho de su vinculación.",
-        "rationale": "Se requiere que la ley lo determine; la condición de servidor público no basta."
+        "text": "Que todo servidor que vigile la función pública ejerce el Ministerio Público sin necesidad de ley.",
+        "rationale": "Se requiere que la ley lo determine; vigilar la función pública no basta."
       },
       {
         "id": "D",
@@ -323,12 +323,12 @@
     "options": [
       {
         "id": "A",
-        "text": "A las funciones disciplinarias.",
-        "rationale": "Las disciplinarias se dirigen a investigar y sancionar la conducta de servidores públicos, no a intervenir en un proceso ajeno."
+        "text": "A las funciones disciplinarias, porque protege el patrimonio público frente a servidores.",
+        "rationale": "Las disciplinarias investigan y sancionan la conducta de servidores públicos; no consisten en intervenir en un proceso ante un juez."
       },
       {
         "id": "B",
-        "text": "A las funciones preventivas y de control de gestión.",
+        "text": "A las funciones preventivas y de control de gestión sobre el patrimonio público.",
         "rationale": "Las preventivas se ejercen vigilando y advirtiendo a las entidades, no compareciendo ante un juez dentro de un proceso."
       },
       {
