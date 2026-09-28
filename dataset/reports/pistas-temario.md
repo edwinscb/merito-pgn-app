@@ -6,7 +6,7 @@ Qué se mide:
 - **Más larga:** la opción correcta es igual o más larga que todos los distractores. Al azar pasaría en ~25 % de las preguntas.
 - **Absoluta:** algún distractor usa una palabra absoluta (siempre, nunca, solo, todos, automático…) y la correcta no.
 
-Criterio de cierre de cada lote: la correcta es la más larga en 30 % o menos de sus preguntas, y las palabras absolutas quedan repartidas entre correctas y distractores.
+Criterio de cierre de cada lote: la correcta es la más larga en 30 % o menos de sus preguntas, y la pista absoluta queda también en 30 % o menos.
 
 ## Resumen
 
@@ -17,17 +17,17 @@ Criterio de cierre de cada lote: la correcta es la más larga en 30 % o menos de
 
 ## Lotes, del tema de más peso al de menos
 
-| Lote | Tema | Peso | Preguntas | Más larga | Absoluta | Afectadas |
-| ---: | --- | ---: | ---: | ---: | ---: | ---: |
-| 1 | Software e interoperabilidad | 0.2024 | 35 | 18 (51 %) | 15 | 20 |
-| 2 | Infraestructura, nube y ciberseguridad | 0.1965 | 34 | 19 (56 %) | 20 | 27 |
-| 3 | Gestión pública y MIPG | 0.1618 | 28 | 11 (39 %) | 9 | 17 |
-| 4 | Ofimática y sistemas de gestión | 0.0867 | 15 | 11 (73 %) | 4 | 12 |
-| 5 | Procuraduría y Estado | 0.0867 | 15 | 9 (60 %) | 6 | 11 |
-| 6 | Atención, transparencia y datos | 0.0809 | 14 | 11 (79 %) | 6 | 12 |
-| 7 | Gestión documental | 0.0694 | 12 | 6 (50 %) | 7 | 9 |
-| 8 | Sistemas operativos | 0.0578 | 10 | 8 (80 %) | 4 | 10 |
-| 9 | Soporte y mantenimiento de software y hardware | 0.0578 | 10 | 9 (90 %) | 4 | 10 |
+| Lote | Tema | Peso | Preguntas | Más larga | Absoluta | Afectadas | Cumple |
+| ---: | --- | ---: | ---: | ---: | ---: | ---: | :---: |
+| 1 | Software e interoperabilidad | 0.2024 | 35 | 18 (51 %) | 15 (43 %) | 20 | no |
+| 2 | Infraestructura, nube y ciberseguridad | 0.1965 | 34 | 19 (56 %) | 20 (59 %) | 27 | no |
+| 3 | Gestión pública y MIPG | 0.1618 | 28 | 11 (39 %) | 9 (32 %) | 17 | no |
+| 4 | Ofimática y sistemas de gestión | 0.0867 | 15 | 11 (73 %) | 4 (27 %) | 12 | no |
+| 5 | Procuraduría y Estado | 0.0867 | 15 | 9 (60 %) | 6 (40 %) | 11 | no |
+| 6 | Atención, transparencia y datos | 0.0809 | 14 | 11 (79 %) | 6 (43 %) | 12 | no |
+| 7 | Gestión documental | 0.0694 | 12 | 6 (50 %) | 7 (58 %) | 9 | no |
+| 8 | Sistemas operativos | 0.0578 | 10 | 8 (80 %) | 4 (40 %) | 10 | no |
+| 9 | Soporte y mantenimiento de software y hardware | 0.0578 | 10 | 9 (90 %) | 4 (40 %) | 10 | no |
 
 ## Preguntas por lote
 

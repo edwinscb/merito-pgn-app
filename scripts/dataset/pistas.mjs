@@ -6,8 +6,9 @@ import { resolve } from 'node:path'
 
 const root = resolve(import.meta.dirname, '../..')
 const PROFILE = '126-2026'
-// Umbral de cierre de cada lote: al azar la correcta sería la más larga ~25 %.
-const MAX_LONGEST = 0.3
+// Umbral de cierre de cada lote, para ambas pistas: al azar la correcta sería la
+// más larga ~25 %. Exigir 0 % en la absoluta forzaría a reescribir usos legítimos.
+const MAX_CLUE = 0.3
 const ABSOLUTE = /(?<!\p{L})(siempre|nunca|jam[aá]s|s[oó]lo|[uú]nicamente|exclusivamente|todos|todas|ninguno|ninguna|autom[aá]tic[oa]s?|autom[aá]ticamente|universal(es)?)(?!\p{L})/iu
 
 const bank = JSON.parse(await readFile(resolve(root, 'public/data/study-bank.json'), 'utf8'))
@@ -33,6 +34,7 @@ const rows = weights.map(({ topicId, weight }) => {
   return { topicId, weight, total: questions.length, longest, absolute, affected }
 })
 
+const meets = (r) => r.longest <= r.total * MAX_CLUE && r.absolute <= r.total * MAX_CLUE
 const pct = (n, d) => (d ? `${Math.round((n / d) * 100)} %` : '—')
 const total = rows.reduce((s, r) => s + r.total, 0)
 const sum = (k) => rows.reduce((s, r) => s + (Array.isArray(r[k]) ? r[k].length : r[k]), 0)
@@ -46,7 +48,7 @@ const lines = [
   '- **Más larga:** la opción correcta es igual o más larga que todos los distractores. Al azar pasaría en ~25 % de las preguntas.',
   '- **Absoluta:** algún distractor usa una palabra absoluta (siempre, nunca, solo, todos, automático…) y la correcta no.',
   '',
-  `Criterio de cierre de cada lote: la correcta es la más larga en ${Math.round(MAX_LONGEST * 100)} % o menos de sus preguntas, y las palabras absolutas quedan repartidas entre correctas y distractores.`,
+  `Criterio de cierre de cada lote: la correcta es la más larga en ${Math.round(MAX_CLUE * 100)} % o menos de sus preguntas, y la pista absoluta queda también en ${Math.round(MAX_CLUE * 100)} % o menos.`,
   '',
   '## Resumen',
   '',
@@ -57,9 +59,9 @@ const lines = [
   '',
   '## Lotes, del tema de más peso al de menos',
   '',
-  '| Lote | Tema | Peso | Preguntas | Más larga | Absoluta | Afectadas |',
-  '| ---: | --- | ---: | ---: | ---: | ---: | ---: |',
-  ...rows.map((r, i) => `| ${i + 1} | ${label(r.topicId)} | ${r.weight.toFixed(4)} | ${r.total} | ${r.longest} (${pct(r.longest, r.total)}) | ${r.absolute} | ${r.affected.length} |`),
+  '| Lote | Tema | Peso | Preguntas | Más larga | Absoluta | Afectadas | Cumple |',
+  '| ---: | --- | ---: | ---: | ---: | ---: | ---: | :---: |',
+  ...rows.map((r, i) => `| ${i + 1} | ${label(r.topicId)} | ${r.weight.toFixed(4)} | ${r.total} | ${r.longest} (${pct(r.longest, r.total)}) | ${r.absolute} (${pct(r.absolute, r.total)}) | ${r.affected.length} | ${meets(r) ? 'sí' : 'no'} |`),
   '',
   '## Preguntas por lote',
   '',
