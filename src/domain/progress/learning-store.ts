@@ -8,6 +8,9 @@ import { AttemptSchema } from '../dataset/contracts.js'
 let memory = emptyProgress()
 let queue = Promise.resolve(true)
 let persistent = true
+// Si la última carga falló no sabemos qué hay guardado: escribir encima podría
+// borrar un historial que solo no se pudo leer (esquema nuevo, otra pestaña).
+let readFailed = false
 export const isPersistent = () => persistent
 function openDatabase(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
@@ -65,9 +68,11 @@ export async function loadLearning(): Promise<LearningProgress> {
     })
     memory = result
     persistent = true
+    readFailed = false
     return result
   } catch {
     persistent = false
+    readFailed = true
     return memory
   } finally {
     db?.close()
@@ -78,6 +83,10 @@ export function saveLearning(progress: LearningProgress): Promise<boolean> {
   memory = snapshot
   // Serializar escrituras evita que respuestas rápidas restauren un snapshot antiguo.
   queue = queue.then(async () => {
+    if (readFailed) {
+      persistent = false
+      return false
+    }
     let db: IDBDatabase | undefined
     try {
       db = await openDatabase()
