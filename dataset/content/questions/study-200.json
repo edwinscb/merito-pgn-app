@@ -4300,18 +4300,18 @@
       },
       {
         "id": "B",
-        "text": "SaaS.",
+        "text": "Software como servicio (SaaS).",
         "rationale": "SaaS ofrece aplicaciones del proveedor, no ese control del sistema operativo."
       },
       {
         "id": "C",
-        "text": "PaaS exclusivamente.",
+        "text": "Plataforma como servicio (PaaS).",
         "rationale": "PaaS no atribuye al consumidor la administración del sistema operativo subyacente."
       },
       {
         "id": "D",
-        "text": "Ausencia de todo servicio informático.",
-        "rationale": "Sí se están proporcionando capacidades de infraestructura."
+        "text": "Nube privada, porque la entidad administra el sistema operativo.",
+        "rationale": "Nube privada es un modelo de despliegue, no de servicio; administrar el sistema operativo corresponde a IaaS."
       }
     ],
     "correctOptionId": "A",
@@ -4550,8 +4550,8 @@
     "options": [
       {
         "id": "A",
-        "text": "Compartir públicamente todas las bases de datos.",
-        "rationale": "El recurso compartido no implica acceso cruzado a datos."
+        "text": "Elasticidad rápida.",
+        "rationale": "La elasticidad describe ampliar o reducir capacidad; la asignación desde un fondo común a varios consumidores es la agrupación."
       },
       {
         "id": "B",
@@ -4560,13 +4560,13 @@
       },
       {
         "id": "C",
-        "text": "Asignación inmutable de cada equipo a un único usuario.",
-        "rationale": "No describe la reasignación dinámica planteada."
+        "text": "Autoservicio bajo demanda.",
+        "rationale": "Describe que el consumidor obtiene capacidades sin intervención del proveedor, no el fondo compartido."
       },
       {
         "id": "D",
-        "text": "Ausencia de aislamiento lógico.",
-        "rationale": "La agrupación no exige eliminar aislamiento."
+        "text": "Servicio medido.",
+        "rationale": "Describe la medición del uso, no la asignación entre varios consumidores."
       }
     ],
     "correctOptionId": "B",
@@ -4703,23 +4703,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Mantener copias aisladas o fuera de línea y protegidas frente a modificación.",
+        "text": "Mantener copias fuera de línea o aisladas y protegidas contra cambios.",
         "rationale": "CISA recomienda copias fuera de línea y protegidas. Si producción y todos los respaldos son modificables con el mismo acceso comprometido, un incidente puede alcanzar ambos."
       },
       {
         "id": "B",
-        "text": "Guardar la única copia en una carpeta de producción con igual acceso.",
+        "text": "Guardar una copia diaria en una carpeta de producción con el mismo acceso.",
         "rationale": "Comparte la exposición del sistema original."
       },
       {
         "id": "C",
-        "text": "Conservar solo un acceso directo al archivo.",
-        "rationale": "Un acceso directo no es una copia de respaldo."
+        "text": "Replicar los datos en tiempo real a un segundo servidor conectado a la red.",
+        "rationale": "La réplica en línea copia también los archivos cifrados por el ransomware."
       },
       {
         "id": "D",
-        "text": "Desactivar todo respaldo para evitar duplicados.",
-        "rationale": "Elimina una capacidad esencial de recuperación."
+        "text": "Cifrar las copias de respaldo con la misma clave que usa producción.",
+        "rationale": "Cifrar no impide que un atacante con el mismo acceso las cifre de nuevo o las borre."
       }
     ],
     "correctOptionId": "A",
@@ -4754,23 +4754,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Confiar solo en el color verde del panel.",
+        "text": "Confirmar que el panel de respaldos muestre en verde cada tarea programada.",
         "rationale": "El indicador no reemplaza la prueba de recuperación."
       },
       {
         "id": "B",
-        "text": "Ensayar restauraciones y verificar disponibilidad e integridad de los datos recuperados.",
+        "text": "Ensayar restauraciones y verificar la integridad de los datos recuperados.",
         "rationale": "Un mensaje de tarea completada no prueba que la recuperación funcione. Las pruebas de restauración permiten descubrir copias incompletas, corruptas o procedimientos inviables."
       },
       {
         "id": "C",
-        "text": "Borrar el original antes de cualquier ensayo.",
-        "rationale": "No es necesario arriesgar el original para validar una copia."
+        "text": "Comparar el tamaño de las copias con el de los datos originales.",
+        "rationale": "Un tamaño similar no demuestra integridad ni recuperabilidad."
       },
       {
         "id": "D",
-        "text": "Contar carpetas sin abrir ni restaurar datos.",
-        "rationale": "El conteo no demuestra integridad ni recuperabilidad."
+        "text": "Revisar que las copias tengan fecha reciente en el almacenamiento de respaldo.",
+        "rationale": "La fecha no demuestra que los datos puedan recuperarse."
       }
     ],
     "correctOptionId": "B",
@@ -4805,23 +4805,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Cambiar solo el fondo de pantalla.",
-        "rationale": "No corrige la vulnerabilidad."
+        "text": "Esperar la siguiente ventana trimestral de mantenimiento para actualizar.",
+        "rationale": "Posponer ignora el riesgo de explotación activa."
       },
       {
         "id": "B",
-        "text": "Ocultar la alerta del inventario.",
-        "rationale": "Ocultar no reduce la exposición."
+        "text": "Registrar la vulnerabilidad en el inventario y monitorear sin cambiar nada.",
+        "rationale": "Monitorear no reduce la exposición de una falla explotada activamente."
       },
       {
         "id": "C",
-        "text": "Aplicar la mitigación o actualización pertinente mediante un proceso controlado.",
+        "text": "Aplicar la actualización o mitigación mediante un proceso controlado.",
         "rationale": "La guía recomienda mantener sistemas actualizados y priorizar vulnerabilidades explotadas y servicios expuestos. El control del cambio debe permitir verificar la corrección sin posponer indefinidamente el riesgo."
       },
       {
         "id": "D",
-        "text": "Esperar siempre al siguiente año sin evaluación.",
-        "rationale": "Ignora el riesgo de explotación activa."
+        "text": "Reiniciar el servicio expuesto para limpiar cualquier intrusión en memoria.",
+        "rationale": "Reiniciar no corrige la vulnerabilidad."
       }
     ],
     "correctOptionId": "C",
@@ -4856,18 +4856,18 @@
     "options": [
       {
         "id": "A",
-        "text": "Usar la misma contraseña en todos los servicios.",
-        "rationale": "Amplía el impacto de una filtración."
+        "text": "Contraseñas más largas con cambio obligatorio cada mes.",
+        "rationale": "Una contraseña robada sigue siendo suficiente para entrar."
       },
       {
         "id": "B",
-        "text": "Publicar preguntas secretas junto al usuario.",
-        "rationale": "Facilita el acceso indebido."
+        "text": "Preguntas de seguridad para recuperar la cuenta.",
+        "rationale": "Se pueden averiguar o capturar como otra contraseña."
       },
       {
         "id": "C",
-        "text": "Deshabilitar autenticación para evitar bloqueos.",
-        "rationale": "Suprime la protección de identidad."
+        "text": "Bloqueo de la cuenta tras varios intentos fallidos.",
+        "rationale": "Frena la adivinación, pero no el uso de una contraseña robada."
       },
       {
         "id": "D",
@@ -4907,18 +4907,18 @@
     "options": [
       {
         "id": "A",
-        "text": "Deshabilitar la exposición innecesaria y restringir los accesos remotos necesarios.",
+        "text": "Deshabilitar la exposición innecesaria y restringir el acceso remoto.",
         "rationale": "Reducir servicios remotos expuestos limita vías de entrada. Cuando el acceso es necesario, debe protegerse y controlarse; cambiar únicamente el nombre del equipo no protege el servicio."
       },
       {
         "id": "B",
-        "text": "Abrirlo a toda dirección para facilitar soporte.",
-        "rationale": "Aumenta la superficie de ataque."
+        "text": "Mantenerlo expuesto y cambiar el puerto por uno no estándar.",
+        "rationale": "Cambiar el puerto lo oculta, pero no reduce la exposición."
       },
       {
         "id": "C",
-        "text": "Compartir una cuenta sin trazabilidad.",
-        "rationale": "Impide atribuir accesos y aumenta exposición."
+        "text": "Mantenerlo abierto con una contraseña larga para el usuario administrador.",
+        "rationale": "La contraseña ayuda, pero el servicio innecesario sigue expuesto."
       },
       {
         "id": "D",
@@ -4958,8 +4958,8 @@
     "options": [
       {
         "id": "A",
-        "text": "Desactivar el antivirus para leer el adjunto.",
-        "rationale": "Cumple la instrucción riesgosa del mensaje."
+        "text": "Abrirlo en el equipo, porque el antivirus lo analizará al descargarlo.",
+        "rationale": "Confía en una protección que el propio mensaje pide desactivar."
       },
       {
         "id": "B",
@@ -4968,13 +4968,13 @@
       },
       {
         "id": "C",
-        "text": "Reenviarlo masivamente para que otros prueben.",
-        "rationale": "Puede ampliar la exposición."
+        "text": "Responder al remitente para confirmar si el mensaje es legítimo.",
+        "rationale": "Responder al posible atacante no verifica nada y confirma que la cuenta está activa."
       },
       {
         "id": "D",
-        "text": "Introducir credenciales en el enlace para verificarlo.",
-        "rationale": "Puede entregar las credenciales al atacante."
+        "text": "Reenviarlo a un compañero de sistemas para que lo abra él.",
+        "rationale": "Traslada el riesgo sin usar el canal de seguridad establecido."
       }
     ],
     "correctOptionId": "B",
