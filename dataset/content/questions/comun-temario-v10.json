@@ -739,7 +739,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Cambian las columnas referidas y las filas permanecen fijas.",
+        "text": "Cambian las columnas referidas, mientras que las filas se mantienen iguales.",
         "rationale": "Al copiar hacia abajo una referencia relativa cambian las filas, no las columnas; el enunciado invierte el comportamiento descrito por la documentación."
       },
       {
@@ -754,7 +754,7 @@
       },
       {
         "id": "D",
-        "text": "Se convierte automáticamente en una referencia absoluta.",
+        "text": "Se convierte en una referencia absoluta a la celda original.",
         "rationale": "Copiar una referencia relativa no la convierte en absoluta; sigue siendo relativa y ajusta las filas referidas al desplazarse."
       }
     ],
@@ -848,18 +848,18 @@
       },
       {
         "id": "B",
-        "text": "Asigna el número 10 a la celda B2.",
-        "rationale": "El operador de comparación no asigna valores: compara y devuelve un valor lógico, no coloca 10 en B2."
+        "text": "Devuelve el mayor valor entre el contenido de B2 y el número 10.",
+        "rationale": "Eso haría una función como MAX; el operador >= compara y devuelve un valor lógico."
       },
       {
         "id": "C",
-        "text": "Suma 10 al contenido de B2.",
-        "rationale": "El operador >= no realiza una suma; compara si un valor es mayor o igual y devuelve un resultado lógico."
+        "text": "Asigna el número 10 a B2 si su contenido actual es menor.",
+        "rationale": "El operador de comparación no asigna valores: compara y devuelve un valor lógico."
       },
       {
         "id": "D",
-        "text": "Convierte el contenido de B2 en el texto \"10\".",
-        "rationale": "El operador de comparación no transforma el contenido en texto; su resultado es un valor lógico de la comparación."
+        "text": "Convierte el contenido de B2 en texto y lo compara con el texto \"10\".",
+        "rationale": "El operador >= compara valores sin convertirlos en texto y devuelve un valor lógico."
       }
     ],
     "correctOptionId": "A",

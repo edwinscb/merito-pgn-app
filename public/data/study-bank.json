@@ -995,7 +995,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Cambian las columnas referidas y las filas permanecen fijas.",
+          "text": "Cambian las columnas referidas, mientras que las filas se mantienen iguales.",
           "rationale": "Al copiar hacia abajo una referencia relativa cambian las filas, no las columnas; el enunciado invierte el comportamiento descrito por la documentación."
         },
         {
@@ -1010,7 +1010,7 @@
         },
         {
           "id": "D",
-          "text": "Se convierte automáticamente en una referencia absoluta.",
+          "text": "Se convierte en una referencia absoluta a la celda original.",
           "rationale": "Copiar una referencia relativa no la convierte en absoluta; sigue siendo relativa y ajusta las filas referidas al desplazarse."
         }
       ],
@@ -1104,18 +1104,18 @@
         },
         {
           "id": "B",
-          "text": "Asigna el número 10 a la celda B2.",
-          "rationale": "El operador de comparación no asigna valores: compara y devuelve un valor lógico, no coloca 10 en B2."
+          "text": "Devuelve el mayor valor entre el contenido de B2 y el número 10.",
+          "rationale": "Eso haría una función como MAX; el operador >= compara y devuelve un valor lógico."
         },
         {
           "id": "C",
-          "text": "Suma 10 al contenido de B2.",
-          "rationale": "El operador >= no realiza una suma; compara si un valor es mayor o igual y devuelve un resultado lógico."
+          "text": "Asigna el número 10 a B2 si su contenido actual es menor.",
+          "rationale": "El operador de comparación no asigna valores: compara y devuelve un valor lógico."
         },
         {
           "id": "D",
-          "text": "Convierte el contenido de B2 en el texto \"10\".",
-          "rationale": "El operador de comparación no transforma el contenido en texto; su resultado es un valor lógico de la comparación."
+          "text": "Convierte el contenido de B2 en texto y lo compara con el texto \"10\".",
+          "rationale": "El operador >= compara valores sin convertirlos en texto y devuelve un valor lógico."
         }
       ],
       "correctOptionId": "A",
@@ -7262,8 +7262,8 @@
       "options": [
         {
           "id": "A",
-          "text": "F1",
-          "rationale": "Sin signos la referencia es relativa."
+          "text": "Hoja1!F1",
+          "rationale": "Indica la hoja, pero sin signos de dólar la referencia sigue siendo relativa."
         },
         {
           "id": "B",
@@ -7415,8 +7415,8 @@
       "options": [
         {
           "id": "A",
-          "text": "=B2+B6",
-          "rationale": "Suma solo extremos, omitiendo las celdas intermedias."
+          "text": "=SUMA(B2;B3;B6)",
+          "rationale": "Suma tres celdas sueltas y omite B4 y B5, que también son parte del intervalo."
         },
         {
           "id": "B",
@@ -7476,8 +7476,8 @@
         },
         {
           "id": "C",
-          "text": "=B2*10",
-          "rationale": "Multiplica, sin comprobar el umbral."
+          "text": "=Y(B2>10)",
+          "rationale": "Devuelve un valor lógico, pero >10 excluye el caso en que B2 vale exactamente 10."
         },
         {
           "id": "D",
@@ -7568,8 +7568,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Toda la séptima hoja.",
-          "rationale": "La referencia no indica el número de hoja."
+          "text": "La séptima celda de la hoja, contando desde A1.",
+          "rationale": "La referencia no cuenta celdas: cruza la columna D con la fila 7."
         },
         {
           "id": "B",
@@ -7578,8 +7578,8 @@
         },
         {
           "id": "C",
-          "text": "Siete columnas comenzando en D.",
-          "rationale": "Una celda no equivale a un rango de siete columnas."
+          "text": "La celda ubicada en la fila D y en la columna 7.",
+          "rationale": "Invierte los ejes: en el estilo A1 las letras son columnas y los números, filas."
         },
         {
           "id": "D",
@@ -7670,18 +7670,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Validación jurídica automática de cada trámite.",
-          "rationale": "Excel no determina legalidad por convertir un rango en tabla."
+          "text": "Validación de los datos según reglas definidas por la entidad.",
+          "rationale": "Crear una tabla no aplica reglas de validación por sí sola."
         },
         {
           "id": "B",
-          "text": "Cifrado automático de todo el archivo.",
-          "rationale": "La estructura de tabla no implica cifrado."
+          "text": "Protección del archivo con contraseña al guardarlo.",
+          "rationale": "La estructura de tabla no implica cifrado ni protección del archivo."
         },
         {
           "id": "C",
-          "text": "Eliminación automática de todos los registros repetidos.",
-          "rationale": "Crear una tabla no deduplica automáticamente los datos."
+          "text": "Eliminación de los registros repetidos en el momento de crear la tabla.",
+          "rationale": "Crear una tabla no deduplica los datos."
         },
         {
           "id": "D",
@@ -7726,18 +7726,18 @@
         },
         {
           "id": "B",
-          "text": "Se eliminan permanentemente.",
+          "text": "Se eliminan de la hoja y se pueden recuperar con Deshacer.",
           "rationale": "Confunde ocultamiento por filtro con borrado."
         },
         {
           "id": "C",
-          "text": "Se trasladan a otra base de datos.",
-          "rationale": "El filtro no migra datos."
+          "text": "Se mueven al final de la tabla, debajo de los registros visibles.",
+          "rationale": "Filtrar no reordena ni mueve registros."
         },
         {
           "id": "D",
-          "text": "Cambian automáticamente a estado pendiente.",
-          "rationale": "El criterio no modifica los valores."
+          "text": "Se marcan con otro color, pero siguen visibles dentro de la tabla filtrada.",
+          "rationale": "Eso describe un formato condicional, no un filtro."
         }
       ],
       "correctOptionId": "A",
@@ -7772,8 +7772,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Cambiar todas las fórmulas por ceros.",
-          "rationale": "Destruye resultados sin resolver la paginación."
+          "text": "Reducir el tamaño de letra de toda la hoja hasta el mínimo que permita Excel.",
+          "rationale": "Puede volverla ilegible y no permite revisar la paginación antes de imprimir."
         },
         {
           "id": "B",
@@ -7782,13 +7782,13 @@
         },
         {
           "id": "C",
-          "text": "Ocultar las extensiones de archivo.",
-          "rationale": "No afecta la distribución de impresión."
+          "text": "Imprimir una copia de prueba y revisar después las hojas impresas.",
+          "rationale": "Detecta el problema gastando papel; la pregunta pide revisarlo antes de imprimir."
         },
         {
           "id": "D",
-          "text": "Renombrar el libro.",
-          "rationale": "El nombre no corrige columnas cortadas."
+          "text": "Ajustar el ancho de las columnas en la vista normal.",
+          "rationale": "Ajusta columnas, pero la vista normal no muestra los cortes de página."
         }
       ],
       "correctOptionId": "B",
