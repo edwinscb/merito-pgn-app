@@ -375,7 +375,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Únicamente la digitalización y el respaldo en medios magnéticos.",
+        "text": "La digitalización y el respaldo de los documentos en medios magnéticos.",
         "rationale": "Digitalizar y respaldar son actividades de soporte y no describen el proceso de gestión y trámite."
       },
       {
@@ -427,7 +427,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Conforme a las tablas de retención documental o a las tablas de valoración documental.",
+        "text": "Conforme a las tablas de retención o de valoración documental.",
         "rationale": "La disposición de documentos se realiza conforme a las tablas de retención documental o a las tablas de valoración documental."
       },
       {
