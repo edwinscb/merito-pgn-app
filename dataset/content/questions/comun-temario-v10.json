@@ -895,8 +895,8 @@
     "options": [
       {
         "id": "A",
-        "text": "Legalidad, jerarquía, confidencialidad, discrecionalidad y rentabilidad.",
-        "rationale": "Estos no son los principios que el artículo 209 enuncia para la función administrativa; el texto constitucional cita igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
+        "text": "Igualdad, moralidad, eficacia, economía, legalidad, imparcialidad y transparencia.",
+        "rationale": "Mezcla principios del artículo 209 con legalidad y transparencia, que no figuran en ese listado; el texto constitucional cita igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
       },
       {
         "id": "B",
@@ -905,8 +905,8 @@
       },
       {
         "id": "C",
-        "text": "Autonomía, secreto, competitividad, oportunidad y libre configuración.",
-        "rationale": "El artículo 209 no menciona estos principios; su listado es igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
+        "text": "Eficacia, eficiencia, celeridad, publicidad, participación y responsabilidad.",
+        "rationale": "Incluye eficiencia, participación y responsabilidad, que no aparecen en el artículo 209; su listado es igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
       },
       {
         "id": "D",
@@ -957,7 +957,7 @@
       },
       {
         "id": "C",
-        "text": "Declararse impedido, porque el interés general entra en conflicto con su interés particular y directo.",
+        "text": "Declararse impedido por el conflicto con su interés particular y directo.",
         "rationale": "Cuando el interés general propio de la función pública entra en conflicto con el interés particular y directo del servidor, este deberá declararse impedido."
       },
       {
@@ -999,7 +999,7 @@
     "options": [
       {
         "id": "A",
-        "text": "En formular el plan y fijar las metas antes de ejecutar las actividades.",
+        "text": "En formular el plan, definir los indicadores y fijar las metas antes de ejecutar las actividades.",
         "rationale": "Formular el plan y las metas corresponde a la etapa de planeación, no a la etapa Verificar del ciclo."
       },
       {
@@ -1009,12 +1009,12 @@
       },
       {
         "id": "C",
-        "text": "En implementar los ajustes correctivos derivados del análisis de resultados.",
+        "text": "En implementar los ajustes correctivos que resultan del análisis de las desviaciones encontradas.",
         "rationale": "Implementar los ajustes correctivos corresponde a la etapa Actuar; la etapa Verificar es la que contrasta lo ejecutado con lo planeado para identificar desviaciones."
       },
       {
         "id": "D",
-        "text": "En contrastar lo ejecutado con lo planeado y con las metas mediante indicadores para identificar desviaciones y orientar ajustes.",
+        "text": "En contrastar lo ejecutado con lo planeado mediante indicadores para identificar desviaciones.",
         "rationale": "La etapa Verificar contrasta lo ejecutado con lo planeado y con las metas mediante indicadores; sus resultados sirven para identificar desviaciones y orientar ajustes."
       }
     ],
