@@ -267,23 +267,23 @@
       "options": [
         {
           "id": "A",
-          "text": "El Procurador General de la Nación, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás funcionarios que determine la ley.",
+          "text": "El Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás que determine la ley.",
           "rationale": "El Ministerio Público es ejercido por el Procurador General de la Nación, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás funcionarios que determine la ley. La enumeración queda abierta a lo que la ley disponga."
         },
         {
           "id": "B",
-          "text": "Únicamente el Procurador General de la Nación y sus procuradores delegados.",
-          "rationale": "La enumeración constitucional es más amplia e incluye al Defensor del Pueblo y a los personeros municipales, entre otros."
+          "text": "El Procurador General, el Contralor General, los procuradores delegados y agentes, los personeros municipales y los demás que determine la ley.",
+          "rationale": "Incluye al Contralor, cuyo control fiscal es una función distinta, y omite al Defensor del Pueblo."
         },
         {
           "id": "C",
-          "text": "El Procurador General de la Nación y el Contralor General de la República.",
-          "rationale": "El control fiscal que ejerce la Contraloría es una función distinta y ese órgano no integra el Ministerio Público."
+          "text": "El Procurador General, el Defensor del Pueblo, el Fiscal General, los procuradores delegados y agentes, y los demás que determine la ley.",
+          "rationale": "La Fiscalía no integra el Ministerio Público; además, la lista omite a los personeros municipales."
         },
         {
           "id": "D",
-          "text": "Los jueces de la República y los fiscales delegados.",
-          "rationale": "Jueces y fiscales pertenecen a la Rama Judicial y a la Fiscalía; no ejercen el Ministerio Público."
+          "text": "El Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes y los personeros municipales, sin que la ley pueda añadir otros.",
+          "rationale": "La enumeración constitucional queda abierta a los demás funcionarios que determine la ley."
         }
       ],
       "correctOptionId": "A",
@@ -371,13 +371,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Funciones de control fiscal, de auditoría financiera y de vigilancia contractual.",
-          "rationale": "El control fiscal y la auditoría financiera corresponden a la Contraloría, no a la Procuraduría."
+          "text": "Preventivas y de control de gestión, disciplinarias, de control fiscal y de auditoría financiera sobre los recursos públicos, y de intervención ante autoridades administrativas y judiciales.",
+          "rationale": "El control fiscal y la auditoría financiera corresponden a la Contraloría; el artículo incluye en su lugar las funciones de protección y defensa de los derechos humanos."
         },
         {
           "id": "B",
-          "text": "Funciones jurisdiccionales penales y de acusación ante los jueces.",
-          "rationale": "La acusación penal corresponde a la Fiscalía General de la Nación."
+          "text": "Preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos, y de acusación penal ante los jueces de la República.",
+          "rationale": "La acusación penal corresponde a la Fiscalía; el cuarto grupo es la intervención ante autoridades administrativas y judiciales."
         },
         {
           "id": "C",
@@ -386,8 +386,8 @@
         },
         {
           "id": "D",
-          "text": "Únicamente funciones disciplinarias y de intervención judicial.",
-          "rationale": "La enumeración es más amplia: deja fuera las preventivas y de control de gestión y las de derechos humanos."
+          "text": "Disciplinarias, de protección y defensa de los derechos humanos y de intervención ante autoridades administrativas y judiciales, sin funciones preventivas.",
+          "rationale": "Deja fuera las funciones preventivas y de control de gestión, que el artículo sí incluye."
         }
       ],
       "correctOptionId": "C",
@@ -480,8 +480,8 @@
         },
         {
           "id": "B",
-          "text": "La vigilancia del cumplimiento de la ley por parte de las entidades.",
-          "rationale": "Vigilar el cumplimiento es propio de la función preventiva, no una exclusión."
+          "text": "La vigilancia del cumplimiento de la ley y el seguimiento a las entidades obligadas.",
+          "rationale": "Vigilar y hacer seguimiento son propios de la función preventiva, no exclusiones."
         },
         {
           "id": "C",
@@ -527,18 +527,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Que la enumeración es taxativa y no admite ninguna incorporación posterior.",
-          "rationale": "La expresión produce el efecto contrario: deja expresamente abierta la incorporación por vía legal."
+          "text": "Que la enumeración es cerrada y la ley se limita a reglamentar las funciones de los ya nombrados.",
+          "rationale": "La expresión produce el efecto contrario: deja abierta la incorporación de otros funcionarios por vía legal."
         },
         {
           "id": "B",
-          "text": "Que la ley puede atribuir el ejercicio del Ministerio Público a funcionarios adicionales a los nombrados en el texto.",
+          "text": "Que la ley puede atribuir el ejercicio del Ministerio Público a otros funcionarios.",
           "rationale": "Además del Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes y los personeros municipales, el Ministerio Público es ejercido por los demás funcionarios que determine la ley."
         },
         {
           "id": "C",
-          "text": "Que cualquier servidor público ejerce el Ministerio Público por el solo hecho de su vinculación.",
-          "rationale": "Se requiere que la ley lo determine; la condición de servidor público no basta."
+          "text": "Que todo servidor que vigile la función pública ejerce el Ministerio Público sin necesidad de ley.",
+          "rationale": "Se requiere que la ley lo determine; vigilar la función pública no basta."
         },
         {
           "id": "D",
@@ -579,12 +579,12 @@
       "options": [
         {
           "id": "A",
-          "text": "A las funciones disciplinarias.",
-          "rationale": "Las disciplinarias se dirigen a investigar y sancionar la conducta de servidores públicos, no a intervenir en un proceso ajeno."
+          "text": "A las funciones disciplinarias, porque protege el patrimonio público frente a servidores.",
+          "rationale": "Las disciplinarias investigan y sancionan la conducta de servidores públicos; no consisten en intervenir en un proceso ante un juez."
         },
         {
           "id": "B",
-          "text": "A las funciones preventivas y de control de gestión.",
+          "text": "A las funciones preventivas y de control de gestión sobre el patrimonio público.",
           "rationale": "Las preventivas se ejercen vigilando y advirtiendo a las entidades, no compareciendo ante un juez dentro de un proceso."
         },
         {
@@ -631,7 +631,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Únicamente la digitalización y el respaldo en medios magnéticos.",
+          "text": "La digitalización y el respaldo de los documentos en medios magnéticos.",
           "rationale": "Digitalizar y respaldar son actividades de soporte y no describen el proceso de gestión y trámite."
         },
         {
@@ -683,7 +683,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Conforme a las tablas de retención documental o a las tablas de valoración documental.",
+          "text": "Conforme a las tablas de retención o de valoración documental.",
           "rationale": "La disposición de documentos se realiza conforme a las tablas de retención documental o a las tablas de valoración documental."
         },
         {
@@ -797,7 +797,7 @@
         },
         {
           "id": "C",
-          "text": "Elaborar una versión pública que reserve solo la parte indispensable y entregar la información no exceptuada.",
+          "text": "Elaborar una versión pública que reserve la parte indispensable y entregar el resto.",
           "rationale": "La Ley 1712 de 2014 dispone que, cuando un documento contiene información pública y una parte amparada por una excepción legal, debe elaborarse una versión pública que reserve solo la parte indispensable y entregar la información no exceptuada."
         },
         {
@@ -891,12 +891,12 @@
       "options": [
         {
           "id": "A",
-          "text": "Tramitar la petición, pues la persona puede ejercer el derecho directamente sin apoderado.",
+          "text": "Tramitarla, porque la persona puede ejercer el derecho directamente, sin apoderado.",
           "rationale": "El artículo 13 de la Ley 1755 de 2015 permite ejercer directamente el derecho, de modo que la ausencia de apoderado no justifica rechazar una petición que la persona puede presentar por sí misma."
         },
         {
           "id": "B",
-          "text": "Rechazar la petición hasta que la persona designe un apoderado que la represente.",
+          "text": "Rechazar la petición hasta que la persona designe un apoderado que la represente ante la entidad.",
           "rationale": "Exigir apoderado para tramitar la petición contradice el artículo 13, que permite ejercer directamente el derecho."
         },
         {
@@ -948,7 +948,7 @@
         },
         {
           "id": "B",
-          "text": "Recibir y radicar la petición respetuosa, ya que la autoridad no puede negarse por no usar un formato propio.",
+          "text": "Recibirla y radicarla, porque no puede negarse por no usar un formato propio.",
           "rationale": "El artículo 15 establece que la autoridad no puede negarse a recibir y radicar peticiones respetuosas por no usar un formato propio; los mecanismos de estandarización no deben impedir el derecho."
         },
         {
@@ -958,8 +958,8 @@
         },
         {
           "id": "D",
-          "text": "Recibirla solo de manera informal, sin asignarle radicación.",
-          "rationale": "El artículo 15 exige recibir y radicar la petición respetuosa; recibirla sin radicación no cumple ese deber."
+          "text": "Recibirla de manera informal y radicarla cuando se pase al formato interno.",
+          "rationale": "El artículo 15 exige recibir y radicar la petición respetuosa sin condicionarla al formato."
         }
       ],
       "correctOptionId": "B",
@@ -995,7 +995,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Cambian las columnas referidas y las filas permanecen fijas.",
+          "text": "Cambian las columnas referidas, mientras que las filas se mantienen iguales.",
           "rationale": "Al copiar hacia abajo una referencia relativa cambian las filas, no las columnas; el enunciado invierte el comportamiento descrito por la documentación."
         },
         {
@@ -1010,7 +1010,7 @@
         },
         {
           "id": "D",
-          "text": "Se convierte automáticamente en una referencia absoluta.",
+          "text": "Se convierte en una referencia absoluta a la celda original.",
           "rationale": "Copiar una referencia relativa no la convierte en absoluta; sigue siendo relativa y ajusta las filas referidas al desplazarse."
         }
       ],
@@ -1104,18 +1104,18 @@
         },
         {
           "id": "B",
-          "text": "Asigna el número 10 a la celda B2.",
-          "rationale": "El operador de comparación no asigna valores: compara y devuelve un valor lógico, no coloca 10 en B2."
+          "text": "Devuelve el mayor valor entre el contenido de B2 y el número 10.",
+          "rationale": "Eso haría una función como MAX; el operador >= compara y devuelve un valor lógico."
         },
         {
           "id": "C",
-          "text": "Suma 10 al contenido de B2.",
-          "rationale": "El operador >= no realiza una suma; compara si un valor es mayor o igual y devuelve un resultado lógico."
+          "text": "Asigna el número 10 a B2 si su contenido actual es menor.",
+          "rationale": "El operador de comparación no asigna valores: compara y devuelve un valor lógico."
         },
         {
           "id": "D",
-          "text": "Convierte el contenido de B2 en el texto \"10\".",
-          "rationale": "El operador de comparación no transforma el contenido en texto; su resultado es un valor lógico de la comparación."
+          "text": "Convierte el contenido de B2 en texto y lo compara con el texto \"10\".",
+          "rationale": "El operador >= compara valores sin convertirlos en texto y devuelve un valor lógico."
         }
       ],
       "correctOptionId": "A",
@@ -1151,8 +1151,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Legalidad, jerarquía, confidencialidad, discrecionalidad y rentabilidad.",
-          "rationale": "Estos no son los principios que el artículo 209 enuncia para la función administrativa; el texto constitucional cita igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
+          "text": "Igualdad, moralidad, eficacia, economía, legalidad, imparcialidad y transparencia.",
+          "rationale": "Mezcla principios del artículo 209 con legalidad y transparencia, que no figuran en ese listado; el texto constitucional cita igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
         },
         {
           "id": "B",
@@ -1161,8 +1161,8 @@
         },
         {
           "id": "C",
-          "text": "Autonomía, secreto, competitividad, oportunidad y libre configuración.",
-          "rationale": "El artículo 209 no menciona estos principios; su listado es igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
+          "text": "Eficacia, eficiencia, celeridad, publicidad, participación y responsabilidad.",
+          "rationale": "Incluye eficiencia, participación y responsabilidad, que no aparecen en el artículo 209; su listado es igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
         },
         {
           "id": "D",
@@ -1213,7 +1213,7 @@
         },
         {
           "id": "C",
-          "text": "Declararse impedido, porque el interés general entra en conflicto con su interés particular y directo.",
+          "text": "Declararse impedido por el conflicto con su interés particular y directo.",
           "rationale": "Cuando el interés general propio de la función pública entra en conflicto con el interés particular y directo del servidor, este deberá declararse impedido."
         },
         {
@@ -1255,7 +1255,7 @@
       "options": [
         {
           "id": "A",
-          "text": "En formular el plan y fijar las metas antes de ejecutar las actividades.",
+          "text": "En formular el plan, definir los indicadores y fijar las metas antes de ejecutar las actividades.",
           "rationale": "Formular el plan y las metas corresponde a la etapa de planeación, no a la etapa Verificar del ciclo."
         },
         {
@@ -1265,12 +1265,12 @@
         },
         {
           "id": "C",
-          "text": "En implementar los ajustes correctivos derivados del análisis de resultados.",
+          "text": "En implementar los ajustes correctivos que resultan del análisis de las desviaciones encontradas.",
           "rationale": "Implementar los ajustes correctivos corresponde a la etapa Actuar; la etapa Verificar es la que contrasta lo ejecutado con lo planeado para identificar desviaciones."
         },
         {
           "id": "D",
-          "text": "En contrastar lo ejecutado con lo planeado y con las metas mediante indicadores para identificar desviaciones y orientar ajustes.",
+          "text": "En contrastar lo ejecutado con lo planeado mediante indicadores para identificar desviaciones.",
           "rationale": "La etapa Verificar contrasta lo ejecutado con lo planeado y con las metas mediante indicadores; sus resultados sirven para identificar desviaciones y orientar ajustes."
         }
       ],
@@ -1307,12 +1307,12 @@
       "options": [
         {
           "id": "A",
-          "text": "Compartir la decisión mediante una firma conjunta obligatoria.",
-          "rationale": "La firma conjunta convierte la vigilancia en participación decisoria."
+          "text": "Acompañar la evaluación de las propuestas y firmar el acta de selección con la alcaldía.",
+          "rationale": "Firmar la selección convierte la vigilancia en participación decisoria."
         },
         {
           "id": "B",
-          "text": "Aprobar previamente el puntaje de cada proponente.",
+          "text": "Revisar y aprobar previamente el puntaje asignado a cada proponente.",
           "rationale": "Fijar puntajes como requisito de aprobación participa en la selección."
         },
         {
@@ -1357,7 +1357,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Clasificarla como orden del ordenador del gasto.",
+          "text": "Clasificarla como una orden dirigida al ordenador del gasto de la entidad vigilada.",
           "rationale": "La vigilancia preventiva no atribuye la ordenación del gasto."
         },
         {
@@ -1367,8 +1367,8 @@
         },
         {
           "id": "C",
-          "text": "Conservar el término porque toda advertencia impone una sanción.",
-          "rationale": "Advertir no equivale a sancionar."
+          "text": "Mantener el término, porque la advertencia tiene efectos obligatorios para la entidad.",
+          "rationale": "Advertir no equivale a sancionar ni impone obligaciones como lo haría una sanción."
         },
         {
           "id": "D",
@@ -1433,7 +1433,7 @@
         },
         {
           "id": "B",
-          "text": "Mantenerlo porque todos sus integrantes ejercen indistintamente la dirección suprema.",
+          "text": "Mantenerlo, porque los integrantes del Ministerio Público comparten la dirección suprema.",
           "rationale": "integrar el Ministerio Público no equivale a ostentar su dirección suprema."
         },
         {
@@ -1443,7 +1443,7 @@
         },
         {
           "id": "D",
-          "text": "Sustituirlo por el Contralor General.",
+          "text": "Sustituirlo por el Contralor General, como máxima autoridad de control.",
           "rationale": "confunde la dirección del Ministerio Público con otra autoridad de control."
         }
       ],
@@ -1478,18 +1478,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Solo pueden ejercerlo autoridades de alcance nacional.",
+          "text": "Lo ejercen las autoridades de alcance nacional y departamental.",
           "rationale": "el artículo incluye autoridades del nivel municipal."
         },
         {
           "id": "B",
-          "text": "Su inclusión depende únicamente del tamaño del municipio.",
+          "text": "Su inclusión depende del tamaño y la categoría del municipio.",
           "rationale": "esa condición no aparece en la enumeración."
         },
         {
           "id": "C",
-          "text": "La lista menciona únicamente al Procurador General y al Defensor del Pueblo.",
-          "rationale": "omite procuradores delegados, agentes y personeros, entre otros."
+          "text": "La lista menciona al Procurador General, al Defensor del Pueblo y a los procuradores delegados.",
+          "rationale": "Omite a los agentes y a los personeros municipales, entre otros."
         },
         {
           "id": "D",
@@ -1528,13 +1528,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Confunde la actividad de advertir riesgos con los resultados de otra función misional.",
+          "text": "Confunde advertir riesgos con los resultados de otra función misional.",
           "rationale": "La distinción prevención-disciplina impide equiparar sus productos sin justificación."
         },
         {
           "id": "B",
-          "text": "Toda actividad preventiva debe terminar necesariamente en sanción.",
-          "rationale": "La prevención no exige un resultado sancionatorio."
+          "text": "Las sanciones son un buen indicador, pero deben sumarse las multas cobradas.",
+          "rationale": "Sigue midiendo la prevención con productos de otra función."
         },
         {
           "id": "C",
@@ -1543,8 +1543,8 @@
         },
         {
           "id": "D",
-          "text": "La PGN carece de cualquier función disciplinaria.",
-          "rationale": "La objeción no consiste en negar la función disciplinaria existente."
+          "text": "La PGN no impone sanciones, porque esa función corresponde a los jueces.",
+          "rationale": "La PGN sí tiene función disciplinaria; la objeción no consiste en negarla."
         }
       ],
       "correctOptionId": "A",
@@ -1809,13 +1809,13 @@
         },
         {
           "id": "C",
-          "text": "Economía significa exclusivamente aumentar ganancias privadas.",
-          "rationale": "Economía administrativa no equivale a ese objetivo privado."
+          "text": "Economía obliga a obtener el mayor rendimiento financiero en cada actuación.",
+          "rationale": "Economía administrativa busca el uso adecuado de los recursos, no un rendimiento financiero privado."
         },
         {
           "id": "D",
-          "text": "El artículo contiene solo principios financieros.",
-          "rationale": "Igualdad, imparcialidad y otros principios muestran un alcance más amplio."
+          "text": "El criterio es válido porque la eficacia exige resultados económicos positivos.",
+          "rationale": "Eficacia se refiere al logro de los fines públicos, no a ganancias privadas."
         }
       ],
       "correctOptionId": "A",
@@ -1899,7 +1899,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Una nota sin razones que solo diga «no puedo continuar».",
+          "text": "Una nota que diga «no puedo continuar», sin razones.",
           "rationale": "La mera negativa no satisface el carácter motivado."
         },
         {
@@ -1970,8 +1970,8 @@
       "options": [
         {
           "id": "A",
-          "text": "No contempla término alguno de remisión.",
-          "rationale": "El artículo sí fija un término de tres días."
+          "text": "Dentro de los cinco días siguientes a su conocimiento.",
+          "rationale": "El artículo fija tres días, no cinco."
         },
         {
           "id": "B",
@@ -1985,7 +1985,7 @@
         },
         {
           "id": "D",
-          "text": "Solo al concluir el procedimiento principal.",
+          "text": "Al concluir el procedimiento principal, antes de notificar.",
           "rationale": "El trámite debe activarse antes de continuar decidiendo el fondo."
         }
       ],
@@ -2096,8 +2096,8 @@
         },
         {
           "id": "B",
-          "text": "Terminación definitiva automática.",
-          "rationale": "Suspender no equivale a terminar definitivamente."
+          "text": "Terminación de la actuación por falta de competencia.",
+          "rationale": "El impedimento suspende la actuación; no la termina."
         },
         {
           "id": "C",
@@ -2106,8 +2106,8 @@
         },
         {
           "id": "D",
-          "text": "Traslado inmediato de la propiedad del expediente al peticionario.",
-          "rationale": "No es un efecto previsto para el impedimento."
+          "text": "Continuación del trámite a cargo de un funcionario del mismo nivel.",
+          "rationale": "El artículo 12 prevé suspender hasta decidir el impedimento, no reasignar el trámite."
         }
       ],
       "correctOptionId": "A",
@@ -2141,18 +2141,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Siempre el Procurador General, aunque exista cabeza del sector.",
+          "text": "El Procurador General, aunque exista cabeza del sector.",
           "rationale": "La competencia subsidiaria no omite ese escalón."
         },
         {
           "id": "B",
-          "text": "El primer funcionario que acepte voluntariamente.",
-          "rationale": "La voluntad de un tercero no define la competencia."
+          "text": "El funcionario de mayor antigüedad de la misma dependencia.",
+          "rationale": "La antigüedad no define la competencia para decidir el impedimento."
         },
         {
           "id": "C",
-          "text": "El ciudadano que inició el trámite.",
-          "rationale": "El ciudadano no decide el impedimento del servidor por esa condición."
+          "text": "El jefe de la oficina jurídica de la entidad.",
+          "rationale": "No es el destinatario que la norma prevé."
         },
         {
           "id": "D",
@@ -2212,13 +2212,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Una captura del icono del documento.",
-          "rationale": "La apariencia del icono no conserva el contexto documental."
+          "text": "Una copia del texto en formato PDF.",
+          "rationale": "Conserva el texto, pero no quién lo produjo ni en qué trámite."
         },
         {
           "id": "B",
-          "text": "El número de archivos del computador.",
-          "rationale": "Un conteo global no describe el documento particular."
+          "text": "La fecha de modificación que asigna el sistema.",
+          "rationale": "La fecha no identifica al productor ni el trámite."
         },
         {
           "id": "C",
@@ -2227,8 +2227,8 @@
         },
         {
           "id": "D",
-          "text": "Solo el tamaño del archivo.",
-          "rationale": "El tamaño no identifica por sí solo productor y trámite."
+          "text": "El tamaño y la extensión del archivo.",
+          "rationale": "Ni el tamaño ni la extensión identifican productor y trámite."
         }
       ],
       "correctOptionId": "C",
@@ -2317,13 +2317,13 @@
         },
         {
           "id": "B",
-          "text": "Solo la fecha de compra del disco.",
-          "rationale": "La edad del equipo no establece el valor ni la retención documental."
+          "text": "La fecha de creación de cada expediente.",
+          "rationale": "La antigüedad no establece por sí misma el valor ni la retención documental."
         },
         {
           "id": "C",
-          "text": "El tamaño de cada archivo como único criterio.",
-          "rationale": "El tamaño no determina por sí mismo la disposición autorizada."
+          "text": "El volumen que ocupa cada expediente en el servidor.",
+          "rationale": "El tamaño no determina la disposición autorizada."
         },
         {
           "id": "D",
@@ -2367,8 +2367,8 @@
         },
         {
           "id": "B",
-          "text": "Cambiar el color de las carpetas.",
-          "rationale": "El cambio visual no registra las etapas del trámite."
+          "text": "La clasificación de los documentos por series.",
+          "rationale": "Ya están clasificados; clasificar no muestra dónde se detiene el trámite."
         },
         {
           "id": "C",
@@ -2377,8 +2377,8 @@
         },
         {
           "id": "D",
-          "text": "Clasificar exclusivamente por extensión del archivo.",
-          "rationale": "El formato no informa el estado del trámite."
+          "text": "La digitalización de los expedientes en trámite.",
+          "rationale": "Digitalizar no registra las etapas del trámite."
         }
       ],
       "correctOptionId": "A",
@@ -2412,8 +2412,8 @@
       "options": [
         {
           "id": "A",
-          "text": "La trazabilidad exige eliminar la clasificación archivística.",
-          "rationale": "Clasificación y seguimiento son componentes compatibles."
+          "text": "Es suficiente, si la fecha se registra al momento de crear el documento.",
+          "rationale": "Un dato aislado no acredita el recorrido real del documento."
         },
         {
           "id": "B",
@@ -2422,8 +2422,8 @@
         },
         {
           "id": "C",
-          "text": "Es suficiente, aunque el campo nunca se actualice.",
-          "rationale": "Un dato desactualizado no acredita el recorrido real."
+          "text": "Es insuficiente, porque la trazabilidad exige conservar los documentos en papel.",
+          "rationale": "La trazabilidad no depende del soporte, sino de controles y seguimiento coherentes."
         },
         {
           "id": "D",
@@ -2462,8 +2462,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Conservar solo la última página de cada documento.",
-          "rationale": "Reducir contenido no resuelve la pérdida de contexto."
+          "text": "Conservar la última versión de cada documento del expediente.",
+          "rationale": "Conservar versiones no resuelve la pérdida de contexto."
         },
         {
           "id": "B",
@@ -2472,12 +2472,12 @@
         },
         {
           "id": "C",
-          "text": "Asignar nombres de archivo sin relación con la serie.",
+          "text": "Asignar a los archivos nombres descriptivos, aunque no se relacionen con la serie.",
           "rationale": "Cambiar nombres sin contexto no recupera la organización requerida."
         },
         {
           "id": "D",
-          "text": "Definir únicamente permisos de impresión.",
+          "text": "Definir los permisos de acceso a cada documento.",
           "rationale": "Los permisos no describen la pertenencia archivística."
         }
       ],
@@ -2588,7 +2588,7 @@
         },
         {
           "id": "B",
-          "text": "Clasificar ambas exclusivamente por el título «consulta».",
+          "text": "Clasificar ambas por el título «consulta» que trae el correo.",
           "rationale": "El título no reemplaza el examen de lo realmente solicitado."
         },
         {
@@ -2704,8 +2704,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Celeridad.",
-          "rationale": "se refiere al avance oportuno, no resuelve el sesgo personal descrito."
+          "text": "Responsabilidad.",
+          "rationale": "No figura en el listado del artículo 209 y no es el principio que aparta la preferencia personal."
         },
         {
           "id": "B",
@@ -2764,8 +2764,8 @@
         },
         {
           "id": "C",
-          "text": "Eliminar también todo contenido público relacionado.",
-          "rationale": "La relación temática no amplía automáticamente la excepción."
+          "text": "Eliminar también el contenido público que esté relacionado con la parte protegida.",
+          "rationale": "La relación temática no amplía la excepción."
         },
         {
           "id": "D",
@@ -2809,13 +2809,13 @@
         },
         {
           "id": "B",
-          "text": "Solo D2.",
-          "rationale": "omite la falta de productor en D3."
+          "text": "D3 y D4.",
+          "rationale": "D4 ya tiene ambos datos, y la opción omite a D2."
         },
         {
           "id": "C",
-          "text": "Todos.",
-          "rationale": "desconoce que D1 y D4 cumplen la regla explícita."
+          "text": "D1, D2 y D3.",
+          "rationale": "D1 ya contiene los dos datos exigidos."
         },
         {
           "id": "D",
@@ -2904,7 +2904,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Que ambas áreas usen el mismo formato de encabezado.",
+          "text": "Que ambas áreas presenten el informe con el mismo formato de encabezado.",
           "rationale": "El encabezado no impide medir ni comparar resultados."
         },
         {
@@ -2919,8 +2919,8 @@
         },
         {
           "id": "D",
-          "text": "Que el informe tenga pocas páginas.",
-          "rationale": "La extensión no determina la suficiencia de la evidencia."
+          "text": "Que el informe no incluya la firma del jefe de cada área.",
+          "rationale": "La firma no reemplaza la evidencia de ejecución."
         }
       ],
       "correctOptionId": "C",
@@ -2954,8 +2954,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Para afirmar que planear ya no es necesario.",
-          "rationale": "El contraste conserva su relación con lo planeado."
+          "text": "Para confirmar que la meta estaba mal planteada desde el inicio.",
+          "rationale": "Una desviación no prueba por sí sola que la meta fuera errónea."
         },
         {
           "id": "B",
@@ -2964,13 +2964,13 @@
         },
         {
           "id": "C",
-          "text": "Para demostrar automáticamente una causa única.",
+          "text": "Para identificar de inmediato la causa única del problema.",
           "rationale": "La desviación por sí sola no identifica su causa."
         },
         {
           "id": "D",
-          "text": "Para suprimir futuras mediciones.",
-          "rationale": "Abandonar mediciones impide comprobar la evolución."
+          "text": "Para reemplazar el indicador por otro más fácil de cumplir.",
+          "rationale": "Cambiar el indicador oculta la desviación en lugar de analizarla."
         }
       ],
       "correctOptionId": "B",
@@ -3004,13 +3004,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Se alcanzó la meta porque cualquier disminución basta.",
+          "text": "Se alcanzó la meta, porque el tiempo bajó respecto de la línea base.",
           "rationale": "nueve todavía supera el máximo objetivo de ocho."
         },
         {
           "id": "B",
-          "text": "El resultado empeoró dos días.",
-          "rationale": "la diferencia respecto de diez es una reducción de un día."
+          "text": "No hubo avance, porque todavía no se alcanza la meta de ocho días.",
+          "rationale": "Nueve sí mejora respecto de diez: avanzar y cumplir no son lo mismo."
         },
         {
           "id": "C",
@@ -3019,7 +3019,7 @@
         },
         {
           "id": "D",
-          "text": "Hubo mejora de un día frente a la base, pero falta reducir un día para la meta.",
+          "text": "Mejoró un día frente a la base, pero aún falta un día para la meta.",
           "rationale": "diferencia avance y logro final."
         }
       ],
@@ -3054,13 +3054,13 @@
       "options": [
         {
           "id": "A",
-          "text": "El nombre del despacho exclusivamente.",
-          "rationale": "La identificación institucional no resuelve el cálculo."
+          "text": "La frecuencia de actualización.",
+          "rationale": "La frecuencia no explica por qué los mismos datos dan valores distintos."
         },
         {
           "id": "B",
-          "text": "El tamaño de fuente del reporte.",
-          "rationale": "La tipografía no explica la discrepancia numérica."
+          "text": "El responsable del indicador.",
+          "rationale": "Saber quién lo reporta no define cómo calcularlo."
         },
         {
           "id": "C",
@@ -3069,8 +3069,8 @@
         },
         {
           "id": "D",
-          "text": "El color del tablero.",
-          "rationale": "El color no define cómo calcular el valor."
+          "text": "La meta del periodo.",
+          "rationale": "La meta fija el objetivo, no cómo se calcula el valor."
         }
       ],
       "correctOptionId": "C",
@@ -3159,18 +3159,18 @@
         },
         {
           "id": "B",
-          "text": "Una nueva meta más fácil.",
-          "rationale": "Cambiar la meta no identifica los registros de origen."
+          "text": "La periodicidad de medición.",
+          "rationale": "Indica cada cuánto se mide, no de dónde salen los datos."
         },
         {
           "id": "C",
-          "text": "Solo la unidad de medida.",
+          "text": "La unidad de medida.",
           "rationale": "La unidad describe la escala, no dónde obtener datos."
         },
         {
           "id": "D",
-          "text": "Una frecuencia aleatoria de actualización.",
-          "rationale": "La frecuencia no subsana la falta de origen de los datos."
+          "text": "Una línea base más reciente.",
+          "rationale": "La línea base es un punto de comparación, no el origen de los datos."
         }
       ],
       "correctOptionId": "A",
@@ -3254,18 +3254,18 @@
       "options": [
         {
           "id": "A",
-          "text": "El objetivo redactado solo como «mejorar».",
-          "rationale": "Un objetivo general no distingue horas de días."
+          "text": "La fórmula de cálculo del indicador.",
+          "rationale": "La fórmula dice cómo se calcula, no si el resultado está en horas o días."
         },
         {
           "id": "B",
-          "text": "El responsable del contrato.",
-          "rationale": "La identidad del responsable no define la escala."
+          "text": "La fuente de información.",
+          "rationale": "Indica de dónde salen los datos, no su escala."
         },
         {
           "id": "C",
-          "text": "La fecha de inauguración de la oficina.",
-          "rationale": "Esa fecha no resuelve la unidad del tiempo medido."
+          "text": "La línea base.",
+          "rationale": "La línea base es un valor de referencia, no la escala del resultado."
         },
         {
           "id": "D",
@@ -3996,13 +3996,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Solo segunda.",
-          "rationale": "también falta la clave 40 de la cuarta."
+          "text": "La segunda.",
+          "rationale": "También falta la clave 40 de la cuarta."
         },
         {
           "id": "B",
-          "text": "Ninguna, porque todos los valores son números.",
-          "rationale": "el tipo numérico no prueba existencia en el catálogo."
+          "text": "La cuarta, porque 40 supera el mayor valor del catálogo.",
+          "rationale": "25 tampoco existe: lo que importa es pertenecer al catálogo, no el rango."
         },
         {
           "id": "C",
@@ -4046,13 +4046,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Eliminar el catálogo para evitar comparaciones.",
-          "rationale": "Quitar el catálogo no demuestra validez referencial."
+          "text": "Cargar los expedientes y corregir los códigos cuando un usuario reporte el error.",
+          "rationale": "Aceptar primero deja relaciones inválidas en el destino mientras nadie las detecte."
         },
         {
           "id": "B",
-          "text": "Cambiar la extensión del archivo.",
-          "rationale": "La extensión no corrige códigos sin correspondencia."
+          "text": "Validar que cada código tenga el formato y la longitud definidos para el campo.",
+          "rationale": "El formato correcto no prueba que la dependencia exista en el catálogo."
         },
         {
           "id": "C",
@@ -4061,8 +4061,8 @@
         },
         {
           "id": "D",
-          "text": "Aceptar todos los códigos porque el archivo tiene formato JSON.",
-          "rationale": "Un formato válido no garantiza relaciones válidas."
+          "text": "Aceptar los códigos si el archivo de origen pasó su validación de esquema JSON.",
+          "rationale": "Un esquema válido no garantiza que las relaciones apunten a entidades existentes."
         }
       ],
       "correctOptionId": "C",
@@ -4096,8 +4096,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Ordenar alfabéticamente los errores después de guardarlos.",
-          "rationale": "Ordenar datos inválidos no corrige la referencia."
+          "text": "Normalizar mayúsculas y tildes del texto antes de guardarlo para reducir variantes.",
+          "rationale": "Reduce variantes, pero sigue admitiendo nombres que no existen en el catálogo."
         },
         {
           "id": "B",
@@ -4106,12 +4106,12 @@
         },
         {
           "id": "C",
-          "text": "Mantener texto libre y confiar solo en recordar los nombres.",
-          "rationale": "La memoria del usuario no impide valores inexistentes."
+          "text": "Mantener el texto libre y revisar periódicamente los nombres con un reporte.",
+          "rationale": "La revisión posterior detecta errores, pero no impide que se guarden."
         },
         {
           "id": "D",
-          "text": "Permitir cualquier cadena siempre que tenga diez caracteres.",
+          "text": "Validar que el nombre escrito no supere la longitud máxima del campo.",
           "rationale": "La longitud no prueba pertenencia al catálogo."
         }
       ],
@@ -4146,22 +4146,22 @@
       "options": [
         {
           "id": "A",
-          "text": "Toda referencia existente es necesariamente la correcta para cualquier trámite.",
-          "rationale": "Confunde existencia con exactitud de negocio."
+          "text": "La restricción referencial quedó mal definida y debe revisarse en la base.",
+          "rationale": "La restricción funcionó: la dependencia existe. El error es de elección, no de diseño relacional."
         },
         {
           "id": "B",
-          "text": "La integridad referencial comprueba automáticamente la intención del usuario.",
-          "rationale": "Ese alcance excede la restricción relacional."
+          "text": "La integridad referencial también valida que la dependencia corresponda al caso.",
+          "rationale": "Ese alcance excede la restricción relacional, que comprueba existencia."
         },
         {
           "id": "C",
-          "text": "Las tablas ya no necesitan claves.",
+          "text": "Conviene eliminar la clave foránea, porque no evitó el error del usuario.",
           "rationale": "El error de negocio no elimina la utilidad de las claves."
         },
         {
           "id": "D",
-          "text": "La existencia de la referencia no garantiza toda la corrección del dato de negocio.",
+          "text": "Una referencia válida no garantiza que el dato de negocio sea correcto.",
           "rationale": "La restricción comprueba la relación válida, no la veracidad de la elección en ese caso."
         }
       ],
@@ -4196,13 +4196,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Permitir siempre referencias rotas como resultado normal.",
-          "rationale": "Eso contradice el propósito de la integridad referencial."
+          "text": "Borrar el padre y dejar que cada aplicación detecte después los hijos huérfanos.",
+          "rationale": "Aplaza el problema: mientras tanto existen referencias rotas."
         },
         {
           "id": "B",
-          "text": "Borrar necesariamente todas las tablas de la base.",
-          "rationale": "No se deduce esa medida de la integridad referencial."
+          "text": "Prohibir el borrado de filas padre en toda la base, tengan o no hijos.",
+          "rationale": "No se deduce esa medida: la integridad admite varias políticas mientras no queden huérfanos."
         },
         {
           "id": "C",
@@ -4246,23 +4246,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Declarar éxito porque se ejecutó una sentencia.",
-          "rationale": "Una sentencia exitosa no equivale a completar la transacción."
+          "text": "Declarar éxito parcial porque el descuento sí quedó registrado en la base.",
+          "rationale": "Una parte ejecutada no equivale a completar la transacción."
         },
         {
           "id": "B",
-          "text": "No conservar solo el descuento; revertir el conjunto no completado.",
+          "text": "Revertir también el descuento, porque la unidad no se completó.",
           "rationale": "Todo-o-nada impide confirmar una mitad de la operación."
         },
         {
           "id": "C",
-          "text": "Confirmar el descuento y olvidar la acreditación.",
-          "rationale": "Conserva una ejecución parcial de la unidad transaccional."
+          "text": "Confirmar el descuento y reintentar la acreditación más tarde en otra transacción.",
+          "rationale": "Deja confirmada una mitad de la unidad transaccional."
         },
         {
           "id": "D",
-          "text": "Duplicar el descuento para compensar el fallo.",
-          "rationale": "No completa ni revierte correctamente el conjunto."
+          "text": "Registrar el fallo en la bitácora y conservar el estado que quedó.",
+          "rationale": "Conservar el estado parcial contradice el todo o nada."
         }
       ],
       "correctOptionId": "B",
@@ -4351,13 +4351,13 @@
         },
         {
           "id": "B",
-          "text": "Cambiar el separador de columnas del archivo.",
-          "rationale": "El formato no agrupa las operaciones transaccionalmente."
+          "text": "Validar las diez filas antes de empezar y luego confirmar cada una por separado.",
+          "rationale": "La validación previa ayuda, pero un fallo durante la carga seguiría dejando filas confirmadas."
         },
         {
           "id": "C",
-          "text": "Ocultar las filas fallidas del reporte.",
-          "rationale": "Ocultar fallos no revierte las confirmaciones parciales."
+          "text": "Confirmar cada fila y, si alguna falla, avisar para que se corrija a mano.",
+          "rationale": "Deja confirmaciones parciales: el conjunto no se acepta ni se rechaza junto."
         },
         {
           "id": "D",
@@ -4501,18 +4501,18 @@
         },
         {
           "id": "B",
-          "text": "Sí; atomicidad une automáticamente todas las operaciones de una aplicación.",
-          "rationale": "Atribuye a la propiedad un alcance global no definido."
+          "text": "Sí; si ambas pertenecen al mismo proceso de negocio, la base las revierte juntas.",
+          "rationale": "La base no conoce el proceso de negocio: agrupa lo que está dentro de una misma transacción."
         },
         {
           "id": "C",
-          "text": "Sí; toda transacción posterior puede deshacer cualquiera anterior.",
-          "rationale": "No es una consecuencia del todo-o-nada individual."
+          "text": "Sí; la transacción que falla deshace también las confirmadas antes por la misma aplicación.",
+          "rationale": "Una transacción confirmada no se deshace por el fallo de otra independiente."
         },
         {
           "id": "D",
-          "text": "No puede existir más de una transacción en una base.",
-          "rationale": "La atomicidad no limita la base a una única transacción."
+          "text": "No, salvo que la segunda transacción termine en menos tiempo que la primera.",
+          "rationale": "La duración no cambia las fronteras transaccionales."
         }
       ],
       "correctOptionId": "A",
@@ -4567,8 +4567,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Compartir la identidad con más servicios.",
-          "rationale": "Compartirla no reduce el exceso de permisos."
+          "text": "Mantener el permiso de borrado y registrar en bitácora cada vez que se use.",
+          "rationale": "Registrar detecta el uso, pero no retira un privilegio que la tarea no necesita."
         },
         {
           "id": "B",
@@ -4577,13 +4577,13 @@
         },
         {
           "id": "C",
-          "text": "Conservar borrado porque nunca se ha utilizado.",
+          "text": "Conservar el borrado porque no se ha usado.",
           "rationale": "La falta de uso no hace necesario ese privilegio."
         },
         {
           "id": "D",
-          "text": "Agregar permisos de administración del servidor.",
-          "rationale": "Amplía la exposición sin relación con la tarea."
+          "text": "Pasarla a un rol de administración con autenticación multifactor.",
+          "rationale": "La MFA protege el acceso, pero amplía los privilegios en vez de reducirlos."
         }
       ],
       "correctOptionId": "B",
@@ -4638,12 +4638,12 @@
       "options": [
         {
           "id": "A",
-          "text": "Añadir accesos de todos los compañeros.",
-          "rationale": "Eso amplía privilegios sin necesidad funcional."
+          "text": "Mantener los accesos por si debe volver a apoyar la aplicación más adelante.",
+          "rationale": "Una necesidad eventual no justifica conservar privilegios actuales."
         },
         {
           "id": "B",
-          "text": "Cambiar solo el nombre visible de la cuenta.",
+          "text": "Cambiar el nombre visible de la cuenta.",
           "rationale": "El nombre no modifica los permisos efectivos."
         },
         {
@@ -4653,8 +4653,8 @@
         },
         {
           "id": "D",
-          "text": "Conservar todos los accesos históricos por antigüedad.",
-          "rationale": "La antigüedad no justifica permisos ajenos a la función."
+          "text": "Conservar los accesos históricos, porque se otorgaron con autorización.",
+          "rationale": "Una autorización pasada no justifica permisos ajenos a la función actual."
         }
       ],
       "correctOptionId": "C",
@@ -4759,18 +4759,18 @@
       "options": [
         {
           "id": "A",
-          "text": "El intervalo de 24 horas es el único permitido por la definición.",
+          "text": "Es correcta, porque NIST fija ese intervalo de renovación de los permisos.",
           "rationale": "Añade una exigencia temporal ausente del concepto."
         },
         {
           "id": "B",
-          "text": "Renovar cada 24 horas permite dar cualquier permiso.",
-          "rationale": "Una frecuencia de renovación no justifica accesos innecesarios."
+          "text": "Es correcta para cuentas administrativas, pero no para las de usuarios comunes.",
+          "rationale": "La definición no fija intervalos para ningún tipo de cuenta."
         },
         {
           "id": "C",
-          "text": "La definición exige acceso administrativo permanente.",
-          "rationale": "Contradice la limitación por necesidad."
+          "text": "Es incorrecta, porque la definición exige renovar los permisos cada semana.",
+          "rationale": "Cambia el intervalo, pero comete el mismo error de atribuir un plazo."
         },
         {
           "id": "D",
@@ -4809,8 +4809,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Agregar otro rol de consulta sin retirar ninguno.",
-          "rationale": "la suma conserva el permiso excesivo."
+          "text": "Agregar otro rol de consulta y conservar los dos que ya tiene.",
+          "rationale": "La suma conserva el permiso de modificar."
         },
         {
           "id": "B",
@@ -4864,18 +4864,18 @@
         },
         {
           "id": "B",
-          "text": "Solo G1.",
-          "rationale": "es precisamente el acceso requerido."
+          "text": "G1 y G2.",
+          "rationale": "G1 es precisamente el acceso requerido."
         },
         {
           "id": "C",
-          "text": "Solo G2.",
-          "rationale": "G3 también permite un recurso ajeno a la tarea."
+          "text": "G1 y G3.",
+          "rationale": "G1 es el acceso requerido y no sobra; además deja fuera a G2, que sí sobra."
         },
         {
           "id": "D",
-          "text": "Ninguna, porque leer y escribir son operaciones del mismo sistema.",
-          "rationale": "pertenecer al sistema no acredita necesidad."
+          "text": "G2, porque G3 da lectura, que es la operación pedida.",
+          "rationale": "G3 da lectura sobre B, un recurso ajeno a la tarea."
         }
       ],
       "correctOptionId": "A",
@@ -4959,8 +4959,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Cambiar las claves por nombres más cortos.",
-          "rationale": "La longitud del nombre no limita las identidades autorizadas."
+          "text": "El cifrado del almacén, porque garantiza que nadie más pueda leer las claves.",
+          "rationale": "El cifrado en reposo no limita qué identidades autorizadas pueden leerlas."
         },
         {
           "id": "B",
@@ -4969,13 +4969,13 @@
         },
         {
           "id": "C",
-          "text": "Solo el logotipo del almacén.",
-          "rationale": "El logotipo no restringe lecturas."
+          "text": "La frecuencia de rotación de las claves, sin cambiar quién puede leerlas.",
+          "rationale": "Rotar ayuda, pero si todas las identidades leen las claves nuevas el problema sigue."
         },
         {
           "id": "D",
-          "text": "Publicar también las claves para igualar condiciones.",
-          "rationale": "Amplía la exposición en lugar de controlar acceso."
+          "text": "La disponibilidad del almacén.",
+          "rationale": "El problema es el exceso de acceso, no su disponibilidad."
         }
       ],
       "correctOptionId": "B",
@@ -5009,22 +5009,22 @@
       "options": [
         {
           "id": "A",
-          "text": "Eliminar la autenticación porque no hay una persona conectada.",
-          "rationale": "Los procesos automáticos también requieren identidad y controles."
+          "text": "Mantener la cuenta humana compartida y cambiar su contraseña cada mes.",
+          "rationale": "Rotar no distingue al servicio ni limita su acceso."
         },
         {
           "id": "B",
-          "text": "Publicar la contraseña compartida en el manual.",
-          "rationale": "La publicación expone la credencial."
+          "text": "Usar la cuenta de un funcionario del equipo, con su autorización escrita.",
+          "rationale": "Sigue siendo una identidad humana: no distingue el servicio ni permite controlarlo."
         },
         {
           "id": "C",
-          "text": "Dar a cualquier proceso los secretos del usuario administrador.",
+          "text": "Autenticar el proceso con la cuenta del administrador para evitar fallos.",
           "rationale": "No limita el acceso conforme a la función del servicio."
         },
         {
           "id": "D",
-          "text": "Identificar y autenticar el servicio con una identidad controlada para su función.",
+          "text": "Darle al servicio su propia identidad, con los permisos de su función.",
           "rationale": "Las identidades de servicio permiten aplicar controles al proceso correspondiente."
         }
       ],
@@ -5059,13 +5059,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Solo importa el canal de entrada al almacén.",
-          "rationale": "También debe evitarse exposición al utilizar los secretos."
+          "text": "Es aceptable mientras el almacén mantenga cifrados los valores originales.",
+          "rationale": "El almacén no protege valores que se copian fuera de él."
         },
         {
           "id": "B",
-          "text": "La página pública equivale a un control de acceso.",
-          "rationale": "La accesibilidad pública no restringe lectores."
+          "text": "Basta con ocultar la página de los buscadores para que nadie la encuentre.",
+          "rationale": "Ocultarla no restringe a quien conozca la dirección."
         },
         {
           "id": "C",
@@ -5074,8 +5074,8 @@
         },
         {
           "id": "D",
-          "text": "La protección está garantizada por el nombre del producto.",
-          "rationale": "Usar una herramienta no garantiza un flujo seguro de datos."
+          "text": "El riesgo es bajo porque los secretos se pueden rotar después de publicarlos.",
+          "rationale": "Rotar después no evita la exposición mientras estuvieron publicados."
         }
       ],
       "correctOptionId": "C",
@@ -5140,8 +5140,8 @@
         },
         {
           "id": "C",
-          "text": "`{\"total\": 120}`.",
-          "rationale": "no se estableció límite superior que lo invalide."
+          "text": "`{\"total\": 12000}`.",
+          "rationale": "No se estableció límite superior que lo invalide."
         },
         {
           "id": "D",
@@ -5185,18 +5185,18 @@
         },
         {
           "id": "B",
-          "text": "Un mensaje que solo diga «devolver datos».",
+          "text": "Un mensaje breve que diga «devolver datos».",
           "rationale": "Es demasiado impreciso para definir la estructura de respuesta."
         },
         {
           "id": "C",
-          "text": "La lista de nombres del equipo.",
-          "rationale": "No describe solicitudes ni respuestas."
+          "text": "Un tablero con las tareas pendientes de cada equipo.",
+          "rationale": "Organiza el trabajo, pero no describe solicitudes ni respuestas."
         },
         {
           "id": "D",
-          "text": "Un archivo vacío con extensión JSON.",
-          "rationale": "La extensión sin contenido no establece un contrato."
+          "text": "Un registro de los errores de producción de la última semana.",
+          "rationale": "Muestra fallos pasados, no el contrato que ambas partes deben cumplir."
         }
       ],
       "correctOptionId": "A",
@@ -5251,13 +5251,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Eliminar el manejo de errores.",
-          "rationale": "Suprimirlo no valida su comportamiento."
+          "text": "Más casos exitosos con datos de entrada más variados.",
+          "rationale": "Amplía el camino feliz, pero sigue sin probar los errores."
         },
         {
           "id": "B",
-          "text": "Asumir que todo error devuelve éxito.",
-          "rationale": "Confunde el resultado y puede ocultar fallos a consumidores."
+          "text": "Revisión visual de la documentación publicada de la API.",
+          "rationale": "Revisa la documentación, no ejercita respuestas de error."
         },
         {
           "id": "C",
@@ -5266,7 +5266,7 @@
         },
         {
           "id": "D",
-          "text": "Solo capturas de la página institucional.",
+          "text": "Capturas de pantalla de la aplicación que consume la API.",
           "rationale": "No ejercitan los casos de error de la API."
         }
       ],
@@ -5372,23 +5372,23 @@
       "options": [
         {
           "id": "A",
-          "text": "La versión afectada, el calendario anunciado de retirada y la alternativa de migración.",
+          "text": "La versión afectada, la fecha de retirada y la alternativa de migración.",
           "rationale": "hace operativa la comunicación del cambio para los integradores."
         },
         {
           "id": "B",
-          "text": "Solo el nuevo logotipo del servicio.",
-          "rationale": "no informa fechas ni alternativa de integración."
+          "text": "Las notas técnicas de la nueva versión, sin fecha de retiro de la anterior.",
+          "rationale": "Describe lo nuevo, pero no cuándo dejará de funcionar lo que usan."
         },
         {
           "id": "C",
-          "text": "El nombre interno de la rama de desarrollo.",
-          "rationale": "no establece qué deben cambiar los consumidores."
+          "text": "El listado de cambios internos del código fuente del servicio.",
+          "rationale": "No establece qué deben cambiar los consumidores ni cuándo."
         },
         {
           "id": "D",
-          "text": "Un mensaje enviado únicamente después de retirarla.",
-          "rationale": "no permite preparar la adaptación antes de la interrupción."
+          "text": "Un aviso enviado el mismo día en que la versión deje de responder.",
+          "rationale": "No da tiempo para preparar la adaptación antes de la interrupción."
         }
       ],
       "correctOptionId": "A",
@@ -5422,22 +5422,22 @@
       "options": [
         {
           "id": "A",
-          "text": "Que la especificación tenga un título legible.",
-          "rationale": "El título no causa la divergencia del esquema."
+          "text": "Que la especificación use un formato distinto al del resto de los equipos.",
+          "rationale": "El formato no causa la divergencia del esquema."
         },
         {
           "id": "B",
-          "text": "Que los clientes puedan consultar la documentación.",
+          "text": "Que los clientes puedan consultar la documentación de la API.",
           "rationale": "El acceso a documentación es útil; el problema es su inexactitud."
         },
         {
           "id": "C",
-          "text": "Que existan pruebas de respuestas.",
-          "rationale": "Las pruebas ayudan a detectar esa divergencia."
+          "text": "Que existan pruebas de contrato sobre las respuestas del servicio.",
+          "rationale": "Las pruebas ayudan a detectar esa divergencia; no son el problema."
         },
         {
           "id": "D",
-          "text": "La divergencia entre el contrato documentado y el comportamiento real.",
+          "text": "La diferencia entre lo documentado y lo que entrega producción.",
           "rationale": "La especificación pierde utilidad para consumidores si no describe lo servido."
         }
       ],
@@ -5472,7 +5472,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Eliminar cualquier necesidad de investigación.",
+          "text": "Evitar tener que investigar el equipo.",
           "rationale": "La contención no sustituye el análisis posterior."
         },
         {
@@ -5482,12 +5482,12 @@
         },
         {
           "id": "C",
-          "text": "Demostrar automáticamente quién realizó el ataque.",
+          "text": "Identificar al autor del ataque a partir del tráfico bloqueado.",
           "rationale": "La contención no identifica por sí sola al autor."
         },
         {
           "id": "D",
-          "text": "Garantizar recuperación inmediata de todos los archivos.",
+          "text": "Recuperar los archivos cifrados sin necesidad de respaldos.",
           "rationale": "Aislar no equivale a recuperar los datos."
         }
       ],
@@ -5553,13 +5553,13 @@
         },
         {
           "id": "C",
-          "text": "Que el reinicio aumente necesariamente la memoria disponible para investigación histórica.",
-          "rationale": "No conserva por sí solo el estado previo de memoria."
+          "text": "Que el reinicio libere memoria y mejore la investigación posterior.",
+          "rationale": "Liberar memoria borra justo el estado que se quería conservar."
         },
         {
           "id": "D",
-          "text": "Que los registros públicos se conviertan automáticamente en secretos.",
-          "rationale": "No es el riesgo de evidencia volátil planteado."
+          "text": "Que el reinicio borre los registros guardados en disco de los equipos.",
+          "rationale": "Los registros en disco suelen persistir; el riesgo principal está en lo volátil."
         }
       ],
       "correctOptionId": "B",
@@ -5598,17 +5598,17 @@
         },
         {
           "id": "B",
-          "text": "Declarar que solo existe un equipo afectado sin comprobarlo.",
+          "text": "Declarar que hay un único equipo afectado hasta que aparezca otro.",
           "rationale": "Introduce una certeza sin evidencia."
         },
         {
           "id": "C",
-          "text": "Restablecer todas las conexiones antes de investigar.",
+          "text": "Reconectar para ver cómo se propaga.",
           "rationale": "Puede ampliar el impacto sin haberlo evaluado."
         },
         {
           "id": "D",
-          "text": "Descartar toda señal que no provenga del primer equipo.",
+          "text": "Limitar el análisis al primer equipo donde se detectó la alerta.",
           "rationale": "Excluye evidencia potencial del alcance real."
         }
       ],
@@ -5648,17 +5648,17 @@
         },
         {
           "id": "B",
-          "text": "El contexto nunca cambia las decisiones operativas.",
-          "rationale": "Ignora diferencias de impacto y restricciones."
+          "text": "Aplicar la misma acción garantiza una respuesta igual y más rápida en cada caso.",
+          "rationale": "La rapidez uniforme ignora diferencias de impacto y restricciones."
         },
         {
           "id": "C",
-          "text": "Los sistemas críticos deben ignorarse por ser complejos.",
-          "rationale": "Su criticidad es información relevante para responder."
+          "text": "Los sistemas críticos deben tratarse después, por ser más complejos.",
+          "rationale": "Su criticidad es información relevante para decidir, no para postergar."
         },
         {
           "id": "D",
-          "text": "Un listado general sustituye toda coordinación institucional.",
+          "text": "Un listado general de pasos reemplaza la coordinación con el plan institucional.",
           "rationale": "El plan y los responsables siguen siendo necesarios."
         }
       ],
@@ -5714,8 +5714,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Publicar las credenciales en los registros restantes.",
-          "rationale": "Añade exposición sin contribuir a una respuesta segura."
+          "text": "Borrar los registros después de tomar capturas de pantalla del sistema.",
+          "rationale": "Una captura no reemplaza los registros como evidencia."
         },
         {
           "id": "B",
@@ -5724,13 +5724,13 @@
         },
         {
           "id": "C",
-          "text": "Destruir todo registro para reducir la duración del informe.",
-          "rationale": "La comodidad de reporte no justifica perder evidencia."
+          "text": "Borrar los registros para liberar espacio y acelerar la recuperación.",
+          "rationale": "La rapidez no justifica perder evidencia."
         },
         {
           "id": "D",
-          "text": "Conservar únicamente los registros que indiquen éxito.",
-          "rationale": "Seleccionar solo éxitos puede ocultar el ataque."
+          "text": "Conservar los registros que indiquen fallos y descartar los de operación normal.",
+          "rationale": "La actividad aparentemente normal también puede mostrar al atacante."
         }
       ],
       "correctOptionId": "B",
@@ -5785,22 +5785,22 @@
       "options": [
         {
           "id": "A",
-          "text": "Reconectarlo automáticamente porque el usuario insiste.",
-          "rationale": "La insistencia no demuestra que el riesgo haya sido tratado."
+          "text": "Reconectarlo si el usuario firma que asume la responsabilidad total del riesgo.",
+          "rationale": "La aceptación del usuario no demuestra que el riesgo haya sido tratado."
         },
         {
           "id": "B",
-          "text": "Asumir que aislar durante un minuto elimina todo compromiso.",
-          "rationale": "El tiempo aislado no garantiza limpieza del sistema."
+          "text": "Reconectarlo si el antivirus ya no muestra alertas en el equipo que se aisló.",
+          "rationale": "La ausencia de alertas no prueba que el compromiso se haya eliminado."
         },
         {
           "id": "C",
-          "text": "Reutilizar inmediatamente sus credenciales en otros equipos.",
-          "rationale": "No se ha establecido que esas credenciales sean seguras."
+          "text": "Reconectarlo a una red de invitados para que el usuario siga trabajando.",
+          "rationale": "Sigue sin evaluación del equipo de respuesta y puede extender el compromiso."
         },
         {
           "id": "D",
-          "text": "Mantener la decisión de conexión bajo el procedimiento y evaluación del incidente.",
+          "text": "Decidir la reconexión dentro del procedimiento de respuesta al incidente.",
           "rationale": "Reconectar sin evaluación puede deshacer la contención adoptada."
         }
       ],
@@ -5835,13 +5835,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Cambiar la denominación del incidente a mantenimiento.",
-          "rationale": "Renombrarlo no activa la respuesta necesaria."
+          "text": "Resolverlo localmente y reportarlo cuando el equipo termine la limpieza.",
+          "rationale": "Resolver de forma aislada omite la activación y coordinación que el plan prevé."
         },
         {
           "id": "B",
-          "text": "Eliminar las alertas para que no se dupliquen.",
-          "rationale": "Suprimir señales no resuelve el incidente."
+          "text": "Instalar otro antivirus en los equipos locales afectados.",
+          "rationale": "Una herramienta más no activa la respuesta institucional."
         },
         {
           "id": "C",
@@ -5850,7 +5850,7 @@
         },
         {
           "id": "D",
-          "text": "Esperar a que todos los sistemas estén afectados para informar.",
+          "text": "Esperar a que se confirme el cifrado de archivos antes de informar.",
           "rationale": "La espera puede aumentar el impacto y retrasar la contención."
         }
       ],
@@ -7262,8 +7262,8 @@
       "options": [
         {
           "id": "A",
-          "text": "F1",
-          "rationale": "Sin signos la referencia es relativa."
+          "text": "Hoja1!F1",
+          "rationale": "Indica la hoja, pero sin signos de dólar la referencia sigue siendo relativa."
         },
         {
           "id": "B",
@@ -7415,8 +7415,8 @@
       "options": [
         {
           "id": "A",
-          "text": "=B2+B6",
-          "rationale": "Suma solo extremos, omitiendo las celdas intermedias."
+          "text": "=SUMA(B2;B3;B6)",
+          "rationale": "Suma tres celdas sueltas y omite B4 y B5, que también son parte del intervalo."
         },
         {
           "id": "B",
@@ -7476,8 +7476,8 @@
         },
         {
           "id": "C",
-          "text": "=B2*10",
-          "rationale": "Multiplica, sin comprobar el umbral."
+          "text": "=Y(B2>10)",
+          "rationale": "Devuelve un valor lógico, pero >10 excluye el caso en que B2 vale exactamente 10."
         },
         {
           "id": "D",
@@ -7568,8 +7568,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Toda la séptima hoja.",
-          "rationale": "La referencia no indica el número de hoja."
+          "text": "La séptima celda de la hoja, contando desde A1.",
+          "rationale": "La referencia no cuenta celdas: cruza la columna D con la fila 7."
         },
         {
           "id": "B",
@@ -7578,8 +7578,8 @@
         },
         {
           "id": "C",
-          "text": "Siete columnas comenzando en D.",
-          "rationale": "Una celda no equivale a un rango de siete columnas."
+          "text": "La celda ubicada en la fila D y en la columna 7.",
+          "rationale": "Invierte los ejes: en el estilo A1 las letras son columnas y los números, filas."
         },
         {
           "id": "D",
@@ -7670,18 +7670,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Validación jurídica automática de cada trámite.",
-          "rationale": "Excel no determina legalidad por convertir un rango en tabla."
+          "text": "Validación de los datos según reglas definidas por la entidad.",
+          "rationale": "Crear una tabla no aplica reglas de validación por sí sola."
         },
         {
           "id": "B",
-          "text": "Cifrado automático de todo el archivo.",
-          "rationale": "La estructura de tabla no implica cifrado."
+          "text": "Protección del archivo con contraseña al guardarlo.",
+          "rationale": "La estructura de tabla no implica cifrado ni protección del archivo."
         },
         {
           "id": "C",
-          "text": "Eliminación automática de todos los registros repetidos.",
-          "rationale": "Crear una tabla no deduplica automáticamente los datos."
+          "text": "Eliminación de los registros repetidos en el momento de crear la tabla.",
+          "rationale": "Crear una tabla no deduplica los datos."
         },
         {
           "id": "D",
@@ -7726,18 +7726,18 @@
         },
         {
           "id": "B",
-          "text": "Se eliminan permanentemente.",
+          "text": "Se eliminan de la hoja y se pueden recuperar con Deshacer.",
           "rationale": "Confunde ocultamiento por filtro con borrado."
         },
         {
           "id": "C",
-          "text": "Se trasladan a otra base de datos.",
-          "rationale": "El filtro no migra datos."
+          "text": "Se mueven al final de la tabla, debajo de los registros visibles.",
+          "rationale": "Filtrar no reordena ni mueve registros."
         },
         {
           "id": "D",
-          "text": "Cambian automáticamente a estado pendiente.",
-          "rationale": "El criterio no modifica los valores."
+          "text": "Se marcan con otro color, pero siguen visibles dentro de la tabla filtrada.",
+          "rationale": "Eso describe un formato condicional, no un filtro."
         }
       ],
       "correctOptionId": "A",
@@ -7772,8 +7772,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Cambiar todas las fórmulas por ceros.",
-          "rationale": "Destruye resultados sin resolver la paginación."
+          "text": "Reducir el tamaño de letra de toda la hoja hasta el mínimo que permita Excel.",
+          "rationale": "Puede volverla ilegible y no permite revisar la paginación antes de imprimir."
         },
         {
           "id": "B",
@@ -7782,13 +7782,13 @@
         },
         {
           "id": "C",
-          "text": "Ocultar las extensiones de archivo.",
-          "rationale": "No afecta la distribución de impresión."
+          "text": "Imprimir una copia de prueba y revisar después las hojas impresas.",
+          "rationale": "Detecta el problema gastando papel; la pregunta pide revisarlo antes de imprimir."
         },
         {
           "id": "D",
-          "text": "Renombrar el libro.",
-          "rationale": "El nombre no corrige columnas cortadas."
+          "text": "Ajustar el ancho de las columnas en la vista normal.",
+          "rationale": "Ajusta columnas, pero la vista normal no muestra los cortes de página."
         }
       ],
       "correctOptionId": "B",
@@ -8333,13 +8333,13 @@
       "options": [
         {
           "id": "A",
-          "text": "No; el ejercicio del derecho de petición es gratuito y no requiere abogado.",
+          "text": "No; el derecho de petición es gratuito y no requiere abogado.",
           "rationale": "El artículo 13 permite ejercer directamente el derecho. La ausencia de apoderado no justifica rechazar una petición que la persona puede presentar por sí misma."
         },
         {
           "id": "B",
-          "text": "Sí, cualquier petición exige poder notarial.",
-          "rationale": "No existe esa exigencia general."
+          "text": "Sí, cuando la petición se refiere a asuntos jurídicos complejos.",
+          "rationale": "El artículo 13 no crea representación obligatoria por la complejidad del asunto."
         },
         {
           "id": "C",
@@ -8348,8 +8348,8 @@
         },
         {
           "id": "D",
-          "text": "Sí, si la petición tiene más de una página.",
-          "rationale": "La extensión no crea representación obligatoria."
+          "text": "Sí, si la petición tiene más de una página o incluye documentos anexos.",
+          "rationale": "Ni la extensión ni los anexos crean representación obligatoria."
         }
       ],
       "correctOptionId": "A",
@@ -8394,13 +8394,13 @@
         },
         {
           "id": "C",
-          "text": "Solo deben recibirse peticiones redactadas por la oficina.",
-          "rationale": "El peticionario puede presentar su propio escrito."
+          "text": "Pedir al ciudadano que la rehaga en el formato y radicarla después.",
+          "rationale": "Condicionar la recepción al formato obstaculiza el derecho."
         },
         {
           "id": "D",
-          "text": "Toda petición fuera del formato se destruye.",
-          "rationale": "Destruirla impide ejercicio y trazabilidad."
+          "text": "Recibirla sin radicar hasta que la oficina la transcriba al formato interno.",
+          "rationale": "El deber es recibir y radicar; la transcripción no puede condicionarlo."
         }
       ],
       "correctOptionId": "B",
@@ -8435,13 +8435,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Archivar de inmediato sin comunicarlo.",
-          "rationale": "Omite el requerimiento y la oportunidad de completar."
+          "text": "Archivar la petición y avisar al ciudadano que puede presentar otra.",
+          "rationale": "Omite el requerimiento previo para completar la solicitud."
         },
         {
           "id": "B",
-          "text": "Inventar el documento faltante.",
-          "rationale": "La autoridad no puede suplirlo con información falsa."
+          "text": "Resolver con la información disponible, sin pedir el documento faltante.",
+          "rationale": "Si el documento es indispensable, debe requerirse antes de decidir."
         },
         {
           "id": "C",
@@ -8450,8 +8450,8 @@
         },
         {
           "id": "D",
-          "text": "Sancionar automáticamente al peticionario.",
-          "rationale": "La incompletitud no equivale por sí sola a infracción."
+          "text": "Declarar el desistimiento al vencer el término para decidir.",
+          "rationale": "El desistimiento procede tras requerir al peticionario y no obtener respuesta en el plazo."
         }
       ],
       "correctOptionId": "C",
@@ -8486,22 +8486,22 @@
       "options": [
         {
           "id": "A",
-          "text": "No, nunca puede continuar en ningún supuesto.",
+          "text": "No, porque el desistimiento expreso termina la actuación de manera definitiva.",
           "rationale": "Desconoce la excepción expresa de interés público."
         },
         {
           "id": "B",
-          "text": "Sí, pero solo para castigar el desistimiento.",
-          "rationale": "La continuación tiene razón de interés público, no castigo."
+          "text": "Sí, pero requiere el consentimiento escrito de quien desistió.",
+          "rationale": "La ley no exige ese consentimiento; exige interés público y resolución motivada."
         },
         {
           "id": "C",
-          "text": "Sí, sin expresar razones en ningún caso.",
+          "text": "Sí, cuando lo considere conveniente, sin necesidad de motivar la decisión.",
           "rationale": "El artículo exige resolución motivada."
         },
         {
           "id": "D",
-          "text": "Sí, si lo considera necesario por interés público y expide resolución motivada.",
+          "text": "Sí, por razones de interés público y mediante resolución motivada.",
           "rationale": "El desistimiento no impide continuar una actuación por razones de interés público mediante decisión motivada. Tampoco equivale a prohibir que la persona presente otra solicitud legalmente admisible."
         }
       ],
@@ -8542,18 +8542,18 @@
         },
         {
           "id": "B",
-          "text": "Rechazar toda petición que cite mal una ley.",
-          "rationale": "La fundamentación jurídica inadecuada no basta para rechazo."
+          "text": "Rechazarla de plano si cita de forma incorrecta la norma en que se funda.",
+          "rationale": "La fundamentación jurídica inadecuada no basta para rechazarla."
         },
         {
           "id": "C",
-          "text": "Resolver un asunto diferente elegido al azar.",
-          "rationale": "La decisión debe atender el objeto real de la petición."
+          "text": "Resolver el asunto que la entidad considere más probable según el texto recibido.",
+          "rationale": "La decisión debe atender el objeto real de la petición, no una suposición."
         },
         {
           "id": "D",
-          "text": "Publicar los datos personales para pedir ayuda.",
-          "rationale": "La dificultad de comprensión no autoriza esa divulgación."
+          "text": "Remitirla a otra entidad para que interprete su finalidad.",
+          "rationale": "La remisión procede por falta de competencia, no por falta de claridad."
         }
       ],
       "correctOptionId": "A",
@@ -8588,23 +8588,23 @@
       "options": [
         {
           "id": "A",
-          "text": "No responder porque son repetidas.",
+          "text": "Responder la primera petición y archivar las demás como repetidas.",
           "rationale": "La analogía no elimina el deber de respuesta."
         },
         {
           "id": "B",
-          "text": "Dar una única respuesta con la publicidad y entrega a solicitantes previstas en la ley.",
+          "text": "Dar una única respuesta publicada y entregar copia a quien la pida.",
           "rationale": "La respuesta única está permitida para ese supuesto, con publicación en diario de amplia circulación, página web y entrega a quienes soliciten copia. No equivale a ignorar a los peticionarios."
         },
         {
           "id": "C",
-          "text": "Responder únicamente al primer ciudadano en secreto.",
-          "rationale": "Desconoce las medidas de publicidad y entrega."
+          "text": "Dar una única respuesta y comunicarla nada más al primer peticionario.",
+          "rationale": "Desconoce las medidas de publicidad y entrega previstas en el artículo."
         },
         {
           "id": "D",
-          "text": "Cobrar una tarifa para aceptar cada petición.",
-          "rationale": "No hay autorización general para cobrar por ejercer el derecho."
+          "text": "Acumularlas y resolverlas en el plazo de la petición más antigua.",
+          "rationale": "El artículo 22 prevé una respuesta única con publicidad, no acumular plazos."
         }
       ],
       "correctOptionId": "B",
@@ -9455,23 +9455,23 @@
       "options": [
         {
           "id": "A",
-          "text": "La obligación de usar siempre XML.",
-          "rationale": "HTTP no obliga a XML para GET."
+          "text": "Su carácter cacheable, que obliga a guardar la respuesta en el navegador.",
+          "rationale": "GET puede ser cacheable, pero eso no obliga a guardar nada ni es lo que el borrado contradice."
         },
         {
           "id": "B",
-          "text": "La prohibición de devolver contenido.",
-          "rationale": "GET normalmente devuelve una representación."
+          "text": "Su idempotencia, que exige devolver el mismo código en cada repetición.",
+          "rationale": "La idempotencia se refiere al efecto, no al código; y borrar un recurso ya es idempotente."
         },
         {
           "id": "C",
-          "text": "Su carácter seguro: el cliente no solicita un cambio de estado destructivo.",
+          "text": "Su carácter seguro: una consulta no debe pedir cambios de estado.",
           "rationale": "GET tiene semántica de lectura. Que el servidor registre logs no autoriza que el recurso solicitado borre expedientes como efecto pretendido de la consulta."
         },
         {
           "id": "D",
-          "text": "La exigencia de crear un expediente en cada lectura.",
-          "rationale": "GET no define creación como operación solicitada."
+          "text": "Su uso exclusivo para recursos que no requieren autenticación.",
+          "rationale": "GET se usa también con recursos protegidos; la autenticación no es el problema."
         }
       ],
       "correctOptionId": "C",
@@ -9506,12 +9506,12 @@
       "options": [
         {
           "id": "A",
-          "text": "Debe devolver siempre el mismo código y cuerpo.",
+          "text": "Debe devolver el mismo código de estado y el mismo cuerpo en cada intento.",
           "rationale": "La idempotencia no exige respuestas idénticas."
         },
         {
           "id": "B",
-          "text": "No puede modificar recursos.",
+          "text": "No modifica el recurso: idempotente equivale a método seguro.",
           "rationale": "PUT puede modificar; idempotente no significa seguro."
         },
         {
@@ -9562,18 +9562,18 @@
         },
         {
           "id": "B",
-          "text": "HTTP elimina siempre las creaciones duplicadas.",
+          "text": "Es inocuo, porque HTTP descarta los POST duplicados de la misma conexión.",
           "rationale": "El protocolo no garantiza esa deduplicación para cualquier POST."
         },
         {
           "id": "C",
-          "text": "Todo POST es una lectura sin efectos.",
-          "rationale": "POST puede causar procesamiento y cambios."
+          "text": "Es inocuo, porque un POST sin respuesta se considera no ejecutado.",
+          "rationale": "La falta de respuesta no prueba que el servidor no lo haya procesado."
         },
         {
           "id": "D",
-          "text": "Repetir cambia automáticamente el método a GET.",
-          "rationale": "El cliente sigue enviando POST."
+          "text": "Recibir un error 409, porque el servidor rechaza repetir un POST.",
+          "rationale": "HTTP no impone ese rechazo; depende de la aplicación."
         }
       ],
       "correctOptionId": "A",
@@ -9970,18 +9970,18 @@
         },
         {
           "id": "B",
-          "text": "404 con la contraseña administrativa.",
-          "rationale": "No corresponde divulgar credenciales ni describe la condición indicada."
+          "text": "404 Not Found, porque el método no existe para ese recurso.",
+          "rationale": "404 indica que no se encontró el recurso; aquí el recurso existe."
         },
         {
           "id": "C",
-          "text": "201 sin Location como corrección universal.",
-          "rationale": "Crear no explica que un método esté prohibido para el recurso."
+          "text": "501 Not Implemented con la lista de métodos del servidor.",
+          "rationale": "501 indica que el servidor no soporta el método en ningún recurso, no que esté prohibido para este."
         },
         {
           "id": "D",
-          "text": "200 fingiendo ejecutar el método.",
-          "rationale": "Informar éxito falso oculta el rechazo."
+          "text": "400 Bad Request, porque la solicitud usa un método no admitido.",
+          "rationale": "400 es para solicitudes malformadas; aquí el método es válido pero no está permitido."
         }
       ],
       "correctOptionId": "A",
@@ -10174,18 +10174,18 @@
         },
         {
           "id": "B",
-          "text": "SaaS.",
+          "text": "Software como servicio (SaaS).",
           "rationale": "SaaS ofrece aplicaciones del proveedor, no ese control del sistema operativo."
         },
         {
           "id": "C",
-          "text": "PaaS exclusivamente.",
+          "text": "Plataforma como servicio (PaaS).",
           "rationale": "PaaS no atribuye al consumidor la administración del sistema operativo subyacente."
         },
         {
           "id": "D",
-          "text": "Ausencia de todo servicio informático.",
-          "rationale": "Sí se están proporcionando capacidades de infraestructura."
+          "text": "Nube privada, porque la entidad administra el sistema operativo.",
+          "rationale": "Nube privada es un modelo de despliegue, no de servicio; administrar el sistema operativo corresponde a IaaS."
         }
       ],
       "correctOptionId": "A",
@@ -10424,8 +10424,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Compartir públicamente todas las bases de datos.",
-          "rationale": "El recurso compartido no implica acceso cruzado a datos."
+          "text": "Elasticidad rápida.",
+          "rationale": "La elasticidad describe ampliar o reducir capacidad; la asignación desde un fondo común a varios consumidores es la agrupación."
         },
         {
           "id": "B",
@@ -10434,13 +10434,13 @@
         },
         {
           "id": "C",
-          "text": "Asignación inmutable de cada equipo a un único usuario.",
-          "rationale": "No describe la reasignación dinámica planteada."
+          "text": "Autoservicio bajo demanda.",
+          "rationale": "Describe que el consumidor obtiene capacidades sin intervención del proveedor, no el fondo compartido."
         },
         {
           "id": "D",
-          "text": "Ausencia de aislamiento lógico.",
-          "rationale": "La agrupación no exige eliminar aislamiento."
+          "text": "Servicio medido.",
+          "rationale": "Describe la medición del uso, no la asignación entre varios consumidores."
         }
       ],
       "correctOptionId": "B",
@@ -10577,23 +10577,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Mantener copias aisladas o fuera de línea y protegidas frente a modificación.",
+          "text": "Mantener copias fuera de línea o aisladas y protegidas contra cambios.",
           "rationale": "CISA recomienda copias fuera de línea y protegidas. Si producción y todos los respaldos son modificables con el mismo acceso comprometido, un incidente puede alcanzar ambos."
         },
         {
           "id": "B",
-          "text": "Guardar la única copia en una carpeta de producción con igual acceso.",
+          "text": "Guardar una copia diaria en una carpeta de producción con el mismo acceso.",
           "rationale": "Comparte la exposición del sistema original."
         },
         {
           "id": "C",
-          "text": "Conservar solo un acceso directo al archivo.",
-          "rationale": "Un acceso directo no es una copia de respaldo."
+          "text": "Replicar los datos en tiempo real a un segundo servidor conectado a la red.",
+          "rationale": "La réplica en línea copia también los archivos cifrados por el ransomware."
         },
         {
           "id": "D",
-          "text": "Desactivar todo respaldo para evitar duplicados.",
-          "rationale": "Elimina una capacidad esencial de recuperación."
+          "text": "Cifrar las copias de respaldo con la misma clave que usa producción.",
+          "rationale": "Cifrar no impide que un atacante con el mismo acceso las cifre de nuevo o las borre."
         }
       ],
       "correctOptionId": "A",
@@ -10628,23 +10628,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Confiar solo en el color verde del panel.",
+          "text": "Confirmar que el panel de respaldos muestre en verde cada tarea programada.",
           "rationale": "El indicador no reemplaza la prueba de recuperación."
         },
         {
           "id": "B",
-          "text": "Ensayar restauraciones y verificar disponibilidad e integridad de los datos recuperados.",
+          "text": "Ensayar restauraciones y verificar la integridad de los datos recuperados.",
           "rationale": "Un mensaje de tarea completada no prueba que la recuperación funcione. Las pruebas de restauración permiten descubrir copias incompletas, corruptas o procedimientos inviables."
         },
         {
           "id": "C",
-          "text": "Borrar el original antes de cualquier ensayo.",
-          "rationale": "No es necesario arriesgar el original para validar una copia."
+          "text": "Comparar el tamaño de las copias con el de los datos originales.",
+          "rationale": "Un tamaño similar no demuestra integridad ni recuperabilidad."
         },
         {
           "id": "D",
-          "text": "Contar carpetas sin abrir ni restaurar datos.",
-          "rationale": "El conteo no demuestra integridad ni recuperabilidad."
+          "text": "Revisar que las copias tengan fecha reciente en el almacenamiento de respaldo.",
+          "rationale": "La fecha no demuestra que los datos puedan recuperarse."
         }
       ],
       "correctOptionId": "B",
@@ -10679,23 +10679,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Cambiar solo el fondo de pantalla.",
-          "rationale": "No corrige la vulnerabilidad."
+          "text": "Esperar la siguiente ventana trimestral de mantenimiento para actualizar.",
+          "rationale": "Posponer ignora el riesgo de explotación activa."
         },
         {
           "id": "B",
-          "text": "Ocultar la alerta del inventario.",
-          "rationale": "Ocultar no reduce la exposición."
+          "text": "Registrar la vulnerabilidad en el inventario y monitorear sin cambiar nada.",
+          "rationale": "Monitorear no reduce la exposición de una falla explotada activamente."
         },
         {
           "id": "C",
-          "text": "Aplicar la mitigación o actualización pertinente mediante un proceso controlado.",
+          "text": "Aplicar la actualización o mitigación mediante un proceso controlado.",
           "rationale": "La guía recomienda mantener sistemas actualizados y priorizar vulnerabilidades explotadas y servicios expuestos. El control del cambio debe permitir verificar la corrección sin posponer indefinidamente el riesgo."
         },
         {
           "id": "D",
-          "text": "Esperar siempre al siguiente año sin evaluación.",
-          "rationale": "Ignora el riesgo de explotación activa."
+          "text": "Reiniciar el servicio expuesto para limpiar cualquier intrusión en memoria.",
+          "rationale": "Reiniciar no corrige la vulnerabilidad."
         }
       ],
       "correctOptionId": "C",
@@ -10730,18 +10730,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Usar la misma contraseña en todos los servicios.",
-          "rationale": "Amplía el impacto de una filtración."
+          "text": "Contraseñas más largas con cambio obligatorio cada mes.",
+          "rationale": "Una contraseña robada sigue siendo suficiente para entrar."
         },
         {
           "id": "B",
-          "text": "Publicar preguntas secretas junto al usuario.",
-          "rationale": "Facilita el acceso indebido."
+          "text": "Preguntas de seguridad para recuperar la cuenta.",
+          "rationale": "Se pueden averiguar o capturar como otra contraseña."
         },
         {
           "id": "C",
-          "text": "Deshabilitar autenticación para evitar bloqueos.",
-          "rationale": "Suprime la protección de identidad."
+          "text": "Bloqueo de la cuenta tras varios intentos fallidos.",
+          "rationale": "Frena la adivinación, pero no el uso de una contraseña robada."
         },
         {
           "id": "D",
@@ -10781,18 +10781,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Deshabilitar la exposición innecesaria y restringir los accesos remotos necesarios.",
+          "text": "Deshabilitar la exposición innecesaria y restringir el acceso remoto.",
           "rationale": "Reducir servicios remotos expuestos limita vías de entrada. Cuando el acceso es necesario, debe protegerse y controlarse; cambiar únicamente el nombre del equipo no protege el servicio."
         },
         {
           "id": "B",
-          "text": "Abrirlo a toda dirección para facilitar soporte.",
-          "rationale": "Aumenta la superficie de ataque."
+          "text": "Mantenerlo expuesto y cambiar el puerto por uno no estándar.",
+          "rationale": "Cambiar el puerto lo oculta, pero no reduce la exposición."
         },
         {
           "id": "C",
-          "text": "Compartir una cuenta sin trazabilidad.",
-          "rationale": "Impide atribuir accesos y aumenta exposición."
+          "text": "Mantenerlo abierto con una contraseña larga para el usuario administrador.",
+          "rationale": "La contraseña ayuda, pero el servicio innecesario sigue expuesto."
         },
         {
           "id": "D",
@@ -10832,8 +10832,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Desactivar el antivirus para leer el adjunto.",
-          "rationale": "Cumple la instrucción riesgosa del mensaje."
+          "text": "Abrirlo en el equipo, porque el antivirus lo analizará al descargarlo.",
+          "rationale": "Confía en una protección que el propio mensaje pide desactivar."
         },
         {
           "id": "B",
@@ -10842,13 +10842,13 @@
         },
         {
           "id": "C",
-          "text": "Reenviarlo masivamente para que otros prueben.",
-          "rationale": "Puede ampliar la exposición."
+          "text": "Responder al remitente para confirmar si el mensaje es legítimo.",
+          "rationale": "Responder al posible atacante no verifica nada y confirma que la cuenta está activa."
         },
         {
           "id": "D",
-          "text": "Introducir credenciales en el enlace para verificarlo.",
-          "rationale": "Puede entregar las credenciales al atacante."
+          "text": "Reenviarlo a un compañero de sistemas para que lo abra él.",
+          "rationale": "Traslada el riesgo sin usar el canal de seguridad establecido."
         }
       ],
       "correctOptionId": "B",
@@ -12506,7 +12506,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Si el servicio resulta comprometido, el daño alcanzará todos los recursos accesibles con esos permisos.",
+          "text": "Si el servicio es comprometido, el daño alcanzará todo lo accesible con esos permisos.",
           "rationale": "El principio de mínimo privilegio otorga a cada tarea, proceso o usuario únicamente los derechos que necesita, de modo que un compromiso quede confinado a los recursos limitados de la entidad comprometida. Con permisos de administrador, ese confinamiento desaparece."
         },
         {
@@ -12516,7 +12516,7 @@
         },
         {
           "id": "C",
-          "text": "El sistema operativo deshabilitará el servicio automáticamente por exceso de privilegios.",
+          "text": "El sistema operativo deshabilitará el servicio al detectar el exceso de privilegios.",
           "rationale": "Ningún sistema operativo revoca privilegios por sí mismo: la asignación excesiva persiste hasta que un administrador la corrige."
         },
         {
@@ -12559,12 +12559,12 @@
       "options": [
         {
           "id": "A",
-          "text": "Porque un servicio deshabilitado sigue consumiendo memoria y procesador del servidor.",
+          "text": "Porque un servicio deshabilitado sigue consumiendo memoria y procesador del servidor en segundo plano.",
           "rationale": "Un servicio deshabilitado no permanece en ejecución, así que el argumento del consumo de recursos no sostiene la preferencia."
         },
         {
           "id": "B",
-          "text": "Porque un ataque que altere la configuración puede reactivar un servicio deshabilitado, y también puede reactivarse por error humano.",
+          "text": "Porque un ataque o un error humano pueden reactivar un servicio que solo está deshabilitado.",
           "rationale": "Retirar los componentes funcionales es preferible a deshabilitarlos porque un ataque que modifique la configuración para activar un servicio deshabilitado no puede tener éxito si el componente ya no existe; además, un servicio deshabilitado puede quedar habilitado de nuevo por error humano."
         },
         {
@@ -12612,17 +12612,17 @@
       "options": [
         {
           "id": "A",
-          "text": "Instalar todas las actualizaciones disponibles el mismo día en que el fabricante las publica.",
+          "text": "Instalar las actualizaciones disponibles el mismo día en que el fabricante las publica en su portal.",
           "rationale": "El despliegue inmediato y sin priorizar omite las pruebas previas y las ventanas de mantenimiento, y no describe el alcance del proceso."
         },
         {
           "id": "B",
-          "text": "Restaurar los equipos a su configuración de fábrica en periodos definidos.",
+          "text": "Restaurar los equipos a su configuración de fábrica en periodos definidos y reinstalar después las actualizaciones.",
           "rationale": "Restablecer a fábrica puede incluso devolver el equipo a un estado vulnerable y deshacer parches ya aplicados."
         },
         {
           "id": "C",
-          "text": "Identificar, priorizar, adquirir, instalar y verificar la instalación de parches, actualizaciones y mejoras en toda la organización.",
+          "text": "Identificar, priorizar, adquirir, instalar y verificar parches, actualizaciones y mejoras en toda la organización.",
           "rationale": "La gestión de parches en la organización es el proceso de identificar, priorizar, adquirir, instalar y verificar la instalación de parches, actualizaciones y mejoras a lo largo de toda la entidad. La verificación forma parte del proceso, no termina con la instalación."
         },
         {
@@ -12670,8 +12670,8 @@
         },
         {
           "id": "B",
-          "text": "Cumplir la regla de instalar los parches siguiendo el orden alfabético de los equipos.",
-          "rationale": "No existe una regla semejante en la planificación del mantenimiento."
+          "text": "Obtener la aprobación de los usuarios de ese grupo antes de instalar el parche en los demás equipos.",
+          "rationale": "La aceptación de los usuarios no es el propósito del subconjunto inicial: se busca detectar problemas y estimar el impacto."
         },
         {
           "id": "C",
@@ -12680,7 +12680,7 @@
         },
         {
           "id": "D",
-          "text": "Detectar problemas y estimar el impacto operativo probable del parche antes de ampliar el despliegue.",
+          "text": "Detectar problemas y estimar el impacto operativo del parche antes de ampliar el despliegue.",
           "rationale": "Ese subconjunto actúa como activos canario: sirve para identificar problemas y determinar el impacto operativo probable del parche. En la práctica, es así como el parcheo queda probado antes de extenderse al resto."
         }
       ],
@@ -12718,12 +12718,12 @@
       "options": [
         {
           "id": "A",
-          "text": "Parchear y actualizar el sistema operativo, endurecerlo y configurarlo, instalar controles de seguridad adicionales si se necesitan, y probar la seguridad del resultado.",
+          "text": "Parchear y actualizar el sistema, endurecerlo y configurarlo, añadir controles si se necesitan y probar su seguridad.",
           "rationale": "La guía enumera cuatro pasos: parchear y actualizar el sistema operativo, endurecerlo y configurarlo para atender la seguridad de forma adecuada, instalar y configurar controles de seguridad adicionales si se necesitan, y probar la seguridad del sistema para confirmar que los pasos anteriores cubrieron los problemas."
         },
         {
           "id": "B",
-          "text": "Instalar un antivirus, activar el firewall del sistema y programar copias de seguridad semanales.",
+          "text": "Instalar un antivirus, activar el firewall del sistema, programar copias de seguridad semanales y documentar la configuración.",
           "rationale": "Son controles útiles, pero no son la secuencia de aseguramiento que la guía define: dejan fuera el parcheo, el endurecimiento y la prueba posterior."
         },
         {
@@ -12781,7 +12781,7 @@
         },
         {
           "id": "C",
-          "text": "Solo si un usuario externo llega a reportar un problema de seguridad concreto.",
+          "text": "Cuando un usuario externo reporte un problema de seguridad concreto en el portal.",
           "rationale": "Incorrecta: la corrección no depende de un reporte externo; la guía ordena corregir las vulnerabilidades conocidas de forma previa a la exposición."
         },
         {
@@ -12829,17 +12829,17 @@
         },
         {
           "id": "B",
-          "text": "Ni la descarga ni la instalación deben automatizarse; ambas deben hacerse siempre a mano.",
+          "text": "Ni la descarga ni la instalación deben automatizarse; ambas deben hacerse a mano.",
           "rationale": "Incorrecta: la guía sí admite la descarga automática de parches; lo que desaconseja es la instalación automática sin pruebas previas."
         },
         {
           "id": "C",
-          "text": "Los servidores pueden descargar los parches automáticamente, pero no deben configurarse para instalarlos de forma automática, de modo que primero se puedan probar.",
+          "text": "Pueden descargar los parches automáticamente, pero no instalarlos así, para poder probarlos antes.",
           "rationale": "Correcta: la guía indica que 'although administrators can configure servers to download patches automatically, the servers should not be configured to install them automatically so that they can first be tested', es decir, permite la descarga automática pero no la instalación automática, para poder probar los parches antes."
         },
         {
           "id": "D",
-          "text": "La instalación automática es aceptable siempre que se realice fuera del horario laboral.",
+          "text": "La instalación automática es aceptable si se realiza fuera del horario laboral.",
           "rationale": "Incorrecta: la objeción de la guía a la instalación automática es la falta de pruebas previas, no el horario en que ocurra."
         }
       ],
@@ -12877,22 +12877,22 @@
       "options": [
         {
           "id": "A",
-          "text": "Es un servidor destinado a alojar la mayor cantidad posible de servicios para aprovechar el hardware.",
+          "text": "Es un servidor destinado a alojar la mayor cantidad posible de servicios para aprovechar mejor el hardware.",
           "rationale": "Incorrecta: el bastion host busca ofrecer la mínima funcionalidad posible, no concentrar la mayor cantidad de servicios."
         },
         {
           "id": "B",
-          "text": "Es un equipo sin controles de seguridad especiales, pensado únicamente para pruebas internas.",
+          "text": "Es un equipo sin controles de seguridad especiales, pensado para pruebas internas.",
           "rationale": "Incorrecta: el bastion host se define precisamente por tener controles de seguridad particularmente fuertes."
         },
         {
           "id": "C",
-          "text": "Es un servidor que replica automáticamente la configuración de los demás equipos de la red.",
+          "text": "Es un servidor que replica la configuración de los demás equipos de la red.",
           "rationale": "Incorrecta: la definición no se refiere a replicar configuraciones, sino a controles de seguridad fuertes y mínima funcionalidad."
         },
         {
           "id": "D",
-          "text": "Es un equipo con controles de seguridad particularmente fuertes y configurado para ofrecer la menor funcionalidad posible.",
+          "text": "Es un equipo con controles de seguridad muy fuertes, configurado con la mínima funcionalidad posible.",
           "rationale": "Correcta: la guía define que 'a bastion host has particularly strong security controls and is configured so as to offer the least functionality possible', es decir, controles de seguridad fuertes y la mínima funcionalidad posible."
         }
       ],
@@ -12930,12 +12930,12 @@
       "options": [
         {
           "id": "A",
-          "text": "De ser posible, instalar la configuración mínima del sistema operativo y luego agregar, remover o deshabilitar servicios, aplicaciones y protocolos según lo necesario.",
+          "text": "Instalar la configuración mínima y luego agregar, quitar o deshabilitar servicios, aplicaciones y protocolos según se necesite.",
           "rationale": "Correcta: la guía recomienda 'install the minimal OS configuration and then add, remove, or disable services, applications, and network protocols as needed', es decir, partir de una instalación mínima y ajustar los servicios y protocolos según la necesidad."
         },
         {
           "id": "B",
-          "text": "Instalar todos los servicios y protocolos disponibles y dejar que el firewall bloquee lo que no se use.",
+          "text": "Instalar los servicios y protocolos disponibles y dejar que el firewall bloquee lo que no se use.",
           "rationale": "Incorrecta: la guía busca partir de una configuración mínima; delegar todo al firewall deja instalados componentes innecesarios en el propio servidor."
         },
         {
@@ -12945,7 +12945,7 @@
         },
         {
           "id": "D",
-          "text": "No modificar los servicios instalados por defecto para conservar la compatibilidad certificada por el fabricante.",
+          "text": "No modificar los servicios instalados por defecto, para conservar la compatibilidad certificada por el fabricante original del sistema.",
           "rationale": "Incorrecta: la guía indica ajustar los servicios, aplicaciones y protocolos según la necesidad, no conservar sin cambios lo instalado por defecto."
         }
       ],
@@ -12983,17 +12983,17 @@
       "options": [
         {
           "id": "A",
-          "text": "Dejarlas activas pero asignarles contraseñas largas, ya que las cuentas por defecto no representan riesgo.",
+          "text": "Dejarlas activas pero asignarles contraseñas largas, ya que las cuentas por defecto no representan riesgo real.",
           "rationale": "Incorrecta: la guía busca eliminar el uso de esas cuentas por atacantes removiéndolas o deshabilitándolas, no simplemente mantenerlas activas con contraseñas largas."
         },
         {
           "id": "B",
-          "text": "Removerlas cuando sea posible o deshabilitarlas, para eliminar su uso por parte de atacantes, incluida la cuenta de invitado en equipos con información sensible.",
+          "text": "Removerlas cuando sea posible o deshabilitarlas, incluida la de invitado en equipos con información sensible.",
           "rationale": "Correcta: la guía indica 'remove (whenever possible) or disable unnecessary accounts to eliminate their use by attackers, including guest accounts on computers containing sensitive information', es decir, remover o deshabilitar las cuentas innecesarias, incluida la de invitado en equipos con información sensible."
         },
         {
           "id": "C",
-          "text": "Convertirlas en cuentas de administrador para tener respaldo de acceso ante un olvido de credenciales.",
+          "text": "Convertirlas en cuentas de administrador para tener respaldo de acceso ante un olvido de las credenciales principales.",
           "rationale": "Incorrecta: elevar cuentas por defecto innecesarias a administrador aumenta el riesgo; la guía recomienda removerlas o deshabilitarlas."
         },
         {
@@ -13046,7 +13046,7 @@
         },
         {
           "id": "C",
-          "text": "Configurar el sistema para incrementar el periodo entre intentos de inicio de sesión con cada intento fallido.",
+          "text": "Aumentar el periodo entre intentos de inicio de sesión con cada intento fallido.",
           "rationale": "Correcta: la guía señala 'if the OS provides the capability, configure it to increase the period between login attempts with each unsuccessful attempt', es decir, aumentar el intervalo entre intentos de inicio de sesión con cada intento fallido."
         },
         {
@@ -13089,7 +13089,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Cifrar los archivos de registro y dejarlos en el mismo servidor, ya que el cifrado es suficiente por sí solo.",
+          "text": "Cifrar los archivos de registro y dejarlos en el mismo servidor, protegidos por el cifrado.",
           "rationale": "Incorrecta: la guía reconoce que el cifrado puede ser útil, pero presenta como mejor solución almacenar los registros en un host separado, no dejarlos en el mismo servidor."
         },
         {
@@ -13147,17 +13147,17 @@
         },
         {
           "id": "B",
-          "text": "Como una actividad opcional que solo se ejecuta cuando sobra tiempo del equipo de soporte.",
+          "text": "Como una actividad opcional que se ejecuta cuando sobra tiempo del equipo de soporte.",
           "rationale": "El parcheo no es una actividad opcional supeditada al tiempo libre; se considera un costo estándar del negocio que debe seguirse y registrarse con rigor."
         },
         {
           "id": "C",
-          "text": "Como una tarea que solo corresponde al proveedor del software y no a la entidad.",
+          "text": "Como una tarea que corresponde al proveedor del software y no a la entidad.",
           "rationale": "La responsabilidad de aplicar y hacer seguimiento al parcheo recae en la organización; no se traslada íntegramente al proveedor, aunque este publique los parches."
         },
         {
           "id": "D",
-          "text": "Como una medida correctiva que solo se ejecuta después de sufrir un incidente de seguridad.",
+          "text": "Como una medida correctiva que se ejecuta después de sufrir un incidente de seguridad.",
           "rationale": "El parcheo es una práctica sostenida y rigurosa de mantenimiento, no una reacción que solo se activa una vez ocurrido el incidente."
         }
       ],
@@ -13200,12 +13200,12 @@
         },
         {
           "id": "B",
-          "text": "El parche para esa vulnerabilidad no será liberado nunca porque el software está en fin de vida.",
+          "text": "No se liberará ese parche, porque el software está en fin de vida.",
           "rationale": "Cuando el proveedor ya no soporta el software vulnerable, el parche nunca será liberado porque el producto está en fin de vida, de modo que la entidad debe gestionar el riesgo por otras vías."
         },
         {
           "id": "C",
-          "text": "El parche llegará automáticamente en la siguiente actualización del sistema operativo.",
+          "text": "El parche llegará en la siguiente actualización del sistema operativo.",
           "rationale": "Un producto en fin de vida no recibe parches, por lo que no llegará ninguna corrección con futuras actualizaciones."
         },
         {
@@ -13248,17 +13248,17 @@
       "options": [
         {
           "id": "A",
-          "text": "Contratar de inmediato un seguro que cubra los daños de cualquier incidente informático.",
+          "text": "Contratar de inmediato un seguro que cubra los daños de los incidentes informáticos futuros de la entidad.",
           "rationale": "Un seguro no reemplaza el conocimiento del inventario de activos y software, que es la base para gestionar las vulnerabilidades."
         },
         {
           "id": "B",
-          "text": "Migrar todos los servidores a la nube antes de revisar cualquier vulnerabilidad.",
+          "text": "Migrar los servidores a la nube antes de revisar las vulnerabilidades existentes.",
           "rationale": "Migrar a la nube no es el prerrequisito señalado; primero debe conocerse el inventario de activos y de software con sus versiones."
         },
         {
           "id": "C",
-          "text": "Conocer qué activos usa la organización y qué software y versiones ejecutan, hasta paquetes y librerías.",
+          "text": "Conocer los activos de la organización y qué software y versiones ejecutan, hasta librerías.",
           "rationale": "El prerrequisito es conocer los activos y saber qué software y versiones ejecutan, hasta el nivel de paquetes y librerías, además de seguir las nuevas vulnerabilidades de ese software."
         },
         {
@@ -13316,7 +13316,7 @@
         },
         {
           "id": "D",
-          "text": "Se prioriza el parche cuyo despliegue reduciría más el riesgo de ciberseguridad que los demás.",
+          "text": "Se prioriza el parche cuyo despliegue reduce más el riesgo de ciberseguridad.",
           "rationale": "Un parche puede tener mayor prioridad de despliegue que otros porque su instalación reduciría el riesgo de ciberseguridad más que los demás parches."
         }
       ],
@@ -13354,12 +13354,12 @@
       "options": [
         {
           "id": "A",
-          "text": "Que el parche provenga de una fuente ilegítima o haya sido alterado en tránsito o tras su obtención.",
+          "text": "Que el parche venga de una fuente ilegítima o haya sido alterado antes de instalarlo.",
           "rationale": "El parche podría haberse obtenido de una fuente ilegítima o haber sido alterado en tránsito o después de su obtención, por lo que debe validarse su procedencia e integridad antes de instalarlo."
         },
         {
           "id": "B",
-          "text": "Que el parche resulte más pesado de lo previsto y ocupe demasiado ancho de banda.",
+          "text": "Que el parche resulte más pesado de lo previsto y ocupe demasiado ancho de banda de la red.",
           "rationale": "El consumo de ancho de banda no es el riesgo central que exige control previo a la instalación."
         },
         {
@@ -13369,7 +13369,7 @@
         },
         {
           "id": "D",
-          "text": "Que el parche exija reiniciar el servidor y afecte la disponibilidad del servicio.",
+          "text": "Que el parche exija reiniciar el servidor y afecte la disponibilidad del servicio a los usuarios.",
           "rationale": "El reinicio es un impacto operativo real, y por eso se planifica la ventana de mantenimiento, pero no es el riesgo que obliga a validar el parche antes de instalarlo."
         }
       ],
@@ -13407,17 +13407,17 @@
       "options": [
         {
           "id": "A",
-          "text": "Cumplir un requisito de imagen institucional ante los usuarios de la entidad.",
+          "text": "Cumplir un requisito de imagen institucional ante los usuarios y directivos de la entidad.",
           "rationale": "La prueba previa no busca imagen institucional, sino identificar problemas del parche antes de producción."
         },
         {
           "id": "B",
-          "text": "Reducir el riesgo operacional identificando problemas del parche antes de llevarlo a producción.",
+          "text": "Reducir el riesgo operacional detectando problemas del parche antes de producción.",
           "rationale": "La prueba busca reducir el riesgo operacional al identificar problemas con el parche antes de ponerlo en producción."
         },
         {
           "id": "C",
-          "text": "Reemplazar la necesidad de validar la procedencia e integridad del parche.",
+          "text": "Reemplazar la necesidad de validar la procedencia y la integridad del parche descargado.",
           "rationale": "Probar el parche no sustituye la validación de su autenticidad; su propósito es reducir el riesgo operacional detectando problemas antes de producción."
         },
         {
@@ -13460,22 +13460,22 @@
       "options": [
         {
           "id": "A",
-          "text": "Verificar únicamente que el consumo de memoria del activo bajó tras el parche.",
+          "text": "Verificar que el consumo de memoria del activo bajó después de aplicar el parche.",
           "rationale": "El consumo de memoria no confirma que el activo siga corregido; el monitoreo debe verificar que el parche permanezca instalado y no haya sido revertido."
         },
         {
           "id": "B",
-          "text": "Comprobar solamente que el usuario firmó el acta de recepción del mantenimiento.",
+          "text": "Comprobar que el usuario firmó el acta de recepción del mantenimiento realizado.",
           "rationale": "La firma del acta no acredita el estado técnico del parche; se debe monitorear que no haya sido desinstalado o revertido a un estado vulnerable."
         },
         {
           "id": "C",
-          "text": "Confirmar que el parche no fue desinstalado, ni restaurado desde un respaldo sin parchar, ni revertido a un estado de fábrica vulnerable.",
+          "text": "Confirmar que el parche no fue desinstalado, restaurado desde un respaldo sin parchar ni revertido a fábrica.",
           "rationale": "El monitoreo permite confirmar que el parche no fue desinstalado por un usuario o atacante, que no se restauró una versión sin parchar desde un respaldo y que el dispositivo no fue devuelto a un estado de fábrica vulnerable."
         },
         {
           "id": "D",
-          "text": "Comprobar que el parche quedó registrado en la hoja de vida del activo.",
+          "text": "Comprobar que el parche quedó registrado tanto en la hoja de vida del activo como en la herramienta de inventario.",
           "rationale": "Dejar constancia documental es buena práctica, pero no confirma que el parche siga efectivamente instalado en el activo."
         }
       ],
@@ -13513,12 +13513,12 @@
       "options": [
         {
           "id": "A",
-          "text": "El parcheo manual es preferible porque evita depender de cualquier herramienta tecnológica.",
+          "text": "El parcheo manual es preferible porque evita depender de herramientas tecnológicas externas.",
           "rationale": "La fuente indica lo contrario: ante el volumen de activos, software, vulnerabilidades y parches, no es posible mantenerse al día sin automatización."
         },
         {
           "id": "B",
-          "text": "El parcheo manual es viable si se limita a los servidores críticos y se deja sin parchear el resto del parque.",
+          "text": "El parcheo manual es viable si se limita a los servidores críticos y se deja sin parchear el resto de los equipos del parque.",
           "rationale": "Dejar el resto del parque sin parchear no resuelve el problema: mantiene activos vulnerables y no sustituye la automatización que exige la escala."
         },
         {
@@ -13528,7 +13528,7 @@
         },
         {
           "id": "D",
-          "text": "Sin automatización la organización no puede mantenerse al día por el enorme número de activos, instalaciones, vulnerabilidades y parches.",
+          "text": "Sin automatización no es posible mantenerse al día con tantos activos, instalaciones, vulnerabilidades y parches.",
           "rationale": "No hay forma de que una organización se mantenga al día con el parcheo sin automatización, debido al enorme número de activos, instalaciones de software, vulnerabilidades y parches."
         }
       ],

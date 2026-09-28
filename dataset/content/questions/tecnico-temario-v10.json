@@ -11,7 +11,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Si el servicio resulta comprometido, el daño alcanzará todos los recursos accesibles con esos permisos.",
+        "text": "Si el servicio es comprometido, el daño alcanzará todo lo accesible con esos permisos.",
         "rationale": "El principio de mínimo privilegio otorga a cada tarea, proceso o usuario únicamente los derechos que necesita, de modo que un compromiso quede confinado a los recursos limitados de la entidad comprometida. Con permisos de administrador, ese confinamiento desaparece."
       },
       {
@@ -21,7 +21,7 @@
       },
       {
         "id": "C",
-        "text": "El sistema operativo deshabilitará el servicio automáticamente por exceso de privilegios.",
+        "text": "El sistema operativo deshabilitará el servicio al detectar el exceso de privilegios.",
         "rationale": "Ningún sistema operativo revoca privilegios por sí mismo: la asignación excesiva persiste hasta que un administrador la corrige."
       },
       {
@@ -64,12 +64,12 @@
     "options": [
       {
         "id": "A",
-        "text": "Porque un servicio deshabilitado sigue consumiendo memoria y procesador del servidor.",
+        "text": "Porque un servicio deshabilitado sigue consumiendo memoria y procesador del servidor en segundo plano.",
         "rationale": "Un servicio deshabilitado no permanece en ejecución, así que el argumento del consumo de recursos no sostiene la preferencia."
       },
       {
         "id": "B",
-        "text": "Porque un ataque que altere la configuración puede reactivar un servicio deshabilitado, y también puede reactivarse por error humano.",
+        "text": "Porque un ataque o un error humano pueden reactivar un servicio que solo está deshabilitado.",
         "rationale": "Retirar los componentes funcionales es preferible a deshabilitarlos porque un ataque que modifique la configuración para activar un servicio deshabilitado no puede tener éxito si el componente ya no existe; además, un servicio deshabilitado puede quedar habilitado de nuevo por error humano."
       },
       {
@@ -117,17 +117,17 @@
     "options": [
       {
         "id": "A",
-        "text": "Instalar todas las actualizaciones disponibles el mismo día en que el fabricante las publica.",
+        "text": "Instalar las actualizaciones disponibles el mismo día en que el fabricante las publica en su portal.",
         "rationale": "El despliegue inmediato y sin priorizar omite las pruebas previas y las ventanas de mantenimiento, y no describe el alcance del proceso."
       },
       {
         "id": "B",
-        "text": "Restaurar los equipos a su configuración de fábrica en periodos definidos.",
+        "text": "Restaurar los equipos a su configuración de fábrica en periodos definidos y reinstalar después las actualizaciones.",
         "rationale": "Restablecer a fábrica puede incluso devolver el equipo a un estado vulnerable y deshacer parches ya aplicados."
       },
       {
         "id": "C",
-        "text": "Identificar, priorizar, adquirir, instalar y verificar la instalación de parches, actualizaciones y mejoras en toda la organización.",
+        "text": "Identificar, priorizar, adquirir, instalar y verificar parches, actualizaciones y mejoras en toda la organización.",
         "rationale": "La gestión de parches en la organización es el proceso de identificar, priorizar, adquirir, instalar y verificar la instalación de parches, actualizaciones y mejoras a lo largo de toda la entidad. La verificación forma parte del proceso, no termina con la instalación."
       },
       {
@@ -175,8 +175,8 @@
       },
       {
         "id": "B",
-        "text": "Cumplir la regla de instalar los parches siguiendo el orden alfabético de los equipos.",
-        "rationale": "No existe una regla semejante en la planificación del mantenimiento."
+        "text": "Obtener la aprobación de los usuarios de ese grupo antes de instalar el parche en los demás equipos.",
+        "rationale": "La aceptación de los usuarios no es el propósito del subconjunto inicial: se busca detectar problemas y estimar el impacto."
       },
       {
         "id": "C",
@@ -185,7 +185,7 @@
       },
       {
         "id": "D",
-        "text": "Detectar problemas y estimar el impacto operativo probable del parche antes de ampliar el despliegue.",
+        "text": "Detectar problemas y estimar el impacto operativo del parche antes de ampliar el despliegue.",
         "rationale": "Ese subconjunto actúa como activos canario: sirve para identificar problemas y determinar el impacto operativo probable del parche. En la práctica, es así como el parcheo queda probado antes de extenderse al resto."
       }
     ],
@@ -223,12 +223,12 @@
     "options": [
       {
         "id": "A",
-        "text": "Parchear y actualizar el sistema operativo, endurecerlo y configurarlo, instalar controles de seguridad adicionales si se necesitan, y probar la seguridad del resultado.",
+        "text": "Parchear y actualizar el sistema, endurecerlo y configurarlo, añadir controles si se necesitan y probar su seguridad.",
         "rationale": "La guía enumera cuatro pasos: parchear y actualizar el sistema operativo, endurecerlo y configurarlo para atender la seguridad de forma adecuada, instalar y configurar controles de seguridad adicionales si se necesitan, y probar la seguridad del sistema para confirmar que los pasos anteriores cubrieron los problemas."
       },
       {
         "id": "B",
-        "text": "Instalar un antivirus, activar el firewall del sistema y programar copias de seguridad semanales.",
+        "text": "Instalar un antivirus, activar el firewall del sistema, programar copias de seguridad semanales y documentar la configuración.",
         "rationale": "Son controles útiles, pero no son la secuencia de aseguramiento que la guía define: dejan fuera el parcheo, el endurecimiento y la prueba posterior."
       },
       {
@@ -286,7 +286,7 @@
       },
       {
         "id": "C",
-        "text": "Solo si un usuario externo llega a reportar un problema de seguridad concreto.",
+        "text": "Cuando un usuario externo reporte un problema de seguridad concreto en el portal.",
         "rationale": "Incorrecta: la corrección no depende de un reporte externo; la guía ordena corregir las vulnerabilidades conocidas de forma previa a la exposición."
       },
       {
@@ -334,17 +334,17 @@
       },
       {
         "id": "B",
-        "text": "Ni la descarga ni la instalación deben automatizarse; ambas deben hacerse siempre a mano.",
+        "text": "Ni la descarga ni la instalación deben automatizarse; ambas deben hacerse a mano.",
         "rationale": "Incorrecta: la guía sí admite la descarga automática de parches; lo que desaconseja es la instalación automática sin pruebas previas."
       },
       {
         "id": "C",
-        "text": "Los servidores pueden descargar los parches automáticamente, pero no deben configurarse para instalarlos de forma automática, de modo que primero se puedan probar.",
+        "text": "Pueden descargar los parches automáticamente, pero no instalarlos así, para poder probarlos antes.",
         "rationale": "Correcta: la guía indica que 'although administrators can configure servers to download patches automatically, the servers should not be configured to install them automatically so that they can first be tested', es decir, permite la descarga automática pero no la instalación automática, para poder probar los parches antes."
       },
       {
         "id": "D",
-        "text": "La instalación automática es aceptable siempre que se realice fuera del horario laboral.",
+        "text": "La instalación automática es aceptable si se realiza fuera del horario laboral.",
         "rationale": "Incorrecta: la objeción de la guía a la instalación automática es la falta de pruebas previas, no el horario en que ocurra."
       }
     ],
@@ -382,22 +382,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Es un servidor destinado a alojar la mayor cantidad posible de servicios para aprovechar el hardware.",
+        "text": "Es un servidor destinado a alojar la mayor cantidad posible de servicios para aprovechar mejor el hardware.",
         "rationale": "Incorrecta: el bastion host busca ofrecer la mínima funcionalidad posible, no concentrar la mayor cantidad de servicios."
       },
       {
         "id": "B",
-        "text": "Es un equipo sin controles de seguridad especiales, pensado únicamente para pruebas internas.",
+        "text": "Es un equipo sin controles de seguridad especiales, pensado para pruebas internas.",
         "rationale": "Incorrecta: el bastion host se define precisamente por tener controles de seguridad particularmente fuertes."
       },
       {
         "id": "C",
-        "text": "Es un servidor que replica automáticamente la configuración de los demás equipos de la red.",
+        "text": "Es un servidor que replica la configuración de los demás equipos de la red.",
         "rationale": "Incorrecta: la definición no se refiere a replicar configuraciones, sino a controles de seguridad fuertes y mínima funcionalidad."
       },
       {
         "id": "D",
-        "text": "Es un equipo con controles de seguridad particularmente fuertes y configurado para ofrecer la menor funcionalidad posible.",
+        "text": "Es un equipo con controles de seguridad muy fuertes, configurado con la mínima funcionalidad posible.",
         "rationale": "Correcta: la guía define que 'a bastion host has particularly strong security controls and is configured so as to offer the least functionality possible', es decir, controles de seguridad fuertes y la mínima funcionalidad posible."
       }
     ],
@@ -435,12 +435,12 @@
     "options": [
       {
         "id": "A",
-        "text": "De ser posible, instalar la configuración mínima del sistema operativo y luego agregar, remover o deshabilitar servicios, aplicaciones y protocolos según lo necesario.",
+        "text": "Instalar la configuración mínima y luego agregar, quitar o deshabilitar servicios, aplicaciones y protocolos según se necesite.",
         "rationale": "Correcta: la guía recomienda 'install the minimal OS configuration and then add, remove, or disable services, applications, and network protocols as needed', es decir, partir de una instalación mínima y ajustar los servicios y protocolos según la necesidad."
       },
       {
         "id": "B",
-        "text": "Instalar todos los servicios y protocolos disponibles y dejar que el firewall bloquee lo que no se use.",
+        "text": "Instalar los servicios y protocolos disponibles y dejar que el firewall bloquee lo que no se use.",
         "rationale": "Incorrecta: la guía busca partir de una configuración mínima; delegar todo al firewall deja instalados componentes innecesarios en el propio servidor."
       },
       {
@@ -450,7 +450,7 @@
       },
       {
         "id": "D",
-        "text": "No modificar los servicios instalados por defecto para conservar la compatibilidad certificada por el fabricante.",
+        "text": "No modificar los servicios instalados por defecto, para conservar la compatibilidad certificada por el fabricante original del sistema.",
         "rationale": "Incorrecta: la guía indica ajustar los servicios, aplicaciones y protocolos según la necesidad, no conservar sin cambios lo instalado por defecto."
       }
     ],
@@ -488,17 +488,17 @@
     "options": [
       {
         "id": "A",
-        "text": "Dejarlas activas pero asignarles contraseñas largas, ya que las cuentas por defecto no representan riesgo.",
+        "text": "Dejarlas activas pero asignarles contraseñas largas, ya que las cuentas por defecto no representan riesgo real.",
         "rationale": "Incorrecta: la guía busca eliminar el uso de esas cuentas por atacantes removiéndolas o deshabilitándolas, no simplemente mantenerlas activas con contraseñas largas."
       },
       {
         "id": "B",
-        "text": "Removerlas cuando sea posible o deshabilitarlas, para eliminar su uso por parte de atacantes, incluida la cuenta de invitado en equipos con información sensible.",
+        "text": "Removerlas cuando sea posible o deshabilitarlas, incluida la de invitado en equipos con información sensible.",
         "rationale": "Correcta: la guía indica 'remove (whenever possible) or disable unnecessary accounts to eliminate their use by attackers, including guest accounts on computers containing sensitive information', es decir, remover o deshabilitar las cuentas innecesarias, incluida la de invitado en equipos con información sensible."
       },
       {
         "id": "C",
-        "text": "Convertirlas en cuentas de administrador para tener respaldo de acceso ante un olvido de credenciales.",
+        "text": "Convertirlas en cuentas de administrador para tener respaldo de acceso ante un olvido de las credenciales principales.",
         "rationale": "Incorrecta: elevar cuentas por defecto innecesarias a administrador aumenta el riesgo; la guía recomienda removerlas o deshabilitarlas."
       },
       {
@@ -551,7 +551,7 @@
       },
       {
         "id": "C",
-        "text": "Configurar el sistema para incrementar el periodo entre intentos de inicio de sesión con cada intento fallido.",
+        "text": "Aumentar el periodo entre intentos de inicio de sesión con cada intento fallido.",
         "rationale": "Correcta: la guía señala 'if the OS provides the capability, configure it to increase the period between login attempts with each unsuccessful attempt', es decir, aumentar el intervalo entre intentos de inicio de sesión con cada intento fallido."
       },
       {
@@ -594,7 +594,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Cifrar los archivos de registro y dejarlos en el mismo servidor, ya que el cifrado es suficiente por sí solo.",
+        "text": "Cifrar los archivos de registro y dejarlos en el mismo servidor, protegidos por el cifrado.",
         "rationale": "Incorrecta: la guía reconoce que el cifrado puede ser útil, pero presenta como mejor solución almacenar los registros en un host separado, no dejarlos en el mismo servidor."
       },
       {
@@ -652,17 +652,17 @@
       },
       {
         "id": "B",
-        "text": "Como una actividad opcional que solo se ejecuta cuando sobra tiempo del equipo de soporte.",
+        "text": "Como una actividad opcional que se ejecuta cuando sobra tiempo del equipo de soporte.",
         "rationale": "El parcheo no es una actividad opcional supeditada al tiempo libre; se considera un costo estándar del negocio que debe seguirse y registrarse con rigor."
       },
       {
         "id": "C",
-        "text": "Como una tarea que solo corresponde al proveedor del software y no a la entidad.",
+        "text": "Como una tarea que corresponde al proveedor del software y no a la entidad.",
         "rationale": "La responsabilidad de aplicar y hacer seguimiento al parcheo recae en la organización; no se traslada íntegramente al proveedor, aunque este publique los parches."
       },
       {
         "id": "D",
-        "text": "Como una medida correctiva que solo se ejecuta después de sufrir un incidente de seguridad.",
+        "text": "Como una medida correctiva que se ejecuta después de sufrir un incidente de seguridad.",
         "rationale": "El parcheo es una práctica sostenida y rigurosa de mantenimiento, no una reacción que solo se activa una vez ocurrido el incidente."
       }
     ],
@@ -705,12 +705,12 @@
       },
       {
         "id": "B",
-        "text": "El parche para esa vulnerabilidad no será liberado nunca porque el software está en fin de vida.",
+        "text": "No se liberará ese parche, porque el software está en fin de vida.",
         "rationale": "Cuando el proveedor ya no soporta el software vulnerable, el parche nunca será liberado porque el producto está en fin de vida, de modo que la entidad debe gestionar el riesgo por otras vías."
       },
       {
         "id": "C",
-        "text": "El parche llegará automáticamente en la siguiente actualización del sistema operativo.",
+        "text": "El parche llegará en la siguiente actualización del sistema operativo.",
         "rationale": "Un producto en fin de vida no recibe parches, por lo que no llegará ninguna corrección con futuras actualizaciones."
       },
       {
@@ -753,17 +753,17 @@
     "options": [
       {
         "id": "A",
-        "text": "Contratar de inmediato un seguro que cubra los daños de cualquier incidente informático.",
+        "text": "Contratar de inmediato un seguro que cubra los daños de los incidentes informáticos futuros de la entidad.",
         "rationale": "Un seguro no reemplaza el conocimiento del inventario de activos y software, que es la base para gestionar las vulnerabilidades."
       },
       {
         "id": "B",
-        "text": "Migrar todos los servidores a la nube antes de revisar cualquier vulnerabilidad.",
+        "text": "Migrar los servidores a la nube antes de revisar las vulnerabilidades existentes.",
         "rationale": "Migrar a la nube no es el prerrequisito señalado; primero debe conocerse el inventario de activos y de software con sus versiones."
       },
       {
         "id": "C",
-        "text": "Conocer qué activos usa la organización y qué software y versiones ejecutan, hasta paquetes y librerías.",
+        "text": "Conocer los activos de la organización y qué software y versiones ejecutan, hasta librerías.",
         "rationale": "El prerrequisito es conocer los activos y saber qué software y versiones ejecutan, hasta el nivel de paquetes y librerías, además de seguir las nuevas vulnerabilidades de ese software."
       },
       {
@@ -821,7 +821,7 @@
       },
       {
         "id": "D",
-        "text": "Se prioriza el parche cuyo despliegue reduciría más el riesgo de ciberseguridad que los demás.",
+        "text": "Se prioriza el parche cuyo despliegue reduce más el riesgo de ciberseguridad.",
         "rationale": "Un parche puede tener mayor prioridad de despliegue que otros porque su instalación reduciría el riesgo de ciberseguridad más que los demás parches."
       }
     ],
@@ -859,12 +859,12 @@
     "options": [
       {
         "id": "A",
-        "text": "Que el parche provenga de una fuente ilegítima o haya sido alterado en tránsito o tras su obtención.",
+        "text": "Que el parche venga de una fuente ilegítima o haya sido alterado antes de instalarlo.",
         "rationale": "El parche podría haberse obtenido de una fuente ilegítima o haber sido alterado en tránsito o después de su obtención, por lo que debe validarse su procedencia e integridad antes de instalarlo."
       },
       {
         "id": "B",
-        "text": "Que el parche resulte más pesado de lo previsto y ocupe demasiado ancho de banda.",
+        "text": "Que el parche resulte más pesado de lo previsto y ocupe demasiado ancho de banda de la red.",
         "rationale": "El consumo de ancho de banda no es el riesgo central que exige control previo a la instalación."
       },
       {
@@ -874,7 +874,7 @@
       },
       {
         "id": "D",
-        "text": "Que el parche exija reiniciar el servidor y afecte la disponibilidad del servicio.",
+        "text": "Que el parche exija reiniciar el servidor y afecte la disponibilidad del servicio a los usuarios.",
         "rationale": "El reinicio es un impacto operativo real, y por eso se planifica la ventana de mantenimiento, pero no es el riesgo que obliga a validar el parche antes de instalarlo."
       }
     ],
@@ -912,17 +912,17 @@
     "options": [
       {
         "id": "A",
-        "text": "Cumplir un requisito de imagen institucional ante los usuarios de la entidad.",
+        "text": "Cumplir un requisito de imagen institucional ante los usuarios y directivos de la entidad.",
         "rationale": "La prueba previa no busca imagen institucional, sino identificar problemas del parche antes de producción."
       },
       {
         "id": "B",
-        "text": "Reducir el riesgo operacional identificando problemas del parche antes de llevarlo a producción.",
+        "text": "Reducir el riesgo operacional detectando problemas del parche antes de producción.",
         "rationale": "La prueba busca reducir el riesgo operacional al identificar problemas con el parche antes de ponerlo en producción."
       },
       {
         "id": "C",
-        "text": "Reemplazar la necesidad de validar la procedencia e integridad del parche.",
+        "text": "Reemplazar la necesidad de validar la procedencia y la integridad del parche descargado.",
         "rationale": "Probar el parche no sustituye la validación de su autenticidad; su propósito es reducir el riesgo operacional detectando problemas antes de producción."
       },
       {
@@ -965,22 +965,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Verificar únicamente que el consumo de memoria del activo bajó tras el parche.",
+        "text": "Verificar que el consumo de memoria del activo bajó después de aplicar el parche.",
         "rationale": "El consumo de memoria no confirma que el activo siga corregido; el monitoreo debe verificar que el parche permanezca instalado y no haya sido revertido."
       },
       {
         "id": "B",
-        "text": "Comprobar solamente que el usuario firmó el acta de recepción del mantenimiento.",
+        "text": "Comprobar que el usuario firmó el acta de recepción del mantenimiento realizado.",
         "rationale": "La firma del acta no acredita el estado técnico del parche; se debe monitorear que no haya sido desinstalado o revertido a un estado vulnerable."
       },
       {
         "id": "C",
-        "text": "Confirmar que el parche no fue desinstalado, ni restaurado desde un respaldo sin parchar, ni revertido a un estado de fábrica vulnerable.",
+        "text": "Confirmar que el parche no fue desinstalado, restaurado desde un respaldo sin parchar ni revertido a fábrica.",
         "rationale": "El monitoreo permite confirmar que el parche no fue desinstalado por un usuario o atacante, que no se restauró una versión sin parchar desde un respaldo y que el dispositivo no fue devuelto a un estado de fábrica vulnerable."
       },
       {
         "id": "D",
-        "text": "Comprobar que el parche quedó registrado en la hoja de vida del activo.",
+        "text": "Comprobar que el parche quedó registrado tanto en la hoja de vida del activo como en la herramienta de inventario.",
         "rationale": "Dejar constancia documental es buena práctica, pero no confirma que el parche siga efectivamente instalado en el activo."
       }
     ],
@@ -1018,12 +1018,12 @@
     "options": [
       {
         "id": "A",
-        "text": "El parcheo manual es preferible porque evita depender de cualquier herramienta tecnológica.",
+        "text": "El parcheo manual es preferible porque evita depender de herramientas tecnológicas externas.",
         "rationale": "La fuente indica lo contrario: ante el volumen de activos, software, vulnerabilidades y parches, no es posible mantenerse al día sin automatización."
       },
       {
         "id": "B",
-        "text": "El parcheo manual es viable si se limita a los servidores críticos y se deja sin parchear el resto del parque.",
+        "text": "El parcheo manual es viable si se limita a los servidores críticos y se deja sin parchear el resto de los equipos del parque.",
         "rationale": "Dejar el resto del parque sin parchear no resuelve el problema: mantiene activos vulnerables y no sustituye la automatización que exige la escala."
       },
       {
@@ -1033,7 +1033,7 @@
       },
       {
         "id": "D",
-        "text": "Sin automatización la organización no puede mantenerse al día por el enorme número de activos, instalaciones, vulnerabilidades y parches.",
+        "text": "Sin automatización no es posible mantenerse al día con tantos activos, instalaciones, vulnerabilidades y parches.",
         "rationale": "No hay forma de que una organización se mantenga al día con el parcheo sin automatización, debido al enorme número de activos, instalaciones de software, vulnerabilidades y parches."
       }
     ],

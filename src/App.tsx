@@ -269,6 +269,8 @@ export default function App() {
         {bank && view === 'progress' && (
           <ProgressView
             learning={{ progress, temporary }}
+            bank={bank}
+            examTopics={examTopics}
             cutoffOf={cutoffOf}
             onDownload={download}
             onUpload={(f) => void upload(f)}

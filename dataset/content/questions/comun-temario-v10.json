@@ -11,23 +11,23 @@
     "options": [
       {
         "id": "A",
-        "text": "El Procurador General de la Nación, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás funcionarios que determine la ley.",
+        "text": "El Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás que determine la ley.",
         "rationale": "El Ministerio Público es ejercido por el Procurador General de la Nación, el Defensor del Pueblo, los procuradores delegados y agentes, los personeros municipales y los demás funcionarios que determine la ley. La enumeración queda abierta a lo que la ley disponga."
       },
       {
         "id": "B",
-        "text": "Únicamente el Procurador General de la Nación y sus procuradores delegados.",
-        "rationale": "La enumeración constitucional es más amplia e incluye al Defensor del Pueblo y a los personeros municipales, entre otros."
+        "text": "El Procurador General, el Contralor General, los procuradores delegados y agentes, los personeros municipales y los demás que determine la ley.",
+        "rationale": "Incluye al Contralor, cuyo control fiscal es una función distinta, y omite al Defensor del Pueblo."
       },
       {
         "id": "C",
-        "text": "El Procurador General de la Nación y el Contralor General de la República.",
-        "rationale": "El control fiscal que ejerce la Contraloría es una función distinta y ese órgano no integra el Ministerio Público."
+        "text": "El Procurador General, el Defensor del Pueblo, el Fiscal General, los procuradores delegados y agentes, y los demás que determine la ley.",
+        "rationale": "La Fiscalía no integra el Ministerio Público; además, la lista omite a los personeros municipales."
       },
       {
         "id": "D",
-        "text": "Los jueces de la República y los fiscales delegados.",
-        "rationale": "Jueces y fiscales pertenecen a la Rama Judicial y a la Fiscalía; no ejercen el Ministerio Público."
+        "text": "El Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes y los personeros municipales, sin que la ley pueda añadir otros.",
+        "rationale": "La enumeración constitucional queda abierta a los demás funcionarios que determine la ley."
       }
     ],
     "correctOptionId": "A",
@@ -115,13 +115,13 @@
     "options": [
       {
         "id": "A",
-        "text": "Funciones de control fiscal, de auditoría financiera y de vigilancia contractual.",
-        "rationale": "El control fiscal y la auditoría financiera corresponden a la Contraloría, no a la Procuraduría."
+        "text": "Preventivas y de control de gestión, disciplinarias, de control fiscal y de auditoría financiera sobre los recursos públicos, y de intervención ante autoridades administrativas y judiciales.",
+        "rationale": "El control fiscal y la auditoría financiera corresponden a la Contraloría; el artículo incluye en su lugar las funciones de protección y defensa de los derechos humanos."
       },
       {
         "id": "B",
-        "text": "Funciones jurisdiccionales penales y de acusación ante los jueces.",
-        "rationale": "La acusación penal corresponde a la Fiscalía General de la Nación."
+        "text": "Preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos, y de acusación penal ante los jueces de la República.",
+        "rationale": "La acusación penal corresponde a la Fiscalía; el cuarto grupo es la intervención ante autoridades administrativas y judiciales."
       },
       {
         "id": "C",
@@ -130,8 +130,8 @@
       },
       {
         "id": "D",
-        "text": "Únicamente funciones disciplinarias y de intervención judicial.",
-        "rationale": "La enumeración es más amplia: deja fuera las preventivas y de control de gestión y las de derechos humanos."
+        "text": "Disciplinarias, de protección y defensa de los derechos humanos y de intervención ante autoridades administrativas y judiciales, sin funciones preventivas.",
+        "rationale": "Deja fuera las funciones preventivas y de control de gestión, que el artículo sí incluye."
       }
     ],
     "correctOptionId": "C",
@@ -224,8 +224,8 @@
       },
       {
         "id": "B",
-        "text": "La vigilancia del cumplimiento de la ley por parte de las entidades.",
-        "rationale": "Vigilar el cumplimiento es propio de la función preventiva, no una exclusión."
+        "text": "La vigilancia del cumplimiento de la ley y el seguimiento a las entidades obligadas.",
+        "rationale": "Vigilar y hacer seguimiento son propios de la función preventiva, no exclusiones."
       },
       {
         "id": "C",
@@ -271,18 +271,18 @@
     "options": [
       {
         "id": "A",
-        "text": "Que la enumeración es taxativa y no admite ninguna incorporación posterior.",
-        "rationale": "La expresión produce el efecto contrario: deja expresamente abierta la incorporación por vía legal."
+        "text": "Que la enumeración es cerrada y la ley se limita a reglamentar las funciones de los ya nombrados.",
+        "rationale": "La expresión produce el efecto contrario: deja abierta la incorporación de otros funcionarios por vía legal."
       },
       {
         "id": "B",
-        "text": "Que la ley puede atribuir el ejercicio del Ministerio Público a funcionarios adicionales a los nombrados en el texto.",
+        "text": "Que la ley puede atribuir el ejercicio del Ministerio Público a otros funcionarios.",
         "rationale": "Además del Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes y los personeros municipales, el Ministerio Público es ejercido por los demás funcionarios que determine la ley."
       },
       {
         "id": "C",
-        "text": "Que cualquier servidor público ejerce el Ministerio Público por el solo hecho de su vinculación.",
-        "rationale": "Se requiere que la ley lo determine; la condición de servidor público no basta."
+        "text": "Que todo servidor que vigile la función pública ejerce el Ministerio Público sin necesidad de ley.",
+        "rationale": "Se requiere que la ley lo determine; vigilar la función pública no basta."
       },
       {
         "id": "D",
@@ -323,12 +323,12 @@
     "options": [
       {
         "id": "A",
-        "text": "A las funciones disciplinarias.",
-        "rationale": "Las disciplinarias se dirigen a investigar y sancionar la conducta de servidores públicos, no a intervenir en un proceso ajeno."
+        "text": "A las funciones disciplinarias, porque protege el patrimonio público frente a servidores.",
+        "rationale": "Las disciplinarias investigan y sancionan la conducta de servidores públicos; no consisten en intervenir en un proceso ante un juez."
       },
       {
         "id": "B",
-        "text": "A las funciones preventivas y de control de gestión.",
+        "text": "A las funciones preventivas y de control de gestión sobre el patrimonio público.",
         "rationale": "Las preventivas se ejercen vigilando y advirtiendo a las entidades, no compareciendo ante un juez dentro de un proceso."
       },
       {
@@ -375,7 +375,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Únicamente la digitalización y el respaldo en medios magnéticos.",
+        "text": "La digitalización y el respaldo de los documentos en medios magnéticos.",
         "rationale": "Digitalizar y respaldar son actividades de soporte y no describen el proceso de gestión y trámite."
       },
       {
@@ -427,7 +427,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Conforme a las tablas de retención documental o a las tablas de valoración documental.",
+        "text": "Conforme a las tablas de retención o de valoración documental.",
         "rationale": "La disposición de documentos se realiza conforme a las tablas de retención documental o a las tablas de valoración documental."
       },
       {
@@ -541,7 +541,7 @@
       },
       {
         "id": "C",
-        "text": "Elaborar una versión pública que reserve solo la parte indispensable y entregar la información no exceptuada.",
+        "text": "Elaborar una versión pública que reserve la parte indispensable y entregar el resto.",
         "rationale": "La Ley 1712 de 2014 dispone que, cuando un documento contiene información pública y una parte amparada por una excepción legal, debe elaborarse una versión pública que reserve solo la parte indispensable y entregar la información no exceptuada."
       },
       {
@@ -635,12 +635,12 @@
     "options": [
       {
         "id": "A",
-        "text": "Tramitar la petición, pues la persona puede ejercer el derecho directamente sin apoderado.",
+        "text": "Tramitarla, porque la persona puede ejercer el derecho directamente, sin apoderado.",
         "rationale": "El artículo 13 de la Ley 1755 de 2015 permite ejercer directamente el derecho, de modo que la ausencia de apoderado no justifica rechazar una petición que la persona puede presentar por sí misma."
       },
       {
         "id": "B",
-        "text": "Rechazar la petición hasta que la persona designe un apoderado que la represente.",
+        "text": "Rechazar la petición hasta que la persona designe un apoderado que la represente ante la entidad.",
         "rationale": "Exigir apoderado para tramitar la petición contradice el artículo 13, que permite ejercer directamente el derecho."
       },
       {
@@ -692,7 +692,7 @@
       },
       {
         "id": "B",
-        "text": "Recibir y radicar la petición respetuosa, ya que la autoridad no puede negarse por no usar un formato propio.",
+        "text": "Recibirla y radicarla, porque no puede negarse por no usar un formato propio.",
         "rationale": "El artículo 15 establece que la autoridad no puede negarse a recibir y radicar peticiones respetuosas por no usar un formato propio; los mecanismos de estandarización no deben impedir el derecho."
       },
       {
@@ -702,8 +702,8 @@
       },
       {
         "id": "D",
-        "text": "Recibirla solo de manera informal, sin asignarle radicación.",
-        "rationale": "El artículo 15 exige recibir y radicar la petición respetuosa; recibirla sin radicación no cumple ese deber."
+        "text": "Recibirla de manera informal y radicarla cuando se pase al formato interno.",
+        "rationale": "El artículo 15 exige recibir y radicar la petición respetuosa sin condicionarla al formato."
       }
     ],
     "correctOptionId": "B",
@@ -739,7 +739,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Cambian las columnas referidas y las filas permanecen fijas.",
+        "text": "Cambian las columnas referidas, mientras que las filas se mantienen iguales.",
         "rationale": "Al copiar hacia abajo una referencia relativa cambian las filas, no las columnas; el enunciado invierte el comportamiento descrito por la documentación."
       },
       {
@@ -754,7 +754,7 @@
       },
       {
         "id": "D",
-        "text": "Se convierte automáticamente en una referencia absoluta.",
+        "text": "Se convierte en una referencia absoluta a la celda original.",
         "rationale": "Copiar una referencia relativa no la convierte en absoluta; sigue siendo relativa y ajusta las filas referidas al desplazarse."
       }
     ],
@@ -848,18 +848,18 @@
       },
       {
         "id": "B",
-        "text": "Asigna el número 10 a la celda B2.",
-        "rationale": "El operador de comparación no asigna valores: compara y devuelve un valor lógico, no coloca 10 en B2."
+        "text": "Devuelve el mayor valor entre el contenido de B2 y el número 10.",
+        "rationale": "Eso haría una función como MAX; el operador >= compara y devuelve un valor lógico."
       },
       {
         "id": "C",
-        "text": "Suma 10 al contenido de B2.",
-        "rationale": "El operador >= no realiza una suma; compara si un valor es mayor o igual y devuelve un resultado lógico."
+        "text": "Asigna el número 10 a B2 si su contenido actual es menor.",
+        "rationale": "El operador de comparación no asigna valores: compara y devuelve un valor lógico."
       },
       {
         "id": "D",
-        "text": "Convierte el contenido de B2 en el texto \"10\".",
-        "rationale": "El operador de comparación no transforma el contenido en texto; su resultado es un valor lógico de la comparación."
+        "text": "Convierte el contenido de B2 en texto y lo compara con el texto \"10\".",
+        "rationale": "El operador >= compara valores sin convertirlos en texto y devuelve un valor lógico."
       }
     ],
     "correctOptionId": "A",
@@ -895,8 +895,8 @@
     "options": [
       {
         "id": "A",
-        "text": "Legalidad, jerarquía, confidencialidad, discrecionalidad y rentabilidad.",
-        "rationale": "Estos no son los principios que el artículo 209 enuncia para la función administrativa; el texto constitucional cita igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
+        "text": "Igualdad, moralidad, eficacia, economía, legalidad, imparcialidad y transparencia.",
+        "rationale": "Mezcla principios del artículo 209 con legalidad y transparencia, que no figuran en ese listado; el texto constitucional cita igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
       },
       {
         "id": "B",
@@ -905,8 +905,8 @@
       },
       {
         "id": "C",
-        "text": "Autonomía, secreto, competitividad, oportunidad y libre configuración.",
-        "rationale": "El artículo 209 no menciona estos principios; su listado es igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
+        "text": "Eficacia, eficiencia, celeridad, publicidad, participación y responsabilidad.",
+        "rationale": "Incluye eficiencia, participación y responsabilidad, que no aparecen en el artículo 209; su listado es igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
       },
       {
         "id": "D",
@@ -957,7 +957,7 @@
       },
       {
         "id": "C",
-        "text": "Declararse impedido, porque el interés general entra en conflicto con su interés particular y directo.",
+        "text": "Declararse impedido por el conflicto con su interés particular y directo.",
         "rationale": "Cuando el interés general propio de la función pública entra en conflicto con el interés particular y directo del servidor, este deberá declararse impedido."
       },
       {
@@ -999,7 +999,7 @@
     "options": [
       {
         "id": "A",
-        "text": "En formular el plan y fijar las metas antes de ejecutar las actividades.",
+        "text": "En formular el plan, definir los indicadores y fijar las metas antes de ejecutar las actividades.",
         "rationale": "Formular el plan y las metas corresponde a la etapa de planeación, no a la etapa Verificar del ciclo."
       },
       {
@@ -1009,12 +1009,12 @@
       },
       {
         "id": "C",
-        "text": "En implementar los ajustes correctivos derivados del análisis de resultados.",
+        "text": "En implementar los ajustes correctivos que resultan del análisis de las desviaciones encontradas.",
         "rationale": "Implementar los ajustes correctivos corresponde a la etapa Actuar; la etapa Verificar es la que contrasta lo ejecutado con lo planeado para identificar desviaciones."
       },
       {
         "id": "D",
-        "text": "En contrastar lo ejecutado con lo planeado y con las metas mediante indicadores para identificar desviaciones y orientar ajustes.",
+        "text": "En contrastar lo ejecutado con lo planeado mediante indicadores para identificar desviaciones.",
         "rationale": "La etapa Verificar contrasta lo ejecutado con lo planeado y con las metas mediante indicadores; sus resultados sirven para identificar desviaciones y orientar ajustes."
       }
     ],

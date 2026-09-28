@@ -1010,3 +1010,25 @@ textarea {
 .registration h2 { margin: 0; font-size: 1.1rem; }
 .registration-time { font-size: 1.15rem; font-weight: 700; font-variant-numeric: tabular-nums; }
 .registration details { margin-top: .75rem; }
+/* Dominio por tema: lista compacta, tema a la izquierda y acierto a la derecha. */
+.topic-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 24px;
+}
+.topic-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 12px 16px;
+  margin: 8px 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text);
+}
+.topic-list small {
+  color: var(--muted);
+  white-space: nowrap;
+}
