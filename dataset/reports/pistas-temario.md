@@ -11,9 +11,9 @@ Criterio de cierre de cada lote: la correcta es la más larga en 30 % o menos de
 ## Resumen
 
 - Preguntas del temario: 173
-- Correcta más larga: 63 (36 %)
-- Pista absoluta: 34 (20 %)
-- Afectadas por al menos una: 73
+- Correcta más larga: 55 (32 %)
+- Pista absoluta: 30 (17 %)
+- Afectadas por al menos una: 64
 
 ## Lotes, del tema de más peso al de menos
 
@@ -22,7 +22,7 @@ Criterio de cierre de cada lote: la correcta es la más larga en 30 % o menos de
 | 1 | Software e interoperabilidad | 0.2024 | 35 | 3 (9 %) | 2 (6 %) | 3 | sí |
 | 2 | Infraestructura, nube y ciberseguridad | 0.1965 | 34 | 4 (12 %) | 1 (3 %) | 4 | sí |
 | 3 | Gestión pública y MIPG | 0.1618 | 28 | 2 (7 %) | 0 (0 %) | 2 | sí |
-| 4 | Ofimática y sistemas de gestión | 0.0867 | 15 | 11 (73 %) | 4 (27 %) | 12 | no |
+| 4 | Ofimática y sistemas de gestión | 0.0867 | 15 | 3 (20 %) | 0 (0 %) | 3 | sí |
 | 5 | Procuraduría y Estado | 0.0867 | 15 | 9 (60 %) | 6 (40 %) | 11 | no |
 | 6 | Atención, transparencia y datos | 0.0809 | 14 | 11 (79 %) | 6 (43 %) | 12 | no |
 | 7 | Gestión documental | 0.0694 | 12 | 6 (50 %) | 7 (58 %) | 9 | no |
@@ -51,18 +51,9 @@ Criterio de cierre de cada lote: la correcta es la más larga en 30 % o menos de
 
 ### Lote 4: Ofimática y sistemas de gestión
 
-- PGN-COM-0015: más larga, absoluta
-- PGN-COM-0017: más larga
 - PGN-NEW-0136: más larga
-- PGN-NEW-0137: más larga
 - PGN-NEW-0139: más larga
-- PGN-NEW-0140: más larga
-- PGN-NEW-0141: más larga
 - PGN-NEW-0142: más larga
-- PGN-NEW-0143: más larga
-- PGN-NEW-0145: absoluta
-- PGN-NEW-0146: más larga, absoluta
-- PGN-NEW-0147: más larga, absoluta
 
 ### Lote 5: Procuraduría y Estado
 
