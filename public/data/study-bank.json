@@ -1151,8 +1151,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Legalidad, jerarquía, confidencialidad, discrecionalidad y rentabilidad.",
-          "rationale": "Estos no son los principios que el artículo 209 enuncia para la función administrativa; el texto constitucional cita igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
+          "text": "Igualdad, moralidad, eficacia, economía, legalidad, imparcialidad y transparencia.",
+          "rationale": "Mezcla principios del artículo 209 con legalidad y transparencia, que no figuran en ese listado; el texto constitucional cita igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
         },
         {
           "id": "B",
@@ -1161,8 +1161,8 @@
         },
         {
           "id": "C",
-          "text": "Autonomía, secreto, competitividad, oportunidad y libre configuración.",
-          "rationale": "El artículo 209 no menciona estos principios; su listado es igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
+          "text": "Eficacia, eficiencia, celeridad, publicidad, participación y responsabilidad.",
+          "rationale": "Incluye eficiencia, participación y responsabilidad, que no aparecen en el artículo 209; su listado es igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad."
         },
         {
           "id": "D",
@@ -1213,7 +1213,7 @@
         },
         {
           "id": "C",
-          "text": "Declararse impedido, porque el interés general entra en conflicto con su interés particular y directo.",
+          "text": "Declararse impedido por el conflicto con su interés particular y directo.",
           "rationale": "Cuando el interés general propio de la función pública entra en conflicto con el interés particular y directo del servidor, este deberá declararse impedido."
         },
         {
@@ -1255,7 +1255,7 @@
       "options": [
         {
           "id": "A",
-          "text": "En formular el plan y fijar las metas antes de ejecutar las actividades.",
+          "text": "En formular el plan, definir los indicadores y fijar las metas antes de ejecutar las actividades.",
           "rationale": "Formular el plan y las metas corresponde a la etapa de planeación, no a la etapa Verificar del ciclo."
         },
         {
@@ -1265,12 +1265,12 @@
         },
         {
           "id": "C",
-          "text": "En implementar los ajustes correctivos derivados del análisis de resultados.",
+          "text": "En implementar los ajustes correctivos que resultan del análisis de las desviaciones encontradas.",
           "rationale": "Implementar los ajustes correctivos corresponde a la etapa Actuar; la etapa Verificar es la que contrasta lo ejecutado con lo planeado para identificar desviaciones."
         },
         {
           "id": "D",
-          "text": "En contrastar lo ejecutado con lo planeado y con las metas mediante indicadores para identificar desviaciones y orientar ajustes.",
+          "text": "En contrastar lo ejecutado con lo planeado mediante indicadores para identificar desviaciones.",
           "rationale": "La etapa Verificar contrasta lo ejecutado con lo planeado y con las metas mediante indicadores; sus resultados sirven para identificar desviaciones y orientar ajustes."
         }
       ],
@@ -1809,13 +1809,13 @@
         },
         {
           "id": "C",
-          "text": "Economía significa exclusivamente aumentar ganancias privadas.",
-          "rationale": "Economía administrativa no equivale a ese objetivo privado."
+          "text": "Economía obliga a obtener el mayor rendimiento financiero en cada actuación.",
+          "rationale": "Economía administrativa busca el uso adecuado de los recursos, no un rendimiento financiero privado."
         },
         {
           "id": "D",
-          "text": "El artículo contiene solo principios financieros.",
-          "rationale": "Igualdad, imparcialidad y otros principios muestran un alcance más amplio."
+          "text": "El criterio es válido porque la eficacia exige resultados económicos positivos.",
+          "rationale": "Eficacia se refiere al logro de los fines públicos, no a ganancias privadas."
         }
       ],
       "correctOptionId": "A",
@@ -1899,7 +1899,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Una nota sin razones que solo diga «no puedo continuar».",
+          "text": "Una nota que diga «no puedo continuar», sin razones.",
           "rationale": "La mera negativa no satisface el carácter motivado."
         },
         {
@@ -1970,8 +1970,8 @@
       "options": [
         {
           "id": "A",
-          "text": "No contempla término alguno de remisión.",
-          "rationale": "El artículo sí fija un término de tres días."
+          "text": "Dentro de los cinco días siguientes a su conocimiento.",
+          "rationale": "El artículo fija tres días, no cinco."
         },
         {
           "id": "B",
@@ -1985,7 +1985,7 @@
         },
         {
           "id": "D",
-          "text": "Solo al concluir el procedimiento principal.",
+          "text": "Al concluir el procedimiento principal, antes de notificar.",
           "rationale": "El trámite debe activarse antes de continuar decidiendo el fondo."
         }
       ],
@@ -2096,8 +2096,8 @@
         },
         {
           "id": "B",
-          "text": "Terminación definitiva automática.",
-          "rationale": "Suspender no equivale a terminar definitivamente."
+          "text": "Terminación de la actuación por falta de competencia.",
+          "rationale": "El impedimento suspende la actuación; no la termina."
         },
         {
           "id": "C",
@@ -2106,8 +2106,8 @@
         },
         {
           "id": "D",
-          "text": "Traslado inmediato de la propiedad del expediente al peticionario.",
-          "rationale": "No es un efecto previsto para el impedimento."
+          "text": "Continuación del trámite a cargo de un funcionario del mismo nivel.",
+          "rationale": "El artículo 12 prevé suspender hasta decidir el impedimento, no reasignar el trámite."
         }
       ],
       "correctOptionId": "A",
@@ -2141,18 +2141,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Siempre el Procurador General, aunque exista cabeza del sector.",
+          "text": "El Procurador General, aunque exista cabeza del sector.",
           "rationale": "La competencia subsidiaria no omite ese escalón."
         },
         {
           "id": "B",
-          "text": "El primer funcionario que acepte voluntariamente.",
-          "rationale": "La voluntad de un tercero no define la competencia."
+          "text": "El funcionario de mayor antigüedad de la misma dependencia.",
+          "rationale": "La antigüedad no define la competencia para decidir el impedimento."
         },
         {
           "id": "C",
-          "text": "El ciudadano que inició el trámite.",
-          "rationale": "El ciudadano no decide el impedimento del servidor por esa condición."
+          "text": "El jefe de la oficina jurídica de la entidad.",
+          "rationale": "No es el destinatario que la norma prevé."
         },
         {
           "id": "D",
@@ -2704,8 +2704,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Celeridad.",
-          "rationale": "se refiere al avance oportuno, no resuelve el sesgo personal descrito."
+          "text": "Responsabilidad.",
+          "rationale": "No figura en el listado del artículo 209 y no es el principio que aparta la preferencia personal."
         },
         {
           "id": "B",
@@ -2904,7 +2904,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Que ambas áreas usen el mismo formato de encabezado.",
+          "text": "Que ambas áreas presenten el informe con el mismo formato de encabezado.",
           "rationale": "El encabezado no impide medir ni comparar resultados."
         },
         {
@@ -2919,8 +2919,8 @@
         },
         {
           "id": "D",
-          "text": "Que el informe tenga pocas páginas.",
-          "rationale": "La extensión no determina la suficiencia de la evidencia."
+          "text": "Que el informe no incluya la firma del jefe de cada área.",
+          "rationale": "La firma no reemplaza la evidencia de ejecución."
         }
       ],
       "correctOptionId": "C",
@@ -2954,8 +2954,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Para afirmar que planear ya no es necesario.",
-          "rationale": "El contraste conserva su relación con lo planeado."
+          "text": "Para confirmar que la meta estaba mal planteada desde el inicio.",
+          "rationale": "Una desviación no prueba por sí sola que la meta fuera errónea."
         },
         {
           "id": "B",
@@ -2964,13 +2964,13 @@
         },
         {
           "id": "C",
-          "text": "Para demostrar automáticamente una causa única.",
+          "text": "Para identificar de inmediato la causa única del problema.",
           "rationale": "La desviación por sí sola no identifica su causa."
         },
         {
           "id": "D",
-          "text": "Para suprimir futuras mediciones.",
-          "rationale": "Abandonar mediciones impide comprobar la evolución."
+          "text": "Para reemplazar el indicador por otro más fácil de cumplir.",
+          "rationale": "Cambiar el indicador oculta la desviación en lugar de analizarla."
         }
       ],
       "correctOptionId": "B",
@@ -3004,13 +3004,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Se alcanzó la meta porque cualquier disminución basta.",
+          "text": "Se alcanzó la meta, porque el tiempo bajó respecto de la línea base.",
           "rationale": "nueve todavía supera el máximo objetivo de ocho."
         },
         {
           "id": "B",
-          "text": "El resultado empeoró dos días.",
-          "rationale": "la diferencia respecto de diez es una reducción de un día."
+          "text": "No hubo avance, porque todavía no se alcanza la meta de ocho días.",
+          "rationale": "Nueve sí mejora respecto de diez: avanzar y cumplir no son lo mismo."
         },
         {
           "id": "C",
@@ -3019,7 +3019,7 @@
         },
         {
           "id": "D",
-          "text": "Hubo mejora de un día frente a la base, pero falta reducir un día para la meta.",
+          "text": "Mejoró un día frente a la base, pero aún falta un día para la meta.",
           "rationale": "diferencia avance y logro final."
         }
       ],
@@ -3054,13 +3054,13 @@
       "options": [
         {
           "id": "A",
-          "text": "El nombre del despacho exclusivamente.",
-          "rationale": "La identificación institucional no resuelve el cálculo."
+          "text": "La frecuencia de actualización.",
+          "rationale": "La frecuencia no explica por qué los mismos datos dan valores distintos."
         },
         {
           "id": "B",
-          "text": "El tamaño de fuente del reporte.",
-          "rationale": "La tipografía no explica la discrepancia numérica."
+          "text": "El responsable del indicador.",
+          "rationale": "Saber quién lo reporta no define cómo calcularlo."
         },
         {
           "id": "C",
@@ -3069,8 +3069,8 @@
         },
         {
           "id": "D",
-          "text": "El color del tablero.",
-          "rationale": "El color no define cómo calcular el valor."
+          "text": "La meta del periodo.",
+          "rationale": "La meta fija el objetivo, no cómo se calcula el valor."
         }
       ],
       "correctOptionId": "C",
@@ -3159,18 +3159,18 @@
         },
         {
           "id": "B",
-          "text": "Una nueva meta más fácil.",
-          "rationale": "Cambiar la meta no identifica los registros de origen."
+          "text": "La periodicidad de medición.",
+          "rationale": "Indica cada cuánto se mide, no de dónde salen los datos."
         },
         {
           "id": "C",
-          "text": "Solo la unidad de medida.",
+          "text": "La unidad de medida.",
           "rationale": "La unidad describe la escala, no dónde obtener datos."
         },
         {
           "id": "D",
-          "text": "Una frecuencia aleatoria de actualización.",
-          "rationale": "La frecuencia no subsana la falta de origen de los datos."
+          "text": "Una línea base más reciente.",
+          "rationale": "La línea base es un punto de comparación, no el origen de los datos."
         }
       ],
       "correctOptionId": "A",
@@ -3254,18 +3254,18 @@
       "options": [
         {
           "id": "A",
-          "text": "El objetivo redactado solo como «mejorar».",
-          "rationale": "Un objetivo general no distingue horas de días."
+          "text": "La fórmula de cálculo del indicador.",
+          "rationale": "La fórmula dice cómo se calcula, no si el resultado está en horas o días."
         },
         {
           "id": "B",
-          "text": "El responsable del contrato.",
-          "rationale": "La identidad del responsable no define la escala."
+          "text": "La fuente de información.",
+          "rationale": "Indica de dónde salen los datos, no su escala."
         },
         {
           "id": "C",
-          "text": "La fecha de inauguración de la oficina.",
-          "rationale": "Esa fecha no resuelve la unidad del tiempo medido."
+          "text": "La línea base.",
+          "rationale": "La línea base es un valor de referencia, no la escala del resultado."
         },
         {
           "id": "D",
