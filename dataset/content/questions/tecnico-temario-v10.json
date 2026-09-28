@@ -117,17 +117,17 @@
     "options": [
       {
         "id": "A",
-        "text": "Instalar todas las actualizaciones disponibles el mismo día en que el fabricante las publica.",
+        "text": "Instalar las actualizaciones disponibles el mismo día en que el fabricante las publica en su portal.",
         "rationale": "El despliegue inmediato y sin priorizar omite las pruebas previas y las ventanas de mantenimiento, y no describe el alcance del proceso."
       },
       {
         "id": "B",
-        "text": "Restaurar los equipos a su configuración de fábrica en periodos definidos.",
+        "text": "Restaurar los equipos a su configuración de fábrica en periodos definidos y reinstalar después las actualizaciones.",
         "rationale": "Restablecer a fábrica puede incluso devolver el equipo a un estado vulnerable y deshacer parches ya aplicados."
       },
       {
         "id": "C",
-        "text": "Identificar, priorizar, adquirir, instalar y verificar la instalación de parches, actualizaciones y mejoras en toda la organización.",
+        "text": "Identificar, priorizar, adquirir, instalar y verificar parches, actualizaciones y mejoras en toda la organización.",
         "rationale": "La gestión de parches en la organización es el proceso de identificar, priorizar, adquirir, instalar y verificar la instalación de parches, actualizaciones y mejoras a lo largo de toda la entidad. La verificación forma parte del proceso, no termina con la instalación."
       },
       {
@@ -175,8 +175,8 @@
       },
       {
         "id": "B",
-        "text": "Cumplir la regla de instalar los parches siguiendo el orden alfabético de los equipos.",
-        "rationale": "No existe una regla semejante en la planificación del mantenimiento."
+        "text": "Obtener la aprobación de los usuarios de ese grupo antes de instalar el parche en los demás equipos.",
+        "rationale": "La aceptación de los usuarios no es el propósito del subconjunto inicial: se busca detectar problemas y estimar el impacto."
       },
       {
         "id": "C",
@@ -185,7 +185,7 @@
       },
       {
         "id": "D",
-        "text": "Detectar problemas y estimar el impacto operativo probable del parche antes de ampliar el despliegue.",
+        "text": "Detectar problemas y estimar el impacto operativo del parche antes de ampliar el despliegue.",
         "rationale": "Ese subconjunto actúa como activos canario: sirve para identificar problemas y determinar el impacto operativo probable del parche. En la práctica, es así como el parcheo queda probado antes de extenderse al resto."
       }
     ],
@@ -652,17 +652,17 @@
       },
       {
         "id": "B",
-        "text": "Como una actividad opcional que solo se ejecuta cuando sobra tiempo del equipo de soporte.",
+        "text": "Como una actividad opcional que se ejecuta cuando sobra tiempo del equipo de soporte.",
         "rationale": "El parcheo no es una actividad opcional supeditada al tiempo libre; se considera un costo estándar del negocio que debe seguirse y registrarse con rigor."
       },
       {
         "id": "C",
-        "text": "Como una tarea que solo corresponde al proveedor del software y no a la entidad.",
+        "text": "Como una tarea que corresponde al proveedor del software y no a la entidad.",
         "rationale": "La responsabilidad de aplicar y hacer seguimiento al parcheo recae en la organización; no se traslada íntegramente al proveedor, aunque este publique los parches."
       },
       {
         "id": "D",
-        "text": "Como una medida correctiva que solo se ejecuta después de sufrir un incidente de seguridad.",
+        "text": "Como una medida correctiva que se ejecuta después de sufrir un incidente de seguridad.",
         "rationale": "El parcheo es una práctica sostenida y rigurosa de mantenimiento, no una reacción que solo se activa una vez ocurrido el incidente."
       }
     ],
@@ -705,12 +705,12 @@
       },
       {
         "id": "B",
-        "text": "El parche para esa vulnerabilidad no será liberado nunca porque el software está en fin de vida.",
+        "text": "No se liberará ese parche, porque el software está en fin de vida.",
         "rationale": "Cuando el proveedor ya no soporta el software vulnerable, el parche nunca será liberado porque el producto está en fin de vida, de modo que la entidad debe gestionar el riesgo por otras vías."
       },
       {
         "id": "C",
-        "text": "El parche llegará automáticamente en la siguiente actualización del sistema operativo.",
+        "text": "El parche llegará en la siguiente actualización del sistema operativo.",
         "rationale": "Un producto en fin de vida no recibe parches, por lo que no llegará ninguna corrección con futuras actualizaciones."
       },
       {
@@ -753,17 +753,17 @@
     "options": [
       {
         "id": "A",
-        "text": "Contratar de inmediato un seguro que cubra los daños de cualquier incidente informático.",
+        "text": "Contratar de inmediato un seguro que cubra los daños de los incidentes informáticos futuros de la entidad.",
         "rationale": "Un seguro no reemplaza el conocimiento del inventario de activos y software, que es la base para gestionar las vulnerabilidades."
       },
       {
         "id": "B",
-        "text": "Migrar todos los servidores a la nube antes de revisar cualquier vulnerabilidad.",
+        "text": "Migrar los servidores a la nube antes de revisar las vulnerabilidades existentes.",
         "rationale": "Migrar a la nube no es el prerrequisito señalado; primero debe conocerse el inventario de activos y de software con sus versiones."
       },
       {
         "id": "C",
-        "text": "Conocer qué activos usa la organización y qué software y versiones ejecutan, hasta paquetes y librerías.",
+        "text": "Conocer los activos de la organización y qué software y versiones ejecutan, hasta librerías.",
         "rationale": "El prerrequisito es conocer los activos y saber qué software y versiones ejecutan, hasta el nivel de paquetes y librerías, además de seguir las nuevas vulnerabilidades de ese software."
       },
       {
@@ -821,7 +821,7 @@
       },
       {
         "id": "D",
-        "text": "Se prioriza el parche cuyo despliegue reduciría más el riesgo de ciberseguridad que los demás.",
+        "text": "Se prioriza el parche cuyo despliegue reduce más el riesgo de ciberseguridad.",
         "rationale": "Un parche puede tener mayor prioridad de despliegue que otros porque su instalación reduciría el riesgo de ciberseguridad más que los demás parches."
       }
     ],
@@ -859,12 +859,12 @@
     "options": [
       {
         "id": "A",
-        "text": "Que el parche provenga de una fuente ilegítima o haya sido alterado en tránsito o tras su obtención.",
+        "text": "Que el parche venga de una fuente ilegítima o haya sido alterado antes de instalarlo.",
         "rationale": "El parche podría haberse obtenido de una fuente ilegítima o haber sido alterado en tránsito o después de su obtención, por lo que debe validarse su procedencia e integridad antes de instalarlo."
       },
       {
         "id": "B",
-        "text": "Que el parche resulte más pesado de lo previsto y ocupe demasiado ancho de banda.",
+        "text": "Que el parche resulte más pesado de lo previsto y ocupe demasiado ancho de banda de la red.",
         "rationale": "El consumo de ancho de banda no es el riesgo central que exige control previo a la instalación."
       },
       {
@@ -874,7 +874,7 @@
       },
       {
         "id": "D",
-        "text": "Que el parche exija reiniciar el servidor y afecte la disponibilidad del servicio.",
+        "text": "Que el parche exija reiniciar el servidor y afecte la disponibilidad del servicio a los usuarios.",
         "rationale": "El reinicio es un impacto operativo real, y por eso se planifica la ventana de mantenimiento, pero no es el riesgo que obliga a validar el parche antes de instalarlo."
       }
     ],
@@ -912,17 +912,17 @@
     "options": [
       {
         "id": "A",
-        "text": "Cumplir un requisito de imagen institucional ante los usuarios de la entidad.",
+        "text": "Cumplir un requisito de imagen institucional ante los usuarios y directivos de la entidad.",
         "rationale": "La prueba previa no busca imagen institucional, sino identificar problemas del parche antes de producción."
       },
       {
         "id": "B",
-        "text": "Reducir el riesgo operacional identificando problemas del parche antes de llevarlo a producción.",
+        "text": "Reducir el riesgo operacional detectando problemas del parche antes de producción.",
         "rationale": "La prueba busca reducir el riesgo operacional al identificar problemas con el parche antes de ponerlo en producción."
       },
       {
         "id": "C",
-        "text": "Reemplazar la necesidad de validar la procedencia e integridad del parche.",
+        "text": "Reemplazar la necesidad de validar la procedencia y la integridad del parche descargado.",
         "rationale": "Probar el parche no sustituye la validación de su autenticidad; su propósito es reducir el riesgo operacional detectando problemas antes de producción."
       },
       {
@@ -965,22 +965,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Verificar únicamente que el consumo de memoria del activo bajó tras el parche.",
+        "text": "Verificar que el consumo de memoria del activo bajó después de aplicar el parche.",
         "rationale": "El consumo de memoria no confirma que el activo siga corregido; el monitoreo debe verificar que el parche permanezca instalado y no haya sido revertido."
       },
       {
         "id": "B",
-        "text": "Comprobar solamente que el usuario firmó el acta de recepción del mantenimiento.",
+        "text": "Comprobar que el usuario firmó el acta de recepción del mantenimiento realizado.",
         "rationale": "La firma del acta no acredita el estado técnico del parche; se debe monitorear que no haya sido desinstalado o revertido a un estado vulnerable."
       },
       {
         "id": "C",
-        "text": "Confirmar que el parche no fue desinstalado, ni restaurado desde un respaldo sin parchar, ni revertido a un estado de fábrica vulnerable.",
+        "text": "Confirmar que el parche no fue desinstalado, restaurado desde un respaldo sin parchar ni revertido a fábrica.",
         "rationale": "El monitoreo permite confirmar que el parche no fue desinstalado por un usuario o atacante, que no se restauró una versión sin parchar desde un respaldo y que el dispositivo no fue devuelto a un estado de fábrica vulnerable."
       },
       {
         "id": "D",
-        "text": "Comprobar que el parche quedó registrado en la hoja de vida del activo.",
+        "text": "Comprobar que el parche quedó registrado tanto en la hoja de vida del activo como en la herramienta de inventario.",
         "rationale": "Dejar constancia documental es buena práctica, pero no confirma que el parche siga efectivamente instalado en el activo."
       }
     ],
@@ -1018,12 +1018,12 @@
     "options": [
       {
         "id": "A",
-        "text": "El parcheo manual es preferible porque evita depender de cualquier herramienta tecnológica.",
+        "text": "El parcheo manual es preferible porque evita depender de herramientas tecnológicas externas.",
         "rationale": "La fuente indica lo contrario: ante el volumen de activos, software, vulnerabilidades y parches, no es posible mantenerse al día sin automatización."
       },
       {
         "id": "B",
-        "text": "El parcheo manual es viable si se limita a los servidores críticos y se deja sin parchear el resto del parque.",
+        "text": "El parcheo manual es viable si se limita a los servidores críticos y se deja sin parchear el resto de los equipos del parque.",
         "rationale": "Dejar el resto del parque sin parchear no resuelve el problema: mantiene activos vulnerables y no sustituye la automatización que exige la escala."
       },
       {
@@ -1033,7 +1033,7 @@
       },
       {
         "id": "D",
-        "text": "Sin automatización la organización no puede mantenerse al día por el enorme número de activos, instalaciones, vulnerabilidades y parches.",
+        "text": "Sin automatización no es posible mantenerse al día con tantos activos, instalaciones, vulnerabilidades y parches.",
         "rationale": "No hay forma de que una organización se mantenga al día con el parcheo sin automatización, debido al enorme número de activos, instalaciones de software, vulnerabilidades y parches."
       }
     ],
