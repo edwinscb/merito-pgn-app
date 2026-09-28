@@ -36,6 +36,67 @@ export const studyStats = (progress: LearningProgress) => ({
   saved: Object.values(progress.marks).filter((m) => m.saved).length,
 })
 
+/** Intentos mínimos para que el acierto de un tema cuente como señal. */
+export const MIN_TOPIC_ANSWERS = 5
+
+export type TopicMastery = {
+  topicId: string
+  label: string
+  answered: number
+  hits: number
+}
+
+/**
+ * Aciertos por tema de la prueba, sumando el estudio y los simulacros terminados.
+ * En un simulacro la omitida cuenta como fallo, igual que al calificarlo. Los
+ * intentos cuya pregunta ya no está en el banco no tienen tema y se ignoran.
+ */
+export function topicMastery(
+  bank: StudyBank | null,
+  progress: LearningProgress,
+  topics: Set<string>,
+): TopicMastery[] {
+  if (!bank) return []
+  const topicOf = new Map(bank.questions.map((q) => [q.id, q.topicId]))
+  const counts = new Map<string, { answered: number; hits: number }>()
+  const add = (topicId: string | undefined, correct: boolean) => {
+    if (!topicId || !topics.has(topicId)) return
+    const c = counts.get(topicId) ?? { answered: 0, hits: 0 }
+    c.answered++
+    if (correct) c.hits++
+    counts.set(topicId, c)
+  }
+  for (const a of progress.attempts) add(topicOf.get(a.questionId), a.correct)
+  for (const s of finishedSessions(progress))
+    for (const q of s.questions)
+      add(q.topicId, s.answers[q.id]?.selected === q.correctOptionId)
+  return bank.topics
+    .filter((t) => topics.has(t.id))
+    .map((t) => ({
+      topicId: t.id,
+      label: t.label,
+      ...(counts.get(t.id) ?? { answered: 0, hits: 0 }),
+    }))
+}
+
+/**
+ * Qué estudiar primero: los temas nunca practicados y los tres de menor acierto
+ * entre los que ya tienen intentos suficientes. No pondera por peso: el reparto
+ * oficial de la prueba no se conoce.
+ */
+export function studyFirst(mastery: TopicMastery[]): TopicMastery[] {
+  const unpracticed = mastery.filter((t) => t.answered === 0)
+  const weakest = mastery
+    .filter((t) => t.answered >= MIN_TOPIC_ANSWERS)
+    .sort(
+      (a, b) =>
+        a.hits / a.answered - b.hits / b.answered ||
+        a.label.localeCompare(b.label, 'es'),
+    )
+    .slice(0, 3)
+  return [...unpracticed, ...weakest]
+}
+
 export const questionsOfBlock = (
   bank: StudyBank | null,
   block: Block,
