@@ -64,7 +64,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Porque un servicio deshabilitado sigue consumiendo memoria y procesador del servidor.",
+        "text": "Porque un servicio deshabilitado sigue consumiendo memoria y procesador del servidor en segundo plano.",
         "rationale": "Un servicio deshabilitado no permanece en ejecución, así que el argumento del consumo de recursos no sostiene la preferencia."
       },
       {
@@ -450,7 +450,7 @@
       },
       {
         "id": "D",
-        "text": "No modificar los servicios instalados por defecto, para conservar la compatibilidad certificada por el fabricante del sistema.",
+        "text": "No modificar los servicios instalados por defecto, para conservar la compatibilidad certificada por el fabricante original del sistema.",
         "rationale": "Incorrecta: la guía indica ajustar los servicios, aplicaciones y protocolos según la necesidad, no conservar sin cambios lo instalado por defecto."
       }
     ],
@@ -498,7 +498,7 @@
       },
       {
         "id": "C",
-        "text": "Convertirlas en cuentas de administrador para tener respaldo de acceso ante un olvido de credenciales.",
+        "text": "Convertirlas en cuentas de administrador para tener respaldo de acceso ante un olvido de las credenciales principales.",
         "rationale": "Incorrecta: elevar cuentas por defecto innecesarias a administrador aumenta el riesgo; la guía recomienda removerlas o deshabilitarlas."
       },
       {
