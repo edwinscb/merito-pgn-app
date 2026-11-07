@@ -333,11 +333,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": "2026-02-06",
     "version": null,
-    "validity": "unknown",
+    "validity": "effective",
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Boletín oficial del 6 de febrero de 2026; ejemplo contextual de seguimiento a la Ley 2492. No respalda la definición general originalmente atribuida a su unidad; ver auditoría factual del piloto."
+    "notes": "Boletín oficial del 6 de febrero de 2026; ejemplo contextual de seguimiento a la Ley 2492. No respalda la definición general originalmente atribuida a su unidad; ver auditoría factual del piloto. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "decree-263-2000",
@@ -511,13 +511,13 @@
     "mimeType": "text/html",
     "contentHash": "c20a5f37cc5e9ac99af675c25385e92ad31de3a5a4d746833e34612c042d795d",
     "incorporatedAt": "2026-09-03",
-    "publishedAt": null,
+    "publishedAt": "2015-06-30",
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Copia oficial consultada para contenido, competencia, términos y reserva; vigencia específica debe revisarse al publicar."
+    "notes": "Copia oficial consultada para contenido, competencia, términos y reserva; vigencia específica debe revisarse al publicar. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "law-1712-2014",
@@ -593,11 +593,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Copia oficial consultada para planeación contractual; revisar reformas y régimen aplicable."
+    "notes": "Copia oficial consultada para planeación contractual; revisar reformas y régimen aplicable. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "funcion-publica-indicators",
@@ -677,7 +677,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía técnica gubernamental histórica; no se presenta como requisito normativo colombiano. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
+    "notes": "Guía técnica gubernamental histórica; no se presenta como requisito normativo colombiano. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "nist-acid",
@@ -697,7 +697,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Material técnico conceptual de 2012; se limita a la definición de atomicidad. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
+    "notes": "Material técnico conceptual de 2012; se limita a la definición de atomicidad. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "nist-sp800-123",
@@ -717,7 +717,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía de seguridad general de servidores: endurecimiento del sistema operativo, gestión de cuentas y privilegios, retiro de servicios innecesarios, aplicación de parches y registro de eventos. Incorporada para sustentar el tema sistemas_operativos del temario del cargo 3PU-15. Portada fechada en julio de 2008; 53 páginas."
+    "notes": "Guía de seguridad general de servidores: endurecimiento del sistema operativo, gestión de cuentas y privilegios, retiro de servicios innecesarios, aplicación de parches y registro de eventos. Incorporada para sustentar el tema sistemas_operativos del temario del cargo 3PU-15. Portada fechada en julio de 2008; 53 páginas. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "nist-sp800-40r4",
@@ -737,7 +737,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía de planificación de la gestión de parches en la empresa: mantenimiento preventivo y correctivo del software, ventanas de mantenimiento, priorización por riesgo y métricas. Incorporada para sustentar el tema soporte_y_mantenimiento del temario del cargo 3PU-15. Portada fechada en abril de 2022; 28 páginas."
+    "notes": "Guía de planificación de la gestión de parches en la empresa: mantenimiento preventivo y correctivo del software, ventanas de mantenimiento, priorización por riesgo y métricas. Incorporada para sustentar el tema soporte_y_mantenimiento del temario del cargo 3PU-15. Portada fechada en abril de 2022; 28 páginas. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "nist-least-privilege",
@@ -757,7 +757,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Definición técnica conceptual de mínimo privilegio. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
+    "notes": "Definición técnica conceptual de mínimo privilegio. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "ncsc-cloud-security",
@@ -777,7 +777,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía técnica oficial extranjera; no es norma PGN. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
+    "notes": "Guía técnica oficial extranjera; no es norma PGN. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "homeoffice-api",
@@ -797,7 +797,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Estándar técnico oficial extranjero para versionado, documentación y pruebas. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
+    "notes": "Estándar técnico oficial extranjero para versionado, documentación y pruebas. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "cisa-ransomware",
@@ -817,7 +817,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía de respuesta a ransomware; la pregunta se limita a contención, evidencia y procedimiento. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
+    "notes": "Guía de respuesta a ransomware; la pregunta se limita a contención, evidencia y procedimiento. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "decreto-815-2018",
@@ -833,11 +833,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Referencia general de competencias; no certifica aplicación a una convocatoria concreta."
+    "notes": "Referencia general de competencias; no certifica aplicación a una convocatoria concreta. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "codigo-integridad",
@@ -871,13 +871,13 @@
     "mimeType": "text/html",
     "contentHash": "31c054da5b939fc84f88d06eb31d1fb4297f8b5320c79253f73fc808d52ef00f",
     "incorporatedAt": "2026-09-03",
-    "publishedAt": null,
+    "publishedAt": "2019-01-28",
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Copia de compilación normativa consultada para deberes de legalidad y diligencia."
+    "notes": "Copia de compilación normativa consultada para deberes de legalidad y diligencia. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "dnp-public-innovation",
@@ -1093,11 +1093,11 @@
     "incorporatedAt": "2026-09-10",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente."
+    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "excel-formulas",
@@ -1113,11 +1113,11 @@
     "incorporatedAt": "2026-09-10",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente."
+    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "excel-basics",
@@ -1133,11 +1133,11 @@
     "incorporatedAt": "2026-09-10",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente."
+    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "nist-cloud-145",
@@ -1153,11 +1153,11 @@
     "incorporatedAt": "2026-09-10",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente."
+    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "pgn-historical-guide",
@@ -1178,5 +1178,65 @@
     "redistribution": "internal_only",
     "public": false,
     "notes": "Guía histórica 2012–2013: formato orientativo, no normativa ni ponderación vigente. No se reproducen preguntas."
+  },
+  {
+    "id": "excel-operators-precedence",
+    "title": "Excel — Calculation operators and precedence",
+    "publisher": "Microsoft",
+    "url": "https://support.microsoft.com/en-us/office/calculation-operators-and-precedence-in-excel-48be406d-4975-4d31-b2b8-7af9e0e2878a",
+    "localPath": "dataset/raw/official/study-200/excel-operators-precedence.html",
+    "mimeType": "text/html",
+    "contentHash": "74541c62c52ff1078cad2456a317579d369036f75377d21c1190be6b41c67c33",
+    "category": "official-technical-guidance",
+    "authorityTier": "B",
+    "sourcePath": null,
+    "incorporatedAt": "2026-11-06",
+    "publishedAt": null,
+    "version": null,
+    "validity": "effective",
+    "status": "verified",
+    "redistribution": "internal_only",
+    "public": false,
+    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06. Contenido, procedencia e integridad verificados por revisión factual independiente; no constituye temario oficial PGN."
+  },
+  {
+    "id": "excel-filter-data",
+    "title": "Excel — Filter data in a range or table",
+    "publisher": "Microsoft",
+    "url": "https://support.microsoft.com/en-us/office/filter-data-in-a-range-or-table-01832226-31b5-4568-8806-38c37dcc180e",
+    "localPath": "dataset/raw/official/study-200/excel-filter-data.html",
+    "mimeType": "text/html",
+    "contentHash": "407be100a9f7e822709b98ae1672ed09fa1c60022bc0105b9262ba68de130f34",
+    "category": "official-technical-guidance",
+    "authorityTier": "B",
+    "sourcePath": null,
+    "incorporatedAt": "2026-11-06",
+    "publishedAt": null,
+    "version": null,
+    "validity": "effective",
+    "status": "verified",
+    "redistribution": "internal_only",
+    "public": false,
+    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06. Contenido, procedencia e integridad verificados por revisión factual independiente; no constituye temario oficial PGN."
+  },
+  {
+    "id": "excel-format-percentages",
+    "title": "Excel — Format numbers as percentages",
+    "publisher": "Microsoft",
+    "url": "https://support.microsoft.com/en-GB/Excel/format-numbers-as-percentages-in-excel",
+    "localPath": "dataset/raw/official/study-200/excel-format-percentages.html",
+    "mimeType": "text/html",
+    "contentHash": "6c40436b67eb981aba14c9cc0fc53ce6ae6057108a448c89b0a90e3eae5b970a",
+    "category": "official-technical-guidance",
+    "authorityTier": "B",
+    "sourcePath": null,
+    "incorporatedAt": "2026-11-06",
+    "publishedAt": null,
+    "version": null,
+    "validity": "effective",
+    "status": "verified",
+    "redistribution": "internal_only",
+    "public": false,
+    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06. Contenido, procedencia e integridad verificados por revisión factual independiente; no constituye temario oficial PGN."
   }
 ]

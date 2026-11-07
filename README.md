@@ -39,18 +39,18 @@ muestra «Aprobada por el propietario». Un cambio de contenido exige renovar es
 aprobación. La aprobación personal no constituye aval de la PGN ni añade revisiones
 factuales o editoriales independientes a los registros del dataset.
 
-El dataset conserva 247 registros: 18 `validated_assisted` y 229 `needs_review`.
-La aplicación habilita **240 preguntas: 18 revisadas y 222 provisionales**, por
-autorización expresa del propietario ligada al hash de su contenido. No se
-atribuyen revisiones inexistentes. Las semillas 6, 10 y 21–25 siguen excluidas.
+El dataset conserva 247 registros: 213 `validated_assisted` y 34 `needs_review`.
+La aplicación habilita **240 preguntas: 213 revisadas y 27 provisionales**,
+por autorización expresa del propietario ligada al hash de su contenido. Las
+semillas 6, 10 y 21–25 siguen excluidas.
 
 Las 40 preguntas más recientes cubren los dos conocimientos del temario del cargo
 que no tenían ninguna —sistemas operativos, y soporte y mantenimiento— y refuerzan
 los comunes más flacos. Se redactaron sobre NIST SP 800-123 y NIST SP 800-40 Rev. 4,
 con la cita de cada unidad comprobada literalmente contra el PDF incorporado.
 
-- `public/data/question-bank.json`: 18 preguntas exclusivamente revisadas.
-- `public/data/study-bank.json`: 240 preguntas disponibles, con condición visible.
+- `public/data/question-bank.json`: 213 preguntas con doble revisión.
+- `public/data/study-bank.json`: 240 preguntas disponibles; 27 conservan condición provisional.
 - `dataset/content/study-authorization.json`: autorizaciones provisionales ligadas al hash.
 - `dataset/content/registration.json`: cierre oficial, evidencia y portal.
 - `dataset/reports/study-release-audit.md`: correcciones y hallazgos pendientes.

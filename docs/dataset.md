@@ -1,8 +1,8 @@
 # Dataset estructurado — Fases 1, 2 y 3
 
-Estado editorial: 18 preguntas revisadas y 189 pendientes. La aplicación usa un
-banco de estudio de 200: las 18 revisadas y 182 provisionales habilitadas por el
-propietario. Esa habilitación no sustituye la doble revisión independiente.
+Estado editorial: 213 preguntas revisadas y 34 pendientes. La aplicación usa un
+banco de estudio de 240: las 213 revisadas y 27 provisionales habilitadas por
+el propietario. Esa habilitación no sustituye la doble revisión independiente.
 Las siete semillas con hallazgos factuales siguen excluidas.
 
 ## Propósito y límites
@@ -22,8 +22,9 @@ El inventario canónico permanece en
 - `exam-profiles.json`: perfiles provisionales 121, 126 y 127;
 - `source-units.json`: fragmentos verificables con fuente, hash y localizador;
 - `questions/*.json`: preguntas editoriales publicables o pendientes. Además de
-  las 25 semillas, `expansion-draft.json` contiene 84 preguntas y `study-200.json`
-  añade 98 ejercicios originales (54 General y 44 Sistemas), para un total de 207.
+  las 25 semillas, `expansion-draft.json` contiene 84 preguntas,
+  `study-200.json` añade 98 ejercicios originales, y los dos lotes del temario
+  V10 añaden 20 preguntas comunes y 20 técnicas, para un total de 247.
 - `registration.json`: ventana oficial 7–18 de septiembre de 2026, cierre a las
   16:00 hora legal colombiana, con evidencia y enlace al portal.
 
@@ -132,11 +133,9 @@ localizadores vacíos, estados inválidos, opciones distintas de cuatro,
 opciones vacías o repetidas, claves inexistentes, referencias inválidas y
 preguntas publicables sin fuente oficial A o B verificada y vigente.
 
-`public/data/question-bank.json` contiene exclusivamente preguntas
-`validated_assisted`. Actualmente contiene 18 semillas aprobadas. Las 65
-promociones internas se retiraron por falta de independencia acreditada.
-El conjunto estructurado contiene 109 preguntas; las 91 restantes
-no llegan al artefacto exclusivamente revisado. Los informes
+`public/data/question-bank.json` contiene 213 preguntas `validated_assisted`:
+las 120 de General, las 89 técnicas aplicables a 126-2026 y cuatro técnicas de
+otros temas que ya estaban revisadas. Los informes
 independientes y sus límites están en `dataset/reports/phase2-factual-final.json`
 y `dataset/reports/phase2-editorial-final.json`.
 
@@ -148,12 +147,12 @@ cero y preguntas sin convocatoria.
 
 Limitaciones vigentes:
 
-- existen 31 unidades: 22 verificadas y nueve en `pending_review`;
+- existen 158 unidades: 49 verificadas y 109 en `pending_review`;
 - cuatro fuentes tienen procedencia/contenido comprobados para el alcance
   puntual indicado en sus notas; esto no certifica todos sus artículos;
-- nueve fuentes continúan pendientes de descarga;
-- 91 preguntas todavía no tienen revisión editorial suficiente: las siete
-  semillas excluidas y 84 de expansión habilitadas como provisionales;
+- siete fuentes continúan pendientes de descarga;
+- 34 preguntas permanecen en `needs_review`; 27 están habilitadas
+  provisionalmente y siete semillas permanecen excluidas;
 - la unidad del artículo 12 requiere completar el alcance del trámite;
 - la unidad del boletín se corrigió como resumen contextual y requiere nueva
   revisión; no respalda por sí sola una potestad general de gestionar riesgos;
@@ -169,15 +168,15 @@ Limitaciones vigentes:
   repaso de errores/omitidas y guardadas, IndexedDB y exportación/importación;
   no crea un calendario espaciado ni usa servidores para el progreso.
 
-El frontend consume `public/data/study-bank.json`: 200 preguntas, 100 de General
-y 100 de Sistemas. `provisionalIds` y los estados editoriales distinguen las 182
-provisionales. El artefacto contiene etiquetas de temas y enlaces de fuentes,
+El frontend consume `public/data/study-bank.json`: 240 preguntas, 120 de General
+y 120 de Sistemas. `provisionalIds` identifica las 27 que aún no tienen doble
+revisión. El artefacto contiene etiquetas de temas y enlaces de fuentes,
 sin copiar documentos completos ni rutas locales de fuentes.
 
 `dataset/content/study-authorization.json` registra propietario, motivo e ID/hash
 SHA-256 de las provisionales habilitadas. `scripts/dataset/build-study.mjs` valida ese
 contrato con Zod y bloquea duplicados, cambios de contenido, estados no
-habilitables o cantidades distintas de 200 (100 por bloque). El hash reutiliza la huella editorial
+habilitables o cantidades distintas de 240 (120 por bloque). El hash reutiliza la huella editorial
 canónica; estado y metadatos de revisión no cambian la identidad del contenido.
 Modificar un enunciado, opción, clave, explicación o referencia obliga a renovar
 la habilitación de esa versión. La autorización de uso nunca añade un `pass`.

@@ -193,7 +193,7 @@
     "mimeType": "text/html",
     "status": "verified",
     "url": "https://www.procuraduria.gov.co/Pages/procuraduria-vigila-cumplimiento-ley-fortalece-convivencia-paz-municipios.aspx",
-    "notes": "Boletín oficial del 6 de febrero de 2026; ejemplo contextual de seguimiento a la Ley 2492. No respalda la definición general originalmente atribuida a su unidad; ver auditoría factual del piloto.",
+    "notes": "Boletín oficial del 6 de febrero de 2026; ejemplo contextual de seguimiento a la Ley 2492. No respalda la definición general originalmente atribuida a su unidad; ver auditoría factual del piloto. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes.",
     "sha256": "d6e6bc4dd98d2631115b407ee21180fbdbc1a0c8ad2d9698096aa832f0cbfefa",
     "incorporatedAt": "2026-09-03",
     "public": false
@@ -224,8 +224,8 @@
     "sourcePath": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334",
     "targetPath": "dataset/raw/official/fase2-completion/norm-ley1755-2015.html",
     "mimeType": "text/html",
-    "status": "needs_review",
-    "notes": "Copia oficial consultada para contenido, competencia, términos y reserva; vigencia específica debe revisarse al publicar.",
+    "status": "verified",
+    "notes": "Copia oficial consultada para contenido, competencia, términos y reserva; vigencia específica debe revisarse al publicar. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes.",
     "sha256": "c20a5f37cc5e9ac99af675c25385e92ad31de3a5a4d746833e34612c042d795d",
     "incorporatedAt": "2026-09-03",
     "public": false
@@ -288,8 +288,8 @@
     "sourcePath": "https://www1.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=304",
     "targetPath": "dataset/raw/official/fase2-completion/norm-ley80-1993.html",
     "mimeType": "text/html",
-    "status": "needs_review",
-    "notes": "Copia oficial consultada para planeación contractual; revisar reformas y régimen aplicable.",
+    "status": "verified",
+    "notes": "Copia oficial consultada para planeación contractual; revisar reformas y régimen aplicable. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes.",
     "sha256": "a9ae8781bc98beca8456428802c5a8e635c28125b7ffcf942571e1c2053b99a7",
     "incorporatedAt": "2026-09-03",
     "public": false
@@ -353,7 +353,7 @@
     "targetPath": "dataset/raw/official/fase2-completion/missouri-db-integrity.pdf",
     "mimeType": "application/pdf",
     "status": "verified",
-    "notes": "Guía técnica gubernamental histórica; no se presenta como requisito normativo colombiano. Revisión factual final de la pregunta asociada cotejada el 2026-09-07.",
+    "notes": "Guía técnica gubernamental histórica; no se presenta como requisito normativo colombiano. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN.",
     "sha256": "bf4d88fe6673e473c7c288f273627f9df7d289ff1927431b02ddd496358ec17d",
     "incorporatedAt": "2026-09-03",
     "public": false
@@ -369,7 +369,7 @@
     "targetPath": "dataset/raw/official/fase2-completion/nist-acid.pdf",
     "mimeType": "application/pdf",
     "status": "verified",
-    "notes": "Material técnico conceptual de 2012; se limita a la definición de atomicidad. Revisión factual final de la pregunta asociada cotejada el 2026-09-07.",
+    "notes": "Material técnico conceptual de 2012; se limita a la definición de atomicidad. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN.",
     "sha256": "04fd1b744c9c970c6b3d32c51f5f1bd187587e8dd0069a69e41afe77f9d7b4ec",
     "incorporatedAt": "2026-09-03",
     "public": false
@@ -385,7 +385,7 @@
     "targetPath": "dataset/raw/official/fase2-completion/nist-least-privilege.html",
     "mimeType": "text/html",
     "status": "verified",
-    "notes": "Definición técnica conceptual de mínimo privilegio. Revisión factual final de la pregunta asociada cotejada el 2026-09-07.",
+    "notes": "Definición técnica conceptual de mínimo privilegio. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN.",
     "sha256": "548f62d6e2ac52b04c7831731ece97bdebf3c984a266170d97b79865e13d2175",
     "incorporatedAt": "2026-09-03",
     "public": false
@@ -401,7 +401,7 @@
     "targetPath": "dataset/raw/official/fase2-completion/ncsc-cloud-security.html",
     "mimeType": "text/html",
     "status": "verified",
-    "notes": "Guía técnica oficial extranjera; no es norma PGN. Revisión factual final de la pregunta asociada cotejada el 2026-09-07.",
+    "notes": "Guía técnica oficial extranjera; no es norma PGN. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN.",
     "sha256": "26e7c82ba349ae90d680157a34725c63c51584aefc377f765789b0115c7e7e6e",
     "incorporatedAt": "2026-09-03",
     "public": false
@@ -417,7 +417,7 @@
     "targetPath": "dataset/raw/official/fase2-completion/homeoffice-api.html",
     "mimeType": "text/html",
     "status": "verified",
-    "notes": "Estándar técnico oficial extranjero para versionado, documentación y pruebas. Revisión factual final de la pregunta asociada cotejada el 2026-09-07.",
+    "notes": "Estándar técnico oficial extranjero para versionado, documentación y pruebas. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN.",
     "sha256": "b2aecf625d7e27b8511255b040356761c650256211d67061ecea287ba67d1689",
     "incorporatedAt": "2026-09-03",
     "public": false
@@ -433,7 +433,7 @@
     "targetPath": "dataset/raw/official/fase2-completion/cisa-ransomware.html",
     "mimeType": "text/html",
     "status": "verified",
-    "notes": "Guía de respuesta a ransomware; la pregunta se limita a contención, evidencia y procedimiento. Revisión factual final de la pregunta asociada cotejada el 2026-09-07.",
+    "notes": "Guía de respuesta a ransomware; la pregunta se limita a contención, evidencia y procedimiento. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN.",
     "sha256": "a71d1cee55d37a368c91d2c105e7f92586af00efdf83588ae7b588b16e3e8e15",
     "incorporatedAt": "2026-09-03",
     "public": false
@@ -448,8 +448,8 @@
     "sourcePath": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=86304",
     "targetPath": "dataset/raw/official/fase2-completion/norm-decreto815-2018.html",
     "mimeType": "text/html",
-    "status": "needs_review",
-    "notes": "Referencia general de competencias; no certifica aplicación a una convocatoria concreta.",
+    "status": "verified",
+    "notes": "Referencia general de competencias; no certifica aplicación a una convocatoria concreta. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes.",
     "sha256": "ec62fc4d672728f8d2d5cd226e07265555115f64dca7ee63bf3fbd77e0d2abb6",
     "incorporatedAt": "2026-09-03",
     "public": false
@@ -480,8 +480,8 @@
     "sourcePath": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1952_2019.htm",
     "targetPath": "dataset/raw/official/fase2-completion/norm-ley1952-2019.html",
     "mimeType": "text/html",
-    "status": "needs_review",
-    "notes": "Copia de compilación normativa consultada para deberes de legalidad y diligencia.",
+    "status": "verified",
+    "notes": "Copia de compilación normativa consultada para deberes de legalidad y diligencia. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes.",
     "sha256": "31c054da5b939fc84f88d06eb31d1fb4297f8b5320c79253f73fc808d52ef00f",
     "incorporatedAt": "2026-09-03",
     "public": false
@@ -717,7 +717,7 @@
     "targetPath": "dataset/raw/official/normatividad/nist-sp800-123.pdf",
     "mimeType": "application/pdf",
     "status": "verified",
-    "notes": "Guía de seguridad general de servidores: endurecimiento del sistema operativo, gestión de cuentas y privilegios, retiro de servicios innecesarios, aplicación de parches y registro de eventos. Incorporada para sustentar el tema sistemas_operativos del temario del cargo 3PU-15. Portada fechada en julio de 2008; 53 páginas.",
+    "notes": "Guía de seguridad general de servidores: endurecimiento del sistema operativo, gestión de cuentas y privilegios, retiro de servicios innecesarios, aplicación de parches y registro de eventos. Incorporada para sustentar el tema sistemas_operativos del temario del cargo 3PU-15. Portada fechada en julio de 2008; 53 páginas. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN.",
     "sha256": "182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
     "incorporatedAt": "2026-09-20",
     "public": false
@@ -733,7 +733,7 @@
     "targetPath": "dataset/raw/official/normatividad/nist-sp800-40r4.pdf",
     "mimeType": "application/pdf",
     "status": "verified",
-    "notes": "Guía de planificación de la gestión de parches en la empresa: mantenimiento preventivo y correctivo del software, ventanas de mantenimiento, priorización por riesgo y métricas. Incorporada para sustentar el tema soporte_y_mantenimiento del temario del cargo 3PU-15. Portada fechada en abril de 2022; 28 páginas.",
+    "notes": "Guía de planificación de la gestión de parches en la empresa: mantenimiento preventivo y correctivo del software, ventanas de mantenimiento, priorización por riesgo y métricas. Incorporada para sustentar el tema soporte_y_mantenimiento del temario del cargo 3PU-15. Portada fechada en abril de 2022; 28 páginas. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN.",
     "sha256": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
     "incorporatedAt": "2026-09-20",
     "public": false
@@ -812,8 +812,8 @@
     "sourcePath": null,
     "targetPath": "dataset/raw/official/study-200/http.html",
     "mimeType": "text/html",
-    "status": "needs_review",
-    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente.",
+    "status": "verified",
+    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN.",
     "sha256": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "incorporatedAt": "2026-09-10",
     "public": false
@@ -828,8 +828,8 @@
     "sourcePath": null,
     "targetPath": "dataset/raw/official/study-200/excel-formulas.html",
     "mimeType": "text/html",
-    "status": "needs_review",
-    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente.",
+    "status": "verified",
+    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes.",
     "sha256": "9434f172e5a3416f9d075b054982d1c45110fc7180170d5801df6b6796b7526f",
     "incorporatedAt": "2026-09-10",
     "public": false
@@ -844,8 +844,8 @@
     "sourcePath": null,
     "targetPath": "dataset/raw/official/study-200/excel-basics.html",
     "mimeType": "text/html",
-    "status": "needs_review",
-    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente.",
+    "status": "verified",
+    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes.",
     "sha256": "0b347737b5deae6d160cb76208167549c4b58af2a96a8780616ac1e83a518174",
     "incorporatedAt": "2026-09-10",
     "public": false
@@ -860,8 +860,8 @@
     "sourcePath": null,
     "targetPath": "dataset/raw/official/study-200/cloud.pdf",
     "mimeType": "application/pdf",
-    "status": "needs_review",
-    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente.",
+    "status": "verified",
+    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN.",
     "sha256": "7b0c1a9fdfc67218b8ba2098f448c100c27070db91736b3c87fed63bfa21d418",
     "incorporatedAt": "2026-09-10",
     "public": false
@@ -880,6 +880,54 @@
     "notes": "Guía histórica 2012–2013: formato orientativo, no normativa ni ponderación vigente. No se reproducen preguntas.",
     "sha256": "6fe78edb4c74969860a0a211144f9b0197eafa54c49b19fe9c660c1e98dfcf3c",
     "incorporatedAt": "2026-09-10",
+    "public": false
+  },
+  {
+    "id": "excel-operators-precedence",
+    "title": "Excel — Calculation operators and precedence",
+    "category": "official-technical-guidance",
+    "publisher": "Microsoft",
+    "authorityTier": "B",
+    "url": "https://support.microsoft.com/en-us/office/calculation-operators-and-precedence-in-excel-48be406d-4975-4d31-b2b8-7af9e0e2878a",
+    "sourcePath": null,
+    "targetPath": "dataset/raw/official/study-200/excel-operators-precedence.html",
+    "mimeType": "text/html",
+    "status": "verified",
+    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06. Contenido, procedencia e integridad verificados por revisión factual independiente; no constituye temario oficial PGN.",
+    "sha256": "74541c62c52ff1078cad2456a317579d369036f75377d21c1190be6b41c67c33",
+    "incorporatedAt": "2026-11-06",
+    "public": false
+  },
+  {
+    "id": "excel-filter-data",
+    "title": "Excel — Filter data in a range or table",
+    "category": "official-technical-guidance",
+    "publisher": "Microsoft",
+    "authorityTier": "B",
+    "url": "https://support.microsoft.com/en-us/office/filter-data-in-a-range-or-table-01832226-31b5-4568-8806-38c37dcc180e",
+    "sourcePath": null,
+    "targetPath": "dataset/raw/official/study-200/excel-filter-data.html",
+    "mimeType": "text/html",
+    "status": "verified",
+    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06. Contenido, procedencia e integridad verificados por revisión factual independiente; no constituye temario oficial PGN.",
+    "sha256": "407be100a9f7e822709b98ae1672ed09fa1c60022bc0105b9262ba68de130f34",
+    "incorporatedAt": "2026-11-06",
+    "public": false
+  },
+  {
+    "id": "excel-format-percentages",
+    "title": "Excel — Format numbers as percentages",
+    "category": "official-technical-guidance",
+    "publisher": "Microsoft",
+    "authorityTier": "B",
+    "url": "https://support.microsoft.com/en-GB/Excel/format-numbers-as-percentages-in-excel",
+    "sourcePath": null,
+    "targetPath": "dataset/raw/official/study-200/excel-format-percentages.html",
+    "mimeType": "text/html",
+    "status": "verified",
+    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06. Contenido, procedencia e integridad verificados por revisión factual independiente; no constituye temario oficial PGN.",
+    "sha256": "6c40436b67eb981aba14c9cc0fc53ce6ae6057108a448c89b0a90e3eae5b970a",
+    "incorporatedAt": "2026-11-06",
     "public": false
   }
 ]

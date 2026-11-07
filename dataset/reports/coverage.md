@@ -1,17 +1,17 @@
 # Cobertura del dataset
 
-- Fuentes: **58**
-- Unidades verificables: **158**
+- Fuentes: **62**
+- Unidades verificables: **171**
 - Preguntas: **247**
-- Preguntas publicables: **18**
+- Preguntas publicables: **213**
 
 ## Preguntas por estado
 
 | Categoría | Cantidad |
 | --- | ---: |
 | draft_ai | 0 |
-| validated_assisted | 18 |
-| needs_review | 229 |
+| validated_assisted | 213 |
+| needs_review | 34 |
 | rejected | 0 |
 | retired | 0 |
 
@@ -23,24 +23,24 @@
 | pending_download | 7 |
 | reference | 3 |
 | seed_unapproved | 1 |
-| verified | 22 |
-| needs_review | 18 |
+| verified | 33 |
+| needs_review | 11 |
 | retired | 0 |
 
 ## Unidades por estado
 
 | Categoría | Cantidad |
 | --- | ---: |
-| pending_review | 109 |
-| verified | 49 |
+| pending_review | 32 |
+| verified | 139 |
 | retired | 0 |
 
 ## Fuentes por nivel de autoridad
 
 | Categoría | Cantidad |
 | --- | ---: |
-| A | 14 |
-| B | 38 |
+| A | 15 |
+| B | 41 |
 | C | 0 |
 | D | 0 |
 | N/A | 6 |

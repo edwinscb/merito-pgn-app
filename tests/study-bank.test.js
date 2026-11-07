@@ -26,11 +26,11 @@ const args = [
   read('dataset/content/exam-profiles.json'),
 ]
 describe('habilitación de estudio ligada al contenido', () => {
-  it('publica 240, distingue 18/222, excluye siete semillas y es determinista', () => {
+  it('publica 240, distingue 213/27, excluye siete semillas y es determinista', () => {
     const bank = buildStudyBank(...args)
     expect(bank.questions).toHaveLength(240)
     expect(bank.ownerApprovedIds).toHaveLength(240)
-    expect(bank.provisionalIds).toHaveLength(222)
+    expect(bank.provisionalIds).toHaveLength(27)
     expect(bank.questions.filter((q) => q.moduleId === 'comun')).toHaveLength(
       120,
     )
@@ -39,7 +39,7 @@ describe('habilitación de estudio ligada al contenido', () => {
     )
     expect(
       bank.questions.filter((q) => q.status === 'validated_assisted'),
-    ).toHaveLength(18)
+    ).toHaveLength(213)
     for (const n of [6, 10, 21, 22, 23, 24, 25])
       expect(
         bank.questions.some(

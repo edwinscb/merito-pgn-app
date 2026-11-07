@@ -112,9 +112,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Objetivo institucional único; B es la única categoría compatible. Racionales distinguen las cuatro ubicaciones. Principalmente es prescindible, pero no introduce una segunda respuesta."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0001",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 6356ae740633acef43d4ddd53c64a2d21ea678a3381400a27773b005b5bacdcc."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0001",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 6356ae740633acef43d4ddd53c64a2d21ea678a3381400a27773b005b5bacdcc."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "institucion"
     ]
@@ -232,9 +252,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "La atribución a la presentación institucional delimita la clasificación y resuelve la apariencia de listado legal exhaustivo. A es única; D enumera solo dos ámbitos, pista de dificultad baja sin ambigüedad."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0002",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 7d2beb736110d77d8c5b5eec0d0d3a97e01c847439cc6de2de0808e4e0f4bb25."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0002",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 7d2beb736110d77d8c5b5eec0d0d3a97e01c847439cc6de2de0808e4e0f4bb25."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "funciones"
     ]
@@ -245,33 +285,33 @@
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
-    "questionType": "application",
+    "questionType": "conceptual",
     "difficulty": 1,
-    "stem": "Una entidad vigilada prepara una decisión administrativa y la PGN detecta un posible riesgo dentro de su competencia preventiva. ¿Cuál actuación respeta el límite de no coadministración?",
+    "stem": "La PGN emite una advertencia a una entidad vigilada en ejercicio de su función preventiva. ¿Qué ocurre con la responsabilidad de gestionar y decidir en esa entidad?",
     "options": [
       {
         "id": "A",
-        "text": "Sustituir permanentemente a la entidad vigilada.",
-        "rationale": "Sustituir a la entidad implica asumir su gestión, excediendo el alcance descrito."
+        "text": "La entidad vigilada conserva la gestión y las decisiones del asunto.",
+        "rationale": "La función preventiva vigila y advierte sin coadministrar, de modo que la gestión sigue en la entidad."
       },
       {
         "id": "B",
-        "text": "Advertir una situación de riesgo sin asumir la gestión de la entidad.",
-        "rationale": "Vigilar y advertir conserva la responsabilidad de gestión en la entidad vigilada."
+        "text": "La PGN asume la gestión del asunto mientras se supera el riesgo.",
+        "rationale": "Asumir la gestión equivaldría a coadministrar, que es lo que la función preventiva no hace."
       },
       {
         "id": "C",
-        "text": "Imponer siempre una sanción disciplinaria.",
-        "rationale": "La actuación preventiva no equivale a imponer una sanción en todo caso."
+        "text": "La gestión se reparte entre la PGN y la entidad vigilada por mitades.",
+        "rationale": "Repartir la gestión implicaría que la PGN coadministra, lo que la fuente excluye de la función preventiva."
       },
       {
         "id": "D",
-        "text": "Ordenar directamente cualquier gasto público.",
-        "rationale": "La función preventiva descrita no otorga una potestad general para ordenar gastos."
+        "text": "La entidad vigilada pasa a decidir solo con aprobación previa de la PGN.",
+        "rationale": "Exigir aprobación previa convertiría la advertencia en intervención en la gestión, no en vigilancia y advertencia."
       }
     ],
-    "correctOptionId": "B",
-    "explanation": "La presentación institucional describe vigilancia de la actuación de servidores y advertencia de posibles infracciones, sin intromisión en la administración. Advertir el riesgo es distinto de asumir las decisiones de la entidad vigilada.",
+    "correctOptionId": "A",
+    "explanation": "Según la fuente, en la función preventiva la PGN vigila y advierte sin coadministrar. Por eso la advertencia no traslada la gestión ni las decisiones: siguen a cargo de la entidad vigilada.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -352,9 +392,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Revisada corrección: el caso de decisión administrativa y riesgo detectado proporciona situación concreta para application. Clave B única y ambigüedad sobre gestionar riesgos resuelta. Los absolutos de los distractores son una limitación diagnóstica, no otra respuesta defendible."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0003",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: bec224ced0034abfcf3a67a4f7b6d75bfeb659cf1508a5ab61f1cf51c3679e63."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0003",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: bec224ced0034abfcf3a67a4f7b6d75bfeb659cf1508a5ab61f1cf51c3679e63."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "prevencion"
     ]
@@ -366,32 +426,32 @@
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
     "questionType": "conceptual",
-    "difficulty": 1,
-    "stem": "¿Cuál conjunto corresponde a principios constitucionales de la función administrativa?",
+    "difficulty": 2,
+    "stem": "Un manual interno afirma que la función administrativa se rige por varios principios. ¿Cuál de los siguientes NO figura entre los enumerados en el artículo 209 de la Constitución?",
     "options": [
       {
         "id": "A",
-        "text": "Reserva, jerarquía, rentabilidad y competencia.",
-        "rationale": "No corresponde al listado del artículo 209; incluye conceptos que este no enuncia como principios de la función administrativa."
+        "text": "Transparencia.",
+        "rationale": "No figura en la enumeración del artículo 209 (igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad); es una palabra cercana a publicidad, pero no está listada."
       },
       {
         "id": "B",
-        "text": "Igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.",
-        "rationale": "Es correcta: contiene exactamente los siete principios enumerados en el artículo 209."
+        "text": "Celeridad.",
+        "rationale": "Sí figura: el artículo 209 enumera la celeridad entre los principios de la función administrativa."
       },
       {
         "id": "C",
-        "text": "Autonomía privada, libertad contractual y beneficio.",
-        "rationale": "No corresponde: son conceptos propios de relaciones privadas o económicas, no el listado constitucional consultado."
+        "text": "Imparcialidad.",
+        "rationale": "Sí figura: el artículo 209 enumera la imparcialidad entre los principios."
       },
       {
         "id": "D",
-        "text": "Secreto, centralización, informalidad y discrecionalidad.",
-        "rationale": "No corresponde al listado constitucional y contradice, entre otros, el principio de publicidad."
+        "text": "Moralidad.",
+        "rationale": "Sí figura: el artículo 209 enumera la moralidad entre los principios."
       }
     ],
-    "correctOptionId": "B",
-    "explanation": "Es el conjunto constitucional de principios de la función administrativa.",
+    "correctOptionId": "A",
+    "explanation": "El artículo 209 enumera siete principios: igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad. Celeridad, imparcialidad y moralidad están en esa lista; transparencia no aparece en ella, aunque se asocie con la publicidad.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -472,9 +532,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "El objetivo es reconocer un conjunto textual; B y sus racionales son inequívocos. Longitud de B y distractores lejanos reducen discriminación, admisible en diagnóstico básico."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0004",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: b5311286b667749d966fbf21f96013244cffa6240e5eed83cfbac238ac3d25cb."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0004",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: b5311286b667749d966fbf21f96013244cffa6240e5eed83cfbac238ac3d25cb."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "principios"
     ]
@@ -488,32 +568,32 @@
       "competencias_comportamentales"
     ],
     "questionType": "application",
-    "difficulty": 1,
-    "stem": "Un servidor que decide un asunto administrativo tiene un interés particular y directo en él. Según el artículo 11 del CPACA, ¿qué deber se activa ante el conflicto con el interés general?",
+    "difficulty": 2,
+    "stem": "Un servidor se declara impedido en una actuación sujeta al CPACA, pero no tiene superior ni existe cabeza del sector administrativo al cual remitirla. Según el artículo 12, ¿quién asume el trámite del impedimento?",
     "options": [
       {
         "id": "A",
-        "text": "Decidir rápidamente antes de que se conozca el conflicto.",
-        "rationale": "La rapidez no elimina el interés particular y directo del servidor."
+        "text": "El propio servidor, que decide si continúa o se aparta.",
+        "rationale": "El impedimento se remite a otra autoridad; que lo decida quien está impedido desvirtúa su finalidad."
       },
       {
         "id": "B",
-        "text": "Declararse impedido por ese conflicto de interés.",
-        "rationale": "Es el deber expresamente asociado al conflicto por el artículo 11."
+        "text": "El Procurador General o el regional, según el caso.",
+        "rationale": "El artículo 12 prevé la competencia subsidiaria del Procurador General o regional cuando faltan el superior y la cabeza del sector."
       },
       {
         "id": "C",
-        "text": "Delegar informalmente la firma sin dejar registro.",
-        "rationale": "Una delegación informal no sustituye la declaración de impedimento."
+        "text": "El interesado en la actuación, mediante una solicitud escrita.",
+        "rationale": "El artículo 12 no atribuye al interesado la decisión del impedimento."
       },
       {
         "id": "D",
-        "text": "Continuar si considera subjetivamente que será imparcial.",
-        "rationale": "La convicción subjetiva de imparcialidad no elimina la causal descrita."
+        "text": "Un servidor de la misma dependencia, escogido sin formalidad.",
+        "rationale": "El artículo 12 fija los destinatarios de la remisión; una escogencia informal no los sustituye."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "El artículo 11 del CPACA exige declararse impedido cuando el interés general de la función entra en conflicto con el interés particular y directo del servidor. La pregunta evalúa este deber, sin describir todo el trámite del artículo 12.",
+    "explanation": "El artículo 12 del CPACA indica que el servidor remite la actuación con escrito motivado al superior o, si no lo tiene, a la cabeza del sector. Cuando faltan ambos, opera la competencia subsidiaria del Procurador General o regional, según el caso.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -523,8 +603,8 @@
       },
       {
         "sourceId": "law-1437-2011",
-        "sourceUnitId": "law-1437-2011-art-11",
-        "locator": "Artículo 11, páginas PDF 7 a 9",
+        "sourceUnitId": "law-1437-2011-art-12",
+        "locator": "Artículo 12, página PDF 9",
         "supports": "correct_answer"
       }
     ],
@@ -592,9 +672,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "El caso afirma interés particular y directo y pregunta solo por el deber de declararse impedido. B es única; explicación evita atribuir al ítem todo el procedimiento."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0005",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 55ff1acd95f0c4530bb7825dc1dbdd56fb7af33b279bc8858bf8594399049f53."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0005",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 55ff1acd95f0c4530bb7825dc1dbdd56fb7af33b279bc8858bf8594399049f53."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "conflicto_de_interes"
     ]
@@ -682,32 +782,32 @@
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
     "questionType": "application",
-    "difficulty": 1,
-    "stem": "Un documento solicitado contiene información pública y una parte separable cubierta por una excepción legal de acceso. Según el artículo 21 de la Ley 1712 de 2014, ¿cómo se atiende el acceso al resto del documento?",
+    "difficulty": 2,
+    "stem": "Una entidad decide negar el acceso a una información por considerar que su divulgación afectaría derechos protegidos por el artículo 18 de la Ley 1712 de 2014. ¿Cómo debe formalizar esa denegación?",
     "options": [
       {
         "id": "A",
-        "text": "Negar automáticamente todo el documento.",
-        "rationale": "La excepción sobre una parte separable no justifica negar automáticamente la totalidad."
+        "text": "Con una respuesta verbal en ventanilla, sin documento que la respalde.",
+        "rationale": "La denegación por protección de derechos debe ser escrita; una respuesta verbal no deja constancia."
       },
       {
         "id": "B",
-        "text": "Publicar el documento completo.",
-        "rationale": "La entrega íntegra revelaría también la parte exceptuada."
+        "text": "Con una nota escrita que indique solo que la información es reservada.",
+        "rationale": "Aunque sea escrita, la denegación también debe ser motivada; afirmar la reserva sin razones no basta."
       },
       {
         "id": "C",
-        "text": "Elaborar una versión pública que reserve únicamente la parte protegida.",
-        "rationale": "La versión pública preserva el acceso a la parte no protegida."
+        "text": "Con una respuesta escrita que explique las razones de la excepción invocada.",
+        "rationale": "El artículo 18 exige que la denegación por protección de derechos sea motivada y escrita."
       },
       {
         "id": "D",
-        "text": "Entregarlo solo verbalmente.",
-        "rationale": "El medio verbal no resuelve la separación entre información pública y exceptuada."
+        "text": "Con el silencio de la entidad, entendido como negativa tácita del acceso.",
+        "rationale": "El silencio no cumple la exigencia de una denegación motivada y escrita."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "El acceso parcial permite entregar la parte pública y reservar la parte amparada por la excepción. No se presume que cualquier dato personal haga reservado todo el documento ni que toda anonimización sea suficiente.",
+    "explanation": "Según la unidad de la Ley 1712 consultada, la denegación del acceso por protección de derechos del artículo 18 debe ser motivada y escrita. Una respuesta verbal, una afirmación sin razones o el silencio no cumplen esa exigencia.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -744,11 +844,31 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Excepción legal y separación son supuestos explícitos; C resuelve el acceso restante sin una regla indiscriminada sobre datos personales. Las otras actuaciones no realizan la separación solicitada."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0007",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: d886787358c5971047d4b28e7fbe52b8c74099cc9cdf20953e2c7581f2bf0b06."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0007",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: d886787358c5971047d4b28e7fbe52b8c74099cc9cdf20953e2c7581f2bf0b06."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
-      "datos_personales"
+      "denegacion_motivada"
     ]
   },
   {
@@ -758,32 +878,32 @@
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
     "questionType": "application",
-    "difficulty": 1,
-    "stem": "Un área organiza expedientes electrónicos y necesita conservar su contexto, seguimiento y disposición. ¿Qué práctica apoya esos objetivos de gestión documental?",
+    "difficulty": 2,
+    "stem": "Un área debe decidir cuánto tiempo conserva sus expedientes electrónicos y cuándo los elimina. ¿Qué instrumento documental fija esos plazos?",
     "options": [
       {
         "id": "A",
-        "text": "Guardar copias finales en cuentas personales.",
-        "rationale": "Las cuentas personales dispersan el expediente fuera de los controles institucionales."
+        "text": "El cuadro de clasificación, que ordena los documentos por series.",
+        "rationale": "El cuadro de clasificación organiza los documentos; la fuente atribuye los plazos de conservación y eliminación a las tablas de retención o valoración."
       },
       {
         "id": "B",
-        "text": "Aplicar clasificación, metadatos, trazabilidad y tiempos de retención.",
-        "rationale": "Clasificación, metadatos y reglas de retención apoyan organización, seguimiento y disposición."
+        "text": "La tabla de retención o de valoración documental de la entidad.",
+        "rationale": "La fuente señala que los plazos de conservación y eliminación se establecen en las tablas de retención (TRD) o valoración (TVD)."
       },
       {
         "id": "C",
-        "text": "Eliminar borradores y expedientes sin regla documental.",
-        "rationale": "Eliminar sin instrumentos archivísticos desconoce el control de disposición."
+        "text": "Los metadatos del archivo, que describen su contenido y contexto.",
+        "rationale": "Los metadatos preservan contenido, estructura y contexto, pero no fijan por sí solos los plazos de conservación."
       },
       {
         "id": "D",
-        "text": "Cambiar nombres de archivos para evitar búsquedas.",
-        "rationale": "Ocultar archivos mediante sus nombres dificulta su identificación y recuperación."
+        "text": "El registro del trámite, que deja constancia de cada actuación.",
+        "rationale": "El registro de gestión y trámite permite seguimiento y control, pero no define cuándo se conserva o se elimina un documento."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "La clasificación organiza expedientes, los metadatos preservan contexto y los instrumentos archivísticos orientan control y disposición. Estas prácticas apoyan la recuperación y trazabilidad sin garantizarlas por sí solas.",
+    "explanation": "Según el Decreto 1080 de 2015, la disposición documental se realiza conforme a tablas de retención o valoración, que establecen los plazos de conservación y eliminación. Clasificación, metadatos y registro cumplen otras funciones dentro del sistema.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -824,9 +944,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Caso básico con objetivos definidos de gestión documental; B es el único conjunto orientado a ellos. Explicación usa apoyar y evita garantizar resultados. D es muy poco plausible, limitación de dificultad."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0008",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 1df0342c3cec008c426a6ff117541b93152e87102ca67afca356b4bfc71a98bb."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0008",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 1df0342c3cec008c426a6ff117541b93152e87102ca67afca356b4bfc71a98bb."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "gestion_documental"
     ]
@@ -837,33 +977,33 @@
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
-    "questionType": "conceptual",
-    "difficulty": 1,
-    "stem": "En el ciclo PHVA, comprobar indicadores y contrastarlos con metas corresponde principalmente a:",
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una oficina terminó un programa, calculó su indicador de cobertura y lo puso junto a la meta fijada en el plan para saber cuánto se desvió. ¿En qué etapa del ciclo PHVA se encuentra esa actividad?",
     "options": [
       {
         "id": "A",
         "text": "Planear.",
-        "rationale": "Planear define objetivos y acciones antes de ejecutarlos."
+        "rationale": "Planear fija objetivos, indicadores y metas antes de ejecutar; aquí la meta ya existe y se usa para contrastar."
       },
       {
         "id": "B",
         "text": "Hacer.",
-        "rationale": "Hacer corresponde a ejecutar lo planificado."
+        "rationale": "Hacer ejecuta lo planeado; el programa ya terminó y lo que se hace ahora es medir su resultado."
       },
       {
         "id": "C",
         "text": "Verificar.",
-        "rationale": "Verificar compara resultados e indicadores con lo previsto."
+        "rationale": "Verificar contrasta lo ejecutado con lo planeado y con las metas mediante indicadores, e identifica desviaciones."
       },
       {
         "id": "D",
         "text": "Actuar.",
-        "rationale": "Actuar adopta ajustes a partir de lo verificado; no es la comparación misma."
+        "rationale": "Actuar adopta ajustes a partir de lo verificado; medir la desviación precede a esos ajustes."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "Verificar compara desempeño y metas; actuar introduce ajustes.",
+    "explanation": "Calcular el indicador y contrastarlo con la meta para identificar desviaciones es la etapa Verificar. Los ajustes que se decidan después a partir de esa desviación corresponden a otra etapa.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -904,9 +1044,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Opciones homogéneas del mismo ciclo y límite explícito entre comparar y ajustar; C única. Es el ítem con mejor paralelismo de distractores del grupo conceptual."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0009",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 1c5b16d593223d2937e9d038a9f09a20ae9a3d41dfc04a54fe2060563fd83bb4."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0009",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 1c5b16d593223d2937e9d038a9f09a20ae9a3d41dfc04a54fe2060563fd83bb4."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "phva"
     ]
@@ -1307,33 +1467,33 @@
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
-    "questionType": "conceptual",
+    "questionType": "application",
     "difficulty": 1,
-    "stem": "En una base relacional, una restricción de clave foránea referencia una clave de otra tabla. ¿Qué finalidad tiene esa restricción?",
+    "stem": "Una tabla de pedidos tiene una columna id_cliente declarada como clave foránea hacia la clave primaria de la tabla de clientes. Se intenta insertar un pedido con un id_cliente que no existe en clientes. ¿Qué comportamiento corresponde a esa restricción?",
     "options": [
       {
         "id": "A",
-        "text": "Comprimir automáticamente todas las tablas.",
-        "rationale": "La compresión reduce almacenamiento y no es el objetivo de una clave foránea."
+        "text": "El motor rechaza la inserción porque dejaría un pedido huérfano.",
+        "rationale": "La clave foránea solo admite valores presentes en la clave primaria referenciada."
       },
       {
         "id": "B",
-        "text": "Mantener referencias válidas entre los registros de las tablas relacionadas.",
-        "rationale": "La restricción relaciona referencias de la tabla hija con claves válidas."
+        "text": "El motor crea un cliente nuevo con datos vacíos.",
+        "rationale": "La restricción valida referencias; no genera registros en la tabla padre."
       },
       {
         "id": "C",
-        "text": "Cifrar todas las columnas.",
-        "rationale": "El cifrado protege contenido y no es función de esta restricción."
+        "text": "El motor acepta el pedido y lo marca como pendiente de revisión.",
+        "rationale": "La restricción no tiene un estado pendiente; la referencia es válida o se rechaza."
       },
       {
         "id": "D",
-        "text": "Sustituir las copias de seguridad.",
-        "rationale": "Una referencia válida no permite recuperar datos perdidos sin respaldos."
+        "text": "El motor acepta el pedido y lo asocia al último cliente registrado.",
+        "rationale": "El motor no reasigna referencias inexistentes a otro registro."
       }
     ],
-    "correctOptionId": "B",
-    "explanation": "La restricción comprueba que las referencias no nulas correspondan a claves válidas, evitando registros huérfanos conforme a las reglas declaradas. No sustituye respaldos, cifrado ni otros controles de integridad.",
+    "correctOptionId": "A",
+    "explanation": "Una clave foránea exige que sus valores no nulos existan en la clave primaria de la tabla referenciada, lo que evita registros huérfanos. Las acciones sobre borrados o actualizaciones dependen de las reglas declaradas en cada motor.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -1344,7 +1504,7 @@
       {
         "sourceId": "missouri-db-integrity",
         "sourceUnitId": "missouri-db-integrity-review-unit",
-        "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
+        "locator": "Referential Integrity, página PDF 2: la clave foránea de la tabla hija solo acepta valores existentes en la clave primaria padre",
         "supports": "correct_answer"
       }
     ],
@@ -1373,9 +1533,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Pregunta delimitada a finalidad de una restricción de clave foránea; B responde. La explicación precisa referencias no nulas y no promete integridad general. Distractores de otras funciones limitan profundidad."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-SEED-0015",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 5be3b48cb31771149baa0db3fdbdf03f81499fd81766c50db7443f1b9aabb580."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-SEED-0015",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 5be3b48cb31771149baa0db3fdbdf03f81499fd81766c50db7443f1b9aabb580."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "bases_de_datos"
     ]
@@ -1386,33 +1566,33 @@
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
-    "questionType": "conceptual",
+    "questionType": "application",
     "difficulty": 1,
-    "stem": "En una transacción con semántica todo-o-nada, las operaciones se confirman juntas o se revierten si no puede completarse el conjunto. ¿Qué propiedad expresa?",
+    "stem": "Una transacción ya fue confirmada y poco después el servidor de base de datos falla. Al reiniciar, los resultados confirmados siguen disponibles. ¿Qué propiedad ACID garantiza ese comportamiento?",
     "options": [
       {
         "id": "A",
-        "text": "Atomicidad.",
-        "rationale": "Atomicidad es la propiedad todo-o-nada del conjunto transaccional."
+        "text": "Durabilidad.",
+        "rationale": "Los resultados de una transacción confirmada sobreviven a fallas posteriores."
       },
       {
         "id": "B",
-        "text": "Latencia.",
-        "rationale": "La latencia mide demora, no confirmación indivisible."
+        "text": "Atomicidad.",
+        "rationale": "La atomicidad trata la transacción como todo o nada, pero no describe la supervivencia a fallas posteriores."
       },
       {
         "id": "C",
-        "text": "Disponibilidad geográfica.",
-        "rationale": "La disponibilidad geográfica trata acceso al servicio en ubicaciones, no atomicidad."
+        "text": "Aislamiento.",
+        "rationale": "El aislamiento oculta los eventos de una transacción a otras mientras se ejecuta."
       },
       {
         "id": "D",
-        "text": "Compresión.",
-        "rationale": "La compresión trata representación y tamaño de datos."
+        "text": "Consistencia.",
+        "rationale": "La consistencia exige valores correctos antes y después, sin describir la persistencia tras una falla."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "La atomicidad trata las operaciones de una transacción como un conjunto indivisible: se confirman todas o no se confirma ninguna. No supone revertir efectos externos ajenos a la transacción.",
+    "explanation": "La durabilidad indica que los resultados de una transacción confirmada sobreviven a un mal funcionamiento posterior. Las otras tres propiedades ACID cubren objetivos distintos: todo o nada, valores correctos y ocultamiento entre transacciones.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -1423,7 +1603,7 @@
       {
         "sourceId": "nist-acid",
         "sourceUnitId": "nist-acid-review-unit",
-        "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
+        "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18, ACID guarantees (Durability)",
         "supports": "correct_answer"
       }
     ],
@@ -1451,9 +1631,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Reconocimiento conceptual de todo-o-nada con A única; no confunde la transacción con efectos externos. Distractores técnicos distantes y baja discriminación son limitaciones explícitas del nivel inicial."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-SEED-0016",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 9116d382f10ab16b1e2b46824261b07638dcfc98303c30dd655f96b56103f754."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-SEED-0016",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 9116d382f10ab16b1e2b46824261b07638dcfc98303c30dd655f96b56103f754."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "transacciones"
     ]
@@ -1466,46 +1666,44 @@
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 1,
-    "stem": "El principio de mínimo privilegio indica que una identidad debe recibir:",
+    "stem": "Según la definición NIST del principio de mínimo privilegio, ¿a qué entidades se les restringen los privilegios de acceso al mínimo necesario?",
     "options": [
       {
         "id": "A",
-        "text": "Acceso administrativo para evitar bloqueos.",
-        "rationale": "Dar administración por comodidad excede los permisos necesarios."
+        "text": "A las cuentas con rol administrativo por su mayor riesgo.",
+        "rationale": "La definición no se limita a cuentas administrativas."
       },
       {
         "id": "B",
-        "text": "Solo los permisos necesarios para realizar sus tareas.",
-        "rationale": "Los permisos se limitan a los requeridos por las tareas de la identidad."
+        "text": "A los usuarios humanos, sin incluir procesos automáticos.",
+        "rationale": "Los procesos que actúan por un usuario también quedan incluidos."
       },
       {
         "id": "C",
-        "text": "Los mismos permisos que su jefe.",
-        "rationale": "Los permisos del jefe no determinan las tareas propias de otra identidad."
+        "text": "A los usuarios y a los procesos que actúan en su nombre.",
+        "rationale": "La definición cubre usuarios y procesos que actúan en su representación."
       },
       {
         "id": "D",
-        "text": "Acceso anónimo a los datos institucionales.",
-        "rationale": "El acceso anónimo general no limita privilegios según tareas."
+        "text": "A los equipos físicos de la red, no a las identidades.",
+        "rationale": "El principio restringe privilegios de acceso de usuarios y procesos, no solo equipos."
       }
     ],
-    "correctOptionId": "B",
-    "explanation": "El mínimo privilegio limita los accesos a los necesarios para la tarea. Los accesos temporales pueden ser una medida adicional, pero esta definición no impone una duración universal.",
+    "correctOptionId": "C",
+    "explanation": "La definición NIST (CNSSI 4009) indica que el sistema debe restringir al mínimo necesario los privilegios de acceso de los usuarios y de los procesos que actúan en su nombre.",
     "references": [
-      {
-        "sourceId": "pgn-initial-diagnostic",
-        "sourceUnitId": null,
-        "locator": "Pregunta 17 y tabla de clave",
-        "supports": "provenance"
-      },
       {
         "sourceId": "nist-least-privilege",
         "sourceUnitId": "nist-least-privilege-review-unit",
-        "locator": "NIST glossary, definición least privilege",
+        "locator": "NIST glossary, definición least privilege (CNSSI 4009-2022): usuarios o procesos que actúan en su nombre",
         "supports": "correct_answer"
       }
     ],
-    "targetCallIds": ["121-2026", "126-2026", "127-2026"],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [
       {
@@ -1527,9 +1725,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Definición delimitada al permiso requerido por tareas; B única y se elimina una duración universal no contenida en el concepto. Racionales distinguen comodidad, jerarquía y acceso anónimo."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-SEED-0017",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-pass-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: c54252ff4f6f564019a20ece4ef3eddda330ce0ce67845869282898add029445."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-SEED-0017",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-pass-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: c54252ff4f6f564019a20ece4ef3eddda330ce0ce67845869282898add029445."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "minimo_privilegio"
     ]
@@ -1542,31 +1760,31 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "Una aplicación necesita credenciales de servicio y el equipo quiere evitar incluirlas en el código del repositorio. ¿Qué práctica de gestión de secretos responde al problema?",
+    "stem": "Un equipo almacena las credenciales de sus servicios en el gestor de secretos de su plataforma en la nube y configura monitoreo sobre su acceso. Según la guía NCSC, ¿qué actividad conviene que genere una alerta?",
     "options": [
       {
         "id": "A",
-        "text": "Codificarlos en Base64 dentro del código.",
-        "rationale": "Base64 es una codificación reversible y conserva el secreto en el código."
+        "text": "Una aplicación que lee su propio secreto en horario habitual.",
+        "rationale": "Es uso normal y no constituye actividad anómala."
       },
       {
         "id": "B",
-        "text": "Gestionarlos en un almacén de secretos y usar identidades con permisos limitados.",
-        "rationale": "Separa secretos del repositorio y limita las identidades que pueden obtenerlos."
+        "text": "Una identidad de servicio que consulta el secreto asignado.",
+        "rationale": "Es el acceso previsto para esa identidad."
       },
       {
         "id": "C",
-        "text": "Cambiar el nombre de las variables.",
-        "rationale": "Renombrar una variable no protege su contenido."
+        "text": "Un secreto que se renueva según el proceso documentado.",
+        "rationale": "Cambiar secretos con el proceso definido es una práctica recomendada, no una anomalía."
       },
       {
         "id": "D",
-        "text": "Incluirlos en la documentación privada del proyecto.",
-        "rationale": "Documentar el secreto dentro del proyecto mantiene una copia expuesta al acceso a esos archivos."
+        "text": "Un usuario que accede a un secreto propio de una automatización.",
+        "rationale": "La guía cita este patrón como ejemplo de actividad anómala sobre secretos."
       }
     ],
-    "correctOptionId": "B",
-    "explanation": "Un almacén de secretos separa credenciales del código y los permisos limitados restringen su acceso. Es una práctica base, no una garantía completa de seguridad ni sustituto de rotación y otros controles.",
+    "correctOptionId": "D",
+    "explanation": "La guía NCSC recomienda que el monitoreo de secretos se centre en actividad anómala, como un usuario que accede a un secreto que normalmente usa una automatización, o una identidad que consulta muchos secretos distintos.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -1577,11 +1795,15 @@
       {
         "sourceId": "ncsc-cloud-security",
         "sourceUnitId": "ncsc-cloud-security-review-unit",
-        "locator": "NCSC, Using a cloud platform securely, sección Protect secrets carefully",
+        "locator": "NCSC, Using a cloud platform securely, sección Protect secrets carefully: monitoreo de actividad anómala sobre secretos",
         "supports": "correct_answer"
       }
     ],
-    "targetCallIds": ["121-2026", "126-2026", "127-2026"],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [
       {
@@ -1603,9 +1825,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Caso concreto de credenciales en repositorio; B aborda separación y control. Base64 es distractor pertinente; renombrar es trivial. Los pronombres masculinos se entienden por secretos en la pregunta; armonizar a credenciales sería mejora opcional."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-SEED-0018",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 8a9c84b9e957c525bd559d3707091db19711bfd7e3f3eec56390e63af7cda691."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-SEED-0018",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 8a9c84b9e957c525bd559d3707091db19711bfd7e3f3eec56390e63af7cda691."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "secretos"
     ]
@@ -1618,31 +1860,31 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "Un cambio incompatible en una API puede afectar integraciones existentes. Antes de migrar a los consumidores, ¿qué práctica facilita gestionar el cambio?",
+    "stem": "Un usuario autenticado invoca un endpoint de una API al que su perfil no tiene acceso. ¿Qué código de estado HTTP debe devolver el endpoint según el estándar de ingeniería del Home Office?",
     "options": [
       {
         "id": "A",
-        "text": "Romper el contrato sin aviso.",
-        "rationale": "Un cambio incompatible sin aviso impide preparar las integraciones."
+        "text": "200, con el error descrito en el cuerpo de la respuesta.",
+        "rationale": "Un 200 indica éxito y dificulta que el consumidor detecte y depure el fallo."
       },
       {
         "id": "B",
-        "text": "Gestionar la versión y compatibilidad, documentar el contrato y probar las integraciones afectadas.",
-        "rationale": "El contrato documentado y las pruebas permiten evaluar y comunicar compatibilidad."
+        "text": "400, para indicar que la solicitud está mal formada.",
+        "rationale": "La solicitud es válida; lo que falta es autorización."
       },
       {
         "id": "C",
-        "text": "Eliminar autenticación durante la migración.",
-        "rationale": "Retirar autenticación añade exposición y no resuelve incompatibilidad."
+        "text": "500, para indicar una falla interna del servidor.",
+        "rationale": "Un 500 señala un error del servidor, no una restricción de acceso."
       },
       {
         "id": "D",
-        "text": "Cambiar simultáneamente todos los campos sin trazabilidad.",
-        "rationale": "Cambiar campos sin trazabilidad dificulta identificar el efecto sobre consumidores."
+        "text": "403, para indicar que el acceso no está permitido.",
+        "rationale": "El estándar pide códigos apropiados y cita 403 cuando el usuario no tiene acceso."
       }
     ],
-    "correctOptionId": "B",
-    "explanation": "Ante un cambio incompatible, versionado, documentación y pruebas permiten evaluar efectos sobre las integraciones. No se exige aquí una estrategia concreta de versionado ni se afirma que todo cambio compatible necesite nueva versión mayor.",
+    "correctOptionId": "D",
+    "explanation": "El estándar del Home Office exige que cada endpoint devuelva el código de estado pertinente; para un usuario sin acceso cita el 403. Usar códigos reconocibles facilita la depuración a los consumidores.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -1653,7 +1895,7 @@
       {
         "sourceId": "homeoffice-api",
         "sourceUnitId": "homeoffice-api-review-unit",
-        "locator": "Home Office API standard, secciones Versioning, API specification and testing",
+        "locator": "Home Office API standard, sección You MUST return appropriate status codes from each endpoint",
         "supports": "correct_answer"
       }
     ],
@@ -1681,9 +1923,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Cambio incompatible y consumidores afectados delimitan el problema; B única. La explicación evita exigir una estrategia única. Distractores extremos reducen dificultad, sin bloquear uso diagnóstico."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-SEED-0019",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 037c8eb751f2677d71ebbd73f928baa1136d5ecff79436ab493b60dffff8812c."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-SEED-0019",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 037c8eb751f2677d71ebbd73f928baa1136d5ecff79436ab493b60dffff8812c."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "api"
     ]
@@ -1696,46 +1958,44 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "Se confirma ransomware en equipos de una entidad. Según la guía StopRansomware, ¿qué conjunto de acciones debe coordinar la respuesta conforme al plan institucional?",
+    "stem": "Durante la respuesta a un ransomware, la guía StopRansomware recomienda consultar a las autoridades aunque la organización ya pueda mitigar el incidente. ¿Qué información adicional busca esa consulta?",
     "options": [
       {
         "id": "A",
-        "text": "Borrar todos los registros para proteger a la entidad.",
-        "rationale": "Borrar registros destruye evidencia útil para investigar y recuperar."
+        "text": "Qué datos de memoria deben preservarse antes de aislar los equipos.",
+        "rationale": "Preservar evidencia es otra actividad de respuesta; no es el objetivo específico de esta consulta."
       },
       {
         "id": "B",
-        "text": "Aislar sistemas afectados cuando sea posible, preservar evidencia y coordinar la respuesta y evaluación del impacto.",
-        "rationale": "Combina contención, evidencia y coordinación sin imponer una secuencia que retrase el aislamiento."
+        "text": "Si existen herramientas de descifrado publicadas para esa variante.",
+        "rationale": "Investigadores pueden haber encontrado fallos de cifrado y publicado un descifrador aplicable."
       },
       {
         "id": "C",
-        "text": "Informar el incidente únicamente por un canal personal.",
-        "rationale": "Un canal personal aislado no activa la coordinación institucional."
+        "text": "Cuál copia de seguridad debe restaurarse primero en la recuperación.",
+        "rationale": "El orden de restauración depende del plan de recuperación y de los activos críticos de la organización."
       },
       {
         "id": "D",
-        "text": "Desactivar permanentemente el sistema sin evaluar impacto.",
-        "rationale": "Una desactivación permanente sin evaluar impacto no constituye recuperación planificada."
+        "text": "Qué plazo contractual aplica para notificar a cada proveedor.",
+        "rationale": "Los plazos contractuales de proveedores no son la información que busca la consulta sobre la variante."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "La contención, preservación de evidencia y coordinación deben responder al incidente y al plan institucional. No se exige completar una validación antes de toda contención urgente.",
+    "explanation": "La consulta busca saber si ya existe un descifrador para la variante identificada. CISA señala que investigadores pueden descubrir fallos de cifrado y publicar herramientas de descifrado.",
     "references": [
-      {
-        "sourceId": "pgn-initial-diagnostic",
-        "sourceUnitId": null,
-        "locator": "Pregunta 20 y tabla de clave",
-        "supports": "provenance"
-      },
       {
         "sourceId": "cisa-ransomware",
         "sourceUnitId": "cisa-ransomware-review-unit",
-        "locator": "CISA StopRansomware Guide, apartados Initial response y Preserve evidence",
+        "locator": "CISA StopRansomware Guide, Part 2, Containment and Eradication, línea Consult federal law enforcement ... decryptors",
         "supports": "correct_answer"
       }
     ],
-    "targetCallIds": ["121-2026", "126-2026", "127-2026"],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [
       {
@@ -1757,9 +2017,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Revisada corrección del antecedente: C ahora dice Informar el incidente. Clave B y criterio de respuesta claros. La respuesta correcta no impone demorar contención por una validación secuencial; distractores extremos limitan dificultad sin generar otra clave."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-SEED-0020",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-pass-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: d7896e5e85da65cf2cf37c81aa3a9df11a6357f4b067975556a6d2af37e6e838."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-SEED-0020",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-pass-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: d7896e5e85da65cf2cf37c81aa3a9df11a6357f4b067975556a6d2af37e6e838."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "respuesta_a_incidentes"
     ]

@@ -1,7 +1,7 @@
 [
   {
     "id": "PGN-COM-0001",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -44,8 +44,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0001",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: fd65c0d14d6402ef7a44876ae5d05d6a9840b188ea30d8ad392c852bebab37f8."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0001",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: fd65c0d14d6402ef7a44876ae5d05d6a9840b188ea30d8ad392c852bebab37f8."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -53,7 +74,7 @@
   },
   {
     "id": "PGN-COM-0002",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -96,8 +117,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0002",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 29a457c1e95c6774b10f1869f73b6021d8ceb4e0df1a0bc3adb98f45225cbe35."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0002",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 29a457c1e95c6774b10f1869f73b6021d8ceb4e0df1a0bc3adb98f45225cbe35."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -105,13 +147,13 @@
   },
   {
     "id": "PGN-COM-0003",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 3,
-    "stem": "El artículo 23 del Decreto Ley 262 de 2000 agrupa las funciones de la Procuraduría General de la Nación. ¿Cuáles son esos grupos?",
+    "stem": "El artículo 23 del Decreto Ley 262 de 2000 agrupa las funciones de las procuradurías delegadas. ¿Cuáles son esos grupos?",
     "options": [
       {
         "id": "A",
@@ -126,7 +168,7 @@
       {
         "id": "C",
         "text": "Preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos, y de intervención ante autoridades administrativas y judiciales.",
-        "rationale": "El artículo agrupa funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante autoridades administrativas y judiciales."
+        "rationale": "Es el listado del artículo 23 para las procuradurías delegadas: funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante las autoridades administrativas y judiciales."
       },
       {
         "id": "D",
@@ -135,7 +177,7 @@
       }
     ],
     "correctOptionId": "C",
-    "explanation": "El artículo agrupa funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante autoridades administrativas y judiciales.",
+    "explanation": "El artículo 23 señala que las procuradurías delegadas ejercen funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante las autoridades administrativas y judiciales.",
     "references": [
       {
         "sourceId": "decree-law-262-2000",
@@ -148,8 +190,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0003",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: f06013cd02c3a8239445929436f5ca2125fad1e3e17f64567325f439b2984a18."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0003",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: f06013cd02c3a8239445929436f5ca2125fad1e3e17f64567325f439b2984a18."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -157,42 +220,42 @@
   },
   {
     "id": "PGN-COM-0004",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 3,
-    "stem": "Una dependencia de la Procuraduría advierte a una alcaldía sobre un riesgo en un trámite en curso. Según el alcance de la función preventiva, ¿cómo debe actuar?",
+    "stem": "Una dependencia de la Procuraduría detecta un riesgo en un trámite en curso de una alcaldía. Según el alcance de la función preventiva, ¿cómo debe actuar frente a la alcaldía?",
     "options": [
       {
         "id": "A",
-        "text": "Asumiendo la decisión administrativa que corresponde a la alcaldía para evitar el riesgo.",
-        "rationale": "Tomar la decisión en lugar de la entidad vigilada sería coadministrar, y la función preventiva no lo permite."
+        "text": "Decidiendo en lugar de la alcaldía el asunto en riesgo, para evitar que el daño se consolide.",
+        "rationale": "Tomar la decisión que corresponde a la entidad vigilada sería coadministrar, y la función preventiva se ejerce sin coadministración ni intromisión en la gestión."
       },
       {
         "id": "B",
-        "text": "Imponiendo de inmediato una sanción disciplinaria a los responsables.",
-        "rationale": "La sanción pertenece a la función disciplinaria y exige su propio procedimiento; no se deriva de una advertencia preventiva."
+        "text": "Iniciando de inmediato una investigación disciplinaria contra los servidores a cargo del trámite.",
+        "rationale": "La investigación pertenece a la función disciplinaria, que es distinta de la preventiva; esta última busca prevenir antes que sancionar."
       },
       {
         "id": "C",
-        "text": "Suspendiendo el trámite hasta que la entidad corrija el riesgo.",
-        "rationale": "Suspender el trámite sustituiría la voluntad de la administración, lo que excede el alcance de la función preventiva."
+        "text": "Reservando la advertencia hasta que el trámite concluya para evaluar después su legalidad.",
+        "rationale": "La función preventiva busca prevenir antes que sancionar; esperar a que el trámite concluya le quitaría su sentido de advertencia oportuna."
       },
       {
         "id": "D",
-        "text": "Vigilando y advirtiendo, sin coadministrar.",
-        "rationale": "En ejercicio de la función preventiva la Procuraduría vigila y advierte, sin coadministrar."
+        "text": "Vigilando la actuación de la alcaldía y advirtiendo el riesgo, sin coadministrar ni sustituirla.",
+        "rationale": "En la función preventiva la Procuraduría vigila y advierte, sin que ello implique coadministración o intromisión en la gestión de las entidades."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "En ejercicio de la función preventiva la Procuraduría vigila y advierte, sin coadministrar.",
+    "explanation": "En ejercicio de la función preventiva la Procuraduría vigila y advierte sobre los riesgos, sin que ello implique coadministración o intromisión en la gestión de la entidad vigilada.",
     "references": [
       {
         "sourceId": "pgn-functions-general",
         "sourceUnitId": "pgn-functions-general-review-unit",
-        "locator": "Sección «Conozca la entidad», apartados Funciones misionales principales y Función Preventiva",
+        "locator": "Sección «Objetivos y funciones», apartados Funciones misionales principales y Función Preventiva",
         "supports": "correct_answer"
       }
     ],
@@ -200,8 +263,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0004",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 93468360319b465deaa71b2374caa5d9daf865046400ce93cf806d97d1e207f6."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0004",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 93468360319b465deaa71b2374caa5d9daf865046400ce93cf806d97d1e207f6."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -209,37 +293,37 @@
   },
   {
     "id": "PGN-COM-0005",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
-    "questionType": "interpretation",
-    "difficulty": 4,
-    "stem": "Al hacer seguimiento al cumplimiento de una ley, la Procuraduría reiteró los límites de su función preventiva. ¿Qué queda excluido de esa función?",
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "Durante un seguimiento preventivo, una alcaldía sostiene que solicitar información ya equivale a abrir una investigación disciplinaria y anticipar responsabilidad. Según el boletín 107 de 2026, ¿qué respuesta corresponde?",
     "options": [
       {
         "id": "A",
-        "text": "La coadministración, el prejuzgamiento y el ejercicio de control disciplinario.",
-        "rationale": "La Procuraduría reiteró que la función preventiva no implica coadministración, prejuzgamiento ni ejercicio de control disciplinario."
+        "text": "El seguimiento conserva carácter preventivo y no implica prejuzgamiento ni control disciplinario.",
+        "rationale": "El boletín distingue el seguimiento preventivo del prejuzgamiento y del ejercicio de control disciplinario."
       },
       {
         "id": "B",
-        "text": "La vigilancia del cumplimiento de la ley y el seguimiento a las entidades obligadas.",
-        "rationale": "Vigilar y hacer seguimiento son propios de la función preventiva, no exclusiones."
+        "text": "La solicitud de información convierte automáticamente el seguimiento en actuación disciplinaria.",
+        "rationale": "Solicitar información dentro del seguimiento no cambia por sí solo la naturaleza preventiva de la actuación."
       },
       {
         "id": "C",
-        "text": "La formulación de advertencias a las entidades vigiladas.",
-        "rationale": "Advertir es una actuación característica de la función preventiva."
+        "text": "El seguimiento permite anticipar responsabilidad, siempre que todavía no se imponga una sanción.",
+        "rationale": "Anticipar responsabilidad constituiría prejuzgamiento, uno de los efectos que el boletín excluye."
       },
       {
         "id": "D",
-        "text": "El seguimiento al cumplimiento de una ley determinada.",
-        "rationale": "El seguimiento es precisamente el contexto en el que se ejerce la función preventiva."
+        "text": "La función preventiva autoriza a la Procuraduría a sustituir las decisiones de la alcaldía vigilada.",
+        "rationale": "Sustituir las decisiones de la entidad implicaría coadministrar, también excluido por el boletín."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "La Procuraduría reiteró que la función preventiva no implica coadministración, prejuzgamiento ni ejercicio de control disciplinario.",
+    "explanation": "El boletín mantiene separados el seguimiento preventivo, el prejuzgamiento y el control disciplinario. Pedir información no convierte automáticamente la actuación preventiva en investigación ni permite anticipar responsabilidad.",
     "references": [
       {
         "sourceId": "pgn-bulletin-107-2026-preventive-function",
@@ -252,8 +336,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0005",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión de cierre posterior a la rectificación. Huella del contenido: a908c290abc6197080a9e8371137b14d9ff1e2946ca63aea2b664b317db38984."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0005",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión de cierre posterior a la rectificación. Huella del contenido: a908c290abc6197080a9e8371137b14d9ff1e2946ca63aea2b664b317db38984."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -261,42 +366,42 @@
   },
   {
     "id": "PGN-COM-0006",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
-    "questionType": "interpretation",
-    "difficulty": 3,
-    "stem": "La enumeración constitucional de quienes ejercen el Ministerio Público termina refiriéndose a «los demás funcionarios que determine la ley». ¿Qué consecuencia tiene esa expresión?",
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "Según el artículo 23 del Decreto Ley 262 de 2000, ¿de quién dependen directamente los procuradores delegados?",
     "options": [
       {
         "id": "A",
-        "text": "Que la enumeración es cerrada y la ley se limita a reglamentar las funciones de los ya nombrados.",
-        "rationale": "La expresión produce el efecto contrario: deja abierta la incorporación de otros funcionarios por vía legal."
+        "text": "Del Defensor del Pueblo, con quien comparten el ejercicio del Ministerio Público.",
+        "rationale": "El Defensor del Pueblo también ejerce el Ministerio Público, pero los procuradores delegados no dependen de él."
       },
       {
         "id": "B",
-        "text": "Que la ley puede atribuir el ejercicio del Ministerio Público a otros funcionarios.",
-        "rationale": "Además del Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes y los personeros municipales, el Ministerio Público es ejercido por los demás funcionarios que determine la ley."
+        "text": "Del Procurador General de la Nación.",
+        "rationale": "El artículo 23 establece que los procuradores delegados dependen directamente del Procurador General."
       },
       {
         "id": "C",
-        "text": "Que todo servidor que vigile la función pública ejerce el Ministerio Público sin necesidad de ley.",
-        "rationale": "Se requiere que la ley lo determine; vigilar la función pública no basta."
+        "text": "Del personero municipal de la jurisdicción en la que actúan.",
+        "rationale": "Los personeros municipales ejercen el Ministerio Público en el municipio, pero no dirigen a los procuradores delegados."
       },
       {
         "id": "D",
-        "text": "Que los personeros municipales quedan excluidos mientras la ley no los ratifique.",
-        "rationale": "Los personeros municipales están nombrados de manera expresa en el propio texto constitucional."
+        "text": "Del Fiscal General de la Nación, porque intervienen ante autoridades judiciales.",
+        "rationale": "Intervenir ante autoridades judiciales no genera dependencia de la Fiscalía; el Fiscal General no hace parte del Ministerio Público."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "Además del Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes y los personeros municipales, el Ministerio Público es ejercido por los demás funcionarios que determine la ley.",
+    "explanation": "El artículo 23 del Decreto Ley 262 de 2000 establece que los procuradores delegados dependen directamente del Procurador General de la Nación.",
     "references": [
       {
-        "sourceId": "colombia-constitution-1991",
-        "sourceUnitId": "constitution-1991-art-118",
-        "locator": "Artículo 118, página PDF 82",
+        "sourceId": "decree-law-262-2000",
+        "sourceUnitId": "decree-law-262-2000-art-23",
+        "locator": "Artículo 23, página PDF 15",
         "supports": "correct_answer"
       }
     ],
@@ -304,8 +409,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0006",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 5be2f9b0a39ac02782fd242c39586451c5f92467edca6dd373829a5725f89f97."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0006",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 5be2f9b0a39ac02782fd242c39586451c5f92467edca6dd373829a5725f89f97."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -313,7 +439,7 @@
   },
   {
     "id": "PGN-COM-0007",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -356,8 +482,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0007",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: d4d668de98a67e4644961a0143284136fdb18d03bc874714c8b7f6b85bc6ce5b."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0007",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: d4d668de98a67e4644961a0143284136fdb18d03bc874714c8b7f6b85bc6ce5b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -365,7 +512,7 @@
   },
   {
     "id": "PGN-COM-0008",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -408,8 +555,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0008",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 55e158bb932821f98ef17c5e721c21db7385e46bedecb385e5f9b77704c62ca1."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0008",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 55e158bb932821f98ef17c5e721c21db7385e46bedecb385e5f9b77704c62ca1."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -417,7 +585,7 @@
   },
   {
     "id": "PGN-COM-0009",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -460,8 +628,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0009",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: ff5f2c5ba3cd8fd0068ebbc383db4e2d1705881aecd757c75e4027b264ad29e0."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0009",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: ff5f2c5ba3cd8fd0068ebbc383db4e2d1705881aecd757c75e4027b264ad29e0."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -469,42 +658,42 @@
   },
   {
     "id": "PGN-COM-0010",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 3,
-    "stem": "¿Mediante qué instrumento organiza el sistema de gestión documental los documentos junto con sus metadatos?",
+    "stem": "Según el artículo 2.8.2.6.1, literal a, del Decreto 1080 de 2015, ¿mediante qué instrumento organiza el sistema de gestión documental los documentos junto con sus metadatos?",
     "options": [
       {
         "id": "A",
-        "text": "Mediante el inventario de bienes de la entidad.",
-        "rationale": "El inventario de bienes registra elementos patrimoniales y no organiza documentos con sus metadatos."
+        "text": "Mediante el inventario documental de cada dependencia.",
+        "rationale": "El literal a no señala el inventario documental como instrumento de organización: nombra los cuadros de clasificación documental."
       },
       {
         "id": "B",
-        "text": "Mediante los cuadros de clasificación.",
-        "rationale": "El sistema organiza los documentos con sus metadatos mediante cuadros de clasificación, y en ellos se establecen los plazos correspondientes."
+        "text": "Mediante los cuadros de clasificación documental.",
+        "rationale": "El literal a dispone organizar los documentos físicos y electrónicos, incluyendo sus metadatos, a través de cuadros de clasificación documental."
       },
       {
         "id": "C",
-        "text": "Mediante el registro de firmas autorizadas de la dependencia.",
-        "rationale": "El registro de firmas es un control de autorización, ajeno a la organización documental."
+        "text": "Mediante las tablas de retención y de valoración documental.",
+        "rationale": "Las TRD y TVD sirven para establecer plazos de conservación y eliminación (literal b), no para organizar los documentos con sus metadatos."
       },
       {
         "id": "D",
-        "text": "Mediante el acta de entrega del funcionario que se retira.",
-        "rationale": "El acta de entrega documenta una transición de cargo y no cumple una función de clasificación."
+        "text": "Mediante el banco terminológico de series y subseries.",
+        "rationale": "El literal a no menciona el banco terminológico: el instrumento que señala para organizar documentos y metadatos es el cuadro de clasificación documental."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "El sistema organiza los documentos con sus metadatos mediante cuadros de clasificación, y en ellos se establecen los plazos correspondientes.",
+    "explanation": "El sistema de gestión documental organiza los documentos, incluyendo sus metadatos, a través de cuadros de clasificación documental (Decreto 1080 de 2015, art. 2.8.2.6.1 lit. a). Los plazos de conservación y eliminación se establecen en las TRD y TVD (lit. b).",
     "references": [
       {
         "sourceId": "decree-1080-2015-archives",
         "sourceUnitId": "decree-1080-2015-archives-review-unit",
-        "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+        "locator": "Decreto 1080 de 2015, artículo 2.8.2.6.1, literales a y b",
         "supports": "correct_answer"
       }
     ],
@@ -512,8 +701,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0010",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 84768a81d68745c690508f45888f294a7e3385bcc3c4bab8c09d10c952dbbcb3."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0010",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 84768a81d68745c690508f45888f294a7e3385bcc3c4bab8c09d10c952dbbcb3."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -521,7 +731,7 @@
   },
   {
     "id": "PGN-COM-0011",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -564,8 +774,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0011",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 9092efaba250085ce9ec3ff20586956810864676158ca4d258057348cc7ce4d9."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0011",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 9092efaba250085ce9ec3ff20586956810864676158ca4d258057348cc7ce4d9."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -573,37 +804,37 @@
   },
   {
     "id": "PGN-COM-0012",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 2,
-    "stem": "Según la Ley 1712 de 2014, cuando una autoridad deniega el acceso a información amparada por la protección de derechos del artículo 18, ¿qué característica debe tener esa denegación?",
+    "stem": "Una autoridad decide negar acceso a información protegida por el artículo 18 de la Ley 1712 de 2014. ¿Cuál respuesta reúne los requisitos de forma y motivación?",
     "options": [
       {
         "id": "A",
-        "text": "Puede comunicarse verbalmente si el solicitante está presente.",
-        "rationale": "La ley no admite una denegación meramente verbal para ese supuesto: exige que sea motivada y escrita."
+        "text": "Una comunicación escrita que invoque de manera genérica la existencia de una reserva legal.",
+        "rationale": "Constar por escrito no basta: la autoridad debe explicar por qué la protección invocada se aplica al caso."
       },
       {
         "id": "B",
-        "text": "Basta con registrarla internamente sin comunicar razones al solicitante.",
-        "rationale": "Un registro interno sin motivación comunicada no satisface la exigencia de que la denegación sea motivada y escrita."
+        "text": "Una explicación verbal detallada, entregada personalmente al solicitante en la oficina pública.",
+        "rationale": "Aunque explique las razones, la denegación debe constar por escrito."
       },
       {
         "id": "C",
-        "text": "Puede omitirse la motivación cuando la excepción es evidente para la autoridad.",
-        "rationale": "La motivación es un requisito de la denegación y no puede omitirse por considerar evidente la excepción; la ley exige que sea motivada y escrita."
+        "text": "Una anotación motivada en el expediente interno, sin comunicar una decisión al solicitante.",
+        "rationale": "Una constancia interna no sustituye la respuesta escrita y motivada dirigida a quien solicitó la información."
       },
       {
         "id": "D",
-        "text": "Debe ser motivada y escrita.",
-        "rationale": "La denegación por protección de derechos del artículo 18 debe ser motivada y escrita, según la Ley 1712 de 2014."
+        "text": "Una respuesta escrita que exponga la protección aplicable y las razones concretas de la negativa.",
+        "rationale": "Esta opción reúne ambos requisitos: la decisión consta por escrito y explica por qué procede negar el acceso."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La denegación por protección de derechos del artículo 18 debe ser motivada y escrita, según la Ley 1712 de 2014.",
+    "explanation": "La denegación debe comunicarse por escrito y estar motivada. La autoridad debe identificar la protección aplicable y explicar su relación con el caso; no basta una fórmula genérica, una explicación oral ni una nota interna.",
     "references": [
       {
         "sourceId": "law-1712-2014",
@@ -616,8 +847,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0012",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión de cierre posterior a la rectificación. Huella del contenido: c7731a93a24d3a9e7accfaa81edd970eea17ae04f37736614dff2e81431d562c."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0012",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión de cierre posterior a la rectificación. Huella del contenido: c7731a93a24d3a9e7accfaa81edd970eea17ae04f37736614dff2e81431d562c."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -625,7 +877,7 @@
   },
   {
     "id": "PGN-COM-0013",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -645,22 +897,22 @@
       },
       {
         "id": "C",
-        "text": "Exigir que la petición se presente a través de un abogado inscrito.",
-        "rationale": "La representación por abogado no es obligatoria: el artículo 13 permite ejercer directamente el derecho de petición."
+        "text": "Tramitarla únicamente si la persona acredita que no puede pagar los servicios de un abogado.",
+        "rationale": "El artículo 13 no condiciona el ejercicio directo del derecho a acreditar una incapacidad económica: la representación por abogado no es exigible."
       },
       {
         "id": "D",
         "text": "Cobrar una tarifa por tramitar la petición al no contar con representación profesional.",
-        "rationale": "El artículo 13 asocia el ejercicio del derecho a su gratuidad y a la ausencia de representación obligatoria; no habilita cobrar por atender una petición presentada directamente."
+        "rationale": "El artículo 13 dispone que el ejercicio del derecho de petición es gratuito, de modo que no cabe cobrar por tramitar una petición presentada directamente."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "El artículo 13 de la Ley 1755 de 2015 permite ejercer directamente el derecho, de modo que la ausencia de apoderado no justifica rechazar una petición que la persona puede presentar por sí misma.",
+    "explanation": "El artículo 13 de la Ley 1755 de 2015 indica que el ejercicio del derecho de petición es gratuito y puede realizarse sin necesidad de representación a través de abogado; por eso la ausencia de apoderado no justifica rechazar la petición ni cobrar por tramitarla.",
     "references": [
       {
         "sourceId": "law-1755-2015",
-        "sourceUnitId": "study200-158",
-        "locator": "Artículo 13, gratuidad y ausencia de representación obligatoria",
+        "sourceUnitId": "law-1755-2015-art-13-14",
+        "locator": "Ley 1755 de 2015, artículo 13, gratuidad y ausencia de representación obligatoria",
         "supports": "correct_answer"
       }
     ],
@@ -668,8 +920,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0013",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 3d4ea70faecb20cae8be2079302dcff89717126483504267a4212e2e10eaac35."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0013",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 3d4ea70faecb20cae8be2079302dcff89717126483504267a4212e2e10eaac35."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -677,7 +950,7 @@
   },
   {
     "id": "PGN-COM-0014",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -720,8 +993,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0014",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: e9992076dbe7a92dd2c8dd4ffe10eeb462f6e8319f371c87e90bb0ca448f1ff6."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0014",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: e9992076dbe7a92dd2c8dd4ffe10eeb462f6e8319f371c87e90bb0ca448f1ff6."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -729,7 +1023,7 @@
   },
   {
     "id": "PGN-COM-0015",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -772,8 +1066,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0015",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 11bd3643a4ad7dd075cb7becbb5847e163da1e4101ed06fd517745fc936cecfe."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0015",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 11bd3643a4ad7dd075cb7becbb5847e163da1e4101ed06fd517745fc936cecfe."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -781,7 +1096,7 @@
   },
   {
     "id": "PGN-COM-0016",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -792,17 +1107,17 @@
       {
         "id": "A",
         "text": "36, porque se suma 8+4 y luego se multiplica por 3.",
-        "rationale": "Ese resultado supondría sumar antes de multiplicar; Excel realiza primero la multiplicación, salvo que se usen paréntesis."
+        "rationale": "Ese resultado supondría sumar 8+4 antes de multiplicar por 3; sin paréntesis Excel realiza primero la multiplicación."
       },
       {
         "id": "B",
-        "text": "15, porque Excel opera estrictamente de izquierda a derecha.",
-        "rationale": "Excel no opera de forma puramente izquierda a derecha entre suma y multiplicación: la multiplicación tiene prioridad sobre la suma."
+        "text": "28, porque se multiplica 8 por 3 y luego se suma 4.",
+        "rationale": "Agrupa mal los operandos: la multiplicación une 4 y 3 (=12), no 8 y 3; después se suma 8, lo que da 20."
       },
       {
         "id": "C",
-        "text": "12, porque primero se suma 8+4 y ese resultado se toma como respuesta.",
-        "rationale": "Sumar primero da 12, pero para que Excel opere así habría que escribir =(8+4)*3 con paréntesis; sin ellos la multiplicación va antes."
+        "text": "96, porque se multiplican entre sí los tres números.",
+        "rationale": "El operador + indica suma: Excel solo multiplica los operandos unidos por el operador *, y luego suma 8 al producto 4*3."
       },
       {
         "id": "D",
@@ -811,12 +1126,12 @@
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La multiplicación se realiza antes que la suma: 4 por 3 es 12 y se suman 8, lo que da 20; los paréntesis serían necesarios para sumar primero.",
+    "explanation": "Excel realiza la multiplicación antes que la suma: 4 por 3 es 12 y al sumar 8 resulta 20. Para sumar primero habría que escribir =(8+4)*3, que daría 36.",
     "references": [
       {
-        "sourceId": "excel-formulas",
-        "sourceUnitId": "study200-139",
-        "locator": "The order in which Excel performs operations",
+        "sourceId": "excel-operators-precedence",
+        "sourceUnitId": "excel-operators-precedence-order",
+        "locator": "Operator precedence; Use of parentheses",
         "supports": "correct_answer"
       }
     ],
@@ -824,8 +1139,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0016",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: cc63ce4db63fb1cb29e1f671c556cb62d2979a678039739f442363e41a3fc6a8."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0016",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: cc63ce4db63fb1cb29e1f671c556cb62d2979a678039739f442363e41a3fc6a8."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -833,42 +1169,42 @@
   },
   {
     "id": "PGN-COM-0017",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
     "questionType": "interpretation",
-    "difficulty": 3,
-    "stem": "Una fórmula de Excel usa el operador de comparación >= sobre la celda B2, por ejemplo =B2>=10. Según los operadores de comparación, ¿qué produce esta expresión?",
+    "difficulty": 1,
+    "stem": "La celda B2 contiene el número 12. ¿Qué resultado devuelve en Excel la fórmula =B2>=10?",
     "options": [
       {
         "id": "A",
-        "text": "Devuelve un valor lógico según si B2 es mayor o igual que 10.",
-        "rationale": "El operador >= compara mayor o igual y devuelve un valor lógico; no asigna el número 10 a la celda B2."
+        "text": "VERDADERO, porque 12 es mayor o igual que 10.",
+        "rationale": "El operador >= compara ambos valores y devuelve el resultado lógico VERDADERO cuando la condición se cumple."
       },
       {
         "id": "B",
-        "text": "Devuelve el mayor valor entre el contenido de B2 y el número 10.",
-        "rationale": "Eso haría una función como MAX; el operador >= compara y devuelve un valor lógico."
+        "text": "12, porque la fórmula devuelve el contenido mayor.",
+        "rationale": "Una comparación no devuelve el mayor de los operandos; devuelve un valor lógico."
       },
       {
         "id": "C",
-        "text": "Asigna el número 10 a B2 si su contenido actual es menor.",
-        "rationale": "El operador de comparación no asigna valores: compara y devuelve un valor lógico."
+        "text": "10, porque la fórmula reemplaza B2 por el límite.",
+        "rationale": "La fórmula consulta B2 y no modifica ni reemplaza su contenido."
       },
       {
         "id": "D",
-        "text": "Convierte el contenido de B2 en texto y lo compara con el texto \"10\".",
-        "rationale": "El operador >= compara valores sin convertirlos en texto y devuelve un valor lógico."
+        "text": "#¡VALOR!, porque no se pueden comparar dos números.",
+        "rationale": "Excel permite comparar valores numéricos; en este caso la condición se evalúa sin error."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "El operador >= compara mayor o igual y devuelve un valor lógico; no asigna el número 10 a la celda B2.",
+    "explanation": "La fórmula compara el contenido de B2 con 10. Como 12 cumple la condición «mayor o igual», Excel devuelve el valor lógico VERDADERO.",
     "references": [
       {
-        "sourceId": "excel-formulas",
-        "sourceUnitId": "study200-141",
-        "locator": "Calculation operators — comparison operators",
+        "sourceId": "excel-operators-precedence",
+        "sourceUnitId": "excel-operators-precedence-comparison",
+        "locator": "Comparison operators",
         "supports": "correct_answer"
       }
     ],
@@ -876,8 +1212,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0017",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-verdict-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Dictamen posterior a la rectificación y verificación de la fuente Excel. Huella del contenido: c3b05ce5487fa8c921613643b719ae54ca5db2f900490f48ddb807e45efae740."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0017",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-verdict-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Dictamen posterior a la rectificación y verificación de la fuente Excel. Huella del contenido: c3b05ce5487fa8c921613643b719ae54ca5db2f900490f48ddb807e45efae740."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -885,7 +1242,7 @@
   },
   {
     "id": "PGN-COM-0018",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -928,8 +1285,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0018",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 7c097210fb2e5227ced0e8f1ad16048f8ac48c7f61b53643309f6b48e58ddcbb."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0018",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 7c097210fb2e5227ced0e8f1ad16048f8ac48c7f61b53643309f6b48e58ddcbb."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -937,7 +1315,7 @@
   },
   {
     "id": "PGN-COM-0019",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -980,8 +1358,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0019",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 1f4a259c28d7c1e02eaef636ccd2ff1ef01f4e02aa12874f32a13d7aa28941a7."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0019",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 1f4a259c28d7c1e02eaef636ccd2ff1ef01f4e02aa12874f32a13d7aa28941a7."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -989,7 +1388,7 @@
   },
   {
     "id": "PGN-COM-0020",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1032,8 +1431,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0020",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 0f9d32bdf8681471fa277949a50e12be4bec6ad1d219ff7eb8fc70676b684e66."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0020",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 0f9d32bdf8681471fa277949a50e12be4bec6ad1d219ff7eb8fc70676b684e66."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"

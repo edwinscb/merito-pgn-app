@@ -1,7 +1,7 @@
 [
   {
     "id": "PGN-TEC-0001",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "sistemas_operativos",
     "secondaryTopicIds": [],
@@ -44,8 +44,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0001",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 5ed8ca6db761d8c5756af52a3100e4cb98bfbbc51425210c6602457906c0da88."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0001",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 5ed8ca6db761d8c5756af52a3100e4cb98bfbbc51425210c6602457906c0da88."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-123",
@@ -54,7 +75,7 @@
   },
   {
     "id": "PGN-TEC-0002",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "sistemas_operativos",
     "secondaryTopicIds": [],
@@ -97,8 +118,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0002",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 9ec796c9c85464253cba7756f2865c13fdb93e8e223214770ac991982e8b81fa."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0002",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 9ec796c9c85464253cba7756f2865c13fdb93e8e223214770ac991982e8b81fa."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-123",
@@ -107,7 +149,7 @@
   },
   {
     "id": "PGN-TEC-0003",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "soporte_y_mantenimiento",
     "secondaryTopicIds": [],
@@ -150,8 +192,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0003",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 289d1d9f036f354f6dd366006fceb4fdb8f56b9114e02914e187b154b51a5a41."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0003",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 289d1d9f036f354f6dd366006fceb4fdb8f56b9114e02914e187b154b51a5a41."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-40r4",
@@ -160,7 +223,7 @@
   },
   {
     "id": "PGN-TEC-0004",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "soporte_y_mantenimiento",
     "secondaryTopicIds": [],
@@ -203,8 +266,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0004",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 09adb8237e748bf1f7dd63f98d70f8c4dce74f26e59548d13e32b2085c753dc9."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0004",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 09adb8237e748bf1f7dd63f98d70f8c4dce74f26e59548d13e32b2085c753dc9."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-40r4",
@@ -213,7 +297,7 @@
   },
   {
     "id": "PGN-TEC-0005",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "sistemas_operativos",
     "secondaryTopicIds": [],
@@ -256,8 +340,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0005",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 8232a062a83ca935e41ca7fac44c5303d2ad1ee033a2c1e73a92fc0ea7ce3dec."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0005",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 8232a062a83ca935e41ca7fac44c5303d2ad1ee033a2c1e73a92fc0ea7ce3dec."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-123",
@@ -266,7 +371,7 @@
   },
   {
     "id": "PGN-TEC-0006",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "sistemas_operativos",
     "secondaryTopicIds": [],
@@ -309,8 +414,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0006",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 2e0ca040bbba88208f25b7cc32f9445399769f87cdc2889e3f4196b0294cffde."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0006",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 2e0ca040bbba88208f25b7cc32f9445399769f87cdc2889e3f4196b0294cffde."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-123",
@@ -319,37 +445,37 @@
   },
   {
     "id": "PGN-TEC-0007",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "sistemas_operativos",
     "secondaryTopicIds": [],
     "questionType": "technical_analysis",
     "difficulty": 3,
-    "stem": "Un administrador configura sus servidores para que descarguen parches automáticamente y, para ahorrar tiempo, quiere que también se instalen solos apenas se descarguen. Según NIST SP 800-123, ¿qué recomienda la guía sobre esta configuración?",
+    "stem": "Un equipo de TI define cómo obtener e instalar parches en sus servidores. Según NIST SP 800-123, ¿qué configuración recomienda la guía?",
     "options": [
       {
         "id": "A",
-        "text": "Tanto la descarga como la instalación deben ser automáticas para minimizar la ventana de exposición.",
-        "rationale": "Incorrecta: la guía desaconseja la instalación automática; recomienda no instalar de forma automática para poder probar antes."
+        "text": "Desactivar la descarga automática y obtener los parches solo mediante descarga manual por parte de cada administrador.",
+        "rationale": "Incorrecta: la guía admite que los administradores configuren la descarga automática de parches; lo que desaconseja es configurar su instalación automática para poder probarlos antes."
       },
       {
         "id": "B",
-        "text": "Ni la descarga ni la instalación deben automatizarse; ambas deben hacerse a mano.",
-        "rationale": "Incorrecta: la guía sí admite la descarga automática de parches; lo que desaconseja es la instalación automática sin pruebas previas."
+        "text": "Configurar la descarga y la instalación automáticas de los parches, sin pruebas previas.",
+        "rationale": "Incorrecta: es lo contrario de lo recomendado; la guía indica que los servidores no deben configurarse para instalar parches automáticamente, de modo que puedan probarse antes."
       },
       {
         "id": "C",
-        "text": "Pueden descargar los parches automáticamente, pero no instalarlos así, para poder probarlos antes.",
-        "rationale": "Correcta: la guía indica que 'although administrators can configure servers to download patches automatically, the servers should not be configured to install them automatically so that they can first be tested', es decir, permite la descarga automática pero no la instalación automática, para poder probar los parches antes."
+        "text": "Configurar la descarga de parches, pero no su instalación, para poder probarlos antes.",
+        "rationale": "Correcta: la guía indica que 'although administrators can configure servers to download patches automatically, the servers should not be configured to install them automatically so that they can first be tested', es decir, admite configurar la descarga, pero no la instalación, para poder probar los parches antes."
       },
       {
         "id": "D",
-        "text": "La instalación automática es aceptable si se realiza fuera del horario laboral.",
-        "rationale": "Incorrecta: la objeción de la guía a la instalación automática es la falta de pruebas previas, no el horario en que ocurra."
+        "text": "Acumular los parches y aplicarlos juntos en la siguiente revisión periódica de configuración de los servidores.",
+        "rationale": "Incorrecta: la guía no propone diferir la aplicación hasta una revisión periódica; recomienda descargar los parches y probarlos antes de instalarlos, sin dejar la instalación automática."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "Correcta: la guía indica que 'although administrators can configure servers to download patches automatically, the servers should not be configured to install them automatically so that they can first be tested', es decir, permite la descarga automática pero no la instalación automática, para poder probar los parches antes.",
+    "explanation": "Correcta: la guía indica que 'although administrators can configure servers to download patches automatically, the servers should not be configured to install them automatically so that they can first be tested', es decir, admite configurar la descarga, pero no la instalación, para poder probar los parches antes.",
     "references": [
       {
         "sourceId": "nist-sp800-123",
@@ -362,8 +488,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0007",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 2fca8a04de002cd594b9bf42abc59a53c2b54845a5d9eea1f86754cd83ba37d4."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0007",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 2fca8a04de002cd594b9bf42abc59a53c2b54845a5d9eea1f86754cd83ba37d4."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-123",
@@ -372,7 +519,7 @@
   },
   {
     "id": "PGN-TEC-0008",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "sistemas_operativos",
     "secondaryTopicIds": [],
@@ -415,8 +562,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0008",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 7a02d224f602e40859836dd7fc27907a53c9f7336629eb1d79c58afd016d6d3b."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0008",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 7a02d224f602e40859836dd7fc27907a53c9f7336629eb1d79c58afd016d6d3b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-123",
@@ -425,7 +593,7 @@
   },
   {
     "id": "PGN-TEC-0009",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "sistemas_operativos",
     "secondaryTopicIds": [],
@@ -468,8 +636,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0009",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 4db17c5593e21f402d2034d435e2d5fbf03a972ce0c045a3448ff9fb0de724d7."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0009",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 4db17c5593e21f402d2034d435e2d5fbf03a972ce0c045a3448ff9fb0de724d7."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-123",
@@ -478,7 +667,7 @@
   },
   {
     "id": "PGN-TEC-0010",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "sistemas_operativos",
     "secondaryTopicIds": [],
@@ -521,8 +710,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0010",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 0006263d1ee3916e1c25465fd694ba7bbb0711741493d28f2730a781697beafe."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0010",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 0006263d1ee3916e1c25465fd694ba7bbb0711741493d28f2730a781697beafe."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-123",
@@ -531,37 +741,37 @@
   },
   {
     "id": "PGN-TEC-0011",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "sistemas_operativos",
     "secondaryTopicIds": [],
     "questionType": "technical_analysis",
     "difficulty": 3,
-    "stem": "Para dificultar los ataques de adivinación de contraseñas por fuerza bruta contra un servidor, un administrador estudia opciones que ofrece el sistema operativo. Según NIST SP 800-123, ¿qué medida se recomienda si el sistema operativo lo permite?",
+    "stem": "Un administrador quiere dificultar que un software automatizado pruebe contraseñas repetidamente contra un servidor. Según NIST SP 800-123, ¿qué medida sobre los intentos de inicio de sesión recomienda configurar la guía en primer lugar, si el sistema operativo ofrece la capacidad?",
     "options": [
       {
         "id": "A",
-        "text": "Ampliar la longitud mínima de la contraseña y exigir más tipos de caracteres.",
-        "rationale": "Reforzar la política de contraseñas es una medida válida y distinta, pero no es la que la guía señala para dificultar la adivinación automatizada: esa es aumentar el periodo entre intentos fallidos."
+        "text": "Mantener un intervalo fijo entre intentos de inicio de sesión, igual para todos los intentos fallidos.",
+        "rationale": "Incorrecta: un intervalo fijo no crece con los fallos y no frena de forma creciente la prueba repetida de contraseñas; la guía recomienda aumentar el periodo con cada intento fallido."
       },
       {
         "id": "B",
-        "text": "Deshabilitar por completo el registro de intentos de autenticación para no saturar los logs.",
-        "rationale": "Incorrecta: la guía busca dificultar la adivinación aumentando el intervalo entre intentos; deshabilitar el registro no es la medida recomendada."
+        "text": "Exigir el cambio de la contraseña tras cada intento fallido de inicio de sesión.",
+        "rationale": "Incorrecta: no es la medida que la guía recomienda sobre los intentos de inicio de sesión; obligar a cambiar la contraseña no ralentiza al software que prueba contraseñas, que puede seguir intentándolo sin demora."
       },
       {
         "id": "C",
         "text": "Aumentar el periodo entre intentos de inicio de sesión con cada intento fallido.",
-        "rationale": "Correcta: la guía señala 'if the OS provides the capability, configure it to increase the period between login attempts with each unsuccessful attempt', es decir, aumentar el intervalo entre intentos de inicio de sesión con cada intento fallido."
+        "rationale": "Correcta: la guía señala 'if the OS provides the capability, configure it to increase the period between login attempts with each unsuccessful attempt'. Solo si eso no es posible, la alternativa es denegar el acceso tras un número limitado de fallos."
       },
       {
         "id": "D",
-        "text": "Reducir el periodo entre intentos de inicio de sesión para que el usuario legítimo entre más rápido.",
-        "rationale": "Incorrecta: reducir el intervalo facilitaría la adivinación; la guía recomienda incrementarlo con cada intento fallido."
+        "text": "Limitar los intentos de inicio de sesión por dirección de red de origen, sin modificar el periodo entre intentos de una misma cuenta.",
+        "rationale": "Incorrecta: la medida que la guía recomienda en primer lugar es aumentar el periodo entre intentos con cada fallo, no limitar los intentos por origen; un software automatizado puede cambiar de origen y no se frena el ritmo de intentos sobre la cuenta."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "Correcta: la guía señala 'if the OS provides the capability, configure it to increase the period between login attempts with each unsuccessful attempt', es decir, aumentar el intervalo entre intentos de inicio de sesión con cada intento fallido.",
+    "explanation": "Correcta: la guía señala 'if the OS provides the capability, configure it to increase the period between login attempts with each unsuccessful attempt'. Solo si eso no es posible, la alternativa es denegar el acceso tras un número limitado de fallos.",
     "references": [
       {
         "sourceId": "nist-sp800-123",
@@ -574,8 +784,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0011",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 06fc71f3d9665f44e0244e176e453eb00dc772dee6c716a2d6283225e009f4ed."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0011",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 06fc71f3d9665f44e0244e176e453eb00dc772dee6c716a2d6283225e009f4ed."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-123",
@@ -584,7 +815,7 @@
   },
   {
     "id": "PGN-TEC-0012",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "sistemas_operativos",
     "secondaryTopicIds": [],
@@ -627,8 +858,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0012",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 1156682014b256f062fc47ad2e98f49d8df666dd8c2cf732879864bbf2194d0b."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0012",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 1156682014b256f062fc47ad2e98f49d8df666dd8c2cf732879864bbf2194d0b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-123",
@@ -637,7 +889,7 @@
   },
   {
     "id": "PGN-TEC-0013",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "soporte_y_mantenimiento",
     "secondaryTopicIds": [],
@@ -680,8 +932,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0013",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: ca009aad0fef3d21b095a0931bc6cdde933e8479309de1ce4f93f26a66720a61."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0013",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: ca009aad0fef3d21b095a0931bc6cdde933e8479309de1ce4f93f26a66720a61."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-40r4",
@@ -690,7 +963,7 @@
   },
   {
     "id": "PGN-TEC-0014",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "soporte_y_mantenimiento",
     "secondaryTopicIds": [],
@@ -733,8 +1006,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0014",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: e7cb5d7981d6830055a005694c49c2170717293331aa57d0cd426ce1df321abe."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0014",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: e7cb5d7981d6830055a005694c49c2170717293331aa57d0cd426ce1df321abe."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-40r4",
@@ -743,7 +1037,7 @@
   },
   {
     "id": "PGN-TEC-0015",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "soporte_y_mantenimiento",
     "secondaryTopicIds": [],
@@ -786,8 +1080,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0015",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 432363ea0df021d2497f88b8b8e215f2de82200d810dd36d32eb8dce8fb52c9b."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0015",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 432363ea0df021d2497f88b8b8e215f2de82200d810dd36d32eb8dce8fb52c9b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-40r4",
@@ -796,7 +1111,7 @@
   },
   {
     "id": "PGN-TEC-0016",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "soporte_y_mantenimiento",
     "secondaryTopicIds": [],
@@ -839,8 +1154,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0016",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: fd2e5c56f5fd2251414c7d7e77dbac8c9c76ab29a8c9e893b0ffe7779f79484c."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0016",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: fd2e5c56f5fd2251414c7d7e77dbac8c9c76ab29a8c9e893b0ffe7779f79484c."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-40r4",
@@ -849,7 +1185,7 @@
   },
   {
     "id": "PGN-TEC-0017",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "soporte_y_mantenimiento",
     "secondaryTopicIds": [],
@@ -892,8 +1228,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0017",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 5b0e73b6778949914a37ded3b25397b3715cecbc9869bbb9a9cd334832aa7022."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0017",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 5b0e73b6778949914a37ded3b25397b3715cecbc9869bbb9a9cd334832aa7022."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-40r4",
@@ -902,37 +1259,37 @@
   },
   {
     "id": "PGN-TEC-0018",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "soporte_y_mantenimiento",
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 3,
-    "stem": "Un profesional de soporte de una entidad pública propone probar los parches en un ambiente controlado antes de aplicarlos al parque de equipos en producción. ¿Cuál es el propósito principal de esa prueba previa?",
+    "stem": "¿Qué modalidades admite NIST SP 800-40 Rev. 4 para la etapa de prueba de un parche?",
     "options": [
       {
         "id": "A",
-        "text": "Cumplir un requisito de imagen institucional ante los usuarios y directivos de la entidad.",
-        "rationale": "La prueba previa no busca imagen institucional, sino identificar problemas del parche antes de producción."
+        "text": "Revisión documental del boletín y validación criptográfica del archivo.",
+        "rationale": "Son controles útiles sobre la información y la integridad del parche, pero no son las modalidades de prueba que enumera la guía."
       },
       {
         "id": "B",
-        "text": "Reducir el riesgo operacional detectando problemas del parche antes de producción.",
-        "rationale": "La prueba busca reducir el riesgo operacional al identificar problemas con el parche antes de ponerlo en producción."
+        "text": "Prueba manual en un entorno y prueba mediante métodos automatizados.",
+        "rationale": "La guía indica que la etapa de prueba puede realizarse manualmente o con métodos automatizados."
       },
       {
         "id": "C",
-        "text": "Reemplazar la necesidad de validar la procedencia y la integridad del parche descargado.",
-        "rationale": "Probar el parche no sustituye la validación de su autenticidad; su propósito es reducir el riesgo operacional detectando problemas antes de producción."
+        "text": "Aceptación por usuarios y evaluación del contrato de soporte asociado.",
+        "rationale": "La aceptación y el contrato pueden aportar información, pero no forman la pareja de modalidades indicada en la sección citada."
       },
       {
         "id": "D",
-        "text": "Acelerar el despliegue omitiendo la ventana de gestión de cambios.",
-        "rationale": "La prueba no pretende omitir la gestión de cambios ni acelerar saltándose controles; su fin es detectar problemas antes de producción para reducir el riesgo operacional."
+        "text": "Análisis del impacto financiero y aprobación del comité de cambios.",
+        "rationale": "Son actividades de decisión y gobierno, no modalidades para ejecutar la prueba técnica del parche."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "La prueba busca reducir el riesgo operacional al identificar problemas con el parche antes de ponerlo en producción.",
+    "explanation": "NIST señala que la prueba del parche puede realizarse manualmente o mediante métodos automatizados. Su finalidad es detectar problemas antes de producción.",
     "references": [
       {
         "sourceId": "nist-sp800-40r4",
@@ -945,8 +1302,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0018",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-two-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 503a032e30644ebc887c83e38db633a0fee8673aa801c7df947dab1fd5b5d936."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0018",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-two-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 503a032e30644ebc887c83e38db633a0fee8673aa801c7df947dab1fd5b5d936."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-40r4",
@@ -955,7 +1333,7 @@
   },
   {
     "id": "PGN-TEC-0019",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "soporte_y_mantenimiento",
     "secondaryTopicIds": [],
@@ -998,8 +1376,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0019",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 3856887383f726a21615c333f8665a6ac6720d6f226de1bda40b162ee944048d."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0019",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 3856887383f726a21615c333f8665a6ac6720d6f226de1bda40b162ee944048d."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-40r4",
@@ -1008,7 +1407,7 @@
   },
   {
     "id": "PGN-TEC-0020",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "soporte_y_mantenimiento",
     "secondaryTopicIds": [],
@@ -1051,8 +1450,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-TEC-0020",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 3fe9a4da45a45a93dc5f8fe49d35529cb66b87cac007f63b8d1d38841a1243d7."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-TEC-0020",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 3fe9a4da45a45a93dc5f8fe49d35529cb66b87cac007f63b8d1d38841a1243d7."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "nist-sp800-40r4",
