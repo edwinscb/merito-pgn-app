@@ -333,11 +333,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": "2026-02-06",
     "version": null,
-    "validity": "unknown",
+    "validity": "effective",
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Boletín oficial del 6 de febrero de 2026; ejemplo contextual de seguimiento a la Ley 2492. No respalda la definición general originalmente atribuida a su unidad; ver auditoría factual del piloto."
+    "notes": "Boletín oficial del 6 de febrero de 2026; ejemplo contextual de seguimiento a la Ley 2492. No respalda la definición general originalmente atribuida a su unidad; ver auditoría factual del piloto. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "decree-263-2000",
@@ -514,10 +514,10 @@
     "publishedAt": "2015-06-30",
     "version": null,
     "validity": "effective",
-    "status": "needs_review",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Copia oficial consultada para contenido, competencia, términos y reserva; vigencia específica debe revisarse al publicar."
+    "notes": "Copia oficial consultada para contenido, competencia, términos y reserva; vigencia específica debe revisarse al publicar. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "law-1712-2014",
@@ -593,11 +593,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Copia oficial consultada para planeación contractual; revisar reformas y régimen aplicable."
+    "notes": "Copia oficial consultada para planeación contractual; revisar reformas y régimen aplicable. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "funcion-publica-indicators",
@@ -833,11 +833,11 @@
     "incorporatedAt": "2026-09-03",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Referencia general de competencias; no certifica aplicación a una convocatoria concreta."
+    "notes": "Referencia general de competencias; no certifica aplicación a una convocatoria concreta. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "codigo-integridad",
@@ -874,10 +874,10 @@
     "publishedAt": "2019-01-28",
     "version": null,
     "validity": "effective",
-    "status": "needs_review",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Copia de compilación normativa consultada para deberes de legalidad y diligencia."
+    "notes": "Copia de compilación normativa consultada para deberes de legalidad y diligencia. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "dnp-public-innovation",
@@ -1113,11 +1113,11 @@
     "incorporatedAt": "2026-09-10",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente."
+    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "excel-basics",
@@ -1133,11 +1133,11 @@
     "incorporatedAt": "2026-09-10",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente."
+    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente. La revisión factual independiente del 2026-11-06 verificó los apartados citados por el banco General; esta comprobación acotada sustituye el pendiente para esos apartados y no certifica el documento completo ni su aplicabilidad a otros regímenes."
   },
   {
     "id": "nist-cloud-145",
@@ -1193,11 +1193,11 @@
     "incorporatedAt": "2026-11-06",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06 para respaldar ejercicios originales. No constituye temario oficial PGN; pendiente de revisión factual independiente."
+    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06. Contenido, procedencia e integridad verificados por revisión factual independiente; no constituye temario oficial PGN."
   },
   {
     "id": "excel-filter-data",
@@ -1213,11 +1213,11 @@
     "incorporatedAt": "2026-11-06",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06 para respaldar ejercicios originales. No constituye temario oficial PGN; pendiente de revisión factual independiente."
+    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06. Contenido, procedencia e integridad verificados por revisión factual independiente; no constituye temario oficial PGN."
   },
   {
     "id": "excel-format-percentages",
@@ -1233,10 +1233,10 @@
     "incorporatedAt": "2026-11-06",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06 para respaldar ejercicios originales. No constituye temario oficial PGN; pendiente de revisión factual independiente."
+    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06. Contenido, procedencia e integridad verificados por revisión factual independiente; no constituye temario oficial PGN."
   }
 ]

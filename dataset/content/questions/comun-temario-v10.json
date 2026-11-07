@@ -1,7 +1,7 @@
 [
   {
     "id": "PGN-COM-0001",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -44,8 +44,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0001",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: fd65c0d14d6402ef7a44876ae5d05d6a9840b188ea30d8ad392c852bebab37f8."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0001",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: fd65c0d14d6402ef7a44876ae5d05d6a9840b188ea30d8ad392c852bebab37f8."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -53,7 +74,7 @@
   },
   {
     "id": "PGN-COM-0002",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -96,8 +117,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0002",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 29a457c1e95c6774b10f1869f73b6021d8ceb4e0df1a0bc3adb98f45225cbe35."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0002",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 29a457c1e95c6774b10f1869f73b6021d8ceb4e0df1a0bc3adb98f45225cbe35."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -105,7 +147,7 @@
   },
   {
     "id": "PGN-COM-0003",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -148,8 +190,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0003",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: f06013cd02c3a8239445929436f5ca2125fad1e3e17f64567325f439b2984a18."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0003",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: f06013cd02c3a8239445929436f5ca2125fad1e3e17f64567325f439b2984a18."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -157,7 +220,7 @@
   },
   {
     "id": "PGN-COM-0004",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -200,8 +263,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0004",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 93468360319b465deaa71b2374caa5d9daf865046400ce93cf806d97d1e207f6."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0004",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 93468360319b465deaa71b2374caa5d9daf865046400ce93cf806d97d1e207f6."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -209,37 +293,37 @@
   },
   {
     "id": "PGN-COM-0005",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 3,
-    "stem": "Una alcaldía considera que el seguimiento de la Procuraduría al cumplimiento de una ley ya implica un juicio sobre la responsabilidad de sus funcionarios. Según el boletín 107 de 2026, ¿qué precisión corresponde?",
+    "stem": "Durante un seguimiento preventivo, una alcaldía sostiene que solicitar información ya equivale a abrir una investigación disciplinaria y anticipar responsabilidad. Según el boletín 107 de 2026, ¿qué respuesta corresponde?",
     "options": [
       {
         "id": "A",
-        "text": "Que la actuación preventiva no implica prejuzgamiento ni ejercicio de control disciplinario.",
-        "rationale": "El boletín reitera que la actuación se desarrolla en el marco de la función preventiva, sin que implique coadministración, prejuzgamiento o ejercicio de control disciplinario."
+        "text": "El seguimiento conserva carácter preventivo y no implica prejuzgamiento ni control disciplinario.",
+        "rationale": "El boletín distingue el seguimiento preventivo del prejuzgamiento y del ejercicio de control disciplinario."
       },
       {
         "id": "B",
-        "text": "Que el seguimiento equivale a la apertura formal de una investigación disciplinaria contra los funcionarios.",
-        "rationale": "Contradice el boletín: la actuación preventiva no implica el ejercicio de control disciplinario."
+        "text": "La solicitud de información convierte automáticamente el seguimiento en actuación disciplinaria.",
+        "rationale": "Solicitar información dentro del seguimiento no cambia por sí solo la naturaleza preventiva de la actuación."
       },
       {
         "id": "C",
-        "text": "Que el seguimiento anticipa una decisión de responsabilidad, aunque todavía no la declare formalmente.",
-        "rationale": "Contradice el boletín: la actuación preventiva no implica prejuzgamiento."
+        "text": "El seguimiento permite anticipar responsabilidad, siempre que todavía no se imponga una sanción.",
+        "rationale": "Anticipar responsabilidad constituiría prejuzgamiento, uno de los efectos que el boletín excluye."
       },
       {
         "id": "D",
-        "text": "Que la Procuraduría asume la gestión del cumplimiento de la ley mientras dure el seguimiento.",
-        "rationale": "Contradice el boletín: la actuación preventiva no implica coadministración."
+        "text": "La función preventiva autoriza a la Procuraduría a sustituir las decisiones de la alcaldía vigilada.",
+        "rationale": "Sustituir las decisiones de la entidad implicaría coadministrar, también excluido por el boletín."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "La Procuraduría reiteró que esta actuación se desarrolla en el marco de la función preventiva, sin que implique coadministración, prejuzgamiento o ejercicio de control disciplinario.",
+    "explanation": "El boletín mantiene separados el seguimiento preventivo, el prejuzgamiento y el control disciplinario. Pedir información no convierte automáticamente la actuación preventiva en investigación ni permite anticipar responsabilidad.",
     "references": [
       {
         "sourceId": "pgn-bulletin-107-2026-preventive-function",
@@ -252,8 +336,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0005",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión de cierre posterior a la rectificación. Huella del contenido: a908c290abc6197080a9e8371137b14d9ff1e2946ca63aea2b664b317db38984."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0005",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión de cierre posterior a la rectificación. Huella del contenido: a908c290abc6197080a9e8371137b14d9ff1e2946ca63aea2b664b317db38984."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -261,7 +366,7 @@
   },
   {
     "id": "PGN-COM-0006",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -304,8 +409,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0006",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 5be2f9b0a39ac02782fd242c39586451c5f92467edca6dd373829a5725f89f97."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0006",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 5be2f9b0a39ac02782fd242c39586451c5f92467edca6dd373829a5725f89f97."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -313,7 +439,7 @@
   },
   {
     "id": "PGN-COM-0007",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -356,8 +482,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0007",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: d4d668de98a67e4644961a0143284136fdb18d03bc874714c8b7f6b85bc6ce5b."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0007",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: d4d668de98a67e4644961a0143284136fdb18d03bc874714c8b7f6b85bc6ce5b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -365,7 +512,7 @@
   },
   {
     "id": "PGN-COM-0008",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -408,8 +555,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0008",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 55e158bb932821f98ef17c5e721c21db7385e46bedecb385e5f9b77704c62ca1."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0008",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 55e158bb932821f98ef17c5e721c21db7385e46bedecb385e5f9b77704c62ca1."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -417,7 +585,7 @@
   },
   {
     "id": "PGN-COM-0009",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -460,8 +628,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0009",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: ff5f2c5ba3cd8fd0068ebbc383db4e2d1705881aecd757c75e4027b264ad29e0."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0009",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: ff5f2c5ba3cd8fd0068ebbc383db4e2d1705881aecd757c75e4027b264ad29e0."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -469,7 +658,7 @@
   },
   {
     "id": "PGN-COM-0010",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -512,8 +701,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0010",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 84768a81d68745c690508f45888f294a7e3385bcc3c4bab8c09d10c952dbbcb3."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0010",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 84768a81d68745c690508f45888f294a7e3385bcc3c4bab8c09d10c952dbbcb3."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -521,7 +731,7 @@
   },
   {
     "id": "PGN-COM-0011",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -564,8 +774,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0011",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 9092efaba250085ce9ec3ff20586956810864676158ca4d258057348cc7ce4d9."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0011",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 9092efaba250085ce9ec3ff20586956810864676158ca4d258057348cc7ce4d9."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -573,37 +804,37 @@
   },
   {
     "id": "PGN-COM-0012",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 2,
-    "stem": "Según la Ley 1712 de 2014, cuando una autoridad deniega el acceso a información amparada por la protección de derechos del artículo 18, ¿qué característica debe tener esa denegación?",
+    "stem": "Una autoridad decide negar acceso a información protegida por el artículo 18 de la Ley 1712 de 2014. ¿Cuál respuesta reúne los requisitos de forma y motivación?",
     "options": [
       {
         "id": "A",
-        "text": "Puede comunicarse de forma verbal si el solicitante se encuentra presente en la entidad.",
-        "rationale": "Falla en la forma: la ley no admite una denegación meramente verbal para ese supuesto, pues exige que conste por escrito."
+        "text": "Una comunicación escrita que invoque de manera genérica la existencia de una reserva legal.",
+        "rationale": "Constar por escrito no basta: la autoridad debe explicar por qué la protección invocada se aplica al caso."
       },
       {
         "id": "B",
-        "text": "Basta con dejar constancia interna de la decisión, sin explicar las razones al solicitante.",
-        "rationale": "Falla en la comunicación de las razones: la denegación debe ser motivada y escrita, no solo registrada internamente."
+        "text": "Una explicación verbal detallada, entregada personalmente al solicitante en la oficina pública.",
+        "rationale": "Aunque explique las razones, la denegación debe constar por escrito."
       },
       {
         "id": "C",
-        "text": "Puede omitir la motivación cuando la excepción le resulte evidente a la autoridad.",
-        "rationale": "Falla en la motivación: es un requisito de la denegación y no puede omitirse por considerar evidente la excepción."
+        "text": "Una anotación motivada en el expediente interno, sin comunicar una decisión al solicitante.",
+        "rationale": "Una constancia interna no sustituye la respuesta escrita y motivada dirigida a quien solicitó la información."
       },
       {
         "id": "D",
-        "text": "Debe ser motivada y constar por escrito, de modo que el solicitante conozca sus razones.",
-        "rationale": "La denegación por protección de derechos del artículo 18 debe ser motivada y escrita, según la Ley 1712 de 2014."
+        "text": "Una respuesta escrita que exponga la protección aplicable y las razones concretas de la negativa.",
+        "rationale": "Esta opción reúne ambos requisitos: la decisión consta por escrito y explica por qué procede negar el acceso."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La denegación por protección de derechos del artículo 18 debe ser motivada y escrita, según la Ley 1712 de 2014.",
+    "explanation": "La denegación debe comunicarse por escrito y estar motivada. La autoridad debe identificar la protección aplicable y explicar su relación con el caso; no basta una fórmula genérica, una explicación oral ni una nota interna.",
     "references": [
       {
         "sourceId": "law-1712-2014",
@@ -616,8 +847,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0012",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión de cierre posterior a la rectificación. Huella del contenido: c7731a93a24d3a9e7accfaa81edd970eea17ae04f37736614dff2e81431d562c."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0012",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión de cierre posterior a la rectificación. Huella del contenido: c7731a93a24d3a9e7accfaa81edd970eea17ae04f37736614dff2e81431d562c."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -625,7 +877,7 @@
   },
   {
     "id": "PGN-COM-0013",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -668,8 +920,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0013",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 3d4ea70faecb20cae8be2079302dcff89717126483504267a4212e2e10eaac35."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0013",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 3d4ea70faecb20cae8be2079302dcff89717126483504267a4212e2e10eaac35."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -677,7 +950,7 @@
   },
   {
     "id": "PGN-COM-0014",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -720,8 +993,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0014",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: e9992076dbe7a92dd2c8dd4ffe10eeb462f6e8319f371c87e90bb0ca448f1ff6."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0014",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: e9992076dbe7a92dd2c8dd4ffe10eeb462f6e8319f371c87e90bb0ca448f1ff6."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -729,7 +1023,7 @@
   },
   {
     "id": "PGN-COM-0015",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -772,8 +1066,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0015",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 11bd3643a4ad7dd075cb7becbb5847e163da1e4101ed06fd517745fc936cecfe."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0015",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 11bd3643a4ad7dd075cb7becbb5847e163da1e4101ed06fd517745fc936cecfe."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -781,7 +1096,7 @@
   },
   {
     "id": "PGN-COM-0016",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -824,8 +1139,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0016",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: cc63ce4db63fb1cb29e1f671c556cb62d2979a678039739f442363e41a3fc6a8."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0016",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-com-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: cc63ce4db63fb1cb29e1f671c556cb62d2979a678039739f442363e41a3fc6a8."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -833,37 +1169,37 @@
   },
   {
     "id": "PGN-COM-0017",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
     "questionType": "interpretation",
-    "difficulty": 3,
-    "stem": "Una fórmula de Excel usa el operador de comparación >= sobre la celda B2, por ejemplo =B2>=10. Según los operadores de comparación, ¿qué produce esta expresión?",
+    "difficulty": 1,
+    "stem": "La celda B2 contiene el número 12. ¿Qué resultado devuelve en Excel la fórmula =B2>=10?",
     "options": [
       {
         "id": "A",
-        "text": "Devuelve un valor lógico según si B2 es mayor o igual que 10.",
-        "rationale": "El operador >= compara mayor o igual y devuelve un valor lógico; no asigna el número 10 a la celda B2."
+        "text": "VERDADERO, porque 12 es mayor o igual que 10.",
+        "rationale": "El operador >= compara ambos valores y devuelve el resultado lógico VERDADERO cuando la condición se cumple."
       },
       {
         "id": "B",
-        "text": "Devuelve el mayor valor entre el contenido de B2 y el número 10.",
-        "rationale": "Eso haría una función como MAX; el operador >= compara y devuelve un valor lógico."
+        "text": "12, porque la fórmula devuelve el contenido mayor.",
+        "rationale": "Una comparación no devuelve el mayor de los operandos; devuelve un valor lógico."
       },
       {
         "id": "C",
-        "text": "Asigna el número 10 a B2 si su contenido actual es menor.",
-        "rationale": "El operador de comparación no asigna valores: compara y devuelve un valor lógico."
+        "text": "10, porque la fórmula reemplaza B2 por el límite.",
+        "rationale": "La fórmula consulta B2 y no modifica ni reemplaza su contenido."
       },
       {
         "id": "D",
-        "text": "Convierte el contenido de B2 en texto y lo compara con el texto \"10\".",
-        "rationale": "El operador >= devuelve un valor lógico, no texto."
+        "text": "#¡VALOR!, porque no se pueden comparar dos números.",
+        "rationale": "Excel permite comparar valores numéricos; en este caso la condición se evalúa sin error."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "El operador >= compara mayor o igual y devuelve un valor lógico; no asigna el número 10 a la celda B2.",
+    "explanation": "La fórmula compara el contenido de B2 con 10. Como 12 cumple la condición «mayor o igual», Excel devuelve el valor lógico VERDADERO.",
     "references": [
       {
         "sourceId": "excel-operators-precedence",
@@ -876,8 +1212,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0017",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-verdict-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Dictamen posterior a la rectificación y verificación de la fuente Excel. Huella del contenido: c3b05ce5487fa8c921613643b719ae54ca5db2f900490f48ddb807e45efae740."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0017",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-verdict-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Dictamen posterior a la rectificación y verificación de la fuente Excel. Huella del contenido: c3b05ce5487fa8c921613643b719ae54ca5db2f900490f48ddb807e45efae740."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -885,7 +1242,7 @@
   },
   {
     "id": "PGN-COM-0018",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -928,8 +1285,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0018",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 7c097210fb2e5227ced0e8f1ad16048f8ac48c7f61b53643309f6b48e58ddcbb."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0018",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 7c097210fb2e5227ced0e8f1ad16048f8ac48c7f61b53643309f6b48e58ddcbb."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -937,7 +1315,7 @@
   },
   {
     "id": "PGN-COM-0019",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -980,8 +1358,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0019",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 1f4a259c28d7c1e02eaef636ccd2ff1ef01f4e02aa12874f32a13d7aa28941a7."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0019",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 1f4a259c28d7c1e02eaef636ccd2ff1ef01f4e02aa12874f32a13d7aa28941a7."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"
@@ -989,7 +1388,7 @@
   },
   {
     "id": "PGN-COM-0020",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1032,8 +1431,29 @@
       "126-2026"
     ],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-COM-0020",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 0f9d32bdf8681471fa277949a50e12be4bec6ad1d219ff7eb8fc70676b684e66."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-COM-0020",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 01; el contenido no cambió después del dictamen. Huella del contenido: 0f9d32bdf8681471fa277949a50e12be4bec6ad1d219ff7eb8fc70676b684e66."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "temario-3pu-15",
       "provisional-authorized"

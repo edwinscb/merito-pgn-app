@@ -112,9 +112,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Objetivo institucional único; B es la única categoría compatible. Racionales distinguen las cuatro ubicaciones. Principalmente es prescindible, pero no introduce una segunda respuesta."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0001",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 6356ae740633acef43d4ddd53c64a2d21ea678a3381400a27773b005b5bacdcc."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0001",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 6356ae740633acef43d4ddd53c64a2d21ea678a3381400a27773b005b5bacdcc."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "institucion"
     ]
@@ -232,16 +252,36 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "La atribución a la presentación institucional delimita la clasificación y resuelve la apariencia de listado legal exhaustivo. A es única; D enumera solo dos ámbitos, pista de dificultad baja sin ambigüedad."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0002",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 7d2beb736110d77d8c5b5eec0d0d3a97e01c847439cc6de2de0808e4e0f4bb25."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0002",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 7d2beb736110d77d8c5b5eec0d0d3a97e01c847439cc6de2de0808e4e0f4bb25."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "funciones"
     ]
   },
   {
     "id": "PGN-SEED-0003",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -352,16 +392,36 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Revisada corrección: el caso de decisión administrativa y riesgo detectado proporciona situación concreta para application. Clave B única y ambigüedad sobre gestionar riesgos resuelta. Los absolutos de los distractores son una limitación diagnóstica, no otra respuesta defendible."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0003",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: bec224ced0034abfcf3a67a4f7b6d75bfeb659cf1508a5ab61f1cf51c3679e63."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0003",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: bec224ced0034abfcf3a67a4f7b6d75bfeb659cf1508a5ab61f1cf51c3679e63."
       }
     ],
-    "validFrom": null,
+    "validFrom": "2026-11-06",
     "tags": [
       "prevencion"
     ]
   },
   {
     "id": "PGN-SEED-0004",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -472,16 +532,36 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "El objetivo es reconocer un conjunto textual; B y sus racionales son inequívocos. Longitud de B y distractores lejanos reducen discriminación, admisible en diagnóstico básico."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0004",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: b5311286b667749d966fbf21f96013244cffa6240e5eed83cfbac238ac3d25cb."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0004",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: b5311286b667749d966fbf21f96013244cffa6240e5eed83cfbac238ac3d25cb."
       }
     ],
-    "validFrom": null,
+    "validFrom": "2026-11-06",
     "tags": [
       "principios"
     ]
   },
   {
     "id": "PGN-SEED-0005",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [
@@ -592,9 +672,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "El caso afirma interés particular y directo y pregunta solo por el deber de declararse impedido. B es única; explicación evita atribuir al ítem todo el procedimiento."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0005",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 55ff1acd95f0c4530bb7825dc1dbdd56fb7af33b279bc8858bf8594399049f53."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0005",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 55ff1acd95f0c4530bb7825dc1dbdd56fb7af33b279bc8858bf8594399049f53."
       }
     ],
-    "validFrom": null,
+    "validFrom": "2026-11-06",
     "tags": [
       "conflicto_de_interes"
     ]
@@ -677,7 +777,7 @@
   },
   {
     "id": "PGN-SEED-0007",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -744,16 +844,36 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Excepción legal y separación son supuestos explícitos; C resuelve el acceso restante sin una regla indiscriminada sobre datos personales. Las otras actuaciones no realizan la separación solicitada."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0007",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: d886787358c5971047d4b28e7fbe52b8c74099cc9cdf20953e2c7581f2bf0b06."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0007",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: d886787358c5971047d4b28e7fbe52b8c74099cc9cdf20953e2c7581f2bf0b06."
       }
     ],
-    "validFrom": null,
+    "validFrom": "2026-11-06",
     "tags": [
       "denegacion_motivada"
     ]
   },
   {
     "id": "PGN-SEED-0008",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -824,16 +944,36 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Caso básico con objetivos definidos de gestión documental; B es el único conjunto orientado a ellos. Explicación usa apoyar y evita garantizar resultados. D es muy poco plausible, limitación de dificultad."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0008",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 1df0342c3cec008c426a6ff117541b93152e87102ca67afca356b4bfc71a98bb."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0008",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 1df0342c3cec008c426a6ff117541b93152e87102ca67afca356b4bfc71a98bb."
       }
     ],
-    "validFrom": null,
+    "validFrom": "2026-11-06",
     "tags": [
       "gestion_documental"
     ]
   },
   {
     "id": "PGN-SEED-0009",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -904,9 +1044,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Opciones homogéneas del mismo ciclo y límite explícito entre comparar y ajustar; C única. Es el ítem con mejor paralelismo de distractores del grupo conceptual."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-SEED-0009",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 1c5b16d593223d2937e9d038a9f09a20ae9a3d41dfc04a54fe2060563fd83bb4."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-SEED-0009",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 1c5b16d593223d2937e9d038a9f09a20ae9a3d41dfc04a54fe2060563fd83bb4."
       }
     ],
-    "validFrom": null,
+    "validFrom": "2026-11-06",
     "tags": [
       "phva"
     ]
@@ -1505,7 +1665,11 @@
         "supports": "correct_answer"
       }
     ],
-    "targetCallIds": ["121-2026", "126-2026", "127-2026"],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [
       {
@@ -1581,7 +1745,11 @@
         "supports": "correct_answer"
       }
     ],
-    "targetCallIds": ["121-2026", "126-2026", "127-2026"],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [
       {
@@ -1735,7 +1903,11 @@
         "supports": "correct_answer"
       }
     ],
-    "targetCallIds": ["121-2026", "126-2026", "127-2026"],
+    "targetCallIds": [
+      "121-2026",
+      "126-2026",
+      "127-2026"
+    ],
     "createdMethod": "seed_import",
     "reviews": [
       {

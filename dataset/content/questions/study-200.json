@@ -1,7 +1,7 @@
 [
   {
     "id": "PGN-NEW-0110",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -42,8 +42,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0110",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: eb112d607fbe580730de81cc9b877e0ea4960dc50f53ebb81fa23daf4d99e03c."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0110",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: eb112d607fbe580730de81cc9b877e0ea4960dc50f53ebb81fa23daf4d99e03c."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -52,7 +73,7 @@
   },
   {
     "id": "PGN-NEW-0111",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -93,8 +114,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0111",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 221bb10ce1d0f7bbd1ea2c5ceb3c7162094c8cc4a3cbbf007f20819132dd249b."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0111",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 221bb10ce1d0f7bbd1ea2c5ceb3c7162094c8cc4a3cbbf007f20819132dd249b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -103,7 +145,7 @@
   },
   {
     "id": "PGN-NEW-0112",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -144,8 +186,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0112",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 83bbcf78352ab0eb8446273b77b0bc5890b2f6dc3c602045e22e90ca85d4c23b."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0112",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 83bbcf78352ab0eb8446273b77b0bc5890b2f6dc3c602045e22e90ca85d4c23b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -154,7 +217,7 @@
   },
   {
     "id": "PGN-NEW-0113",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -195,8 +258,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0113",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: aa2dea7cc40ab43cae6663105fc2ffba32018674fedeb50300b900f8dfae635f."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0113",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: aa2dea7cc40ab43cae6663105fc2ffba32018674fedeb50300b900f8dfae635f."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -205,7 +289,7 @@
   },
   {
     "id": "PGN-NEW-0114",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -246,8 +330,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0114",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 9d31b525820874554fca71834635c2efb5903fab58d8a3264f20a7ea763a56d6."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0114",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 9d31b525820874554fca71834635c2efb5903fab58d8a3264f20a7ea763a56d6."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -256,7 +361,7 @@
   },
   {
     "id": "PGN-NEW-0115",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -297,8 +402,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0115",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: ed90b3b65456e3e416f2453b022badb06326928440d9f4c438d47ba19c6351e6."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0115",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: ed90b3b65456e3e416f2453b022badb06326928440d9f4c438d47ba19c6351e6."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -307,7 +433,7 @@
   },
   {
     "id": "PGN-NEW-0116",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -348,8 +474,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0116",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 04; el contenido no cambió después del dictamen. Huella del contenido: afccd61310cab97810a2f9559b72969f6b6868e71afaa3d49f58c6aff8188853."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0116",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 04; el contenido no cambió después del dictamen. Huella del contenido: afccd61310cab97810a2f9559b72969f6b6868e71afaa3d49f58c6aff8188853."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -358,7 +505,7 @@
   },
   {
     "id": "PGN-NEW-0117",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -399,8 +546,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0117",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 26b21981ce37060b6a7a39949112df635e4207173be80231ad08ab0ede5aac4e."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0117",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 26b21981ce37060b6a7a39949112df635e4207173be80231ad08ab0ede5aac4e."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -409,7 +577,7 @@
   },
   {
     "id": "PGN-NEW-0118",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -450,8 +618,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0118",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 8a5d54e29fb1ec9756bb9e62e448084e1ac9787f2bd99684636844d32d6babbc."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0118",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 8a5d54e29fb1ec9756bb9e62e448084e1ac9787f2bd99684636844d32d6babbc."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -460,7 +649,7 @@
   },
   {
     "id": "PGN-NEW-0119",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -501,8 +690,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0119",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: a05c4dfd1bc8f4373af1d6711ac2805ad95ca171e9482c7418b861e1893a14e4."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0119",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: a05c4dfd1bc8f4373af1d6711ac2805ad95ca171e9482c7418b861e1893a14e4."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -511,7 +721,7 @@
   },
   {
     "id": "PGN-NEW-0120",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -552,8 +762,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0120",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: c2d5f218133c9016239d2a01d432920379176d70d0dc7ea32486d7559e07f973."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0120",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: c2d5f218133c9016239d2a01d432920379176d70d0dc7ea32486d7559e07f973."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -562,7 +793,7 @@
   },
   {
     "id": "PGN-NEW-0121",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -603,8 +834,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0121",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 04; el contenido no cambió después del dictamen. Huella del contenido: 063e20ac58d60c8a0ab660dd94814366312ccc7a86f933a2a7d4bea3e43dcb70."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0121",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 04; el contenido no cambió después del dictamen. Huella del contenido: 063e20ac58d60c8a0ab660dd94814366312ccc7a86f933a2a7d4bea3e43dcb70."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -613,7 +865,7 @@
   },
   {
     "id": "PGN-NEW-0122",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -623,27 +875,27 @@
     "options": [
       {
         "id": "A",
-        "text": "La congruencia entre cargos y declaración de responsabilidad.",
-        "rationale": "La decisión no puede atribuir responsabilidad por hechos o faltas ausentes del auto de citación a audiencia y formulación de cargos, sin perjuicio de su variación conforme a derecho."
+        "text": "La congruencia entre los cargos formulados y la declaración de responsabilidad.",
+        "rationale": "La decisión no puede atribuir responsabilidad por hechos o faltas ausentes del auto de citación a audiencia y formulación de cargos, salvo su variación conforme a derecho."
       },
       {
         "id": "B",
-        "text": "La libertad para sorprender al investigado.",
-        "rationale": "La sorpresa no es una garantía procesal."
+        "text": "La favorabilidad entre normas disciplinarias sucesivas aplicables al mismo hecho.",
+        "rationale": "La favorabilidad resuelve qué norma más benigna se aplica; el caso trata de la correspondencia entre la imputación y la decisión."
       },
       {
         "id": "C",
-        "text": "La obligación de aceptar cualquier rumor nuevo.",
-        "rationale": "Un rumor no integra por sí mismo los cargos."
+        "text": "La prohibición de iniciar otra investigación por unos hechos ya juzgados.",
+        "rationale": "La prohibición de doble actuación exige un procedimiento previo por los mismos hechos; aquí el defecto aparece dentro de la actuación actual."
       },
       {
         "id": "D",
-        "text": "La posibilidad de omitir toda formulación de cargos.",
-        "rationale": "El artículo no autoriza sancionar sin imputación."
+        "text": "La publicidad de las decisiones y actuaciones que no estén sometidas a reserva.",
+        "rationale": "La publicidad regula el conocimiento de la actuación, no los límites entre los cargos formulados y la responsabilidad declarada."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "El disciplinado no puede ser declarado responsable por hechos ni faltas que no consten en el auto de citación a audiencia y formulación de cargos, salvo su variación conforme a derecho. Así puede defenderse de la imputación que se decide.",
+    "explanation": "La congruencia exige correspondencia entre la imputación que pudo controvertirse y la decisión final. Declarar responsabilidad por un hecho que no figuró en los cargos, sin variarlos conforme a derecho, rompe esa correspondencia y afecta la defensa.",
     "references": [
       {
         "sourceId": "law-1952-2019",
@@ -654,8 +906,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0122",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión de cierre posterior a la rectificación. Huella del contenido: df99951af79b20bc549c30a275c6146d5cbd05ae2d803afed05d3553e759716f."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0122",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión de cierre posterior a la rectificación. Huella del contenido: df99951af79b20bc549c30a275c6146d5cbd05ae2d803afed05d3553e759716f."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -664,7 +937,7 @@
   },
   {
     "id": "PGN-NEW-0123",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "derecho_disciplinario",
     "secondaryTopicIds": [],
@@ -705,8 +978,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0123",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 04; el contenido no cambió después del dictamen. Huella del contenido: a49a9febb83ac0c82808a580104f9796765b2a9b30fd43d4bd1f019a68b77714."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0123",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 04; el contenido no cambió después del dictamen. Huella del contenido: a49a9febb83ac0c82808a580104f9796765b2a9b30fd43d4bd1f019a68b77714."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -715,7 +1009,7 @@
   },
   {
     "id": "PGN-NEW-0124",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "contratacion_estatal",
     "secondaryTopicIds": [],
@@ -756,8 +1050,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0124",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: c7b42cd9d725611eec8a2db84e14661886cf96e5e6ed23832bff084e821d92ed."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0124",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: c7b42cd9d725611eec8a2db84e14661886cf96e5e6ed23832bff084e821d92ed."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -766,7 +1081,7 @@
   },
   {
     "id": "PGN-NEW-0125",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "contratacion_estatal",
     "secondaryTopicIds": [],
@@ -807,8 +1122,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0125",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 15541c0f8f3247d58aefbcc214f059b9fe51c6071a048f4a0140b3500250ffdb."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0125",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 15541c0f8f3247d58aefbcc214f059b9fe51c6071a048f4a0140b3500250ffdb."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -817,7 +1153,7 @@
   },
   {
     "id": "PGN-NEW-0126",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "contratacion_estatal",
     "secondaryTopicIds": [],
@@ -858,8 +1194,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0126",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 2832d7d69030f3b1abc2d6099f4559cd6a63d5a8dcef92e45d61fb1e688f9649."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0126",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 2832d7d69030f3b1abc2d6099f4559cd6a63d5a8dcef92e45d61fb1e688f9649."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -868,7 +1225,7 @@
   },
   {
     "id": "PGN-NEW-0127",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "contratacion_estatal",
     "secondaryTopicIds": [],
@@ -909,8 +1266,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0127",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 04; el contenido no cambió después del dictamen. Huella del contenido: fba97fb32edf44befb62e30d962319475a42ca9b0605a6e6ea2b4bc495d7dba0."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0127",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 04; el contenido no cambió después del dictamen. Huella del contenido: fba97fb32edf44befb62e30d962319475a42ca9b0605a6e6ea2b4bc495d7dba0."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -919,7 +1297,7 @@
   },
   {
     "id": "PGN-NEW-0128",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "contratacion_estatal",
     "secondaryTopicIds": [],
@@ -960,8 +1338,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0128",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 04; el contenido no cambió después del dictamen. Huella del contenido: 2761588374f91d24082083fb7ce0d639223c7668e938a1fa22f3f3f87d36c832."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0128",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 04; el contenido no cambió después del dictamen. Huella del contenido: 2761588374f91d24082083fb7ce0d639223c7668e938a1fa22f3f3f87d36c832."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -970,7 +1369,7 @@
   },
   {
     "id": "PGN-NEW-0129",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "contratacion_estatal",
     "secondaryTopicIds": [],
@@ -1011,8 +1410,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0129",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 04; el contenido no cambió después del dictamen. Huella del contenido: b73e4d42de33552f73796db8eca07a2b86669e005cee8d65fd6f88aec4c81e1e."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0129",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 04; el contenido no cambió después del dictamen. Huella del contenido: b73e4d42de33552f73796db8eca07a2b86669e005cee8d65fd6f88aec4c81e1e."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1021,7 +1441,7 @@
   },
   {
     "id": "PGN-NEW-0130",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "contratacion_estatal",
     "secondaryTopicIds": [],
@@ -1062,8 +1482,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0130",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 5f5e3a20ecfdd7d5a2c99bbbc47a3e14f37bee39d973a8abda21a79259fd9ea2."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0130",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 5f5e3a20ecfdd7d5a2c99bbbc47a3e14f37bee39d973a8abda21a79259fd9ea2."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1072,7 +1513,7 @@
   },
   {
     "id": "PGN-NEW-0131",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "contratacion_estatal",
     "secondaryTopicIds": [],
@@ -1113,8 +1554,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0131",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 883b8a62b017261e0909b117aea5ee8c9ca2d17e82834e6f9995cdfda7954653."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0131",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 883b8a62b017261e0909b117aea5ee8c9ca2d17e82834e6f9995cdfda7954653."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1123,7 +1585,7 @@
   },
   {
     "id": "PGN-NEW-0132",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "contratacion_estatal",
     "secondaryTopicIds": [],
@@ -1164,8 +1626,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0132",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: b4b15749b9942b5ca3a4484b9791e12a5c02faba20ebe750da54324950321801."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0132",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: b4b15749b9942b5ca3a4484b9791e12a5c02faba20ebe750da54324950321801."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1174,7 +1657,7 @@
   },
   {
     "id": "PGN-NEW-0133",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "contratacion_estatal",
     "secondaryTopicIds": [],
@@ -1215,8 +1698,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0133",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 05; el contenido no cambió después del dictamen. Huella del contenido: 66838c47b53cecd07099021893cc20fcdccb14661c7646827b765feaca0d7e06."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0133",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 05; el contenido no cambió después del dictamen. Huella del contenido: 66838c47b53cecd07099021893cc20fcdccb14661c7646827b765feaca0d7e06."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1225,7 +1729,7 @@
   },
   {
     "id": "PGN-NEW-0134",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "contratacion_estatal",
     "secondaryTopicIds": [],
@@ -1266,8 +1770,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0134",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: b830a7c3c1e10972e39d2f786ada5e66c184038d0e8f02940559cb6e83ac35a4."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0134",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: b830a7c3c1e10972e39d2f786ada5e66c184038d0e8f02940559cb6e83ac35a4."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1276,7 +1801,7 @@
   },
   {
     "id": "PGN-NEW-0135",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "contratacion_estatal",
     "secondaryTopicIds": [],
@@ -1317,8 +1842,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0135",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 05; el contenido no cambió después del dictamen. Huella del contenido: aba1cf03d4348c7e54dd548361c339646738c7422d91eba72bd2521f435c7595."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0135",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 05; el contenido no cambió después del dictamen. Huella del contenido: aba1cf03d4348c7e54dd548361c339646738c7422d91eba72bd2521f435c7595."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1327,7 +1873,7 @@
   },
   {
     "id": "PGN-NEW-0136",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -1368,8 +1914,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0136",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 24f18987dace999b7219deb2ac51157d65f6d1f62b092ddf195795aa1d58302c."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0136",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 24f18987dace999b7219deb2ac51157d65f6d1f62b092ddf195795aa1d58302c."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1378,7 +1945,7 @@
   },
   {
     "id": "PGN-NEW-0137",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -1419,8 +1986,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0137",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 05; el contenido no cambió después del dictamen. Huella del contenido: 639292dee284a625ea14fa98b72f1dfe03b9ca2d24dad5a0d943bc5db78ba76c."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0137",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 05; el contenido no cambió después del dictamen. Huella del contenido: 639292dee284a625ea14fa98b72f1dfe03b9ca2d24dad5a0d943bc5db78ba76c."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1429,7 +2017,7 @@
   },
   {
     "id": "PGN-NEW-0138",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -1470,8 +2058,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0138",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 1da2ba429f3fd7c03ac21ed0fc95ec8b131d53ae28afe07247762f2cb7c9395b."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0138",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 1da2ba429f3fd7c03ac21ed0fc95ec8b131d53ae28afe07247762f2cb7c9395b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1480,7 +2089,7 @@
   },
   {
     "id": "PGN-NEW-0139",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -1521,8 +2130,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0139",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 3ff1308a2b50af32d3521658e6c155c5d9d216ff1a8d61997bd755c896e5c641."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0139",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 3ff1308a2b50af32d3521658e6c155c5d9d216ff1a8d61997bd755c896e5c641."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1531,7 +2161,7 @@
   },
   {
     "id": "PGN-NEW-0140",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -1572,8 +2202,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0140",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 384b64131fcf95a13019f78f8a96b039405e5c1e786503f1d4e504e462f7333e."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0140",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 384b64131fcf95a13019f78f8a96b039405e5c1e786503f1d4e504e462f7333e."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1582,7 +2233,7 @@
   },
   {
     "id": "PGN-NEW-0141",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -1623,8 +2274,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0141",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: a375cff90bc29f5f888c02597b96b19a484f3a62f5342015c229097f2e1e99f0."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0141",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: a375cff90bc29f5f888c02597b96b19a484f3a62f5342015c229097f2e1e99f0."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1633,7 +2305,7 @@
   },
   {
     "id": "PGN-NEW-0142",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -1674,8 +2346,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0142",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 7eeef244267980a6cfebfccf9f1c66da4ea859b6b9c80ae7b90b1f723ba863d6."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0142",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 7eeef244267980a6cfebfccf9f1c66da4ea859b6b9c80ae7b90b1f723ba863d6."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1684,7 +2377,7 @@
   },
   {
     "id": "PGN-NEW-0143",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -1725,8 +2418,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0143",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 05; el contenido no cambió después del dictamen. Huella del contenido: 9e6615be7ae8094d6082b3e33d60f02de095d80d2b3ead9f183bd1ce995b954e."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0143",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 05; el contenido no cambió después del dictamen. Huella del contenido: 9e6615be7ae8094d6082b3e33d60f02de095d80d2b3ead9f183bd1ce995b954e."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1735,7 +2449,7 @@
   },
   {
     "id": "PGN-NEW-0144",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -1776,8 +2490,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0144",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: e8552b34d145896b2b18764af156c87b4d6603630bd383289e9251021f62a4b3."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0144",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: e8552b34d145896b2b18764af156c87b4d6603630bd383289e9251021f62a4b3."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1786,7 +2521,7 @@
   },
   {
     "id": "PGN-NEW-0145",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -1827,8 +2562,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0145",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 05; el contenido no cambió después del dictamen. Huella del contenido: 8ee94df9ac0486faea3a0f6deaa25a6ccec2e0845c293c07cfda65f118519a55."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0145",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 05; el contenido no cambió después del dictamen. Huella del contenido: 8ee94df9ac0486faea3a0f6deaa25a6ccec2e0845c293c07cfda65f118519a55."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1837,7 +2593,7 @@
   },
   {
     "id": "PGN-NEW-0146",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -1878,8 +2634,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0146",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: ad9ed12a024a8f6f0089395febf261ba9f883e400d04441771cd43cca58bd615."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0146",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: ad9ed12a024a8f6f0089395febf261ba9f883e400d04441771cd43cca58bd615."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1888,7 +2665,7 @@
   },
   {
     "id": "PGN-NEW-0147",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "ofimatica_y_sistemas_de_gestion",
     "secondaryTopicIds": [],
@@ -1929,8 +2706,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0147",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: b004457993f6b38e4e7fa88d4420bff9f513b6df373efe80bf3999b617493cd7."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0147",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: b004457993f6b38e4e7fa88d4420bff9f513b6df373efe80bf3999b617493cd7."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1939,7 +2737,7 @@
   },
   {
     "id": "PGN-NEW-0148",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "competencias_comportamentales",
     "secondaryTopicIds": [],
@@ -1980,8 +2778,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0148",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 091cb5b9f0531645f7d53d3826d0a7efcc27b4a90a845018b0d7d51d3787cd8c."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0148",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 091cb5b9f0531645f7d53d3826d0a7efcc27b4a90a845018b0d7d51d3787cd8c."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -1990,7 +2809,7 @@
   },
   {
     "id": "PGN-NEW-0149",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "competencias_comportamentales",
     "secondaryTopicIds": [],
@@ -2031,8 +2850,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0149",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 6c663fdab5807603705c7f68976fbf0dedd494536b13fb962fb0b5c0d8149ed0."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0149",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 6c663fdab5807603705c7f68976fbf0dedd494536b13fb962fb0b5c0d8149ed0."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2041,7 +2881,7 @@
   },
   {
     "id": "PGN-NEW-0150",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "competencias_comportamentales",
     "secondaryTopicIds": [],
@@ -2082,8 +2922,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0150",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 05; el contenido no cambió después del dictamen. Huella del contenido: b4b103ef3ebecd7a2547c70c386bc941b8dcfaeb3db47796d2143db2da3595d8."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0150",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-05",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 05; el contenido no cambió después del dictamen. Huella del contenido: b4b103ef3ebecd7a2547c70c386bc941b8dcfaeb3db47796d2143db2da3595d8."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2092,7 +2953,7 @@
   },
   {
     "id": "PGN-NEW-0151",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "competencias_comportamentales",
     "secondaryTopicIds": [],
@@ -2133,8 +2994,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0151",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 48a848a4985684164ff4107311747f6b2048f3438295e878e259cb76dfdbbd79."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0151",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 48a848a4985684164ff4107311747f6b2048f3438295e878e259cb76dfdbbd79."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2143,7 +3025,7 @@
   },
   {
     "id": "PGN-NEW-0152",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "competencias_comportamentales",
     "secondaryTopicIds": [],
@@ -2184,8 +3066,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0152",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 92f6cbda13304e93699741b2222ba3494c1b1179e1b7237bcee824b8ed72fdb1."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0152",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 92f6cbda13304e93699741b2222ba3494c1b1179e1b7237bcee824b8ed72fdb1."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2194,7 +3097,7 @@
   },
   {
     "id": "PGN-NEW-0153",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "competencias_comportamentales",
     "secondaryTopicIds": [],
@@ -2235,8 +3138,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0153",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: b48aae06314ed91c46f80985c29a49c04f1c4a801d6bab3e16e2890ca4a0d510."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0153",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: b48aae06314ed91c46f80985c29a49c04f1c4a801d6bab3e16e2890ca4a0d510."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2245,7 +3169,7 @@
   },
   {
     "id": "PGN-NEW-0154",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "competencias_comportamentales",
     "secondaryTopicIds": [],
@@ -2286,8 +3210,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0154",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: a0741ca53a9b81630dbe901ca28f8f4cff92eb4024e424d8464102ba3e2d7ba4."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0154",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: a0741ca53a9b81630dbe901ca28f8f4cff92eb4024e424d8464102ba3e2d7ba4."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2296,7 +3241,7 @@
   },
   {
     "id": "PGN-NEW-0155",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "competencias_comportamentales",
     "secondaryTopicIds": [],
@@ -2337,8 +3282,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0155",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 556156a925e1e4c343b1f416cd54f4de3ba5e4b135b17a52b7c5ae42c1497831."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0155",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 556156a925e1e4c343b1f416cd54f4de3ba5e4b135b17a52b7c5ae42c1497831."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2347,7 +3313,7 @@
   },
   {
     "id": "PGN-NEW-0156",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "competencias_comportamentales",
     "secondaryTopicIds": [],
@@ -2388,8 +3354,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0156",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: bcd6e2e04d37364bfa827a7639834b11c8f4044880899e6706559d1e4218ffc1."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0156",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: bcd6e2e04d37364bfa827a7639834b11c8f4044880899e6706559d1e4218ffc1."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2398,7 +3385,7 @@
   },
   {
     "id": "PGN-NEW-0157",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "competencias_comportamentales",
     "secondaryTopicIds": [],
@@ -2439,8 +3426,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0157",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: e092edf9c40e979966a25346684eeb615e317487137b679bc0d050050810bc63."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0157",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: e092edf9c40e979966a25346684eeb615e317487137b679bc0d050050810bc63."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2449,7 +3457,7 @@
   },
   {
     "id": "PGN-NEW-0158",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -2490,8 +3498,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0158",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: a4129e003ba8a58a746deec2963c3635c23a22a0044733e898493f60a0b594d2."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0158",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: a4129e003ba8a58a746deec2963c3635c23a22a0044733e898493f60a0b594d2."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2500,7 +3529,7 @@
   },
   {
     "id": "PGN-NEW-0159",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -2541,8 +3570,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0159",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 90ac816dd5c7ba8db1ea6a7c6103ba94cce0fb98cc6855d5681e6fdc16945359."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0159",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 90ac816dd5c7ba8db1ea6a7c6103ba94cce0fb98cc6855d5681e6fdc16945359."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2551,7 +3601,7 @@
   },
   {
     "id": "PGN-NEW-0160",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -2592,8 +3642,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0160",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 1abb9a3f77c7c3cf0661377ea4415e1f6d11eec0d1a88b2eddb92a3ec44396eb."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0160",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 1abb9a3f77c7c3cf0661377ea4415e1f6d11eec0d1a88b2eddb92a3ec44396eb."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2602,7 +3673,7 @@
   },
   {
     "id": "PGN-NEW-0161",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -2643,8 +3714,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0161",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 0d600dcef0f38f40eebf848811e85af3d33722403cf1a3b242382aca1bc6acff."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0161",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 0d600dcef0f38f40eebf848811e85af3d33722403cf1a3b242382aca1bc6acff."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2653,7 +3745,7 @@
   },
   {
     "id": "PGN-NEW-0162",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -2694,8 +3786,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0162",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: fe34683878a92f17d7590879707395d050adf36bedfbcd9b38fd6dd887fdc0d2."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0162",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: fe34683878a92f17d7590879707395d050adf36bedfbcd9b38fd6dd887fdc0d2."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -2704,7 +3817,7 @@
   },
   {
     "id": "PGN-NEW-0163",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -2745,8 +3858,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-NEW-0163",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 2b1994929315d7addcd09c9e132fe6511deddf76d7860884be1f4cd931b1f651."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-NEW-0163",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 06; el contenido no cambió después del dictamen. Huella del contenido: 2b1994929315d7addcd09c9e132fe6511deddf76d7860884be1f4cd931b1f651."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",

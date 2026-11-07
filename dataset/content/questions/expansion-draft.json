@@ -1,7 +1,7 @@
 [
   {
     "id": "PGN-EXP-0026",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -42,8 +42,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0026",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 4688c54a8b0d092f4a064b1a18e2b2c8ab85e0bd0ed7d9075ecea5e6014f0ab5."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0026",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 4688c54a8b0d092f4a064b1a18e2b2c8ab85e0bd0ed7d9075ecea5e6014f0ab5."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -51,7 +72,7 @@
   },
   {
     "id": "PGN-EXP-0027",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -112,9 +133,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0027",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 7dbc5d861d873f6f68be56059395511e928bc5ca3801f8f36bb9d891f137d5da."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0027",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 7dbc5d861d873f6f68be56059395511e928bc5ca3801f8f36bb9d891f137d5da."
       }
     ],
-    "validFrom": null,
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -122,7 +163,7 @@
   },
   {
     "id": "PGN-EXP-0028",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -163,8 +204,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0028",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: db738041a7bcf4e9dcc4d1f5dc48df4e895d8c3606b763525e8cec9f0b4739a5."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0028",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: db738041a7bcf4e9dcc4d1f5dc48df4e895d8c3606b763525e8cec9f0b4739a5."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -172,7 +234,7 @@
   },
   {
     "id": "PGN-EXP-0029",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -213,8 +275,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0029",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 6169cb2d0f9e8a4e956d4ce0f62c7c7ef5dedb38af8795c8f80427ad6e607d19."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0029",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 6169cb2d0f9e8a4e956d4ce0f62c7c7ef5dedb38af8795c8f80427ad6e607d19."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -222,7 +305,7 @@
   },
   {
     "id": "PGN-EXP-0030",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
@@ -283,9 +366,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0030",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 883d269275e39fb5446ff5fd99403c19df55ce91188bcf48485bb40adb8c723b."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0030",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 883d269275e39fb5446ff5fd99403c19df55ce91188bcf48485bb40adb8c723b."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -293,7 +396,7 @@
   },
   {
     "id": "PGN-EXP-0031",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -340,8 +443,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0031",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 32d117bd8b88d0397f7429adcd210175db10a16878135cf488dd23b13492d8a5."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0031",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 32d117bd8b88d0397f7429adcd210175db10a16878135cf488dd23b13492d8a5."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -349,7 +473,7 @@
   },
   {
     "id": "PGN-EXP-0032",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -396,8 +520,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0032",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: a2ab76096b5aaf4ddc7e7b8596b80646684029d0c377a8ae221b0b11478590e9."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0032",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: a2ab76096b5aaf4ddc7e7b8596b80646684029d0c377a8ae221b0b11478590e9."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -405,7 +550,7 @@
   },
   {
     "id": "PGN-EXP-0033",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -452,8 +597,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0033",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: bb0e3d09642680bb4ded78851b0d326e5bb5e897e36f14296f8862993aaae663."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0033",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: bb0e3d09642680bb4ded78851b0d326e5bb5e897e36f14296f8862993aaae663."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -461,7 +627,7 @@
   },
   {
     "id": "PGN-EXP-0034",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -514,8 +680,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0034",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 36bbfde4ba4b3a44882bc3cf66de146b3724124db05c7e2a35d0380047f870bd."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0034",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 36bbfde4ba4b3a44882bc3cf66de146b3724124db05c7e2a35d0380047f870bd."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -523,7 +710,7 @@
   },
   {
     "id": "PGN-EXP-0035",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -564,8 +751,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0035",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 2715f26b72fb70a85028adae43612a10289f20af6fe207c89a31c7e15cde0e32."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0035",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 2715f26b72fb70a85028adae43612a10289f20af6fe207c89a31c7e15cde0e32."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -573,7 +781,7 @@
   },
   {
     "id": "PGN-EXP-0036",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -614,8 +822,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0036",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: d1952d03a9494851ddf94c9de8dd999173bdecbf848443c28d7ddac6d61cb1e8."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0036",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: d1952d03a9494851ddf94c9de8dd999173bdecbf848443c28d7ddac6d61cb1e8."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -623,7 +852,7 @@
   },
   {
     "id": "PGN-EXP-0037",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -684,9 +913,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0037",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: ca4e77b2ebd5519b74da46ed9b822980403938d595d42ddf846c99f45e336be4."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0037",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: ca4e77b2ebd5519b74da46ed9b822980403938d595d42ddf846c99f45e336be4."
       }
     ],
-    "validFrom": null,
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -694,7 +943,7 @@
   },
   {
     "id": "PGN-EXP-0038",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -735,8 +984,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0038",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 111f7ab6b19415dbf00af593cbbb1345778a1903137ca0507ef086ccf8828c78."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0038",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 111f7ab6b19415dbf00af593cbbb1345778a1903137ca0507ef086ccf8828c78."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -744,7 +1014,7 @@
   },
   {
     "id": "PGN-EXP-0039",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -805,9 +1075,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0039",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: d6d28b82aca7fef16743e1b78d3cd60a27dd8b98ae2cdcbc71f3cd1ab33fd25c."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0039",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: d6d28b82aca7fef16743e1b78d3cd60a27dd8b98ae2cdcbc71f3cd1ab33fd25c."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -815,7 +1105,7 @@
   },
   {
     "id": "PGN-EXP-0040",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -856,8 +1146,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0040",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 0d137e020904445f7e444ed4ef65545e5f837747d32607a2fa507cf49e3f13b4."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0040",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 0d137e020904445f7e444ed4ef65545e5f837747d32607a2fa507cf49e3f13b4."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -865,7 +1176,7 @@
   },
   {
     "id": "PGN-EXP-0041",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -926,9 +1237,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0041",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 31eecb863c44bcfdfeb8a5423ca7a8b18e32bd7483ddb3b6b7351f1d29476e61."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0041",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 31eecb863c44bcfdfeb8a5423ca7a8b18e32bd7483ddb3b6b7351f1d29476e61."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -936,7 +1267,7 @@
   },
   {
     "id": "PGN-EXP-0042",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -977,8 +1308,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0042",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 25f9c82a3e995792f4f387f7eb29c4b7411cef61b0d568c6bef17a5830dc3497."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0042",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 25f9c82a3e995792f4f387f7eb29c4b7411cef61b0d568c6bef17a5830dc3497."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -986,37 +1338,37 @@
   },
   {
     "id": "PGN-EXP-0043",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Un sistema almacena todos los documentos en una carpeta única, sin agruparlos por clases documentales. ¿Qué instrumento orienta esa organización?",
+    "stem": "Al configurar un sistema de gestión documental, el equipo debe distinguir la organización del archivo de los tiempos de conservación. ¿Cuál asociación es correcta según el Decreto 1080 de 2015?",
     "options": [
       {
         "id": "A",
-        "text": "Las tablas de retención documental.",
-        "rationale": "Las TRD fijan plazos de conservación y eliminación, no la organización por clases documentales."
+        "text": "Las TRD organizan las clases documentales y los cuadros de clasificación fijan su eliminación.",
+        "rationale": "La asociación está invertida: el cuadro organiza los documentos y las TRD o TVD establecen conservación y eliminación."
       },
       {
         "id": "B",
-        "text": "Las tablas de valoración documental.",
-        "rationale": "Las TVD también establecen plazos de conservación y eliminación, no la estructura de clases."
+        "text": "Las TVD sustituyen los cuadros de clasificación y los metadatos determinan la retención.",
+        "rationale": "Las TVD no sustituyen el cuadro de clasificación y los metadatos no fijan por sí mismos los tiempos de retención."
       },
       {
         "id": "C",
-        "text": "El cuadro de clasificación documental.",
-        "rationale": "El sistema organiza los documentos, con sus metadatos, mediante cuadros de clasificación documental."
+        "text": "Los cuadros de clasificación organizan los documentos y las TRD o TVD fijan conservación y eliminación.",
+        "rationale": "Esta asociación corresponde a las funciones diferenciadas que el decreto asigna a esos instrumentos."
       },
       {
         "id": "D",
-        "text": "Los metadatos asociados a cada documento.",
-        "rationale": "Los metadatos preservan contenido, estructura y contexto, pero la organización por clases la ordena el cuadro de clasificación."
+        "text": "Los metadatos organizan las series y las TRD se limitan a identificar la oficina productora.",
+        "rationale": "Los metadatos aportan contexto, pero no reemplazan el cuadro; las TRD tampoco se limitan a identificar una oficina."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "El sistema de gestión documental organiza los documentos, incluyendo sus metadatos, a través de cuadros de clasificación documental (artículo 2.8.2.6.1, literal a, del Decreto 1080 de 2015). Los plazos de conservación y eliminación se establecen en las TRD y TVD (literal b), que cumplen otra función.",
+    "explanation": "El cuadro de clasificación organiza los documentos junto con sus metadatos. Las tablas de retención o valoración cumplen otra función: establecer los plazos de conservación y eliminación.",
     "references": [
       {
         "sourceId": "decree-1080-2015-archives",
@@ -1027,8 +1379,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0043",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión de cierre posterior a la rectificación. Huella del contenido: 051746f93224c40ae266f0300b1be122092706a7b24d423126331bb6e88d6690."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0043",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión de cierre posterior a la rectificación. Huella del contenido: 051746f93224c40ae266f0300b1be122092706a7b24d423126331bb6e88d6690."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1036,7 +1409,7 @@
   },
   {
     "id": "PGN-EXP-0044",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -1077,8 +1450,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0044",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 7cea7c211a09bf71b79c715a08cc85902802e49530ad4f9ef9bf48eb66c69443."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0044",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 7cea7c211a09bf71b79c715a08cc85902802e49530ad4f9ef9bf48eb66c69443."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1086,7 +1480,7 @@
   },
   {
     "id": "PGN-EXP-0045",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -1127,8 +1521,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0045",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 4224e21f3ee6ebabeece68320e482e7dc16c616ce01397d88d2511d2f613ccec."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0045",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 02; el contenido no cambió después del dictamen. Huella del contenido: 4224e21f3ee6ebabeece68320e482e7dc16c616ce01397d88d2511d2f613ccec."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1136,7 +1551,7 @@
   },
   {
     "id": "PGN-EXP-0046",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -1177,8 +1592,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0046",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: aa37b4439473cc4b2a8bc8125d3f74b4fe1bd75e50d67a2bbb1a042586d09b30."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0046",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: aa37b4439473cc4b2a8bc8125d3f74b4fe1bd75e50d67a2bbb1a042586d09b30."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1186,7 +1622,7 @@
   },
   {
     "id": "PGN-EXP-0047",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -1247,9 +1683,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0047",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: d538ec138452ffdaafdfb9997ca16f24f37bee1fb77e5d7dbecc5bf404730d25."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0047",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: d538ec138452ffdaafdfb9997ca16f24f37bee1fb77e5d7dbecc5bf404730d25."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1257,7 +1713,7 @@
   },
   {
     "id": "PGN-EXP-0048",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -1298,8 +1754,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0048",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: 1de2d4897c464949f4a22b9ccd8a8f07689256dbbcc196ba5b06bedc00686f05."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0048",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: 1de2d4897c464949f4a22b9ccd8a8f07689256dbbcc196ba5b06bedc00686f05."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1307,7 +1784,7 @@
   },
   {
     "id": "PGN-EXP-0049",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -1368,9 +1845,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "needs_changes",
         "notes": "Requiere reemplazar o diferenciar el objetivo cognitivo frente a una semilla o ítem del mismo lote antes de publicar."
+      },
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0049",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: fb97a110499fc3f7b2bca0409eacaba559c93020e403b65d13156632b7c6ec24."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0049",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: fb97a110499fc3f7b2bca0409eacaba559c93020e403b65d13156632b7c6ec24."
       }
     ],
-    "validFrom": null,
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1378,7 +1875,7 @@
   },
   {
     "id": "PGN-EXP-0050",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -1419,8 +1916,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0050",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 037068d4920177043031e25e3c67eca2bbc2ad2ce9ec2e83a85f03b1784139dc."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0050",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 037068d4920177043031e25e3c67eca2bbc2ad2ce9ec2e83a85f03b1784139dc."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1428,7 +1946,7 @@
   },
   {
     "id": "PGN-EXP-0051",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1475,8 +1993,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0051",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 2edaecd9fcfe8349fe464473b92e5c9c10fe833ee57f123b377463d6ba167e1c."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0051",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-general-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Revisión final posterior a la rectificación. Huella del contenido: 2edaecd9fcfe8349fe464473b92e5c9c10fe833ee57f123b377463d6ba167e1c."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1484,7 +2023,7 @@
   },
   {
     "id": "PGN-EXP-0052",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
@@ -1525,8 +2064,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0052",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: f86e6c1df787514ca4377ac476b7b21676d1db69fb38c7a932b23c2ffa19500f."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0052",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: f86e6c1df787514ca4377ac476b7b21676d1db69fb38c7a932b23c2ffa19500f."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1534,7 +2094,7 @@
   },
   {
     "id": "PGN-EXP-0053",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
@@ -1575,8 +2135,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0053",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: 31cdd7c462d9ced98e77a656ef24325369f4a336040e55f31df348e918573566."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0053",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: 31cdd7c462d9ced98e77a656ef24325369f4a336040e55f31df348e918573566."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1584,7 +2165,7 @@
   },
   {
     "id": "PGN-EXP-0054",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1625,8 +2206,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0054",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: 077539a99a5d298c6d465e6566a50405dfe45a42a3c7abdbfaea635daeac54db."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0054",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: 077539a99a5d298c6d465e6566a50405dfe45a42a3c7abdbfaea635daeac54db."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1634,7 +2236,7 @@
   },
   {
     "id": "PGN-EXP-0055",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1675,8 +2277,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0055",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: 5b8f1c43710c86fdd5980b90765e090ea29c9af1dc0e5b0b39b7b7220bd55de1."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0055",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: 5b8f1c43710c86fdd5980b90765e090ea29c9af1dc0e5b0b39b7b7220bd55de1."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1684,7 +2307,7 @@
   },
   {
     "id": "PGN-EXP-0056",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1725,8 +2348,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0056",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: 2b8a2fe0b3657cebb3094e2d1830e3a64c494561e447d710cfd1e91f09425c02."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0056",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: 2b8a2fe0b3657cebb3094e2d1830e3a64c494561e447d710cfd1e91f09425c02."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1734,7 +2378,7 @@
   },
   {
     "id": "PGN-EXP-0057",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1775,8 +2419,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0057",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: a72aa7b306a27d8ee7456501b7906b2eb589ca102ee6f520d5abeb1872242c85."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0057",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: a72aa7b306a27d8ee7456501b7906b2eb589ca102ee6f520d5abeb1872242c85."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1784,7 +2449,7 @@
   },
   {
     "id": "PGN-EXP-0058",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1825,8 +2490,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0058",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: b7e0b0321b7d05bc1724eaedc4bee57ca5e62fee9593ada0ee905c3004c81ef1."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0058",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: b7e0b0321b7d05bc1724eaedc4bee57ca5e62fee9593ada0ee905c3004c81ef1."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1834,37 +2520,37 @@
   },
   {
     "id": "PGN-EXP-0059",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Al cierre del año, un equipo reporta que el tiempo de respuesta bajó a 8 días, pero la ficha del indicador no permite saber si eso es una mejora frente a lo que se medía antes. ¿Qué componente falta?",
+    "stem": "Al revisar una ficha se encuentra: fórmula «solicitudes respondidas / solicitudes recibidas × 100», unidad «horas», meta 90 %, medición mensual y fuente en el sistema de radicación. ¿Cuál observación se sustenta con esos datos?",
     "options": [
       {
         "id": "A",
-        "text": "La periodicidad con que se mide el indicador.",
-        "rationale": "La periodicidad indica cada cuánto se mide, pero no aporta el valor previo para comparar."
+        "text": "La meta de 90 % debería expresarse en horas para coincidir con la unidad registrada.",
+        "rationale": "La meta ya usa la escala que produce la fórmula; convertirla a horas mantendría la inconsistencia en vez de corregirla."
       },
       {
         "id": "B",
-        "text": "El responsable de producir el indicador.",
-        "rationale": "El responsable indica quién lo produce, pero no el valor de partida."
+        "text": "La medición mensual debería cambiarse a anual para estabilizar el numerador y el denominador.",
+        "rationale": "La periodicidad mensual puede aplicarse a esa fórmula; el caso no aporta una razón para reemplazarla por una medición anual."
       },
       {
         "id": "C",
-        "text": "La línea base registrada para el indicador.",
-        "rationale": "La línea base fija la referencia inicial con la cual se compara el avance."
+        "text": "La unidad «horas» debería cambiarse por porcentaje para reflejar el resultado calculado.",
+        "rationale": "La operación obtiene una proporción expresada sobre cien, por lo que el resultado corresponde a un porcentaje."
       },
       {
         "id": "D",
-        "text": "La fuente de información de los datos.",
-        "rationale": "La fuente indica de dónde salen los datos, pero no cuál era la situación de partida."
+        "text": "La fuente debería cambiarse del sistema de radicación a un registro manual de tiempos.",
+        "rationale": "El sistema puede aportar las cantidades usadas por la fórmula; cambiar la fuente no corrige la unidad incompatible."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "La ficha de un indicador incluye la línea base, que es el valor de referencia desde el cual se mide el avance. Sin ella, un resultado de 8 días no permite saber si hubo mejora; la periodicidad, el responsable y la fuente describen otros aspectos de la ficha.",
+    "explanation": "La fórmula divide dos cantidades homogéneas y multiplica el resultado por cien. Por tanto, produce un porcentaje y resulta incompatible con una unidad de duración como «horas».",
     "references": [
       {
         "sourceId": "funcion-publica-indicators",
@@ -1875,8 +2561,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0059",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-0059-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Veredicto final posterior a la última rectificación. Huella del contenido: 82a720782624e93ac49691e71052eaeedbc3c6602df6d04df622064040b2453b."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0059",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-0059-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Veredicto final posterior a la última rectificación. Huella del contenido: 82a720782624e93ac49691e71052eaeedbc3c6602df6d04df622064040b2453b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1884,7 +2591,7 @@
   },
   {
     "id": "PGN-EXP-0060",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1925,8 +2632,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0060",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: 32edcc404fe8a61ddd2e1d61265b13720be717eb36a0b7322c6f76710efcd921."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0060",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: 32edcc404fe8a61ddd2e1d61265b13720be717eb36a0b7322c6f76710efcd921."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1934,7 +2662,7 @@
   },
   {
     "id": "PGN-EXP-0061",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -1975,8 +2703,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0061",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: a9bdbdbf95fc5d4258f3bf799d8091f60765529bd56222db7dcd700426df7eb9."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0061",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: a9bdbdbf95fc5d4258f3bf799d8091f60765529bd56222db7dcd700426df7eb9."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -1984,7 +2733,7 @@
   },
   {
     "id": "PGN-EXP-0062",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
@@ -2025,8 +2774,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0062",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: fd9f6bd7e9988d6f35d756efc2e94abfe7b45f38c664c7768c6c654768cb4f1a."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0062",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-general-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Auditoría inicial del lote 03; el contenido no cambió después del dictamen. Huella del contenido: fd9f6bd7e9988d6f35d756efc2e94abfe7b45f38c664c7768c6c654768cb4f1a."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -2034,49 +2804,70 @@
   },
   {
     "id": "PGN-EXP-0063",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Un área reporta un indicador cada semana y otra cada año, porque la ficha no definió cada cuánto se mide. ¿Qué componente debe fijarse para que las mediciones sean regulares y comparables?",
+    "stem": "Dos autoridades deben aportar partes de una misma respuesta administrativa. Cada una preparó criterios incompatibles sin consultar a la otra. ¿Qué curso de acción aplica el artículo 209 de la Constitución?",
     "options": [
       {
         "id": "A",
-        "text": "La unidad de medida con que se expresa.",
-        "rationale": "La unidad dice en qué se expresa el resultado, pero no cada cuánto se mide."
+        "text": "Una autoridad suspende su competencia y espera que la otra resuelva el trámite completo.",
+        "rationale": "Coordinar no exige abandonar la competencia propia ni trasladarla informalmente a otra autoridad."
       },
       {
         "id": "B",
-        "text": "La fuente de donde se toman los datos.",
-        "rationale": "La fuente indica el origen de los datos, no la frecuencia de medición."
+        "text": "Cada autoridad expide su parte y deja que la persona interesada concilie las contradicciones.",
+        "rationale": "Trasladar al ciudadano la incompatibilidad mantiene la desarticulación que las autoridades deben corregir."
       },
       {
         "id": "C",
-        "text": "El responsable de reportar los resultados.",
-        "rationale": "El responsable indica quién reporta, pero no define el intervalo entre mediciones."
+        "text": "Ambas encargan la respuesta a una tercera entidad que no recibió competencia para decidirla.",
+        "rationale": "La coordinación no permite entregar la decisión a una entidad sin competencia legal."
       },
       {
         "id": "D",
-        "text": "La periodicidad con que se mide.",
-        "rationale": "La periodicidad establece la frecuencia con que debe producirse la medición."
+        "text": "Ambas armonizan sus criterios y conservan las competencias que corresponden a cada una.",
+        "rationale": "La coordinación articula las actuaciones para cumplir los fines estatales sin alterar las competencias legales."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La periodicidad es el componente de la ficha que define la frecuencia con que se mide el indicador. Fijarla permite que todas las áreas reporten con el mismo intervalo y que los resultados sean comparables; la unidad, la fuente y el responsable cubren otros aspectos.",
+    "explanation": "El artículo 209 ordena coordinar las actuaciones administrativas para cumplir adecuadamente los fines del Estado. En el caso, las autoridades deben armonizar sus criterios sin renunciar ni trasladar informalmente sus competencias.",
     "references": [
       {
-        "sourceId": "funcion-publica-indicators",
-        "sourceUnitId": "funcion-publica-indicators-review-unit",
-        "locator": "MIPG, Seguimiento, evaluación y control integral, política Evaluación y seguimiento, Lineamientos, lista «La entidad debe verificar que»",
+        "sourceId": "colombia-constitution-1991",
+        "sourceUnitId": "constitution-1991-art-209",
+        "locator": "Artículo 209, página PDF 135",
         "supports": "correct_answer"
       }
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-general-2026-11-06-PGN-EXP-0063",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-verdict-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Dictamen posterior a la sustitución por coordinación administrativa. Huella del contenido: e05f62e0fea0e04c46a180b93f8a167dcaaa1dc50a328852bf5464a2586f2697."
+      },
+      {
+        "id": "editorial-general-2026-11-06-PGN-EXP-0063",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-verdict-general-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T02:57:16.625Z",
+        "outcome": "pass",
+        "notes": "Dictamen posterior a la sustitución por coordinación administrativa. Huella del contenido: e05f62e0fea0e04c46a180b93f8a167dcaaa1dc50a328852bf5464a2586f2697."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
