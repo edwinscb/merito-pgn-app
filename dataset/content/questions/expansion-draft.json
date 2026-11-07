@@ -3467,37 +3467,37 @@
   },
   {
     "id": "PGN-EXP-0075",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "La tabla de solicitudes guarda un identificador de ciudadano que no existe en la tabla de ciudadanos. ¿Qué problema presenta esa relación?",
+    "stem": "Una tabla de ciudadanos admite dos filas con el mismo valor en su columna identificadora, de modo que no se puede distinguir una de otra. ¿Qué tipo de integridad no se está garantizando?",
     "options": [
       {
         "id": "A",
-        "text": "Una copia de seguridad válida.",
-        "rationale": "La relación entre registros no constituye un respaldo."
+        "text": "Integridad de dominio.",
+        "rationale": "La integridad de dominio restringe el tipo, formato o rango de los valores de una columna; aquí el problema es la repetición de filas."
       },
       {
         "id": "B",
-        "text": "Una regla de cifrado.",
-        "rationale": "La existencia del registro no es una propiedad criptográfica."
+        "text": "Integridad referencial.",
+        "rationale": "La integridad referencial sincroniza las relaciones entre tablas; el fallo descrito ocurre dentro de una sola tabla."
       },
       {
         "id": "C",
-        "text": "Una referencia huérfana.",
-        "rationale": "El identificador apunta a una entidad ausente de la tabla referenciada."
+        "text": "Integridad de entidad.",
+        "rationale": "Exige que cada fila tenga un identificador único que la distinga de las demás, normalmente mediante una clave primaria."
       },
       {
         "id": "D",
-        "text": "Una garantía de integridad referencial.",
-        "rationale": "La referencia inexistente es precisamente una violación de esa integridad."
+        "text": "Integridad definida por el usuario.",
+        "rationale": "Cubre reglas de negocio específicas que las otras categorías no contemplan; la unicidad de las filas ya tiene una categoría propia."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "El identificador apunta a una entidad ausente de la tabla referenciada.",
+    "explanation": "La integridad de entidad asegura que cada fila de una tabla se identifique de forma única; suele imponerse con una restricción de clave primaria, que rechaza valores duplicados y nulos.",
     "references": [
       {
         "sourceId": "missouri-db-integrity",
@@ -3508,8 +3508,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0075",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 1aefa48bbed82159e2a3e8f4ae31b27f070a8e33f65c58b4aa48c8e2ca99c52d."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0075",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 1aefa48bbed82159e2a3e8f4ae31b27f070a8e33f65c58b4aa48c8e2ca99c52d."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -3517,7 +3538,7 @@
   },
   {
     "id": "PGN-EXP-0076",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3558,8 +3579,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0076",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: bb1b540cd3a3c44ae532b85b1f4dfc60c81d7a95ea4173e5693ceb2cf90a4db5."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0076",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: bb1b540cd3a3c44ae532b85b1f4dfc60c81d7a95ea4173e5693ceb2cf90a4db5."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -3567,7 +3609,7 @@
   },
   {
     "id": "PGN-EXP-0077",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3608,8 +3650,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0077",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 3f4f55f435173a26737f3e72fc2f94ceab95aee28a3c8e9c78252c24f068b17b."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0077",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 3f4f55f435173a26737f3e72fc2f94ceab95aee28a3c8e9c78252c24f068b17b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -3617,7 +3680,7 @@
   },
   {
     "id": "PGN-EXP-0078",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3658,8 +3721,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0078",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 38585048506c358470e0e57c5fcf20ffa05936eef73023f35b914498dcb987a1."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0078",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 38585048506c358470e0e57c5fcf20ffa05936eef73023f35b914498dcb987a1."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -3667,7 +3751,7 @@
   },
   {
     "id": "PGN-EXP-0079",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3708,8 +3792,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0079",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 59c747cdabdd9f6c429502323e0df503d7287a2113d52575a26917395599a45e."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0079",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 59c747cdabdd9f6c429502323e0df503d7287a2113d52575a26917395599a45e."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -3717,7 +3822,7 @@
   },
   {
     "id": "PGN-EXP-0080",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3758,8 +3863,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0080",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: eddb431f78721d6295151382d11176a5f52e97f10cbace0319399607a62172fe."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0080",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: eddb431f78721d6295151382d11176a5f52e97f10cbace0319399607a62172fe."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -3767,7 +3893,7 @@
   },
   {
     "id": "PGN-EXP-0081",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3808,8 +3934,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0081",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 9a1492808f179ba387b7ce029fd02e50896ec8276533abebe3c90eaa592adddd."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0081",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 9a1492808f179ba387b7ce029fd02e50896ec8276533abebe3c90eaa592adddd."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -3817,7 +3964,7 @@
   },
   {
     "id": "PGN-EXP-0082",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3858,8 +4005,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0082",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 1b9b06bb52d699b975c8218485f1605e48191a5ef0c7f6e47a7aeb122e6c7c48."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0082",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 1b9b06bb52d699b975c8218485f1605e48191a5ef0c7f6e47a7aeb122e6c7c48."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -3867,7 +4035,7 @@
   },
   {
     "id": "PGN-EXP-0083",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3908,8 +4076,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0083",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 1f7b7309a8a9a9d5e08bced291c9b9e8f77886287b808eb1bc796a5bf6aa46ec."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0083",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 1f7b7309a8a9a9d5e08bced291c9b9e8f77886287b808eb1bc796a5bf6aa46ec."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -3917,7 +4106,7 @@
   },
   {
     "id": "PGN-EXP-0084",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -3958,8 +4147,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0084",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 1ad6eb6fa4268bb64f57204b7b1d0ee60f24d801b2baf10001f6e1f4df151d6d."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0084",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 1ad6eb6fa4268bb64f57204b7b1d0ee60f24d801b2baf10001f6e1f4df151d6d."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -3967,37 +4177,37 @@
   },
   {
     "id": "PGN-EXP-0085",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Un archivo tiene veinte filas y el diseño exige aceptar cada bloque de cinco como unidad independiente. Falla una fila del segundo bloque antes de confirmarlo; el primero ya confirmó y no hay otras operaciones. ¿Cuántas filas quedan confirmadas según ese diseño?",
+    "stem": "Un archivo tiene veinte filas y el diseño exige confirmar cada bloque de cinco filas como una unidad atómica independiente. El proceso trata los bloques en orden y se detiene en el primer fallo. El primer bloque ya se confirmó y falla una fila del segundo antes de confirmarlo. ¿Cuántas filas quedan confirmadas?",
     "options": [
       {
         "id": "A",
-        "text": "Nueve.",
-        "rationale": "conservaría cuatro filas del bloque fallido."
+        "text": "Cero.",
+        "rationale": "Trataría todo el archivo como una única transacción, contra el diseño por bloques independientes."
       },
       {
         "id": "B",
-        "text": "Cero.",
-        "rationale": "une indebidamente ambos bloques pese a sus fronteras independientes."
+        "text": "Diez.",
+        "rationale": "Supone que el segundo bloque se confirma pese a que una de sus filas falló."
       },
       {
         "id": "C",
-        "text": "Veinte.",
-        "rationale": "supone confirmación de bloques que no se ejecutaron."
+        "text": "Quince.",
+        "rationale": "Supone que el proceso sigue con los bloques tercero y cuarto, pero se detuvo en el fallo."
       },
       {
         "id": "D",
         "text": "Cinco.",
-        "rationale": "permanece el primer bloque y se revierte el segundo completo."
+        "rationale": "Permanece confirmado el primer bloque y se revierte el segundo completo; el proceso se detiene."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La unidad de atomicidad son cinco filas, no todo el archivo. El cálculo depende de la frontera explicitada y del único bloque confirmado.",
+    "explanation": "La unidad de atomicidad es el bloque de cinco filas, no el archivo. El primer bloque ya está confirmado, el segundo se revierte completo y el proceso se detiene sin tratar los demás bloques.",
     "references": [
       {
         "sourceId": "nist-acid",
@@ -4008,8 +4218,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0085",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-final-126-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 6032b361a7c6d0e021151b84f1d6e712ff8c3f41f077c1e87ef7ec034897bfe8."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0085",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 6032b361a7c6d0e021151b84f1d6e712ff8c3f41f077c1e87ef7ec034897bfe8."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4017,7 +4248,7 @@
   },
   {
     "id": "PGN-EXP-0086",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -4078,9 +4309,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0086",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: c446604632794cf2422b226be7cb24edbabf31cc1283489c3bda4893760785dc."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0086",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: c446604632794cf2422b226be7cb24edbabf31cc1283489c3bda4893760785dc."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4088,7 +4339,7 @@
   },
   {
     "id": "PGN-EXP-0087",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4149,9 +4400,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0087",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 7e102e9f2253eb2c567414e10f6e6fe85e64c1476e64db8a4224bdbe0bfd0d1a."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0087",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 7e102e9f2253eb2c567414e10f6e6fe85e64c1476e64db8a4224bdbe0bfd0d1a."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4159,7 +4430,7 @@
   },
   {
     "id": "PGN-EXP-0088",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4220,9 +4491,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0088",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 145608447bd976811b5c26e10aaae020e5ff1cc680a76b8e3f06f53f821e16b9."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0088",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 145608447bd976811b5c26e10aaae020e5ff1cc680a76b8e3f06f53f821e16b9."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4230,7 +4521,7 @@
   },
   {
     "id": "PGN-EXP-0089",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4271,8 +4562,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0089",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 587e793d01ba9cef9164c1f1bd1dae3ecab846dbef503e1633b542f17b34fb00."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0089",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 587e793d01ba9cef9164c1f1bd1dae3ecab846dbef503e1633b542f17b34fb00."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4280,7 +4592,7 @@
   },
   {
     "id": "PGN-EXP-0090",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4321,8 +4633,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0090",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 77408afc435855e92bf91cbaf111b3be1fdab3a389e633ee4ac0bad69d5c85a8."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0090",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 77408afc435855e92bf91cbaf111b3be1fdab3a389e633ee4ac0bad69d5c85a8."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4330,7 +4663,7 @@
   },
   {
     "id": "PGN-EXP-0091",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4371,8 +4704,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0091",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: ed58b10f0fcc4eec28596e0efbba266aff07ea570c96ba87fcb7e3ed39f0d75d."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0091",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: ed58b10f0fcc4eec28596e0efbba266aff07ea570c96ba87fcb7e3ed39f0d75d."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4380,7 +4734,7 @@
   },
   {
     "id": "PGN-EXP-0092",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4421,8 +4775,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0092",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 3bff8e48d9df7e9ba1643db4cd785110203d2f34a38746b709cdd39d5ff7ad82."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0092",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-01",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 3bff8e48d9df7e9ba1643db4cd785110203d2f34a38746b709cdd39d5ff7ad82."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4430,7 +4805,7 @@
   },
   {
     "id": "PGN-EXP-0093",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4471,8 +4846,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0093",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 0b1faaa0d349de6ccd078c3ec8bd50e9eec7ed01daeec04a9b64b996f9ee0adf."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0093",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 0b1faaa0d349de6ccd078c3ec8bd50e9eec7ed01daeec04a9b64b996f9ee0adf."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4480,37 +4876,37 @@
   },
   {
     "id": "PGN-EXP-0094",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Un almacén de secretos permite a todas las identidades leer todas las claves. ¿Qué debe revisarse según las recomendaciones citadas?",
+    "stem": "El monitoreo detecta que una cuenta humana accedió al secreto usado normalmente por una automatización. Según la guía NCSC, ¿qué medida debe formar parte de la respuesta?",
     "options": [
       {
         "id": "A",
-        "text": "El cifrado del almacén, porque garantiza que nadie más pueda leer las claves.",
-        "rationale": "El cifrado en reposo no limita qué identidades autorizadas pueden leerlas."
+        "text": "Conservar el secreto activo y aumentar temporalmente la frecuencia del monitoreo.",
+        "rationale": "Monitorear con mayor frecuencia no elimina el posible compromiso del secreto que ya fue consultado."
       },
       {
         "id": "B",
-        "text": "Los controles de acceso de las identidades a los secretos.",
-        "rationale": "Usar un almacén no elimina la necesidad de limitar quién accede."
+        "text": "Cambiar el secreto e invalidar su versión anterior después del acceso anómalo.",
+        "rationale": "La guía incluye la rotación del secreto y la invalidación de la versión anterior dentro de la respuesta."
       },
       {
         "id": "C",
-        "text": "La frecuencia de rotación de las claves, sin cambiar quién puede leerlas.",
-        "rationale": "Rotar ayuda, pero si todas las identidades leen las claves nuevas el problema sigue."
+        "text": "Retirar el acceso de la cuenta humana y mantener sin cambios el secreto consultado.",
+        "rationale": "Quitar el acceso limita acciones futuras de la cuenta, pero deja vigente el secreto potencialmente expuesto."
       },
       {
         "id": "D",
-        "text": "La disponibilidad del almacén.",
-        "rationale": "El problema es el exceso de acceso, no su disponibilidad."
+        "text": "Copiar el mismo secreto a otro almacén y actualizar la ruta usada por la automatización.",
+        "rationale": "Mover el mismo valor no lo reemplaza ni invalida la versión que pudo quedar comprometida."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "Usar un almacén no elimina la necesidad de limitar quién accede.",
+    "explanation": "NCSC considera anómalo que una cuenta humana acceda a un secreto usado por una automatización. La respuesta debe incluir cambiar ese secreto e invalidar la versión anterior.",
     "references": [
       {
         "sourceId": "ncsc-cloud-security",
@@ -4521,8 +4917,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0094",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-secret-0094-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: fde8b470e60e0fad67dd52070330ec5b1d5d3d0986dd517440b792ac1546e20b."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0094",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-duplication-0094-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: fde8b470e60e0fad67dd52070330ec5b1d5d3d0986dd517440b792ac1546e20b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4530,7 +4947,7 @@
   },
   {
     "id": "PGN-EXP-0095",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4571,8 +4988,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0095",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: e03a82c277371b15ce3f4c531c5c651fbea1174d2a362d7e999e8fdcee3b8aa5."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0095",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: e03a82c277371b15ce3f4c531c5c651fbea1174d2a362d7e999e8fdcee3b8aa5."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4580,7 +5018,7 @@
   },
   {
     "id": "PGN-EXP-0096",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -4641,9 +5079,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0096",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: f23136bf870db56a4f4d0f430964af3402e945e3a163c066aa07dcc1c1766a0c."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0096",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: f23136bf870db56a4f4d0f430964af3402e945e3a163c066aa07dcc1c1766a0c."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4651,7 +5109,7 @@
   },
   {
     "id": "PGN-EXP-0097",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -4692,8 +5150,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0097",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: fc2a8b6948be5921ab2102a858a9b9d7f69c1ca8408af0af467259004a5f08e6."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0097",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: fc2a8b6948be5921ab2102a858a9b9d7f69c1ca8408af0af467259004a5f08e6."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4701,7 +5180,7 @@
   },
   {
     "id": "PGN-EXP-0098",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -4762,9 +5241,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0098",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 649ee5604e029cf0dff81a062e2f03c3f94520ca334147b3873682671fc68a76."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0098",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 649ee5604e029cf0dff81a062e2f03c3f94520ca334147b3873682671fc68a76."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4772,13 +5271,13 @@
   },
   {
     "id": "PGN-EXP-0099",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Las pruebas de una API solo cubren respuestas exitosas. ¿Qué dimensión conviene añadir de acuerdo con el alcance de pruebas citado?",
+    "stem": "Un equipo prueba una API únicamente con solicitudes válidas que devuelven respuestas exitosas. ¿Qué cobertura falta para verificar su comportamiento completo?",
     "options": [
       {
         "id": "A",
@@ -4787,72 +5286,22 @@
       },
       {
         "id": "B",
-        "text": "Revisión visual de la documentación publicada de la API.",
-        "rationale": "Revisa la documentación, no ejercita respuestas de error."
+        "text": "Pruebas de carga con el mismo tipo de solicitudes válidas.",
+        "rationale": "Mide el rendimiento del camino feliz, no ejercita respuestas de error."
       },
       {
         "id": "C",
-        "text": "Comportamiento ante errores y respuestas asociadas.",
-        "rationale": "La comprobación debe contemplar cómo responde la API cuando falla una solicitud."
+        "text": "Comprobación de errores y de los códigos de estado devueltos.",
+        "rationale": "Verifica cómo responde la API cuando una solicitud falla."
       },
       {
         "id": "D",
-        "text": "Capturas de pantalla de la aplicación que consume la API.",
-        "rationale": "No ejercitan los casos de error de la API."
+        "text": "Pruebas de la interfaz visual de la aplicación que la consume.",
+        "rationale": "Revisan la interfaz del consumidor, no los casos de error de la API."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "La comprobación debe contemplar cómo responde la API cuando falla una solicitud.",
-    "references": [
-      {
-        "sourceId": "homeoffice-api",
-        "sourceUnitId": "homeoffice-api-review-unit",
-        "locator": "Home Office, Designing and Maintaining an API, requisitos You MUST include a form of versioning to your API, You MUST test your API y You MUST use an API Specification",
-        "supports": "correct_answer"
-      }
-    ],
-    "targetCallIds": [],
-    "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
-    "tags": [
-      "original-case",
-      "bank100"
-    ]
-  },
-  {
-    "id": "PGN-EXP-0100",
-    "status": "needs_review",
-    "moduleId": "tecnico",
-    "topicId": "software_e_interoperabilidad",
-    "secondaryTopicIds": [],
-    "questionType": "application",
-    "difficulty": 2,
-    "stem": "La nueva implementación cumple sus pruebas internas, pero no se ha comprobado con los consumidores. ¿Qué comprobación atiende el riesgo restante?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Dar por supuesto que pruebas internas implican compatibilidad total.",
-        "rationale": "Una prueba aislada puede omitir expectativas del consumidor."
-      },
-      {
-        "id": "B",
-        "text": "Ocultar las respuestas a los clientes.",
-        "rationale": "Impedir su uso no demuestra compatibilidad."
-      },
-      {
-        "id": "C",
-        "text": "Pruebas de integración con el contrato esperado por los clientes.",
-        "rationale": "Verifican la interacción entre API y consumidores, no solo componentes aislados."
-      },
-      {
-        "id": "D",
-        "text": "Cambiar el nombre de la rama de desarrollo.",
-        "rationale": "No verifica la interacción."
-      }
-    ],
-    "correctOptionId": "C",
-    "explanation": "Verifican la interacción entre API y consumidores, no solo componentes aislados.",
+    "explanation": "Probar una API incluye comprobar los errores y los códigos de estado, no solo las respuestas exitosas.",
     "references": [
       {
         "sourceId": "homeoffice-api",
@@ -4865,27 +5314,98 @@
     "createdMethod": "ai_draft",
     "reviews": [
       {
-        "id": "factual-final-PGN-EXP-0100",
+        "id": "factual-126-2026-11-06-PGN-EXP-0099",
         "kind": "factual",
         "method": "ai_assisted",
-        "reviewerId": "codex-factual-final-2026-09-08",
+        "reviewerId": "factual-final-126-exp-2026-11-06",
         "model": null,
-        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
         "outcome": "pass",
-        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 734020a7f595179d2cc46ea5942d63b7e4c98f1f46fd7a6b4c8cf36b7cf15e2a."
       },
       {
-        "id": "editorial-final-PGN-EXP-0100",
+        "id": "editorial-126-2026-11-06-PGN-EXP-0099",
         "kind": "editorial",
         "method": "ai_assisted",
-        "reviewerId": "codex-editorial-final-2026-09-08",
+        "reviewerId": "editorial-final-126-exp-2026-11-06",
         "model": null,
-        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
         "outcome": "pass",
-        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 734020a7f595179d2cc46ea5942d63b7e4c98f1f46fd7a6b4c8cf36b7cf15e2a."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
+    "tags": [
+      "original-case",
+      "bank100"
+    ]
+  },
+  {
+    "id": "PGN-EXP-0100",
+    "status": "validated_assisted",
+    "moduleId": "tecnico",
+    "topicId": "software_e_interoperabilidad",
+    "secondaryTopicIds": [],
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una API supera sus pruebas funcionales, pero un nuevo trámite en línea hará que la demanda crezca con fuerza. ¿Qué prueba atiende el riesgo restante?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Más pruebas unitarias sobre cada componente interno.",
+        "rationale": "Siguen validando componentes aislados; no miden el comportamiento de la API bajo una demanda alta."
+      },
+      {
+        "id": "B",
+        "text": "Verificar el código de estado de cada respuesta de error.",
+        "rationale": "Comprueba que los errores se informen bien, pero no si la API soporta el volumen esperado."
+      },
+      {
+        "id": "C",
+        "text": "Pruebas de carga con el número de usuarios proyectado.",
+        "rationale": "Muestran si la API soporta la demanda prevista antes de publicarla."
+      },
+      {
+        "id": "D",
+        "text": "Contrastar la especificación de la API con sus respuestas reales.",
+        "rationale": "Detecta diferencias de contrato, pero no revela límites de capacidad."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "El Home Office señala que las pruebas de carga sirven para confirmar que la API atiende el número de usuarios proyectado; las pruebas funcionales no cubren ese riesgo.",
+    "references": [
+      {
+        "sourceId": "homeoffice-api",
+        "sourceUnitId": "homeoffice-api-review-unit",
+        "locator": "Home Office, Designing and Maintaining an API, requisito You MUST test your API (pruebas de carga) y You MUST consider scalability of your API",
+        "supports": "correct_answer"
+      }
+    ],
+    "targetCallIds": [],
+    "createdMethod": "ai_draft",
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0100",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 03de3c3e6fa6a7d04a879addc2bab9f0da8c7b9bdd585b5154f4be3bfd19759c."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0100",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 03de3c3e6fa6a7d04a879addc2bab9f0da8c7b9bdd585b5154f4be3bfd19759c."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4893,7 +5413,7 @@
   },
   {
     "id": "PGN-EXP-0101",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -4934,8 +5454,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0101",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 4638243ba722a3818d4ccac657ad812a186ae3efd34374234314f590fb6301b1."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0101",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 4638243ba722a3818d4ccac657ad812a186ae3efd34374234314f590fb6301b1."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4943,7 +5484,7 @@
   },
   {
     "id": "PGN-EXP-0102",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -4984,8 +5525,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0102",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 3d087abef3d75fa6ead454dd7ccca979558f87672b7b5b6c04a714106ed8275f."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0102",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 3d087abef3d75fa6ead454dd7ccca979558f87672b7b5b6c04a714106ed8275f."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -4993,7 +5555,7 @@
   },
   {
     "id": "PGN-EXP-0103",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -5054,9 +5616,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0103",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 701aa1a62b3866c0726a99e19042bb2ee712ed1651f9acef0923d6865d0c8803."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0103",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 701aa1a62b3866c0726a99e19042bb2ee712ed1651f9acef0923d6865d0c8803."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -5064,37 +5646,37 @@
   },
   {
     "id": "PGN-EXP-0104",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Un analista propone reiniciar todos los equipos afectados antes de considerar evidencia volátil. ¿Qué riesgo debe valorar el responsable del incidente?",
+    "stem": "Tras aislar los sistemas afectados por un ransomware, el equipo debe decidir en qué orden restaurarlos. ¿Qué criterio es adecuado?",
     "options": [
       {
         "id": "A",
-        "text": "Que deje de ser necesario documentar el incidente.",
-        "rationale": "Reiniciar no elimina el deber operativo de documentar y analizar."
+        "text": "Empezar por los sistemas con menos datos, porque se restauran más rápido.",
+        "rationale": "La rapidez de restauración no refleja qué servicios son esenciales para la operación."
       },
       {
         "id": "B",
-        "text": "La pérdida de evidencia volátil útil para el análisis.",
-        "rationale": "El tratamiento del incidente debe considerar preservar evidencia que puede desaparecer."
+        "text": "Seguir una lista predefinida de activos críticos y sus dependencias.",
+        "rationale": "CISA recomienda priorizar según una lista de activos críticos y los sistemas de los que dependen."
       },
       {
         "id": "C",
-        "text": "Que el reinicio libere memoria y mejore la investigación posterior.",
-        "rationale": "Liberar memoria borra justo el estado que se quería conservar."
+        "text": "Atender primero a las áreas que hagan más solicitudes de restauración.",
+        "rationale": "Prioriza por insistencia de los usuarios y no por la criticidad de los servicios."
       },
       {
         "id": "D",
-        "text": "Que el reinicio borre los registros guardados en disco de los equipos.",
-        "rationale": "Los registros en disco suelen persistir; el riesgo principal está en lo volátil."
+        "text": "Restaurar todos los sistemas a la vez para terminar cuanto antes.",
+        "rationale": "Sin priorizar, se retrasan los servicios esenciales y aumenta el riesgo de reinfectar sistemas limpios."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "El tratamiento del incidente debe considerar preservar evidencia que puede desaparecer.",
+    "explanation": "CISA indica clasificar los sistemas afectados y priorizar su restauración según una lista predefinida de activos críticos, incluidos los sistemas de los que dependen.",
     "references": [
       {
         "sourceId": "cisa-ransomware",
@@ -5105,8 +5687,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0104",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: b28da7189159e4912b4eaa64ca9d685f60ae1826ecd42776640d13218e453fd0."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0104",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: b28da7189159e4912b4eaa64ca9d685f60ae1826ecd42776640d13218e453fd0."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -5114,7 +5717,7 @@
   },
   {
     "id": "PGN-EXP-0105",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -5155,8 +5758,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0105",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: e9f123e9f269be57dc82b991ee119411fe3f1a48b69b147dcf7c0c12f35e5999."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0105",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: e9f123e9f269be57dc82b991ee119411fe3f1a48b69b147dcf7c0c12f35e5999."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -5164,42 +5788,42 @@
   },
   {
     "id": "PGN-EXP-0106",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Se propone aplicar siempre la misma acción inicial, sin considerar sistemas críticos ni el plan de respuesta. ¿Qué limitación debe señalarse?",
+    "stem": "Antes de aislar de forma coordinada varios sistemas durante un incidente de ransomware, el equipo debe avisar a sus integrantes sin que los atacantes detecten la respuesta. ¿Qué medio de comunicación es preferible?",
     "options": [
       {
         "id": "A",
-        "text": "La prioridad operativa depende del incidente y del plan institucional.",
-        "rationale": "La guía de respuesta requiere atender contexto y condiciones de contención."
+        "text": "Llamadas telefónicas u otro canal fuera de banda.",
+        "rationale": "Un canal independiente de la red afectada evita alertar a los atacantes."
       },
       {
         "id": "B",
-        "text": "Aplicar la misma acción garantiza una respuesta igual y más rápida en cada caso.",
-        "rationale": "La rapidez uniforme ignora diferencias de impacto y restricciones."
+        "text": "El correo corporativo con un asunto discreto.",
+        "rationale": "El correo viaja por la red posiblemente comprometida; un asunto discreto no evita que lo lean."
       },
       {
         "id": "C",
-        "text": "Los sistemas críticos deben tratarse después, por ser más complejos.",
-        "rationale": "Su criticidad es información relevante para decidir, no para postergar."
+        "text": "El chat interno del equipo de TI.",
+        "rationale": "Es parte de la infraestructura que los atacantes podrían estar vigilando."
       },
       {
         "id": "D",
-        "text": "Un listado general de pasos reemplaza la coordinación con el plan institucional.",
-        "rationale": "El plan y los responsables siguen siendo necesarios."
+        "text": "Un aviso general en la intranet institucional.",
+        "rationale": "Es visible para toda la red y puede alertar a los atacantes antes del aislamiento."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "La guía de respuesta requiere atender contexto y condiciones de contención.",
+    "explanation": "CISA recomienda aislar los sistemas de forma coordinada y usar canales fuera de banda, como llamadas telefónicas, para no alertar a los atacantes.",
     "references": [
       {
         "sourceId": "cisa-ransomware",
         "sourceUnitId": "cisa-ransomware-review-unit",
-        "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
+        "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis (aislamiento coordinado y comunicación fuera de banda)",
         "supports": "correct_answer"
       }
     ],
@@ -5207,27 +5831,27 @@
     "createdMethod": "ai_draft",
     "reviews": [
       {
-        "id": "factual-final-PGN-EXP-0106",
+        "id": "factual-126-2026-11-06-PGN-EXP-0106",
         "kind": "factual",
         "method": "ai_assisted",
-        "reviewerId": "codex-factual-final-2026-09-08",
+        "reviewerId": "factual-closure-126-2026-11-06",
         "model": null,
-        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
         "outcome": "pass",
-        "notes": "La clave y la explicación se mantienen dentro del alcance de la unidad verificada citada; la aplicabilidad por convocatoria no se infiere para esta pregunta."
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 05424d15e6207c25d95fc5de092110f2ae54edf67ceba79da6da5c29eaac4e64."
       },
       {
-        "id": "editorial-final-PGN-EXP-0106",
+        "id": "editorial-126-2026-11-06-PGN-EXP-0106",
         "kind": "editorial",
         "method": "ai_assisted",
-        "reviewerId": "codex-editorial-final-2026-09-08",
+        "reviewerId": "editorial-final-126-exp-2026-11-06",
         "model": null,
-        "reviewedAt": "2026-09-08T05:20:53.596Z",
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
         "outcome": "pass",
-        "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 05424d15e6207c25d95fc5de092110f2ae54edf67ceba79da6da5c29eaac4e64."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -5235,7 +5859,7 @@
   },
   {
     "id": "PGN-EXP-0107",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -5296,9 +5920,29 @@
         "reviewedAt": "2026-09-08T05:20:53.596Z",
         "outcome": "pass",
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0107",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: c988eea4222eb5db02572aa6c53bffb16270bc5e21579211bbbe0f2ec386af6a."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0107",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: c988eea4222eb5db02572aa6c53bffb16270bc5e21579211bbbe0f2ec386af6a."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -5306,7 +5950,7 @@
   },
   {
     "id": "PGN-EXP-0108",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -5347,8 +5991,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0108",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 982b557f139d7ceb1802ae3dc78f32cd79013daae0a7e2d8eb3fbea0e01b5e07."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0108",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-02",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 982b557f139d7ceb1802ae3dc78f32cd79013daae0a7e2d8eb3fbea0e01b5e07."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"
@@ -5356,49 +6021,70 @@
   },
   {
     "id": "PGN-EXP-0109",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Una dependencia detecta señales de ransomware y las mantiene dentro del equipo local, sin activar el procedimiento institucional. ¿Qué falta en la respuesta descrita?",
+    "stem": "Una dependencia contiene un incidente de ransomware y hay indicios de que se copiaron datos personales antes del cifrado. Además de la contención técnica, ¿qué debe considerar en paralelo?",
     "options": [
       {
         "id": "A",
-        "text": "Resolverlo localmente y reportarlo cuando el equipo termine la limpieza.",
-        "rationale": "Resolver de forma aislada omite la activación y coordinación que el plan prevé."
+        "text": "Publicar el incidente en redes sociales antes de investigarlo.",
+        "rationale": "Divulgar sin análisis puede agravar el daño y no sustituye los canales de notificación."
       },
       {
         "id": "B",
-        "text": "Instalar otro antivirus en los equipos locales afectados.",
-        "rationale": "Una herramienta más no activa la respuesta institucional."
+        "text": "Pagar el rescate de inmediato para evitar la divulgación.",
+        "rationale": "Pagar no garantiza que se evite la divulgación y no reemplaza las obligaciones de notificación."
       },
       {
         "id": "C",
-        "text": "La activación y coordinación previstas en el plan de respuesta.",
-        "rationale": "El tratamiento del incidente incluye los canales y responsables de respuesta."
+        "text": "Evaluar la notificación a las autoridades y a las personas afectadas.",
+        "rationale": "La guía indica atender los requisitos de notificación de brechas y consultar a las autoridades."
       },
       {
         "id": "D",
-        "text": "Esperar a que se confirme el cifrado de archivos antes de informar.",
-        "rationale": "La espera puede aumentar el impacto y retrasar la contención."
+        "text": "Posponer toda comunicación hasta restaurar los sistemas.",
+        "rationale": "Esperar retrasa avisos que pueden ser obligatorios y aumenta el impacto sobre los afectados."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "El tratamiento del incidente incluye los canales y responsables de respuesta.",
+    "explanation": "Cuando hay posible exfiltración de datos personales, la respuesta incluye evaluar los requisitos de notificación a autoridades y afectados mientras se contiene el incidente.",
     "references": [
       {
         "sourceId": "cisa-ransomware",
         "sourceUnitId": "cisa-ransomware-review-unit",
-        "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
+        "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Reporting and Notification (requisitos de notificación ante una brecha de datos)",
         "supports": "correct_answer"
       }
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-EXP-0109",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 1a16f26f04e16ce3a0c3787f84f6bc4b69872333f07aadd6b6932da3d944bc92."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-EXP-0109",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-exp-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 1a16f26f04e16ce3a0c3787f84f6bc4b69872333f07aadd6b6932da3d944bc92."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "bank100"

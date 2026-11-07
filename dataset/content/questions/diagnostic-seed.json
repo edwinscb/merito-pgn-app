@@ -1467,33 +1467,33 @@
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
-    "questionType": "conceptual",
+    "questionType": "application",
     "difficulty": 1,
-    "stem": "En una base relacional, una restricción de clave foránea referencia una clave de otra tabla. ¿Qué finalidad tiene esa restricción?",
+    "stem": "Una tabla de pedidos tiene una columna id_cliente declarada como clave foránea hacia la clave primaria de la tabla de clientes. Se intenta insertar un pedido con un id_cliente que no existe en clientes. ¿Qué comportamiento corresponde a esa restricción?",
     "options": [
       {
         "id": "A",
-        "text": "Comprimir automáticamente todas las tablas.",
-        "rationale": "La compresión reduce almacenamiento y no es el objetivo de una clave foránea."
+        "text": "El motor rechaza la inserción porque dejaría un pedido huérfano.",
+        "rationale": "La clave foránea solo admite valores presentes en la clave primaria referenciada."
       },
       {
         "id": "B",
-        "text": "Mantener referencias válidas entre los registros de las tablas relacionadas.",
-        "rationale": "La restricción relaciona referencias de la tabla hija con claves válidas."
+        "text": "El motor crea un cliente nuevo con datos vacíos.",
+        "rationale": "La restricción valida referencias; no genera registros en la tabla padre."
       },
       {
         "id": "C",
-        "text": "Cifrar todas las columnas.",
-        "rationale": "El cifrado protege contenido y no es función de esta restricción."
+        "text": "El motor acepta el pedido y lo marca como pendiente de revisión.",
+        "rationale": "La restricción no tiene un estado pendiente; la referencia es válida o se rechaza."
       },
       {
         "id": "D",
-        "text": "Sustituir las copias de seguridad.",
-        "rationale": "Una referencia válida no permite recuperar datos perdidos sin respaldos."
+        "text": "El motor acepta el pedido y lo asocia al último cliente registrado.",
+        "rationale": "El motor no reasigna referencias inexistentes a otro registro."
       }
     ],
-    "correctOptionId": "B",
-    "explanation": "La restricción comprueba que las referencias no nulas correspondan a claves válidas, evitando registros huérfanos conforme a las reglas declaradas. No sustituye respaldos, cifrado ni otros controles de integridad.",
+    "correctOptionId": "A",
+    "explanation": "Una clave foránea exige que sus valores no nulos existan en la clave primaria de la tabla referenciada, lo que evita registros huérfanos. Las acciones sobre borrados o actualizaciones dependen de las reglas declaradas en cada motor.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -1504,7 +1504,7 @@
       {
         "sourceId": "missouri-db-integrity",
         "sourceUnitId": "missouri-db-integrity-review-unit",
-        "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
+        "locator": "Referential Integrity, página PDF 2: la clave foránea de la tabla hija solo acepta valores existentes en la clave primaria padre",
         "supports": "correct_answer"
       }
     ],
@@ -1533,9 +1533,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Pregunta delimitada a finalidad de una restricción de clave foránea; B responde. La explicación precisa referencias no nulas y no promete integridad general. Distractores de otras funciones limitan profundidad."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-SEED-0015",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 5be3b48cb31771149baa0db3fdbdf03f81499fd81766c50db7443f1b9aabb580."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-SEED-0015",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 5be3b48cb31771149baa0db3fdbdf03f81499fd81766c50db7443f1b9aabb580."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "bases_de_datos"
     ]
@@ -1546,33 +1566,33 @@
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
-    "questionType": "conceptual",
+    "questionType": "application",
     "difficulty": 1,
-    "stem": "En una transacción con semántica todo-o-nada, las operaciones se confirman juntas o se revierten si no puede completarse el conjunto. ¿Qué propiedad expresa?",
+    "stem": "Una transacción ya fue confirmada y poco después el servidor de base de datos falla. Al reiniciar, los resultados confirmados siguen disponibles. ¿Qué propiedad ACID garantiza ese comportamiento?",
     "options": [
       {
         "id": "A",
-        "text": "Atomicidad.",
-        "rationale": "Atomicidad es la propiedad todo-o-nada del conjunto transaccional."
+        "text": "Durabilidad.",
+        "rationale": "Los resultados de una transacción confirmada sobreviven a fallas posteriores."
       },
       {
         "id": "B",
-        "text": "Latencia.",
-        "rationale": "La latencia mide demora, no confirmación indivisible."
+        "text": "Atomicidad.",
+        "rationale": "La atomicidad trata la transacción como todo o nada, pero no describe la supervivencia a fallas posteriores."
       },
       {
         "id": "C",
-        "text": "Disponibilidad geográfica.",
-        "rationale": "La disponibilidad geográfica trata acceso al servicio en ubicaciones, no atomicidad."
+        "text": "Aislamiento.",
+        "rationale": "El aislamiento oculta los eventos de una transacción a otras mientras se ejecuta."
       },
       {
         "id": "D",
-        "text": "Compresión.",
-        "rationale": "La compresión trata representación y tamaño de datos."
+        "text": "Consistencia.",
+        "rationale": "La consistencia exige valores correctos antes y después, sin describir la persistencia tras una falla."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "La atomicidad trata las operaciones de una transacción como un conjunto indivisible: se confirman todas o no se confirma ninguna. No supone revertir efectos externos ajenos a la transacción.",
+    "explanation": "La durabilidad indica que los resultados de una transacción confirmada sobreviven a un mal funcionamiento posterior. Las otras tres propiedades ACID cubren objetivos distintos: todo o nada, valores correctos y ocultamiento entre transacciones.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -1583,7 +1603,7 @@
       {
         "sourceId": "nist-acid",
         "sourceUnitId": "nist-acid-review-unit",
-        "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
+        "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18, ACID guarantees (Durability)",
         "supports": "correct_answer"
       }
     ],
@@ -1611,9 +1631,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Reconocimiento conceptual de todo-o-nada con A única; no confunde la transacción con efectos externos. Distractores técnicos distantes y baja discriminación son limitaciones explícitas del nivel inicial."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-SEED-0016",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 9116d382f10ab16b1e2b46824261b07638dcfc98303c30dd655f96b56103f754."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-SEED-0016",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 9116d382f10ab16b1e2b46824261b07638dcfc98303c30dd655f96b56103f754."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "transacciones"
     ]
@@ -1626,42 +1666,36 @@
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 1,
-    "stem": "El principio de mínimo privilegio indica que una identidad debe recibir:",
+    "stem": "Según la definición NIST del principio de mínimo privilegio, ¿a qué entidades se les restringen los privilegios de acceso al mínimo necesario?",
     "options": [
       {
         "id": "A",
-        "text": "Acceso administrativo para evitar bloqueos.",
-        "rationale": "Dar administración por comodidad excede los permisos necesarios."
+        "text": "A las cuentas con rol administrativo por su mayor riesgo.",
+        "rationale": "La definición no se limita a cuentas administrativas."
       },
       {
         "id": "B",
-        "text": "Solo los permisos necesarios para realizar sus tareas.",
-        "rationale": "Los permisos se limitan a los requeridos por las tareas de la identidad."
+        "text": "A los usuarios humanos, sin incluir procesos automáticos.",
+        "rationale": "Los procesos que actúan por un usuario también quedan incluidos."
       },
       {
         "id": "C",
-        "text": "Los mismos permisos que su jefe.",
-        "rationale": "Los permisos del jefe no determinan las tareas propias de otra identidad."
+        "text": "A los usuarios y a los procesos que actúan en su nombre.",
+        "rationale": "La definición cubre usuarios y procesos que actúan en su representación."
       },
       {
         "id": "D",
-        "text": "Acceso anónimo a los datos institucionales.",
-        "rationale": "El acceso anónimo general no limita privilegios según tareas."
+        "text": "A los equipos físicos de la red, no a las identidades.",
+        "rationale": "El principio restringe privilegios de acceso de usuarios y procesos, no solo equipos."
       }
     ],
-    "correctOptionId": "B",
-    "explanation": "El mínimo privilegio limita los accesos a los necesarios para la tarea. Los accesos temporales pueden ser una medida adicional, pero esta definición no impone una duración universal.",
+    "correctOptionId": "C",
+    "explanation": "La definición NIST (CNSSI 4009) indica que el sistema debe restringir al mínimo necesario los privilegios de acceso de los usuarios y de los procesos que actúan en su nombre.",
     "references": [
-      {
-        "sourceId": "pgn-initial-diagnostic",
-        "sourceUnitId": null,
-        "locator": "Pregunta 17 y tabla de clave",
-        "supports": "provenance"
-      },
       {
         "sourceId": "nist-least-privilege",
         "sourceUnitId": "nist-least-privilege-review-unit",
-        "locator": "NIST glossary, definición least privilege",
+        "locator": "NIST glossary, definición least privilege (CNSSI 4009-2022): usuarios o procesos que actúan en su nombre",
         "supports": "correct_answer"
       }
     ],
@@ -1691,9 +1725,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Definición delimitada al permiso requerido por tareas; B única y se elimina una duración universal no contenida en el concepto. Racionales distinguen comodidad, jerarquía y acceso anónimo."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-SEED-0017",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-pass-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: c54252ff4f6f564019a20ece4ef3eddda330ce0ce67845869282898add029445."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-SEED-0017",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-pass-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: c54252ff4f6f564019a20ece4ef3eddda330ce0ce67845869282898add029445."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "minimo_privilegio"
     ]
@@ -1706,31 +1760,31 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "Una aplicación necesita credenciales de servicio y el equipo quiere evitar incluirlas en el código del repositorio. ¿Qué práctica de gestión de secretos responde al problema?",
+    "stem": "Un equipo almacena las credenciales de sus servicios en el gestor de secretos de su plataforma en la nube y configura monitoreo sobre su acceso. Según la guía NCSC, ¿qué actividad conviene que genere una alerta?",
     "options": [
       {
         "id": "A",
-        "text": "Codificarlos en Base64 dentro del código.",
-        "rationale": "Base64 es una codificación reversible y conserva el secreto en el código."
+        "text": "Una aplicación que lee su propio secreto en horario habitual.",
+        "rationale": "Es uso normal y no constituye actividad anómala."
       },
       {
         "id": "B",
-        "text": "Gestionarlos en un almacén de secretos y usar identidades con permisos limitados.",
-        "rationale": "Separa secretos del repositorio y limita las identidades que pueden obtenerlos."
+        "text": "Una identidad de servicio que consulta el secreto asignado.",
+        "rationale": "Es el acceso previsto para esa identidad."
       },
       {
         "id": "C",
-        "text": "Cambiar el nombre de las variables.",
-        "rationale": "Renombrar una variable no protege su contenido."
+        "text": "Un secreto que se renueva según el proceso documentado.",
+        "rationale": "Cambiar secretos con el proceso definido es una práctica recomendada, no una anomalía."
       },
       {
         "id": "D",
-        "text": "Incluirlos en la documentación privada del proyecto.",
-        "rationale": "Documentar el secreto dentro del proyecto mantiene una copia expuesta al acceso a esos archivos."
+        "text": "Un usuario que accede a un secreto propio de una automatización.",
+        "rationale": "La guía cita este patrón como ejemplo de actividad anómala sobre secretos."
       }
     ],
-    "correctOptionId": "B",
-    "explanation": "Un almacén de secretos separa credenciales del código y los permisos limitados restringen su acceso. Es una práctica base, no una garantía completa de seguridad ni sustituto de rotación y otros controles.",
+    "correctOptionId": "D",
+    "explanation": "La guía NCSC recomienda que el monitoreo de secretos se centre en actividad anómala, como un usuario que accede a un secreto que normalmente usa una automatización, o una identidad que consulta muchos secretos distintos.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -1741,7 +1795,7 @@
       {
         "sourceId": "ncsc-cloud-security",
         "sourceUnitId": "ncsc-cloud-security-review-unit",
-        "locator": "NCSC, Using a cloud platform securely, sección Protect secrets carefully",
+        "locator": "NCSC, Using a cloud platform securely, sección Protect secrets carefully: monitoreo de actividad anómala sobre secretos",
         "supports": "correct_answer"
       }
     ],
@@ -1771,9 +1825,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Caso concreto de credenciales en repositorio; B aborda separación y control. Base64 es distractor pertinente; renombrar es trivial. Los pronombres masculinos se entienden por secretos en la pregunta; armonizar a credenciales sería mejora opcional."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-SEED-0018",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 8a9c84b9e957c525bd559d3707091db19711bfd7e3f3eec56390e63af7cda691."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-SEED-0018",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 8a9c84b9e957c525bd559d3707091db19711bfd7e3f3eec56390e63af7cda691."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "secretos"
     ]
@@ -1786,31 +1860,31 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "Un cambio incompatible en una API puede afectar integraciones existentes. Antes de migrar a los consumidores, ¿qué práctica facilita gestionar el cambio?",
+    "stem": "Un usuario autenticado invoca un endpoint de una API al que su perfil no tiene acceso. ¿Qué código de estado HTTP debe devolver el endpoint según el estándar de ingeniería del Home Office?",
     "options": [
       {
         "id": "A",
-        "text": "Romper el contrato sin aviso.",
-        "rationale": "Un cambio incompatible sin aviso impide preparar las integraciones."
+        "text": "200, con el error descrito en el cuerpo de la respuesta.",
+        "rationale": "Un 200 indica éxito y dificulta que el consumidor detecte y depure el fallo."
       },
       {
         "id": "B",
-        "text": "Gestionar la versión y compatibilidad, documentar el contrato y probar las integraciones afectadas.",
-        "rationale": "El contrato documentado y las pruebas permiten evaluar y comunicar compatibilidad."
+        "text": "400, para indicar que la solicitud está mal formada.",
+        "rationale": "La solicitud es válida; lo que falta es autorización."
       },
       {
         "id": "C",
-        "text": "Eliminar autenticación durante la migración.",
-        "rationale": "Retirar autenticación añade exposición y no resuelve incompatibilidad."
+        "text": "500, para indicar una falla interna del servidor.",
+        "rationale": "Un 500 señala un error del servidor, no una restricción de acceso."
       },
       {
         "id": "D",
-        "text": "Cambiar simultáneamente todos los campos sin trazabilidad.",
-        "rationale": "Cambiar campos sin trazabilidad dificulta identificar el efecto sobre consumidores."
+        "text": "403, para indicar que el acceso no está permitido.",
+        "rationale": "El estándar pide códigos apropiados y cita 403 cuando el usuario no tiene acceso."
       }
     ],
-    "correctOptionId": "B",
-    "explanation": "Ante un cambio incompatible, versionado, documentación y pruebas permiten evaluar efectos sobre las integraciones. No se exige aquí una estrategia concreta de versionado ni se afirma que todo cambio compatible necesite nueva versión mayor.",
+    "correctOptionId": "D",
+    "explanation": "El estándar del Home Office exige que cada endpoint devuelva el código de estado pertinente; para un usuario sin acceso cita el 403. Usar códigos reconocibles facilita la depuración a los consumidores.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -1821,7 +1895,7 @@
       {
         "sourceId": "homeoffice-api",
         "sourceUnitId": "homeoffice-api-review-unit",
-        "locator": "Home Office API standard, secciones Versioning, API specification and testing",
+        "locator": "Home Office API standard, sección You MUST return appropriate status codes from each endpoint",
         "supports": "correct_answer"
       }
     ],
@@ -1849,9 +1923,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Cambio incompatible y consumidores afectados delimitan el problema; B única. La explicación evita exigir una estrategia única. Distractores extremos reducen dificultad, sin bloquear uso diagnóstico."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-SEED-0019",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 037c8eb751f2677d71ebbd73f928baa1136d5ecff79436ab493b60dffff8812c."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-SEED-0019",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-seed-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 037c8eb751f2677d71ebbd73f928baa1136d5ecff79436ab493b60dffff8812c."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "api"
     ]
@@ -1864,42 +1958,36 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 1,
-    "stem": "Se confirma ransomware en equipos de una entidad. Según la guía StopRansomware, ¿qué conjunto de acciones debe coordinar la respuesta conforme al plan institucional?",
+    "stem": "Durante la respuesta a un ransomware, la guía StopRansomware recomienda consultar a las autoridades aunque la organización ya pueda mitigar el incidente. ¿Qué información adicional busca esa consulta?",
     "options": [
       {
         "id": "A",
-        "text": "Borrar todos los registros para proteger a la entidad.",
-        "rationale": "Borrar registros destruye evidencia útil para investigar y recuperar."
+        "text": "Qué datos de memoria deben preservarse antes de aislar los equipos.",
+        "rationale": "Preservar evidencia es otra actividad de respuesta; no es el objetivo específico de esta consulta."
       },
       {
         "id": "B",
-        "text": "Aislar sistemas afectados cuando sea posible, preservar evidencia y coordinar la respuesta y evaluación del impacto.",
-        "rationale": "Combina contención, evidencia y coordinación sin imponer una secuencia que retrase el aislamiento."
+        "text": "Si existen herramientas de descifrado publicadas para esa variante.",
+        "rationale": "Investigadores pueden haber encontrado fallos de cifrado y publicado un descifrador aplicable."
       },
       {
         "id": "C",
-        "text": "Informar el incidente únicamente por un canal personal.",
-        "rationale": "Un canal personal aislado no activa la coordinación institucional."
+        "text": "Cuál copia de seguridad debe restaurarse primero en la recuperación.",
+        "rationale": "El orden de restauración depende del plan de recuperación y de los activos críticos de la organización."
       },
       {
         "id": "D",
-        "text": "Desactivar permanentemente el sistema sin evaluar impacto.",
-        "rationale": "Una desactivación permanente sin evaluar impacto no constituye recuperación planificada."
+        "text": "Qué plazo contractual aplica para notificar a cada proveedor.",
+        "rationale": "Los plazos contractuales de proveedores no son la información que busca la consulta sobre la variante."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "La contención, preservación de evidencia y coordinación deben responder al incidente y al plan institucional. No se exige completar una validación antes de toda contención urgente.",
+    "explanation": "La consulta busca saber si ya existe un descifrador para la variante identificada. CISA señala que investigadores pueden descubrir fallos de cifrado y publicar herramientas de descifrado.",
     "references": [
-      {
-        "sourceId": "pgn-initial-diagnostic",
-        "sourceUnitId": null,
-        "locator": "Pregunta 20 y tabla de clave",
-        "supports": "provenance"
-      },
       {
         "sourceId": "cisa-ransomware",
         "sourceUnitId": "cisa-ransomware-review-unit",
-        "locator": "CISA StopRansomware Guide, apartados Initial response y Preserve evidence",
+        "locator": "CISA StopRansomware Guide, Part 2, Containment and Eradication, línea Consult federal law enforcement ... decryptors",
         "supports": "correct_answer"
       }
     ],
@@ -1929,9 +2017,29 @@
         "reviewedAt": "2026-09-07T18:20:41Z",
         "outcome": "pass",
         "notes": "Revisada corrección del antecedente: C ahora dice Informar el incidente. Clave B y criterio de respuesta claros. La respuesta correcta no impone demorar contención por una validación secuencial; distractores extremos limitan dificultad sin generar otra clave."
+      },
+      {
+        "id": "factual-126-2026-11-06-PGN-SEED-0020",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-pass-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: d7896e5e85da65cf2cf37c81aa3a9df11a6357f4b067975556a6d2af37e6e838."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-SEED-0020",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-pass-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: d7896e5e85da65cf2cf37c81aa3a9df11a6357f4b067975556a6d2af37e6e838."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": "2026-11-06",
     "tags": [
       "respuesta_a_incidentes"
     ]

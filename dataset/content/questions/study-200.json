@@ -4705,7 +4705,7 @@
   },
   {
     "id": "PGN-NEW-0180",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -4726,7 +4726,7 @@
       {
         "id": "C",
         "text": "Su carácter seguro: una consulta no debe pedir cambios de estado.",
-        "rationale": "GET tiene semántica de lectura. Que el servidor registre logs no autoriza que el recurso solicitado borre expedientes como efecto pretendido de la consulta."
+        "rationale": "GET es un método seguro: su semántica es de solo lectura, así que una consulta no debe pedir el borrado de un recurso. RFC 9110 advierte que el propietario del recurso debe evitar acciones inseguras mediante GET."
       },
       {
         "id": "D",
@@ -4735,7 +4735,7 @@
       }
     ],
     "correctOptionId": "C",
-    "explanation": "GET tiene semántica de lectura. Que el servidor registre logs no autoriza que el recurso solicitado borre expedientes como efecto pretendido de la consulta.",
+    "explanation": "GET es un método seguro: su semántica es de solo lectura, así que una consulta no debe pedir el borrado de un recurso. RFC 9110 advierte que el propietario del recurso debe evitar acciones inseguras mediante GET.",
     "references": [
       {
         "sourceId": "http-semantics-9110",
@@ -4746,8 +4746,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0180",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 0a8fda9592b9fc12a3bca83f475115c8b720c6c216e92e471cbab92d873eeba8."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0180",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 0a8fda9592b9fc12a3bca83f475115c8b720c6c216e92e471cbab92d873eeba8."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -4756,7 +4777,7 @@
   },
   {
     "id": "PGN-NEW-0181",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -4797,8 +4818,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0181",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 6efa4eebd4c6cc4c0b612fa57a20611462136951513d2c8133e0db8d640c0758."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0181",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 6efa4eebd4c6cc4c0b612fa57a20611462136951513d2c8133e0db8d640c0758."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -4807,7 +4849,7 @@
   },
   {
     "id": "PGN-NEW-0182",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -4848,8 +4890,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0182",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: bc22edc691b51023c6f2d8bb5dd76b61972e845d039f95a90e4b83a501fc839a."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0182",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: bc22edc691b51023c6f2d8bb5dd76b61972e845d039f95a90e4b83a501fc839a."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -4858,7 +4921,7 @@
   },
   {
     "id": "PGN-NEW-0183",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -4899,8 +4962,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0183",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: ca66f9bdc4e59f38ae4c70bcefbcae66d9a01aa7d3e2606aebe947f26662b155."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0183",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: ca66f9bdc4e59f38ae4c70bcefbcae66d9a01aa7d3e2606aebe947f26662b155."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -4909,7 +4993,7 @@
   },
   {
     "id": "PGN-NEW-0184",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -4950,8 +5034,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0184",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 0d2b87dd0b4d300654b49906cd3477a7124ecab9979cfd2db75aacadaa45e420."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0184",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 0d2b87dd0b4d300654b49906cd3477a7124ecab9979cfd2db75aacadaa45e420."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -4960,37 +5065,37 @@
   },
   {
     "id": "PGN-NEW-0185",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
     "questionType": "technical_analysis",
     "difficulty": 2,
-    "stem": "Una exportación fue aceptada para procesarse en segundo plano, pero todavía no terminó. ¿Qué respuesta describe ese estado?",
+    "stem": "Una API recibe la orden de generar un informe pesado que se procesará después, y al responder aún no se sabe si terminará bien. ¿Qué respuesta HTTP describe ese estado?",
     "options": [
       {
         "id": "A",
-        "text": "201 Created garantiza que ya existe el archivo final.",
-        "rationale": "La exportación todavía no terminó."
+        "text": "200 OK: la solicitud terminó y la respuesta ya incluye el informe.",
+        "rationale": "200 informa un resultado ya obtenido; aquí el trabajo sigue pendiente."
       },
       {
         "id": "B",
-        "text": "204 No Content demuestra que el proceso no tiene errores futuros.",
-        "rationale": "Ese código no es garantía sobre un trabajo pendiente."
+        "text": "201 Created: el informe ya fue creado y tiene su propia dirección.",
+        "rationale": "201 indica que el recurso nuevo ya existe, pero el informe todavía no está generado."
       },
       {
         "id": "C",
-        "text": "403 Forbidden confirma que el trabajo se ejecutará.",
-        "rationale": "403 comunica rechazo, no aceptación."
+        "text": "204 No Content: la solicitud terminó y no hay nada que devolver.",
+        "rationale": "204 comunica una operación completada sin contenido, no un trabajo pendiente."
       },
       {
         "id": "D",
-        "text": "202 Accepted.",
-        "rationale": "202 confirma aceptación, no finalización exitosa del procesamiento. La aplicación debe ofrecer información apropiada sobre el seguimiento del trabajo."
+        "text": "202 Accepted: se aceptó la solicitud, pero aún no termina de procesarse.",
+        "rationale": "202 significa aceptada para procesarse sin que el procesamiento haya concluido, y no garantiza que termine con éxito. Conviene dar al cliente información para seguir el estado del trabajo."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "202 confirma aceptación, no finalización exitosa del procesamiento. La aplicación debe ofrecer información apropiada sobre el seguimiento del trabajo.",
+    "explanation": "202 significa aceptada para procesarse sin que el procesamiento haya concluido, y no garantiza que termine con éxito. Conviene dar al cliente información para seguir el estado del trabajo.",
     "references": [
       {
         "sourceId": "http-semantics-9110",
@@ -5001,8 +5106,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0185",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: c1d6a0c840fb52f9be8c415bc00fcdc2d91419e5f3c4001cecb32d2370d99c95."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0185",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: c1d6a0c840fb52f9be8c415bc00fcdc2d91419e5f3c4001cecb32d2370d99c95."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5011,7 +5137,7 @@
   },
   {
     "id": "PGN-NEW-0186",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -5052,8 +5178,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0186",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 7e7e78a669b7a589517a2f431270536ddce89ec7f1265a70a5c93b25180cf3d6."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0186",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 7e7e78a669b7a589517a2f431270536ddce89ec7f1265a70a5c93b25180cf3d6."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5062,7 +5209,7 @@
   },
   {
     "id": "PGN-NEW-0187",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -5103,8 +5250,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0187",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 40f1d84796841ee4ee6434ea4d13f2e5bb356c3801aac9d214aa5e95fb7b4cd5."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0187",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 40f1d84796841ee4ee6434ea4d13f2e5bb356c3801aac9d214aa5e95fb7b4cd5."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5113,7 +5281,7 @@
   },
   {
     "id": "PGN-NEW-0188",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -5154,8 +5322,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0188",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 619a6b063e0a73443cd29531965e27ddcd0e17811d5837ce6fef602f6d95742c."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0188",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 619a6b063e0a73443cd29531965e27ddcd0e17811d5837ce6fef602f6d95742c."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5164,7 +5353,7 @@
   },
   {
     "id": "PGN-NEW-0189",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -5205,8 +5394,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0189",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 56e74c2f8bbb01fa3f13b642e1aabd8fdb933005352af6fcef2ac142dd5a79ab."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0189",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 56e74c2f8bbb01fa3f13b642e1aabd8fdb933005352af6fcef2ac142dd5a79ab."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5215,7 +5425,7 @@
   },
   {
     "id": "PGN-NEW-0190",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -5256,8 +5466,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0190",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 0e6e32bf4d8235cca9820e177e7c0077429ceddb2f32d29fd72df971a93ec9f2."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0190",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 0e6e32bf4d8235cca9820e177e7c0077429ceddb2f32d29fd72df971a93ec9f2."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5266,7 +5497,7 @@
   },
   {
     "id": "PGN-NEW-0191",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
@@ -5307,8 +5538,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0191",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 0620ffae6d9de7a5e38a4456076a03b9d87e6ed58bd1ba298994abffa3e72a62."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0191",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 0620ffae6d9de7a5e38a4456076a03b9d87e6ed58bd1ba298994abffa3e72a62."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5317,49 +5569,70 @@
   },
   {
     "id": "PGN-NEW-0192",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
     "questionType": "technical_analysis",
     "difficulty": 2,
-    "stem": "Un cliente envía If-Match con un ETag antiguo para evitar sobrescribir cambios ajenos. La precondición falla. ¿Qué respuesta corresponde?",
+    "stem": "Un cliente envía una actualización con If-Match y el ETag de una versión antigua para no pisar cambios ajenos. En el servidor la condición se evalúa como falsa. ¿Qué estado HTTP corresponde?",
     "options": [
       {
         "id": "A",
-        "text": "Aplicar igual el cambio y devolver 200.",
-        "rationale": "Ignora la precondición de concurrencia."
+        "text": "200 OK: el servidor aplica el cambio y omite la condición.",
+        "rationale": "Ignoraría la precondición y permitiría una actualización perdida."
       },
       {
         "id": "B",
-        "text": "Crear otra identidad de usuario.",
-        "rationale": "No resuelve el conflicto de versión del recurso."
+        "text": "409 Conflict: la solicitud choca con el estado actual del recurso.",
+        "rationale": "409 señala un conflicto con el estado del recurso (RFC 9110, 15.5.10), pero una condición de If-Match evaluada como falsa tiene su propio estado, 412."
       },
       {
         "id": "C",
-        "text": "412 Precondition Failed.",
-        "rationale": "If-Match condiciona la modificación a la coincidencia del validador. Si no se cumple, 412 evita tratar como vigente una versión desactualizada; así se ayuda a prevenir actualizaciones perdidas."
+        "text": "412 Precondition Failed: la condición de la cabecera evaluó como falsa.",
+        "rationale": "Si la condición de If-Match evalúa como falsa, el servidor no debe ejecutar el método y puede indicar el fallo con 412, evitando sobrescribir una versión que cambió."
       },
       {
         "id": "D",
-        "text": "Borrar el recurso para que coincida.",
-        "rationale": "Destruirlo no satisface la precondición."
+        "text": "428 Precondition Required: el servidor exige que la petición sea condicional.",
+        "rationale": "Aquí el cliente sí envió una petición condicional y su condición falló; el estado que 9110 asocia a una condición evaluada como falsa es 412."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "If-Match condiciona la modificación a la coincidencia del validador. Si no se cumple, 412 evita tratar como vigente una versión desactualizada; así se ayuda a prevenir actualizaciones perdidas.",
+    "explanation": "Si la condición de If-Match evalúa como falsa, el servidor no debe ejecutar el método y puede indicar el fallo con 412 Precondition Failed. Así se evita sobrescribir una versión que cambió.",
     "references": [
       {
         "sourceId": "http-semantics-9110",
         "sourceUnitId": "study200-192",
-        "locator": "RFC 9110, 13.1.1 If-Match y 15.5.13",
+        "locator": "RFC 9110, 13.1.1 If-Match, 15.5.10 y 15.5.13",
         "supports": "correct_answer"
       }
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0192",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: ca2f0a9e67ec4cd88aca61e1170228fd7904e31b0f0603cbc703a8371f374a4b."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0192",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-current-new-192-193-201-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: ca2f0a9e67ec4cd88aca61e1170228fd7904e31b0f0603cbc703a8371f374a4b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5368,37 +5641,37 @@
   },
   {
     "id": "PGN-NEW-0193",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "software_e_interoperabilidad",
     "secondaryTopicIds": [],
     "questionType": "technical_analysis",
     "difficulty": 2,
-    "stem": "El servicio está temporalmente sobrecargado. ¿Qué combinación puede indicar indisponibilidad y cuándo volver a intentar?",
+    "stem": "Un servidor no puede atender solicitudes por una sobrecarga temporal de todo el servicio y quiere indicar cuándo conviene reintentar. ¿Qué respuesta corresponde?",
     "options": [
       {
         "id": "A",
-        "text": "201 Created con cualquier fecha.",
-        "rationale": "La creación no expresa indisponibilidad."
+        "text": "429 Too Many Requests con Retry-After: el cliente superó su cuota.",
+        "rationale": "El enunciado describe una sobrecarga de todo el servicio, no un límite aplicado a un cliente concreto; 503 expresa mejor esa indisponibilidad temporal."
       },
       {
         "id": "B",
-        "text": "204 No Content obligando reintentos infinitos.",
-        "rationale": "No es un error temporal ni justifica un bucle sin límites."
+        "text": "500 Internal Server Error con Retry-After: falló una operación interna.",
+        "rationale": "500 señala un fallo inesperado general y no expresa una indisponibilidad temporal con tiempo de espera."
       },
       {
         "id": "C",
-        "text": "403 Forbidden como garantía de recuperación inmediata.",
-        "rationale": "La prohibición no garantiza recuperación temporal."
+        "text": "504 Gateway Timeout con Retry-After: un intermediario no recibió respuesta a tiempo.",
+        "rationale": "504 describe un intermediario que esperó en vano a otro servidor, no un servicio que declara estar sobrecargado."
       },
       {
         "id": "D",
-        "text": "503 Service Unavailable con Retry-After.",
-        "rationale": "503 describe incapacidad temporal para atender, por sobrecarga o mantenimiento, y puede incluir Retry-After. El cliente debe respetar además su política de reintentos y la semántica del método."
+        "text": "503 Service Unavailable con Retry-After: el servicio no puede atender por ahora.",
+        "rationale": "503 describe la incapacidad temporal para atender, por sobrecarga o mantenimiento, y puede incluir Retry-After con el momento sugerido para reintentar. El cliente debe respetar además su política de reintentos y la semántica del método."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "503 describe incapacidad temporal para atender, por sobrecarga o mantenimiento, y puede incluir Retry-After. El cliente debe respetar además su política de reintentos y la semántica del método.",
+    "explanation": "503 describe la incapacidad temporal para atender, por sobrecarga o mantenimiento, y puede incluir Retry-After con el momento sugerido para reintentar. El cliente debe respetar además su política de reintentos y la semántica del método.",
     "references": [
       {
         "sourceId": "http-semantics-9110",
@@ -5409,8 +5682,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0193",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 20d3aa011596ce9119821ced08723512cbe2b08ecca4304dcd8d058661288a6b."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0193",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-current-new-192-193-201-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 20d3aa011596ce9119821ced08723512cbe2b08ecca4304dcd8d058661288a6b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5419,7 +5713,7 @@
   },
   {
     "id": "PGN-NEW-0194",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -5460,8 +5754,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0194",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 4f608a30c77512883f4ce17e39549b79cace549f24cbe39115b758e4405458eb."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0194",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 4f608a30c77512883f4ce17e39549b79cace549f24cbe39115b758e4405458eb."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5470,7 +5785,7 @@
   },
   {
     "id": "PGN-NEW-0195",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -5511,8 +5826,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0195",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 0022b81029de88f9b76f24ee2bc3a43ffec6fccfca758b515a1fa3bbab338e21."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0195",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 0022b81029de88f9b76f24ee2bc3a43ffec6fccfca758b515a1fa3bbab338e21."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5521,7 +5857,7 @@
   },
   {
     "id": "PGN-NEW-0196",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -5562,8 +5898,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0196",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 6338d640c07b42b5f70244f0d5664b719ec79a671f358573fa4b538e82dc17a7."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0196",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-03",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 6338d640c07b42b5f70244f0d5664b719ec79a671f358573fa4b538e82dc17a7."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5572,37 +5929,37 @@
   },
   {
     "id": "PGN-NEW-0197",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
     "questionType": "technical_analysis",
     "difficulty": 2,
-    "stem": "Un administrador aprovisiona capacidad mediante un portal sin intervención humana del proveedor en cada solicitud. ¿Qué característica esencial ilustra?",
+    "stem": "Un administrador crea almacenamiento adicional desde un portal y la solicitud se atiende sin que nadie del proveedor intervenga. ¿Qué característica esencial de NIST ilustra?",
     "options": [
       {
         "id": "A",
-        "text": "Intervención manual obligatoria en cada alta.",
-        "rationale": "Es lo contrario del autoservicio descrito."
+        "text": "Acceso amplio a la red.",
+        "rationale": "El portal es un canal de acceso por mecanismos estándar, pero esa característica no explica que no haya intervención humana del proveedor."
       },
       {
         "id": "B",
-        "text": "Gratuidad permanente.",
-        "rationale": "El autoservicio no elimina el cobro."
+        "text": "Agrupación de recursos.",
+        "rationale": "Describe cómo el proveedor sirve a varios consumidores desde un fondo común, no cómo se solicita la capacidad."
       },
       {
         "id": "C",
-        "text": "Prohibición de aumentar capacidad.",
-        "rationale": "No representa aprovisionamiento según necesidad."
+        "text": "Servicio medido.",
+        "rationale": "Describe el monitoreo y reporte del uso, no la obtención de capacidad por parte del consumidor."
       },
       {
         "id": "D",
         "text": "Autoservicio bajo demanda.",
-        "rationale": "El consumidor puede aprovisionar capacidades automáticamente según necesidad. Esto describe el mecanismo de obtención, no una promesa de costo nulo o capacidad ilimitada contractual."
+        "rationale": "El consumidor puede aprovisionar capacidades de forma unilateral y automática según lo necesite, sin interacción humana con el proveedor. Esto describe el mecanismo de obtención, no una promesa de costo nulo o capacidad contractual ilimitada."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "El consumidor puede aprovisionar capacidades automáticamente según necesidad. Esto describe el mecanismo de obtención, no una promesa de costo nulo o capacidad ilimitada contractual.",
+    "explanation": "El consumidor puede aprovisionar capacidades de forma unilateral y automática según lo necesite, sin interacción humana con el proveedor. Esto describe el mecanismo de obtención, no una promesa de costo nulo o capacidad contractual ilimitada.",
     "references": [
       {
         "sourceId": "nist-cloud-145",
@@ -5613,8 +5970,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0197",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 1f2e50f4af9d8a85dc4c6a01b3f125b3a107727c931692aa70509f6883f186b7."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0197",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 1f2e50f4af9d8a85dc4c6a01b3f125b3a107727c931692aa70509f6883f186b7."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5623,37 +6001,37 @@
   },
   {
     "id": "PGN-NEW-0198",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
     "questionType": "technical_analysis",
     "difficulty": 2,
-    "stem": "Un servicio de nube está disponible por mecanismos estándar desde estaciones y dispositivos móviles compatibles. ¿Qué característica representa?",
+    "stem": "Según NIST, ¿qué situación ilustra la característica de acceso amplio a la red?",
     "options": [
       {
         "id": "A",
-        "text": "Acceso amplio a la red.",
-        "rationale": "NIST describe acceso mediante mecanismos estándar que permiten uso desde plataformas heterogéneas. No significa acceso sin autenticación ni obligación de hacerlo público a cualquiera."
+        "text": "Un equipo usa el servicio desde portátil, teléfono y tableta mediante navegador o API estándar.",
+        "rationale": "NIST describe capacidades disponibles por la red y accesibles con mecanismos estándar desde plataformas de cliente heterogéneas, como teléfonos, tabletas y estaciones de trabajo."
       },
       {
         "id": "B",
-        "text": "Ausencia de controles de acceso.",
-        "rationale": "La amplitud de acceso no elimina la seguridad."
+        "text": "Un proveedor reasigna servidores físicos entre varios clientes según la demanda de cada uno.",
+        "rationale": "Es agrupación de recursos: se refiere a cómo el proveedor reparte su capacidad, no a cómo se accede al servicio."
       },
       {
         "id": "C",
-        "text": "Uso exclusivo desde una máquina fija del proveedor.",
-        "rationale": "Contradice las plataformas heterogéneas descritas."
+        "text": "Un proveedor entrega cada mes un reporte del almacenamiento y la transferencia consumidos.",
+        "rationale": "Es servicio medido: trata del monitoreo y reporte del uso, no del acceso por la red."
       },
       {
         "id": "D",
-        "text": "Eliminación de las comunicaciones de red.",
-        "rationale": "El servicio se accede precisamente por red."
+        "text": "Una carga de trabajo crece sola en horas pico y se reduce cuando baja la demanda.",
+        "rationale": "Es elasticidad rápida: trata del ajuste de capacidad, no del acceso desde distintos dispositivos."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "NIST describe acceso mediante mecanismos estándar que permiten uso desde plataformas heterogéneas. No significa acceso sin autenticación ni obligación de hacerlo público a cualquiera.",
+    "explanation": "NIST describe capacidades disponibles por la red y accesibles con mecanismos estándar desde plataformas de cliente heterogéneas, como teléfonos, tabletas y estaciones de trabajo.",
     "references": [
       {
         "sourceId": "nist-cloud-145",
@@ -5664,8 +6042,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0198",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: a9fee78c119586b78438efc63c08ffa11edd6a9ad8ce1548da786f5c227a97af."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0198",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-final-126-new-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: a9fee78c119586b78438efc63c08ffa11edd6a9ad8ce1548da786f5c227a97af."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5674,37 +6073,37 @@
   },
   {
     "id": "PGN-NEW-0199",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
     "questionType": "technical_analysis",
     "difficulty": 2,
-    "stem": "Un proveedor asigna dinámicamente recursos físicos y virtuales a varios consumidores según demanda. ¿Qué característica NIST es central?",
+    "stem": "Según NIST, ¿qué afirmación describe correctamente la agrupación de recursos (resource pooling)?",
     "options": [
       {
         "id": "A",
-        "text": "Elasticidad rápida.",
-        "rationale": "La elasticidad describe ampliar o reducir capacidad; la asignación desde un fondo común a varios consumidores es la agrupación."
+        "text": "El consumidor aprovisiona por su cuenta capacidad de cómputo, como tiempo de servidor, sin interacción humana con el proveedor.",
+        "rationale": "Describe el autoservicio bajo demanda, otra característica esencial; no explica cómo se comparten los recursos entre consumidores."
       },
       {
         "id": "B",
-        "text": "Agrupación de recursos.",
-        "rationale": "Resource pooling reúne capacidades para atender varios consumidores y reasignarlas. Compartir infraestructura no implica que los clientes deban poder leer los datos de otros."
+        "text": "Recursos compartidos se asignan y reasignan dinámicamente a varios consumidores.",
+        "rationale": "NIST describe un fondo de recursos que sirve a varios consumidores en un modelo multiinquilino, con asignación y reasignación dinámicas según la demanda. El consumidor suele no controlar ni conocer la ubicación exacta de los recursos, aunque a veces puede indicarla a un nivel más alto, como país, estado o centro de datos."
       },
       {
         "id": "C",
-        "text": "Autoservicio bajo demanda.",
-        "rationale": "Describe que el consumidor obtiene capacidades sin intervención del proveedor, no el fondo compartido."
+        "text": "Las capacidades se aprovisionan y se liberan, a veces de forma automática, para escalar con la demanda.",
+        "rationale": "Describe la elasticidad rápida: trata de ajustar la capacidad, no de compartir un fondo de recursos entre consumidores."
       },
       {
         "id": "D",
-        "text": "Servicio medido.",
-        "rationale": "Describe la medición del uso, no la asignación entre varios consumidores."
+        "text": "El uso de los recursos se monitorea, controla y reporta con transparencia para proveedor y consumidor.",
+        "rationale": "Describe el servicio medido: trata de la medición del uso, no de cómo se asignan los recursos compartidos."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "Resource pooling reúne capacidades para atender varios consumidores y reasignarlas. Compartir infraestructura no implica que los clientes deban poder leer los datos de otros.",
+    "explanation": "NIST describe un fondo de recursos que sirve a varios consumidores en un modelo multiinquilino, con asignación y reasignación dinámicas según la demanda. El consumidor suele no controlar ni conocer la ubicación exacta de los recursos, aunque a veces puede indicarla a un nivel más alto, como país, estado o centro de datos.",
     "references": [
       {
         "sourceId": "nist-cloud-145",
@@ -5715,8 +6114,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0199",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 90db81ecd8d721eb71cfb7ebbec7c68a02359d5de552f9191d4729c2916c0616."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0199",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 90db81ecd8d721eb71cfb7ebbec7c68a02359d5de552f9191d4729c2916c0616."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5725,37 +6145,37 @@
   },
   {
     "id": "PGN-NEW-0200",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
     "questionType": "technical_analysis",
     "difficulty": 2,
-    "stem": "Una aplicación aumenta capacidad ante demanda y la libera cuando baja. ¿Qué característica está aprovechando?",
+    "stem": "Una tienda en línea añade instancias durante una campaña de dos días y las libera al terminar. ¿Qué característica esencial de NIST describe mejor ese comportamiento?",
     "options": [
       {
         "id": "A",
-        "text": "Capacidad estática invariable.",
-        "rationale": "No se ajusta al cambio de demanda."
+        "text": "Agrupación de recursos: el proveedor sirve a varios consumidores desde un fondo compartido.",
+        "rationale": "Trata de cómo el proveedor comparte su capacidad entre consumidores, no de ampliarla en un pico y liberarla después."
       },
       {
         "id": "B",
-        "text": "Eliminación de toda medición.",
-        "rationale": "Ajustar capacidad no requiere dejar de medir."
+        "text": "Autoservicio bajo demanda: el consumidor obtiene capacidad de cómputo sin interacción humana con el proveedor.",
+        "rationale": "Trata de cómo se obtiene la capacidad por cuenta propia, no de escalarla hacia arriba o hacia abajo según la demanda."
       },
       {
         "id": "C",
-        "text": "Elasticidad rápida.",
-        "rationale": "La elasticidad permite aprovisionar y liberar capacidades para ajustarlas a demanda. No basta con tener un servidor grande que permanece fijo todo el año."
+        "text": "Elasticidad rápida: la capacidad se aprovisiona y se libera para escalar con la demanda.",
+        "rationale": "NIST indica que las capacidades pueden aprovisionarse y liberarse, en algunos casos de forma automática, para escalar de acuerdo con la demanda. Al consumidor, la capacidad disponible a menudo le parece ilimitada y obtenible en cualquier momento."
       },
       {
         "id": "D",
-        "text": "Duplicación obligatoria de datos personales.",
-        "rationale": "La elasticidad no define esa duplicación."
+        "text": "Servicio medido: el uso de los recursos se monitorea, controla y reporta.",
+        "rationale": "Trata de medir y reportar el uso, no de ajustar la capacidad a la demanda."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "La elasticidad permite aprovisionar y liberar capacidades para ajustarlas a demanda. No basta con tener un servidor grande que permanece fijo todo el año.",
+    "explanation": "NIST indica que las capacidades pueden aprovisionarse y liberarse, en algunos casos de forma automática, para escalar de acuerdo con la demanda. Al consumidor, la capacidad disponible a menudo le parece ilimitada y obtenible en cualquier momento.",
     "references": [
       {
         "sourceId": "nist-cloud-145",
@@ -5766,8 +6186,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0200",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 444a2f0c5db96f487313a3930d4278773c15bd93574c5d9fd28c68b251cf49e7."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0200",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 444a2f0c5db96f487313a3930d4278773c15bd93574c5d9fd28c68b251cf49e7."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5776,37 +6217,37 @@
   },
   {
     "id": "PGN-NEW-0201",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
     "questionType": "technical_analysis",
     "difficulty": 2,
-    "stem": "El proveedor mide consumo de almacenamiento y transferencia para informar el uso a cliente y operador. ¿Qué característica ilustra?",
+    "stem": "Un cliente consulta un panel que reporta cuánto almacenamiento y transferencia consumió su organización. ¿Qué función cumple esa medición según NIST?",
     "options": [
       {
         "id": "A",
-        "text": "Consumo imposible de observar.",
-        "rationale": "Es lo contrario de medir y reportar."
+        "text": "Reasignar recursos de un fondo común entre varios consumidores.",
+        "rationale": "Es la función de la agrupación de recursos, no de la medición del uso."
       },
       {
         "id": "B",
-        "text": "Precio necesariamente cero.",
-        "rationale": "La medición no implica gratuidad."
+        "text": "Permitir que el consumidor aprovisione capacidad sin intervención humana.",
+        "rationale": "Es la función del autoservicio bajo demanda, no de la medición del uso."
       },
       {
         "id": "C",
-        "text": "Eliminación de límites contractuales.",
-        "rationale": "Los reportes no anulan condiciones pactadas."
+        "text": "Escalar la capacidad hacia arriba o hacia abajo según la demanda.",
+        "rationale": "Es la función de la elasticidad rápida; la medición informa el uso, pero no ajusta por sí sola la capacidad."
       },
       {
         "id": "D",
-        "text": "Servicio medido.",
-        "rationale": "La medición permite controlar y reportar uso con transparencia para proveedor y consumidor. Puede apoyar modelos de cobro, pero no determina por sí sola una tarifa específica."
+        "text": "Monitorear, controlar y reportar el uso con transparencia a ambas partes.",
+        "rationale": "El servicio medido permite monitorear, controlar y reportar el uso de forma transparente para el proveedor y el consumidor."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La medición permite controlar y reportar uso con transparencia para proveedor y consumidor. Puede apoyar modelos de cobro, pero no determina por sí sola una tarifa específica.",
+    "explanation": "El servicio medido permite monitorear, controlar y reportar el uso de forma transparente para el proveedor y el consumidor.",
     "references": [
       {
         "sourceId": "nist-cloud-145",
@@ -5817,8 +6258,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0201",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-closure-126-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 1902b3f0624476228a0ae0354080b81fb3951f2c641618e709f9ff430b5631d6."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0201",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-current-new-192-193-201-2026-11-06",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 1902b3f0624476228a0ae0354080b81fb3951f2c641618e709f9ff430b5631d6."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5827,7 +6289,7 @@
   },
   {
     "id": "PGN-NEW-0202",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -5868,8 +6330,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0202",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: f65bfff1e2bf58abe3826269fd53f37dc528392c44156dd647c4cb4b0c6afeb8."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0202",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: f65bfff1e2bf58abe3826269fd53f37dc528392c44156dd647c4cb4b0c6afeb8."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5878,7 +6361,7 @@
   },
   {
     "id": "PGN-NEW-0203",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -5919,8 +6402,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0203",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: a6425b9f01264e60df7ade09bb5bf4f2f64ebd90741376279adedd8c9403fd01."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0203",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: a6425b9f01264e60df7ade09bb5bf4f2f64ebd90741376279adedd8c9403fd01."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5929,7 +6433,7 @@
   },
   {
     "id": "PGN-NEW-0204",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -5970,8 +6474,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0204",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: f7d7e61e2c5d66ef6f4d9f417e0a803a2bc7ee92df728a4a3976f219d5e1abe2."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0204",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: f7d7e61e2c5d66ef6f4d9f417e0a803a2bc7ee92df728a4a3976f219d5e1abe2."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -5980,7 +6505,7 @@
   },
   {
     "id": "PGN-NEW-0205",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -6021,8 +6546,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0205",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 7a993ac879c65cd44f7358b30dda12ca888b347d94dafef01ab80939bd31fd16."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0205",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 7a993ac879c65cd44f7358b30dda12ca888b347d94dafef01ab80939bd31fd16."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -6031,7 +6577,7 @@
   },
   {
     "id": "PGN-NEW-0206",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -6072,8 +6618,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0206",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: 833bc45a24cc39316eca6b6f853708c6f4b28680c82bf0328c35a71e1d55748a."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0206",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: 833bc45a24cc39316eca6b6f853708c6f4b28680c82bf0328c35a71e1d55748a."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",
@@ -6082,7 +6649,7 @@
   },
   {
     "id": "PGN-NEW-0207",
-    "status": "needs_review",
+    "status": "validated_assisted",
     "moduleId": "tecnico",
     "topicId": "infraestructura_nube_y_ciberseguridad",
     "secondaryTopicIds": [],
@@ -6123,8 +6690,29 @@
     ],
     "targetCallIds": [],
     "createdMethod": "ai_draft",
-    "reviews": [],
-    "validFrom": null,
+    "reviews": [
+      {
+        "id": "factual-126-2026-11-06-PGN-NEW-0207",
+        "kind": "factual",
+        "method": "ai_assisted",
+        "reviewerId": "factual-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión factual independiente de la versión actual. Huella del contenido: dd4a96887d98423e258f5ce2b396e639ff0d6220bdd42e3ddb9c8be431bcc09b."
+      },
+      {
+        "id": "editorial-126-2026-11-06-PGN-NEW-0207",
+        "kind": "editorial",
+        "method": "ai_assisted",
+        "reviewerId": "editorial-126-04",
+        "model": null,
+        "reviewedAt": "2026-11-07T03:52:25.825Z",
+        "outcome": "pass",
+        "notes": "Revisión editorial independiente de la versión actual. Huella del contenido: dd4a96887d98423e258f5ce2b396e639ff0d6220bdd42e3ddb9c8be431bcc09b."
+      }
+    ],
+    "validFrom": "2026-11-06",
     "tags": [
       "original-case",
       "study200",

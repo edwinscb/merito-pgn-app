@@ -677,7 +677,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía técnica gubernamental histórica; no se presenta como requisito normativo colombiano. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
+    "notes": "Guía técnica gubernamental histórica; no se presenta como requisito normativo colombiano. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "nist-acid",
@@ -697,7 +697,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Material técnico conceptual de 2012; se limita a la definición de atomicidad. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
+    "notes": "Material técnico conceptual de 2012; se limita a la definición de atomicidad. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "nist-sp800-123",
@@ -717,7 +717,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía de seguridad general de servidores: endurecimiento del sistema operativo, gestión de cuentas y privilegios, retiro de servicios innecesarios, aplicación de parches y registro de eventos. Incorporada para sustentar el tema sistemas_operativos del temario del cargo 3PU-15. Portada fechada en julio de 2008; 53 páginas."
+    "notes": "Guía de seguridad general de servidores: endurecimiento del sistema operativo, gestión de cuentas y privilegios, retiro de servicios innecesarios, aplicación de parches y registro de eventos. Incorporada para sustentar el tema sistemas_operativos del temario del cargo 3PU-15. Portada fechada en julio de 2008; 53 páginas. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "nist-sp800-40r4",
@@ -737,7 +737,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía de planificación de la gestión de parches en la empresa: mantenimiento preventivo y correctivo del software, ventanas de mantenimiento, priorización por riesgo y métricas. Incorporada para sustentar el tema soporte_y_mantenimiento del temario del cargo 3PU-15. Portada fechada en abril de 2022; 28 páginas."
+    "notes": "Guía de planificación de la gestión de parches en la empresa: mantenimiento preventivo y correctivo del software, ventanas de mantenimiento, priorización por riesgo y métricas. Incorporada para sustentar el tema soporte_y_mantenimiento del temario del cargo 3PU-15. Portada fechada en abril de 2022; 28 páginas. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "nist-least-privilege",
@@ -757,7 +757,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Definición técnica conceptual de mínimo privilegio. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
+    "notes": "Definición técnica conceptual de mínimo privilegio. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "ncsc-cloud-security",
@@ -777,7 +777,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía técnica oficial extranjera; no es norma PGN. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
+    "notes": "Guía técnica oficial extranjera; no es norma PGN. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "homeoffice-api",
@@ -797,7 +797,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Estándar técnico oficial extranjero para versionado, documentación y pruebas. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
+    "notes": "Estándar técnico oficial extranjero para versionado, documentación y pruebas. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "cisa-ransomware",
@@ -817,7 +817,7 @@
     "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Guía de respuesta a ransomware; la pregunta se limita a contención, evidencia y procedimiento. Revisión factual final de la pregunta asociada cotejada el 2026-09-07."
+    "notes": "Guía de respuesta a ransomware; la pregunta se limita a contención, evidencia y procedimiento. Revisión factual final de la pregunta asociada cotejada el 2026-09-07. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "decreto-815-2018",
@@ -1093,11 +1093,11 @@
     "incorporatedAt": "2026-09-10",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente."
+    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "excel-formulas",
@@ -1153,11 +1153,11 @@
     "incorporatedAt": "2026-09-10",
     "publishedAt": null,
     "version": null,
-    "validity": "unknown",
-    "status": "needs_review",
+    "validity": "effective",
+    "status": "verified",
     "redistribution": "internal_only",
     "public": false,
-    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente."
+    "notes": "Documentación primaria consultada para ejercicios originales. No constituye temario oficial PGN; pendiente de revisión editorial independiente. La revisión factual independiente del 2026-11-06 verificó el apartado citado por las preguntas técnicas del perfil 126-2026; el alcance es conceptual y no convierte esta fuente en normativa de la PGN."
   },
   {
     "id": "pgn-historical-guide",

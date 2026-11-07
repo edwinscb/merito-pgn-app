@@ -303,9 +303,9 @@
   {
     "id": "missouri-db-integrity-review-unit",
     "sourceId": "missouri-db-integrity",
-    "locator": "Database Management Systems – Integrity, página PDF 2, Compliance Detail",
-    "title": "Integridad referencial",
-    "content": "Las claves y restricciones referenciales mantienen relaciones válidas entre registros y evitan referencias huérfanas. La fuente es una guía técnica gubernamental histórica; no es una obligación normativa colombiana.",
+    "locator": "Database Management Systems - Integrity, páginas PDF 1 a 3: definición, Entity Integrity y Referential Integrity (Compliance Detail)",
+    "title": "Integridad de entidad e integridad referencial",
+    "content": "La integridad de entidad asegura que cada fila de una tabla tenga un identificador único que la distinga de otra; se impone con más frecuencia mediante una restricción de clave primaria (PK), que hace fallar la inserción de valores duplicados y no admite nulos. La integridad referencial mantiene sincronizadas las relaciones entre tablas: la clave foránea (FK) de la tabla hija solo puede aceptar valores que existan en la PK de la tabla padre, con el fin de evitar registros huérfanos, y la relación debe preservarse al insertar, actualizar o borrar (restringir, propagar en cascada o anular). La fuente es una guía técnica gubernamental histórica (aprobada en 2005); no es una obligación normativa colombiana y no afirma que una referencia válida garantice que el dato de negocio sea correcto.",
     "verificationStatus": "verified",
     "sourceHash": "bf4d88fe6673e473c7c288f273627f9df7d289ff1927431b02ddd496358ec17d",
     "topicIds": [
@@ -317,8 +317,8 @@
     "id": "nist-acid-review-unit",
     "sourceId": "nist-acid",
     "locator": "NIST, Common Tradeoffs Between Relational and NoSQL Approaches, página PDF 18",
-    "title": "Atomicidad transaccional",
-    "content": "Atomicidad significa tratar una transacción como una operación todo-o-nada: se completa el conjunto o se revierte. La unidad no afirma que toda plataforma implemente idénticas políticas de recuperación.",
+    "title": "Atomicidad y durabilidad transaccional (ACID)",
+    "content": "Una diapositiva de NIST (2012) indica que las implementaciones relacionales ofrecen garantías ACID: atomicidad (la transacción se trata como una operación todo-o-nada) y durabilidad (los resultados sobrevivirán a un mal funcionamiento posterior); también enumera consistencia y aislamiento. La fuente solo da estas definiciones breves: no define fronteras transaccionales ni mecanismos de recuperación, y no afirma que toda transacción vaya a ser aceptada ni que toda plataforma implemente idénticas políticas.",
     "verificationStatus": "verified",
     "sourceHash": "04fd1b744c9c970c6b3d32c51f5f1bd187587e8dd0069a69e41afe77f9d7b4ec",
     "topicIds": [
@@ -329,9 +329,9 @@
   {
     "id": "nist-least-privilege-review-unit",
     "sourceId": "nist-least-privilege",
-    "locator": "NIST glossary, definición least privilege",
+    "locator": "NIST CSRC glossary, definición least privilege (fuentes citadas: CNSSI 4009-2022 y NIST SP 800-12 Rev. 1)",
     "title": "Mínimo privilegio",
-    "content": "El mínimo privilegio asigna a una identidad únicamente los accesos necesarios para realizar sus tareas. La definición no impone por sí sola una duración temporal ni una tecnología de control específica.",
+    "content": "El mínimo privilegio es un principio de seguridad según el cual un sistema debe restringir los privilegios de acceso de los usuarios, o de los procesos que actúan en su nombre, al mínimo necesario para realizar las tareas asignadas. La definición no menciona cuentas de servicio, roles ni revocación al cambiar de funciones, y no impone una duración temporal ni una tecnología de control específica.",
     "verificationStatus": "verified",
     "sourceHash": "548f62d6e2ac52b04c7831731ece97bdebf3c984a266170d97b79865e13d2175",
     "topicIds": [
@@ -343,8 +343,8 @@
     "id": "ncsc-cloud-security-review-unit",
     "sourceId": "ncsc-cloud-security",
     "locator": "NCSC, Using a cloud platform securely, secciones Authenticate service identities, Apply access controls y Protect secrets carefully",
-    "title": "Protección de secretos e identidades de servicio",
-    "content": "Los secretos deben gestionarse con las capacidades de un almacén de secretos y las identidades de servicio deben limitarse mediante controles de acceso. Es una guía técnica extranjera y no norma PGN.",
+    "title": "Secretos, identidades de servicio y monitoreo anómalo en la nube",
+    "content": "NCSC recomienda evitar los secretos cuando sea posible (prefiriendo integraciones gestionadas) y, si hacen falta, usar el servicio de gestión de secretos del proveedor. Recomienda también una identidad de servicio distinta por componente o caso de uso, en lugar de cuentas de usuario, y controles de acceso granulares con mínimo privilegio. El monitoreo del acceso a secretos debe centrarse en actividad anómala, como un usuario que accede a un secreto que normalmente usa la automatización o una identidad que accede a muchos secretos distintos; la respuesta debe incluir cambiar el secreto e invalidar la versión anterior. Es una guía técnica extranjera y no norma PGN.",
     "verificationStatus": "verified",
     "sourceHash": "26e7c82ba349ae90d680157a34725c63c51584aefc377f765789b0115c7e7e6e",
     "topicIds": [
@@ -355,9 +355,9 @@
   {
     "id": "homeoffice-api-review-unit",
     "sourceId": "homeoffice-api",
-    "locator": "Home Office, Designing and Maintaining an API, requisitos You MUST include a form of versioning to your API, You MUST test your API y You MUST use an API Specification",
-    "title": "Versionado, contrato y pruebas de API",
-    "content": "Una API debe versionarse, documentar su contrato, probar integraciones, errores y respuestas, y comunicar los cambios incompatibles o las deprecaciones. La unidad no prescribe una estrategia concreta de versionado.",
+    "locator": "Home Office, SEGAS-00015 Designing and Maintaining an API (actualizado 14 oct 2024), requisitos You MUST include a form of versioning to your API, You MUST return appropriate status codes from each endpoint, You MUST test your API, You MUST consider scalability of your API y You MUST use an API Specification",
+    "title": "Versionado, códigos de estado, pruebas y especificación de API",
+    "content": "El estándar exige versionar la API (recomienda semver y considerar cómo se depreca una versión y cómo se comunica a los consumidores), devolver en cada endpoint el código de estado pertinente (por ejemplo, 403 si el usuario no tiene acceso), probar la API (pruebas de integración, comprobación de errores y códigos de estado, y pruebas de carga para confirmar que atiende el número de usuarios proyectado), considerar su escalabilidad y usar una especificación de API (por ejemplo, OpenAPI) para definir y documentar los endpoints. No prescribe una estrategia concreta de versionado, no detalla qué debe contener un aviso de deprecación y no trata la validación de tipos de datos del contrato.",
     "verificationStatus": "verified",
     "sourceHash": "b2aecf625d7e27b8511255b040356761c650256211d67061ecea287ba67d1689",
     "topicIds": [
@@ -368,9 +368,9 @@
   {
     "id": "cisa-ransomware-review-unit",
     "sourceId": "cisa-ransomware",
-    "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, Detection and Analysis y Reporting and Notification",
-    "title": "Contención, evidencia y respuesta ante ransomware",
-    "content": "Ante ransomware se determina el impacto, se aíslan sistemas cuando sea posible, se preserva evidencia volátil y se activa el procedimiento de respuesta. La prioridad operativa depende del plan institucional y del incidente.",
+    "locator": "CISA StopRansomware Guide, Part 2: Ransomware and Data Extortion Response Checklist, secciones Detection and Analysis, Reporting and Notification y Containment and Eradication",
+    "title": "Aislamiento, restauración, notificación y evidencia ante ransomware",
+    "content": "En Detection and Analysis, CISA indica determinar qué sistemas fueron afectados y aislarlos de inmediato (priorizando los críticos para la operación), aislar los sistemas de forma coordinada y usar canales fuera de banda, como llamadas telefónicas, para no alertar a los atacantes, y apagar los equipos solo si no es posible desconectarlos, pues eso pierde evidencia en memoria volátil. La restauración se prioriza según una lista predefinida de activos críticos (salud y seguridad, generación de ingresos u otros servicios críticos) y los sistemas de los que dependen. En Reporting and Notification, se siguen los requisitos de notificación del plan de respuesta y comunicaciones, se reporta a CISA, FBI o Servicio Secreto, y si hay brecha de datos se siguen los requisitos de notificación del plan (la Parte 1 remite a leyes estatales y a notificar a las personas afectadas cuando hay PII). En Containment and Eradication, se capturan imágenes y memoria y se preserva evidencia volátil, y se consulta a las fuerzas del orden federales, aunque sea posible mitigar, sobre descifradores que los investigadores hayan publicado. Es una guía de EE. UU.; la prioridad operativa y las obligaciones de notificación dependen del plan institucional y de la normativa aplicable, no de una norma PGN.",
     "verificationStatus": "verified",
     "sourceHash": "a71d1cee55d37a368c91d2c105e7f92586af00efdf83588ae7b588b16e3e8e15",
     "topicIds": [
@@ -1459,10 +1459,10 @@
   {
     "id": "study200-180",
     "sourceId": "http-semantics-9110",
-    "locator": "RFC 9110, 9.2.1 y 9.3.1",
+    "locator": "RFC 9110, 9.2.1 Safe Methods y 9.3.1 GET",
     "title": "Fundamento: RFC 9110, 9.2.1 y 9.3.1",
-    "content": "Síntesis de estudio, no transcripción: GET tiene semántica de lectura. Que el servidor registre logs no autoriza que el recurso solicitado borre expedientes como efecto pretendido de la consulta. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "content": "Síntesis de estudio, no transcripción: RFC 9110 considera seguros los métodos cuya semántica es esencialmente de solo lectura, de modo que el cliente no solicita ni espera un cambio de estado; GET es uno de ellos. Que el servidor añada registros de acceso no lo contradice, pero si un recurso está construido para ejecutar una acción insegura, como borrar mediante una URI del tipo page?do=delete, su propietario debe deshabilitarla cuando se acceda con un método seguro. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1475,7 +1475,7 @@
     "locator": "RFC 9110, 9.2.2 y 9.3.4",
     "title": "Fundamento: RFC 9110, 9.2.2 y 9.3.4",
     "content": "Síntesis de estudio, no transcripción: La idempotencia se refiere al efecto solicitado sobre el servidor, no a que todas las respuestas o los registros de auditoría sean idénticos. PUT permite esa semántica de reemplazo. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1488,7 +1488,7 @@
     "locator": "RFC 9110, 9.2.2 y 9.3.3",
     "title": "Fundamento: RFC 9110, 9.2.2 y 9.3.3",
     "content": "Síntesis de estudio, no transcripción: No debe suponerse que un POST se puede repetir sin efectos adicionales. Un mecanismo de idempotencia de la aplicación requiere un contrato explícito, no se deduce del método. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1501,7 +1501,7 @@
     "locator": "RFC 9110, 9.3.2 HEAD",
     "title": "Fundamento: RFC 9110, 9.3.2 HEAD",
     "content": "Síntesis de estudio, no transcripción: HEAD tiene semántica equivalente a GET salvo que el servidor no envía contenido en la respuesta. Es útil para consultar metadatos, con las salvedades de encabezados previstas por el RFC. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1514,7 +1514,7 @@
     "locator": "RFC 9110, 15.3.2, 201 Created",
     "title": "Fundamento: RFC 9110, 15.3.2, 201 Created",
     "content": "Síntesis de estudio, no transcripción: 201 indica que la solicitud produjo uno o más recursos nuevos. La URI principal puede identificarse mediante Location, según lo previsto por HTTP. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1526,8 +1526,8 @@
     "sourceId": "http-semantics-9110",
     "locator": "RFC 9110, 15.3.3, 202 Accepted",
     "title": "Fundamento: RFC 9110, 15.3.3, 202 Accepted",
-    "content": "Síntesis de estudio, no transcripción: 202 confirma aceptación, no finalización exitosa del procesamiento. La aplicación debe ofrecer información apropiada sobre el seguimiento del trabajo. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "content": "Síntesis de estudio, no transcripción: 202 indica que la solicitud fue aceptada para procesarse, pero el procesamiento no ha terminado; puede que luego no se ejecute, porque HTTP no reenvía el estado final de una operación asíncrona. La respuesta debería describir el estado actual de la solicitud y apuntar a un monitor de estado que estime cuándo se cumplirá. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1540,7 +1540,7 @@
     "locator": "RFC 9110, 15.3.5, 204 No Content",
     "title": "Fundamento: RFC 9110, 15.3.5, 204 No Content",
     "content": "Síntesis de estudio, no transcripción: 204 comunica cumplimiento satisfactorio sin contenido adicional de respuesta. Un cliente no debe intentar interpretar un cuerpo JSON inexistente por ese solo código. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1553,7 +1553,7 @@
     "locator": "RFC 9110, 15.5.1, 400 Bad Request",
     "title": "Fundamento: RFC 9110, 15.5.1, 400 Bad Request",
     "content": "Síntesis de estudio, no transcripción: 400 cubre errores percibidos del cliente, incluida sintaxis malformada. No describe una creación ni una indisponibilidad temporal del servidor. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1566,7 +1566,7 @@
     "locator": "RFC 9110, 15.5.2, 401 Unauthorized",
     "title": "Fundamento: RFC 9110, 15.5.2, 401 Unauthorized",
     "content": "Síntesis de estudio, no transcripción: 401 indica que faltan credenciales válidas y exige WWW-Authenticate con al menos un desafío aplicable. No es equivalente a una autorización concedida. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1579,7 +1579,7 @@
     "locator": "RFC 9110, 15.5.4, 403 Forbidden",
     "title": "Fundamento: RFC 9110, 15.5.4, 403 Forbidden",
     "content": "Síntesis de estudio, no transcripción: 403 expresa negativa a cumplir una solicitud entendida. Tener identidad autenticada no garantiza autorización; repetir las mismas credenciales no obliga a conceder acceso. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1592,7 +1592,7 @@
     "locator": "RFC 9110, 15.5.6, 405 Method Not Allowed",
     "title": "Fundamento: RFC 9110, 15.5.6, 405 Method Not Allowed",
     "content": "Síntesis de estudio, no transcripción: 405 se usa cuando el método es conocido pero no está permitido para ese recurso. El servidor debe generar Allow con los métodos actualmente admitidos. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1605,7 +1605,7 @@
     "locator": "RFC 9110, 15.5.10, 409 Conflict",
     "title": "Fundamento: RFC 9110, 15.5.10, 409 Conflict",
     "content": "Síntesis de estudio, no transcripción: 409 permite comunicar un conflicto con el estado actual e información para reconocer su causa. No significa necesariamente fallo de red ni inexistencia del recurso. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1615,10 +1615,10 @@
   {
     "id": "study200-192",
     "sourceId": "http-semantics-9110",
-    "locator": "RFC 9110, 13.1.1 If-Match y 15.5.13",
-    "title": "Fundamento: RFC 9110, 13.1.1 If-Match y 15.5.13",
-    "content": "Síntesis de estudio, no transcripción: If-Match condiciona la modificación a la coincidencia del validador. Si no se cumple, 412 evita tratar como vigente una versión desactualizada; así se ayuda a prevenir actualizaciones perdidas. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "locator": "RFC 9110, 13.1.1 If-Match y 15.5.13 412 Precondition Failed",
+    "title": "Fundamento: RFC 9110, 13.1.1 If-Match y 15.5.13 412 Precondition Failed",
+    "content": "Síntesis de estudio, no transcripción: If-Match se usa sobre todo con métodos que cambian estado para evitar sobrescrituras accidentales cuando varios agentes actúan en paralelo (problema de la actualización perdida). Si su condición evalúa como falsa, el servidor no debe ejecutar el método y puede indicar el fallo con 412 Precondition Failed; la RFC también admite una respuesta 2xx cuando el cambio ya parece aplicado. 412 permite al cliente imponer precondiciones y evitar que el método se aplique si el recurso está en un estado inesperado. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1628,10 +1628,10 @@
   {
     "id": "study200-193",
     "sourceId": "http-semantics-9110",
-    "locator": "RFC 9110, 15.6.4 y 10.2.3 Retry-After",
-    "title": "Fundamento: RFC 9110, 15.6.4 y 10.2.3 Retry-After",
-    "content": "Síntesis de estudio, no transcripción: 503 describe incapacidad temporal para atender, por sobrecarga o mantenimiento, y puede incluir Retry-After. El cliente debe respetar además su política de reintentos y la semántica del método. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "locator": "RFC 9110, 15.6.4 503 Service Unavailable, 10.2.3 Retry-After y 9.2.2 Idempotent Methods",
+    "title": "Fundamento: RFC 9110, 15.6.4 503 Service Unavailable, 10.2.3 Retry-After y 9.2.2 Idempotent Methods",
+    "content": "Síntesis de estudio, no transcripción: 503 indica que el servidor no puede atender la solicitud en ese momento por sobrecarga temporal o mantenimiento programado, situación que probablemente se alivie tras una demora. El servidor puede enviar Retry-After (fecha HTTP o segundos) para sugerir cuánto esperar; el uso de 503 no es obligatorio al sobrecargarse, pues algunos servidores simplemente rechazan la conexión. Además, un cliente no debería reintentar automáticamente un método no idempotente salvo que sepa que su semántica es idempotente o pueda detectar que la solicitud original no se aplicó. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "verificationStatus": "verified",
     "sourceHash": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
     "topicIds": [
       "software_e_interoperabilidad"
@@ -1644,7 +1644,7 @@
     "locator": "Sección 2, Service Models — IaaS",
     "title": "Fundamento: Sección 2, Service Models — IaaS",
     "content": "Síntesis de estudio, no transcripción: IaaS proporciona recursos de cómputo, almacenamiento y red sobre los que el consumidor despliega software, incluidos sistemas operativos. No equivale a recibir solamente una aplicación terminada. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "7b0c1a9fdfc67218b8ba2098f448c100c27070db91736b3c87fed63bfa21d418",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1657,7 +1657,7 @@
     "locator": "Sección 2, Service Models — PaaS",
     "title": "Fundamento: Sección 2, Service Models — PaaS",
     "content": "Síntesis de estudio, no transcripción: PaaS permite desplegar aplicaciones del consumidor sobre la plataforma del proveedor. El equipo controla su aplicación sin administrar la infraestructura subyacente. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "7b0c1a9fdfc67218b8ba2098f448c100c27070db91736b3c87fed63bfa21d418",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1670,7 +1670,7 @@
     "locator": "Sección 2, Service Models — SaaS",
     "title": "Fundamento: Sección 2, Service Models — SaaS",
     "content": "Síntesis de estudio, no transcripción: SaaS permite utilizar aplicaciones del proveedor ejecutadas en infraestructura de nube. El consumidor no administra esa infraestructura y su configuración está limitada al ámbito ofrecido. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "7b0c1a9fdfc67218b8ba2098f448c100c27070db91736b3c87fed63bfa21d418",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1680,10 +1680,10 @@
   {
     "id": "study200-197",
     "sourceId": "nist-cloud-145",
-    "locator": "Sección 2, Essential Characteristics — On-demand self-service",
+    "locator": "NIST SP 800-145, Sección 2, Essential Characteristics — On-demand self-service, página PDF 6",
     "title": "Fundamento: Sección 2, Essential Characteristics — On-demand self-service",
-    "content": "Síntesis de estudio, no transcripción: El consumidor puede aprovisionar capacidades automáticamente según necesidad. Esto describe el mecanismo de obtención, no una promesa de costo nulo o capacidad ilimitada contractual. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "content": "Síntesis de estudio, no transcripción: NIST define el autoservicio bajo demanda como la posibilidad de que el consumidor aprovisione unilateralmente capacidades de cómputo, como tiempo de servidor y almacenamiento en red, según las necesite y de forma automática, sin requerir interacción humana con cada proveedor de servicio. La definición describe el mecanismo de obtención; no trata costos ni límites contractuales de capacidad. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "verificationStatus": "verified",
     "sourceHash": "7b0c1a9fdfc67218b8ba2098f448c100c27070db91736b3c87fed63bfa21d418",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1693,10 +1693,10 @@
   {
     "id": "study200-198",
     "sourceId": "nist-cloud-145",
-    "locator": "Sección 2, Essential Characteristics — Broad network access",
+    "locator": "NIST SP 800-145, Sección 2, Essential Characteristics — Broad network access, página PDF 6",
     "title": "Fundamento: Sección 2, Essential Characteristics — Broad network access",
-    "content": "Síntesis de estudio, no transcripción: NIST describe acceso mediante mecanismos estándar que permiten uso desde plataformas heterogéneas. No significa acceso sin autenticación ni obligación de hacerlo público a cualquiera. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "content": "Síntesis de estudio, no transcripción: NIST define el acceso amplio a la red como capacidades disponibles por la red y accesibles mediante mecanismos estándar que promueven su uso desde plataformas cliente heterogéneas, ligeras o pesadas (por ejemplo, teléfonos móviles, tabletas, portátiles y estaciones de trabajo). La definición no trata la autenticación ni si el acceso debe ser público. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "verificationStatus": "verified",
     "sourceHash": "7b0c1a9fdfc67218b8ba2098f448c100c27070db91736b3c87fed63bfa21d418",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1706,10 +1706,10 @@
   {
     "id": "study200-199",
     "sourceId": "nist-cloud-145",
-    "locator": "Sección 2, Essential Characteristics — Resource pooling",
+    "locator": "NIST SP 800-145, Sección 2, Essential Characteristics — Resource pooling, página PDF 6",
     "title": "Fundamento: Sección 2, Essential Characteristics — Resource pooling",
-    "content": "Síntesis de estudio, no transcripción: Resource pooling reúne capacidades para atender varios consumidores y reasignarlas. Compartir infraestructura no implica que los clientes deban poder leer los datos de otros. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "content": "Síntesis de estudio, no transcripción: NIST define la agrupación de recursos como recursos del proveedor reunidos para atender a varios consumidores con un modelo multiinquilino, con recursos físicos y virtuales asignados y reasignados dinámicamente según la demanda. Hay cierta independencia de ubicación: el cliente suele no controlar ni conocer la ubicación exacta, aunque puede especificarla a un nivel más alto, como país, estado o centro de datos. La definición no trata el aislamiento de datos entre clientes. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "verificationStatus": "verified",
     "sourceHash": "7b0c1a9fdfc67218b8ba2098f448c100c27070db91736b3c87fed63bfa21d418",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1719,10 +1719,10 @@
   {
     "id": "study200-200",
     "sourceId": "nist-cloud-145",
-    "locator": "Sección 2, Essential Characteristics — Rapid elasticity",
+    "locator": "NIST SP 800-145, Sección 2, Essential Characteristics — Rapid elasticity, página PDF 6",
     "title": "Fundamento: Sección 2, Essential Characteristics — Rapid elasticity",
-    "content": "Síntesis de estudio, no transcripción: La elasticidad permite aprovisionar y liberar capacidades para ajustarlas a demanda. No basta con tener un servidor grande que permanece fijo todo el año. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "content": "Síntesis de estudio, no transcripción: NIST define la elasticidad rápida como la capacidad de aprovisionar y liberar capacidades elásticamente, en algunos casos de forma automática, para escalar hacia afuera y hacia adentro en proporción a la demanda. Para el consumidor, las capacidades disponibles suelen parecer ilimitadas y obtenibles en cualquier cantidad y momento. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "verificationStatus": "verified",
     "sourceHash": "7b0c1a9fdfc67218b8ba2098f448c100c27070db91736b3c87fed63bfa21d418",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1732,10 +1732,10 @@
   {
     "id": "study200-201",
     "sourceId": "nist-cloud-145",
-    "locator": "Sección 2, Essential Characteristics — Measured service",
+    "locator": "NIST SP 800-145, Sección 2, Essential Characteristics — Measured service, página PDF 6",
     "title": "Fundamento: Sección 2, Essential Characteristics — Measured service",
-    "content": "Síntesis de estudio, no transcripción: La medición permite controlar y reportar uso con transparencia para proveedor y consumidor. Puede apoyar modelos de cobro, pero no determina por sí sola una tarifa específica. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "content": "Síntesis de estudio, no transcripción: NIST define el servicio medido como el control y la optimización automáticos del uso de recursos mediante una capacidad de medición a un nivel de abstracción apropiado al tipo de servicio (por ejemplo, almacenamiento, procesamiento, ancho de banda y cuentas de usuario activas). El uso de recursos puede monitorearse, controlarse y reportarse, con transparencia para el proveedor y el consumidor. Una nota al pie indica que normalmente se hace con base en pago por uso; la definición no fija tarifas específicas. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "verificationStatus": "verified",
     "sourceHash": "7b0c1a9fdfc67218b8ba2098f448c100c27070db91736b3c87fed63bfa21d418",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1748,7 +1748,7 @@
     "locator": "Part 1, Ransomware and Data Extortion Preparation, Mitigation, and Prevention — backups",
     "title": "Fundamento: Part 1, Ransomware and Data Extortion Preparation, Mitigation, and Prevention — backups",
     "content": "Síntesis de estudio, no transcripción: CISA recomienda copias fuera de línea y protegidas. Si producción y todos los respaldos son modificables con el mismo acceso comprometido, un incidente puede alcanzar ambos. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "a71d1cee55d37a368c91d2c105e7f92586af00efdf83588ae7b588b16e3e8e15",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1761,7 +1761,7 @@
     "locator": "Part 1 — Maintain offline backups and regularly test backup availability and integrity",
     "title": "Fundamento: Part 1 — Maintain offline backups and regularly test backup availability and integrity",
     "content": "Síntesis de estudio, no transcripción: Un mensaje de tarea completada no prueba que la recuperación funcione. Las pruebas de restauración permiten descubrir copias incompletas, corruptas o procedimientos inviables. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "a71d1cee55d37a368c91d2c105e7f92586af00efdf83588ae7b588b16e3e8e15",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1774,7 +1774,7 @@
     "locator": "Part 1 — Patch operating systems, software, and firmware",
     "title": "Fundamento: Part 1 — Patch operating systems, software, and firmware",
     "content": "Síntesis de estudio, no transcripción: La guía recomienda mantener sistemas actualizados y priorizar vulnerabilidades explotadas y servicios expuestos. El control del cambio debe permitir verificar la corrección sin posponer indefinidamente el riesgo. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "a71d1cee55d37a368c91d2c105e7f92586af00efdf83588ae7b588b16e3e8e15",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1787,7 +1787,7 @@
     "locator": "Part 1 — Implement phishing-resistant multifactor authentication",
     "title": "Fundamento: Part 1 — Implement phishing-resistant multifactor authentication",
     "content": "Síntesis de estudio, no transcripción: Un factor adicional reduce dependencia de una contraseña robada; la resistencia al phishing fortalece la defensa ante captura o retransmisión de credenciales. No vuelve innecesarios los demás controles. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "a71d1cee55d37a368c91d2c105e7f92586af00efdf83588ae7b588b16e3e8e15",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1800,7 +1800,7 @@
     "locator": "Part 1 — Limit the use of remote desktop services",
     "title": "Fundamento: Part 1 — Limit the use of remote desktop services",
     "content": "Síntesis de estudio, no transcripción: Reducir servicios remotos expuestos limita vías de entrada. Cuando el acceso es necesario, debe protegerse y controlarse; cambiar únicamente el nombre del equipo no protege el servicio. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "a71d1cee55d37a368c91d2c105e7f92586af00efdf83588ae7b588b16e3e8e15",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -1813,7 +1813,7 @@
     "locator": "Part 1 — Employee awareness and training",
     "title": "Fundamento: Part 1 — Employee awareness and training",
     "content": "Síntesis de estudio, no transcripción: La sensibilización ayuda a reconocer y reportar intentos de phishing. Pedir desactivar protecciones es una señal de riesgo que debe evaluarse por canales autorizados, no ejecutarse por urgencia aparente. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
-    "verificationStatus": "pending_review",
+    "verificationStatus": "verified",
     "sourceHash": "a71d1cee55d37a368c91d2c105e7f92586af00efdf83588ae7b588b16e3e8e15",
     "topicIds": [
       "infraestructura_nube_y_ciberseguridad"
@@ -2140,7 +2140,7 @@
     "sourceId": "nist-sp800-40r4",
     "locator": "Sección 2.3.1, página PDF 12",
     "title": "Probar el parche reduce el riesgo operacional",
-    "content": "This is intended to reduce operational risk by identifying problems with a patch before placing it into production.",
+    "content": "Patch testing may be performed manually or through automated methods. This is intended to reduce operational risk by identifying problems with a patch before placing it into production.",
     "verificationStatus": "verified",
     "sourceHash": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
     "topicIds": [
