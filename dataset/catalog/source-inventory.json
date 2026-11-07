@@ -881,5 +881,53 @@
     "sha256": "6fe78edb4c74969860a0a211144f9b0197eafa54c49b19fe9c660c1e98dfcf3c",
     "incorporatedAt": "2026-09-10",
     "public": false
+  },
+  {
+    "id": "excel-operators-precedence",
+    "title": "Excel — Calculation operators and precedence",
+    "category": "official-technical-guidance",
+    "publisher": "Microsoft",
+    "authorityTier": "B",
+    "url": "https://support.microsoft.com/en-us/office/calculation-operators-and-precedence-in-excel-48be406d-4975-4d31-b2b8-7af9e0e2878a",
+    "sourcePath": null,
+    "targetPath": "dataset/raw/official/study-200/excel-operators-precedence.html",
+    "mimeType": "text/html",
+    "status": "needs_review",
+    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06 para respaldar ejercicios originales. No constituye temario oficial PGN; pendiente de revisión factual independiente.",
+    "sha256": "74541c62c52ff1078cad2456a317579d369036f75377d21c1190be6b41c67c33",
+    "incorporatedAt": "2026-11-06",
+    "public": false
+  },
+  {
+    "id": "excel-filter-data",
+    "title": "Excel — Filter data in a range or table",
+    "category": "official-technical-guidance",
+    "publisher": "Microsoft",
+    "authorityTier": "B",
+    "url": "https://support.microsoft.com/en-us/office/filter-data-in-a-range-or-table-01832226-31b5-4568-8806-38c37dcc180e",
+    "sourcePath": null,
+    "targetPath": "dataset/raw/official/study-200/excel-filter-data.html",
+    "mimeType": "text/html",
+    "status": "needs_review",
+    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06 para respaldar ejercicios originales. No constituye temario oficial PGN; pendiente de revisión factual independiente.",
+    "sha256": "407be100a9f7e822709b98ae1672ed09fa1c60022bc0105b9262ba68de130f34",
+    "incorporatedAt": "2026-11-06",
+    "public": false
+  },
+  {
+    "id": "excel-format-percentages",
+    "title": "Excel — Format numbers as percentages",
+    "category": "official-technical-guidance",
+    "publisher": "Microsoft",
+    "authorityTier": "B",
+    "url": "https://support.microsoft.com/en-GB/Excel/format-numbers-as-percentages-in-excel",
+    "sourcePath": null,
+    "targetPath": "dataset/raw/official/study-200/excel-format-percentages.html",
+    "mimeType": "text/html",
+    "status": "needs_review",
+    "notes": "Documentación primaria de Microsoft capturada el 2026-11-06 para respaldar ejercicios originales. No constituye temario oficial PGN; pendiente de revisión factual independiente.",
+    "sha256": "6c40436b67eb981aba14c9cc0fc53ce6ae6057108a448c89b0a90e3eae5b970a",
+    "incorporatedAt": "2026-11-06",
+    "public": false
   }
 ]

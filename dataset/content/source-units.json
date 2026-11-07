@@ -26,6 +26,84 @@
     "targetCallIds": []
   },
   {
+    "id": "law-1437-2011-art-3-num-2",
+    "sourceId": "law-1437-2011",
+    "locator": "Artículo 3, numeral 2, página PDF 2",
+    "title": "Principio de igualdad (CPACA, art. 3, numeral 2)",
+    "content": "En virtud del principio de igualdad, las autoridades darán el mismo trato y protección a las personas e instituciones que intervengan en las actuaciones bajo su conocimiento; serán objeto de trato y protección especial las personas que por su condición económica, física o mental se encuentren en circunstancias de debilidad manifiesta.",
+    "verificationStatus": "verified",
+    "sourceHash": "da12ad29f4014af5a835cb232bb68b7bdb8031adb40f5b05dda12815a10f42f7",
+    "topicIds": [
+      "gestion_publica_y_mipg"
+    ],
+    "targetCallIds": []
+  },
+  {
+    "id": "law-1437-2011-art-3-num-3",
+    "sourceId": "law-1437-2011",
+    "locator": "Artículo 3, numeral 3, página PDF 2",
+    "title": "Principio de imparcialidad (CPACA, art. 3, numeral 3)",
+    "content": "En virtud del principio de imparcialidad, las autoridades deben actuar teniendo en cuenta que la finalidad de los procedimientos consiste en asegurar y garantizar los derechos de todas las personas sin discriminación alguna y sin tener en consideración factores de afecto o de interés y, en general, cualquier clase de motivación subjetiva.",
+    "verificationStatus": "verified",
+    "sourceHash": "da12ad29f4014af5a835cb232bb68b7bdb8031adb40f5b05dda12815a10f42f7",
+    "topicIds": [
+      "gestion_publica_y_mipg"
+    ],
+    "targetCallIds": []
+  },
+  {
+    "id": "law-1437-2011-art-3-num-5",
+    "sourceId": "law-1437-2011",
+    "locator": "Artículo 3, numeral 5, página PDF 2",
+    "title": "Principio de moralidad (CPACA, art. 3, numeral 5)",
+    "content": "En virtud del principio de moralidad, todas las personas y los servidores públicos están obligados a actuar con rectitud, lealtad y honestidad en las actuaciones administrativas.",
+    "verificationStatus": "verified",
+    "sourceHash": "da12ad29f4014af5a835cb232bb68b7bdb8031adb40f5b05dda12815a10f42f7",
+    "topicIds": [
+      "gestion_publica_y_mipg"
+    ],
+    "targetCallIds": []
+  },
+  {
+    "id": "law-1437-2011-art-3-num-11",
+    "sourceId": "law-1437-2011",
+    "locator": "Artículo 3, numeral 11, página PDF 3",
+    "title": "Principio de eficacia (CPACA, art. 3, numeral 11)",
+    "content": "En virtud del principio de eficacia, las autoridades buscarán que los procedimientos logren su finalidad y, para el efecto, removerán de oficio los obstáculos puramente formales, evitarán decisiones inhibitorias, dilaciones o retardos y sanearán las irregularidades procedimentales que se presenten, en procura de la efectividad del derecho material objeto de la actuación administrativa.",
+    "verificationStatus": "verified",
+    "sourceHash": "da12ad29f4014af5a835cb232bb68b7bdb8031adb40f5b05dda12815a10f42f7",
+    "topicIds": [
+      "gestion_publica_y_mipg"
+    ],
+    "targetCallIds": []
+  },
+  {
+    "id": "law-1437-2011-art-3-num-12",
+    "sourceId": "law-1437-2011",
+    "locator": "Artículo 3, numeral 12, página PDF 3",
+    "title": "Principio de economía (CPACA, art. 3, numeral 12)",
+    "content": "En virtud del principio de economía, las autoridades deberán proceder con austeridad y eficiencia, optimizar el uso del tiempo y de los demás recursos, procurando el más alto nivel de calidad en sus actuaciones y la protección de los derechos de las personas.",
+    "verificationStatus": "verified",
+    "sourceHash": "da12ad29f4014af5a835cb232bb68b7bdb8031adb40f5b05dda12815a10f42f7",
+    "topicIds": [
+      "gestion_publica_y_mipg"
+    ],
+    "targetCallIds": []
+  },
+  {
+    "id": "law-1437-2011-art-3-num-13",
+    "sourceId": "law-1437-2011",
+    "locator": "Artículo 3, numeral 13, página PDF 3",
+    "title": "Principio de celeridad (CPACA, art. 3, numeral 13)",
+    "content": "En virtud del principio de celeridad, las autoridades impulsarán oficiosamente los procedimientos e incentivarán el uso de las tecnologías de la información y las comunicaciones, a efectos de que los procedimientos se adelanten con diligencia, dentro de los términos legales y sin dilaciones injustificadas.",
+    "verificationStatus": "verified",
+    "sourceHash": "da12ad29f4014af5a835cb232bb68b7bdb8031adb40f5b05dda12815a10f42f7",
+    "topicIds": [
+      "gestion_publica_y_mipg"
+    ],
+    "targetCallIds": []
+  },
+  {
     "id": "constitution-1991-art-275",
     "sourceId": "colombia-constitution-1991",
     "locator": "Artículo 275, página PDF 170",
@@ -43,7 +121,7 @@
     "sourceId": "decree-law-262-2000",
     "locator": "Artículo 23, página PDF 15",
     "title": "Funciones de las procuradurías delegadas",
-    "content": "El artículo agrupa funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante autoridades administrativas y judiciales.",
+    "content": "Las procuradurías delegadas ejercen funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante las autoridades administrativas y judiciales, conforme a la Constitución, las leyes y el título respectivo, cuando lo determine el Procurador General en virtud del artículo 7 del decreto. Los procuradores delegados dependen directamente del Procurador General.",
     "verificationStatus": "verified",
     "sourceHash": "1b83f75676ad3e097c6a1889064dd6964e4c55fa2f13ca446875b2083f94c949",
     "topicIds": [
@@ -111,6 +189,19 @@
     "locator": "Ley 1755 de 2015, artículos 13 a 16 y 21",
     "title": "Derecho de petición: contenido y competencia",
     "content": "Para tramitar una petición se identifica su contenido y modalidad, la autoridad competente y el traslado procedente cuando otra autoridad deba responder. El término depende de la modalidad legal aplicable.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "c20a5f37cc5e9ac99af675c25385e92ad31de3a5a4d746833e34612c042d795d",
+    "topicIds": [
+      "atencion_transparencia_y_datos"
+    ],
+    "targetCallIds": []
+  },
+  {
+    "id": "law-1755-2015-art-13-14",
+    "sourceId": "law-1755-2015",
+    "locator": "Ley 1755 de 2015, artículo 1 (que sustituye los artículos 13 y 14 de la Ley 1437 de 2011): artículos 13 y 14",
+    "title": "Derecho de petición: modalidades y términos para resolver",
+    "content": "El artículo 13 indica que mediante el derecho de petición se puede, entre otras actuaciones, requerir información, consultar, examinar y requerir copias de documentos y formular consultas; su ejercicio es gratuito y no exige representación a través de abogado. El artículo 14 establece, salvo norma legal especial, el término general de quince (15) días para resolver, y términos especiales de diez (10) días para peticiones de documentos y de información y de treinta (30) días para consultas.",
     "verificationStatus": "pending_review",
     "sourceHash": "c20a5f37cc5e9ac99af675c25385e92ad31de3a5a4d746833e34612c042d795d",
     "topicIds": [
@@ -458,9 +549,9 @@
   {
     "id": "study200-110",
     "sourceId": "law-1952-2019",
-    "locator": "Artículo 4, legalidad",
-    "title": "Fundamento: Artículo 4, legalidad",
-    "content": "Síntesis de estudio, no transcripción: La legalidad disciplinaria exige una conducta descrita como falta en la ley vigente al realizarse. La valoración moral posterior no crea por sí sola un tipo sancionable. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "locator": "Artículo 4, legalidad (Libro I, Título I)",
+    "title": "Ley 1952 de 2019, art. 4: legalidad",
+    "content": "Texto de la fuente: los destinatarios del código solo serán investigados y sancionados disciplinariamente por comportamientos que estén descritos como falta en la ley vigente al momento de su realización; la preexistencia también se predica de las normas complementarias.",
     "verificationStatus": "pending_review",
     "sourceHash": "31c054da5b939fc84f88d06eb31d1fb4297f8b5320c79253f73fc808d52ef00f",
     "topicIds": [
@@ -471,9 +562,9 @@
   {
     "id": "study200-111",
     "sourceId": "law-1952-2019",
-    "locator": "Artículo 8, favorabilidad",
-    "title": "Fundamento: Artículo 8, favorabilidad",
-    "content": "Síntesis de estudio, no transcripción: La norma permisiva o favorable, sustancial o procesal con efectos sustanciales, prevalece sobre la restrictiva o desfavorable, incluso si es posterior. No se trata de elegir siempre la norma más reciente. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "locator": "Artículo 8, favorabilidad (Libro I, Título I)",
+    "title": "Ley 1952 de 2019, art. 8: favorabilidad",
+    "content": "Texto de la fuente: en materia disciplinaria la ley permisiva o favorable, sustancial o procesal de efectos sustanciales, aun cuando sea posterior, se aplicará de preferencia a la restrictiva o desfavorable; el principio rige también para quien esté cumpliendo la sanción, salvo lo dispuesto en la Constitución Política.",
     "verificationStatus": "pending_review",
     "sourceHash": "31c054da5b939fc84f88d06eb31d1fb4297f8b5320c79253f73fc808d52ef00f",
     "topicIds": [
@@ -614,9 +705,9 @@
   {
     "id": "study200-122",
     "sourceId": "law-1952-2019",
-    "locator": "Artículo 20, congruencia",
-    "title": "Fundamento: Artículo 20, congruencia",
-    "content": "Síntesis de estudio, no transcripción: La decisión no puede atribuir responsabilidad por hechos o faltas ausentes del pliego, sin perjuicio de su variación conforme a derecho. El investigado debe poder defenderse de la imputación que se decide. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "locator": "Artículo 20, congruencia (Libro I, Título I); texto vigente por Ley 2094 de 2021, art. 72",
+    "title": "Ley 1952 de 2019, art. 20: congruencia",
+    "content": "Texto de la fuente: el disciplinado no podrá ser declarado responsable por hechos ni faltas disciplinarias que no consten en el auto de citación a audiencia y formulación de cargos, sin perjuicio de la posibilidad de su variación. La expresión «pliego de cargos» debe entenderse sustituida por esa denominación según el artículo 72 de la Ley 2094 de 2021.",
     "verificationStatus": "pending_review",
     "sourceHash": "31c054da5b939fc84f88d06eb31d1fb4297f8b5320c79253f73fc808d52ef00f",
     "topicIds": [
@@ -822,9 +913,9 @@
   {
     "id": "study200-138",
     "sourceId": "excel-formulas",
-    "locator": "Using references — mixed references",
-    "title": "Fundamento: Using references — mixed references",
-    "content": "Síntesis de estudio, no transcripción: B$1 conserva la fila 1 y permite cambiar la columna; $A2 conserva la columna A y permite cambiar la fila. Cada referencia fija un eje distinto. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "locator": "The difference between absolute, relative, and mixed references — Mixed references",
+    "title": "Fundamento: referencias mixtas",
+    "content": "Según la fuente, una referencia mixta tiene columna absoluta y fila relativa, o fila absoluta y columna relativa. La columna absoluta toma la forma $A1, $B1; la fila absoluta toma la forma A$1, B$1. Al copiar la fórmula, la parte con $ no se ajusta y la otra se ajusta según la posición de la celda.",
     "verificationStatus": "pending_review",
     "sourceHash": "9434f172e5a3416f9d075b054982d1c45110fc7180170d5801df6b6796b7526f",
     "topicIds": [
@@ -940,8 +1031,8 @@
     "id": "study200-147",
     "sourceId": "excel-basics",
     "locator": "Print your work",
-    "title": "Fundamento: Print your work",
-    "content": "Síntesis de estudio, no transcripción: La vista previa permite revisar el resultado paginado antes de gastar papel. Los ajustes de orientación, escala o área deben comprobarse allí. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "title": "Fundamento: imprimir el trabajo (vista previa)",
+    "content": "Según la fuente, al imprimir se pueden previsualizar las páginas con las flechas de página siguiente y anterior. Si no es satisfactoria la presentación, se pueden cambiar los márgenes de página o agregar saltos de página.",
     "verificationStatus": "pending_review",
     "sourceHash": "0b347737b5deae6d160cb76208167549c4b58af2a96a8780616ac1e83a518174",
     "topicIds": [
@@ -2133,5 +2224,83 @@
     "targetCallIds": [
       "126-2026"
     ]
+  },
+  {
+    "id": "excel-operators-precedence-order",
+    "sourceId": "excel-operators-precedence",
+    "locator": "Operator precedence; Use of parentheses",
+    "title": "Orden de las operaciones en una fórmula de Excel",
+    "content": "Si se combinan varios operadores, Excel realiza las operaciones en un orden específico: la multiplicación y la división preceden a la suma y la resta. Para cambiar el orden se encierra entre paréntesis la parte que debe calcularse primero. Ejemplo de la fuente: =5+2*3 da 11 y =(5+2)*3 da 21.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "74541c62c52ff1078cad2456a317579d369036f75377d21c1190be6b41c67c33",
+    "topicIds": [
+      "ofimatica_y_sistemas_de_gestion"
+    ],
+    "targetCallIds": []
+  },
+  {
+    "id": "excel-operators-precedence-comparison",
+    "sourceId": "excel-operators-precedence",
+    "locator": "Comparison operators",
+    "title": "Operadores de comparación",
+    "content": "Al comparar dos valores con los operadores =, >, <, >=, <= y <>, el resultado es un valor lógico, TRUE o FALSE. Ejemplo de la fuente: =A1>=B1 (mayor o igual que).",
+    "verificationStatus": "pending_review",
+    "sourceHash": "74541c62c52ff1078cad2456a317579d369036f75377d21c1190be6b41c67c33",
+    "topicIds": [
+      "ofimatica_y_sistemas_de_gestion"
+    ],
+    "targetCallIds": []
+  },
+  {
+    "id": "excel-operators-precedence-concatenation",
+    "sourceId": "excel-operators-precedence",
+    "locator": "Text concatenation operator",
+    "title": "Operador de concatenación de texto",
+    "content": "El ampersand (&) conecta, o concatena, dos valores para producir un valor de texto continuo. Ejemplo de la fuente: =\"North\"&\"wind\".",
+    "verificationStatus": "pending_review",
+    "sourceHash": "74541c62c52ff1078cad2456a317579d369036f75377d21c1190be6b41c67c33",
+    "topicIds": [
+      "ofimatica_y_sistemas_de_gestion"
+    ],
+    "targetCallIds": []
+  },
+  {
+    "id": "excel-operators-precedence-range",
+    "sourceId": "excel-operators-precedence",
+    "locator": "Reference operators — : (colon)",
+    "title": "Operador de rango",
+    "content": "Los dos puntos son el operador de rango: producen una referencia a todas las celdas entre dos referencias, incluidas las dos referencias. Ejemplo de la fuente: =SUM(B5:B15).",
+    "verificationStatus": "pending_review",
+    "sourceHash": "74541c62c52ff1078cad2456a317579d369036f75377d21c1190be6b41c67c33",
+    "topicIds": [
+      "ofimatica_y_sistemas_de_gestion"
+    ],
+    "targetCallIds": []
+  },
+  {
+    "id": "excel-filter-data-hide",
+    "sourceId": "excel-filter-data",
+    "locator": "Introducción; Clear a filter",
+    "title": "Filtrar oculta filas",
+    "content": "Los datos filtrados muestran solo las filas que cumplen los criterios especificados y ocultan las filas que no se desea mostrar. Se puede borrar el filtro para volver a mostrar todos los datos.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "407be100a9f7e822709b98ae1672ed09fa1c60022bc0105b9262ba68de130f34",
+    "topicIds": [
+      "ofimatica_y_sistemas_de_gestion"
+    ],
+    "targetCallIds": []
+  },
+  {
+    "id": "excel-format-percentages-display",
+    "sourceId": "excel-format-percentages",
+    "locator": "Introducción; Display numbers as percentages",
+    "title": "Formato de porcentaje",
+    "content": "Si una celda contiene la fórmula =10/100, el resultado es 0,1; si se da a 0,1 formato de porcentaje, el número se muestra como 10 %. Se puede restablecer el formato seleccionando General en la categoría.",
+    "verificationStatus": "pending_review",
+    "sourceHash": "6c40436b67eb981aba14c9cc0fc53ce6ae6057108a448c89b0a90e3eae5b970a",
+    "topicIds": [
+      "ofimatica_y_sistemas_de_gestion"
+    ],
+    "targetCallIds": []
   }
 ]
