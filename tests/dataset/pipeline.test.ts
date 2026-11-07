@@ -7,9 +7,9 @@ describe('pipeline con el dataset real', () => {
   it('conserva inventario, hashes y fuentes pendientes', async () => {
     const result = await validateRepositoryDataset()
     expect(result.issues).toEqual([])
-    expect(result.data?.sources).toHaveLength(59)
-    expect(result.data?.inventory).toHaveLength(59)
-    expect(result.data?.sourceUnits).toHaveLength(158)
+    expect(result.data?.sources).toHaveLength(62)
+    expect(result.data?.inventory).toHaveLength(62)
+    expect(result.data?.sourceUnits).toHaveLength(171)
     const pendientes = result.data?.sources.filter((source) => source.status === 'pending_download') ?? []
     expect(pendientes).toHaveLength(7)
     // El Manual de Funciones dejó de ser una referencia sin documento al
@@ -21,15 +21,15 @@ describe('pipeline con el dataset real', () => {
     expect(manual?.localPath).toBe('dataset/raw/official/normatividad/manual-funciones-v10-2026.pdf')
   })
 
-  it('mantiene fuera del banco las semillas con hallazgos pendientes', async () => {
+  it('mantiene fuera del banco las semillas con hallazgos pendientes y las provisionales', async () => {
     const result = await validateRepositoryDataset()
     expect(result.data?.questions).toHaveLength(247)
-    expect(result.data?.questions.filter((question) => question.status === 'validated_assisted')).toHaveLength(18)
-    expect(result.data?.questions.filter((question) => question.status === 'needs_review')).toHaveLength(229)
+    expect(result.data?.questions.filter((question) => question.status === 'validated_assisted')).toHaveLength(213)
+    expect(result.data?.questions.filter((question) => question.status === 'needs_review')).toHaveLength(34)
     const expansion = result.data?.questions.filter((question) => question.id.startsWith('PGN-EXP-')) ?? []
     expect(expansion).toHaveLength(84)
-    expect(expansion.filter((question) => question.status === 'validated_assisted')).toHaveLength(0)
-    expect(expansion.filter((question) => question.status === 'needs_review')).toHaveLength(84)
+    expect(expansion.filter((question) => question.status === 'validated_assisted')).toHaveLength(73)
+    expect(expansion.filter((question) => question.status === 'needs_review')).toHaveLength(11)
     expect(expansion.every((question) => question.options.length === 4)).toBe(true)
     expect(new Set(expansion.map((question) => question.stem)).size).toBe(expansion.length)
     const pilotCorrections = result.data?.questions.filter((question) => ['PGN-SEED-0006', 'PGN-SEED-0010', 'PGN-SEED-0021', 'PGN-SEED-0022', 'PGN-SEED-0023', 'PGN-SEED-0024', 'PGN-SEED-0025'].includes(question.id)) ?? []
@@ -40,7 +40,7 @@ describe('pipeline con el dataset real', () => {
     const first = buildQuestionBank(result.data?.questions ?? [])
     const second = buildQuestionBank(result.data?.questions ?? [])
     expect(first.schemaVersion).toBe(1)
-    expect(first.questions).toHaveLength(18)
+    expect(first.questions).toHaveLength(213)
     expect(first.questions.map((question) => question.id)).toEqual(expect.arrayContaining([
       'PGN-SEED-0001', 'PGN-SEED-0002', 'PGN-SEED-0003', 'PGN-SEED-0004',
       'PGN-SEED-0005', 'PGN-SEED-0007', 'PGN-SEED-0008', 'PGN-SEED-0009',
@@ -55,9 +55,9 @@ describe('pipeline con el dataset real', () => {
     const result = await validateRepositoryDataset()
     if (!result.data) throw new Error('El dataset de prueba debe ser válido.')
     const report = renderCoverageReport(result.data)
-    expect(report).toContain('| validated_assisted | 18 |')
+    expect(report).toContain('| validated_assisted | 213 |')
     expect(report).toContain('## Unidades por estado')
-    expect(report).toContain('| pending_review | 109 |')
+    expect(report).toContain('| pending_review | 32 |')
     expect(report).toContain('| C | 0 |')
     expect(report).toContain('| 121-2026 | 15 |')
     expect(report).toContain('| sin_convocatoria | 189 |')
