@@ -1,7 +1,7 @@
 # Dataset estructurado — Fases 1, 2 y 3
 
-Estado editorial: 18 preguntas revisadas y 229 pendientes. La aplicación usa un
-banco de estudio de 240: las 18 revisadas y 222 provisionales habilitadas por
+Estado editorial: 213 preguntas revisadas y 34 pendientes. La aplicación usa un
+banco de estudio de 240: las 213 revisadas y 27 provisionales habilitadas por
 el propietario. Esa habilitación no sustituye la doble revisión independiente.
 Las siete semillas con hallazgos factuales siguen excluidas.
 
@@ -133,11 +133,9 @@ localizadores vacíos, estados inválidos, opciones distintas de cuatro,
 opciones vacías o repetidas, claves inexistentes, referencias inválidas y
 preguntas publicables sin fuente oficial A o B verificada y vigente.
 
-`public/data/question-bank.json` contiene exclusivamente preguntas
-`validated_assisted`. Actualmente contiene 18 semillas aprobadas. Las 65
-promociones internas se retiraron por falta de independencia acreditada.
-El conjunto estructurado contiene 247 preguntas; las 229 restantes
-no llegan al artefacto exclusivamente revisado. Los informes
+`public/data/question-bank.json` contiene 213 preguntas `validated_assisted`:
+las 120 de General, las 89 técnicas aplicables a 126-2026 y cuatro técnicas de
+otros temas que ya estaban revisadas. Los informes
 independientes y sus límites están en `dataset/reports/phase2-factual-final.json`
 y `dataset/reports/phase2-editorial-final.json`.
 
@@ -153,8 +151,8 @@ Limitaciones vigentes:
 - cuatro fuentes tienen procedencia/contenido comprobados para el alcance
   puntual indicado en sus notas; esto no certifica todos sus artículos;
 - siete fuentes continúan pendientes de descarga;
-- 229 preguntas todavía no tienen revisión editorial suficiente; 222 están
-  habilitadas provisionalmente y siete semillas permanecen excluidas;
+- 34 preguntas permanecen en `needs_review`; 27 están habilitadas
+  provisionalmente y siete semillas permanecen excluidas;
 - la unidad del artículo 12 requiere completar el alcance del trámite;
 - la unidad del boletín se corrigió como resumen contextual y requiere nueva
   revisión; no respalda por sí sola una potestad general de gestionar riesgos;
@@ -171,8 +169,8 @@ Limitaciones vigentes:
   no crea un calendario espaciado ni usa servidores para el progreso.
 
 El frontend consume `public/data/study-bank.json`: 240 preguntas, 120 de General
-y 120 de Sistemas. `provisionalIds` y los estados editoriales distinguen las
-222 provisionales. El artefacto contiene etiquetas de temas y enlaces de fuentes,
+y 120 de Sistemas. `provisionalIds` identifica las 27 que aún no tienen doble
+revisión. El artefacto contiene etiquetas de temas y enlaces de fuentes,
 sin copiar documentos completos ni rutas locales de fuentes.
 
 `dataset/content/study-authorization.json` registra propietario, motivo e ID/hash
