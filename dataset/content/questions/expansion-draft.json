@@ -62,17 +62,17 @@
       {
         "id": "A",
         "text": "Clasificarla como una orden dirigida al ordenador del gasto de la entidad vigilada.",
-        "rationale": "La vigilancia preventiva no atribuye la ordenación del gasto."
+        "rationale": "Vigilar y advertir no es dar órdenes sobre la gestión de la entidad vigilada, porque la función preventiva no coadministra."
       },
       {
         "id": "B",
         "text": "Distinguir la advertencia preventiva del ejercicio de la función disciplinaria.",
-        "rationale": "La clasificación institucional diferencia prevención y disciplina."
+        "rationale": "La PGN presenta la prevención y la disciplina como funciones distintas; la advertencia pertenece a la primera."
       },
       {
         "id": "C",
-        "text": "Mantener el término, porque la advertencia tiene efectos obligatorios para la entidad.",
-        "rationale": "Advertir no equivale a sancionar ni impone obligaciones como lo haría una sanción."
+        "text": "Mantener el término, porque toda actuación de la PGN equivale a una sanción.",
+        "rationale": "La PGN ejerce funciones preventiva, de intervención y disciplinaria; no toda actuación suya es sancionatoria."
       },
       {
         "id": "D",
@@ -81,7 +81,7 @@
       }
     ],
     "correctOptionId": "B",
-    "explanation": "La clasificación institucional diferencia prevención y disciplina.",
+    "explanation": "La PGN ejerce funciones preventiva, de intervención y disciplinaria. En la preventiva vigila y advierte sin coadministrar, por lo que una advertencia no se denomina sanción: corresponde distinguirla de la función disciplinaria.",
     "references": [
       {
         "sourceId": "pgn-functions-general",
@@ -114,7 +114,7 @@
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": null,
     "tags": [
       "original-case",
       "bank100"
@@ -299,7 +299,7 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Dos solicitudes equivalentes reciben trato distinto solo porque una proviene de un conocido del funcionario. ¿Qué principio del artículo 209 se compromete más directamente por ese trato desigual?",
+    "stem": "Una entidad exige requisitos adicionales a un solicitante que no pide a otro, aunque ambos se encuentran en la misma situación. ¿Qué principio del artículo 209 se compromete más directamente?",
     "options": [
       {
         "id": "A",
@@ -323,12 +323,18 @@
       }
     ],
     "correctOptionId": "D",
-    "explanation": "El criterio personal introduce una diferencia de trato entre situaciones equivalentes.",
+    "explanation": "El principio de igualdad exige que las autoridades den el mismo trato y protección a quienes intervienen en la actuación (artículo 3, numeral 2, del CPACA). Exigir requisitos adicionales a uno de dos solicitantes en la misma situación rompe ese trato.",
     "references": [
       {
         "sourceId": "colombia-constitution-1991",
         "sourceUnitId": "constitution-1991-art-209",
         "locator": "Artículo 209, página PDF 135",
+        "supports": "correct_answer"
+      },
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-3-num-2",
+        "locator": "Artículo 3, numeral 2, página PDF 2",
         "supports": "correct_answer"
       }
     ],
@@ -373,12 +379,18 @@
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La eficacia atiende al logro del resultado perseguido.",
+    "explanation": "El principio de eficacia busca que los procedimientos logren su finalidad y que se remuevan los obstáculos puramente formales (artículo 3, numeral 11, del CPACA). Cumplir las formalidades sin producir el resultado perseguido es lo que ese principio lleva a examinar.",
     "references": [
       {
         "sourceId": "colombia-constitution-1991",
         "sourceUnitId": "constitution-1991-art-209",
         "locator": "Artículo 209, página PDF 135",
+        "supports": "correct_answer"
+      },
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-3-num-11",
+        "locator": "Artículo 3, numeral 11, página PDF 3",
         "supports": "correct_answer"
       }
     ],
@@ -423,12 +435,18 @@
       }
     ],
     "correctOptionId": "C",
-    "explanation": "La duplicación sin utilidad compromete el uso razonable de recursos.",
+    "explanation": "El principio de economía exige proceder con austeridad y eficiencia y optimizar el uso del tiempo y de los demás recursos (artículo 3, numeral 12, del CPACA). Repetir una verificación sin valor adicional consume recursos sin necesidad.",
     "references": [
       {
         "sourceId": "colombia-constitution-1991",
         "sourceUnitId": "constitution-1991-art-209",
         "locator": "Artículo 209, página PDF 135",
+        "supports": "correct_answer"
+      },
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-3-num-12",
+        "locator": "Artículo 3, numeral 12, página PDF 3",
         "supports": "correct_answer"
       }
     ],
@@ -463,8 +481,8 @@
       },
       {
         "id": "C",
-        "text": "Moralidad como requisito de rentabilidad financiera.",
-        "rationale": "Ese enunciado redefine incorrectamente un principio constitucional."
+        "text": "Moralidad.",
+        "rationale": "La moralidad exige rectitud, lealtad y honestidad; el caso se centra en la demora, no en la conducta del servidor."
       },
       {
         "id": "D",
@@ -473,13 +491,25 @@
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La demora injustificada afecta la prontitud de la actuación.",
+    "explanation": "El principio de celeridad exige impulsar los procedimientos con diligencia, dentro de los términos legales y sin dilaciones injustificadas (artículo 3, numeral 13, del CPACA). Un trámite inactivo por demoras injustificadas afecta esa prontitud.",
     "references": [
       {
         "sourceId": "colombia-constitution-1991",
         "sourceUnitId": "constitution-1991-art-209",
         "locator": "Artículo 209, página PDF 135",
         "supports": "correct_answer"
+      },
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-3-num-13",
+        "locator": "Artículo 3, numeral 13, página PDF 3",
+        "supports": "correct_answer"
+      },
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-3-num-5",
+        "locator": "Artículo 3, numeral 5, página PDF 2",
+        "supports": "provenance"
       }
     ],
     "targetCallIds": [],
@@ -599,31 +629,31 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Para la remisión del impedimento regulada en el artículo 12 del CPACA, ¿qué documento debe acompañar la actuación?",
+    "stem": "Un servidor se declara impedido en una actuación sujeta al CPACA, pero no tiene superior y tampoco existe cabeza de sector a quien remitirla. ¿Quién asume la competencia subsidiaria según el artículo 12?",
     "options": [
       {
         "id": "A",
-        "text": "Una nota que diga «no puedo continuar», sin razones.",
-        "rationale": "La mera negativa no satisface el carácter motivado."
+        "text": "El mismo servidor, que decide su impedimento después de suspender la actuación.",
+        "rationale": "El impedimento no lo resuelve quien se declara impedido; la competencia la asume la autoridad prevista en la norma."
       },
       {
         "id": "B",
-        "text": "La decisión final de fondo tomada por el impedido.",
-        "rationale": "Resolver el fondo no reemplaza el trámite del impedimento."
+        "text": "El jefe de control interno de la entidad donde ocurre el impedimento.",
+        "rationale": "El artículo 12 no atribuye esta competencia al control interno."
       },
       {
         "id": "C",
-        "text": "La autorización privada del interesado.",
-        "rationale": "No es el documento que exige la remisión descrita."
+        "text": "El Procurador General o el regional, según el caso.",
+        "rationale": "Ante la ausencia de superior y de cabeza de sector, el artículo 12 asigna la competencia subsidiaria al Procurador General o al regional."
       },
       {
         "id": "D",
-        "text": "Un escrito motivado.",
-        "rationale": "La remisión debe expresar las razones del impedimento."
+        "text": "La Contraloría General de la República, por ejercer control fiscal.",
+        "rationale": "El control fiscal no es el criterio que el artículo 12 usa para asignar esta competencia."
       }
     ],
-    "correctOptionId": "D",
-    "explanation": "La remisión debe expresar las razones del impedimento.",
+    "correctOptionId": "C",
+    "explanation": "El artículo 12 del CPACA prevé que el impedimento se remita al superior o, si no lo hay, a la cabeza del sector. Si faltan ambos, opera la competencia subsidiaria del Procurador General o del regional, según el caso.",
     "references": [
       {
         "sourceId": "law-1437-2011",
@@ -656,7 +686,7 @@
         "notes": "Escenario autosuficiente, una respuesta defendible y racionales específicos para las cuatro opciones."
       }
     ],
-    "validFrom": "2026-09-08",
+    "validFrom": null,
     "tags": [
       "original-case",
       "bank100"
@@ -962,36 +992,36 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Un sistema almacena documentos de distintas series en una carpeta única sin criterio archivístico. ¿Qué instrumento orienta su organización por clases documentales?",
+    "stem": "Un sistema almacena todos los documentos en una carpeta única, sin agruparlos por clases documentales. ¿Qué instrumento orienta esa organización?",
     "options": [
       {
         "id": "A",
-        "text": "La lista de contraseñas del servidor.",
-        "rationale": "Controlar credenciales no clasifica series documentales."
+        "text": "Las tablas de retención documental.",
+        "rationale": "Las TRD fijan plazos de conservación y eliminación, no la organización por clases documentales."
       },
       {
         "id": "B",
-        "text": "El inventario de licencias de software.",
-        "rationale": "Las licencias describen herramientas, no clases documentales."
+        "text": "Las tablas de valoración documental.",
+        "rationale": "Las TVD también establecen plazos de conservación y eliminación, no la estructura de clases."
       },
       {
         "id": "C",
-        "text": "El orden aleatorio de carga.",
-        "rationale": "La llegada aleatoria no sustituye la clasificación."
+        "text": "El cuadro de clasificación documental.",
+        "rationale": "El sistema organiza los documentos, con sus metadatos, mediante cuadros de clasificación documental."
       },
       {
         "id": "D",
-        "text": "El cuadro de clasificación documental.",
-        "rationale": "Organiza los documentos conforme a una estructura archivística."
+        "text": "Los metadatos asociados a cada documento.",
+        "rationale": "Los metadatos preservan contenido, estructura y contexto, pero la organización por clases la ordena el cuadro de clasificación."
       }
     ],
-    "correctOptionId": "D",
-    "explanation": "Organiza los documentos conforme a una estructura archivística.",
+    "correctOptionId": "C",
+    "explanation": "El sistema de gestión documental organiza los documentos, incluyendo sus metadatos, a través de cuadros de clasificación documental (artículo 2.8.2.6.1, literal a, del Decreto 1080 de 2015). Los plazos de conservación y eliminación se establecen en las TRD y TVD (literal b), que cumplen otra función.",
     "references": [
       {
         "sourceId": "decree-1080-2015-archives",
         "sourceUnitId": "decree-1080-2015-archives-review-unit",
-        "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+        "locator": "Decreto 1080 de 2015, artículo 2.8.2.6.1 literales a y b",
         "supports": "correct_answer"
       }
     ],
@@ -1283,35 +1313,35 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Una comunicación solicita copia de un documento y una respuesta a una consulta sobre una materia de competencia de la entidad. Antes de asignar términos, ¿qué análisis evita tratar ambas solicitudes como una sola modalidad?",
+    "stem": "Sin norma legal especial, una entidad recibe el mismo día una solicitud de copia de un documento y una consulta sobre una materia a su cargo. ¿Qué términos de respuesta corresponden?",
     "options": [
       {
         "id": "A",
-        "text": "Aplicar un término escogido por la longitud del correo.",
-        "rationale": "La extensión del escrito no determina la modalidad ni su término legal."
+        "text": "Quince días para ambas, por ser el término general.",
+        "rationale": "El término general de quince días aplica salvo los términos especiales previstos para documentos y consultas."
       },
       {
         "id": "B",
-        "text": "Clasificar ambas por el título «consulta» que trae el correo.",
-        "rationale": "El título no reemplaza el examen de lo realmente solicitado."
+        "text": "Treinta días para la copia y diez días para la consulta.",
+        "rationale": "Los términos están invertidos: la consulta tiene el término más largo."
       },
       {
         "id": "C",
-        "text": "Omitir la solicitud de copia porque acompaña a una consulta.",
-        "rationale": "Reunir dos solicitudes en un escrito no elimina la obligación de examinar cada una."
+        "text": "Diez días para ambas, por llegar en la misma comunicación.",
+        "rationale": "Llegar juntas no unifica el término; la consulta tiene un término especial distinto."
       },
       {
         "id": "D",
-        "text": "Identificar el contenido y la modalidad de cada solicitud.",
-        "rationale": "Distinguir la petición de copia de la consulta permite verificar la regla aplicable a cada componente."
+        "text": "Diez días para la copia y treinta días para la consulta.",
+        "rationale": "El artículo 14 fija diez días para peticiones de documentos y treinta para consultas."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La autoridad debe examinar lo solicitado: obtener una copia y formular una consulta son modalidades distintas del derecho de petición. Identificar cada componente permite verificar el término y trámite legal aplicable sin ignorar ninguna solicitud. El artículo 13 reconoce las modalidades y el artículo 14 distingue sus términos; el título o la longitud del correo no sustituyen ese análisis.",
+    "explanation": "El artículo 14 establece, salvo norma legal especial, un término general de quince días y términos especiales de diez días para peticiones de documentos y de información, y de treinta días para consultas. La copia y la consulta se resuelven cada una con su propio término.",
     "references": [
       {
         "sourceId": "law-1755-2015",
-        "sourceUnitId": "law-1755-2015-review-unit",
+        "sourceUnitId": "law-1755-2015-art-13-14",
         "locator": "Ley 1755 de 2015, artículos 13 y 14",
         "supports": "correct_answer"
       }
@@ -1354,31 +1384,31 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Un servidor niega acceso por protección de derechos del artículo 18 de la Ley 1712 mediante un «no» verbal sin razones. ¿Qué falta en la denegación?",
+    "stem": "Una solicitud recae sobre un documento cuya sección 3 está amparada por el artículo 18 de la Ley 1712 y cuyo resto es información pública. ¿Qué respuesta aplica a la vez las reglas de denegación y de acceso al resto?",
     "options": [
       {
         "id": "A",
-        "text": "La aprobación comercial del solicitante.",
-        "rationale": "No es el requisito descrito para fundamentar la negativa."
+        "text": "Entregar el resto en versión pública y comunicar de palabra que la sección 3 no puede mostrarse.",
+        "rationale": "La denegación por el artículo 18 debe ser motivada y escrita, no verbal."
       },
       {
         "id": "B",
-        "text": "Eliminar toda copia del documento.",
-        "rationale": "La forma de denegación no exige destruir el archivo."
+        "text": "Negar por escrito y con motivación todo el documento, incluida su parte pública.",
+        "rationale": "La información no exceptuada debe entregarse; solo se reserva la parte indispensable."
       },
       {
         "id": "C",
-        "text": "Una motivación escrita.",
-        "rationale": "La denegación amparada en el artículo 18 debe ser motivada y escrita."
+        "text": "Negar por escrito y con motivación la sección 3 y entregar el resto en versión pública.",
+        "rationale": "Combina la denegación motivada y escrita de la parte amparada con la entrega de la información no exceptuada."
       },
       {
         "id": "D",
-        "text": "Una afirmación de reserva sin identificar su fundamento.",
-        "rationale": "Repetir la palabra reserva no satisface la motivación."
+        "text": "Entregar una versión pública sin indicar que se omitió una parte ni por qué.",
+        "rationale": "La parte denegada requiere una decisión motivada y escrita; callar la omisión no la cumple."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "La denegación amparada en el artículo 18 debe ser motivada y escrita.",
+    "explanation": "Cuando un documento tiene una parte amparada por una excepción legal, se elabora una versión pública que reserve solo la parte indispensable y se entrega la información no exceptuada. La denegación por protección de derechos del artículo 18 debe ser motivada y escrita (Ley 1712 de 2014, artículos 18 y 21).",
     "references": [
       {
         "sourceId": "law-1712-2014",
@@ -1404,7 +1434,7 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Quien evalúa dos propuestas anuncia que favorecerá una por simpatía personal, aunque aún no ha revisado los criterios aplicables. ¿Qué principio del artículo 209 exige apartar esa preferencia de la evaluación?",
+    "stem": "Quien evalúa dos propuestas anuncia que favorecerá una por simpatía personal, aunque aún no ha revisado los criterios aplicables ni ha tratado a nadie de forma distinta. ¿Qué principio del artículo 209 exige apartar esa preferencia de la evaluación?",
     "options": [
       {
         "id": "A",
@@ -1414,26 +1444,32 @@
       {
         "id": "B",
         "text": "Publicidad.",
-        "rationale": "divulgar la preferencia no la vuelve imparcial."
+        "rationale": "Divulgar la preferencia no la vuelve imparcial; la publicidad atiende a la difusión de las actuaciones."
       },
       {
         "id": "C",
         "text": "Economía.",
-        "rationale": "el caso no se centra en recursos consumidos."
+        "rationale": "El caso no se centra en el uso de recursos, sino en el motivo de la decisión."
       },
       {
         "id": "D",
         "text": "Imparcialidad.",
-        "rationale": "la preferencia anticipada compromete una evaluación ajena a favoritismos."
+        "rationale": "La preferencia anticipada por simpatía es una motivación subjetiva que la imparcialidad exige excluir."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La decisión debe atender criterios pertinentes y no simpatías. El caso se centra en sesgo decisorio previo, distinto del trato desigual ya producido que evalúa EXP0031.",
+    "explanation": "La imparcialidad exige decidir sin considerar factores de afecto o de interés ni otra motivación subjetiva (artículo 3, numeral 3, del CPACA). Anunciar una preferencia por simpatía antes de revisar los criterios es una motivación subjetiva que debe apartarse de la evaluación.",
     "references": [
       {
         "sourceId": "colombia-constitution-1991",
         "sourceUnitId": "constitution-1991-art-209",
         "locator": "Artículo 209, página PDF 135",
+        "supports": "correct_answer"
+      },
+      {
+        "sourceId": "law-1437-2011",
+        "sourceUnitId": "law-1437-2011-art-3-num-3",
+        "locator": "Artículo 3, numeral 3, página PDF 2",
         "supports": "correct_answer"
       }
     ],
@@ -1804,31 +1840,31 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Se propone mejorar un indicador sin registrar su valor inicial. ¿Qué elemento falta para comparar con la situación de partida?",
+    "stem": "Al cierre del año, un equipo reporta que el tiempo de respuesta bajó a 8 días, pero la ficha del indicador no permite saber si eso es una mejora frente a lo que se medía antes. ¿Qué componente falta?",
     "options": [
       {
         "id": "A",
-        "text": "La periodicidad como valor inicial.",
-        "rationale": "La periodicidad indica cuándo medir, no cuánto se observó inicialmente."
+        "text": "La periodicidad con que se mide el indicador.",
+        "rationale": "La periodicidad indica cada cuánto se mide, pero no aporta el valor previo para comparar."
       },
       {
         "id": "B",
-        "text": "El responsable como resultado de referencia.",
-        "rationale": "Una persona responsable no representa un valor medido."
+        "text": "El responsable de producir el indicador.",
+        "rationale": "El responsable indica quién lo produce, pero no el valor de partida."
       },
       {
         "id": "C",
-        "text": "La línea base.",
-        "rationale": "La línea base fija la referencia inicial para el seguimiento."
+        "text": "La línea base registrada para el indicador.",
+        "rationale": "La línea base fija la referencia inicial con la cual se compara el avance."
       },
       {
         "id": "D",
-        "text": "La meta como sustituto de todo dato inicial.",
-        "rationale": "La meta expresa el resultado deseado, no la situación de partida."
+        "text": "La fuente de información de los datos.",
+        "rationale": "La fuente indica de dónde salen los datos, pero no cuál era la situación de partida."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "La línea base fija la referencia inicial para el seguimiento.",
+    "explanation": "La ficha de un indicador incluye la línea base, que es el valor de referencia desde el cual se mide el avance. Sin ella, un resultado de 8 días no permite saber si hubo mejora; la periodicidad, el responsable y la fuente describen otros aspectos de la ficha.",
     "references": [
       {
         "sourceId": "funcion-publica-indicators",
@@ -2004,31 +2040,31 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 2,
-    "stem": "Un indicador combina cifras semanales y anuales sin aclarar su periodo de seguimiento. ¿Qué componente debe fijarse para organizar la medición regular?",
+    "stem": "Un área reporta un indicador cada semana y otra cada año, porque la ficha no definió cada cuánto se mide. ¿Qué componente debe fijarse para que las mediciones sean regulares y comparables?",
     "options": [
       {
         "id": "A",
-        "text": "Una meta sin periodo.",
-        "rationale": "Una meta sin referencia temporal no ordena la frecuencia."
+        "text": "La unidad de medida con que se expresa.",
+        "rationale": "La unidad dice en qué se expresa el resultado, pero no cada cuánto se mide."
       },
       {
         "id": "B",
-        "text": "La inicial del nombre del indicador.",
-        "rationale": "La abreviatura no determina el intervalo de medición."
+        "text": "La fuente de donde se toman los datos.",
+        "rationale": "La fuente indica el origen de los datos, no la frecuencia de medición."
       },
       {
         "id": "C",
-        "text": "La cantidad de usuarios del tablero.",
-        "rationale": "Los usuarios no definen por sí mismos el periodo."
+        "text": "El responsable de reportar los resultados.",
+        "rationale": "El responsable indica quién reporta, pero no define el intervalo entre mediciones."
       },
       {
         "id": "D",
-        "text": "La periodicidad.",
+        "text": "La periodicidad con que se mide.",
         "rationale": "La periodicidad establece la frecuencia con que debe producirse la medición."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La periodicidad establece la frecuencia con que debe producirse la medición.",
+    "explanation": "La periodicidad es el componente de la ficha que define la frecuencia con que se mide el indicador. Fijarla permite que todas las áreas reporten con el mismo intervalo y que los resultados sean comparables; la unidad, la fuente y el responsable cubren otros aspectos.",
     "references": [
       {
         "sourceId": "funcion-publica-indicators",

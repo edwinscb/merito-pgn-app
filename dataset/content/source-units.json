@@ -887,9 +887,9 @@
   {
     "id": "study200-136",
     "sourceId": "excel-formulas",
-    "locator": "Using references in Excel formulas — relative references",
-    "title": "Fundamento: Using references in Excel formulas — relative references",
-    "content": "Síntesis de estudio, no transcripción: Las referencias relativas conservan el desplazamiento respecto de la celda de la fórmula. Al bajar una fila cambian las filas referidas, no las columnas. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "locator": "The difference between absolute, relative, and mixed references — Relative references; Absolute references",
+    "title": "Fundamento: referencias relativas y absolutas",
+    "content": "Según la fuente, una referencia relativa cambia con la posición de la celda que contiene la fórmula: si se copia o rellena hacia abajo, se ajusta automáticamente (de =A1 a =A2 al copiar de B2 a B3). Una referencia absoluta, como $A$1, siempre apunta a una ubicación específica y no se ajusta al copiar o rellenar (permanece =$A$1 al pasar de B2 a B3).",
     "verificationStatus": "pending_review",
     "sourceHash": "9434f172e5a3416f9d075b054982d1c45110fc7180170d5801df6b6796b7526f",
     "topicIds": [
@@ -1032,7 +1032,7 @@
     "sourceId": "excel-basics",
     "locator": "Print your work",
     "title": "Fundamento: imprimir el trabajo (vista previa)",
-    "content": "Según la fuente, al imprimir se pueden previsualizar las páginas con las flechas de página siguiente y anterior. Si no es satisfactoria la presentación, se pueden cambiar los márgenes de página o agregar saltos de página.",
+    "content": "Según la fuente, al imprimir se pueden previsualizar las páginas con las flechas de página siguiente y anterior. Si no es satisfactoria la presentación, se pueden cambiar los márgenes de página o agregar saltos de página. La fuente no describe la detección de columnas cortadas ni de páginas innecesarias.",
     "verificationStatus": "pending_review",
     "sourceHash": "0b347737b5deae6d160cb76208167549c4b58af2a96a8780616ac1e83a518174",
     "topicIds": [
@@ -1173,9 +1173,9 @@
   {
     "id": "study200-158",
     "sourceId": "law-1755-2015",
-    "locator": "Artículo 13, gratuidad y ausencia de representación obligatoria",
-    "title": "Fundamento: Artículo 13, gratuidad y ausencia de representación obligatoria",
-    "content": "Síntesis de estudio, no transcripción: El artículo 13 permite ejercer directamente el derecho. La ausencia de apoderado no justifica rechazar una petición que la persona puede presentar por sí misma. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "locator": "Ley 1755 de 2015, artículo 13 (sustituye el artículo 13 de la Ley 1437 de 2011): actuaciones que implican el derecho de petición y gratuidad",
+    "title": "Ley 1755 de 2015, art. 13: toda actuación implica derecho de petición",
+    "content": "Texto de la fuente: toda actuación que inicie cualquier persona ante las autoridades implica el ejercicio del derecho de petición consagrado en el artículo 23 de la Constitución Política, sin que sea necesario invocarlo. Mediante él se puede, entre otras actuaciones, requerir información, consultar, examinar y requerir copias de documentos. El ejercicio del derecho de petición es gratuito y puede realizarse sin necesidad de representación a través de abogado.",
     "verificationStatus": "pending_review",
     "sourceHash": "c20a5f37cc5e9ac99af675c25385e92ad31de3a5a4d746833e34612c042d795d",
     "topicIds": [
@@ -1186,9 +1186,9 @@
   {
     "id": "study200-159",
     "sourceId": "law-1755-2015",
-    "locator": "Artículo 15, presentación y radicación",
-    "title": "Fundamento: Artículo 15, presentación y radicación",
-    "content": "Síntesis de estudio, no transcripción: La autoridad no puede negarse a recibir y radicar peticiones respetuosas por no usar un formato propio. Los mecanismos de estandarización no deben impedir el derecho. Alcance: concepto de la fuente citada, aplicado a un caso didáctico original. Pendiente de revisión independiente.",
+    "locator": "Ley 1755 de 2015, artículo 15 (sustituye el artículo 15 de la Ley 1437 de 2011): peticiones verbales, constancia y radicación",
+    "title": "Ley 1755 de 2015, art. 15: peticiones verbales y constancia",
+    "content": "Texto de la fuente: las peticiones podrán presentarse verbalmente, y deberá quedar constancia de ellas, o por escrito y a través de cualquier medio idóneo. Si quien presenta una petición verbal pide constancia de haberla presentado, el funcionario la expedirá en forma sucinta. El parágrafo 2 dispone que ninguna autoridad podrá negarse a la recepción y radicación de solicitudes y peticiones respetuosas.",
     "verificationStatus": "pending_review",
     "sourceHash": "c20a5f37cc5e9ac99af675c25385e92ad31de3a5a4d746833e34612c042d795d",
     "topicIds": [

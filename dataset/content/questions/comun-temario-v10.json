@@ -111,7 +111,7 @@
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 3,
-    "stem": "El artículo 23 del Decreto Ley 262 de 2000 agrupa las funciones de la Procuraduría General de la Nación. ¿Cuáles son esos grupos?",
+    "stem": "El artículo 23 del Decreto Ley 262 de 2000 agrupa las funciones de las procuradurías delegadas. ¿Cuáles son esos grupos?",
     "options": [
       {
         "id": "A",
@@ -126,7 +126,7 @@
       {
         "id": "C",
         "text": "Preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos, y de intervención ante autoridades administrativas y judiciales.",
-        "rationale": "El artículo agrupa funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante autoridades administrativas y judiciales."
+        "rationale": "Es el listado del artículo 23 para las procuradurías delegadas: funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante las autoridades administrativas y judiciales."
       },
       {
         "id": "D",
@@ -135,7 +135,7 @@
       }
     ],
     "correctOptionId": "C",
-    "explanation": "El artículo agrupa funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante autoridades administrativas y judiciales.",
+    "explanation": "El artículo 23 señala que las procuradurías delegadas ejercen funciones preventivas y de control de gestión, disciplinarias, de protección y defensa de los derechos humanos y de intervención ante las autoridades administrativas y judiciales.",
     "references": [
       {
         "sourceId": "decree-law-262-2000",
@@ -163,36 +163,36 @@
     "secondaryTopicIds": [],
     "questionType": "application",
     "difficulty": 3,
-    "stem": "Una dependencia de la Procuraduría advierte a una alcaldía sobre un riesgo en un trámite en curso. Según el alcance de la función preventiva, ¿cómo debe actuar?",
+    "stem": "Una dependencia de la Procuraduría detecta un riesgo en un trámite en curso de una alcaldía. Según el alcance de la función preventiva, ¿cómo debe actuar frente a la alcaldía?",
     "options": [
       {
         "id": "A",
-        "text": "Asumiendo la decisión administrativa que corresponde a la alcaldía para evitar el riesgo.",
-        "rationale": "Tomar la decisión en lugar de la entidad vigilada sería coadministrar, y la función preventiva no lo permite."
+        "text": "Decidiendo en lugar de la alcaldía el asunto en riesgo, para evitar que el daño se consolide.",
+        "rationale": "Tomar la decisión que corresponde a la entidad vigilada sería coadministrar, y la función preventiva se ejerce sin coadministración ni intromisión en la gestión."
       },
       {
         "id": "B",
-        "text": "Imponiendo de inmediato una sanción disciplinaria a los responsables.",
-        "rationale": "La sanción pertenece a la función disciplinaria y exige su propio procedimiento; no se deriva de una advertencia preventiva."
+        "text": "Iniciando de inmediato una investigación disciplinaria contra los servidores a cargo del trámite.",
+        "rationale": "La investigación pertenece a la función disciplinaria, que es distinta de la preventiva; esta última busca prevenir antes que sancionar."
       },
       {
         "id": "C",
-        "text": "Suspendiendo el trámite hasta que la entidad corrija el riesgo.",
-        "rationale": "Suspender el trámite sustituiría la voluntad de la administración, lo que excede el alcance de la función preventiva."
+        "text": "Reservando la advertencia hasta que el trámite concluya para evaluar después su legalidad.",
+        "rationale": "La función preventiva busca prevenir antes que sancionar; esperar a que el trámite concluya le quitaría su sentido de advertencia oportuna."
       },
       {
         "id": "D",
-        "text": "Vigilando y advirtiendo, sin coadministrar.",
-        "rationale": "En ejercicio de la función preventiva la Procuraduría vigila y advierte, sin coadministrar."
+        "text": "Vigilando la actuación de la alcaldía y advirtiendo el riesgo, sin coadministrar ni sustituirla.",
+        "rationale": "En la función preventiva la Procuraduría vigila y advierte, sin que ello implique coadministración o intromisión en la gestión de las entidades."
       }
     ],
     "correctOptionId": "D",
-    "explanation": "En ejercicio de la función preventiva la Procuraduría vigila y advierte, sin coadministrar.",
+    "explanation": "En ejercicio de la función preventiva la Procuraduría vigila y advierte sobre los riesgos, sin que ello implique coadministración o intromisión en la gestión de la entidad vigilada.",
     "references": [
       {
         "sourceId": "pgn-functions-general",
         "sourceUnitId": "pgn-functions-general-review-unit",
-        "locator": "Sección «Conozca la entidad», apartados Funciones misionales principales y Función Preventiva",
+        "locator": "Sección «Objetivos y funciones», apartados Funciones misionales principales y Función Preventiva",
         "supports": "correct_answer"
       }
     ],
@@ -213,33 +213,33 @@
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
-    "questionType": "interpretation",
-    "difficulty": 4,
-    "stem": "Al hacer seguimiento al cumplimiento de una ley, la Procuraduría reiteró los límites de su función preventiva. ¿Qué queda excluido de esa función?",
+    "questionType": "application",
+    "difficulty": 3,
+    "stem": "Una alcaldía considera que el seguimiento de la Procuraduría al cumplimiento de una ley ya implica un juicio sobre la responsabilidad de sus funcionarios. Según el boletín 107 de 2026, ¿qué precisión corresponde?",
     "options": [
       {
         "id": "A",
-        "text": "La coadministración, el prejuzgamiento y el ejercicio de control disciplinario.",
-        "rationale": "La Procuraduría reiteró que la función preventiva no implica coadministración, prejuzgamiento ni ejercicio de control disciplinario."
+        "text": "Que la actuación preventiva no implica prejuzgamiento ni ejercicio de control disciplinario.",
+        "rationale": "El boletín reitera que la actuación se desarrolla en el marco de la función preventiva, sin que implique coadministración, prejuzgamiento o ejercicio de control disciplinario."
       },
       {
         "id": "B",
-        "text": "La vigilancia del cumplimiento de la ley y el seguimiento a las entidades obligadas.",
-        "rationale": "Vigilar y hacer seguimiento son propios de la función preventiva, no exclusiones."
+        "text": "Que el seguimiento equivale a la apertura formal de una investigación disciplinaria contra los funcionarios.",
+        "rationale": "Contradice el boletín: la actuación preventiva no implica el ejercicio de control disciplinario."
       },
       {
         "id": "C",
-        "text": "La formulación de advertencias a las entidades vigiladas.",
-        "rationale": "Advertir es una actuación característica de la función preventiva."
+        "text": "Que el seguimiento anticipa una decisión de responsabilidad, aunque todavía no la declare formalmente.",
+        "rationale": "Contradice el boletín: la actuación preventiva no implica prejuzgamiento."
       },
       {
         "id": "D",
-        "text": "El seguimiento al cumplimiento de una ley determinada.",
-        "rationale": "El seguimiento es precisamente el contexto en el que se ejerce la función preventiva."
+        "text": "Que la Procuraduría asume la gestión del cumplimiento de la ley mientras dure el seguimiento.",
+        "rationale": "Contradice el boletín: la actuación preventiva no implica coadministración."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "La Procuraduría reiteró que la función preventiva no implica coadministración, prejuzgamiento ni ejercicio de control disciplinario.",
+    "explanation": "La Procuraduría reiteró que esta actuación se desarrolla en el marco de la función preventiva, sin que implique coadministración, prejuzgamiento o ejercicio de control disciplinario.",
     "references": [
       {
         "sourceId": "pgn-bulletin-107-2026-preventive-function",
@@ -265,38 +265,38 @@
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
-    "questionType": "interpretation",
-    "difficulty": 3,
-    "stem": "La enumeración constitucional de quienes ejercen el Ministerio Público termina refiriéndose a «los demás funcionarios que determine la ley». ¿Qué consecuencia tiene esa expresión?",
+    "questionType": "conceptual",
+    "difficulty": 2,
+    "stem": "Según el artículo 23 del Decreto Ley 262 de 2000, ¿de quién dependen directamente los procuradores delegados?",
     "options": [
       {
         "id": "A",
-        "text": "Que la enumeración es cerrada y la ley se limita a reglamentar las funciones de los ya nombrados.",
-        "rationale": "La expresión produce el efecto contrario: deja abierta la incorporación de otros funcionarios por vía legal."
+        "text": "Del Defensor del Pueblo, con quien comparten el ejercicio del Ministerio Público.",
+        "rationale": "El Defensor del Pueblo también ejerce el Ministerio Público, pero los procuradores delegados no dependen de él."
       },
       {
         "id": "B",
-        "text": "Que la ley puede atribuir el ejercicio del Ministerio Público a otros funcionarios.",
-        "rationale": "Además del Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes y los personeros municipales, el Ministerio Público es ejercido por los demás funcionarios que determine la ley."
+        "text": "Del Procurador General de la Nación.",
+        "rationale": "El artículo 23 establece que los procuradores delegados dependen directamente del Procurador General."
       },
       {
         "id": "C",
-        "text": "Que todo servidor que vigile la función pública ejerce el Ministerio Público sin necesidad de ley.",
-        "rationale": "Se requiere que la ley lo determine; vigilar la función pública no basta."
+        "text": "Del personero municipal de la jurisdicción en la que actúan.",
+        "rationale": "Los personeros municipales ejercen el Ministerio Público en el municipio, pero no dirigen a los procuradores delegados."
       },
       {
         "id": "D",
-        "text": "Que los personeros municipales quedan excluidos mientras la ley no los ratifique.",
-        "rationale": "Los personeros municipales están nombrados de manera expresa en el propio texto constitucional."
+        "text": "Del Fiscal General de la Nación, porque intervienen ante autoridades judiciales.",
+        "rationale": "Intervenir ante autoridades judiciales no genera dependencia de la Fiscalía; el Fiscal General no hace parte del Ministerio Público."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "Además del Procurador General, el Defensor del Pueblo, los procuradores delegados y agentes y los personeros municipales, el Ministerio Público es ejercido por los demás funcionarios que determine la ley.",
+    "explanation": "El artículo 23 del Decreto Ley 262 de 2000 establece que los procuradores delegados dependen directamente del Procurador General de la Nación.",
     "references": [
       {
-        "sourceId": "colombia-constitution-1991",
-        "sourceUnitId": "constitution-1991-art-118",
-        "locator": "Artículo 118, página PDF 82",
+        "sourceId": "decree-law-262-2000",
+        "sourceUnitId": "decree-law-262-2000-art-23",
+        "locator": "Artículo 23, página PDF 15",
         "supports": "correct_answer"
       }
     ],
@@ -475,36 +475,36 @@
     "secondaryTopicIds": [],
     "questionType": "conceptual",
     "difficulty": 3,
-    "stem": "¿Mediante qué instrumento organiza el sistema de gestión documental los documentos junto con sus metadatos?",
+    "stem": "Según el artículo 2.8.2.6.1, literal a, del Decreto 1080 de 2015, ¿mediante qué instrumento organiza el sistema de gestión documental los documentos junto con sus metadatos?",
     "options": [
       {
         "id": "A",
-        "text": "Mediante el inventario de bienes de la entidad.",
-        "rationale": "El inventario de bienes registra elementos patrimoniales y no organiza documentos con sus metadatos."
+        "text": "Mediante el inventario documental de cada dependencia.",
+        "rationale": "El literal a no señala el inventario documental como instrumento de organización: nombra los cuadros de clasificación documental."
       },
       {
         "id": "B",
-        "text": "Mediante los cuadros de clasificación.",
-        "rationale": "El sistema organiza los documentos con sus metadatos mediante cuadros de clasificación, y en ellos se establecen los plazos correspondientes."
+        "text": "Mediante los cuadros de clasificación documental.",
+        "rationale": "El literal a dispone organizar los documentos físicos y electrónicos, incluyendo sus metadatos, a través de cuadros de clasificación documental."
       },
       {
         "id": "C",
-        "text": "Mediante el registro de firmas autorizadas de la dependencia.",
-        "rationale": "El registro de firmas es un control de autorización, ajeno a la organización documental."
+        "text": "Mediante las tablas de retención y de valoración documental.",
+        "rationale": "Las TRD y TVD sirven para establecer plazos de conservación y eliminación (literal b), no para organizar los documentos con sus metadatos."
       },
       {
         "id": "D",
-        "text": "Mediante el acta de entrega del funcionario que se retira.",
-        "rationale": "El acta de entrega documenta una transición de cargo y no cumple una función de clasificación."
+        "text": "Mediante el banco terminológico de series y subseries.",
+        "rationale": "El literal a no menciona el banco terminológico: el instrumento que señala para organizar documentos y metadatos es el cuadro de clasificación documental."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "El sistema organiza los documentos con sus metadatos mediante cuadros de clasificación, y en ellos se establecen los plazos correspondientes.",
+    "explanation": "El sistema de gestión documental organiza los documentos, incluyendo sus metadatos, a través de cuadros de clasificación documental (Decreto 1080 de 2015, art. 2.8.2.6.1 lit. a). Los plazos de conservación y eliminación se establecen en las TRD y TVD (lit. b).",
     "references": [
       {
         "sourceId": "decree-1080-2015-archives",
         "sourceUnitId": "decree-1080-2015-archives-review-unit",
-        "locator": "Decreto 1080 de 2015, artículos 2.8.2.5.9 literales c, d y f; 2.8.2.6.1 literales a y b; 2.8.2.7.9",
+        "locator": "Decreto 1080 de 2015, artículo 2.8.2.6.1, literales a y b",
         "supports": "correct_answer"
       }
     ],
@@ -583,22 +583,22 @@
     "options": [
       {
         "id": "A",
-        "text": "Puede comunicarse verbalmente si el solicitante está presente.",
-        "rationale": "La ley no admite una denegación meramente verbal para ese supuesto: exige que sea motivada y escrita."
+        "text": "Puede comunicarse de forma verbal si el solicitante se encuentra presente en la entidad.",
+        "rationale": "Falla en la forma: la ley no admite una denegación meramente verbal para ese supuesto, pues exige que conste por escrito."
       },
       {
         "id": "B",
-        "text": "Basta con registrarla internamente sin comunicar razones al solicitante.",
-        "rationale": "Un registro interno sin motivación comunicada no satisface la exigencia de que la denegación sea motivada y escrita."
+        "text": "Basta con dejar constancia interna de la decisión, sin explicar las razones al solicitante.",
+        "rationale": "Falla en la comunicación de las razones: la denegación debe ser motivada y escrita, no solo registrada internamente."
       },
       {
         "id": "C",
-        "text": "Puede omitirse la motivación cuando la excepción es evidente para la autoridad.",
-        "rationale": "La motivación es un requisito de la denegación y no puede omitirse por considerar evidente la excepción; la ley exige que sea motivada y escrita."
+        "text": "Puede omitir la motivación cuando la excepción le resulte evidente a la autoridad.",
+        "rationale": "Falla en la motivación: es un requisito de la denegación y no puede omitirse por considerar evidente la excepción."
       },
       {
         "id": "D",
-        "text": "Debe ser motivada y escrita.",
+        "text": "Debe ser motivada y constar por escrito, de modo que el solicitante conozca sus razones.",
         "rationale": "La denegación por protección de derechos del artículo 18 debe ser motivada y escrita, según la Ley 1712 de 2014."
       }
     ],
@@ -645,22 +645,22 @@
       },
       {
         "id": "C",
-        "text": "Exigir que la petición se presente a través de un abogado inscrito.",
-        "rationale": "La representación por abogado no es obligatoria: el artículo 13 permite ejercer directamente el derecho de petición."
+        "text": "Tramitarla únicamente si la persona acredita que no puede pagar los servicios de un abogado.",
+        "rationale": "El artículo 13 no condiciona el ejercicio directo del derecho a acreditar una incapacidad económica: la representación por abogado no es exigible."
       },
       {
         "id": "D",
         "text": "Cobrar una tarifa por tramitar la petición al no contar con representación profesional.",
-        "rationale": "El artículo 13 asocia el ejercicio del derecho a su gratuidad y a la ausencia de representación obligatoria; no habilita cobrar por atender una petición presentada directamente."
+        "rationale": "El artículo 13 dispone que el ejercicio del derecho de petición es gratuito, de modo que no cabe cobrar por tramitar una petición presentada directamente."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "El artículo 13 de la Ley 1755 de 2015 permite ejercer directamente el derecho, de modo que la ausencia de apoderado no justifica rechazar una petición que la persona puede presentar por sí misma.",
+    "explanation": "El artículo 13 de la Ley 1755 de 2015 indica que el ejercicio del derecho de petición es gratuito y puede realizarse sin necesidad de representación a través de abogado; por eso la ausencia de apoderado no justifica rechazar la petición ni cobrar por tramitarla.",
     "references": [
       {
         "sourceId": "law-1755-2015",
-        "sourceUnitId": "study200-158",
-        "locator": "Artículo 13, gratuidad y ausencia de representación obligatoria",
+        "sourceUnitId": "law-1755-2015-art-13-14",
+        "locator": "Ley 1755 de 2015, artículo 13, gratuidad y ausencia de representación obligatoria",
         "supports": "correct_answer"
       }
     ],
@@ -792,17 +792,17 @@
       {
         "id": "A",
         "text": "36, porque se suma 8+4 y luego se multiplica por 3.",
-        "rationale": "Ese resultado supondría sumar antes de multiplicar; Excel realiza primero la multiplicación, salvo que se usen paréntesis."
+        "rationale": "Ese resultado supondría sumar 8+4 antes de multiplicar por 3; sin paréntesis Excel realiza primero la multiplicación."
       },
       {
         "id": "B",
-        "text": "15, porque Excel opera estrictamente de izquierda a derecha.",
-        "rationale": "Excel no opera de forma puramente izquierda a derecha entre suma y multiplicación: la multiplicación tiene prioridad sobre la suma."
+        "text": "28, porque se multiplica 8 por 3 y luego se suma 4.",
+        "rationale": "Agrupa mal los operandos: la multiplicación une 4 y 3 (=12), no 8 y 3; después se suma 8, lo que da 20."
       },
       {
         "id": "C",
-        "text": "12, porque primero se suma 8+4 y ese resultado se toma como respuesta.",
-        "rationale": "Sumar primero da 12, pero para que Excel opere así habría que escribir =(8+4)*3 con paréntesis; sin ellos la multiplicación va antes."
+        "text": "96, porque se multiplican entre sí los tres números.",
+        "rationale": "El operador + indica suma: Excel solo multiplica los operandos unidos por el operador *, y luego suma 8 al producto 4*3."
       },
       {
         "id": "D",
@@ -811,12 +811,12 @@
       }
     ],
     "correctOptionId": "D",
-    "explanation": "La multiplicación se realiza antes que la suma: 4 por 3 es 12 y se suman 8, lo que da 20; los paréntesis serían necesarios para sumar primero.",
+    "explanation": "Excel realiza la multiplicación antes que la suma: 4 por 3 es 12 y al sumar 8 resulta 20. Para sumar primero habría que escribir =(8+4)*3, que daría 36.",
     "references": [
       {
-        "sourceId": "excel-formulas",
-        "sourceUnitId": "study200-139",
-        "locator": "The order in which Excel performs operations",
+        "sourceId": "excel-operators-precedence",
+        "sourceUnitId": "excel-operators-precedence-order",
+        "locator": "Operator precedence; Use of parentheses",
         "supports": "correct_answer"
       }
     ],
@@ -859,16 +859,16 @@
       {
         "id": "D",
         "text": "Convierte el contenido de B2 en texto y lo compara con el texto \"10\".",
-        "rationale": "El operador >= compara valores sin convertirlos en texto y devuelve un valor lógico."
+        "rationale": "El operador >= devuelve un valor lógico, no texto."
       }
     ],
     "correctOptionId": "A",
     "explanation": "El operador >= compara mayor o igual y devuelve un valor lógico; no asigna el número 10 a la celda B2.",
     "references": [
       {
-        "sourceId": "excel-formulas",
-        "sourceUnitId": "study200-141",
-        "locator": "Calculation operators — comparison operators",
+        "sourceId": "excel-operators-precedence",
+        "sourceUnitId": "excel-operators-precedence-comparison",
+        "locator": "Comparison operators",
         "supports": "correct_answer"
       }
     ],

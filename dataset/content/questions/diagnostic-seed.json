@@ -241,37 +241,37 @@
   },
   {
     "id": "PGN-SEED-0003",
-    "status": "validated_assisted",
+    "status": "needs_review",
     "moduleId": "comun",
     "topicId": "procuraduria_y_estado",
     "secondaryTopicIds": [],
-    "questionType": "application",
+    "questionType": "conceptual",
     "difficulty": 1,
-    "stem": "Una entidad vigilada prepara una decisión administrativa y la PGN detecta un posible riesgo dentro de su competencia preventiva. ¿Cuál actuación respeta el límite de no coadministración?",
+    "stem": "La PGN emite una advertencia a una entidad vigilada en ejercicio de su función preventiva. ¿Qué ocurre con la responsabilidad de gestionar y decidir en esa entidad?",
     "options": [
       {
         "id": "A",
-        "text": "Sustituir permanentemente a la entidad vigilada.",
-        "rationale": "Sustituir a la entidad implica asumir su gestión, excediendo el alcance descrito."
+        "text": "La entidad vigilada conserva la gestión y las decisiones del asunto.",
+        "rationale": "La función preventiva vigila y advierte sin coadministrar, de modo que la gestión sigue en la entidad."
       },
       {
         "id": "B",
-        "text": "Advertir una situación de riesgo sin asumir la gestión de la entidad.",
-        "rationale": "Vigilar y advertir conserva la responsabilidad de gestión en la entidad vigilada."
+        "text": "La PGN asume la gestión del asunto mientras se supera el riesgo.",
+        "rationale": "Asumir la gestión equivaldría a coadministrar, que es lo que la función preventiva no hace."
       },
       {
         "id": "C",
-        "text": "Imponer siempre una sanción disciplinaria.",
-        "rationale": "La actuación preventiva no equivale a imponer una sanción en todo caso."
+        "text": "La gestión se reparte entre la PGN y la entidad vigilada por mitades.",
+        "rationale": "Repartir la gestión implicaría que la PGN coadministra, lo que la fuente excluye de la función preventiva."
       },
       {
         "id": "D",
-        "text": "Ordenar directamente cualquier gasto público.",
-        "rationale": "La función preventiva descrita no otorga una potestad general para ordenar gastos."
+        "text": "La entidad vigilada pasa a decidir solo con aprobación previa de la PGN.",
+        "rationale": "Exigir aprobación previa convertiría la advertencia en intervención en la gestión, no en vigilancia y advertencia."
       }
     ],
-    "correctOptionId": "B",
-    "explanation": "La presentación institucional describe vigilancia de la actuación de servidores y advertencia de posibles infracciones, sin intromisión en la administración. Advertir el riesgo es distinto de asumir las decisiones de la entidad vigilada.",
+    "correctOptionId": "A",
+    "explanation": "Según la fuente, en la función preventiva la PGN vigila y advierte sin coadministrar. Por eso la advertencia no traslada la gestión ni las decisiones: siguen a cargo de la entidad vigilada.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -354,44 +354,44 @@
         "notes": "Revisada corrección: el caso de decisión administrativa y riesgo detectado proporciona situación concreta para application. Clave B única y ambigüedad sobre gestionar riesgos resuelta. Los absolutos de los distractores son una limitación diagnóstica, no otra respuesta defendible."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": null,
     "tags": [
       "prevencion"
     ]
   },
   {
     "id": "PGN-SEED-0004",
-    "status": "validated_assisted",
+    "status": "needs_review",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
     "questionType": "conceptual",
-    "difficulty": 1,
-    "stem": "¿Cuál conjunto corresponde a principios constitucionales de la función administrativa?",
+    "difficulty": 2,
+    "stem": "Un manual interno afirma que la función administrativa se rige por varios principios. ¿Cuál de los siguientes NO figura entre los enumerados en el artículo 209 de la Constitución?",
     "options": [
       {
         "id": "A",
-        "text": "Reserva, jerarquía, rentabilidad y competencia.",
-        "rationale": "No corresponde al listado del artículo 209; incluye conceptos que este no enuncia como principios de la función administrativa."
+        "text": "Transparencia.",
+        "rationale": "No figura en la enumeración del artículo 209 (igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad); es una palabra cercana a publicidad, pero no está listada."
       },
       {
         "id": "B",
-        "text": "Igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad.",
-        "rationale": "Es correcta: contiene exactamente los siete principios enumerados en el artículo 209."
+        "text": "Celeridad.",
+        "rationale": "Sí figura: el artículo 209 enumera la celeridad entre los principios de la función administrativa."
       },
       {
         "id": "C",
-        "text": "Autonomía privada, libertad contractual y beneficio.",
-        "rationale": "No corresponde: son conceptos propios de relaciones privadas o económicas, no el listado constitucional consultado."
+        "text": "Imparcialidad.",
+        "rationale": "Sí figura: el artículo 209 enumera la imparcialidad entre los principios."
       },
       {
         "id": "D",
-        "text": "Secreto, centralización, informalidad y discrecionalidad.",
-        "rationale": "No corresponde al listado constitucional y contradice, entre otros, el principio de publicidad."
+        "text": "Moralidad.",
+        "rationale": "Sí figura: el artículo 209 enumera la moralidad entre los principios."
       }
     ],
-    "correctOptionId": "B",
-    "explanation": "Es el conjunto constitucional de principios de la función administrativa.",
+    "correctOptionId": "A",
+    "explanation": "El artículo 209 enumera siete principios: igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad. Celeridad, imparcialidad y moralidad están en esa lista; transparencia no aparece en ella, aunque se asocie con la publicidad.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -474,46 +474,46 @@
         "notes": "El objetivo es reconocer un conjunto textual; B y sus racionales son inequívocos. Longitud de B y distractores lejanos reducen discriminación, admisible en diagnóstico básico."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": null,
     "tags": [
       "principios"
     ]
   },
   {
     "id": "PGN-SEED-0005",
-    "status": "validated_assisted",
+    "status": "needs_review",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [
       "competencias_comportamentales"
     ],
     "questionType": "application",
-    "difficulty": 1,
-    "stem": "Un servidor que decide un asunto administrativo tiene un interés particular y directo en él. Según el artículo 11 del CPACA, ¿qué deber se activa ante el conflicto con el interés general?",
+    "difficulty": 2,
+    "stem": "Un servidor se declara impedido en una actuación sujeta al CPACA, pero no tiene superior ni existe cabeza del sector administrativo al cual remitirla. Según el artículo 12, ¿quién asume el trámite del impedimento?",
     "options": [
       {
         "id": "A",
-        "text": "Decidir rápidamente antes de que se conozca el conflicto.",
-        "rationale": "La rapidez no elimina el interés particular y directo del servidor."
+        "text": "El propio servidor, que decide si continúa o se aparta.",
+        "rationale": "El impedimento se remite a otra autoridad; que lo decida quien está impedido desvirtúa su finalidad."
       },
       {
         "id": "B",
-        "text": "Declararse impedido por ese conflicto de interés.",
-        "rationale": "Es el deber expresamente asociado al conflicto por el artículo 11."
+        "text": "El Procurador General o el regional, según el caso.",
+        "rationale": "El artículo 12 prevé la competencia subsidiaria del Procurador General o regional cuando faltan el superior y la cabeza del sector."
       },
       {
         "id": "C",
-        "text": "Delegar informalmente la firma sin dejar registro.",
-        "rationale": "Una delegación informal no sustituye la declaración de impedimento."
+        "text": "El interesado en la actuación, mediante una solicitud escrita.",
+        "rationale": "El artículo 12 no atribuye al interesado la decisión del impedimento."
       },
       {
         "id": "D",
-        "text": "Continuar si considera subjetivamente que será imparcial.",
-        "rationale": "La convicción subjetiva de imparcialidad no elimina la causal descrita."
+        "text": "Un servidor de la misma dependencia, escogido sin formalidad.",
+        "rationale": "El artículo 12 fija los destinatarios de la remisión; una escogencia informal no los sustituye."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "El artículo 11 del CPACA exige declararse impedido cuando el interés general de la función entra en conflicto con el interés particular y directo del servidor. La pregunta evalúa este deber, sin describir todo el trámite del artículo 12.",
+    "explanation": "El artículo 12 del CPACA indica que el servidor remite la actuación con escrito motivado al superior o, si no lo tiene, a la cabeza del sector. Cuando faltan ambos, opera la competencia subsidiaria del Procurador General o regional, según el caso.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -523,8 +523,8 @@
       },
       {
         "sourceId": "law-1437-2011",
-        "sourceUnitId": "law-1437-2011-art-11",
-        "locator": "Artículo 11, páginas PDF 7 a 9",
+        "sourceUnitId": "law-1437-2011-art-12",
+        "locator": "Artículo 12, página PDF 9",
         "supports": "correct_answer"
       }
     ],
@@ -594,7 +594,7 @@
         "notes": "El caso afirma interés particular y directo y pregunta solo por el deber de declararse impedido. B es única; explicación evita atribuir al ítem todo el procedimiento."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": null,
     "tags": [
       "conflicto_de_interes"
     ]
@@ -677,37 +677,37 @@
   },
   {
     "id": "PGN-SEED-0007",
-    "status": "validated_assisted",
+    "status": "needs_review",
     "moduleId": "comun",
     "topicId": "atencion_transparencia_y_datos",
     "secondaryTopicIds": [],
     "questionType": "application",
-    "difficulty": 1,
-    "stem": "Un documento solicitado contiene información pública y una parte separable cubierta por una excepción legal de acceso. Según el artículo 21 de la Ley 1712 de 2014, ¿cómo se atiende el acceso al resto del documento?",
+    "difficulty": 2,
+    "stem": "Una entidad decide negar el acceso a una información por considerar que su divulgación afectaría derechos protegidos por el artículo 18 de la Ley 1712 de 2014. ¿Cómo debe formalizar esa denegación?",
     "options": [
       {
         "id": "A",
-        "text": "Negar automáticamente todo el documento.",
-        "rationale": "La excepción sobre una parte separable no justifica negar automáticamente la totalidad."
+        "text": "Con una respuesta verbal en ventanilla, sin documento que la respalde.",
+        "rationale": "La denegación por protección de derechos debe ser escrita; una respuesta verbal no deja constancia."
       },
       {
         "id": "B",
-        "text": "Publicar el documento completo.",
-        "rationale": "La entrega íntegra revelaría también la parte exceptuada."
+        "text": "Con una nota escrita que indique solo que la información es reservada.",
+        "rationale": "Aunque sea escrita, la denegación también debe ser motivada; afirmar la reserva sin razones no basta."
       },
       {
         "id": "C",
-        "text": "Elaborar una versión pública que reserve únicamente la parte protegida.",
-        "rationale": "La versión pública preserva el acceso a la parte no protegida."
+        "text": "Con una respuesta escrita que explique las razones de la excepción invocada.",
+        "rationale": "El artículo 18 exige que la denegación por protección de derechos sea motivada y escrita."
       },
       {
         "id": "D",
-        "text": "Entregarlo solo verbalmente.",
-        "rationale": "El medio verbal no resuelve la separación entre información pública y exceptuada."
+        "text": "Con el silencio de la entidad, entendido como negativa tácita del acceso.",
+        "rationale": "El silencio no cumple la exigencia de una denegación motivada y escrita."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "El acceso parcial permite entregar la parte pública y reservar la parte amparada por la excepción. No se presume que cualquier dato personal haga reservado todo el documento ni que toda anonimización sea suficiente.",
+    "explanation": "Según la unidad de la Ley 1712 consultada, la denegación del acceso por protección de derechos del artículo 18 debe ser motivada y escrita. Una respuesta verbal, una afirmación sin razones o el silencio no cumplen esa exigencia.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -746,44 +746,44 @@
         "notes": "Excepción legal y separación son supuestos explícitos; C resuelve el acceso restante sin una regla indiscriminada sobre datos personales. Las otras actuaciones no realizan la separación solicitada."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": null,
     "tags": [
-      "datos_personales"
+      "denegacion_motivada"
     ]
   },
   {
     "id": "PGN-SEED-0008",
-    "status": "validated_assisted",
+    "status": "needs_review",
     "moduleId": "comun",
     "topicId": "gestion_documental",
     "secondaryTopicIds": [],
     "questionType": "application",
-    "difficulty": 1,
-    "stem": "Un área organiza expedientes electrónicos y necesita conservar su contexto, seguimiento y disposición. ¿Qué práctica apoya esos objetivos de gestión documental?",
+    "difficulty": 2,
+    "stem": "Un área debe decidir cuánto tiempo conserva sus expedientes electrónicos y cuándo los elimina. ¿Qué instrumento documental fija esos plazos?",
     "options": [
       {
         "id": "A",
-        "text": "Guardar copias finales en cuentas personales.",
-        "rationale": "Las cuentas personales dispersan el expediente fuera de los controles institucionales."
+        "text": "El cuadro de clasificación, que ordena los documentos por series.",
+        "rationale": "El cuadro de clasificación organiza los documentos; la fuente atribuye los plazos de conservación y eliminación a las tablas de retención o valoración."
       },
       {
         "id": "B",
-        "text": "Aplicar clasificación, metadatos, trazabilidad y tiempos de retención.",
-        "rationale": "Clasificación, metadatos y reglas de retención apoyan organización, seguimiento y disposición."
+        "text": "La tabla de retención o de valoración documental de la entidad.",
+        "rationale": "La fuente señala que los plazos de conservación y eliminación se establecen en las tablas de retención (TRD) o valoración (TVD)."
       },
       {
         "id": "C",
-        "text": "Eliminar borradores y expedientes sin regla documental.",
-        "rationale": "Eliminar sin instrumentos archivísticos desconoce el control de disposición."
+        "text": "Los metadatos del archivo, que describen su contenido y contexto.",
+        "rationale": "Los metadatos preservan contenido, estructura y contexto, pero no fijan por sí solos los plazos de conservación."
       },
       {
         "id": "D",
-        "text": "Cambiar nombres de archivos para evitar búsquedas.",
-        "rationale": "Ocultar archivos mediante sus nombres dificulta su identificación y recuperación."
+        "text": "El registro del trámite, que deja constancia de cada actuación.",
+        "rationale": "El registro de gestión y trámite permite seguimiento y control, pero no define cuándo se conserva o se elimina un documento."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "La clasificación organiza expedientes, los metadatos preservan contexto y los instrumentos archivísticos orientan control y disposición. Estas prácticas apoyan la recuperación y trazabilidad sin garantizarlas por sí solas.",
+    "explanation": "Según el Decreto 1080 de 2015, la disposición documental se realiza conforme a tablas de retención o valoración, que establecen los plazos de conservación y eliminación. Clasificación, metadatos y registro cumplen otras funciones dentro del sistema.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -826,44 +826,44 @@
         "notes": "Caso básico con objetivos definidos de gestión documental; B es el único conjunto orientado a ellos. Explicación usa apoyar y evita garantizar resultados. D es muy poco plausible, limitación de dificultad."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": null,
     "tags": [
       "gestion_documental"
     ]
   },
   {
     "id": "PGN-SEED-0009",
-    "status": "validated_assisted",
+    "status": "needs_review",
     "moduleId": "comun",
     "topicId": "gestion_publica_y_mipg",
     "secondaryTopicIds": [],
-    "questionType": "conceptual",
-    "difficulty": 1,
-    "stem": "En el ciclo PHVA, comprobar indicadores y contrastarlos con metas corresponde principalmente a:",
+    "questionType": "application",
+    "difficulty": 2,
+    "stem": "Una oficina terminó un programa, calculó su indicador de cobertura y lo puso junto a la meta fijada en el plan para saber cuánto se desvió. ¿En qué etapa del ciclo PHVA se encuentra esa actividad?",
     "options": [
       {
         "id": "A",
         "text": "Planear.",
-        "rationale": "Planear define objetivos y acciones antes de ejecutarlos."
+        "rationale": "Planear fija objetivos, indicadores y metas antes de ejecutar; aquí la meta ya existe y se usa para contrastar."
       },
       {
         "id": "B",
         "text": "Hacer.",
-        "rationale": "Hacer corresponde a ejecutar lo planificado."
+        "rationale": "Hacer ejecuta lo planeado; el programa ya terminó y lo que se hace ahora es medir su resultado."
       },
       {
         "id": "C",
         "text": "Verificar.",
-        "rationale": "Verificar compara resultados e indicadores con lo previsto."
+        "rationale": "Verificar contrasta lo ejecutado con lo planeado y con las metas mediante indicadores, e identifica desviaciones."
       },
       {
         "id": "D",
         "text": "Actuar.",
-        "rationale": "Actuar adopta ajustes a partir de lo verificado; no es la comparación misma."
+        "rationale": "Actuar adopta ajustes a partir de lo verificado; medir la desviación precede a esos ajustes."
       }
     ],
     "correctOptionId": "C",
-    "explanation": "Verificar compara desempeño y metas; actuar introduce ajustes.",
+    "explanation": "Calcular el indicador y contrastarlo con la meta para identificar desviaciones es la etapa Verificar. Los ajustes que se decidan después a partir de esa desviación corresponden a otra etapa.",
     "references": [
       {
         "sourceId": "pgn-initial-diagnostic",
@@ -906,7 +906,7 @@
         "notes": "Opciones homogéneas del mismo ciclo y límite explícito entre comparar y ajustar; C única. Es el ítem con mejor paralelismo de distractores del grupo conceptual."
       }
     ],
-    "validFrom": "2026-09-07",
+    "validFrom": null,
     "tags": [
       "phva"
     ]
